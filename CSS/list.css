@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+a {
+text-decoration:none;
+}
+.dataTables_wrapper {
+	background-color: #2a2c30;}
+.dataTables_length {
+	padding:0 0.2rem;
+}
+table td {
+	color:white;
+	border-bottom:#2a2e31 thin solid;
+	font-family:Alegreya Sans;
+}
+table tr:nth-child(even) {
+	background-color:#1B1C1E !important;
+}
+.containicons .tableicon {
+	margin-right:0.2rem;
+	position:relative;
+}
+.tableicon {
+	border-radius: 4px;
+	background-position: center;
+	box-shadow: 0px 0px 5px 0px #353434;
+}
+.itemcol {
+	max-width: 20px; !important;
+}
+table thead th {
+	table-layout:fixed;
+	background-color:#2a2c30;
+	color:#c2c2c2;
+	font-family: Raleway;
+	padding: 0rem 1.2rem !important;
+}
+table.dataTable thead th {
+	border-bottom:#3f464e solid thin;
+}
+.centercell {
+	text-align:center;
+}
+input {
+background-color: #1b1c1e;
+border: solid thin #373b3e;
+margin-bottom: 0.1rem;
+color:white;
+}
+select {
+background-color: #1b1c1e;
+border: thin solid #373b3e;
+color: #ddd;}
+.listitem {
+	width:40px;
+	height:40px;
+	text-align:right;
+	display:block;
+	float:left;
+	margin-right: 0.3rem;
+	margin-left: 0.1rem;
+	margin-top: 0.1rem;
+}
+.bottomright {
+	text-align: right;
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-top: 23px;
+	margin-left: 0px;
+	text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.tagname {
+	display: block;
+	width: 40px;
+	height: 40px;
+	float:left;
+	cursor:pointer;
+	margin-right:0.4rem;
+}
+.tagname[title]:hover:after {
+  content: attr(title);
+  padding: 4px 8px;
+  color: #ddd;
+  background-color:#373b3e;
+  margin-top:5px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+  z-index: 20;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+}
+.bottomright:before {
+	content: "x";
+	font-size:0.7rem;
+}
+.bordertool {
+	width: 43px;
+	height: 43px;
+	background-image: url(http://i.imgur.com/Cv2JSPy.png);
+	float: left;
+	margin-right: 0.2rem;
+}
+.absolutely {
+	position:absolute;
+}
+#searchmenu input {
+	background-color: #1b1c1e;
+	border: none;
+	color: #dbdbdb;
+	padding: 0 0.6rem;
+	margin-top: 0.45rem;
+	font-size: 1rem;
+	height: 40px;
+	font-family: Raleway;
+}
+#searchmenu {
+	background:transparent !important;
+	border:none;
+}
+.hidetooltip {
+	position:absolute;
+	left:1rem;
+	z-index:9999;
+	display:none;
+}
+.scopecontain {
+	overflow:visible !important;
+}
+.hidetooltip .border {
+	background: rgba(24, 24, 24, 0.95);
+}
+.hidetooltip .itemtooltip {
+	background:transparent;
+}
+.weight {
+	color:white !important;
+}
