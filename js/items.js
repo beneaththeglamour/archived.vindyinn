@@ -5,7 +5,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
   $locationProvider.hashPrefix('!');
   $routeProvider.
   when('/list', {
-    templateUrl: '/template/item-detail.html',
+    templateUrl: '/template/search-list.html',
     controller: 'ListController'
   }).
   when('/item/:ItemID/', {
