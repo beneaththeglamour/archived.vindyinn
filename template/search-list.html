@@ -1,3 +1,4 @@
+<h2 class="searchheader">Searching for <input class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;Loading...&#39;" name="search"></h2>
 <div style="background-color: rgb(158, 63, 63);font-size: 1rem;padding: 0.6rem;text-align: center;">
 	<strong>You are currently using a live yet uncompleted version of the site.</strong>
 	<br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
@@ -9,8 +10,8 @@
 		<th>Type</th> 	
 		<th>Subtype</th> 	
 	</thead> 
-	<tbody> 	
-		<tr class="itemlist" ng-repeat="item in ItemVariable | filter : ' + filter + '"> 		
+	<tbody>
+		<tr class="itemlist" ng-repeat="item in ItemVariable | filter : {&#39;ItemClass&#39;:mainquery}"> 		
 			<td>
 				<img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url({{item.Icon}})">
 			</td> 		

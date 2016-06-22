@@ -35,7 +35,8 @@ gather = window.location.search
 search = gather.replace('?find=','')
 search = search.replace(/\+/g,' ')
 search = search.replace(/'/g,'\'')
-filter = '{&#39;ItemClass&#39;:&#39;' + search + '&#39;}'</script>
+$('.searchheader').append(search)
+</script>
 
 </head>
 <body>
