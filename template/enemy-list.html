@@ -1,0 +1,27 @@
+<h2>Enemies</h2>
+	<div style="background-color: rgb(158, 63, 63);font-size: 1rem;padding: 0.6rem;text-align: center;"><strong>You are currently using a live yet uncompleted version of the site.</strong><br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.</div>
+		<table class="itemtable">
+		<thead>
+			<th></th>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Level</th>
+			<th>Difficulty</th>
+			<th>Attack</th>
+			<th>Critical</th>
+			<th>Defence</th>
+			<th>Critical Resistance</th>
+		</thead>
+		<tbody>
+			<tr class="itemlist" ng-repeat="enemy in EnemyVariable">
+				<td class="centercell">{{enemy.Identifier}}</td>
+				<td class="name"><a href="#/enemy/{{EnemyVariable.indexOf(enemy)}}">{{enemy.Variation}}</a></td>
+				<td class="centercell">{{enemy.Class}}</td>
+				<td class="centercell">{{enemy.Level}}</td>
+				<td class="centercell">{{enemy.Difficulty}}</td>
+				<td class="centercell"><span class="number">{{enemy.ATK}}</span></td>
+				<td class="centercell"><span class="number">{{enemy.Critical}}</span></td>
+				<td class="centercell"><span class="number">{{enemy.DEF}}</span></td>
+				<td class="centercell"><span class="number">{{enemy.Res_Critical}}</span></td>
+			</tr>
+		</tbody>
