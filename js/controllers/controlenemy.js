@@ -28,22 +28,22 @@ EnemyControllers.controller("ListEnemyController", ['$scope','$http',
 			'<li><a href="">Armor</a></li>'+
 			'<li><a href="">Weapons</a>'+
 				'<ul>'+
-					'<li><a href="/weapon/twin+swords">Twin Swords</a></li>'+
-					'<li><a href="/weapon/twin+spears">XTwin Spears</a></li>'+
-					'<li><a href="/weapon/sword">XSword</a></li>'+
-					'<li><a href="/weapon/long+hammer">XLong Hammer</a></li>'+
-					'<li><a href="/weapon/staff">XStaff</a></li>'+
-					'<li><a href="/weapon/scythe">XScythe</a></li>'+
-					'<li><a href="/weapon/pillar">XPillar</a></li>'+
-					'<li><a href="/weapon/cestus">XCestus</a></li>'+
-					'<li><a href="/weapon/bow">XBow</a></li>'+
-					'<li><a href="/weapon/cross+gun">XCross Gun</a></li>'+
-					'<li><a href="/weapon/twin+chainblades">XTwin Chainblades</a></li>'+
-					'<li><a href="/weapon/glaive">XGlaive</a></li>'+
-					'<li><a href="/weapon/greatswords">XGreatsword</a></li>'+
-					'<li><a href="/weapon/spellsword">XSpellsword</a></li>'+
-					'<li><a href="/weapon/phantom+daggers">XPhantom Daggers</a></li>'+
-					'<li><a href="/weapon/bastard+sword">Bastard Sword</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/twin+swords">Twin Swords</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/twin+spears">XTwin Spears</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/sword">XSword</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/long+hammer">XLong Hammer</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/staff">XStaff</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/scythe">XScythe</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/pillar">XPillar</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/cestus">XCestus</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/bow">XBow</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/cross+gun">XCross Gun</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/twin+chainblades">XTwin Chainblades</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/glaive">XGlaive</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/greatswords">XGreatsword</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/spellsword">XSpellsword</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/phantom+daggers">XPhantom Daggers</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/bastard+sword">Bastard Sword</a></li>'+
 				'</ul>'+
 			'</li>'+
 			'<li><a href="">Outfitters</a></li>'+
@@ -54,10 +54,10 @@ EnemyControllers.controller("ListEnemyController", ['$scope','$http',
 	'</li>'+
 	'<li><a href="">Recipes</a>'+
 		'<ul>'+
-			'<li><a href="/tailoring">XTailoring</a></li>'+
-			'<li><a href="/goldsmithing">Goldsmithing</a></li>'+
-			'<li><a href="/weaponsmithing">Weaponsmithing</a></li>'+
-			'<li><a href="/armorsmithing">XArmorsmithing</a></li>'+
+			'<li><a href="http://db.vindictusinn.com/expertise/tailoring">XTailoring</a></li>'+
+			'<li><a href="http://db.vindictusinn.com/expertise/goldsmithing">Goldsmithing</a></li>'+
+			'<li><a href="http://db.vindictusinn.com/expertise/weaponsmithing">Weaponsmithing</a></li>'+
+			'<li><a href="http://db.vindictusinn.com/expertise/armorsmithing">XArmorsmithing</a></li>'+
 			'<li><a href="">XCooking</a></li>'+
 			'<li><a href="">XNPC</a>'+
 				'<ul>'+
@@ -138,22 +138,22 @@ EnemyControllers.controller("DetailsEnemyController", ['$scope','$http','$routeP
 			'<li><a href="">Armor</a></li>'+
 			'<li><a href="">Weapons</a>'+
 				'<ul>'+
-					'<li><a href="/weapon/twin+swords">Twin Swords</a></li>'+
-					'<li><a href="/weapon/twin+spears">XTwin Spears</a></li>'+
-					'<li><a href="/weapon/sword">XSword</a></li>'+
-					'<li><a href="/weapon/long+hammer">XLong Hammer</a></li>'+
-					'<li><a href="/weapon/staff">XStaff</a></li>'+
-					'<li><a href="/weapon/scythe">XScythe</a></li>'+
-					'<li><a href="/weapon/pillar">XPillar</a></li>'+
-					'<li><a href="/weapon/cestus">XCestus</a></li>'+
-					'<li><a href="/weapon/bow">XBow</a></li>'+
-					'<li><a href="/weapon/cross+gun">XCross Gun</a></li>'+
-					'<li><a href="/weapon/twin+chainblades">XTwin Chainblades</a></li>'+
-					'<li><a href="/weapon/glaive">XGlaive</a></li>'+
-					'<li><a href="/weapon/greatswords">XGreatsword</a></li>'+
-					'<li><a href="/weapon/spellsword">XSpellsword</a></li>'+
-					'<li><a href="/weapon/phantom+daggers">XPhantom Daggers</a></li>'+
-					'<li><a href="/weapon/bastard+sword">Bastard Sword</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/twin+swords">Twin Swords</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/twin+spears">XTwin Spears</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/sword">XSword</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/long+hammer">XLong Hammer</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/staff">XStaff</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/scythe">XScythe</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/pillar">XPillar</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/cestus">XCestus</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/bow">XBow</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/cross+gun">XCross Gun</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/twin+chainblades">XTwin Chainblades</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/glaive">XGlaive</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/greatswords">XGreatsword</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/spellsword">XSpellsword</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/phantom+daggers">XPhantom Daggers</a></li>'+
+					'<li><a href="http://db.vindictusinn.com/weapon/bastard+sword">Bastard Sword</a></li>'+
 				'</ul>'+
 			'</li>'+
 			'<li><a href="">Outfitters</a></li>'+
@@ -164,10 +164,10 @@ EnemyControllers.controller("DetailsEnemyController", ['$scope','$http','$routeP
 	'</li>'+
 	'<li><a href="">Recipes</a>'+
 		'<ul>'+
-			'<li><a href="/tailoring">XTailoring</a></li>'+
-			'<li><a href="/goldsmithing">Goldsmithing</a></li>'+
-			'<li><a href="/weaponsmithing">Weaponsmithing</a></li>'+
-			'<li><a href="/armorsmithing">XArmorsmithing</a></li>'+
+			'<li><a href="http://db.vindictusinn.com/expertise/tailoring">XTailoring</a></li>'+
+			'<li><a href="http://db.vindictusinn.com/expertise/goldsmithing">Goldsmithing</a></li>'+
+			'<li><a href="http://db.vindictusinn.com/expertise/weaponsmithing">Weaponsmithing</a></li>'+
+			'<li><a href="http://db.vindictusinn.com/expertise/armorsmithing">XArmorsmithing</a></li>'+
 			'<li><a href="">XCooking</a></li>'+
 			'<li><a href="">XNPC</a>'+
 				'<ul>'+
