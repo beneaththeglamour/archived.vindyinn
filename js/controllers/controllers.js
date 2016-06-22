@@ -3,7 +3,7 @@ var ItemControllers = angular.module("ItemControllers", []);
 ItemControllers.controller("ListController", ['$scope','$http', 
 	function($scope, $http)
 		{    
-				$http.get('https://dl.dropboxusercontent.com/s/25fgkxtrg8w0fvz/items.json').success (function(data){
+				$http.get('/json/items.json').success (function(data){
 				$scope.ItemVariable = data;
 				setTimeout(function(){
 						WhatIsTheURL = window.location.pathname
@@ -223,7 +223,7 @@ $('#cssmenu').html('<ul>'+
 ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams',
 	 function($scope, $http, $routeParams)
 		{    
-				$http.get('https://dl.dropboxusercontent.com/s/25fgkxtrg8w0fvz/items.json').success (function(data){
+				$http.get('/json/items.json').success (function(data){
 				$scope.ItemVariable = data;
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';

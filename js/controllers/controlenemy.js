@@ -3,7 +3,7 @@ var EnemyControllers = angular.module("EnemyControllers", []);
 EnemyControllers.controller("ListEnemyController", ['$scope','$http', 
 	function($scope, $http)
 		{    
-			$http.get('https://dl.dropbox.com/s/5tqpi11c9xfn59u/enemy.json').success (function(data){
+			$http.get('/json/enemy.json').success (function(data){
 				$scope.EnemyVariable = data;
 				setTimeout(function(){
 						$('.tagname').each(function(){
@@ -31,7 +31,7 @@ EnemyControllers.controller("DetailsEnemyController", ['$scope','$http','$routeP
 	 function($scope, $http, $routeParams)
 		{    
 		
-			$http.get('https://dl.dropbox.com/s/5tqpi11c9xfn59u/enemy.json').success (function(data){
+			$http.get('/json/enemy.json').success (function(data){
 				$scope.EnemyVariable = data;
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
