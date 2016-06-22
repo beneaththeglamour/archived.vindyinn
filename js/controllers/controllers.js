@@ -173,10 +173,10 @@ $('#cssmenu').html('<ul>'+
 	'</li>'+
 	'<li><a href="">Recipes</a>'+
 		'<ul>'+
-			'<li><a href="/tailoring">XTailoring</a></li>'+
-			'<li><a href="/goldsmithing">Goldsmithing</a></li>'+
-			'<li><a href="/weaponsmithing">Weaponsmithing</a></li>'+
-			'<li><a href="/armorsmithing">XArmorsmithing</a></li>'+
+			'<li><a href="/expertise/tailoring">XTailoring</a></li>'+
+			'<li><a href="/expertise/goldsmithing">Goldsmithing</a></li>'+
+			'<li><a href="/expertise/weaponsmithing">Weaponsmithing</a></li>'+
+			'<li><a href="/expertise/armorsmithing">XArmorsmithing</a></li>'+
 			'<li><a href="">XCooking</a></li>'+
 			'<li><a href="">XNPC</a>'+
 				'<ul>'+
@@ -479,10 +479,10 @@ $('#cssmenu').html('<ul>'+
 	'</li>'+
 	'<li><a href="">Recipes</a>'+
 		'<ul>'+
-			'<li><a href="/tailoring">XTailoring</a></li>'+
-			'<li><a href="/goldsmithing">Goldsmithing</a></li>'+
-			'<li><a href="/weaponsmithing">Weaponsmithing</a></li>'+
-			'<li><a href="/armorsmithing">XArmorsmithing</a></li>'+
+			'<li><a href="/expertise/tailoring">XTailoring</a></li>'+
+			'<li><a href="/expertise/goldsmithing">Goldsmithing</a></li>'+
+			'<li><a href="/expertise/weaponsmithing">Weaponsmithing</a></li>'+
+			'<li><a href="/expertise/armorsmithing">XArmorsmithing</a></li>'+
 			'<li><a href="">XCooking</a></li>'+
 			'<li><a href="">XNPC</a>'+
 				'<ul>'+
