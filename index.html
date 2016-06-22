@@ -1,37 +1,454 @@
-<!doctype html>
-<html lang="en" ng-app="ItemApp">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Weaponsmithing</title>
-   <link rel="shortcut icon" href="http://assets.tumblr.com/images/x.gif?v=1" />
+<title>The Vindictus Inn &#8226; Game Database</title>
+<meta charset='utf-8'>
+<meta name="description" content="VINDICTUSINN Database - your DB for all things Vindictus. " />
+<meta name="keywords" content="vindictus,db,database" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="uPGglZhUD5Q7p0Owg26nWSxYHjc3DCUTTb1Hy3hrc5s" />
+
+<link rel="shortcut icon" href="http://i.imgur.com/MYbsGDU.png" />
+
+
 <link rel="stylesheet" href="http://static.tumblr.com/aiwikf1/rd8o789qo/dbstyle.css" />
 <link rel="stylesheet" href="http://static.tumblr.com/aiwikf1/8suo7dw6i/menubar.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
-  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="http://static.tumblr.com/aiwikf1/QoNo7cpzv/datatable.js"></script><!--datatablejs-->
-  <script type="text/javascript" src="http://static.tumblr.com/aiwikf1/TXEo3i7w8/menubar.js"></script>
 
-<script>filter = '{&#39;ManufactureID&#39;:&#39;Weaponsmithing&#39;}:true'</script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/aiwikf1/TXEo3i7w8/menubar.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/aiwikf1/tIKo3r2dr/calculate.js" ></script><!--calculate.js-->
+<script type="text/javascript" src="http://static.tumblr.com/aiwikf1/bwQo3i3yf/tableexport.js"></script><!--tableExport-->
+<script type="text/javascript" src="http://static.tumblr.com/aiwikf1/2Soo3i3z3/jquery.base64.js"></script><!--base64-->
+<script type="text/javascript" src="http://static.tumblr.com/aiwikf1/rV2o3i3zh/html2canvas.js"></script><!--html2canvas-->
+<script type="text/javascript" src="https://dl.dropboxusercontent.com/s/xn2bee2f0ckdskl/table2excel.js"></script><!--table2excel-->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script><!--datatablejs-->
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
   <link rel="stylesheet" href="http://static.tumblr.com/aiwikf1/l6so76q10/table.css" />
-  <script type="text/javascript" src="https://dl.dropbox.com/s/gw5kzoko6v4qu7o/expertise.js"></script>
-  <script type="text/javascript" src="https://dl.dropbox.com/s/3frr9g1537q0jfv/controllers.js"></script>
-  <link rel="stylesheet" href="https://dl.dropbox.com/s/y6eahxx2bh95uux/tooltip.css">
-  <link rel="stylesheet" href="https://dl.dropbox.com/s/32d09zgsgg68hmz/list.css">
-  <link rel="stylesheet" href="http://static.tumblr.com/aiwikf1/J2wo7cq5i/dbbase.css">
-  <link rel="stylesheet" href="https://dl.dropbox.com/s/9xkcm8f6w3dj3jm/itemicons.css">
+  <link rel="stylesheet" href="/css/tooltip.css">
+  <link rel="stylesheet" href="/css/list.css">
 
-
+<style type="text/css">
+#bg {
+    background-image:url('http://i.imgur.com/WnorI8M.jpg');
+    clear:both;
+}
+.info {
+	background-color: #1A1A1A;
+    border-top: thin solid #5F5352;
+    padding: 0.3rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: lowercase;
+    clear:left;
+    overflow:hidden;
+}
+.info p {
+    margin:0em;
+}
+.reblogbutton {
+    float:right;
+    padding:0.2rem;
+}
+.likebutton {
+    float:right;
+    padding:0.2rem;
+}
+.tags {
+    padding-bottom:0.4rem;
+    float:left;
+    width:15rem;
+    padding-right:0.4rem;
+    text-align:right;
+}
+.tags a {
+    background-color: #D4B1AB;
+    padding:0.2rem;
+    margin:0.2rem;
+    line-height: 2.5;
+    color:black;
+    font-family:'Raleway', sans-serif;
+    
+}
+.tags a:first-child {
+    background-color: #222;
+    color:white;
+}
+.tags a:hover {
+    background-color: #222;
+    padding:0.2rem;
+    margin:0.2rem;
+}
+aside {
+    float:right;
+    background-color:#2A2A2F;
+    overflow:hidden;
+    width:17rem;
+    height:100%;
+}
+aside > p {
+    margin:0.7rem;
+}
+aside li {
+    padding: 0.3rem 0.4rem;
+    border-bottom: #4A4443 solid thin;
+}
+#noaside {
+    width:55rem;
+}
+#indexcontainer {
+    width: 70rem;
+    margin: 0 auto;
+}
+main {
+    margin:0;
+}
+#noaside > section {
+    width:50rem;
+}
+main > section {
+    max-width:50rem;
+    margin:0 auto;
+    margin-top:2em;
+    overflow:hidden;
+}
+main h2 {
+    border-bottom:solid thin #463A3C;
+}
+main > section > p {
+    padding:0.3rem;
+}
+.featurewrap {
+    margin:0 auto;
+    overflow:hidden;
+    width:1200px;
+}
+#bg section {
+    background-color:rgba(42, 42, 47, 0.95);
+}
+#bg {
+    padding:0;
+    overflow:hidden;
+    background-image:url(http://i.imgur.com/WnorI8M.jpg);
+    background-size:auto;
+    background-repeat:repeat;
+    border:none;
+}
+#events {
+    width: 100%;
+    line-height:1;
+    border:none;
+    margin:0 auto;
+    padding-top:5rem;
+    padding-bottom:5rem;
+    background-image:url(http://i.imgur.com/WnorI8M.jpg);
+    background-size:cover;
+    background-position:center;
+    color:black;
+    display:none;
+}
+#events h2 {
+    margin-bottom:6rem;
+}
+#submenu {
+    float:right;
+    width: 33rem;
+    margin:0;
+}
+#submenu a {
+    display:block;
+    padding:0.7rem 0.7rem;
+    border-bottom: #463A3C solid thin;
+    font-size:2em;
+    font-family: Raleway;
+    text-transform:lowercase;
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-shadow:0px 0px 5px black;
+    text-align:center;
+}
+#populartags {
+    overflow:hidden;
+    width:33.5rem;
+    height:11.9rem;
+}
+#tagCloud {
+    padding: 0.8rem;
+    font-size: 1em;
+}
+#tagCloud a {
+    background-color: #D4B1AB;
+    padding:0.2rem;
+    margin:0.2rem;
+    line-height:2;
+    font-family: Raleway;
+    color:black;
+    text-align:right;
+}
+#tagCloud a:hover {
+    background-color: #222;
+    padding:0.2rem;
+    margin:0.2rem;
+}
+#popular > iframe {
+    border: 0 none;
+    background-color: transparent;
+    float: right;
+    margin-left: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#widgetizer {
+    margin: 6%;
+}
+#popular {
+    overflow:hidden;
+    padding-bottom: 1em;
+    display:none;
+}
+#source {
+    float:right;
+}
+blockquote {
+    padding:1em;
+    border-left: #D4B1AB solid thin;
+    background-color:#222;
+}
+#pages {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #1A1A1A;
+    color: white;
+    text-align: right;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 8rem;
+    width: 100%;
+    font-size: 1.3rem;
+    font-family: 'Raleway';
+}
+#pages a {
+    font-size: 1.3rem;
+    background-color: #252525;
+    padding: 0.1rem 0.5rem;
+}
+#pages a:hover {
+    background-color:#313131;
+}
+.current_page {
+    background-color: #D4B1AB;
+    padding: 0.1rem 0.5rem;
+}
+.notes {
+    overflow:hidden;
+}
+.notes ol {
+    list-style-type:none;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.notes li {
+    border-bottom:#2F2F3C solid thin;
+    padding: 0.4em;
+}
+.notes img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1em;
+    border-radius: 100%;
+}
+main img {
+    max-width:540px;
+    margin-left:0.4rem;
+}
+.searchform {
+    float:left;
+    margin-left:10em;
+}
+.searchform2 {
+    margin:0 auto;
+    margin-top: 1em;
+    max-width:30rem;
+}
+#searchfield {
+    background-color:#1e1e1e;
+    border:none;
+    font-size:1.3rem;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+#searchfield2 {
+    background-color: #1e1e1e;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: 0.5em;
+}
+#searchfield:focus {
+    box-shadow: 0 0 5px #565656;
+    outline:none;
+}
+#searchfield2:focus {
+    box-shadow: 0 0 5px #565656;
+    outline:none;
+}
+#searchbutton {
+    background-color:#1e1e1e;
+    border:none;
+    font-size:1.3rem;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    padding:0em 0.6rem;
+}
+#searchbutton2 {
+    background-color: #1e1e1e;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.5em 1rem;
+    margin-left: 0.5rem;
+}
+.bg_index > section {
+    margin:1em;
+}
+.bg_index > .postblock {
+    margin:0 auto;
+}
+.bg_index > .postblock > p{
+    max-width:540px;
+    margin: 0 auto;
+    text-align:left;
+}
+.photoset {
+    margin: 0 auto;
+    width: 540px;
+}
+.floatright {
+    float:left;
+    width:550px;
+    background-color:#383235;
+}
+.postcaption {
+    text-align:center;
+    width:35em;
+    margin:0 auto;
+}
+#submenu a:hover {
+   background-color:rgba(40, 40, 40, 0.4);
+}
+footer > nav {
+    border-right: #5F5352 solid thin;
+}
+footer > nav > a {
+    color: #867171 !important;
+}
+h1 {
+    padding-bottom: 0.3rem;
+}
+#cssmenu {
+    min-width:73rem;
+}
+#bg {
+    min-width:73rem;
+}
+h1 {
+    min-width: 69.75rem;
+}
+main {
+    min-width:72rem;
+}
+ul {
+    list-style-position: inside;
+    padding: 0em 0.4em;
+}
+#containheader {
+    width:70rem;
+    margin:0 auto;
+    margin-top:1rem;
+    display:none;
+}
+.postsource {
+    border-bottom: #D4B1AB solid thin;
+}
+.postcaption a {
+    border-bottom: #505050 solid thin;
+    color: #D4B1AB;
+}
+p > a {
+    border-bottom: #505050 solid thin;
+    color: #D4B1AB !important;
+}
+.info a {
+    color: white !important;
+}
+.page1 {
+    padding-top:10vh !important;
+    padding-bottom:0vh !important;
+    display:block !important;
+}
+.content1 {
+    display:block !important;
+}
+.fa-angle-down {
+    font-size: 8rem;
+    padding-top:8vh;
+    color:#1B1B1B;
+    clear:both;
+    display:block;
+}
+.homeicon {
+    float:left;
+    margin-top:-6px;
+    margin-left: -10px;
+}
+#events img {
+    display:block;
+    margin:0 auto;
+}
+map { position: relative; }
+area + span { position: absolute; margin-left: -9999em; }
+area:hover + span {
+    position: absolute;
+    right:40%;
+    margin-right:-5rem;
+    z-index: 99;
+    background: rgba(0,0,0,.8);
+    color:white;
+    padding:0.5rem;
+    border-radius: 5px;
+    width:10rem;
+}
+#events p {
+    width:28rem;
+    font-size:larger;
+    margin:0 auto;
+    margin-bottom:2rem;
+    font-family:Raleway;
+}
+</style>
 </head>
 <body>
-<h1><img src="http://assets.tumblr.com/images/x.gif?v=1" class="homeicon" />The Vindictus Inn &#8226; Item Database</h1>
+<h1><img src="" class="homeicon" />The Vindictus Inn &#8226; Item Database</h1>
+
 <div id="bg" class="bg_index">
     
-		<section id="events" class="page1">
+		<section id="events" class="page{CurrentPage}">
+		<p style="font-weight:bold;">GAME DATABASE COMING SOON</p>
+		<form action="/search" method="get" class="searchform2">
+        <input type="text" name="q" value="search" id="searchfield2"/>
+        <input type="submit" value="?" id="searchbutton2"/>
+        </form>
         <img src="http://i.imgur.com/attdkBg.png" border="0" usemap="#quickslot" />
     <map name="quickslot" id="quickslot">
         <area shape="rect" coords="45,24,79,57" href="http://vindictusinn.com/vindictus+guides" alt="Guides"/><span>Guides</span>
@@ -45,26 +462,74 @@
         <area shape="rect" coords="358,23,395,60" href="http://vindictusinn.com/tagged/hair" alt="Hair"/><span>Hair</span>
         <area shape="rect" coords="397,25,430,60" href="http://vindictusinn.com/transbuild"><span>Transformation Build Editor</span>
     </map>
-
-        </section>
         
-        <section id="searchmenu">
-		<form action="search.html" method="get">
-		<input type="text" name="find" value="Search">
-		<input type="submit" value="?">
-		</form>
-		</section>
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+        </section>
 
         
 </div>
+
 <nav id="cssmenu">
+<ul>
+	<li><a href='/' class="home">Index</a></li>
+	<li><a href=''>Items</a>
+		<ul>
+            <li><a href=''>Armor</a></li>
+            <li><a href=''>Weapons</a></li>
+            <li><a href=''>Outfitters</a></li>
+            <li><a href=''>Consumables</a></li>
+            <li><a href=''>Materials</a></li>
+            <li><a href=''>Other</a></li>
+	    </ul>
+	</li>
+	<li><a href=''>Recipes</a>
+		<ul>
+            <li><a href=''>Tailoring</a></li>
+            <li><a href=''>Goldsmithing</a></li>
+            <li><a href='/weaponsmithing'>Weaponsmithing</a></li>
+            <li><a href=''>Armorsmithing</a></li>
+            <li><a href=''>Cooking</a></li>
+            <li><a href=''>NPC</a>
+                <ul>
+                    <li><a href=''>Clodagh</a></li>
+                    <li><a href=''>Brynn</a></li>
+                    <li><a href=''>Ferghus</a></li>
+                    <li><a href=''>Kirstie</a></li>
+                </ul>
+            </li>
+	    </ul>
+	</li>
+	<li><a href='/'>Titles</a></li>
+	<li><a href='/'>Skills</a>
+	    <ul>
+	        <li><a href=''>Male</a>
+	            <ul>
+                    <li><a href=''>Lann</a></li>
+	                <li><a href=''>Karok</a></li>
+	                <li><a href=''>Kai</a></li>
+	                <li><a href=''>Hurk</a></li>
+	                <li><a href=''>Sylas</a></li>
+	            </ul>
+	        </li>
+	        <li><a href=''>Female</a>
+	            <ul>
+	                <li><a href=''>Fiona</a></li>
+	                <li><a href=''>Evie</a></li>
+	                <li><a href=''>Vella</a></li>
+	                <li><a href=''>Lynn</a></li>
+	                <li><a href=''>Arisha</a></li>
+	                <li><a href=''>Delia</a></li>
+	            </ul>
+	        </li>
+	    </ul>
+	</li>
+	<li><a href='/'>Maps</a></li>
+	<li><a href='/'>Stories</a></li>
+	<li><a href='/'>NPCs</a></li>
+</ul>
 </nav>
 
-<div class="scopecontain">
-<h2>Weaponsmithing</h2>
-<div ng-view></div>
-</div>
-
+	
 <footer style="margin-top:15rem;">
 	<div class="logo">The Vindictus Inn</div>
 	<nav class="footer">
@@ -74,11 +539,22 @@
 		<a href="http://vindictusinn.com/dyepreviewer">Dye Previewer</a>
 		<a href="http://vindictusinn.com/tagged/update">Future Content</a>
 	</nav>
-	<p class="disclaimer">Vindictus content and materials are trademarks and copyrights of their respective publisher and its licensors. All rights reserved.<br /> This site is created and maintained by Insanitee on the West North American server and is not affiliated with Nexon.</p>
+	<p class="disclaimer">Vindictus content and materials are trademarks and copyrights of their respective publisher and its licensors. All rights reserved.<br /> This site is not affiliated with Nexon.</p>
 	<p id="stats"><script type="text/javascript" src="http://st2.freeonlineusers.com/on3.php?id=1532182"></script> Online Mercenaries | <script src="http://fastwebcounter.com/secure.php?s=www.coronaplease.tumblr.com"></script></p>
 </footer>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'coronaplease';
     
-<script id="dsq-count-scr" src="//coronaplease.disqus.com/count.js" async></script>
-   
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
 </body>
 </html>
