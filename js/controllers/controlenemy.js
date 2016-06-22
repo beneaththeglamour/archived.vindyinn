@@ -36,6 +36,7 @@ EnemyControllers.controller("DetailsEnemyController", ['$scope','$http','$routeP
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
+					$('#tabs').tabs();
 					hero = parseInt($('#hero').attr('value'))
 					normal = $('#normal').attr('value')
 					attackbonus = parseInt($('#attackbonus').attr('value'))
