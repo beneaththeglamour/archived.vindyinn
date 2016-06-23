@@ -136,6 +136,22 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							}
 						}
 					)
+					$('.itemicon').each(
+						function(){
+							ValueofIcon = $(this).attr('value')
+							if ( ValueofIcon.indexOf('imgur') > -1 ) {
+								$(this).css('background-image','url('+ ValueofIcon +')');
+							}
+						}
+					)
+					$('.tableicon').each(
+						function(){
+							ValueofTableIcon = $(this).attr('value')
+							if ( ValueofTableIcon.indexOf('imgur') > -1 ) {
+								$(this).css('background-image','url('+ ValueofTableIcon +')');
+							}
+						}
+					)
 						console.log('DataTable loaded.')
 						$('table').DataTable({
 							"order": [[ 2, "asc" ]]
