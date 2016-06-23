@@ -166,39 +166,67 @@ $('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
 	'<li><a href="">Items</a>'+
 		'<ul>'+
-			'<li><a href="">Armor</a></li>'+
+			'<li><a href="">Armor</a>'+
+				'<ul>'+
+					'<li><a href="/armor/heavy-armor">Heavy Armor</a>'+
+						'<ul>'+
+							'<li><a href="/armor/heavy/helm">Helm</a>'+
+						'</ul>'+
+					'</li>'+
+					'<li><a href="/armor/plate-armor">Plate Armor</a></li>'+
+					'<li><a href="/armor/light-armor">Light Armor</a></li>'+
+					'<li><a href="/armor/cloth-armor">Cloth Armor</a></li>'+
+				'</ul>'+
+			'</li>'+
 			'<li><a href="">Weapons</a>'+
 				'<ul>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/twin+swords">Twin Swords</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/twin+spears">XTwin Spears</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/sword">XSword</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/long+hammer">XLong Hammer</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/staff">XStaff</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/scythe">XScythe</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/pillar">XPillar</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/cestus">XCestus</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/bow">XBow</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/cross+gun">XCross Gun</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/twin+chainblades">XTwin Chainblades</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/glaive">XGlaive</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/greatswords">XGreatsword</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/spellsword">XSpellsword</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/phantom+daggers">XPhantom Daggers</a></li>'+
-					'<li><a href="http://db.vindictusinn.com/weapon/bastard+sword">Bastard Sword</a></li>'+
+					'<li><a href="/weapon/twin-swords">Twin Swords</a></li>'+
+					'<li><a href="/weapon/twin-spears">XTwin Spears</a></li>'+
+					'<li><a href="/weapon/sword">XSword</a></li>'+
+					'<li><a href="/weapon/long-hammer">XLong Hammer</a></li>'+
+					'<li><a href="/weapon/staff">XStaff</a></li>'+
+					'<li><a href="/weapon/scythe">XScythe</a></li>'+
+					'<li><a href="/weapon/pillar">XPillar</a></li>'+
+					'<li><a href="/weapon/cestus">XCestus</a></li>'+
+					'<li><a href="/weapon/bow">XBow</a></li>'+
+					'<li><a href="/weapon/cross-gun">XCross Gun</a></li>'+
+					'<li><a href="/weapon/twin-chainblades">XTwin Chainblades</a></li>'+
+					'<li><a href="/weapon/glaive">XGlaive</a></li>'+
+					'<li><a href="/weapon/greatswords">XGreatsword</a></li>'+
+					'<li><a href="/weapon/spellsword">XSpellsword</a></li>'+
+					'<li><a href="/weapon/phantom-daggers">XPhantom Daggers</a></li>'+
+					'<li><a href="/weapon/bastard+sword">Bastard Sword</a></li>'+
 				'</ul>'+
 			'</li>'+
 			'<li><a href="">Outfitters</a></li>'+
+			'<li><a href="">Accessories</a>'+
+				'<ul>'+
+					'<li><a href="/accessories/tail">Tail</a></li>'+
+					'<li><a href="">Rear</a>'+
+						'<ul>'+
+							'<li><a href="/accessories/rear/rear">Rear</a></li>'+
+							'<li><a href="/accessories/rear/wings">Wings</a></li>'+
+						'</ul>'+
+					'</li>'+
+				'</ul>'+
+			'</li>'+
 			'<li><a href="">Consumables</a></li>'+
 			'<li><a href="">Materials</a></li>'+
+			'<li><a href="">Battle</a>'+
+				'<ul>'+
+					'<li><a href="/battle/loot">Loot</a></li>'+
+					'<li><a href="/battle/story">Story</a></li>'+
+				'</ul>'+
+			'</li>'+
 			'<li><a href="">Other</a></li>'+
 		'</ul>'+
 	'</li>'+
 	'<li><a href="">Recipes</a>'+
 		'<ul>'+
-			'<li><a href="http://db.vindictusinn.com/expertise/tailoring">XTailoring</a></li>'+
-			'<li><a href="http://db.vindictusinn.com/expertise/goldsmithing">Goldsmithing</a></li>'+
-			'<li><a href="http://db.vindictusinn.com/expertise/weaponsmithing">Weaponsmithing</a></li>'+
-			'<li><a href="http://db.vindictusinn.com/expertise/armorsmithing">XArmorsmithing</a></li>'+
+			'<li><a href="/expertise/tailoring">XTailoring</a></li>'+
+			'<li><a href="/expertise/goldsmithing">Goldsmithing</a></li>'+
+			'<li><a href="/expertise/weaponsmithing">Weaponsmithing</a></li>'+
+			'<li><a href="/expertise/armorsmithing">XArmorsmithing</a></li>'+
 			'<li><a href="">XCooking</a></li>'+
 			'<li><a href="">XNPC</a>'+
 				'<ul>'+
