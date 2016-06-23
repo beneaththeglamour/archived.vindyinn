@@ -447,7 +447,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					)
 					$('.itemicon').each(
 						function(){
-							ValueofIcon = $(this).attr('value');
+							ValueofIcon = $(this).attr('value')
 							if ( ValueofIcon.indexOf('imgur') > -1 ) {
 								$(this).css('background-image','url('+ ValueofIcon +')');
 							}
