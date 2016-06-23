@@ -6,7 +6,7 @@
 	<div class="border"> 	
 		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
 			<div class="icon"> 			
-				<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url({{ItemVariable[whichItem].Icon}})"/> 			
+				<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}})"/> 			
 				<span class="{{ItemVariable[whichItem].Rarity}} rarity ItemName_{{ItemVariable[whichItem].ItemClass}}">{{ItemVariable[whichItem].ItemClass}}</span> 			
 				<span class="bubble"> 				
 					<span class="itemtype">{{ItemVariable[whichItem].TradeCategorySub}}, {{ItemVariable[whichItem].TradeCategory}}</span> 				

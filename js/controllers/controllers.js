@@ -445,6 +445,14 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							}
 						}
 					)
+					$('.itemicon').each(
+						function(){
+							ValueofIcon = $(this).attr('value');
+							if ( ValueofIcon.indexOf('imgur') > -1 ) {
+								$(this).css({'background-image','url('+ ValueofIcon +')'});
+							}
+						}
+					)
 					console.log('Loaded ' + replacestart)
 $('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
