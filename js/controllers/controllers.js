@@ -453,6 +453,21 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							}
 						}
 					)
+					$('.tableicon').each(
+						function(){
+							ValueofTableIcon = $(this).attr('value')
+							if ( ValueofTableIcon.indexOf('imgur') > -1 ) {
+								$(this).css('background-image','url('+ ValueofTableIcon +')');
+							}
+						}
+					)
+					$('.desc').each(
+						function(){
+							ValueofDesc = $(this).attr('value')
+							TransformedDescClass = ValueofDesc.replace(/ /g,'_')
+							$(this).addClass('ItemDesc_'+TransformedDescClass)
+						}
+					)
 					console.log('Loaded ' + replacestart)
 $('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
