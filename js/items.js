@@ -86,6 +86,6 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
     controller: 'DetailsController'
   }).
   otherwise({
-    redirectTo: '/item/:ItemID/'
+    redirectTo: '/list'
   });
 }]);
