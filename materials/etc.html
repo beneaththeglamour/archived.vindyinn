@@ -2,45 +2,34 @@
 <html lang="en" ng-app="ItemApp">
 <head>
   <meta charset="utf-8">
-  <title>Item Database Vindictus Inn</title>
+  <title>Etc - Materials &#8226; VinDB</title>
    <link rel="shortcut icon" href="http://assets.tumblr.com/images/x.gif?v=1" />
+<link rel="stylesheet" href="http://static.tumblr.com/aiwikf1/rd8o789qo/dbstyle.css" />
 <link rel="stylesheet" href="http://static.tumblr.com/aiwikf1/8suo7dw6i/menubar.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-
-<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
-<script type="text/javascript" src="http://static.tumblr.com/aiwikf1/TXEo3i7w8/menubar.js"></script>
-<script type="text/javascript" src="https://dl.dropbox.com/s/avz3uwh1appyidb/dbmenu.js"></script>
-
+<meta name="google-site-verification" content="uPGglZhUD5Q7p0Owg26nWSxYHjc3DCUTTb1Hy3hrc5s" />
 
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
   <script type="text/javascript" src="http://static.tumblr.com/aiwikf1/QoNo7cpzv/datatable.js"></script><!--datatablejs-->
-  
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
-  
-  <script type="text/javascript" src="/js/search.js"></script>
-  <script type="text/javascript" src="/js/controllers/controllers.js"></script>
-  <link rel="stylesheet" href="/css/dbstyle.css" />
-  <link rel="stylesheet" href="/css/dbbase.css">
-  
-  <link rel="stylesheet" href="/css/table.css" />
-  <link rel="stylesheet" href="/css/tooltip.css">
-  <link rel="stylesheet" href="/css/list.css">
-  
-  <link rel="stylesheet" href="/css/itemicons.css">
+  <script type="text/javascript" src="http://static.tumblr.com/aiwikf1/TXEo3i7w8/menubar.js"></script>
 
-<script>
-gather = window.location.search
-search = gather.replace('?find=','')
-search = search.replace(/\+/g,' ')
-search = search.replace(/'/g,'\'')
-$('.searchheader').append(search)
-</script>
+<script>filter = '{&#39;TradeCategory&#39;:&#39;Material&#39;,TradeCategorySub:Etc.}:true'</script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+  <link rel="stylesheet" href="http://static.tumblr.com/aiwikf1/l6so76q10/table.css" />
+  <script type="text/javascript" src="https://dl.dropbox.com/s/gw5kzoko6v4qu7o/expertise.js"></script>
+  <script type="text/javascript" src="https://dl.dropbox.com/s/3frr9g1537q0jfv/controllers.js"></script>
+  <link rel="stylesheet" href="https://dl.dropbox.com/s/y6eahxx2bh95uux/tooltip.css">
+  <link rel="stylesheet" href="https://dl.dropbox.com/s/32d09zgsgg68hmz/list.css">
+  <link rel="stylesheet" href="http://static.tumblr.com/aiwikf1/J2wo7cq5i/dbbase.css">
+  <link rel="stylesheet" href="https://dl.dropbox.com/s/9xkcm8f6w3dj3jm/itemicons.css">
+
 
 </head>
 <body>
-<h1><img src="http://assets.tumblr.com/images/x.gif?v=1" class="homeicon" />The Vindictus Inn &#8226; Item Database</h1>
+<h1><img src="http://assets.tumblr.com/images/x.gif?v=1" class="homeicon" />The Vindictus Inn &#8226; Weaponsmithing</h1>
 <div id="bg" class="bg_index">
     
 		<section id="events" class="page1">
@@ -59,8 +48,8 @@ $('.searchheader').append(search)
     </map>
 
         </section>
-		
-		<section id="searchmenu">
+        
+        <section id="searchmenu">
 		<form action="/search.html" method="get">
 		<input type="text" name="find" value="Search">
 		<input type="submit" value="?">
@@ -73,6 +62,7 @@ $('.searchheader').append(search)
 </nav>
 
 <div class="scopecontain">
+<h2>Materials > Etc.</h2>
 <div ng-view></div>
 </div>
 
