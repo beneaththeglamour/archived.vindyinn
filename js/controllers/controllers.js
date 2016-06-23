@@ -6,8 +6,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				$http.get('/json/items.json').success (function(data){
 				$scope.ItemVariable = data;
 				setTimeout(function(){
-						search = $('.mainiteminput').val(search).trigger('input');
 						WhatIsTheURL = window.location.pathname
+						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}
 						if (WhatIsTheURL == '/weapon/bastard+sword') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/phantom+daggers') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/spellsword') {$('tr').each(function(){$(this).children().last().hide()})}
