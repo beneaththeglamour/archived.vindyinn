@@ -1,4 +1,5 @@
-<input class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;Loading...&#39;" name="search">
+<input class="CategoryOneInput" style="display:none;" ng-model="CategoryOne" ng-init="CategoryOne = &#39;Loading...&#39;" name="search">
+<input class="CategoryTwoInput" style="display:none;" ng-model="CategoryTwo" ng-init="CategoryTwo = &#39;Loading...&#39;" name="search">
 <div style="background-color: rgb(158, 63, 63);font-size: 1rem;padding: 0.6rem;text-align: center;">
 	<strong>You are currently using a live yet uncompleted version of the site.</strong>
 	<br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
@@ -11,7 +12,7 @@
 		<th>Subtype</th> 	
 	</thead> 
 	<tbody>
-		<tr class="itemlist" ng-repeat="item in ItemVariable | filter : ' + filter + '"> 		
+		<tr class="itemlist" ng-repeat="item in ItemVariable | filter : {&#39;TradeCategory&#39;:CategoryOne,&#39;TradeCategorySub&#39;:CategoryTwo}"> 		
 			<td>
 				<img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.jpg')"/>
 			</td> 		

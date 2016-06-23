@@ -8,6 +8,12 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				setTimeout(function(){
 						WhatIsTheURL = window.location.pathname
 						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}
+						if (WhatIsTheURL == '/material/etc.html') {
+							function(){
+							$('.CategoryOneInput').val(search).trigger('input');
+							$('.CategoryTwoInput').val(search).trigger('input');
+							}
+							}
 						if (WhatIsTheURL == '/weapon/bastard+sword') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/phantom+daggers') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/spellsword') {$('tr').each(function(){$(this).children().last().hide()})}
