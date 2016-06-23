@@ -13,6 +13,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '	<thead> 	'+
 '		<th class="itemcol"></th> 	'+
 '		<th width="20%">Name</th> 	'+
+'		<th>Rarity</th> 	'+
 '		<th>Type</th> 	'+
 '		<th>Subtype</th> 	'+
 '	</thead> '+
@@ -72,6 +73,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '					</div> '+
 '				</div>'+
 '			</td> 		'+
+'			<td class="{{item.Rarity}} centercell">{{item.Rarity}}</td> 		'+
 '			<td class="type centercell">{{item.TradeCategory}}</td> 		'+
 '			<td class="subtype centercell">{{item.TradeCategorySub}}</td> 		'+
 '		</tr> '+
