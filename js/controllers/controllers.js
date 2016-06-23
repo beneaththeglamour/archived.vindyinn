@@ -235,7 +235,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					updateweight = weight.toFixed(0);
 					$('#changeweight').html(updateweight);
 					replacestart = $('#valueitem').attr('value');
-					$('title').html(replacestart + ' \\&bull; Vindictus Item Database');
+					$('title').html(replacestart + ' \&bull; Vindictus Item Database');
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
 					$('.mainiteminput').val(replacestart).trigger('input');
