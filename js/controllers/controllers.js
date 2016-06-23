@@ -10,8 +10,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}
 						if (WhatIsTheURL == '/material/etc.html') {
 							function(){
-							$('.CategoryOneInput').val(search).trigger('input');
-							$('.CategoryTwoInput').val(search).trigger('input');
+							$('.CategoryOneInput').val(CatOne).trigger('input');
+							$('.CategoryTwoInput').val(CatTwo).trigger('input');
 							}
 							}
 						if (WhatIsTheURL == '/weapon/bastard+sword') {$('tr').each(function(){$(this).children().last().hide()})}
