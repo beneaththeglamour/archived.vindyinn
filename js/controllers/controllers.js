@@ -171,6 +171,10 @@ $('#cssmenu').html('<ul>'+
 					'<li><a href="/armor/heavy-armor">Heavy Armor</a>'+
 						'<ul>'+
 							'<li><a href="/armor/heavy/helm">Helm</a>'+
+							'<li><a href="/armor/heavy/tunic">Tunic</a>'+
+							'<li><a href="/armor/heavy/pants">Pants</a>'+
+							'<li><a href="/armor/heavy/boots">Boots</a>'+
+							'<li><a href="/armor/heavy/gloves">Gloves</a>'+
 						'</ul>'+
 					'</li>'+
 					'<li><a href="/armor/plate-armor">Plate Armor</a></li>'+
@@ -181,20 +185,20 @@ $('#cssmenu').html('<ul>'+
 			'<li><a href="">Weapons</a>'+
 				'<ul>'+
 					'<li><a href="/weapon/twin-swords">Twin Swords</a></li>'+
-					'<li><a href="/weapon/twin-spears">XTwin Spears</a></li>'+
-					'<li><a href="/weapon/sword">XSword</a></li>'+
+					'<li><a href="/weapon/twin-spears">Twin Spears</a></li>'+
+					'<li><a href="/weapon/sword">Sword</a></li>'+
 					'<li><a href="/weapon/long-hammer">XLong Hammer</a></li>'+
-					'<li><a href="/weapon/staff">XStaff</a></li>'+
-					'<li><a href="/weapon/scythe">XScythe</a></li>'+
-					'<li><a href="/weapon/pillar">XPillar</a></li>'+
-					'<li><a href="/weapon/cestus">XCestus</a></li>'+
-					'<li><a href="/weapon/bow">XBow</a></li>'+
-					'<li><a href="/weapon/cross-gun">XCross Gun</a></li>'+
-					'<li><a href="/weapon/twin-chainblades">XTwin Chainblades</a></li>'+
-					'<li><a href="/weapon/glaive">XGlaive</a></li>'+
-					'<li><a href="/weapon/greatswords">XGreatsword</a></li>'+
-					'<li><a href="/weapon/spellsword">XSpellsword</a></li>'+
-					'<li><a href="/weapon/phantom-daggers">XPhantom Daggers</a></li>'+
+					'<li><a href="/weapon/staff">Staff</a></li>'+
+					'<li><a href="/weapon/scythe">Scythe</a></li>'+
+					'<li><a href="/weapon/pillar">Pillar</a></li>'+
+					'<li><a href="/weapon/cestus">Cestus</a></li>'+
+					'<li><a href="/weapon/bow">Bow</a></li>'+
+					'<li><a href="/weapon/cross-gun">Cross Gun</a></li>'+
+					'<li><a href="/weapon/twin-chainblades">Twin Chainblades</a></li>'+
+					'<li><a href="/weapon/glaive">Glaive</a></li>'+
+					'<li><a href="/weapon/greatswords">Greatsword</a></li>'+
+					'<li><a href="/weapon/spellsword">Spellsword</a></li>'+
+					'<li><a href="/weapon/phantom-daggers">Phantom Daggers</a></li>'+
 					'<li><a href="/weapon/bastard+sword">Bastard Sword</a></li>'+
 				'</ul>'+
 			'</li>'+
@@ -223,17 +227,17 @@ $('#cssmenu').html('<ul>'+
 	'</li>'+
 	'<li><a href="">Recipes</a>'+
 		'<ul>'+
-			'<li><a href="/expertise/tailoring">XTailoring</a></li>'+
+			'<li><a href="/expertise/tailoring">Tailoring</a></li>'+
 			'<li><a href="/expertise/goldsmithing">Goldsmithing</a></li>'+
 			'<li><a href="/expertise/weaponsmithing">Weaponsmithing</a></li>'+
-			'<li><a href="/expertise/armorsmithing">XArmorsmithing</a></li>'+
-			'<li><a href="">XCooking</a></li>'+
-			'<li><a href="">XNPC</a>'+
+			'<li><a href="/expertise/armorsmithing">Armorsmithing</a></li>'+
+			'<li><a href="">Cooking</a></li>'+
+			'<li><a href="">NPC</a>'+
 				'<ul>'+
-					'<li><a href="">XClodagh</a></li>'+
-					'<li><a href="">XBrynn</a></li>'+
-					'<li><a href="">XFerghus</a></li>'+
-					'<li><a href="">XKirstie</a></li>'+
+					'<li><a href="">Clodagh</a></li>'+
+					'<li><a href="">Brynn</a></li>'+
+					'<li><a href="">Ferghus</a></li>'+
+					'<li><a href="">Kirstie</a></li>'+
 				'</ul>'+
 			'</li>'+
 		'</ul>'+
