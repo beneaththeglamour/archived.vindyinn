@@ -425,7 +425,7 @@ $(".ItemDesc_Greater_Bronze_Lion_Statue").html("Increases HP by 5000 when used.\
 $(".ItemDesc_Kobold\\'s_Clockwork_Doll").html("Summons a Kobold Bomber when used.\\nInflicts more damage if your ATT is higher.\\nCooldown: 180 sec")
 $(".ItemDesc_Phoenix_Feather_Bundle").html("Activates Life Flare when used.\\nHowever, the status effect will disappear if it doesn't trigger for 170 seconds.\\nCooldown: 90 sec.")
 $(".ItemDesc_Werewolf_Paw").html("Increases Speed and ATT SPD by 20% when used.\\nDuration: 20 sec.\\nCooldown: 120 sec.")
-$(".ItemDesc_웨어울프의_앞발(7일\\)").html("사용 시 자신의 이동 속도와 공격 속도가 20% 상승한다.\\n사용 시간 : 20초\\n재사용 대기 시간 : 120초")
+$(".ItemDesc_웨어울프의_앞발\\(7일\\)").html("사용 시 자신의 이동 속도와 공격 속도가 20% 상승한다.\\n사용 시간 : 20초\\n재사용 대기 시간 : 120초")
 $(".ItemDesc_Greater_Werewolf_Paw").html("Increases Speed and ATT SPD by 20% when used.\\nDuration: 30 sec.\\nCooldown: 120 sec.")
 $(".ItemDesc_Greater_Werewolf_Paw_\\(7_Days\\)").html("Increases Speed and ATT SPD by 20% when used.\\nDuration: 30 sec.\\nCooldown: 120 sec.")
 $(".ItemDesc_Mirage_Pouch").html("Creates a barrier that will reduce incoming damage by 70% when used.\\nDuration: 3 sec.\\nCooldown: 180 sec.")
