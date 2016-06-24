@@ -18027,7 +18027,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.desc').each(
 						function(){
 							ValueofDesc = $(this).attr('value')
-							TransformedDescClass = ValueofDesc.replace(/ /g,\\'_\\')
+							TransformedDescClass = ValueofDesc.replace(/ /g,'_\\')
 							$(this).addClass('ItemDesc_\\'+TransformedDescClass)
 						}
 					)
