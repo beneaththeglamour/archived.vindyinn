@@ -186,7 +186,15 @@ $('#cssmenu').html('<ul>'+
 							'<li><a href="/armor/plate/gloves">Gloves</a>'+
 						'</ul>'+
 					'</li>'+
-					'<li><a href="/armor/light-armor">Light Armor</a></li>'+
+					'<li><a href="/armor/light-armor">Light Armor</a>'+
+						'<ul>'+
+							'<li><a href="/armor/light/helm">Helm</a>'+
+							'<li><a href="/armor/light/tunic">Tunic</a>'+
+							'<li><a href="/armor/light/pants">Pants</a>'+
+							'<li><a href="/armor/light/boots">Boots</a>'+
+							'<li><a href="/armor/light/gloves">Gloves</a>'+
+						'</ul>'+
+					'</li>'+
 					'<li><a href="/armor/cloth-armor">Cloth Armor</a></li>'+
 				'</ul>'+
 			'</li>'+
@@ -195,7 +203,7 @@ $('#cssmenu').html('<ul>'+
 					'<li><a href="/weapon/twin-swords">Twin Swords</a></li>'+
 					'<li><a href="/weapon/twin-spears">Twin Spears</a></li>'+
 					'<li><a href="/weapon/sword">Sword</a></li>'+
-					'<li><a href="/weapon/long-hammer">XLong Hammer</a></li>'+
+					'<li><a href="/weapon/long-hammer">Long Hammer</a></li>'+
 					'<li><a href="/weapon/staff">Staff</a></li>'+
 					'<li><a href="/weapon/scythe">Scythe</a></li>'+
 					'<li><a href="/weapon/pillar">Pillar</a></li>'+
