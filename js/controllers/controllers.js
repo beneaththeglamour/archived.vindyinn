@@ -430,7 +430,7 @@ $(".ItemDesc_웨어울프의_앞발(7일)").html("사용 시 자신의 이동 �
 $(".ItemDesc_Greater_Werewolf_Paw").html("Increases Speed and ATT SPD by 20% when used.\\nDuration: 30 sec.\\nCooldown: 120 sec.")
 $(".ItemDesc_Greater_Werewolf_Paw_(7_Days)").html("Increases Speed and ATT SPD by 20% when used.\\nDuration: 30 sec.\\nCooldown: 120 sec.")
 $(".ItemDesc_Mirage_Pouch").html("Creates a barrier that will reduce incoming damage by 70% when used.\\nDuration: 3 sec.\\nCooldown: 180 sec.")
-$(".ItemDesc_\"리엘의_시간_조정_태엽장치"").html(""시간을 조정한다는 어마어마한 장난감. 효과가 제대로 알려져 있지 않다.\\n\\n'그래봤자 장난감아닌가?'\\n\\n퀵슬롯에 장착해 전투에서 사용할 수 있다."")
+$(".ItemDesc_리엘의_시간_조정_태엽장치").html("시간을 조정한다는 어마어마한 장난감. 효과가 제대로 알려져 있지 않다.\\n\\n'그래봤자 장난감아닌가?'\\n\\n퀵슬롯에 장착해 전투에서 사용할 수 있다.")
 $(".ItemDesc_Otherworldly_Pocket_Watch").html("Reduces the cooldown of the applied SP skills by 50% when used.\\n(Includes Evie's Focus skill)\\nCooldown: 300 sec.")
 $(".ItemDesc_Mysterious_Cat_Statue").html("Restores one slot of the SP gauge.\\nCooldown: 90 sec.")
 $(".ItemDesc_Greater_Mysterious_Cat_Statue").html("Restores one slot of the SP gauge.\\nCooldown: 70 sec.")
