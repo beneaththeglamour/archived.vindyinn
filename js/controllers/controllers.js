@@ -413,7 +413,7 @@ $(".ItemDesc_아리샤_경극_페인팅_2").html("경극을 연상케하는 페�
 $(".ItemDesc_아리샤_경극_페인팅_3").html("경극을 연상케하는 페인팅.")
 $(".ItemDesc_Leather_Armor_Sewing_Pattern").html("A sewing pattern for the Studded Leather Vest and Skirt. \\nBring this recipe to Kirstie with the materials, and she will craft them for you.")
 $(".ItemDesc_Armor_Durability_Protection_\\(Regular\\)").html("Decreases the durability cost of armor by 15% for one hour. \\nCan only be activated in towns, though the effect will only be counted while you're in battles.")
-$(".ItemDesc_Armor_Durability_Protection(Superior\\)").html("Decreases the durability cost of armor by 30% for one hour. \\nCan only be activated in towns, though the effect will only be counted while you're in battles.")
+$(".ItemDesc_Armor_Durability_Protection\\(Superior\\)").html("Decreases the durability cost of armor by 30% for one hour. \\nCan only be activated in towns, though the effect will only be counted while you're in battles.")
 $(".ItemDesc_Armor_Durability_Protection_\\(Exquisite\\)").html("Decreases the durability cost of armor by 50% for one hour. \\nCan only be activated in towns, though the effect will only be counted while you're in battles.")
 $(".ItemDesc_Armor_Potion").html("Used to enhance armor to you take less damage from enemies.\\nCan be purchased from Kirstie at the Traveler's Shop.")
 $(".ItemDesc_Incomprehensible_Statue").html("What even IS this? Every time you look at it, the impossible shapes and angles make you black out. If pure chaos was granted living form, it might look something like this.")
