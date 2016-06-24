@@ -12085,7 +12085,7 @@ $(".ItemDesc_Dire_Wolf_Box_(Event)").html("This box contains a ferocious Dire Wo
 $(".ItemDesc_we_can_do_it_박스").html("이벤트 참여의 보상인 we can do it 박스.\\n9랭크 이상의 인챈트들이 들어 있다고 한다.\\n우클릭으로 사용할 수 있다.")
 $(".ItemDesc_기숙사의_비품상자").html("돌로레스가 준 기숙사의 비품상자.\\n수련에 필요한 아이템들이 들어 있을 것 같다.\\n상자가 꽤 묵직한데, 무엇이 들어있을까?\\n우클릭으로 사용할 수 있다.")
 $(".ItemDesc_2011_유럽_로체스트_오픈기념_선물상자").html("돌로레스가 하루에 한번씩 자신의 친구에게 주는 선물 상자. 이벤트 기간동안 하루에 한 번씩 왕국 기사단 기숙사의 돌로레스에게서 받을 수 있다.\\n이벤트 지급 아이템.\\n우클릭으로 사용할 수 있다.")
-$(".ItemDesc_Dolores's_Friendly_"Welcome_to_Rocheste"_Gift").html("A gift box that Dolores gives to her new best friends. During the event, you can receive one each day from Dolores at the Royal Army Dormitory.\\nEvent item.\\nRight-click to open.")
+$(".ItemDesc_Dolores's_Friendly_\"Welcome_to_Rocheste\"_Gift").html("A gift box that Dolores gives to her new best friends. During the event, you can receive one each day from Dolores at the Royal Army Dormitory.\\nEvent item.\\nRight-click to open.")
 $(".ItemDesc_돌로레스의_선물상자").html("A gift box that Dolores gives to her new best friends. During the event, you can receive one each day from Dolores at the Royal Army Dormitory.\\nEvent item.\\nRight-click to open.")
 $(".ItemDesc_귀환자_지원_패키지_(대만)").html("귀환자의 성장을 도와주는 물건이 들어있는 패키지.\\n■ 구성품\\n- AP 1000 캡슐 (증정)\\n- VIP 7일 패키지(대만)\\n- 이너아머 자유이용권 (7일, 증정)")
 $(".ItemDesc_더블_룬_패키지").html("새롭게 장비를 맞추고 싶은 분들에게 유용한 강화의 룬과 인챈트의 룬이 콤보로 들어 있는 패키지.\\n강화의 룬(5개), 인챈트의 룬(1개), 그리고 최고급 강화석(20개)와 강화의 비약(10개)가 들어 있다.\\n우클릭으로 사용할 수 있다.")
