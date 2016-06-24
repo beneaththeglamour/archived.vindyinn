@@ -320,7 +320,7 @@ $(".ItemDesc_Strapped_Inner_Armor").html("Inner armor made of layered straps. Co
 $(".ItemDesc_Skull_Inner_Armor").html("Inner armor with an intricately designed skull. Perfect for spooky Halloween festivities.")
 $(".ItemDesc_아리샤_이너아머_바니걸").html("바니걸 세트와 어울리는 이너아머.\\n이보다 귀엽고 아찔한 이너아머가 있을까?")
 $(".ItemDesc_Butterfly_Inner_Armor").html("This inner armor features the patterns of a sweet butterfly.\\nShowcases the beautiful heart of a true lady.")
-$(".ItemDesc_아리샤_이너아머_버터플라이(B\\)").html("아름답고 사랑스러운 나비를 형상화 한 이너아머.\\n이너아머 버터플라이에서 스타킹을 제외한 구성이다.")
+$(".ItemDesc_아리샤_이너아머_버터플라이\\(B\\)").html("아름답고 사랑스러운 나비를 형상화 한 이너아머.\\n이너아머 버터플라이에서 스타킹을 제외한 구성이다.")
 $(".ItemDesc_Buffalo_Plaid_Inner_Armor").html("An Inner Armor with a lumberjack design, for when you feel the need to live on the wild side.")
 $(".ItemDesc_Christmas_Inner_Armor").html("The fur makes this inner armor warm, honest! \\nCan only be purchased at the Supply Depot using the Inner Armor Coupon included in the Forever Festive Pack.")
 $(".ItemDesc_Dotted_Christmas_Inner_Armor").html("2011 Christmas inner armor. The circle pattern is adorable...but who's going to notice?")
