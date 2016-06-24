@@ -177,7 +177,15 @@ $('#cssmenu').html('<ul>'+
 							'<li><a href="/armor/heavy/gloves">Gloves</a>'+
 						'</ul>'+
 					'</li>'+
-					'<li><a href="/armor/plate-armor">Plate Armor</a></li>'+
+					'<li><a href="/armor/plate-armor">Plate Armor</a>'+
+						'<ul>'+
+							'<li><a href="/armor/plate/helm">Helm</a>'+
+							'<li><a href="/armor/plate/tunic">Tunic</a>'+
+							'<li><a href="/armor/plate/pants">Pants</a>'+
+							'<li><a href="/armor/plate/boots">Boots</a>'+
+							'<li><a href="/armor/plate/gloves">Gloves</a>'+
+						'</ul>'+
+					'</li>'+
 					'<li><a href="/armor/light-armor">Light Armor</a></li>'+
 					'<li><a href="/armor/cloth-armor">Cloth Armor</a></li>'+
 				'</ul>'+
