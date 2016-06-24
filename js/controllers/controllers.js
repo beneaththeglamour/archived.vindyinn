@@ -16399,7 +16399,7 @@ $(".ItemDesc_Studded_Leather_Boots").html("Commonplace yet sturdy, these boots w
 $(".ItemDesc_Studded_Leather_Boots_+1").html("Commonplace yet sturdy, these boots were made by hammering studs into tanned leather and cloth.")
 $(".ItemDesc_Studded_Leather_Boots_+2").html("Commonplace yet sturdy, these boots were made by hammering studs into tanned leather and cloth.")
 $(".ItemDesc_Studded_Leather_Boots_+3").html("Commonplace yet sturdy, these boots were made by hammering studs into tanned leather and cloth.")
-$(".ItemDesc_Studded_Leather_Gloves").html("Commonplace yet sturdy, these gloves were made by hammering studs into tanned leather and cloth."\")
+$(".ItemDesc_Studded_Leather_Gloves").html("Commonplace yet sturdy, these gloves were made by hammering studs into tanned leather and cloth.")
 $(".ItemDesc_Studded_Leather_Gloves_+1").html("Commonplace yet sturdy, these gloves were made by hammering studs into tanned leather and cloth.")
 $(".ItemDesc_Studded_Leather_Gloves_+2").html("Commonplace yet sturdy, these gloves were made by hammering studs into tanned leather and cloth.")
 $(".ItemDesc_Studded_Leather_Gloves_+3").html("Commonplace yet sturdy, these gloves were made by hammering studs into tanned leather and cloth.")
