@@ -4393,7 +4393,7 @@ $(".ItemDesc_Face_Tattoo_Coupon_\\(Korean_Flag\\)").html("A coupon for the Korea
 $(".ItemDesc_US_Military_Tattoo_Coupon").html("A coupon for 1 military tattoo in the beauty shop.\\nCan only be exchanged for military tattoos.")
 $(".ItemDesc_Superior_Face_Tattoo_Coupon_\\(Permanent\\)").html("This coupon is good for one permanent face tattoo from the Avatar Shop.\\n\\nCoupon expires after 30 days.\\n(Can't be entered while you are inside a building)")
 $(".ItemDesc_Returned_One_Face_Paint_Coupon").html("A coupon that you can exchange for a Returned One Face Paint.")
-$(".ItemDesc_게렌&그렘린_이너아머_교환_쿠폰").html("게렌 프린팅&그렘린 프린팅 이너아머와 교환할 수 있는 쿠폰.")
+$(".ItemDesc_게렌\\&그렘린_이너아머_교환_쿠폰").html("게렌 프린팅&그렘린 프린팅 이너아머와 교환할 수 있는 쿠폰.")
 $(".ItemDesc_Hair_Exchange_Coupon").html("A coupon to receive 1 hairstyle from the Avatar Shop.\\nThe coupon has expired.")
 $(".ItemDesc_Hair_Coupon_\\(1590_NX\\)").html("A coupon to receive 1 hairstyle from the Avatar Shop.\\nOnly exchangeable with hairstyles priced at 1590 NX and below.")
 $(".ItemDesc_Advanced_Hair_Coupon_\\(1900_NX\\)").html("A coupon that was exchangeable for 1 hairstyle. It is no longer usable.\\nIf you talk to Kayna in Colhen, you can receive another usable item plus some additional benefits. But remember, you cannot exchange expired coupons for any new coupons.")
