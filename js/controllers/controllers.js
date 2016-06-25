@@ -4556,7 +4556,7 @@ $(".ItemDesc_Unlimited_Hair_Pass_\\(7_Days,_Gift\\)").html("An unlimited pass wh
 $(".ItemDesc_Unlimited_Inner_Armor_Pass_\\(7_Days,_Gift\\)").html("This pass lets you change your Inner Armor at the Avatar Shop as many times as you like (until it expires)!")
 $(".ItemDesc_이너아머_자유이용권_\\(7일\\)").html("This pass lets you change your Inner Armor at the Avatar Shop as many times as you like (until it expires)!")
 $(".ItemDesc_Unlimited_Hairstyling_Pass_\\(90_Days\\)").html("A pass that will allow you to change you Hairstyle for free at the Avatar Shop as many times as you would like.\\nHairstyles will remain in effect for 90 days.\\n")
-$(".ItemDesc_이너아머_자유이용권(90일\\)").html("This pass lets you change your Inner Armor at the Avatar Shop as many times as you like (until it expires)!")
+$(".ItemDesc_이너아머_자유이용권\\(90일\\)").html("This pass lets you change your Inner Armor at the Avatar Shop as many times as you like (until it expires)!")
 $(".ItemDesc_아바타_자유이용권(신발)_이용권").html("아바타 자유이용권으로 신발 아바타를 사용 중에 있습니다.")
 $(".ItemDesc_아바타_자유이용권(신발)_PC방_전용").html("PC방에서만 가능한 아바타 자유이용권 사용 중입니다.")
 $(".ItemDesc_아바타_자유이용권(장갑)_이용권").html("아바타 자유이용권으로 장갑 아바타를 사용 중에 있습니다.")
