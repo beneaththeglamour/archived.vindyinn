@@ -18,7 +18,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '		<th>Subtype</th> 	'+
 '	</thead> '+
 '	<tbody>'+
-'		<tr class="itemlist" ng-repeat="item in ItemVariable | filter : ' + filter + '"> 		'+
+'		<tr class="itemlist" ng-repeat="item in ItemVariable track by $index | filter : ' + filter + '"> 		'+
 '			<td>'+
 '				<img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/{{item.Icon}}.jpg)"/>'+
 '			</td> 		'+
