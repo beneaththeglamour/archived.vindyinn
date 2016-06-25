@@ -4361,7 +4361,7 @@ $(".ItemDesc_Body_Tattoo_Coupon_\\(30_Days\\)").html("A coupon that can be excha
 $(".ItemDesc_바디페인팅_교환권_\\(30일,_증정\\)").html("뷰티샵에서 30일 바디페인팅 1종과 교환할 수 있는 쿠폰.\\n뷰티샵은 하단의 뷰티샵 아이콘을 눌러 이동할 수 있다.\\n(실내건물에서는 이동 불가)")
 $(".ItemDesc_중국_국기_바디페인팅_교환권").html("바디페인팅 중 하나인 중국 국기로 교환할 수 있는 교환 쿠폰.")
 $(".ItemDesc_Free_Body_Tattoo_Coupon_\\(Black_Dragon\\)").html("A coupon that can be exchanged for a Black Dragon body tattoo. (Color cannot be changed)\\nThis coupon must be used within 30 days of receipt.")
-$(".ItemDesc_바디페인팅_교환권(승천하는_용,_30일\\)").html("바디페인팅 승천하는 용으로 교환할 수 있는 교환 쿠폰.\\n쿠폰을 받은 후 부터 30일안에 사용을 해야 한다.")
+$(".ItemDesc_바디페인팅_교환권\\(승천하는_용,_30일\\)").html("바디페인팅 승천하는 용으로 교환할 수 있는 교환 쿠폰.\\n쿠폰을 받은 후 부터 30일안에 사용을 해야 한다.")
 $(".ItemDesc_Body_Tattoo_Coupon_\\(30_days\\)").html("A coupon that can be used to get 1 tattoo from the Avatar Shop.")
 $(".ItemDesc_Tiger_Torso_Coupon_\\(30_days\\)").html("A coupon given to those who purchase Tiger Head body tattoo. It can be traded for a Tiger Torso body tattoo, and it is used immediately after selecting Tiger Torso body tattoo at the Avatar Shop. The coupon expires 30 days from the date it was issued, so be sure to use it soon.")
 $(".ItemDesc_Tiger_Tail_Coupon_\\(30_days\\)").html("A coupon given to those who purchase Tiger Head body tattoo. It can be traded for a Tiger Tail body tattoo, and it is used immediately after selecting Tiger Tail body tattoo at the Avatar Shop. The coupon expires 30 days from the date it was issued, so be sure to use it soon.")
