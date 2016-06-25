@@ -4345,7 +4345,7 @@ $(".ItemDesc_Fine_Chocolate").html("This well-wrapped piece of chocolate looks v
 $(".ItemDesc_이비_헤어_순수_교환권_\\(무제한\\)").html("Use this at the Avatar Shop to get Evie an Innocent Cut hairstyle. Evie only.")
 $(".ItemDesc_이비_그윽한_메이크업_교환권_\\(무제한\\)").html("Use this at the Avatar Shop to get Evie some Mellow Makeup. Evie only.")
 $(".ItemDesc_Combat_EXP_20\\%_Capsule_\\(7_Days\\)").html("A capsule that grants 20% more Combat EXP. \\nRight-click in town to use.\\nMay not stacked with other active EXP boosts.\\nLasts for 7 days.")
-$(".ItemDesc_전투_경험치_22%상승_포션").html("전투 경험치를 22% 더 받을 수 있는 캡슐. 하루동안 효과가 지속된다.\\n마을에서 우클릭해서 사용할 수 있다.\\n이미 받고 있는 경험치 증가 효과와 중첩되지 않을 수 있으니 유의하자.")
+$(".ItemDesc_전투_경험치_22\\%상승_포션").html("전투 경험치를 22% 더 받을 수 있는 캡슐. 하루동안 효과가 지속된다.\\n마을에서 우클릭해서 사용할 수 있다.\\n이미 받고 있는 경험치 증가 효과와 중첩되지 않을 수 있으니 유의하자.")
 $(".ItemDesc_신혈_영웅_아바타_교환권").html("뷰티샵에서 아바타 세트로 교환 가능한 교환권\\n■ 교환 가능한 아바타\\n- 화이트 웨딩드레스 세트\\(30일)\\n- 블랙 턱시도 세트\\(30일)\\n- 미스 저스티스 세트\\(30일)\\n- 미스터 저스티스 세트\\(30일)\\n- 플라멩코 세트\\(30일)\\n- 투우사 세트\\(30일)")
 $(".ItemDesc_아바타_단품_교환_쿠폰").html("아바타샵에서 아바타 단품 1개와 교환할 수 있는 쿠폰.")
 $(".ItemDesc_귀환_영웅_아바타_교환권").html("뷰티샵에서 아바타 세트로 교환 가능한 교환권\\n일반 아바타 세트와 교환 가능하다.")
