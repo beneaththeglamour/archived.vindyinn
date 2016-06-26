@@ -152,7 +152,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							}
 						}
 					)
-	$('.desc'\\).each\\( function\\(\\){
+	$('.desc').each( function(){
 $(".ItemDesc_1111_막대과자").html("광곤절을 기념하는 과자. 먹으면 머리 위에 하트가 둥둥 떠다닌다. 솔로지만 왠지 연애하고 있는 느낌이 든다.\\n먹으면 스태미나가 지속적으로 회복되는듯하다. 혼자서도 잘 싸울 수 있겠다는 용기를 얻었다.")
 $(".ItemDesc_Red_Devil_Shoes").html("Clodagh, the fashion leader of Colhen, is cheering for the Red Devils of the other world! She designed this outfit to promote and support the Korean Red Devils.\\nWear this outfit and cheer for Korean Red Devils!\\nEvent item \\(The sale will end when the event ends.\\)\\n\\(Cannot be dyed\\)")
 $(".ItemDesc_Red_Devil_Pants").html("Clodagh, the fashion leader of Colhen, is cheering for the Red Devils of the other world! She designed this outfit to promote and support the Korean Red Devils.\\nWear this outfit and cheer for Korean Red Devils!\\nEvent item \\(The sale will end when the event ends.\\)\\n\\(Cannot be dyed\\)")
