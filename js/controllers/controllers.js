@@ -152,7 +152,10 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							}
 						}
 					)
-	
+				var url = "/js/descriptions.js";
+							$.getScript( url, function() {
+								RunningDescriptions()
+							})
 
 						console.log('DataTable loaded.')
 						if (WhatIsTheURL.indexOf('expertise') == 1) {
