@@ -146,6 +146,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							}
 						}
 					)
+					$('.desc').each(
+						function(){
+							ValueofDesc = $(this).attr('value')
+							TransformedDescClass = ValueofDesc.replace(/ /g,'_')
+							$(this).addClass('ItemDesc_'+TransformedDescClass)
+						}
+					)
 				var url = "/js/descriptions.js";
 							$.getScript( url, function() {
 								RunningDescriptions()

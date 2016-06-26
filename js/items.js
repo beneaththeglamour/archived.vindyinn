@@ -67,7 +67,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '								<span class="restriction skilllvlres">Rank <span class="checkskillreq">{{item.RequiredSkill}}</span> {{item.RequiredSkillRank}} or above</span> 			 		'+
 '							</div> 			 		'+
 '							<span class="uses">{{item.Uses}}</span> 			 		'+
-'							<span class="desc ItemDesc_{{item.ItemClass}}">{{item.Desc}}</span> 			 		'+
+'							<span class="desc" value="{{item.ItemClass}}">{{item.Desc}}</span> 			 		'+
 '							<span class="trade" value="{{item.TradeRestirction}}"></span> '+
 '						</div> 	'+
 '					</div> '+
