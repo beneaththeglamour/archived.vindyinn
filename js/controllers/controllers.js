@@ -110,12 +110,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								$(this).show();
 							} else {$(this).hide();}
 						});
-					$('.desc').each(function(){
-					hidedesc = $(this).html();
-						if (hidedesc != "") {
-						$(this).css({'display':'block'});
-						}
-					})
 					$('.eventcheck').each(function(){
 						IsThisEvent = $(this).attr('value')
 						if (IsThisEvent == 'DEFAULT') {
