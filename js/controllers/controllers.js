@@ -180,6 +180,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
+					WhatIsTheURL = window.location.pathname
 					RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
 					$('#searchmenu').click(RemoveSearch)
 					
