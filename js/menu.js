@@ -1,4 +1,5 @@
-$('#cssmenu').html('<ul>'+
+MenuList = function() {
+	$('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
 	'<li><a href="">Items</a>'+
 		'<ul>'+
@@ -130,4 +131,4 @@ $('#cssmenu').html('<ul>'+
 	'<li><a href="/">Maps</a></li>'+
 	'<li><a href="/">Stories</a></li>'+
 	'<li><a href="/">NPCs</a></li>'+
-'</ul>')			
+'</ul>')			}

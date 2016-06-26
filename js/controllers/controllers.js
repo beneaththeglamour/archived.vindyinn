@@ -163,7 +163,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							})
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
-								Menu()
+								MenuList()
 							})	
 
 	
@@ -414,7 +414,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							})
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
-								Menu()
+								MenuList()
 							})			
 }, 200);
 			}); 
