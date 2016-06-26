@@ -158,16 +158,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								RunningDescriptions()
 							})
 
-						console.log('DataTable loaded.')
-						if (WhatIsTheURL.indexOf('expertise') == 1) {
-							$('table').DataTable({
-								"order": [[ 2, "asc" ]]
-							});
-						} else {
-							$('table').DataTable({
-								"order": [[ 1, "asc" ]]
-							});
-						}
 $('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
 	'<li><a href="">Items</a>'+
