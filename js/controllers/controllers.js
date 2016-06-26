@@ -68,6 +68,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							if (checkclasses == '72') {$(this).html('Karok, Hurk')}
 							if (checkclasses == '772') {$(this).html('Evie, Arisha, Sylas')}
 							if (checkclasses == '1024') {$(this).html('Delia')}
+							if (checkclasses == '1446') {$(this).html('Fiona, Evie, Vella, Lynn, Arisha, Delia')}
+							if (checkclasses == '601') {$(this).html('Lann, Karok, Kai, Hurk, Sylas')}
 					})
 					$('.checkreqlvl').each(function(){
 						checklvl = $(this).html()
@@ -349,6 +351,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							if (checkclasses == '72') {$(this).html('Karok, Hurk')}
 							if (checkclasses == '772') {$(this).html('Evie, Arisha, Sylas')}
 							if (checkclasses == '1024') {$(this).html('Delia')}
+							if (checkclasses == '1446') {$(this).html('Fiona, Evie, Vella, Lynn, Arisha, Delia')}
+							if (checkclasses == '601') {$(this).html('Lann, Karok, Kai, Hurk, Sylas')}
 					})
 					$('.checkreqlvl').each(function(){
 						checklvl = $(this).html()
@@ -365,6 +369,24 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						} else {
 							$(this).parent().hide();
 						}
+					})
+					$('.skillrank').each(function(){
+						WhatIsTheSkillRank = $(this).attr('value')
+						if (WhatIsTheSkillRank == '1') {$(this).html('F')}
+						if (WhatIsTheSkillRank == '2') {$(this).html('E')}
+						if (WhatIsTheSkillRank == '3') {$(this).html('D')}
+						if (WhatIsTheSkillRank == '4') {$(this).html('C')}
+						if (WhatIsTheSkillRank == '5') {$(this).html('B')}
+						if (WhatIsTheSkillRank == '6') {$(this).html('A')}
+						if (WhatIsTheSkillRank == '7') {$(this).html('9')}
+						if (WhatIsTheSkillRank == '8') {$(this).html('8')}
+						if (WhatIsTheSkillRank == '9') {$(this).html('7')}
+						if (WhatIsTheSkillRank == '10') {$(this).html('6')}
+						if (WhatIsTheSkillRank == '11') {$(this).html('5')}
+						if (WhatIsTheSkillRank == '12') {$(this).html('4')}
+						if (WhatIsTheSkillRank == '13') {$(this).html('3')}
+						if (WhatIsTheSkillRank == '14') {$(this).html('2')}
+						if (WhatIsTheSkillRank == '15') {$(this).html('1')}
 					})
 					$('.stat').each(function() {
 							doihide = $(this).attr("value");
