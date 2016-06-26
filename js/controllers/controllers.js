@@ -540,7 +540,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-					RunningDescriptions()
+					var url = "/js/descriptions.js";
+							$.getScript( url, function() {
+								RunningDescriptions()
+							}
 					console.log('Loaded ' + replacestart)
 $('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
