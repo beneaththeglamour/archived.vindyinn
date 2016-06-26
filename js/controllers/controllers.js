@@ -11,6 +11,10 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						if (WhatIsTheURL == '/weapon/bastard+sword') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/phantom+daggers') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/spellsword') {$('tr').each(function(){$(this).children().last().hide()})}
+						
+						RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
+						$('#searchmenu').click(RemoveSearch)
+						
 						$('.tagname').each(function(){
 							console.log('I swapped the underscores for you.')
 							tagpopup = $(this).attr('title');
@@ -176,6 +180,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
+					RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
+					$('#searchmenu').click(RemoveSearch)
 					
 					$('#tabs').tabs();
 					weight = parseInt($('#weight').attr('value'));
