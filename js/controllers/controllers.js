@@ -1885,7 +1885,7 @@ $(".ItemDesc_키리토_화난_얼굴\\(신발\\(신발\\)__아바타,_2일\\(신
 $(".ItemDesc_키리토_화난_얼굴\\(신발\\(신발\\)__아바타\\(신발\\)_").html("0")
 $(".ItemDesc_키리토_화난_얼굴\\'\\(신발\\(신발\\)__레어_아바타\\(신발\\)_").html("0")
 $(".ItemDesc_키리토_우울한_얼굴\\(신발\\(신발\\)__아바타,_2일\\(신발\\)_").html("0")
-$(".ItemDesc_키리토_우울한_얼굴\\(신발\\(신발\\)__아바타\\(신발\\)_").html("0"\\)	
+$(".ItemDesc_키리토_우울한_얼굴\\(신발\\(신발\\)__아바타\\(신발\\)_").html("0")	
 $(".ItemDesc_키리토_우울한_얼굴\\'\\(신발\\(신발\\)__레어_아바타\\(신발\\)_").html("0")
 $(".ItemDesc_Kirito_the_Black_Swordsman_Pants_\\(신발\\(신발\\)__Avatar,_2_Days\\(신발\\)_").html("0")
 $(".ItemDesc_Kirito_the_Black_Swordsman_Pants_\\(신발\\(신발\\)__Avatar\\(신발\\)_").html("0")
@@ -17632,7 +17632,7 @@ $(".ItemDesc_Yeti_Leather").html("Leather of the legendary Yeti. Due to the thic
 $(".ItemDesc_White_Yeti_Mane").html("Mane of the legendary Yeti. The outer fur is too tough to be used for anything. Only the inner fur can be used. It is very warm. \\nFerghus may be able to use it as material for a weapon or armor.")
 $(".ItemDesc_쫑즈_열쇠").html("단오절 쫑즈 주머니를 열기 위해 필요한 열쇠.\\n단오절 쫑즈 주머니는 전투를 완수하다보면 얻을 수 있다.")
 $(".ItemDesc_쫑즈").html("만든지 얼마 안된 맛있는 쫑즈.\\n김이 모락모락 나고 있다. 정말 맛있어 보인다.\\n퀵슬롯에 등록하고 사용하면 특별한 효과를 받을 수 있다고 한다.")
-$(".ItemDesc_Zyarga\\'s_Sword_Fragment").html("A fragment from Zyarga's sword after it went flying and landed in a wall. \\nObtained by defeating Zyarga"\\)
+$(".ItemDesc_Zyarga\\'s_Sword_Fragment").html("A fragment from Zyarga's sword after it went flying and landed in a wall. \\nObtained by defeating Zyarga")
 $(this).css({'display':'block'})
 })
 
