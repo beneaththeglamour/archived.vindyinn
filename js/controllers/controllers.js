@@ -320,10 +320,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
 					$('.mainiteminput').val(replacestart).trigger('input');
-					console.log('DataTable loaded.');
-					$('table').DataTable({
-							"order": [[ 2, "asc" ]]
-					});
 					$('#classresvalue').each(
 					function(){
 					checkclasses = $('#classresvalue').html();
@@ -544,6 +540,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
+					console.log('DataTable loaded.');
+					$('table').DataTable({
+							"order": [[ 2, "asc" ]]
+					});
 					console.log('Loaded ' + replacestart)
 $('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
