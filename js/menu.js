@@ -104,7 +104,7 @@ MenuList = function() {
 				'<ul>'+
 					'<li><a href="/consumable/avatar-dye-ampoule">Avatar Dye Ampoule</a></li>'+
 					'<li><a href="/consumable/cash-consumable">Cash Consumable</a></li>'+
-					'<li><a href="/consumable/clodaghs-dye-ampoule">Clodagh\'s Dye Ampoule</a></li>'+
+					'<li><a href="/consumable/clodaghs-dye-ampoule">Clodagh&apos;s Dye Ampoule</a></li>'+
 					'<li><a href="/consumable/cooking">Cooking</a></li>'+
 					'<li><a href="/consumable/etc">Etc.</a></li>'+
 					'<li><a href="/consumable/feather">Feather</a></li>'+
