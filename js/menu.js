@@ -107,7 +107,27 @@ MenuList = function() {
 					'<li><a href="/consumable/cash-consumable">Cash Consumable</a></li>'+
 					'<li><a href="/consumable/clodaghs-dye-ampoule">Clodagh&apos;s Dye Ampoule</a></li>'+
 					'<li><a href="/consumable/cooking">Cooking</a></li>'+
-					'<li><a href="/consumable/etc">Etc.</a></li>'+
+					'<li><a href="">Etc.</a>'+
+						'<ul>'+
+							'<li><a href="/consumable/adventurer-kit">Adventurer Kit</a></li>'+
+							'<li><a href="/consumable/avatar-package">Avatar Package</a></li>'+
+							'<li><a href="/consumable/bullet">Bullet</a></li>'+
+							'<li><a href="/consumable/capsule">capsule</a></li>'+
+							'<li><a href="/consumable/emblem">Emblem</a></li>'+
+							'<li><a href="/consumable/gachapon-outfit">Gachapon Outfit</a></li>'+
+							'<li><a href="/consumable/gachapon-weapon">Gachapon Weapon</a></li>'+
+							'<li><a href="/consumable/gem">Gem</a></li>'+
+							'<li><a href="/consumable/hair-style">Hair Style</a></li>'+
+							'<li><a href="/consumable/inner-armor">Inner Armor</a></li>'+
+							'<li><a href="/consumable/NX-item">NX item</a></li>'+
+							'<li><a href="/consumable/other">Other</a></li>'+
+							'<li><a href="/consumable/potion">Potion</a></li>'+
+							'<li><a href="/consumable/regular-item">Regular Item</a></li>'+
+							'<li><a href="/consumable/set">Set</a></li>'+
+							'<li><a href="/consumable/title-scroll">Title Scroll</a></li>'+
+							
+						'</ul>'+
+					'</li>'+
 					'<li><a href="/consumable/feather">Feather</a></li>'+
 					'<li><a href="/consumable/potion">Potion</a></li>'+
 					'<li><a href="/consumable/secondary-weapon">Secondary Weapon</a></li>'+
