@@ -142,9 +142,9 @@ MenuList = function() {
 	'<li><a href="/">Maps</a></li>'+
 	'<li><a href="/">Stories</a></li>'+
 	'<li><a href="/">NPCs</a></li>'+
-'</ul>')			}
+'</ul>')			
 
- $.fn.menumaker = function(options) {
+$.fn.menumaker = function(options) {
       
       var cssmenu = $(this), settings = $.extend({
         title: "Menu",
@@ -196,3 +196,7 @@ MenuList = function() {
    format: "multitoggle"
 });
 console.log('CSSMenu Up')
+
+}
+
+ 
