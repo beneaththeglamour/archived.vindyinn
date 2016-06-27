@@ -109,22 +109,22 @@ MenuList = function() {
 					'<li><a href="/consumable/cooking">Cooking</a></li>'+
 					'<li><a href="">Etc.</a>'+
 						'<ul>'+
-							'<li><a href="/consumable/adventurer-kit">Adventurer Kit</a></li>'+
-							'<li><a href="/consumable/avatar-package">Avatar Package</a></li>'+
-							'<li><a href="/consumable/bullet">Bullet</a></li>'+
-							'<li><a href="/consumable/capsule">capsule</a></li>'+
-							'<li><a href="/consumable/emblem">Emblem</a></li>'+
-							'<li><a href="/consumable/gachapon-outfit">Gachapon Outfit</a></li>'+
-							'<li><a href="/consumable/gachapon-weapon">Gachapon Weapon</a></li>'+
-							'<li><a href="/consumable/gem">Gem</a></li>'+
-							'<li><a href="/consumable/hair-style">Hair Style</a></li>'+
-							'<li><a href="/consumable/inner-armor">Inner Armor</a></li>'+
-							'<li><a href="/consumable/NX-item">NX item</a></li>'+
-							'<li><a href="/consumable/other">Other</a></li>'+
-							'<li><a href="/consumable/potion">Potion</a></li>'+
-							'<li><a href="/consumable/regular-item">Regular Item</a></li>'+
-							'<li><a href="/consumable/set">Set</a></li>'+
-							'<li><a href="/consumable/title-scroll">Title Scroll</a></li>'+
+							'<li><a href="/consumable/etc/adventurer-kit">Adventurer Kit</a></li>'+
+							'<li><a href="/consumable/etc/avatar-package">Avatar Package</a></li>'+
+							'<li><a href="/consumable/etc/bullet">Bullet</a></li>'+
+							'<li><a href="/consumable/etc/capsule">capsule</a></li>'+
+							'<li><a href="/consumable/etc/emblem">Emblem</a></li>'+
+							'<li><a href="/consumable/etc/gachapon-outfit">Gachapon Outfit</a></li>'+
+							'<li><a href="/consumable/etc/gachapon-weapon">Gachapon Weapon</a></li>'+
+							'<li><a href="/consumable/etc/gem">Gem</a></li>'+
+							'<li><a href="/consumable/etc/hair-style">Hair Style</a></li>'+
+							'<li><a href="/consumable/etc/inner-armor">Inner Armor</a></li>'+
+							'<li><a href="/consumable/etc/NX-item">NX item</a></li>'+
+							'<li><a href="/consumable/etc/other">Other</a></li>'+
+							'<li><a href="/consumable/etc/potion">Potion</a></li>'+
+							'<li><a href="/consumable/etc/regular-item">Regular Item</a></li>'+
+							'<li><a href="/consumable/etc/set">Set</a></li>'+
+							'<li><a href="/consumable/etc/title-scroll">Title Scroll</a></li>'+
 							
 						'</ul>'+
 					'</li>'+
