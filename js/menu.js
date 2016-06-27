@@ -76,7 +76,18 @@ MenuList = function() {
 				'</ul>'+
 			'</li>'+
 			'<li><a href="">Consumables</a></li>'+
-			'<li><a href="">Materials</a></li>'+
+			'<li><a href="">Materials</a>'+
+				'<ul>'+
+					'<li><a href="/materials/enchant">Enchant</a></li>'+
+					'<li><a href="/materials/erg-crystal">Erg Crystal</a></li>'+
+					'<li><a href="/materials/etc">Etc.</a></li>'+
+					'<li><a href="/materials/leather">Leather</a></li>'+
+					'<li><a href="/materials/ore">Ore</a></li>'+
+					'<li><a href="/materials/power-infusion">Power Infusion</a></li>'+
+					'<li><a href="/materials/remnant">Remnant</a></li>'+
+					'<li><a href="/materials/secondary-materials">Secondary Materials</a></li>'+
+				'</ul>'+
+			'</li>'+
 			'<li><a href="">Battle</a>'+
 				'<ul>'+
 					'<li><a href="/battle/loot">Loot</a></li>'+
@@ -132,3 +143,55 @@ MenuList = function() {
 	'<li><a href="/">Stories</a></li>'+
 	'<li><a href="/">NPCs</a></li>'+
 '</ul>')			}
+
+ $.fn.menumaker = function(options) {
+      
+      var cssmenu = $(this), settings = $.extend({
+        title: "Menu",
+        format: "dropdown",
+        sticky: false
+      }, options);
+
+      return this.each(function() {
+        cssmenu.prepend('<div id="menu-button">' + settings.title + '</div>');
+        $(this).find("#menu-button").on('click', function(){
+          $(this).toggleClass('menu-opened');
+          var mainmenu = $(this).next('ul');
+          if (mainmenu.hasClass('open')) { 
+            mainmenu.hide().removeClass('open');
+          }
+          else {
+            mainmenu.show().addClass('open');
+            if (settings.format === "dropdown") {
+              mainmenu.find('ul').show();
+            }
+          }
+        });
+
+        cssmenu.find('li ul').parent().addClass('has-sub');
+
+        multiTg = function() {
+          cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
+          cssmenu.find('.submenu-button').on('click', function() {
+            $(this).toggleClass('submenu-opened');
+            if ($(this).siblings('ul').hasClass('open')) {
+              $(this).siblings('ul').removeClass('open').hide();
+            }
+            else {
+              $(this).siblings('ul').addClass('open').show();
+            }
+          });
+        };
+
+        if (settings.format === 'multitoggle') multiTg();
+        else cssmenu.addClass('dropdown');
+
+        if (settings.sticky === true) cssmenu.css('position', 'fixed');
+
+      });
+  };
+  
+  $("#cssmenu").menumaker({
+   title: "Menu",
+   format: "multitoggle"
+});
