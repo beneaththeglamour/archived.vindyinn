@@ -13,7 +13,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						if (WhatIsTheURL == '/weapon/cestus') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/cross-gun') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/glaive') {$('tr').each(function(){$(this).children().last().hide()})}
-						if (WhatIsTheURL == '/weapon/greatsword') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/greatswords') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/long-hammer') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/pillar') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/scythe') {$('tr').each(function(){$(this).children().last().hide()})}
