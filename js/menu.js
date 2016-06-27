@@ -195,3 +195,4 @@ MenuList = function() {
    title: "Menu",
    format: "multitoggle"
 });
+console.log('CSSMenu Up')
