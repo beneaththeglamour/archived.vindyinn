@@ -207,6 +207,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					if (checkclasses == '4') {$(this).html('Evie')}
 					if (checkclasses == '8') {$(this).html('Karok')}
 					if (checkclasses == '16') {$(this).html('Kai')}
+					if (checkclasses == '32') {$(this).html('Vella')}
 					if (checkclasses == '64') {$(this).html('Hurk')}
 					if (checkclasses == '128') {$(this).html('Lynn')}
 					if (checkclasses == '256') {$(this).html('Arisha')}
@@ -342,6 +343,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							if (checkclasses == '4') {$(this).html('Evie')}
 							if (checkclasses == '8') {$(this).html('Karok')}
 							if (checkclasses == '16') {$(this).html('Kai')}
+							if (checkclasses == '32') {$(this).html('Vella')}
 							if (checkclasses == '64') {$(this).html('Hurk')}
 							if (checkclasses == '128') {$(this).html('Lynn')}
 							if (checkclasses == '256') {$(this).html('Arisha')}
