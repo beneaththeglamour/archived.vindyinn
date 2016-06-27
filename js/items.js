@@ -34,8 +34,8 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '									<span class="itemtype">{{item.TradeCategorySub}}, {{item.TradeCategory}}</span> 				'+
 '									<span id="sell">Sell Price</span> 				'+
 '									<span class="right">'+
-'										<span class="number sellingfor">{{item.SellPrice}}</span>'+
 '										<img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack">'+
+'										<span class="number sellingfor">{{item.SellPrice}}</span>'+
 '									</span> 			'+
 '								</span> 					 			'+
 '								<span class="bubble {{item.Rarity}}">{{item.Rarity}} 				'+
