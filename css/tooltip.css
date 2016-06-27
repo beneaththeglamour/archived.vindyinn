@@ -115,9 +115,12 @@
 #weight {
 	color:#e7e7e7 !important;
 }
+.sellingfor {
+	float: right;
+}
 #goldsack {
 	float: right;
-	margin-right: -25px;}
+	margin-right: -32px;}
 #att {	display:none;}
 #matt {	display:none;}
 #balance {	display:none;}
