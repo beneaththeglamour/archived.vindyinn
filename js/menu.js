@@ -100,6 +100,7 @@ MenuList = function() {
 		'</ul>'+
 	'<li><a href="">Items</a>'+
 		'<ul>'+
+			'<li><a href="/event">Event</a></li>'+
 			'<li><a href="">Consumables</a>'+
 				'<ul>'+
 					'<li><a href="/consumable/avatar-dye-ampoule">Avatar Dye Ampoule</a></li>'+
