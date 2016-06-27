@@ -78,11 +78,16 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							if (checkclasses == '512') {$(this).html('Sylas')}
 							if (checkclasses == '1185') {$(this).html('Lann, Vella, Lynn')}
 							if (checkclasses == '516') {$(this).html('Evie, Sylas')}
+							if (checkclasses == '260') {$(this).html('Evie, Arisha')}
 							if (checkclasses == '72') {$(this).html('Karok, Hurk')}
 							if (checkclasses == '772') {$(this).html('Evie, Arisha, Sylas')}
 							if (checkclasses == '1024') {$(this).html('Delia')}
 							if (checkclasses == '1446') {$(this).html('Fiona, Evie, Vella, Lynn, Arisha, Delia')}
 							if (checkclasses == '601') {$(this).html('Lann, Karok, Kai, Hurk, Sylas')}
+							if (checkclasses == '1975') {$(this).html('Lann, Fiona, Evie, Kai, Vella, Lynn, Arisha, Sylas, Delia')}
+							if (checkclasses == '1983') {$(this).html('Lann, Fiona, Evie, Karok, Kai, Vella, Lynn, Arisha, Sylas, Delia')}
+							if (checkclasses == '529') {$(this).html('Lann, Kai, Sylas')}
+							if (checkclasses == '1518') {$(this).html('Fiona, Evie, Karok, Vella, Hurk, Lynn, Arisha, Delia')}
 					})
 					$('.checkreqlvl').each(function(){
 						checklvl = $(this).html()
@@ -215,21 +220,27 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						$('#classres').show();
 					} 
 					if (checkclasses == '1') {$(this).html('Lann')}
-					if (checkclasses == '2') {$(this).html('Fiona')}
-					if (checkclasses == '33') {$(this).html('Lann, Vella')}
-					if (checkclasses == '4') {$(this).html('Evie')}
-					if (checkclasses == '8') {$(this).html('Karok')}
-					if (checkclasses == '16') {$(this).html('Kai')}
-					if (checkclasses == '32') {$(this).html('Vella')}
-					if (checkclasses == '64') {$(this).html('Hurk')}
-					if (checkclasses == '128') {$(this).html('Lynn')}
-					if (checkclasses == '256') {$(this).html('Arisha')}
-					if (checkclasses == '512') {$(this).html('Sylas')}
-					if (checkclasses == '1185') {$(this).html('Lann, Vella, Lynn')}
-					if (checkclasses == '516') {$(this).html('Evie, Sylas')}
-					if (checkclasses == '72') {$(this).html('Karok, Hurk')}
-					if (checkclasses == '772') {$(this).html('Evie, Arisha, Sylas')}
-					if (checkclasses == '1024') {$(this).html('Delia')}
+							if (checkclasses == '2') {$(this).html('Fiona')}
+							if (checkclasses == '33') {$(this).html('Lann, Vella')}
+							if (checkclasses == '4') {$(this).html('Evie')}
+							if (checkclasses == '8') {$(this).html('Karok')}
+							if (checkclasses == '16') {$(this).html('Kai')}
+							if (checkclasses == '64') {$(this).html('Hurk')}
+							if (checkclasses == '128') {$(this).html('Lynn')}
+							if (checkclasses == '256') {$(this).html('Arisha')}
+							if (checkclasses == '512') {$(this).html('Sylas')}
+							if (checkclasses == '1185') {$(this).html('Lann, Vella, Lynn')}
+							if (checkclasses == '516') {$(this).html('Evie, Sylas')}
+							if (checkclasses == '260') {$(this).html('Evie, Arisha')}
+							if (checkclasses == '72') {$(this).html('Karok, Hurk')}
+							if (checkclasses == '772') {$(this).html('Evie, Arisha, Sylas')}
+							if (checkclasses == '1024') {$(this).html('Delia')}
+							if (checkclasses == '1446') {$(this).html('Fiona, Evie, Vella, Lynn, Arisha, Delia')}
+							if (checkclasses == '601') {$(this).html('Lann, Karok, Kai, Hurk, Sylas')}
+							if (checkclasses == '1975') {$(this).html('Lann, Fiona, Evie, Kai, Vella, Lynn, Arisha, Sylas, Delia')}
+							if (checkclasses == '1983') {$(this).html('Lann, Fiona, Evie, Karok, Kai, Vella, Lynn, Arisha, Sylas, Delia')}
+							if (checkclasses == '529') {$(this).html('Lann, Kai, Sylas')}
+							if (checkclasses == '1518') {$(this).html('Fiona, Evie, Karok, Vella, Hurk, Lynn, Arisha, Delia')}
 					})
 					checklvl = $('#checkreqlvl').html();
 					if (checklvl > '1') {
