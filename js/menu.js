@@ -78,7 +78,10 @@ MenuList = function() {
 			'<li><a href="">Consumables</a></li>'+
 			'<li><a href="">Materials</a>'+
 				'<ul>'+
+					'<li><a href="/materials/bracelet-gem">Bracelet Gem</a></li>'+
+					'<li><a href="/materials/cash-consumable">Cash Consumable</a></li>'+
 					'<li><a href="/materials/enchant">Enchant</a></li>'+
+					'<li><a href="/materials/enhance">Enhance</a></li>'+
 					'<li><a href="/materials/erg-crystal">Erg Crystal</a></li>'+
 					'<li><a href="/materials/etc">Etc.</a></li>'+
 					'<li><a href="/materials/leather">Leather</a></li>'+
@@ -86,6 +89,7 @@ MenuList = function() {
 					'<li><a href="/materials/power-infusion">Power Infusion</a></li>'+
 					'<li><a href="/materials/remnant">Remnant</a></li>'+
 					'<li><a href="/materials/secondary-materials">Secondary Materials</a></li>'+
+					'<li><a href="/materials/skill-awakening-material">Skill Awakening Material</a></li>'+
 				'</ul>'+
 			'</li>'+
 			'<li><a href="">Battle</a>'+
