@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" ng-app="ItemApp">
+<head>
+  <meta charset="utf-8">
+  <title>Bracelet - Accessories &#8226; VinDB</title>
+   <link rel="shortcut icon" href="http://assets.tumblr.com/images/x.gif?v=1" />
+<link rel="stylesheet" href="http://static.tumblr.com/aiwikf1/8suo7dw6i/menubar.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<meta name="google-site-verification" content="uPGglZhUD5Q7p0Owg26nWSxYHjc3DCUTTb1Hy3hrc5s" />
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="http://static.tumblr.com/aiwikf1/QoNo7cpzv/datatable.js"></script><!--datatablejs-->
+  <script type="text/javascript" src="http://static.tumblr.com/aiwikf1/TXEo3i7w8/menubar.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
+<script>filter = '{&#39;TradeCategory&#39;:&#39;Accessory&#39;,&#39;TradeCategorySub&#39;:&#39;Bracelet&#39;}:true'</script>
+
+  <script type="text/javascript" src="/js/items.js"></script>
+  <script type="text/javascript" src="/js/controllers/controllers.js"></script>
+  <link rel="stylesheet" href="/css/dbstyle.css" />
+  <link rel="stylesheet" href="/css/dbbase.css">
+  
+  <link rel="stylesheet" href="/css/table.css" />
+  <link rel="stylesheet" href="/css/tooltip.css">
+  <link rel="stylesheet" href="/css/list.css">
+  
+  <link rel="stylesheet" href="/css/itemicons.css">
+
+
+</head>
+<body>
+<h1><img src="http://assets.tumblr.com/images/x.gif?v=1" class="homeicon" />The Vindictus Inn &#8226; Bracelet</h1>
+<div id="bg" class="bg_index">
+    
+		<section id="events" class="page1">
+        <img src="http://i.imgur.com/attdkBg.png" border="0" usemap="#quickslot" />
+    <map name="quickslot" id="quickslot">
+        <area shape="rect" coords="45,24,79,57" href="http://vindictusinn.com/vindictus+guides" alt="Guides"/><span>Guides</span>
+        <area shape="rect" coords="80,23,114,58" href="http://vindictusinn.com/staffevieguide" alt="Staff Evie Guide"/><span>Staff Evie Guide</span>
+        <area shape="rect" coords="120,25,154,59" href="http://vindictusinn.com/aprestore" alt="AP Restoration Calculator"/><span>AP Restoration Calculator</span>
+        <area shape= "rect" coords="158,23,194,58" href="http://titles.vindictusinn.com/" alt="Title List"/><span>Title List</span>
+        <area shape="rect" coords="195,23,233,59" href="http://vindictusinn.com/dyepreviewer" alt="Dye Previewer"/><span>Dye Previewer</span>
+        <area shape="rect" coords="242,23,278,60" href="http://vindictusinn.com/emotes" alt="Emotes"/><span>Emotes</span>
+        <area shape="rect" coords="281,23,318,59" href="http://vindictusinn.com/minmaxstats" alt="Level 90 Min/Max Stats"/><span>Level 90 Stats & Abilities</span>
+        <area shape="rect" coords="319,24,357,61" href="http://vindictusinn.com/tagged/outfitter" alt="Outfitters"/><span>Outfitters</span>
+        <area shape="rect" coords="358,23,395,60" href="http://vindictusinn.com/tagged/hair" alt="Hair"/><span>Hair</span>
+        <area shape="rect" coords="397,25,430,60" href="http://vindictusinn.com/transbuild"><span>Transformation Build Editor</span>
+    </map>
+
+        </section>
+        
+        <section id="searchmenu">
+		<form action="/search.html" method="get">
+		<input type="text" name="find" value="Search">
+		<input type="submit" value="?">
+		</form>
+		</section>
+
+        
+</div>
+<nav id="cssmenu">
+</nav>
+
+<div class="scopecontain">
+<h2>Accesories > Bracelet</h2>
+<div ng-view></div>
+</div>
+
+<footer style="margin-top:15rem;">
+	<div class="logo">The Vindictus Inn</div>
+	<nav class="footer">
+		<p>For More Vindictus:</p>
+		<a href="http://vindictusinn.com/vindictus+guides">Guides and Other Resources</a>
+		<a href="http://vindictusinn.com/tagged/vindictus+gif">Vindictus .gifs</a>
+		<a href="http://vindictusinn.com/dyepreviewer">Dye Previewer</a>
+		<a href="http://vindictusinn.com/tagged/update">Future Content</a>
+	</nav>
+	<p class="disclaimer">Vindictus content and materials are trademarks and copyrights of their respective publisher and its licensors. All rights reserved.<br /> This site is not affiliated with Nexon.</p>
+	<p id="stats"><script type="text/javascript" src="http://st2.freeonlineusers.com/on3.php?id=1532182"></script> Online Mercenaries | <script src="http://fastwebcounter.com/secure.php?s=www.coronaplease.tumblr.com"></script></p>
+</footer>
+    
+<script id="dsq-count-scr" src="//coronaplease.disqus.com/count.js" async></script>
+   
+</body>
+</html>
