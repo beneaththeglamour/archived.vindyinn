@@ -9,6 +9,19 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						WhatIsTheURL = window.location.pathname
 						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}
 						if (WhatIsTheURL == '/weapon/bastard+sword') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/bow') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/cestus') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/cross-gun') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/glaive') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/greatsword') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/long-hammer') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/pillar') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/scythe') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/staff') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/sword') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/twin-chainblades') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/twin-spears') {$('tr').each(function(){$(this).children().last().hide()})}
+						if (WhatIsTheURL == '/weapon/twin-swords') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/phantom+daggers') {$('tr').each(function(){$(this).children().last().hide()})}
 						if (WhatIsTheURL == '/weapon/spellsword') {$('tr').each(function(){$(this).children().last().hide()})}
 						
