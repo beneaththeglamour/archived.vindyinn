@@ -20,7 +20,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '	<tbody>'+
 '		<tr class="itemlist" ng-repeat="item in ItemVariable | filter : ' + filter + '"> 		'+
 '			<td>'+
-'				<img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/{{item.Icon}}.jpg)"/>'+
+'				<img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/{{item.Icon}}.png)"/>'+
 '			</td> 		'+
 '			<td class="name">'+
 '				<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="{{item.Rarity}} linkname" value="{{item.ItemClass}}">{{item.ItemClass}}</a>'+
@@ -28,7 +28,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '					<div class="border" id="{{item.ItemClass}}"> 	'+
 '						<div class="itemtooltip"> 				 		'+
 '							<div class="icon"> 			'+
-'								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/{{item.Icon}}.jpg)"/> 			'+
+'								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/{{item.Icon}}.png)"/> 			'+
 '								<span class="{{item.Rarity}} rarity">{{item.ItemClass}}</span> 			'+
 '								<span class="bubble"> 				'+
 '									<span class="itemtype">{{item.TradeCategorySub}}, {{item.TradeCategory}}</span> 				'+
