@@ -9,7 +9,8 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '	<strong>You are currently using a live yet uncompleted version of the site.</strong>'+
 '	<br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.'+
 '</div>'+
-'	<table class="itemtable"> '+
+'	<table class="itemtable" style="table-layout:fixed"> '+
+'	<col style="width:57px"> '+
 '	<thead> 	'+
 '		<th class="itemcol"></th> 	'+
 '		<th width="20%">Name</th> 	'+
