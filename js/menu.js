@@ -63,7 +63,15 @@ MenuList = function() {
 					'<li><a href="/weapon/bastard+sword">Bastard Sword</a></li>'+
 				'</ul>'+
 			'</li>'+
-			'<li><a href="">Outfitters</a></li>'+
+			'<li><a href="">Outfitters</a>'+
+				'<ul>'+
+					'<li><a href="/outfitters/helm">Helm</a>'+
+					'<li><a href="/outfitters/tunic">Tunic</a>'+
+					'<li><a href="/outfitters/pants">Pants</a>'+
+					'<li><a href="/outfitters/boots">Boots</a>'+
+					'<li><a href="/outfitters/gloves">Gloves</a>'+
+				'</ul>'+
+			'</li>'+
 			'<li><a href="">Accessories</a>'+
 				'<ul>'+
 					'<li><a href="/accessories/artifact">Artifact</a></li>'+
