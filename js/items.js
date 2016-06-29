@@ -40,7 +40,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '									</span> 			'+
 '								</span> 					 			'+
 '								<span class="bubble {{item.Rarity}}">{{item.Rarity}} 				'+
-'								<span class="right stat weight" value="{{item.Weight}}">'+
+'								<span class="right weight" value="{{item.Weight}}">'+
 '									<span id="changeweight">{{item.Weight}}</span> stones</span> 			'+
 '								</span> 				 		'+
 '							</div> 			 		'+

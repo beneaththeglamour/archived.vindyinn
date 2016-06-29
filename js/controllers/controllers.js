@@ -118,6 +118,12 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								$(this).show();
 							} else {$(this).hide();}
 						});
+					$('.weight').each(function() {
+							doihide = $(this).attr("value");
+							if (doihide != "") {
+								$(this).show();
+							} else {$(this).hide();}
+						});
 					$('.eventcheck').each(function(){
 						IsThisEvent = $(this).attr('value')
 						if (IsThisEvent == 'DEFAULT') {
@@ -268,12 +274,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$(this).attr('title',replacetag)
 							$(this).parent().attr('href','http://db.vindictusinn.com/search.html?find='+replaceforlink)
 						});
-					$('.stat').each(function() {
-							doihide = $(this).attr("value");
-							if (doihide != "") {
-								$(this).show();
-							}
-						});
 					$('.desc').each(function(){
 					hidedesc = $(this).html();
 						if (hidedesc != "") {
@@ -399,6 +399,12 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						if (WhatIsTheSkillRank == '15') {$(this).html('1')}
 					})
 					$('.stat').each(function() {
+							doihide = $(this).attr("value");
+							if (doihide != "") {
+								$(this).show();
+							} else {$(this).hide();}
+						});
+					$('.weight').each(function() {
 							doihide = $(this).attr("value");
 							if (doihide != "") {
 								$(this).show();
