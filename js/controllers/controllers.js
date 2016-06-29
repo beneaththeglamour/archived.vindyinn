@@ -177,7 +177,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							})	
 
 	
-}, 1000);
+}, 200);
 			}); 
 		}]
 );
