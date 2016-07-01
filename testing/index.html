@@ -52,7 +52,7 @@
       // Set the background color of the scene.
 
       // Create a light, set its position, and add it to the scene.
-      var light = new THREE.HemisphereLight( 0xffffbb, 0x080820, 1 );
+      var light = new THREE.HemisphereLight( 0xffffff, 0x666666, 1 );
       scene.add(light);
 
       // Load in the mesh and add it to the scene.
@@ -67,8 +67,8 @@
 			texture2.wrapT = THREE.RepeatWrapping;
 			texture2.repeat.set( 1, 1 );
         material = new THREE.MeshFaceMaterial([
-			new THREE.MeshBasicMaterial( { map: texture2 }),
-			new THREE.MeshBasicMaterial( { map: texture }),
+			new THREE.MeshLambertMaterial( { map: texture2 }),
+			new THREE.MeshLambertMaterial( { map: texture }),
 		]);
         mesh = new THREE.Mesh(geometry, material);
         scene.add(mesh);
