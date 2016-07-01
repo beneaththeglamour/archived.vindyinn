@@ -31,6 +31,7 @@
 
       // Create a renderer and add it to the DOM.
       renderer = new THREE.WebGLRenderer({antialias:true});
+	  renderer = new THREE.WebGLRenderer( { alpha: true } );
       renderer.setSize(WIDTH, HEIGHT);
       document.body.appendChild(renderer.domElement);
 
