@@ -31,8 +31,8 @@
 
       // Create a renderer and add it to the DOM.
       renderer = new THREE.WebGLRenderer({antialias:true});
-	  renderer = new THREE.WebGLRenderer( { alpha: true } );
       renderer.setSize(WIDTH, HEIGHT);
+	  renderer = new THREE.WebGLRenderer( { alpha: true } );
 	  
       document.body.appendChild(renderer.domElement);
 
@@ -51,6 +51,7 @@
       });
 
       // Set the background color of the scene.
+	  
       renderer.setClearColor(0xffffff, 0);
 
       // Create a light, set its position, and add it to the scene.
