@@ -59,7 +59,14 @@
 		texture.wrapS = THREE.RepeatWrapping;
 			texture.wrapT = THREE.RepeatWrapping;
 			texture.repeat.set( 1, 1 );
-        material = new THREE.MeshBasicMaterial({map: texture}),
+		texture2 = THREE.ImageUtils.loadTexture('pc_male_royalguard_upper_metal.gif'),
+		texture2.wrapS = THREE.RepeatWrapping;
+			texture2.wrapT = THREE.RepeatWrapping;
+			texture2.repeat.set( 1, 1 );
+        material = new THREE.MeshFaceMaterial([
+			new THREE.MeshLambertMaterial( { map: texture }),
+			new THREE.MeshLambertMaterial( { map: texture2 }),
+		]);
         mesh = new THREE.Mesh(geometry, material);
         scene.add(mesh);
       });
