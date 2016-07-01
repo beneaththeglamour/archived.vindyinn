@@ -52,8 +52,7 @@
       // Set the background color of the scene.
 
       // Create a light, set its position, and add it to the scene.
-      var light = new THREE.PointLight(0xffffff);
-      light.position.set(-100,200,100);
+      var light = new THREE.HemisphereLight( 0xffffbb, 0x080820, 1 );
       scene.add(light);
 
       // Load in the mesh and add it to the scene.
