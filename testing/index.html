@@ -3,6 +3,10 @@
 <head>
   <title>Model Viewer Testing</title>
   <meta charset="utf-8">
+  <style type="text/css">
+	body {
+	background-image:url(/images/bg/repeat.jpg)}
+  </style>
 </head>
 <body style="margin: 0;">
 
@@ -45,7 +49,7 @@
       });
 
       // Set the background color of the scene.
-      renderer.setClearColorHex(0xffffff, 1);
+      renderer.setClearColorHex(0xffffff, 0);
 
       // Create a light, set its position, and add it to the scene.
       var light = new THREE.PointLight(0xffffff);
@@ -64,8 +68,8 @@
 			texture2.wrapT = THREE.RepeatWrapping;
 			texture2.repeat.set( 1, 1 );
         material = new THREE.MeshFaceMaterial([
-			new THREE.MeshLambertMaterial( { map: texture2 }),
-			new THREE.MeshLambertMaterial( { map: texture }),
+			new THREE.MeshBasicMaterial( { map: texture2 }),
+			new THREE.MeshBasicMaterial( { map: texture }),
 		]);
         mesh = new THREE.Mesh(geometry, material);
         scene.add(mesh);
