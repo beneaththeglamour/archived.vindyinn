@@ -55,10 +55,7 @@
       // Load in the mesh and add it to the scene.
       var loader = new THREE.JSONLoader();
       loader.load( "models/treehouse_logo.js", function(geometry){
-	  texture = new THREE.TextureLoader().load( "pc_female_deviloon_upper.gif" );
-			texture.wrapS = THREE.RepeatWrapping;
-			texture.wrapT = THREE.RepeatWrapping;
-			texture.repeat.set( 4, 4 );
+	  texture = new THREE.TextureLoader().load( "pc_female_deviloon_upper.gif" )
         material = new THREE.MeshBasicMaterial({map: texture}),
         mesh = new THREE.Mesh(geometry, material);
         scene.add(mesh);
