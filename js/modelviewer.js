@@ -12,7 +12,7 @@ SetUpViewer = function() {
       // Create the scene and set the scene size.
       scene = new THREE.Scene();
       var WIDTH = 1266,
-          HEIGHT = 600;
+          HEIGHT = 1400;
 
       // Create a renderer and add it to the DOM.
       renderer = new THREE.WebGLRenderer({antialias:true});
@@ -22,7 +22,7 @@ SetUpViewer = function() {
 
       // Create a camera, zoom it out from the model a bit, and add it to the scene.
       camera = new THREE.PerspectiveCamera(45, WIDTH / HEIGHT, 0.1, 10000);
-      camera.position.set(0,40,90);
+      camera.position.set(0,50,120);
       scene.add(camera);
 
       // Create an event listener that resizes the renderer with the browser window.
