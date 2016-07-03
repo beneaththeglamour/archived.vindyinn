@@ -456,10 +456,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								MenuList()
 							})		
 					$.getScript( "/js/three.min.js", function() {
-								SetUpViewer()
+								RunThree()
 							})		
 					$.getScript( "/js/OrbitControls.js", function() {
-								SetUpViewer()
+								RunOrbit()
 							})		
 					$.getScript( "/js/modelviewer.js", function() {
 								SetUpViewer()
