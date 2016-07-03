@@ -20,6 +20,8 @@ LoadModel = function() {
 			texture.repeat.set( 1, 1 );
         material = new THREE.MeshFaceMaterial([
 			new THREE.MeshLambertMaterial( { map: texture}),
+			new THREE.MeshLambertMaterial( { map: texture}),
+			new THREE.MeshLambertMaterial( { map: texture}),
 		]);
 	}
 }
