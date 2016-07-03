@@ -13,7 +13,7 @@ LoadModel = function() {
 			new THREE.MeshLambertMaterial( { map: texture}),
 		]);
 	}
-	if (finalreplace.indexOf("Betrothed_Dress") != -1) {
+	if (finalreplace.indexOf("Regal_Betrothed_Top") != -1) {
 		texture = THREE.ImageUtils.loadTexture('/viewer/texture/pc_female_traditional_upper.jpg'),
 		texture.wrapS = THREE.RepeatWrapping;
 			texture.wrapT = THREE.RepeatWrapping;
