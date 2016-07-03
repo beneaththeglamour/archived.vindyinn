@@ -1,10 +1,10 @@
 LoadModel = function() {
 	if (finalreplace == 'Royal_Guard_Heavy_Mail') {
-		texture = THREE.ImageUtils.loadTexture('/viewer/texture/pc_male_royalguard_upper.gif'),
+		texture = THREE.ImageUtils.loadTexture('/viewer/texture/pc_male_royalguard_upper.jpg'),
 		texture.wrapS = THREE.RepeatWrapping;
 			texture.wrapT = THREE.RepeatWrapping;
 			texture.repeat.set( 1, 1 );
-		texture2 = THREE.ImageUtils.loadTexture('/viewer/texture/pc_male_royalguard_upper_metal.gif'),
+		texture2 = THREE.ImageUtils.loadTexture('/viewer/texture/pc_male_royalguard_upper_metal.jpg'),
 		texture2.wrapS = THREE.RepeatWrapping;
 			texture2.wrapT = THREE.RepeatWrapping;
 			texture2.repeat.set( 1, 1 );
