@@ -455,6 +455,12 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$.getScript( menu, function() {
 								MenuList()
 							})		
+					$.getScript( "/js/three.min.js", function() {
+								SetUpViewer()
+							})		
+					$.getScript( "/js/OrbitControls.js", function() {
+								SetUpViewer()
+							})		
 					$.getScript( "/js/modelviewer.js", function() {
 								SetUpViewer()
 							})		
