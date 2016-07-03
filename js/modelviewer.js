@@ -39,9 +39,10 @@ SetUpViewer = function() {
       loader.load( "/viewer/models/"+ finalreplace +".js", function(geometry){
 		 $.getScript( '/js/loadmodel.js', function() {
 			LoadModel()
+			mesh = new THREE.Mesh(geometry, material);
+			scene.add(mesh);
 		})
-        mesh = new THREE.Mesh(geometry, material);
-        scene.add(mesh);
+        
       });
 
       // Add OrbitControls so that we can pan around with the mouse.
