@@ -193,8 +193,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					WhatIsTheURL = window.location.pathname
 					RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
 					$('#searchmenu').click(RemoveSearch)
-					
-					$('#tabs').tabs();
 					weight = parseInt($('#weight').attr('value'));
 					updateweight = weight.toFixed(0);
 					$('#changeweight').html(updateweight);
@@ -458,6 +456,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$.getScript( "/js/modelviewer.js", function() {
 								SetUpViewer()
 							})		
+					$('#tabs').tabs();
 }, 200);
 			}); 
 		}]
