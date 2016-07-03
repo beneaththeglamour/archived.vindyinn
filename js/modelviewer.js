@@ -12,7 +12,7 @@ SetUpViewer = function() {
       // Create the scene and set the scene size.
       scene = new THREE.Scene();
       var WIDTH = 1266,
-          HEIGHT = 800;
+          HEIGHT = 600;
 
       // Create a renderer and add it to the DOM.
       renderer = new THREE.WebGLRenderer({antialias:true});
