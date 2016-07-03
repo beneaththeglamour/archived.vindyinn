@@ -1,5 +1,6 @@
 SetUpViewer = function() {
-	 // Set up the scene, camera, and renderer as global variables.
+	
+    // Set up the scene, camera, and renderer as global variables.
     var scene, camera, renderer;
 
     init();
@@ -17,7 +18,7 @@ SetUpViewer = function() {
       renderer = new THREE.WebGLRenderer({antialias:true});
       renderer.setSize(WIDTH, HEIGHT);
 	  
-      $('#model').appendChild(renderer.domElement);
+      document.body.appendChild(renderer.domElement);
 
       // Create a camera, zoom it out from the model a bit, and add it to the scene.
       camera = new THREE.PerspectiveCamera(45, WIDTH / HEIGHT, 0.1, 10000);
@@ -35,20 +36,10 @@ SetUpViewer = function() {
 
       // Load in the mesh and add it to the scene.
       var loader = new THREE.JSONLoader();
-	  LoadModel()
-      loader.load( "models/treehouse_logo.js", function(geometry){
-		texture = THREE.ImageUtils.loadTexture('pc_male_royalguard_upper.gif'),
-		texture.wrapS = THREE.RepeatWrapping;
-			texture.wrapT = THREE.RepeatWrapping;
-			texture.repeat.set( 1, 1 );
-		texture2 = THREE.ImageUtils.loadTexture('pc_male_royalguard_upper_metal.gif'),
-		texture2.wrapS = THREE.RepeatWrapping;
-			texture2.wrapT = THREE.RepeatWrapping;
-			texture2.repeat.set( 1, 1 );
-        material = new THREE.MeshFaceMaterial([
-			new THREE.MeshLambertMaterial( { map: texture2 }),
-			new THREE.MeshStandardMaterial( { map: texture, metalness:1.0 }),
-		]);
+      loader.load( "/viewer/models/"+ finalreplace +".js", function(geometry){
+		 $.getScript( '/js/loadmodel.js', function() {
+			LoadModel()
+		})
         mesh = new THREE.Mesh(geometry, material);
         scene.add(mesh);
       });
