@@ -46,7 +46,7 @@ SetUpViewer = function() {
       });
 
       // Add OrbitControls so that we can pan around with the mouse.
-      controls = new THREE.OrbitControls(camera, renderer.domElement);
+      controls = new THREE.OrbitControls(camera, '#model');
 
     }
 
