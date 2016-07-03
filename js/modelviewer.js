@@ -1,21 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>Model Viewer Testing</title>
-  <meta charset="utf-8">
-  <style type="text/css">
-	body {
-	background-image:url(http://i.imgur.com/WnorI8M.jpg)}
-  </style>
-</head>
-<body style="margin: 0;">
-
-  <script src="js/three.min.js"></script>
-  <script src="js/OrbitControls.js"></script>
-
-  <script>
-
-    // Set up the scene, camera, and renderer as global variables.
+SetUpViewer = function() {
+	 // Set up the scene, camera, and renderer as global variables.
     var scene, camera, renderer;
 
     init();
@@ -33,7 +17,7 @@
       renderer = new THREE.WebGLRenderer({antialias:true});
       renderer.setSize(WIDTH, HEIGHT);
 	  
-      document.body.appendChild(renderer.domElement);
+      $('#model').appendChild(renderer.domElement);
 
       // Create a camera, zoom it out from the model a bit, and add it to the scene.
       camera = new THREE.PerspectiveCamera(45, WIDTH / HEIGHT, 0.1, 10000);
@@ -51,6 +35,7 @@
 
       // Load in the mesh and add it to the scene.
       var loader = new THREE.JSONLoader();
+	  LoadModel()
       loader.load( "models/treehouse_logo.js", function(geometry){
 		texture = THREE.ImageUtils.loadTexture('pc_male_royalguard_upper.gif'),
 		texture.wrapS = THREE.RepeatWrapping;
@@ -85,8 +70,4 @@
       controls.update();
 
     }
-
-  </script>
-
-</body>
-</html>
+}
