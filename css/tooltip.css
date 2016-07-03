@@ -208,3 +208,10 @@ table {
 .fee {
 	color:#c19f56;
 }
+#model {
+	background:url('http://i.imgur.com/WnorI8M.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
