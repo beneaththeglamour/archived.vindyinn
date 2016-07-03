@@ -18,7 +18,7 @@ SetUpViewer = function() {
       renderer = new THREE.WebGLRenderer({antialias:true});
       renderer.setSize(WIDTH, HEIGHT);
 	  
-      $('#model').appendChild(renderer.domElement);
+      $('#model').append(renderer.domElement);
 
       // Create a camera, zoom it out from the model a bit, and add it to the scene.
       camera = new THREE.PerspectiveCamera(45, WIDTH / HEIGHT, 0.1, 10000);
