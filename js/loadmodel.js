@@ -14,7 +14,7 @@ LoadModel = function() {
 		]);
 	}
 	if (finalreplace.indexOf("Regal_Betrothed_Top") != -1) {
-		texture = THREE.ImageUtils.loadTexture('/viewer/texture/pc_female_traditional_upper.jpg'),
+		texture = THREE.ImageUtils.loadTexture('/viewer/texture/pc_female_traditional_upper.png'),
 		texture.wrapS = THREE.RepeatWrapping;
 			texture.wrapT = THREE.RepeatWrapping;
 			texture.repeat.set( 1, 1 );
