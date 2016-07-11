@@ -227,7 +227,7 @@ table {
 	display: block;
 	margin-right: 0.6rem;
 }
-.enchantrank {
+.prefixrank .RankEnum {
 	color:rgb(218,142,18);
 }
 .enchantinfo {

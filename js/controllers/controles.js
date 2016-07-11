@@ -173,6 +173,26 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							ReplaceESStats()
 							ReplaceESCondition()
 							ItemConstraint()
+							
+							$('.RankEnum').each(function(){
+								RankNum = $(this).attr('value')
+								if (RankNum == "1") {$(this).html("F")}
+								if (RankNum == "2") {$(this).html("E")}
+								if (RankNum == "3") {$(this).html("D")}
+								if (RankNum == "4") {$(this).html("C")}
+								if (RankNum == "5") {$(this).html("B")}
+								if (RankNum == "6") {$(this).html("A")}
+								if (RankNum == "7") {$(this).html("9")}
+								if (RankNum == "8") {$(this).html("8")}
+								if (RankNum == "9") {$(this).html("7")}
+								if (RankNum == "10") {$(this).html("6")}
+								if (RankNum == "11") {$(this).html("5")}
+								if (RankNum == "12") {$(this).html("4")}
+								if (RankNum == "13") {$(this).html("3")}
+								if (RankNum == "14") {$(this).html("2")}
+								if (RankNum == "15") {$(this).html("1")}
+							})
+							
 							$('.isPrefix').each(function(){
 								IsPrefix = $(this).attr('value')
 								if (IsPrefix == 'True') {$(this).html('Prefix')}
