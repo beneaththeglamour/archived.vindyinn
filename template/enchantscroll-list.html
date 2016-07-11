@@ -34,10 +34,14 @@
 							</div> 			 		
 									 		
 							<div class="containres"> 				 			
-								<span class="restriction classres">For <span class="classresvalue">{{item.ItemConstraintDesc}}</span></span> 		
+								<span class="restriction classres"><span class="classresvalue">{{item.ItemConstraintDesc}}</span></span> 		
 							</div> 			 		
 							<span class="desc">An enchant scroll that lets you infuse a piece of equipment with magical power.
-Brynn probably knows how to use this.</span> 			 		
+Brynn probably knows how to use this.</span>
+							<span class="enchantid">
+								<span>{{item.EnchantClass}}</span>
+								<span class="prefixrank">{{item.IsPrefix}}<span class="enchantrank">{{item.EnchantLevel}}</span>Rank</span>
+							</span>
 							<span class="trade" value="{{item.TradeRestirction}}"></span> 
 						</div> 	
 					</div> 
