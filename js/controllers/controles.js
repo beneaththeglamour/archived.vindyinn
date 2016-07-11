@@ -17,12 +17,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						
 						$('.linkname').each(function(){
 							EnchantScrollName = $(this).attr('value')
-							$.getScript( '/js/enchantscrollnames.js', function() {
+							$('.Input'+EnchantScrollName).val(EnchantScrollName).trigger('input');
+						})
+						
+						$.getScript( '/js/enchantscrollnames.js', function() {
 								UpperEnchantName = EnchantScrollName.toUpperCase()
 								ReplaceEnchantScrollName()
 							})
-							$('.Input'+EnchantScrollName).val(EnchantScrollName).trigger('input');
-						})
 						
 						$('.tagname').each(function(){
 							console.log('I swapped the underscores for you.')
