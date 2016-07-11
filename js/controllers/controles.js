@@ -84,6 +84,9 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).parent().hide();
 						}
 					})
+					$('.desc').each(function(){
+						$(this).show()
+					})
 					$('.checkskillreq').each(function(){
 						checkskill = $(this).html()
 							if (checkskill != "") {

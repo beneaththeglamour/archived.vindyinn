@@ -36,12 +36,12 @@
 							<div class="containres"> 				 			
 								<span class="restriction classres"><span class="classresvalue">{{item.ItemConstraintDesc}}</span></span> 		
 							</div> 			 		
-							<span class="desc">An enchant scroll that lets you infuse a piece of equipment with magical power.
-Brynn probably knows how to use this.</span>
-							<span class="enchantid">
+							<div class="desc">
+							An enchant scroll that lets you infuse a piece of equipment with magical power. Brynn probably knows how to use this.
+							<div class="enchantid">
 								<span>{{item.EnchantClass}}</span>
 								<span class="prefixrank">{{item.IsPrefix}}<span class="enchantrank">{{item.EnchantLevel}}</span>Rank</span>
-							</span>
+							</div>
 							<div class="enchantinfo">
 								<ul class="enchantstatlist">
 									<span ng-repeat="item in ItemVariable2 | filter : {'EnchantClass':'acid'}:true">
@@ -49,6 +49,7 @@ Brynn probably knows how to use this.</span>
 										<li class="enchantstatconstraint">{{item.ConditionDesc}}</li>
 									</span>
 								</ul>
+							</div>
 							</div>
 							<span class="trade" value="{{item.TradeRestirction}}"></span> 
 						</div> 	
