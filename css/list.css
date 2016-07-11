@@ -140,14 +140,3 @@ color: #ddd;}
 .weight {
 	color:white !important;
 }
-.enchantid {
-	color:rgb(170,170,170);
-	font-size:large;
-}
-.prefixrank {
-	float:right;
-	display:block;
-}
-.enchantrank {
-	color:rgb(218,142,18);
-}

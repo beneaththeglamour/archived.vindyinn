@@ -215,3 +215,26 @@ table {
   -o-background-size: cover;
   background-size: cover;
 }
+.enchantid {
+	color:rgb(170,170,170);
+	font-size:large;
+}
+.prefixrank {
+	float:right;
+	display:block;
+}
+.enchantrank {
+	color:rgb(218,142,18);
+}
+.enchantinfo {
+	width: 98%;
+    display: block;
+    background-color: #101012;
+    border-radius: 2px;
+    border: 1px solid #333;
+    margin-bottom: 0.2rem;
+    padding-left: 0.2rem;
+    color: gray;
+    height: 1.1rem;
+	box-shadow: 0px 0px 5px 0px #575151;
+}
