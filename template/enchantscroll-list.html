@@ -14,7 +14,7 @@
 		<tr class="itemlist" ng-repeat="item in ItemVariable"> 		
 			<td><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/enchant_scroll.png)"/></td>
 	 		<td class="name" width="20%">
-				<a href="#!/item/{{ItemVariable.indexOf(item)}}" class="Beginner linkname" value="{{item.EnchantClass}}">{{item.EnchantClass}} Enchant Scroll</a>
+				<a href="#!/item/{{ItemVariable.indexOf(item)}}" class="Beginner linkname" value="{{item.EnchantClass|uppercase}}">{{item.EnchantClass}} Enchant Scroll</a>
 				<div class="hidetooltip">
 					<div class="border" id="{{item.EnchantClass}}"> 	
 						<div class="itemtooltip"> 				 		

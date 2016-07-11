@@ -1,0 +1,257 @@
+ ReplaceEnchantScrollName = function(){
+		if (EnchantScrollName == "ACID") {$(this).html("Swift")}
+		if (EnchantScrollName == "ADROIT") {$(this).html("Even")}
+		if (EnchantScrollName == "ADVENTURER") {$(this).html("Explorer's")}
+		if (EnchantScrollName == "ADVENTURER_100") {$(this).html("Explorer's")}
+		if (EnchantScrollName == "AGILE") {$(this).html("Lightning")}
+		if (EnchantScrollName == "ANTIQUE") {$(this).html("Impending")}
+		if (EnchantScrollName == "ANTIQUE_100") {$(this).html("Impending")}
+		if (EnchantScrollName == "ATK1000DAY90") {$(this).html("Very Heartless")}
+		if (EnchantScrollName == "ATK500DAY30") {$(this).html("꽤 냉혹한")}
+		if (EnchantScrollName == "ATK500DAY60") {$(this).html("Quite Heartless")}
+		if (EnchantScrollName == "ATK500DAY7") {$(this).html("꽤 냉혹한")}
+		if (EnchantScrollName == "ATK50DAY30") {$(this).html("Heartless")}
+		if (EnchantScrollName == "ATK50DAY7") {$(this).html("냉혹한")}
+		if (EnchantScrollName == "AWKWARD") {$(this).html("Blunt")}
+		if (EnchantScrollName == "BALANCED") {$(this).html("Well-balanced")}
+		if (EnchantScrollName == "BALANCED_100") {$(this).html("Well-balanced")}
+		if (EnchantScrollName == "BEGINNERS") {$(this).html("Disciple's")}
+		if (EnchantScrollName == "BERSERKER") {$(this).html("분노의")}
+		if (EnchantScrollName == "BITTER") {$(this).html("Relentless")}
+		if (EnchantScrollName == "BITTER_100") {$(this).html("Relentless")}
+		if (EnchantScrollName == "BLOW") {$(this).html("Fatal")}
+		if (EnchantScrollName == "BRAVE") {$(this).html("Brave")}
+		if (EnchantScrollName == "CALM") {$(this).html("Focused")}
+		if (EnchantScrollName == "CHANGEABLE") {$(this).html("Cautious")}
+		if (EnchantScrollName == "CHARMING") {$(this).html("Vibrant")}
+		if (EnchantScrollName == "CLEARNESS") {$(this).html("Nimble")}
+		if (EnchantScrollName == "CLOSE") {$(this).html("Invincible")}
+		if (EnchantScrollName == "CONSTANT") {$(this).html("Aggressive")}
+		if (EnchantScrollName == "CRESENT") {$(this).html("Crescent Moonlight's")}
+		if (EnchantScrollName == "CRESENT_100") {$(this).html("Crescent Moonlight's")}
+		if (EnchantScrollName == "CURIOUS") {$(this).html("Warlord's")}
+		if (EnchantScrollName == "CURIOUS_100") {$(this).html("Warlord's")}
+		if (EnchantScrollName == "DECEPTIVE") {$(this).html("Intense")}
+		if (EnchantScrollName == "DECIDE") {$(this).html("Determined")}
+		if (EnchantScrollName == "DECISIVE") {$(this).html("Decisive")}
+		if (EnchantScrollName == "DEF1000DAY90") {$(this).html("Very Benevolent")}
+		if (EnchantScrollName == "DEF500DAY30") {$(this).html("꽤 자비로운")}
+		if (EnchantScrollName == "DEF500DAY60") {$(this).html("Quite Benevolent")}
+		if (EnchantScrollName == "DEF500DAY7") {$(this).html("꽤 자비로운")}
+		if (EnchantScrollName == "DEF50DAY30") {$(this).html("Benevolent")}
+		if (EnchantScrollName == "DEF50DAY7") {$(this).html("자비로운")}
+		if (EnchantScrollName == "DELICATE") {$(this).html("Subdued")}
+		if (EnchantScrollName == "DURATION") {$(this).html("Consistent")}
+		if (EnchantScrollName == "ELEGANT") {$(this).html("Elegant")}
+		if (EnchantScrollName == "ENERGY") {$(this).html("Vigorous")}
+		if (EnchantScrollName == "ENLIGHTENMENT") {$(this).html("Enlightened")}
+		if (EnchantScrollName == "EXPLOSIVE") {$(this).html("Explosive")}
+		if (EnchantScrollName == "EXPLOSIVE_100") {$(this).html("Explosive")}
+		if (EnchantScrollName == "EXTREME") {$(this).html("Extreme")}
+		if (EnchantScrollName == "FAIR") {$(this).html("Fair")}
+		if (EnchantScrollName == "FAMILIAR") {$(this).html("Adamant")}
+		if (EnchantScrollName == "FINE") {$(this).html("Quality")}
+		if (EnchantScrollName == "FINGER_MARKED") {$(this).html("Tactician's")}
+		if (EnchantScrollName == "FINISHED") {$(this).html("Balanced")}
+		if (EnchantScrollName == "FLASH") {$(this).html("Fleet")}
+		if (EnchantScrollName == "FLUTTER") {$(this).html("Eternal")}
+		if (EnchantScrollName == "FRESH") {$(this).html("Fresh")}
+		if (EnchantScrollName == "HARD") {$(this).html("Bold")}
+		if (EnchantScrollName == "HARSH") {$(this).html("Stinging")}
+		if (EnchantScrollName == "HP1000DAY90") {$(this).html("매우 관대한")}
+		if (EnchantScrollName == "HP500DAY30") {$(this).html("꽤 관대한")}
+		if (EnchantScrollName == "HP500DAY60") {$(this).html("꽤 관대한")}
+		if (EnchantScrollName == "HP500DAY7") {$(this).html("꽤 관대한")}
+		if (EnchantScrollName == "HP50DAY30") {$(this).html("관대한")}
+		if (EnchantScrollName == "HP50DAY7") {$(this).html("관대한")}
+		if (EnchantScrollName == "INJUSTICE") {$(this).html("Immoral")}
+		if (EnchantScrollName == "INJUSTICE_100") {$(this).html("Immoral")}
+		if (EnchantScrollName == "INNER_TEST") {$(this).html("젠틀맨")}
+		if (EnchantScrollName == "INSIST") {$(this).html("Stalwart")}
+		if (EnchantScrollName == "INTELLIGENT") {$(this).html("Sorcerer's")}
+		if (EnchantScrollName == "JUSTICE") {$(this).html("Righteous")}
+		if (EnchantScrollName == "KNOWLEDGE") {$(this).html("Apprentice's")}
+		if (EnchantScrollName == "LEOPARD") {$(this).html("Leopard's")}
+		if (EnchantScrollName == "LEOPARD_100") {$(this).html("Leopard's")}
+		if (EnchantScrollName == "LIGHT") {$(this).html("Graceful")}
+		if (EnchantScrollName == "LIKELY") {$(this).html("Surging")}
+		if (EnchantScrollName == "MAGICAL") {$(this).html("Magical")}
+		if (EnchantScrollName == "MANA") {$(this).html("Empowered")}
+		if (EnchantScrollName == "MULTIPURPOSE") {$(this).html("Endless")}
+		if (EnchantScrollName == "NAIVE") {$(this).html("Trusty")}
+		if (EnchantScrollName == "ORNATE") {$(this).html("Ornate")}
+		if (EnchantScrollName == "PATIENT") {$(this).html("Tenacious")}
+		if (EnchantScrollName == "PERSPICUITY") {$(this).html("Hateful")}
+		if (EnchantScrollName == "PERSPICUITY_100") {$(this).html("Hateful")}
+		if (EnchantScrollName == "PIERCING") {$(this).html("Forceful")}
+		if (EnchantScrollName == "POWERFUL") {$(this).html("Powerful")}
+		if (EnchantScrollName == "PRECIOUS") {$(this).html("Rounded")}
+		if (EnchantScrollName == "PREPARED") {$(this).html("Heavy")}
+		if (EnchantScrollName == "PREVENT") {$(this).html("Sturdy")}
+		if (EnchantScrollName == "PROPER") {$(this).html("Clear")}
+		if (EnchantScrollName == "PROPERLY") {$(this).html("Honed")}
+		if (EnchantScrollName == "PROTECTED") {$(this).html("Hardy")}
+		if (EnchantScrollName == "PROTECTED_100") {$(this).html("Hardy")}
+		if (EnchantScrollName == "PROUD") {$(this).html("Prideful")}
+		if (EnchantScrollName == "QUICKNESS") {$(this).html("Quick")}
+		if (EnchantScrollName == "RANDOM_TEST") {$(this).html("테스트")}
+		if (EnchantScrollName == "RELAXED") {$(this).html("Fitted")}
+		if (EnchantScrollName == "REMEMBER") {$(this).html("Memorable")}
+		if (EnchantScrollName == "REPEATSAY") {$(this).html("Reinforced")}
+		if (EnchantScrollName == "RESOLUTION") {$(this).html("Adjusted")}
+		if (EnchantScrollName == "RESOLUTION_100") {$(this).html("Resolute")}
+		if (EnchantScrollName == "RICH") {$(this).html("Enhanced")}
+		if (EnchantScrollName == "RICH_100") {$(this).html("Enhanced")}
+		if (EnchantScrollName == "SERVICEABLE") {$(this).html("Sharp")}
+		if (EnchantScrollName == "SHARP") {$(this).html("Tempered")}
+		if (EnchantScrollName == "SHARPEDGE") {$(this).html("Keen")}
+		if (EnchantScrollName == "SIGNIFICANT") {$(this).html("Significant")}
+		if (EnchantScrollName == "SIGNIFICANT_100") {$(this).html("Significant")}
+		if (EnchantScrollName == "SILENT") {$(this).html("Silent")}
+		if (EnchantScrollName == "SIMPLE") {$(this).html("Fair")}
+		if (EnchantScrollName == "SOLID") {$(this).html("Solid")}
+		if (EnchantScrollName == "SOW") {$(this).html("SOW")}
+		if (EnchantScrollName == "SPEED1DAY30") {$(this).html("Hasty")}
+		if (EnchantScrollName == "SPEED1DAY7") {$(this).html("성급한")}
+		if (EnchantScrollName == "SPEED2DAY30") {$(this).html("꽤 성급한")}
+		if (EnchantScrollName == "SPEED2DAY60") {$(this).html("Quite Hasty")}
+		if (EnchantScrollName == "SPEED2DAY7") {$(this).html("꽤 성급한")}
+		if (EnchantScrollName == "SPEED3DAY90") {$(this).html("Very Hasty")}
+		if (EnchantScrollName == "SPEEDY") {$(this).html("Fast")}
+		if (EnchantScrollName == "SPEEDY_100") {$(this).html("Fast")}
+		if (EnchantScrollName == "SPEEDY_MOONCAKES") {$(this).html("신속한")}
+		if (EnchantScrollName == "STARLIGHT") {$(this).html("Starlight")}
+		if (EnchantScrollName == "STARLIGHT_100") {$(this).html("Starlight")}
+		if (EnchantScrollName == "STEADY") {$(this).html("Enduring")}
+		if (EnchantScrollName == "STOUT") {$(this).html("Strong")}
+		if (EnchantScrollName == "STOUT_100") {$(this).html("Strong")}
+		if (EnchantScrollName == "STRANGE") {$(this).html("Odd")}
+		if (EnchantScrollName == "STRENGTH") {$(this).html("Burly")}
+		if (EnchantScrollName == "STRONG") {$(this).html("Driven")}
+		if (EnchantScrollName == "STRONG_BODY") {$(this).html("Resilient")}
+		if (EnchantScrollName == "STRONG_SHOT") {$(this).html("Fierce")}
+		if (EnchantScrollName == "STURDY") {$(this).html("Protective")}
+		if (EnchantScrollName == "SUBSTANTIAL") {$(this).html("Unyielding")}
+		if (EnchantScrollName == "SURPRISE") {$(this).html("Wild")}
+		if (EnchantScrollName == "SWIFT") {$(this).html("Agile")}
+		if (EnchantScrollName == "TEST") {$(this).html("Training")}
+		if (EnchantScrollName == "THRILLING") {$(this).html("Tricky")}
+		if (EnchantScrollName == "TIME") {$(this).html("Temporal")}
+		if (EnchantScrollName == "TIME_100") {$(this).html("Time's")}
+		if (EnchantScrollName == "TUTELARY") {$(this).html("Tutelary")}
+		if (EnchantScrollName == "TUTELARY_100") {$(this).html("Tutelary")}
+		if (EnchantScrollName == "TWILIGHT") {$(this).html("Twilight")}
+		if (EnchantScrollName == "TWINKLE") {$(this).html("Twinkling")}
+		if (EnchantScrollName == "UNDEAD") {$(this).html("The Dead")}
+		if (EnchantScrollName == "UNDERDONE") {$(this).html("Gallant")}
+		if (EnchantScrollName == "UNDERDONE_100") {$(this).html("Gallant")}
+		if (EnchantScrollName == "VALUABLE") {$(this).html("Staggering")}
+		if (EnchantScrollName == "WANTLESS") {$(this).html("Fine")}
+		if (EnchantScrollName == "WILL") {$(this).html("Daring")}
+		if (EnchantScrollName == "WINDY") {$(this).html("Fateful")}
+		if (EnchantScrollName == "WISDOM") {$(this).html("Scholar's")}
+		if (EnchantScrollName == "WISE") {$(this).html("Mage's")}
+		if (EnchantScrollName == "WISE_MAN") {$(this).html("Sage's")}
+		if (EnchantScrollName == "WRATH") {$(this).html("Wrathful")}
+		if (EnchantScrollName == "AMBITION") {$(this).html("Maelstrom")}
+		if (EnchantScrollName == "AMBITION_100") {$(this).html("Maelstrom")}
+		if (EnchantScrollName == "AMBITION_MOONCAKES") {$(this).html("야망")}
+		if (EnchantScrollName == "AMETHYST") {$(this).html("Command")}
+		if (EnchantScrollName == "ANNOUNCEMENT") {$(this).html("Declarative")}
+		if (EnchantScrollName == "ARMADILLO") {$(this).html("Armadillo")}
+		if (EnchantScrollName == "BASIC_MAGIC") {$(this).html("Speed")}
+		if (EnchantScrollName == "BASIC_MANA") {$(this).html("Vitality")}
+		if (EnchantScrollName == "BEAM") {$(this).html("Pain")}
+		if (EnchantScrollName == "BESTCOUPLE") {$(this).html("베스트 커플")}
+		if (EnchantScrollName == "BLIZZARD") {$(this).html("Bulwark")}
+		if (EnchantScrollName == "BLOCK") {$(this).html("Energy")}
+		if (EnchantScrollName == "CATS_EYE") {$(this).html("Witchcraft")}
+		if (EnchantScrollName == "CHANCE") {$(this).html("Chance")}
+		if (EnchantScrollName == "COAT") {$(this).html("Dominance")}
+		if (EnchantScrollName == "CONVICT") {$(this).html("Spirited")}
+		if (EnchantScrollName == "COURAGE") {$(this).html("Frenzy")}
+		if (EnchantScrollName == "CRY") {$(this).html("Madness")}
+		if (EnchantScrollName == "CURSE") {$(this).html("Rage")}
+		if (EnchantScrollName == "DECISION") {$(this).html("Strike")}
+		if (EnchantScrollName == "DIAMOND") {$(this).html("Diamond")}
+		if (EnchantScrollName == "ECHO") {$(this).html("Echoing")}
+		if (EnchantScrollName == "EXPEDITION") {$(this).html("Expeditionary")}
+		if (EnchantScrollName == "EXPEDITION_100") {$(this).html("Expedition")}
+		if (EnchantScrollName == "FALLENLEAF") {$(this).html("Sentinel")}
+		if (EnchantScrollName == "FALLENLEAF_100") {$(this).html("Sentinel")}
+		if (EnchantScrollName == "FALLFOLIAGE") {$(this).html("Defender")}
+		if (EnchantScrollName == "FATAL") {$(this).html("Deadly")}
+		if (EnchantScrollName == "FERVOR") {$(this).html("Enthusiastic")}
+		if (EnchantScrollName == "FERVOR_100") {$(this).html("Vivacious")}
+		if (EnchantScrollName == "FERVOR_MOONCAKES") {$(this).html("열의")}
+		if (EnchantScrollName == "FIGHT") {$(this).html("Resistant")}
+		if (EnchantScrollName == "FIRST_STEP") {$(this).html("Agony")}
+		if (EnchantScrollName == "FULFILL") {$(this).html("Slayer")}
+		if (EnchantScrollName == "GIANT") {$(this).html("Stone")}
+		if (EnchantScrollName == "GNOLL") {$(this).html("Gnoll")}
+		if (EnchantScrollName == "GOBLIN") {$(this).html("Goblin")}
+		if (EnchantScrollName == "GOLEM") {$(this).html("Golem")}
+		if (EnchantScrollName == "GRAVEL") {$(this).html("Toughness")}
+		if (EnchantScrollName == "HEAVY_RAIN") {$(this).html("Chaos")}
+		if (EnchantScrollName == "HIGH_MAGIC") {$(this).html("Brilliance")}
+		if (EnchantScrollName == "HIGH_MANA") {$(this).html("Fury")}
+		if (EnchantScrollName == "HOPE") {$(this).html("Destiny")}
+		if (EnchantScrollName == "ICE_STONE") {$(this).html("Spellcraft")}
+		if (EnchantScrollName == "ITINERARY") {$(this).html("Journeying")}
+		if (EnchantScrollName == "IVORY") {$(this).html("Resolve")}
+		if (EnchantScrollName == "JADE") {$(this).html("Conjuring")}
+		if (EnchantScrollName == "JASMINE") {$(this).html("Force")}
+		if (EnchantScrollName == "JASMINE_100") {$(this).html("Force")}
+		if (EnchantScrollName == "JUDGMENT") {$(this).html("Judgment")}
+		if (EnchantScrollName == "KOBOLD") {$(this).html("Kobold")}
+		if (EnchantScrollName == "MEDIUM_MAGIC") {$(this).html("Resurgence")}
+		if (EnchantScrollName == "MEDIUM_MANA") {$(this).html("Rejuvenation")}
+		if (EnchantScrollName == "MIND") {$(this).html("Berserker")}
+		if (EnchantScrollName == "MIND_100") {$(this).html("Berserker")}
+		if (EnchantScrollName == "MIND_MOONCAKES") {$(this).html("마음")}
+		if (EnchantScrollName == "MIST") {$(this).html("Tempest")}
+		if (EnchantScrollName == "NOBLE") {$(this).html("Incorruptible")}
+		if (EnchantScrollName == "PASSION") {$(this).html("Passion")}
+		if (EnchantScrollName == "PASSION_100") {$(this).html("Passion")}
+		if (EnchantScrollName == "PERIDOT") {$(this).html("Wizardry")}
+		if (EnchantScrollName == "PETAL") {$(this).html("Bloodlust")}
+		if (EnchantScrollName == "PETAL_100") {$(this).html("Bloodlust")}
+		if (EnchantScrollName == "PETAL_MOONCAKES") {$(this).html("꽃잎")}
+		if (EnchantScrollName == "PINE") {$(this).html("Accord")}
+		if (EnchantScrollName == "PROTECTION") {$(this).html("Master")}
+		if (EnchantScrollName == "PUNISH") {$(this).html("Divine Punishment")}
+		if (EnchantScrollName == "PUNISH_100") {$(this).html("Divine Punishment")}
+		if (EnchantScrollName == "PVP_ENCHANT_LV40") {$(this).html("Soldier")}
+		if (EnchantScrollName == "PVP_ENCHANT_LV50") {$(this).html("Knight")}
+		if (EnchantScrollName == "PVP_ENCHANT_LV60") {$(this).html("Bishop")}
+		if (EnchantScrollName == "PVP_ENCHANT_LV65") {$(this).html("Rook")}
+		if (EnchantScrollName == "PVP_ENCHANT_LV70") {$(this).html("Queen")}
+		if (EnchantScrollName == "PVP_ENCHANT_LV75") {$(this).html("King")}
+		if (EnchantScrollName == "PVP_ENCHANT_LV80") {$(this).html("Emperor")}
+		if (EnchantScrollName == "RAINBOW") {$(this).html("Oblivion")}
+		if (EnchantScrollName == "RESOLVE") {$(this).html("Skill")}
+		if (EnchantScrollName == "ROCK") {$(this).html("Safety")}
+		if (EnchantScrollName == "SAND") {$(this).html("Resistance")}
+		if (EnchantScrollName == "SAPPHIRE") {$(this).html("Arcana")}
+		if (EnchantScrollName == "SHOWER") {$(this).html("Restoration")}
+		if (EnchantScrollName == "SNOWBRANCH") {$(this).html("Might")}
+		if (EnchantScrollName == "SPELL") {$(this).html("Suffering")}
+		if (EnchantScrollName == "SPRING_RAIN") {$(this).html("Vigilance")}
+		if (EnchantScrollName == "SPROUT") {$(this).html("Zeal")}
+		if (EnchantScrollName == "STARLIGHT") {$(this).html("Annihilation")}
+		if (EnchantScrollName == "STATUE") {$(this).html("Illusion")}
+		if (EnchantScrollName == "STIGMA") {$(this).html("Stigma")}
+		if (EnchantScrollName == "TEST") {$(this).html("Test")}
+		if (EnchantScrollName == "TRESURE") {$(this).html("Ruin")}
+		if (EnchantScrollName == "TYPHOON") {$(this).html("Palisade")}
+		if (EnchantScrollName == "VALOR") {$(this).html("Valor")}
+		if (EnchantScrollName == "VALOR_100") {$(this).html("Valor")}
+		if (EnchantScrollName == "VAMPIRE") {$(this).html("Vampire")}
+		if (EnchantScrollName == "VITALITY") {$(this).html("Healthy")}
+		if (EnchantScrollName == "VITALITY_100") {$(this).html("Healthy")}
+		if (EnchantScrollName == "WAVE") {$(this).html("Savvy")}
+		if (EnchantScrollName == "WEAK") {$(this).html("Striking")}
+		if (EnchantScrollName == "WHISPER") {$(this).html("Misery")}
+		if (EnchantScrollName == "WILLOW") {$(this).html("Refuge")}
+		if (EnchantScrollName == "YETI") {$(this).html("Yeti")}
+}
