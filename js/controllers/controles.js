@@ -221,7 +221,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					updateweight = weight.toFixed(0);
 					$('#changeweight').html(updateweight);
 					replacestart = $('#valueitem').attr('value');
-					$('title').html(replacestart + ' &bull; VinDB');
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
 					$('.mainiteminput').val(replacestart).trigger('input');
@@ -464,6 +463,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							ReplaceEnchantScrollName()
 							ReplaceESStats()
 							ReplaceESCondition()
+							ReplaceTitleWithES = $('.itemname').html()
+							$('title').html(ReplaceTitleWithES + ' &bull; VinDB');
+							
 							ItemConstraint()
 							$('.isPrefix').each(function(){
 								IsPrefix = $(this).attr('value')
