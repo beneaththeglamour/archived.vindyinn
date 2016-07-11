@@ -280,6 +280,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					if (checkarmorhp != "") {
 						$('#armorhp').show();
 					}
+					$('.itemname').each(function(){
+							EnchantScrollName = $(this).attr('value')
+							$('.Input'+EnchantScrollName).val(EnchantScrollName).trigger('input');
+						})
 					$('.tagname').each(function(){
 							console.log('I swapped the underscores for you.')
 							tagpopup = $(this).attr('title');
