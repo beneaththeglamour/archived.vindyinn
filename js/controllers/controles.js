@@ -112,18 +112,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						replacetag = tagpopup.replace(/_/g, ' ');
 						$(this).attr('title',replacetag)
 					});
-					$('.stat').each(function() {
-							doihide = $(this).attr("value");
-							if (doihide != "") {
-								$(this).show();
-							} else {$(this).hide();}
-						});
-					$('.weight').each(function() {
-							doihide = $(this).attr("value");
-							if (doihide != "") {
-								$(this).show();
-							} else {$(this).hide();}
-						});
 					$('.eventcheck').each(function(){
 						IsThisEvent = $(this).attr('value')
 						if (IsThisEvent == 'DEFAULT') {
@@ -161,6 +149,17 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						}
 					)
 					
+				console.log('DataTable loaded.')
+						if (WhatIsTheURL.indexOf('expertise') == 1) {
+							$('table').DataTable({
+								"order": [[ 2, "asc" ]]
+							});
+						} else {
+							$('table').DataTable({
+								"order": [[ 1, "asc" ]]
+							});
+						}
+						
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
