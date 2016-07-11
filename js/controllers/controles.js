@@ -162,11 +162,14 @@ ItemControllers.controller("ListController", ['$scope','$http',
 					
 						$.when(
 							$.getScript( "/js/enchantscrollnames.js" ),
+							$.getScript( "/js/enchantscrollstats.js" ),
 							$.Deferred(function( deferred ){
 								$( deferred.resolve );
 							})
 						).done(function(){
 							ReplaceEnchantScrollName()
+							ReplaceESStats()
+							
 							console.log('DataTable loaded.')
 								if (WhatIsTheURL.indexOf('expertise') == 1) {
 									$('table').DataTable({
