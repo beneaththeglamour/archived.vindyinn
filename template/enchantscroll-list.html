@@ -45,8 +45,8 @@ Brynn probably knows how to use this.</span>
 							<div class="enchantinfo">
 								<ul class="enchantstatlist">
 									<span ng-repeat="item in ItemVariable2 | filter : {'EnchantClass':'acid'}:true">
-										<li>{{item.Stat}}</li>
-										<li>{{item.StatDesc}}</li>
+										<li class="enchantstat">{{item.Stat}}</li>
+										<li class="enchantstatconstraint">{{item.ConditionDesc}}</li>
 									</span>
 								</ul>
 							</div>
