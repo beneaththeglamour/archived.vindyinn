@@ -262,3 +262,14 @@ table {
 .enchantstatconstraint {
 	color:rgb(68,68,68);
 }
+.expiry {
+	width: 98%;
+    display: block;
+    background-color: #101012;
+    border-radius: 2px;
+    border: 1px solid #333;
+    margin-bottom: 0.2rem;
+    padding-left: 0.2rem;
+    color: white;
+	text-align:center;
+    height: 1.1rem;}
