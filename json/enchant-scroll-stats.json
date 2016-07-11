@@ -82,18 +82,18 @@
   {
     "EnchantClass": "strong",
     "Order": 3,
-    "Condition": "skillrank>=(skill_will_mastery",
-    "ConditionDesc": "3)",
-    "Stat": "GameUI_Heroes_EnchantCondition_strong_3",
-    "StatDesc": "WILL+1"
+    "Condition": "skillrank>=(skill_will_mastery,3)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_strong_3",
+    "Stat": "WILL+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_strong_3"
   },
   {
     "EnchantClass": "strong",
     "Order": 4,
-    "Condition": "skillrank>=(skill_will_mastery",
-    "ConditionDesc": "3)",
-    "Stat": "GameUI_Heroes_EnchantCondition_strong_4",
-    "StatDesc": "DEX+3"
+    "Condition": "skillrank>=(skill_will_mastery,3)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_strong_4",
+    "Stat": "DEX+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_strong_4"
   },
   {
     "EnchantClass": "swift",
@@ -122,10 +122,10 @@
   {
     "EnchantClass": "hard",
     "Order": 3,
-    "Condition": "skillrank>=(skill_str_mastery",
-    "ConditionDesc": "3)",
-    "Stat": "GameUI_Heroes_EnchantCondition_hard_3",
-    "StatDesc": "DEX+3"
+    "Condition": "skillrank>=(skill_str_mastery,3)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_hard_3",
+    "Stat": "DEX+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_hard_3"
   },
   {
     "EnchantClass": "beginners",
@@ -146,10 +146,10 @@
   {
     "EnchantClass": "beginners",
     "Order": 3,
-    "Condition": "skillrank>=(skill_evy_magic_mastery",
-    "ConditionDesc": "3)",
-    "Stat": "GameUI_Heroes_EnchantCondition_beginners_3",
-    "StatDesc": "INT+5"
+    "Condition": "skillrank>=(skill_evy_magic_mastery,3)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_beginners_3",
+    "Stat": "INT+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_beginners_3"
   },
   {
     "EnchantClass": "sharp",
@@ -178,18 +178,18 @@
   {
     "EnchantClass": "protected",
     "Order": 3,
-    "Condition": "skillrank>=(skill_light_armor_mastery",
-    "ConditionDesc": "4)",
-    "Stat": "GameUI_Heroes_EnchantCondition_protected_3",
-    "StatDesc": "HP+4"
+    "Condition": "skillrank>=(skill_light_armor_mastery,4)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_protected_3",
+    "Stat": "HP+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_protected_3"
   },
   {
     "EnchantClass": "protected",
     "Order": 4,
-    "Condition": "skillrank>=(skill_light_armor_mastery",
-    "ConditionDesc": "4)",
-    "Stat": "GameUI_Heroes_EnchantCondition_protected_4",
-    "StatDesc": "DEF+16"
+    "Condition": "skillrank>=(skill_light_armor_mastery,4)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_protected_4",
+    "Stat": "DEF+16",
+    "StatDesc": "GameUI_Heroes_EnchantStat_protected_4"
   },
   {
     "EnchantClass": "magical",
@@ -202,10 +202,10 @@
   {
     "EnchantClass": "magical",
     "Order": 2,
-    "Condition": "skillrank>=(skill_evy_magic_mastery",
-    "ConditionDesc": "4)",
-    "Stat": "GameUI_Heroes_EnchantCondition_magical_2",
-    "StatDesc": "MATK+9"
+    "Condition": "skillrank>=(skill_evy_magic_mastery,4)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_magical_2",
+    "Stat": "MATK+9",
+    "StatDesc": "GameUI_Heroes_EnchantStat_magical_2"
   },
   {
     "EnchantClass": "sturdy",
@@ -242,18 +242,18 @@
   {
     "EnchantClass": "strength",
     "Order": 3,
-    "Condition": "skillrank>=(skill_hp_mastery",
-    "ConditionDesc": "4)",
-    "Stat": "GameUI_Heroes_EnchantCondition_strength_3",
-    "StatDesc": "HP+10"
+    "Condition": "skillrank>=(skill_hp_mastery,4)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_strength_3",
+    "Stat": "HP+10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_strength_3"
   },
   {
     "EnchantClass": "strength",
     "Order": 4,
-    "Condition": "skillrank>=(skill_hp_mastery",
-    "ConditionDesc": "4)",
-    "Stat": "GameUI_Heroes_EnchantCondition_strength_4",
-    "StatDesc": "INT-2"
+    "Condition": "skillrank>=(skill_hp_mastery,4)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_strength_4",
+    "Stat": "INT-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_strength_4"
   },
   {
     "EnchantClass": "will",
@@ -266,26 +266,26 @@
   {
     "EnchantClass": "will",
     "Order": 2,
-    "Condition": "skillrank>=(skill_will_mastery",
-    "ConditionDesc": "4)",
-    "Stat": "GameUI_Heroes_EnchantCondition_will_2",
-    "StatDesc": "WILL+3"
+    "Condition": "skillrank>=(skill_will_mastery,4)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_will_2",
+    "Stat": "WILL+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_will_2"
   },
   {
     "EnchantClass": "will",
     "Order": 3,
-    "Condition": "skillrank>=(skill_stone_skin",
-    "ConditionDesc": "4)",
-    "Stat": "GameUI_Heroes_EnchantCondition_will_3",
-    "StatDesc": "INT+2"
+    "Condition": "skillrank>=(skill_stone_skin,4)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_will_3",
+    "Stat": "INT+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_will_3"
   },
   {
     "EnchantClass": "will",
     "Order": 4,
-    "Condition": "skillrank>=(skill_will_mastery",
-    "ConditionDesc": "4)",
-    "Stat": "GameUI_Heroes_EnchantCondition_will_4",
-    "StatDesc": "DEF-25"
+    "Condition": "skillrank>=(skill_will_mastery,4)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_will_4",
+    "Stat": "DEF-25",
+    "StatDesc": "GameUI_Heroes_EnchantStat_will_4"
   },
   {
     "EnchantClass": "energy",
@@ -298,10 +298,10 @@
   {
     "EnchantClass": "energy",
     "Order": 2,
-    "Condition": "skillrank>=(skill_hp_mastery",
-    "ConditionDesc": "5)",
-    "Stat": "GameUI_Heroes_EnchantCondition_energy_2",
-    "StatDesc": "HP+12"
+    "Condition": "skillrank>=(skill_hp_mastery,5)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_energy_2",
+    "Stat": "HP+12",
+    "StatDesc": "GameUI_Heroes_EnchantStat_energy_2"
   },
   {
     "EnchantClass": "powerful",
@@ -322,18 +322,18 @@
   {
     "EnchantClass": "powerful",
     "Order": 3,
-    "Condition": "skillrank>=(skill_str_mastery",
-    "ConditionDesc": "5)",
-    "Stat": "GameUI_Heroes_EnchantCondition_powerful_3",
-    "StatDesc": "STR+2"
+    "Condition": "skillrank>=(skill_str_mastery,5)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_powerful_3",
+    "Stat": "STR+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_powerful_3"
   },
   {
     "EnchantClass": "powerful",
     "Order": 4,
-    "Condition": "skillrank>=(skill_str_mastery",
-    "ConditionDesc": "5)",
-    "Stat": "GameUI_Heroes_EnchantCondition_powerful_4",
-    "StatDesc": "ATK+5"
+    "Condition": "skillrank>=(skill_str_mastery,5)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_powerful_4",
+    "Stat": "ATK+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_powerful_4"
   },
   {
     "EnchantClass": "mana",
@@ -514,10 +514,10 @@
   {
     "EnchantClass": "patient",
     "Order": 4,
-    "Condition": "skillrank>=(skill_meditation",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_patient_4",
-    "StatDesc": "STAMINA+5"
+    "Condition": "skillrank>=(skill_meditation,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_patient_4",
+    "Stat": "STAMINA+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_patient_4"
   },
   {
     "EnchantClass": "wantless",
@@ -578,18 +578,18 @@
   {
     "EnchantClass": "properly",
     "Order": 1,
-    "Condition": "skillrank>=(skill_combat_mastery",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_properly_1",
-    "StatDesc": "ATK+25"
+    "Condition": "skillrank>=(skill_combat_mastery,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_properly_1",
+    "Stat": "ATK+25",
+    "StatDesc": "GameUI_Heroes_EnchantStat_properly_1"
   },
   {
     "EnchantClass": "properly",
     "Order": 2,
-    "Condition": "skillrank>=(skill_combat_mastery",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_properly_2",
-    "StatDesc": "INT+2"
+    "Condition": "skillrank>=(skill_combat_mastery,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_properly_2",
+    "Stat": "INT+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_properly_2"
   },
   {
     "EnchantClass": "wisdom",
@@ -642,10 +642,10 @@
   {
     "EnchantClass": "prevent",
     "Order": 1,
-    "Condition": "skillrank>=(skill_light_armor_mastery",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_prevent_1",
-    "StatDesc": "DEF+135"
+    "Condition": "skillrank>=(skill_light_armor_mastery,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_prevent_1",
+    "Stat": "DEF+135",
+    "StatDesc": "GameUI_Heroes_EnchantStat_prevent_1"
   },
   {
     "EnchantClass": "steady",
@@ -658,10 +658,10 @@
   {
     "EnchantClass": "steady",
     "Order": 2,
-    "Condition": "skillrank>=(skill_cloth_mastery",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_steady_2",
-    "StatDesc": "STAMINA+7"
+    "Condition": "skillrank>=(skill_cloth_mastery,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_steady_2",
+    "Stat": "STAMINA+7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_steady_2"
   },
   {
     "EnchantClass": "light",
@@ -682,34 +682,34 @@
   {
     "EnchantClass": "serviceable",
     "Order": 1,
-    "Condition": "skillrank>=(skill_evy_scythe_drain1",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_serviceable_1",
-    "StatDesc": "ATK+60"
+    "Condition": "skillrank>=(skill_evy_scythe_drain1,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_serviceable_1",
+    "Stat": "ATK+60",
+    "StatDesc": "GameUI_Heroes_EnchantStat_serviceable_1"
   },
   {
     "EnchantClass": "serviceable",
     "Order": 2,
-    "Condition": "skillrank>=(skill_evy_scythe_drain1",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_serviceable_2",
-    "StatDesc": "DEX-2"
+    "Condition": "skillrank>=(skill_evy_scythe_drain1,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_serviceable_2",
+    "Stat": "DEX-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_serviceable_2"
   },
   {
     "EnchantClass": "serviceable",
     "Order": 3,
-    "Condition": "skillrank>=(skill_evy_scythe_drain1",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_serviceable_3",
-    "StatDesc": "WILL-2"
+    "Condition": "skillrank>=(skill_evy_scythe_drain1,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_serviceable_3",
+    "Stat": "WILL-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_serviceable_3"
   },
   {
     "EnchantClass": "likely",
     "Order": 1,
-    "Condition": "skillrank>=(skill_light_armor_mastery",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_likely_1",
-    "StatDesc": "MATK+55"
+    "Condition": "skillrank>=(skill_light_armor_mastery,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_likely_1",
+    "Stat": "MATK+55",
+    "StatDesc": "GameUI_Heroes_EnchantStat_likely_1"
   },
   {
     "EnchantClass": "likely",
@@ -786,18 +786,18 @@
   {
     "EnchantClass": "close",
     "Order": 1,
-    "Condition": "skillrank>=(skill_stone_skin",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_close_1",
-    "StatDesc": "DEF+184"
+    "Condition": "skillrank>=(skill_stone_skin,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_close_1",
+    "Stat": "DEF+184",
+    "StatDesc": "GameUI_Heroes_EnchantStat_close_1"
   },
   {
     "EnchantClass": "acid",
     "Order": 1,
-    "Condition": "skillrank>=(skill_life_flare",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_acid_1",
-    "StatDesc": "Critical+2"
+    "Condition": "skillrank>=(skill_life_flare,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_acid_1",
+    "Stat": "Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_acid_1"
   },
   {
     "EnchantClass": "acid",
@@ -810,10 +810,10 @@
   {
     "EnchantClass": "acid",
     "Order": 3,
-    "Condition": "skillrank>=(skill_life_flare",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_acid_3",
-    "StatDesc": "ATK-20"
+    "Condition": "skillrank>=(skill_life_flare,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_acid_3",
+    "Stat": "ATK-20",
+    "StatDesc": "GameUI_Heroes_EnchantStat_acid_3"
   },
   {
     "EnchantClass": "acid",
@@ -826,10 +826,10 @@
   {
     "EnchantClass": "finger_marked",
     "Order": 1,
-    "Condition": "skillrank>=(skill_life_flare",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_finger_marked_1",
-    "StatDesc": "ATK+45"
+    "Condition": "skillrank>=(skill_life_flare,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_finger_marked_1",
+    "Stat": "ATK+45",
+    "StatDesc": "GameUI_Heroes_EnchantStat_finger_marked_1"
   },
   {
     "EnchantClass": "finger_marked",
@@ -858,10 +858,10 @@
   {
     "EnchantClass": "calm",
     "Order": 2,
-    "Condition": "skillrank>=(skill_fiona_longsword_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_calm_2",
-    "StatDesc": "STR+12"
+    "Condition": "skillrank>=(skill_fiona_longsword_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_calm_2",
+    "Stat": "STR+12",
+    "StatDesc": "GameUI_Heroes_EnchantStat_calm_2"
   },
   {
     "EnchantClass": "strong_shot",
@@ -874,74 +874,74 @@
   {
     "EnchantClass": "strong_body",
     "Order": 1,
-    "Condition": "skillrank>=(skill_fiona_shield_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_strong_body_1",
-    "StatDesc": "DEF+95"
+    "Condition": "skillrank>=(skill_fiona_shield_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_strong_body_1",
+    "Stat": "DEF+95",
+    "StatDesc": "GameUI_Heroes_EnchantStat_strong_body_1"
   },
   {
     "EnchantClass": "strong_body",
     "Order": 2,
-    "Condition": "skillrank>=(skill_fiona_largeshield_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_strong_body_2",
-    "StatDesc": "DEF+95"
+    "Condition": "skillrank>=(skill_fiona_largeshield_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_strong_body_2",
+    "Stat": "DEF+95",
+    "StatDesc": "GameUI_Heroes_EnchantStat_strong_body_2"
   },
   {
     "EnchantClass": "piercing",
     "Order": 1,
-    "Condition": "skillrank>=(skill_evy_scythe_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_piercing_1",
-    "StatDesc": "ATK+30"
+    "Condition": "skillrank>=(skill_evy_scythe_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_piercing_1",
+    "Stat": "ATK+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_piercing_1"
   },
   {
     "EnchantClass": "piercing",
     "Order": 2,
-    "Condition": "skillrank>=(skill_evy_scythe_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_piercing_2",
-    "StatDesc": "MATK+30"
+    "Condition": "skillrank>=(skill_evy_scythe_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_piercing_2",
+    "Stat": "MATK+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_piercing_2"
   },
   {
     "EnchantClass": "intelligent",
     "Order": 1,
-    "Condition": "skillrank>=(skill_evy_staff_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_intelligent_1",
-    "StatDesc": "MATK+80"
+    "Condition": "skillrank>=(skill_evy_staff_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_intelligent_1",
+    "Stat": "MATK+80",
+    "StatDesc": "GameUI_Heroes_EnchantStat_intelligent_1"
   },
   {
     "EnchantClass": "substantial",
     "Order": 1,
-    "Condition": "skillrank>=(skill_cloth_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_substantial_1",
-    "StatDesc": "HP+30"
+    "Condition": "skillrank>=(skill_cloth_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_substantial_1",
+    "Stat": "HP+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_substantial_1"
   },
   {
     "EnchantClass": "substantial",
     "Order": 2,
-    "Condition": "skillrank>=(skill_light_armor_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_substantial_2",
-    "StatDesc": "HP+30"
+    "Condition": "skillrank>=(skill_light_armor_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_substantial_2",
+    "Stat": "HP+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_substantial_2"
   },
   {
     "EnchantClass": "substantial",
     "Order": 3,
-    "Condition": "skillrank>=(skill_heavy_armor_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_substantial_3",
-    "StatDesc": "HP+30"
+    "Condition": "skillrank>=(skill_heavy_armor_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_substantial_3",
+    "Stat": "HP+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_substantial_3"
   },
   {
     "EnchantClass": "substantial",
     "Order": 4,
-    "Condition": "skillrank>=(skill_plate_armor_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_substantial_4",
-    "StatDesc": "HP+30"
+    "Condition": "skillrank>=(skill_plate_armor_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_substantial_4",
+    "Stat": "HP+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_substantial_4"
   },
   {
     "EnchantClass": "decide",
@@ -954,18 +954,18 @@
   {
     "EnchantClass": "decide",
     "Order": 2,
-    "Condition": "skillrank>=(skill_lethita_dualsword_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_decide_2",
-    "StatDesc": "STR+12"
+    "Condition": "skillrank>=(skill_lethita_dualsword_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_decide_2",
+    "Stat": "STR+12",
+    "StatDesc": "GameUI_Heroes_EnchantStat_decide_2"
   },
   {
     "EnchantClass": "windy",
     "Order": 1,
-    "Condition": "skillrank>=(skill_lethita_dualspear_mastery",
-    "ConditionDesc": "8)",
-    "Stat": "GameUI_Heroes_EnchantCondition_windy_1",
-    "StatDesc": "Critical+3"
+    "Condition": "skillrank>=(skill_lethita_dualspear_mastery,8)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_windy_1",
+    "Stat": "Critical+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_windy_1"
   },
   {
     "EnchantClass": "windy",
@@ -1066,10 +1066,10 @@
   {
     "EnchantClass": "brave",
     "Order": 2,
-    "Condition": "skillrank>=(skill_combat_mastery",
-    "ConditionDesc": "10)",
-    "Stat": "GameUI_Heroes_EnchantCondition_brave_2",
-    "StatDesc": "Balance+1"
+    "Condition": "skillrank>=(skill_combat_mastery,10)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_brave_2",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_brave_2"
   },
   {
     "EnchantClass": "flash",
@@ -1082,10 +1082,10 @@
   {
     "EnchantClass": "flash",
     "Order": 2,
-    "Condition": "skillrank>=(skill_combat_mastery",
-    "ConditionDesc": "10)",
-    "Stat": "GameUI_Heroes_EnchantCondition_flash_2",
-    "StatDesc": "ATK_Speed+1"
+    "Condition": "skillrank>=(skill_combat_mastery,10)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_flash_2",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_flash_2"
   },
   {
     "EnchantClass": "flash",
@@ -1106,10 +1106,10 @@
   {
     "EnchantClass": "solid",
     "Order": 2,
-    "Condition": "skillrank>=(skill_combat_mastery",
-    "ConditionDesc": "10)",
-    "Stat": "GameUI_Heroes_EnchantCondition_solid_2",
-    "StatDesc": "Res_Critical+4"
+    "Condition": "skillrank>=(skill_combat_mastery,10)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_solid_2",
+    "Stat": "Res_Critical+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_solid_2"
   },
   {
     "EnchantClass": "solid",
@@ -1410,18 +1410,18 @@
   {
     "EnchantClass": "medium_magic",
     "Order": 1,
-    "Condition": "skillrank>=(skill_evy_magic_arrow",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_medium_magic_1",
-    "StatDesc": "@enchant_stamina_recovery+3"
+    "Condition": "skillrank>=(skill_evy_magic_arrow,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_medium_magic_1",
+    "Stat": "@enchant_stamina_recovery+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_medium_magic_1"
   },
   {
     "EnchantClass": "yeti",
     "Order": 1,
-    "Condition": "skillrank>=(skill_smash_mastery",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_yeti_1",
-    "StatDesc": "ATK+100"
+    "Condition": "skillrank>=(skill_smash_mastery,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_yeti_1",
+    "Stat": "ATK+100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_yeti_1"
   },
   {
     "EnchantClass": "sapphire",
@@ -1682,10 +1682,10 @@
   {
     "EnchantClass": "charming",
     "Order": 2,
-    "Condition": "skillrank>=(skill_cloth_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_charming_2",
-    "StatDesc": "HP+120"
+    "Condition": "skillrank>=(skill_cloth_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_charming_2",
+    "Stat": "HP+120",
+    "StatDesc": "GameUI_Heroes_EnchantStat_charming_2"
   },
   {
     "EnchantClass": "charming",
@@ -1722,10 +1722,10 @@
   {
     "EnchantClass": "bitter",
     "Order": 3,
-    "Condition": "skillrank>=(skill_lethita_dualsword_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_bitter_3",
-    "StatDesc": "ATK_Speed+2"
+    "Condition": "skillrank>=(skill_lethita_dualsword_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_bitter_3",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_bitter_3"
   },
   {
     "EnchantClass": "bitter",
@@ -1762,10 +1762,10 @@
   {
     "EnchantClass": "rich",
     "Order": 3,
-    "Condition": "skillrank>=(skill_fiona_longsword_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_rich_3",
-    "StatDesc": "ATK_Speed+3"
+    "Condition": "skillrank>=(skill_fiona_longsword_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rich_3",
+    "Stat": "ATK_Speed+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rich_3"
   },
   {
     "EnchantClass": "rich",
@@ -1794,10 +1794,10 @@
   {
     "EnchantClass": "perspicuity",
     "Order": 2,
-    "Condition": "skillrank>=(skill_evy_staff_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_perspicuity_2",
-    "StatDesc": "ATK_Speed+3"
+    "Condition": "skillrank>=(skill_evy_staff_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_perspicuity_2",
+    "Stat": "ATK_Speed+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_perspicuity_2"
   },
   {
     "EnchantClass": "perspicuity",
@@ -1818,10 +1818,10 @@
   {
     "EnchantClass": "resolution",
     "Order": 2,
-    "Condition": "skillrank>=(skill_lethita_dualspear_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_resolution_2",
-    "StatDesc": "Balance+3"
+    "Condition": "skillrank>=(skill_lethita_dualspear_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_resolution_2",
+    "Stat": "Balance+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_resolution_2"
   },
   {
     "EnchantClass": "resolution",
@@ -1850,10 +1850,10 @@
   {
     "EnchantClass": "ornate",
     "Order": 2,
-    "Condition": "skillrank>=(skill_fiona_longhammer_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_ornate_2",
-    "StatDesc": "ATK_Speed+5"
+    "Condition": "skillrank>=(skill_fiona_longhammer_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ornate_2",
+    "Stat": "ATK_Speed+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ornate_2"
   },
   {
     "EnchantClass": "ornate",
@@ -1882,10 +1882,10 @@
   {
     "EnchantClass": "deceptive",
     "Order": 2,
-    "Condition": "skillrank>=(skill_evy_scythe_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_deceptive_2",
-    "StatDesc": "ATK_Speed+3"
+    "Condition": "skillrank>=(skill_evy_scythe_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_deceptive_2",
+    "Stat": "ATK_Speed+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_deceptive_2"
   },
   {
     "EnchantClass": "deceptive",
@@ -1914,10 +1914,10 @@
   {
     "EnchantClass": "thrilling",
     "Order": 2,
-    "Condition": "skillrank>=(skill_fiona_shield_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_thrilling_2",
-    "StatDesc": "Critical+1"
+    "Condition": "skillrank>=(skill_fiona_shield_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_thrilling_2",
+    "Stat": "Critical+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_thrilling_2"
   },
   {
     "EnchantClass": "thrilling",
@@ -2066,10 +2066,10 @@
   {
     "EnchantClass": "fallenleaf",
     "Order": 3,
-    "Condition": "skillrank>=(skill_will_mastery",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_fallenleaf_3",
-    "StatDesc": "DEF+106"
+    "Condition": "skillrank>=(skill_will_mastery,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fallenleaf_3",
+    "Stat": "DEF+106",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fallenleaf_3"
   },
   {
     "EnchantClass": "fallenleaf",
@@ -2090,10 +2090,10 @@
   {
     "EnchantClass": "ambition",
     "Order": 2,
-    "Condition": "skillrank>=(skill_critical_hit",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_ambition_2",
-    "StatDesc": "ATK_Speed+1"
+    "Condition": "skillrank>=(skill_critical_hit,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_2",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_2"
   },
   {
     "EnchantClass": "ambition",
@@ -2674,10 +2674,10 @@
   {
     "EnchantClass": "ambition_mooncakes",
     "Order": 2,
-    "Condition": "skillrank>=(skill_critical_hit",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_ambition_mooncakes_2",
-    "StatDesc": "ATK_Speed+1"
+    "Condition": "skillrank>=(skill_critical_hit,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_mooncakes_2",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_mooncakes_2"
   },
   {
     "EnchantClass": "ambition_mooncakes",
@@ -3026,18 +3026,18 @@
   {
     "EnchantClass": "protected_100",
     "Order": 3,
-    "Condition": "skillrank>=(skill_light_armor_mastery",
-    "ConditionDesc": "4)",
-    "Stat": "GameUI_Heroes_EnchantCondition_protected_100_3",
-    "StatDesc": "HP+4"
+    "Condition": "skillrank>=(skill_light_armor_mastery,4)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_protected_100_3",
+    "Stat": "HP+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_protected_100_3"
   },
   {
     "EnchantClass": "protected_100",
     "Order": 4,
-    "Condition": "skillrank>=(skill_light_armor_mastery",
-    "ConditionDesc": "4)",
-    "Stat": "GameUI_Heroes_EnchantCondition_protected_100_4",
-    "StatDesc": "DEF+16"
+    "Condition": "skillrank>=(skill_light_armor_mastery,4)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_protected_100_4",
+    "Stat": "DEF+16",
+    "StatDesc": "GameUI_Heroes_EnchantStat_protected_100_4"
   },
   {
     "EnchantClass": "curious_100",
@@ -3146,10 +3146,10 @@
   {
     "EnchantClass": "bitter_100",
     "Order": 3,
-    "Condition": "skillrank>=(skill_lethita_dualsword_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_bitter_100_3",
-    "StatDesc": "ATK_Speed+2"
+    "Condition": "skillrank>=(skill_lethita_dualsword_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_bitter_100_3",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_bitter_100_3"
   },
   {
     "EnchantClass": "bitter_100",
@@ -3186,10 +3186,10 @@
   {
     "EnchantClass": "rich_100",
     "Order": 3,
-    "Condition": "skillrank>=(skill_fiona_longsword_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_rich_100_3",
-    "StatDesc": "ATK_Speed+3"
+    "Condition": "skillrank>=(skill_fiona_longsword_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rich_100_3",
+    "Stat": "ATK_Speed+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rich_100_3"
   },
   {
     "EnchantClass": "rich_100",
@@ -3218,10 +3218,10 @@
   {
     "EnchantClass": "resolution_100",
     "Order": 2,
-    "Condition": "skillrank>=(skill_lethita_dualspear_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_resolution_100_2",
-    "StatDesc": "Balance+3"
+    "Condition": "skillrank>=(skill_lethita_dualspear_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_resolution_100_2",
+    "Stat": "Balance+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_resolution_100_2"
   },
   {
     "EnchantClass": "resolution_100",
@@ -3322,10 +3322,10 @@
   {
     "EnchantClass": "fallenleaf_100",
     "Order": 3,
-    "Condition": "skillrank>=(skill_will_mastery",
-    "ConditionDesc": "6)",
-    "Stat": "GameUI_Heroes_EnchantCondition_fallenleaf_100_3",
-    "StatDesc": "DEF+106"
+    "Condition": "skillrank>=(skill_will_mastery,6)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fallenleaf_100_3",
+    "Stat": "DEF+106",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fallenleaf_100_3"
   },
   {
     "EnchantClass": "fallenleaf_100",
@@ -3346,10 +3346,10 @@
   {
     "EnchantClass": "ambition_100",
     "Order": 2,
-    "Condition": "skillrank>=(skill_critical_hit",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_ambition_100_2",
-    "StatDesc": "ATK_Speed+1"
+    "Condition": "skillrank>=(skill_critical_hit,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_100_2",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_100_2"
   },
   {
     "EnchantClass": "ambition_100",
@@ -3722,10 +3722,10 @@
   {
     "EnchantClass": "perspicuity_100",
     "Order": 2,
-    "Condition": "skillrank>=(skill_evy_staff_mastery",
-    "ConditionDesc": "9)",
-    "Stat": "GameUI_Heroes_EnchantCondition_perspicuity_100_2",
-    "StatDesc": "ATK_Speed+3"
+    "Condition": "skillrank>=(skill_evy_staff_mastery,9)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_perspicuity_100_2",
+    "Stat": "ATK_Speed+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_perspicuity_100_2"
   },
   {
     "EnchantClass": "perspicuity_100",
