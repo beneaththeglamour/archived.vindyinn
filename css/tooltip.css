@@ -255,9 +255,11 @@ table {
     padding-top: 0.1rem;
     display: block;
     padding-right: 0.3rem;
+	font-family:Alegreya Sans, sans-serif;
 }
 .enchantstat {
 	color:rgb(225,198,100);
+	font-family:ITC Goudy Sans Book, sans-serif;
 }
 .enchantstatconstraint {
 	color:rgb(68,68,68);
