@@ -241,7 +241,7 @@
 		if (UpperEnchantName == "SPELL") {$(this).prepend("Suffering")}
 		if (UpperEnchantName == "SPRING_RAIN") {$(this).prepend("Vigilance")}
 		if (UpperEnchantName == "SPROUT") {$(this).prepend("Zeal")}
-		if (UpperEnchantName == "STARLIGHT") {$(this).prepend("Annihilation")}
+		if (UpperEnchantName == "STARLIGHT2") {$(this).prepend("Annihilation")}
 		if (UpperEnchantName == "STATUE") {$(this).prepend("Illusion")}
 		if (UpperEnchantName == "STIGMA") {$(this).prepend("Stigma")}
 		if (UpperEnchantName == "TEST") {$(this).prepend("Test")}
