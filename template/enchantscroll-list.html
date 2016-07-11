@@ -44,7 +44,7 @@ Brynn probably knows how to use this.</span>
 							</span>
 							<span class="enchantinfo">
 								<ul>
-									<li ng-repeat="item in ItemVariable2 | filter : {'EnchantClass':'acid'}:true"></li>
+									<li ng-repeat="item in ItemVariable2 | filter : {'EnchantClass':'acid'}:true">{{item.EnchantClass}}</li>
 								</ul>
 							</span>
 							<span class="trade" value="{{item.TradeRestirction}}"></span> 
