@@ -43,8 +43,11 @@ Brynn probably knows how to use this.</span>
 								<span class="prefixrank">{{item.IsPrefix}}<span class="enchantrank">{{item.EnchantLevel}}</span>Rank</span>
 							</span>
 							<div class="enchantinfo">
-								<ul>
-									<li ng-repeat="item in ItemVariable2 | filter : {'EnchantClass':'acid'}:true">{{item.EnchantClass}}</li>
+								<ul class="enchantstatlist">
+									<span ng-repeat="item in ItemVariable2 | filter : {'EnchantClass':'acid'}:true">
+										<li>{{item.Stat}}</li>
+										<li>{{item.StatDesc}}</li>
+									</span>
 								</ul>
 							</div>
 							<span class="trade" value="{{item.TradeRestirction}}"></span> 
