@@ -1,5 +1,7 @@
  ReplaceEnchantScrollName = function(){
 	 $('.linkname').each(function(){
+		EnchantScrollName = $(this).attr('value')
+		UpperEnchantName = EnchantScrollName.toUpperCase()
 		if (UpperEnchantName == "ACID") {$(this).html("Swift")}
 		if (UpperEnchantName == "ADROIT") {$(this).html("Even")}
 		if (UpperEnchantName == "ADVENTURER") {$(this).html("Explorer's")}

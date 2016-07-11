@@ -21,7 +21,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						})
 						
 						$.getScript( '/js/enchantscrollnames.js', function() {
-								UpperEnchantName = EnchantScrollName.toUpperCase()
 								ReplaceEnchantScrollName()
 							})
 						
