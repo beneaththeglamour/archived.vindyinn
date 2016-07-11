@@ -243,7 +243,7 @@ table {
 }
 .enchantstatlist {
 	margin: 0rem;
-	padding: 0.3rem 0.4rem;
+	padding: 0.7rem 0.4rem;
 	color: rgb(38,40,41);
 }
 .enchantstatlist li::before {
