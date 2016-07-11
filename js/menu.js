@@ -108,6 +108,7 @@ MenuList = function() {
 		'</ul>'+
 	'<li><a href="">Items</a>'+
 		'<ul>'+
+			'<li><a href="/enchant-scroll">Enchant Scrolls</a></li>'+
 			'<li><a href="/event">Event</a></li>'+
 			'<li><a href="">Consumables</a>'+
 				'<ul>'+
