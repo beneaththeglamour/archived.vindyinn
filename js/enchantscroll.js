@@ -9,7 +9,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
     controller: 'ListController'
   }).
   when('/item/:ItemID/', {
-    template: '',
+    templateUrl: '/template/enchantscroll-detail.html',
     controller: 'DetailsController'
   }).
   otherwise({

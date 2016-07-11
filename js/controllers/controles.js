@@ -210,6 +210,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.ItemVariable = data;
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
+					$http.get('/json/enchant-scroll-stats.json').success (function(data2){
+						$scope.ItemVariable2 = data2;
+					});
 				setTimeout(function(){
 					WhatIsTheURL = window.location.pathname
 					RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
@@ -251,14 +254,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							if (checkclasses == '529') {$(this).html('Lann, Kai, Sylas')}
 							if (checkclasses == '1518') {$(this).html('Fiona, Evie, Karok, Vella, Hurk, Lynn, Arisha, Delia')}
 					})
-					checklvl = $('#checkreqlvl').html();
-					if (checklvl > '1') {
-						$('#requlvl').show();
-					}
-					checkskill = $('#checkskillreq').html();
-					if (checkskill != "") {
-						$('#skilllvlres').show();
-					}
 					$('.skillrank').each(function(){
 						WhatIsTheSkillRank = $(this).attr('value')
 						if (WhatIsTheSkillRank == '1') {$(this).html('F')}
@@ -423,12 +418,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								$(this).show();
 							} else {$(this).hide();}
 						});
-					$('.weight').each(function() {
-							doihide = $(this).attr("value");
-							if (doihide != "") {
-								$(this).show();
-							} else {$(this).hide();}
-						});
 					$('.trade').each(
 						function(){
 							checktrade = $(this).attr('value')
@@ -466,10 +455,37 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-					var url = "/js/descriptions.js";
-							$.getScript( url, function() {
-								RunningDescriptions()
+					$.when(
+							$.getScript( "/js/enchantscrollnames.js" ),
+							$.getScript( "/js/enchantscrollstats.js" ),
+							$.getScript( "/js/enchantscrollcondition.js" ),
+							$.getScript( "/js/enchantscrollconstraint.js" ),
+							$.Deferred(function( deferred ){
+								$( deferred.resolve );
 							})
+						).done(function(){
+							ReplaceEnchantScrollName()
+							ReplaceESStats()
+							ReplaceESCondition()
+							ItemConstraint()
+							$('.isPrefix').each(function(){
+								IsPrefix = $(this).attr('value')
+								if (IsPrefix == 'True') {$(this).html('Prefix')}
+								else {$(this).html('Suffix')}
+							})
+							
+							console.log('DataTable loaded.')
+								if (WhatIsTheURL.indexOf('expertise') == 1) {
+									$('table').DataTable({
+										"order": [[ 2, "asc" ]]
+									});
+								} else {
+									$('table').DataTable({
+										"order": [[ 1, "asc" ]]
+									});
+							}
+						});
+						
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
