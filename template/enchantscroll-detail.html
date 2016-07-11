@@ -9,7 +9,7 @@
 								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url(/images/icons/enchant_scroll.png)"/> 			
 								<span class="Beginner rarity itemname"  value="{{ItemVariable[whichItem].EnchantClass}}"> Enchant Scroll</span> 			
 								<span class="bubble"> 				
-									<span class="itemtype">Rank {{ItemVariable[whichItem].EnchantLevel}} <span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span> Enchant</span> 				
+									<span class="itemtype">Rank <span class="RankEnum" value="{{ItemVariable[whichItem].EnchantLevel}}"></span> <span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span> Enchant</span> 				
 									<span id="sell">Sell Price</span> 				
 									<span class="right">
 										<img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack">
@@ -27,7 +27,7 @@
 							An enchant scroll that lets you infuse a piece of equipment with magical power.<br />Brynn probably knows how to use this.
 							<div class="enchantid">
 								<span class="itemname" value="{{ItemVariable[whichItem].EnchantClass}}"></span>
-								<span class="prefixrank"><span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span><span class="enchantrank">{{ItemVariable[whichItem].EnchantLevel}}</span>Rank</span>
+								<span class="prefixrank"><span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span><span class="RankEnum" value="{{ItemVariable[whichItem].EnchantLevel}}"></span>Rank</span>
 							</div>
 							<div class="enchantinfo">
 								<ul class="enchantstatlist">
