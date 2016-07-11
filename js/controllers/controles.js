@@ -448,13 +448,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							}
 						}
 					)
-					$('.desc').each(
-						function(){
-							ValueofDesc = $(this).attr('value')
-							TransformedDescClass = ValueofDesc.replace(/ /g,'_')
-							$(this).addClass('ItemDesc_'+TransformedDescClass)
-						}
-					)
 					$.when(
 							$.getScript( "/js/enchantscrollnames.js" ),
 							$.getScript( "/js/enchantscrollstats.js" ),
