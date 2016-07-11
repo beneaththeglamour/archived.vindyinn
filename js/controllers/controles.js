@@ -19,11 +19,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							EnchantScrollName = $(this).attr('value')
 							$('.Input'+EnchantScrollName).val(EnchantScrollName).trigger('input');
 						})
-						
-						$.getScript( '/js/enchantscrollnames.js', function() {
-								ReplaceEnchantScrollName()
-							})
-						
+					
 						$('.tagname').each(function(){
 							console.log('I swapped the underscores for you.')
 							tagpopup = $(this).attr('title');
@@ -164,16 +160,25 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						}
 					)
 					
-				console.log('DataTable loaded.')
-						if (WhatIsTheURL.indexOf('expertise') == 1) {
-							$('table').DataTable({
-								"order": [[ 2, "asc" ]]
-							});
-						} else {
-							$('table').DataTable({
-								"order": [[ 1, "asc" ]]
-							});
-						}
+						$.when(
+							$.getScript( "/js/enchantscrollnames.js" ),
+							$.Deferred(function( deferred ){
+								$( deferred.resolve );
+							})
+						).done(function(){
+							ReplaceEnchantScrollName()
+							console.log('DataTable loaded.')
+								if (WhatIsTheURL.indexOf('expertise') == 1) {
+									$('table').DataTable({
+										"order": [[ 2, "asc" ]]
+									});
+								} else {
+									$('table').DataTable({
+										"order": [[ 1, "asc" ]]
+									});
+							}
+						});
+									
 						
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
