@@ -18,6 +18,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						$('.linkname').each(function(){
 							EnchantScrollName = $(this).attr('value')
 							$.getScript( '/js/enchantscrollnames.js', function() {
+								UpperEnchantName = EnchantScrollName.toUpperCase()
 								ReplaceEnchantScrollName()
 							})
 							$('.Input'+EnchantScrollName).val(EnchantScrollName).trigger('input');
