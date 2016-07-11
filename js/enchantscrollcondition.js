@@ -633,6 +633,6 @@ ReplaceESCondition = function(){
 		if (EnchantCondition == "GAMEUI_HEROES_ENCHANTCONDITION_WRATH_4") {$(this).html("Requires the Yeti Horn Scratcher title.")}
 		if (EnchantCondition == "GAMEUI_HEROES_ENCHANTCONDITION_YETI_1") {$(this).html("Requires Smash Mastery Rank A or above.")}
 		EmptyCondition = $('this').html()
-		if (EmptyCondition == "") {$(this).hide()}
+		if (EmptyCondition == "") {$(this).remove()}
 	})
 }
