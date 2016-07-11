@@ -34,7 +34,7 @@
 							</div> 			 		
 							<span class="expiry">Expires in: 7 day(s).</span>		 		
 							<div class="containres"> 				 			
-								<span class="restriction classres"><span class="classresvalue">{{item.ItemConstraintDesc}}</span></span> 		
+								<span class="restriction classres"><span class="classresvalue"><span class="itemconstraint" value="{{item.ItemConstraintDesc|uppercase}}"></span></span></span> 		
 							</div> 			 		
 							<div class="desc">
 							An enchant scroll that lets you infuse a piece of equipment with magical power.<br />Brynn probably knows how to use this.
@@ -58,5 +58,5 @@
 				</div>
 			</td> 		 	
 			<td class="centercell"><span class="isPrefix" value="{{item.IsPrefix}}"></span></td> 	
-			<td class="subtype centercell">{{item.ItemConstraintDesc}}</td>
+			<td class="subtype centercell"><span class="itemconstraint" value="{{item.ItemConstraintDesc|uppercase}}"></span></td>
 	</tr> </tbody> </table> 

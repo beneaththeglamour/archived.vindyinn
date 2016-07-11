@@ -164,6 +164,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$.getScript( "/js/enchantscrollnames.js" ),
 							$.getScript( "/js/enchantscrollstats.js" ),
 							$.getScript( "/js/enchantscrollcondition.js" ),
+							$.getScript( "/js/enchantscrollconstraint.js" ),
 							$.Deferred(function( deferred ){
 								$( deferred.resolve );
 							})
@@ -171,6 +172,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							ReplaceEnchantScrollName()
 							ReplaceESStats()
 							ReplaceESCondition()
+							ItemConstraint()
 							$('.isPrefix').each(function(){
 								IsPrefix = $(this).attr('value')
 								if (IsPrefix == 'True') {$(this).html('Prefix')}
