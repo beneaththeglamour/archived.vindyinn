@@ -635,6 +635,6 @@ ReplaceESCondition = function(){
 	})
 	$('.enchantstatconstraint').each(function(){
 	EmptyCondition = $(this).text().length
-		if (EmptyCondition >= 3) {$(this).remove()}
+		if (EmptyCondition <= 3) {$(this).remove()}
 	})
 }
