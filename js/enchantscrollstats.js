@@ -716,5 +716,5 @@ ReplaceESStats = function() {
 		if (EnchantStat == "GAMEUI_HEROES_ENCHANTSTAT_WRATH_3") {$(this).html("HP -100")}
 		if (EnchantStat == "GAMEUI_HEROES_ENCHANTSTAT_WRATH_4") {$(this).html("Critical Rate 3%")}
 		if (EnchantStat == "GAMEUI_HEROES_ENCHANTSTAT_YETI_1") {$(this).html("ATT +100")}
-		
+	})
 }
