@@ -632,7 +632,9 @@ ReplaceESCondition = function(){
 		if (EnchantCondition == "GAMEUI_HEROES_ENCHANTCONDITION_WISE_MAN_2") {$(this).html(" ")}
 		if (EnchantCondition == "GAMEUI_HEROES_ENCHANTCONDITION_WRATH_4") {$(this).html("Requires the Yeti Horn Scratcher title.")}
 		if (EnchantCondition == "GAMEUI_HEROES_ENCHANTCONDITION_YETI_1") {$(this).html("Requires Smash Mastery Rank A or above.")}
-		EmptyCondition = $('this').html()
-		if (EmptyCondition == "") {$(this).remove()}
+	})
+	$('.enchantstatconstraint').each(function(){
+	EmptyCondition = $(this).text().length
+		if (EmptyCondition >= 3) {$(this).remove()}
 	})
 }
