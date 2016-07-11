@@ -5,7 +5,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 		{    
 				$http.get('/json/enchant-scroll-base.json').success (function(data){
 				$scope.ItemVariable = data;
-					$http.get('/json/enchant-scroll-stats.json').success (function(data){
+					$http.get('/json/enchant-scroll-stats.json').success (function(data2){
 						$scope.ItemVariable2 = data2;
 					});
 				setTimeout(function(){
