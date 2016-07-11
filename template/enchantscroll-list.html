@@ -42,7 +42,11 @@ Brynn probably knows how to use this.</span>
 								<span>{{item.EnchantClass}}</span>
 								<span class="prefixrank">{{item.IsPrefix}}<span class="enchantrank">{{item.EnchantLevel}}</span>Rank</span>
 							</span>
-							<span class="enchantinfo">This will be filled.</span>
+							<span class="enchantinfo">
+								<ul>
+									<li ng-repeat="item in ItemVariable2 | filter : {'EnchantClass':'acid'}:true"></li>
+								</ul>
+							</span>
 							<span class="trade" value="{{item.TradeRestirction}}"></span> 
 						</div> 	
 					</div> 

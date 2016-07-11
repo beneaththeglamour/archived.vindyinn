@@ -1,0 +1,4946 @@
+[
+  {
+    "EnchantClass": "test",
+    "Order": 1,
+    "Condition": "level>=(3)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_test_1",
+    "Stat": "Balance+10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_test_1"
+  },
+  {
+    "EnchantClass": "simple",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_simple_1",
+    "Stat": "STR+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_simple_1"
+  },
+  {
+    "EnchantClass": "simple",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_simple_2",
+    "Stat": "INT+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_simple_2"
+  },
+  {
+    "EnchantClass": "simple",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_simple_3",
+    "Stat": "DEX+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_simple_3"
+  },
+  {
+    "EnchantClass": "simple",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_simple_4",
+    "Stat": "WILL+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_simple_4"
+  },
+  {
+    "EnchantClass": "relaxed",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_relaxed_1",
+    "Stat": "HP+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_relaxed_1"
+  },
+  {
+    "EnchantClass": "relaxed",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_relaxed_2",
+    "Stat": "STAMINA+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_relaxed_2"
+  },
+  {
+    "EnchantClass": "relaxed",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_relaxed_3",
+    "Stat": "STR-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_relaxed_3"
+  },
+  {
+    "EnchantClass": "strong",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_strong_1",
+    "Stat": "WILL+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_strong_1"
+  },
+  {
+    "EnchantClass": "strong",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_strong_2",
+    "Stat": "INT-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_strong_2"
+  },
+  {
+    "EnchantClass": "strong",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_will_mastery",
+    "ConditionDesc": "3)",
+    "Stat": "GameUI_Heroes_EnchantCondition_strong_3",
+    "StatDesc": "WILL+1"
+  },
+  {
+    "EnchantClass": "strong",
+    "Order": 4,
+    "Condition": "skillrank>=(skill_will_mastery",
+    "ConditionDesc": "3)",
+    "Stat": "GameUI_Heroes_EnchantCondition_strong_4",
+    "StatDesc": "DEX+3"
+  },
+  {
+    "EnchantClass": "swift",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_swift_1",
+    "Stat": "DEX+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_swift_1"
+  },
+  {
+    "EnchantClass": "hard",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_hard_1",
+    "Stat": "STR+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_hard_1"
+  },
+  {
+    "EnchantClass": "hard",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_hard_2",
+    "Stat": "WILL-7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_hard_2"
+  },
+  {
+    "EnchantClass": "hard",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_str_mastery",
+    "ConditionDesc": "3)",
+    "Stat": "GameUI_Heroes_EnchantCondition_hard_3",
+    "StatDesc": "DEX+3"
+  },
+  {
+    "EnchantClass": "beginners",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_beginners_1",
+    "Stat": "INT+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_beginners_1"
+  },
+  {
+    "EnchantClass": "beginners",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_beginners_2",
+    "Stat": "DEX-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_beginners_2"
+  },
+  {
+    "EnchantClass": "beginners",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_evy_magic_mastery",
+    "ConditionDesc": "3)",
+    "Stat": "GameUI_Heroes_EnchantCondition_beginners_3",
+    "StatDesc": "INT+5"
+  },
+  {
+    "EnchantClass": "sharp",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_sharp_1",
+    "Stat": "ATK+21",
+    "StatDesc": "GameUI_Heroes_EnchantStat_sharp_1"
+  },
+  {
+    "EnchantClass": "protected",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_protected_1",
+    "Stat": "HP+7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_protected_1"
+  },
+  {
+    "EnchantClass": "protected",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_protected_2",
+    "Stat": "STR-8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_protected_2"
+  },
+  {
+    "EnchantClass": "protected",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_light_armor_mastery",
+    "ConditionDesc": "4)",
+    "Stat": "GameUI_Heroes_EnchantCondition_protected_3",
+    "StatDesc": "HP+4"
+  },
+  {
+    "EnchantClass": "protected",
+    "Order": 4,
+    "Condition": "skillrank>=(skill_light_armor_mastery",
+    "ConditionDesc": "4)",
+    "Stat": "GameUI_Heroes_EnchantCondition_protected_4",
+    "StatDesc": "DEF+16"
+  },
+  {
+    "EnchantClass": "magical",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_magical_1",
+    "Stat": "MATK+15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_magical_1"
+  },
+  {
+    "EnchantClass": "magical",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_evy_magic_mastery",
+    "ConditionDesc": "4)",
+    "Stat": "GameUI_Heroes_EnchantCondition_magical_2",
+    "StatDesc": "MATK+9"
+  },
+  {
+    "EnchantClass": "sturdy",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_sturdy_1",
+    "Stat": "DEF+48",
+    "StatDesc": "GameUI_Heroes_EnchantStat_sturdy_1"
+  },
+  {
+    "EnchantClass": "sturdy",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_sturdy_2",
+    "Stat": "WILL-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_sturdy_2"
+  },
+  {
+    "EnchantClass": "strength",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_strength_1",
+    "Stat": "HP+8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_strength_1"
+  },
+  {
+    "EnchantClass": "strength",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_strength_2",
+    "Stat": "STR-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_strength_2"
+  },
+  {
+    "EnchantClass": "strength",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_hp_mastery",
+    "ConditionDesc": "4)",
+    "Stat": "GameUI_Heroes_EnchantCondition_strength_3",
+    "StatDesc": "HP+10"
+  },
+  {
+    "EnchantClass": "strength",
+    "Order": 4,
+    "Condition": "skillrank>=(skill_hp_mastery",
+    "ConditionDesc": "4)",
+    "Stat": "GameUI_Heroes_EnchantCondition_strength_4",
+    "StatDesc": "INT-2"
+  },
+  {
+    "EnchantClass": "will",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_will_1",
+    "Stat": "WILL+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_will_1"
+  },
+  {
+    "EnchantClass": "will",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_will_mastery",
+    "ConditionDesc": "4)",
+    "Stat": "GameUI_Heroes_EnchantCondition_will_2",
+    "StatDesc": "WILL+3"
+  },
+  {
+    "EnchantClass": "will",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_stone_skin",
+    "ConditionDesc": "4)",
+    "Stat": "GameUI_Heroes_EnchantCondition_will_3",
+    "StatDesc": "INT+2"
+  },
+  {
+    "EnchantClass": "will",
+    "Order": 4,
+    "Condition": "skillrank>=(skill_will_mastery",
+    "ConditionDesc": "4)",
+    "Stat": "GameUI_Heroes_EnchantCondition_will_4",
+    "StatDesc": "DEF-25"
+  },
+  {
+    "EnchantClass": "energy",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_energy_1",
+    "Stat": "HP+10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_energy_1"
+  },
+  {
+    "EnchantClass": "energy",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_hp_mastery",
+    "ConditionDesc": "5)",
+    "Stat": "GameUI_Heroes_EnchantCondition_energy_2",
+    "StatDesc": "HP+12"
+  },
+  {
+    "EnchantClass": "powerful",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_powerful_1",
+    "Stat": "STR+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_powerful_1"
+  },
+  {
+    "EnchantClass": "powerful",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_powerful_2",
+    "Stat": "DEX-3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_powerful_2"
+  },
+  {
+    "EnchantClass": "powerful",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_str_mastery",
+    "ConditionDesc": "5)",
+    "Stat": "GameUI_Heroes_EnchantCondition_powerful_3",
+    "StatDesc": "STR+2"
+  },
+  {
+    "EnchantClass": "powerful",
+    "Order": 4,
+    "Condition": "skillrank>=(skill_str_mastery",
+    "ConditionDesc": "5)",
+    "Stat": "GameUI_Heroes_EnchantCondition_powerful_4",
+    "StatDesc": "ATK+5"
+  },
+  {
+    "EnchantClass": "mana",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mana_1",
+    "Stat": "MATK+20",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mana_1"
+  },
+  {
+    "EnchantClass": "mana",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mana_2",
+    "Stat": "INT+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mana_2"
+  },
+  {
+    "EnchantClass": "mana",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mana_3",
+    "Stat": "STR-3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mana_3"
+  },
+  {
+    "EnchantClass": "blow",
+    "Order": 1,
+    "Condition": "title_acquired(410132)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_blow_1",
+    "Stat": "Critical+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_blow_1"
+  },
+  {
+    "EnchantClass": "blow",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_blow_2",
+    "Stat": "ATK+12",
+    "StatDesc": "GameUI_Heroes_EnchantStat_blow_2"
+  },
+  {
+    "EnchantClass": "blow",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_blow_3",
+    "Stat": "DEX-3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_blow_3"
+  },
+  {
+    "EnchantClass": "prepared",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_prepared_1",
+    "Stat": "DEF+82",
+    "StatDesc": "GameUI_Heroes_EnchantStat_prepared_1"
+  },
+  {
+    "EnchantClass": "prepared",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_prepared_2",
+    "Stat": "STR-4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_prepared_2"
+  },
+  {
+    "EnchantClass": "prepared",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_prepared_3",
+    "Stat": "WILL-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_prepared_3"
+  },
+  {
+    "EnchantClass": "fine",
+    "Order": 1,
+    "Condition": "title_acquired(410082)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fine_1",
+    "Stat": "STR+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fine_1"
+  },
+  {
+    "EnchantClass": "fine",
+    "Order": 2,
+    "Condition": "title_acquired(410082)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fine_2",
+    "Stat": "INT+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fine_2"
+  },
+  {
+    "EnchantClass": "fine",
+    "Order": 3,
+    "Condition": "title_acquired(410082)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fine_3",
+    "Stat": "DEX+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fine_3"
+  },
+  {
+    "EnchantClass": "fine",
+    "Order": 4,
+    "Condition": "title_acquired(410082)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fine_4",
+    "Stat": "WILL+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fine_4"
+  },
+  {
+    "EnchantClass": "fine",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fine_5",
+    "Stat": "ATK+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fine_5"
+  },
+  {
+    "EnchantClass": "fine",
+    "Order": 6,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fine_6",
+    "Stat": "MATK+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fine_6"
+  },
+  {
+    "EnchantClass": "agile",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_agile_1",
+    "Stat": "DEX+13",
+    "StatDesc": "GameUI_Heroes_EnchantStat_agile_1"
+  },
+  {
+    "EnchantClass": "agile",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_agile_2",
+    "Stat": "STR-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_agile_2"
+  },
+  {
+    "EnchantClass": "knowledge",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_knowledge_1",
+    "Stat": "INT+8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_knowledge_1"
+  },
+  {
+    "EnchantClass": "knowledge",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_knowledge_2",
+    "Stat": "DEX-1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_knowledge_2"
+  },
+  {
+    "EnchantClass": "patient",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_patient_1",
+    "Stat": "STAMINA+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_patient_1"
+  },
+  {
+    "EnchantClass": "patient",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_patient_2",
+    "Stat": "ATK-10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_patient_2"
+  },
+  {
+    "EnchantClass": "patient",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_patient_3",
+    "Stat": "MATK-10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_patient_3"
+  },
+  {
+    "EnchantClass": "patient",
+    "Order": 4,
+    "Condition": "skillrank>=(skill_meditation",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_patient_4",
+    "StatDesc": "STAMINA+5"
+  },
+  {
+    "EnchantClass": "wantless",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_wantless_1",
+    "Stat": "STR+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_wantless_1"
+  },
+  {
+    "EnchantClass": "wantless",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_wantless_2",
+    "Stat": "INT+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_wantless_2"
+  },
+  {
+    "EnchantClass": "wantless",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_wantless_3",
+    "Stat": "DEX+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_wantless_3"
+  },
+  {
+    "EnchantClass": "wantless",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_wantless_4",
+    "Stat": "WILL+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_wantless_4"
+  },
+  {
+    "EnchantClass": "wise",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_wise_1",
+    "Stat": "MATK+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_wise_1"
+  },
+  {
+    "EnchantClass": "wise",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_wise_2",
+    "Stat": "STR-3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_wise_2"
+  },
+  {
+    "EnchantClass": "wise",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_wise_3",
+    "Stat": "DEX-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_wise_3"
+  },
+  {
+    "EnchantClass": "properly",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_combat_mastery",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_properly_1",
+    "StatDesc": "ATK+25"
+  },
+  {
+    "EnchantClass": "properly",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_combat_mastery",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_properly_2",
+    "StatDesc": "INT+2"
+  },
+  {
+    "EnchantClass": "wisdom",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_wisdom_1",
+    "Stat": "INT+18",
+    "StatDesc": "GameUI_Heroes_EnchantStat_wisdom_1"
+  },
+  {
+    "EnchantClass": "wisdom",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_wisdom_2",
+    "Stat": "DEX-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_wisdom_2"
+  },
+  {
+    "EnchantClass": "quickness",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_quickness_1",
+    "Stat": "DEX+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_quickness_1"
+  },
+  {
+    "EnchantClass": "quickness",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_quickness_2",
+    "Stat": "INT+9",
+    "StatDesc": "GameUI_Heroes_EnchantStat_quickness_2"
+  },
+  {
+    "EnchantClass": "quickness",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_quickness_3",
+    "Stat": "STR-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_quickness_3"
+  },
+  {
+    "EnchantClass": "naive",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_naive_1",
+    "Stat": "DEF+7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_naive_1"
+  },
+  {
+    "EnchantClass": "prevent",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_light_armor_mastery",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_prevent_1",
+    "StatDesc": "DEF+135"
+  },
+  {
+    "EnchantClass": "steady",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_steady_1",
+    "Stat": "STAMINA+8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_steady_1"
+  },
+  {
+    "EnchantClass": "steady",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_cloth_mastery",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_steady_2",
+    "StatDesc": "STAMINA+7"
+  },
+  {
+    "EnchantClass": "light",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_light_1",
+    "Stat": "DEX+15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_light_1"
+  },
+  {
+    "EnchantClass": "light",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_light_2",
+    "Stat": "WILL-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_light_2"
+  },
+  {
+    "EnchantClass": "serviceable",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_evy_scythe_drain1",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_serviceable_1",
+    "StatDesc": "ATK+60"
+  },
+  {
+    "EnchantClass": "serviceable",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_evy_scythe_drain1",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_serviceable_2",
+    "StatDesc": "DEX-2"
+  },
+  {
+    "EnchantClass": "serviceable",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_evy_scythe_drain1",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_serviceable_3",
+    "StatDesc": "WILL-2"
+  },
+  {
+    "EnchantClass": "likely",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_light_armor_mastery",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_likely_1",
+    "StatDesc": "MATK+55"
+  },
+  {
+    "EnchantClass": "likely",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_likely_2",
+    "Stat": "INT+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_likely_2"
+  },
+  {
+    "EnchantClass": "likely",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_likely_3",
+    "Stat": "ATK-10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_likely_3"
+  },
+  {
+    "EnchantClass": "likely",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_likely_4",
+    "Stat": "DEX-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_likely_4"
+  },
+  {
+    "EnchantClass": "finished",
+    "Order": 1,
+    "Condition": "title_acquired(410035)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_finished_1",
+    "Stat": "STR+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_finished_1"
+  },
+  {
+    "EnchantClass": "finished",
+    "Order": 2,
+    "Condition": "title_acquired(410035)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_finished_2",
+    "Stat": "DEX+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_finished_2"
+  },
+  {
+    "EnchantClass": "finished",
+    "Order": 3,
+    "Condition": "title_acquired(410035)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_finished_3",
+    "Stat": "INT+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_finished_3"
+  },
+  {
+    "EnchantClass": "finished",
+    "Order": 4,
+    "Condition": "title_acquired(410035)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_finished_4",
+    "Stat": "WILL+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_finished_4"
+  },
+  {
+    "EnchantClass": "finished",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_finished_5",
+    "Stat": "ATK+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_finished_5"
+  },
+  {
+    "EnchantClass": "finished",
+    "Order": 6,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_finished_6",
+    "Stat": "MATK+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_finished_6"
+  },
+  {
+    "EnchantClass": "close",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_stone_skin",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_close_1",
+    "StatDesc": "DEF+184"
+  },
+  {
+    "EnchantClass": "acid",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_life_flare",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_acid_1",
+    "StatDesc": "Critical+2"
+  },
+  {
+    "EnchantClass": "acid",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_acid_2",
+    "Stat": "DEX+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_acid_2"
+  },
+  {
+    "EnchantClass": "acid",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_life_flare",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_acid_3",
+    "StatDesc": "ATK-20"
+  },
+  {
+    "EnchantClass": "acid",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_acid_4",
+    "Stat": "HP-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_acid_4"
+  },
+  {
+    "EnchantClass": "finger_marked",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_life_flare",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_finger_marked_1",
+    "StatDesc": "ATK+45"
+  },
+  {
+    "EnchantClass": "finger_marked",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_finger_marked_2",
+    "Stat": "INT+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_finger_marked_2"
+  },
+  {
+    "EnchantClass": "finger_marked",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_finger_marked_3",
+    "Stat": "DEX-7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_finger_marked_3"
+  },
+  {
+    "EnchantClass": "calm",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_calm_1",
+    "Stat": "WILL+15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_calm_1"
+  },
+  {
+    "EnchantClass": "calm",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_fiona_longsword_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_calm_2",
+    "StatDesc": "STR+12"
+  },
+  {
+    "EnchantClass": "strong_shot",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_strong_shot_1",
+    "Stat": "ATK+32",
+    "StatDesc": "GameUI_Heroes_EnchantStat_strong_shot_1"
+  },
+  {
+    "EnchantClass": "strong_body",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_fiona_shield_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_strong_body_1",
+    "StatDesc": "DEF+95"
+  },
+  {
+    "EnchantClass": "strong_body",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_fiona_largeshield_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_strong_body_2",
+    "StatDesc": "DEF+95"
+  },
+  {
+    "EnchantClass": "piercing",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_evy_scythe_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_piercing_1",
+    "StatDesc": "ATK+30"
+  },
+  {
+    "EnchantClass": "piercing",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_evy_scythe_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_piercing_2",
+    "StatDesc": "MATK+30"
+  },
+  {
+    "EnchantClass": "intelligent",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_evy_staff_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_intelligent_1",
+    "StatDesc": "MATK+80"
+  },
+  {
+    "EnchantClass": "substantial",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_cloth_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_substantial_1",
+    "StatDesc": "HP+30"
+  },
+  {
+    "EnchantClass": "substantial",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_light_armor_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_substantial_2",
+    "StatDesc": "HP+30"
+  },
+  {
+    "EnchantClass": "substantial",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_heavy_armor_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_substantial_3",
+    "StatDesc": "HP+30"
+  },
+  {
+    "EnchantClass": "substantial",
+    "Order": 4,
+    "Condition": "skillrank>=(skill_plate_armor_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_substantial_4",
+    "StatDesc": "HP+30"
+  },
+  {
+    "EnchantClass": "decide",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_decide_1",
+    "Stat": "WILL+15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_decide_1"
+  },
+  {
+    "EnchantClass": "decide",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_lethita_dualsword_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_decide_2",
+    "StatDesc": "STR+12"
+  },
+  {
+    "EnchantClass": "windy",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_lethita_dualspear_mastery",
+    "ConditionDesc": "8)",
+    "Stat": "GameUI_Heroes_EnchantCondition_windy_1",
+    "StatDesc": "Critical+3"
+  },
+  {
+    "EnchantClass": "windy",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_windy_2",
+    "Stat": "STR-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_windy_2"
+  },
+  {
+    "EnchantClass": "wise_man",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_wise_man_1",
+    "Stat": "INT+21",
+    "StatDesc": "GameUI_Heroes_EnchantStat_wise_man_1"
+  },
+  {
+    "EnchantClass": "wise_man",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_wise_man_2",
+    "Stat": "DEX-6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_wise_man_2"
+  },
+  {
+    "EnchantClass": "precious",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_precious_1",
+    "Stat": "STR+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_precious_1"
+  },
+  {
+    "EnchantClass": "precious",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_precious_2",
+    "Stat": "DEX+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_precious_2"
+  },
+  {
+    "EnchantClass": "precious",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_precious_3",
+    "Stat": "INT+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_precious_3"
+  },
+  {
+    "EnchantClass": "precious",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_precious_4",
+    "Stat": "WILL+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_precious_4"
+  },
+  {
+    "EnchantClass": "precious",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_precious_5",
+    "Stat": "ATK+7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_precious_5"
+  },
+  {
+    "EnchantClass": "precious",
+    "Order": 6,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_precious_6",
+    "Stat": "MATK+7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_precious_6"
+  },
+  {
+    "EnchantClass": "fair",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fair_1",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fair_1"
+  },
+  {
+    "EnchantClass": "fair",
+    "Order": 2,
+    "Condition": "title_acquired(410403)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fair_2",
+    "Stat": "STR+10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fair_2"
+  },
+  {
+    "EnchantClass": "brave",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_brave_1",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_brave_1"
+  },
+  {
+    "EnchantClass": "brave",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_combat_mastery",
+    "ConditionDesc": "10)",
+    "Stat": "GameUI_Heroes_EnchantCondition_brave_2",
+    "StatDesc": "Balance+1"
+  },
+  {
+    "EnchantClass": "flash",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_flash_1",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_flash_1"
+  },
+  {
+    "EnchantClass": "flash",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_combat_mastery",
+    "ConditionDesc": "10)",
+    "Stat": "GameUI_Heroes_EnchantCondition_flash_2",
+    "StatDesc": "ATK_Speed+1"
+  },
+  {
+    "EnchantClass": "flash",
+    "Order": 3,
+    "Condition": "level>=(65)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_flash_3",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_flash_3"
+  },
+  {
+    "EnchantClass": "solid",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_solid_1",
+    "Stat": "Res_Critical+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_solid_1"
+  },
+  {
+    "EnchantClass": "solid",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_combat_mastery",
+    "ConditionDesc": "10)",
+    "Stat": "GameUI_Heroes_EnchantCondition_solid_2",
+    "StatDesc": "Res_Critical+4"
+  },
+  {
+    "EnchantClass": "solid",
+    "Order": 3,
+    "Condition": "level>=(65)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_solid_3",
+    "Stat": "Res_Critical+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_solid_3"
+  },
+  {
+    "EnchantClass": "curious",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_curious_1",
+    "Stat": "STR+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_curious_1"
+  },
+  {
+    "EnchantClass": "curious",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_curious_2",
+    "Stat": "INT+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_curious_2"
+  },
+  {
+    "EnchantClass": "curious",
+    "Order": 3,
+    "Condition": "level>=(65)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_curious_3",
+    "Stat": "DEF+130",
+    "StatDesc": "GameUI_Heroes_EnchantStat_curious_3"
+  },
+  {
+    "EnchantClass": "gnoll",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_gnoll_1",
+    "Stat": "ATK+15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_gnoll_1"
+  },
+  {
+    "EnchantClass": "jade",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_jade_1",
+    "Stat": "MATK+10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_jade_1"
+  },
+  {
+    "EnchantClass": "sand",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_sand_1",
+    "Stat": "DEF+10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_sand_1"
+  },
+  {
+    "EnchantClass": "basic_mana",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_basic_mana_1",
+    "Stat": "@enchant_hp_recovery+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_basic_mana_1"
+  },
+  {
+    "EnchantClass": "spring_rain",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_spring_rain_1",
+    "Stat": "DEF+32",
+    "StatDesc": "GameUI_Heroes_EnchantStat_spring_rain_1"
+  },
+  {
+    "EnchantClass": "sprout",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_sprout_1",
+    "Stat": "@enchant_buff_stamina_recovery+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_sprout_1"
+  },
+  {
+    "EnchantClass": "first_step",
+    "Order": 1,
+    "Condition": "title_acquired(410325)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_first_step_1",
+    "Stat": "@enchant_poison+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_first_step_1"
+  },
+  {
+    "EnchantClass": "kobold",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_kobold_1",
+    "Stat": "ATK+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_kobold_1"
+  },
+  {
+    "EnchantClass": "ice_stone",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ice_stone_1",
+    "Stat": "MATK+20",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ice_stone_1"
+  },
+  {
+    "EnchantClass": "gravel",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_gravel_1",
+    "Stat": "DEF+15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_gravel_1"
+  },
+  {
+    "EnchantClass": "spell",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_spell_1",
+    "Stat": "@enchant_poison+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_spell_1"
+  },
+  {
+    "EnchantClass": "medium_mana",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_medium_mana_1",
+    "Stat": "@enchant_hp_stam_recovery+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_medium_mana_1"
+  },
+  {
+    "EnchantClass": "shower",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_shower_1",
+    "Stat": "@enchant_hp_recovery+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_shower_1"
+  },
+  {
+    "EnchantClass": "goblin",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_goblin_1",
+    "Stat": "ATK+50",
+    "StatDesc": "GameUI_Heroes_EnchantStat_goblin_1"
+  },
+  {
+    "EnchantClass": "peridot",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_peridot_1",
+    "Stat": "MATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_peridot_1"
+  },
+  {
+    "EnchantClass": "rock",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rock_1",
+    "Stat": "DEF+20",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rock_1"
+  },
+  {
+    "EnchantClass": "whisper",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_whisper_1",
+    "Stat": "@enchant_poison+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_whisper_1"
+  },
+  {
+    "EnchantClass": "high_mana",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_high_mana_1",
+    "Stat": "@enchant_atk_speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_high_mana_1"
+  },
+  {
+    "EnchantClass": "heavy_rain",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_heavy_rain_1",
+    "Stat": "@enchant_matk+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_heavy_rain_1"
+  },
+  {
+    "EnchantClass": "vampire",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_vampire_1",
+    "Stat": "STR+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_vampire_1"
+  },
+  {
+    "EnchantClass": "vampire",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_vampire_2",
+    "Stat": "INT+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_vampire_2"
+  },
+  {
+    "EnchantClass": "vampire",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_vampire_3",
+    "Stat": "DEX+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_vampire_3"
+  },
+  {
+    "EnchantClass": "vampire",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_vampire_4",
+    "Stat": "WILL+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_vampire_4"
+  },
+  {
+    "EnchantClass": "amethyst",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_amethyst_1",
+    "Stat": "INT+10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_amethyst_1"
+  },
+  {
+    "EnchantClass": "amethyst",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_amethyst_2",
+    "Stat": "STR+10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_amethyst_2"
+  },
+  {
+    "EnchantClass": "statue",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_statue_1",
+    "Stat": "MATK+40",
+    "StatDesc": "GameUI_Heroes_EnchantStat_statue_1"
+  },
+  {
+    "EnchantClass": "weak",
+    "Order": 1,
+    "Condition": "title_acquired(410308)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_weak_1",
+    "Stat": "@enchant_atk_speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_weak_1"
+  },
+  {
+    "EnchantClass": "basic_magic",
+    "Order": 1,
+    "Condition": "title_acquired(410319)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_basic_magic_1",
+    "Stat": "@enchant_dex+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_basic_magic_1"
+  },
+  {
+    "EnchantClass": "beam",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_beam_1",
+    "Stat": "@enchant_poison+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_beam_1"
+  },
+  {
+    "EnchantClass": "golem",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_golem_1",
+    "Stat": "ATK+75",
+    "StatDesc": "GameUI_Heroes_EnchantStat_golem_1"
+  },
+  {
+    "EnchantClass": "cats_eye",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_cats_eye_1",
+    "Stat": "MATK+50",
+    "StatDesc": "GameUI_Heroes_EnchantStat_cats_eye_1"
+  },
+  {
+    "EnchantClass": "ivory",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ivory_1",
+    "Stat": "DEF+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ivory_1"
+  },
+  {
+    "EnchantClass": "block",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_block_1",
+    "Stat": "@enchant_stamina_recovery+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_block_1"
+  },
+  {
+    "EnchantClass": "medium_magic",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_evy_magic_arrow",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_medium_magic_1",
+    "StatDesc": "@enchant_stamina_recovery+3"
+  },
+  {
+    "EnchantClass": "yeti",
+    "Order": 1,
+    "Condition": "skillrank>=(skill_smash_mastery",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_yeti_1",
+    "StatDesc": "ATK+100"
+  },
+  {
+    "EnchantClass": "sapphire",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_sapphire_1",
+    "Stat": "MATK+70",
+    "StatDesc": "GameUI_Heroes_EnchantStat_sapphire_1"
+  },
+  {
+    "EnchantClass": "giant",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_giant_1",
+    "Stat": "@enchant_def+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_giant_1"
+  },
+  {
+    "EnchantClass": "curse",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_curse_1",
+    "Stat": "@enchant_str+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_curse_1"
+  },
+  {
+    "EnchantClass": "high_magic",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_high_magic_1",
+    "Stat": "@enchant_int+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_high_magic_1"
+  },
+  {
+    "EnchantClass": "rainbow",
+    "Order": 1,
+    "Condition": "title_acquired(410342)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rainbow_1",
+    "Stat": "@enchant_atk_matk+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rainbow_1"
+  },
+  {
+    "EnchantClass": "rainbow",
+    "Order": 2,
+    "Condition": "title_acquired(410341)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rainbow_2",
+    "Stat": "@enchant_atk_matk+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rainbow_2"
+  },
+  {
+    "EnchantClass": "hope",
+    "Order": 1,
+    "Condition": "title_acquired(410331)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_hope_1",
+    "Stat": "@enchant_critical_buff+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_hope_1"
+  },
+  {
+    "EnchantClass": "coat",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_coat_1",
+    "Stat": "ATK+150",
+    "StatDesc": "GameUI_Heroes_EnchantStat_coat_1"
+  },
+  {
+    "EnchantClass": "coat",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_coat_2",
+    "Stat": "MATK+150",
+    "StatDesc": "GameUI_Heroes_EnchantStat_coat_2"
+  },
+  {
+    "EnchantClass": "coat",
+    "Order": 3,
+    "Condition": "level>=(70)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_coat_3",
+    "Stat": "@enchant_balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_coat_3"
+  },
+  {
+    "EnchantClass": "mind",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mind_1",
+    "Stat": "ATK+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mind_1"
+  },
+  {
+    "EnchantClass": "mind",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mind_2",
+    "Stat": "MATK+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mind_2"
+  },
+  {
+    "EnchantClass": "mind",
+    "Order": 3,
+    "Condition": "level>=(70)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mind_3",
+    "Stat": "@enchant_buff_stamina_recovery+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mind_3"
+  },
+  {
+    "EnchantClass": "decisive",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_decisive_1",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_decisive_1"
+  },
+  {
+    "EnchantClass": "decisive",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_decisive_2",
+    "Stat": "ATK-40",
+    "StatDesc": "GameUI_Heroes_EnchantStat_decisive_2"
+  },
+  {
+    "EnchantClass": "decisive",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_decisive_3",
+    "Stat": "Critical+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_decisive_3"
+  },
+  {
+    "EnchantClass": "proper",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_proper_1",
+    "Stat": "Balance+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_proper_1"
+  },
+  {
+    "EnchantClass": "proper",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_proper_2",
+    "Stat": "Res_Critical-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_proper_2"
+  },
+  {
+    "EnchantClass": "clearness",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_clearness_1",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_clearness_1"
+  },
+  {
+    "EnchantClass": "clearness",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_clearness_2",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_clearness_2"
+  },
+  {
+    "EnchantClass": "antique",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_antique_1",
+    "Stat": "ATK_Speed-1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_antique_1"
+  },
+  {
+    "EnchantClass": "antique",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_antique_2",
+    "Stat": "ATK+320",
+    "StatDesc": "GameUI_Heroes_EnchantStat_antique_2"
+  },
+  {
+    "EnchantClass": "proud",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_proud_1",
+    "Stat": "Balance-1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_proud_1"
+  },
+  {
+    "EnchantClass": "proud",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_proud_2",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_proud_2"
+  },
+  {
+    "EnchantClass": "proud",
+    "Order": 3,
+    "Condition": "title_acquired(410196)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_proud_3",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_proud_3"
+  },
+  {
+    "EnchantClass": "proud",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_proud_4",
+    "Stat": "ATK-40",
+    "StatDesc": "GameUI_Heroes_EnchantStat_proud_4"
+  },
+  {
+    "EnchantClass": "underdone",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_underdone_1",
+    "Stat": "ATK+180",
+    "StatDesc": "GameUI_Heroes_EnchantStat_underdone_1"
+  },
+  {
+    "EnchantClass": "underdone",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_underdone_2",
+    "Stat": "MATK+150",
+    "StatDesc": "GameUI_Heroes_EnchantStat_underdone_2"
+  },
+  {
+    "EnchantClass": "underdone",
+    "Order": 3,
+    "Condition": "title_acquired(410202)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_underdone_3",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_underdone_3"
+  },
+  {
+    "EnchantClass": "multipurpose",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_multipurpose_1",
+    "Stat": "STAMINA+16",
+    "StatDesc": "GameUI_Heroes_EnchantStat_multipurpose_1"
+  },
+  {
+    "EnchantClass": "multipurpose",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_multipurpose_2",
+    "Stat": "Res_Critical-12",
+    "StatDesc": "GameUI_Heroes_EnchantStat_multipurpose_2"
+  },
+  {
+    "EnchantClass": "charming",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_charming_1",
+    "Stat": "HP+80",
+    "StatDesc": "GameUI_Heroes_EnchantStat_charming_1"
+  },
+  {
+    "EnchantClass": "charming",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_cloth_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_charming_2",
+    "StatDesc": "HP+120"
+  },
+  {
+    "EnchantClass": "charming",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_charming_3",
+    "Stat": "ATK-40",
+    "StatDesc": "GameUI_Heroes_EnchantStat_charming_3"
+  },
+  {
+    "EnchantClass": "charming",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_charming_4",
+    "Stat": "Res_Critical-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_charming_4"
+  },
+  {
+    "EnchantClass": "bitter",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_bitter_1",
+    "Stat": "Balance+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_bitter_1"
+  },
+  {
+    "EnchantClass": "bitter",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_bitter_2",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_bitter_2"
+  },
+  {
+    "EnchantClass": "bitter",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_lethita_dualsword_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_bitter_3",
+    "StatDesc": "ATK_Speed+2"
+  },
+  {
+    "EnchantClass": "bitter",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_bitter_4",
+    "Stat": "ATK-64",
+    "StatDesc": "GameUI_Heroes_EnchantStat_bitter_4"
+  },
+  {
+    "EnchantClass": "bitter",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_bitter_5",
+    "Stat": "Critical+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_bitter_5"
+  },
+  {
+    "EnchantClass": "rich",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rich_1",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rich_1"
+  },
+  {
+    "EnchantClass": "rich",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rich_2",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rich_2"
+  },
+  {
+    "EnchantClass": "rich",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_fiona_longsword_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_rich_3",
+    "StatDesc": "ATK_Speed+3"
+  },
+  {
+    "EnchantClass": "rich",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rich_4",
+    "Stat": "ATK-80",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rich_4"
+  },
+  {
+    "EnchantClass": "rich",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rich_5",
+    "Stat": "Critical+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rich_5"
+  },
+  {
+    "EnchantClass": "perspicuity",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_perspicuity_1",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_perspicuity_1"
+  },
+  {
+    "EnchantClass": "perspicuity",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_evy_staff_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_perspicuity_2",
+    "StatDesc": "ATK_Speed+3"
+  },
+  {
+    "EnchantClass": "perspicuity",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_perspicuity_3",
+    "Stat": "Critical+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_perspicuity_3"
+  },
+  {
+    "EnchantClass": "resolution",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_resolution_1",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_resolution_1"
+  },
+  {
+    "EnchantClass": "resolution",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_lethita_dualspear_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_resolution_2",
+    "StatDesc": "Balance+3"
+  },
+  {
+    "EnchantClass": "resolution",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_resolution_3",
+    "Stat": "ATK_Speed+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_resolution_3"
+  },
+  {
+    "EnchantClass": "resolution",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_resolution_4",
+    "Stat": "ATK-45",
+    "StatDesc": "GameUI_Heroes_EnchantStat_resolution_4"
+  },
+  {
+    "EnchantClass": "ornate",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ornate_1",
+    "Stat": "Balance+7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ornate_1"
+  },
+  {
+    "EnchantClass": "ornate",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_fiona_longhammer_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_ornate_2",
+    "StatDesc": "ATK_Speed+5"
+  },
+  {
+    "EnchantClass": "ornate",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ornate_3",
+    "Stat": "HP-40",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ornate_3"
+  },
+  {
+    "EnchantClass": "ornate",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ornate_4",
+    "Stat": "Critical+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ornate_4"
+  },
+  {
+    "EnchantClass": "deceptive",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_deceptive_1",
+    "Stat": "Balance+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_deceptive_1"
+  },
+  {
+    "EnchantClass": "deceptive",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_evy_scythe_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_deceptive_2",
+    "StatDesc": "ATK_Speed+3"
+  },
+  {
+    "EnchantClass": "deceptive",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_deceptive_3",
+    "Stat": "ATK-65",
+    "StatDesc": "GameUI_Heroes_EnchantStat_deceptive_3"
+  },
+  {
+    "EnchantClass": "deceptive",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_deceptive_4",
+    "Stat": "MATK-61",
+    "StatDesc": "GameUI_Heroes_EnchantStat_deceptive_4"
+  },
+  {
+    "EnchantClass": "thrilling",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_thrilling_1",
+    "Stat": "DEF+145",
+    "StatDesc": "GameUI_Heroes_EnchantStat_thrilling_1"
+  },
+  {
+    "EnchantClass": "thrilling",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_fiona_shield_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_thrilling_2",
+    "StatDesc": "Critical+1"
+  },
+  {
+    "EnchantClass": "thrilling",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_thrilling_3",
+    "Stat": "Res_Critical-3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_thrilling_3"
+  },
+  {
+    "EnchantClass": "petal",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_1",
+    "Stat": "Balance+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_1"
+  },
+  {
+    "EnchantClass": "petal",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_2",
+    "Stat": "ATK_Speed+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_2"
+  },
+  {
+    "EnchantClass": "petal",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_3",
+    "Stat": "ATK+150",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_3"
+  },
+  {
+    "EnchantClass": "petal",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_4",
+    "Stat": "MATK+138",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_4"
+  },
+  {
+    "EnchantClass": "valor",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_valor_1",
+    "Stat": "Balance+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_valor_1"
+  },
+  {
+    "EnchantClass": "valor",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_valor_2",
+    "Stat": "ATK_Speed+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_valor_2"
+  },
+  {
+    "EnchantClass": "valor",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_valor_3",
+    "Stat": "ATK+130",
+    "StatDesc": "GameUI_Heroes_EnchantStat_valor_3"
+  },
+  {
+    "EnchantClass": "valor",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_valor_4",
+    "Stat": "MATK+119",
+    "StatDesc": "GameUI_Heroes_EnchantStat_valor_4"
+  },
+  {
+    "EnchantClass": "protection",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_protection_1",
+    "Stat": "Balance-1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_protection_1"
+  },
+  {
+    "EnchantClass": "protection",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_protection_2",
+    "Stat": "Critical+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_protection_2"
+  },
+  {
+    "EnchantClass": "protection",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_protection_3",
+    "Stat": "Res_Critical+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_protection_3"
+  },
+  {
+    "EnchantClass": "jasmine",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_jasmine_1",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_jasmine_1"
+  },
+  {
+    "EnchantClass": "jasmine",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_jasmine_2",
+    "Stat": "ATK+140",
+    "StatDesc": "GameUI_Heroes_EnchantStat_jasmine_2"
+  },
+  {
+    "EnchantClass": "jasmine",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_jasmine_3",
+    "Stat": "MATK+132",
+    "StatDesc": "GameUI_Heroes_EnchantStat_jasmine_3"
+  },
+  {
+    "EnchantClass": "jasmine",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_jasmine_4",
+    "Stat": "DEF-28",
+    "StatDesc": "GameUI_Heroes_EnchantStat_jasmine_4"
+  },
+  {
+    "EnchantClass": "fallenleaf",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fallenleaf_1",
+    "Stat": "ATK-15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fallenleaf_1"
+  },
+  {
+    "EnchantClass": "fallenleaf",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fallenleaf_2",
+    "Stat": "DEF+118",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fallenleaf_2"
+  },
+  {
+    "EnchantClass": "fallenleaf",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_will_mastery",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_fallenleaf_3",
+    "StatDesc": "DEF+106"
+  },
+  {
+    "EnchantClass": "fallenleaf",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fallenleaf_4",
+    "Stat": "Res_Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fallenleaf_4"
+  },
+  {
+    "EnchantClass": "ambition",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_1",
+    "Stat": "Balance-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_1"
+  },
+  {
+    "EnchantClass": "ambition",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_critical_hit",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_ambition_2",
+    "StatDesc": "ATK_Speed+1"
+  },
+  {
+    "EnchantClass": "ambition",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_3",
+    "Stat": "ATK+752",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_3"
+  },
+  {
+    "EnchantClass": "ambition",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_4",
+    "Stat": "Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_4"
+  },
+  {
+    "EnchantClass": "stout",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_stout_1",
+    "Stat": "STR+9",
+    "StatDesc": "GameUI_Heroes_EnchantStat_stout_1"
+  },
+  {
+    "EnchantClass": "stout",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_stout_2",
+    "Stat": "INT+9",
+    "StatDesc": "GameUI_Heroes_EnchantStat_stout_2"
+  },
+  {
+    "EnchantClass": "stout",
+    "Order": 3,
+    "Condition": "level>=(66)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_stout_3",
+    "Stat": "STAMINA+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_stout_3"
+  },
+  {
+    "EnchantClass": "vitality",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_vitality_1",
+    "Stat": "HP+12",
+    "StatDesc": "GameUI_Heroes_EnchantStat_vitality_1"
+  },
+  {
+    "EnchantClass": "vitality",
+    "Order": 2,
+    "Condition": "level>=(67)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_vitality_2",
+    "Stat": "DEF+130",
+    "StatDesc": "GameUI_Heroes_EnchantStat_vitality_2"
+  },
+  {
+    "EnchantClass": "significant",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_significant_1",
+    "Stat": "ATK+15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_significant_1"
+  },
+  {
+    "EnchantClass": "significant",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_significant_2",
+    "Stat": "MATK+15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_significant_2"
+  },
+  {
+    "EnchantClass": "significant",
+    "Order": 3,
+    "Condition": "level>=(68)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_significant_3",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_significant_3"
+  },
+  {
+    "EnchantClass": "passion",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_passion_1",
+    "Stat": "DEF+200",
+    "StatDesc": "GameUI_Heroes_EnchantStat_passion_1"
+  },
+  {
+    "EnchantClass": "passion",
+    "Order": 2,
+    "Condition": "level>=(69)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_passion_2",
+    "Stat": "STAMINA+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_passion_2"
+  },
+  {
+    "EnchantClass": "diamond",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_diamond_1",
+    "Stat": "DEF+62",
+    "StatDesc": "GameUI_Heroes_EnchantStat_diamond_1"
+  },
+  {
+    "EnchantClass": "diamond",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_diamond_2",
+    "Stat": "Res_Critical+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_diamond_2"
+  },
+  {
+    "EnchantClass": "diamond",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_diamond_3",
+    "Stat": "HP-50",
+    "StatDesc": "GameUI_Heroes_EnchantStat_diamond_3"
+  },
+  {
+    "EnchantClass": "punish",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_punish_1",
+    "Stat": "MATK+677",
+    "StatDesc": "GameUI_Heroes_EnchantStat_punish_1"
+  },
+  {
+    "EnchantClass": "punish",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_punish_2",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_punish_2"
+  },
+  {
+    "EnchantClass": "punish",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_punish_3",
+    "Stat": "Balance-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_punish_3"
+  },
+  {
+    "EnchantClass": "punish",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_punish_4",
+    "Stat": "Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_punish_4"
+  },
+  {
+    "EnchantClass": "tutelary",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_tutelary_1",
+    "Stat": "DEF+112",
+    "StatDesc": "GameUI_Heroes_EnchantStat_tutelary_1"
+  },
+  {
+    "EnchantClass": "tutelary",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_tutelary_2",
+    "Stat": "HP+50",
+    "StatDesc": "GameUI_Heroes_EnchantStat_tutelary_2"
+  },
+  {
+    "EnchantClass": "balanced",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_balanced_1",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_balanced_1"
+  },
+  {
+    "EnchantClass": "balanced",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_balanced_2",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_balanced_2"
+  },
+  {
+    "EnchantClass": "balanced",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_balanced_3",
+    "Stat": "Critical+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_balanced_3"
+  },
+  {
+    "EnchantClass": "balanced",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_balanced_4",
+    "Stat": "Res_Critical-1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_balanced_4"
+  },
+  {
+    "EnchantClass": "leopard",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_leopard_1",
+    "Stat": "ATK-240",
+    "StatDesc": "GameUI_Heroes_EnchantStat_leopard_1"
+  },
+  {
+    "EnchantClass": "leopard",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_leopard_2",
+    "Stat": "MATK-240",
+    "StatDesc": "GameUI_Heroes_EnchantStat_leopard_2"
+  },
+  {
+    "EnchantClass": "leopard",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_leopard_3",
+    "Stat": "ATK_Speed+8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_leopard_3"
+  },
+  {
+    "EnchantClass": "leopard",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_leopard_4",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_leopard_4"
+  },
+  {
+    "EnchantClass": "twinkle",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_twinkle_1",
+    "Stat": "Critical+7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_twinkle_1"
+  },
+  {
+    "EnchantClass": "twinkle",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_twinkle_2",
+    "Stat": "Res_Critical-10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_twinkle_2"
+  },
+  {
+    "EnchantClass": "armadillo",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_armadillo_1",
+    "Stat": "DEF+336",
+    "StatDesc": "GameUI_Heroes_EnchantStat_armadillo_1"
+  },
+  {
+    "EnchantClass": "armadillo",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_armadillo_2",
+    "Stat": "STAMINA+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_armadillo_2"
+  },
+  {
+    "EnchantClass": "armadillo",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_armadillo_3",
+    "Stat": "HP-100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_armadillo_3"
+  },
+  {
+    "EnchantClass": "fatal",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fatal_1",
+    "Stat": "ATK-250",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fatal_1"
+  },
+  {
+    "EnchantClass": "fatal",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fatal_2",
+    "Stat": "MATK-250",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fatal_2"
+  },
+  {
+    "EnchantClass": "fatal",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fatal_3",
+    "Stat": "Critical+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fatal_3"
+  },
+  {
+    "EnchantClass": "chance",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_chance_1",
+    "Stat": "Balance-15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_chance_1"
+  },
+  {
+    "EnchantClass": "chance",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_chance_2",
+    "Stat": "Critical+12",
+    "StatDesc": "GameUI_Heroes_EnchantStat_chance_2"
+  },
+  {
+    "EnchantClass": "speedy",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speedy_1",
+    "Stat": "ATK_Speed+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speedy_1"
+  },
+  {
+    "EnchantClass": "speedy",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speedy_2",
+    "Stat": "Balance-8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speedy_2"
+  },
+  {
+    "EnchantClass": "extreme",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_extreme_1",
+    "Stat": "ATK-685",
+    "StatDesc": "GameUI_Heroes_EnchantStat_extreme_1"
+  },
+  {
+    "EnchantClass": "extreme",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_extreme_2",
+    "Stat": "DEF+856",
+    "StatDesc": "GameUI_Heroes_EnchantStat_extreme_2"
+  },
+  {
+    "EnchantClass": "extreme",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_extreme_3",
+    "Stat": "HP+100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_extreme_3"
+  },
+  {
+    "EnchantClass": "explosive",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_explosive_1",
+    "Stat": "ATK+1128",
+    "StatDesc": "GameUI_Heroes_EnchantStat_explosive_1"
+  },
+  {
+    "EnchantClass": "explosive",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_explosive_2",
+    "Stat": "ATK_Speed-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_explosive_2"
+  },
+  {
+    "EnchantClass": "explosive",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_explosive_3",
+    "Stat": "Critical-7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_explosive_3"
+  },
+  {
+    "EnchantClass": "fervor",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_1",
+    "Stat": "Balance+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_1"
+  },
+  {
+    "EnchantClass": "fervor",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_2",
+    "Stat": "ATK+270",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_2"
+  },
+  {
+    "EnchantClass": "fervor",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_3",
+    "Stat": "MATK+282",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_3"
+  },
+  {
+    "EnchantClass": "fervor",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_4",
+    "Stat": "DEF-370",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_4"
+  },
+  {
+    "EnchantClass": "fight",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fight_1",
+    "Stat": "ATK-160",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fight_1"
+  },
+  {
+    "EnchantClass": "fight",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fight_2",
+    "Stat": "DEF+340",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fight_2"
+  },
+  {
+    "EnchantClass": "fight",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fight_3",
+    "Stat": "Res_Critical+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fight_3"
+  },
+  {
+    "EnchantClass": "duration",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_duration_1",
+    "Stat": "ATK-280",
+    "StatDesc": "GameUI_Heroes_EnchantStat_duration_1"
+  },
+  {
+    "EnchantClass": "duration",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_duration_2",
+    "Stat": "MATK-280",
+    "StatDesc": "GameUI_Heroes_EnchantStat_duration_2"
+  },
+  {
+    "EnchantClass": "duration",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_duration_3",
+    "Stat": "ATK_Speed+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_duration_3"
+  },
+  {
+    "EnchantClass": "duration",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_duration_4",
+    "Stat": "Balance+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_duration_4"
+  },
+  {
+    "EnchantClass": "speedy_mooncakes",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speedy_mooncakes_1",
+    "Stat": "ATK_Speed+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speedy_mooncakes_1"
+  },
+  {
+    "EnchantClass": "speedy_mooncakes",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speedy_mooncakes_2",
+    "Stat": "Balance-8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speedy_mooncakes_2"
+  },
+  {
+    "EnchantClass": "petal_mooncakes",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_mooncakes_1",
+    "Stat": "Balance+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_mooncakes_1"
+  },
+  {
+    "EnchantClass": "petal_mooncakes",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_mooncakes_2",
+    "Stat": "ATK_Speed+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_mooncakes_2"
+  },
+  {
+    "EnchantClass": "petal_mooncakes",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_mooncakes_3",
+    "Stat": "ATK+150",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_mooncakes_3"
+  },
+  {
+    "EnchantClass": "petal_mooncakes",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_mooncakes_4",
+    "Stat": "MATK+138",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_mooncakes_4"
+  },
+  {
+    "EnchantClass": "mind_mooncakes",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mind_mooncakes_1",
+    "Stat": "ATK+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mind_mooncakes_1"
+  },
+  {
+    "EnchantClass": "mind_mooncakes",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mind_mooncakes_2",
+    "Stat": "MATK+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mind_mooncakes_2"
+  },
+  {
+    "EnchantClass": "mind_mooncakes",
+    "Order": 3,
+    "Condition": "level>=(70)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mind_mooncakes_3",
+    "Stat": "@enchant_buff_stamina_recovery+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mind_mooncakes_3"
+  },
+  {
+    "EnchantClass": "fervor_mooncakes",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_mooncakes_1",
+    "Stat": "Balance+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_mooncakes_1"
+  },
+  {
+    "EnchantClass": "fervor_mooncakes",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_mooncakes_2",
+    "Stat": "ATK+270",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_mooncakes_2"
+  },
+  {
+    "EnchantClass": "fervor_mooncakes",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_mooncakes_3",
+    "Stat": "MATK+282",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_mooncakes_3"
+  },
+  {
+    "EnchantClass": "fervor_mooncakes",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_mooncakes_4",
+    "Stat": "DEF-370",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_mooncakes_4"
+  },
+  {
+    "EnchantClass": "ambition_mooncakes",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_mooncakes_1",
+    "Stat": "Balance-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_mooncakes_1"
+  },
+  {
+    "EnchantClass": "ambition_mooncakes",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_critical_hit",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_ambition_mooncakes_2",
+    "StatDesc": "ATK_Speed+1"
+  },
+  {
+    "EnchantClass": "ambition_mooncakes",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_mooncakes_3",
+    "Stat": "ATK+752",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_mooncakes_3"
+  },
+  {
+    "EnchantClass": "ambition_mooncakes",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_mooncakes_4",
+    "Stat": "Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_mooncakes_4"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv40",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv40_1",
+    "Stat": "PVP_ATK+40",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv40_1"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv40",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv40_2",
+    "Stat": "PVP_MATK+40",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv40_2"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv40",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv40_3",
+    "Stat": "PVP_DEF+10",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv40_3"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv50",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv50_1",
+    "Stat": "PVP_ATK+50",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv50_1"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv50",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv50_2",
+    "Stat": "PVP_MATK+50",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv50_2"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv50",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv50_3",
+    "Stat": "PVP_DEF+20",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv50_3"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv60",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv60_1",
+    "Stat": "PVP_ATK+60",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv60_1"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv60",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv60_2",
+    "Stat": "PVP_MATK+60",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv60_2"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv60",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv60_3",
+    "Stat": "PVP_DEF+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv60_3"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv65",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv65_1",
+    "Stat": "PVP_ATK+70",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv65_1"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv65",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv65_2",
+    "Stat": "PVP_MATK+70",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv65_2"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv65",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv65_3",
+    "Stat": "PVP_DEF+40",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv65_3"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv70",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv70_1",
+    "Stat": "PVP_ATK+80",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv70_1"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv70",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv70_2",
+    "Stat": "PVP_MATK+80",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv70_2"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv70",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv70_3",
+    "Stat": "PVP_DEF+50",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv70_3"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv75",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv75_1",
+    "Stat": "PVP_ATK+90",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv75_1"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv75",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv75_2",
+    "Stat": "PVP_MATK+90",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv75_2"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv75",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv75_3",
+    "Stat": "PVP_DEF+60",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv75_3"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv80",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv80_1",
+    "Stat": "PVP_ATK+100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv80_1"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv80",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv80_2",
+    "Stat": "PVP_MATK+100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv80_2"
+  },
+  {
+    "EnchantClass": "pvp_enchant_lv80",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_pvp_enchant_lv80_3",
+    "Stat": "PVP_DEF+70",
+    "StatDesc": "GameUI_Heroes_EnchantStat_pvp_enchant_lv80_3"
+  },
+  {
+    "EnchantClass": "twilight",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_twilight_1",
+    "Stat": "HP+300",
+    "StatDesc": "GameUI_Heroes_EnchantStat_twilight_1"
+  },
+  {
+    "EnchantClass": "twilight",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_twilight_2",
+    "Stat": "DEF+300",
+    "StatDesc": "GameUI_Heroes_EnchantStat_twilight_2"
+  },
+  {
+    "EnchantClass": "twilight",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_twilight_3",
+    "Stat": "Balance-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_twilight_3"
+  },
+  {
+    "EnchantClass": "cresent",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_cresent_1",
+    "Stat": "ATK+100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_cresent_1"
+  },
+  {
+    "EnchantClass": "cresent",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_cresent_2",
+    "Stat": "MATK+100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_cresent_2"
+  },
+  {
+    "EnchantClass": "cresent",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_cresent_3",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_cresent_3"
+  },
+  {
+    "EnchantClass": "undead",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_undead_1",
+    "Stat": "Balance+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_undead_1"
+  },
+  {
+    "EnchantClass": "undead",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_undead_2",
+    "Stat": "Res_Critical+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_undead_2"
+  },
+  {
+    "EnchantClass": "undead",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_undead_3",
+    "Stat": "STR-40",
+    "StatDesc": "GameUI_Heroes_EnchantStat_undead_3"
+  },
+  {
+    "EnchantClass": "undead",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_undead_4",
+    "Stat": "HP-450",
+    "StatDesc": "GameUI_Heroes_EnchantStat_undead_4"
+  },
+  {
+    "EnchantClass": "starlight",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_starlight_1",
+    "Stat": "ATK+200",
+    "StatDesc": "GameUI_Heroes_EnchantStat_starlight_1"
+  },
+  {
+    "EnchantClass": "starlight",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_starlight_2",
+    "Stat": "MATK+200",
+    "StatDesc": "GameUI_Heroes_EnchantStat_starlight_2"
+  },
+  {
+    "EnchantClass": "starlight",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_starlight_3",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_starlight_3"
+  },
+  {
+    "EnchantClass": "sow",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_sow_1",
+    "Stat": "@enchant_town_move_speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_sow_1"
+  },
+  {
+    "EnchantClass": "noble",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_noble_1",
+    "Stat": "Balance+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_noble_1"
+  },
+  {
+    "EnchantClass": "noble",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_noble_2",
+    "Stat": "ATK-100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_noble_2"
+  },
+  {
+    "EnchantClass": "noble",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_noble_3",
+    "Stat": "MATK-100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_noble_3"
+  },
+  {
+    "EnchantClass": "bestcouple",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_bestcouple_1",
+    "Stat": "@enchant_bestcouple+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_bestcouple_1"
+  },
+  {
+    "EnchantClass": "protected_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_protected_100_1",
+    "Stat": "HP+7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_protected_100_1"
+  },
+  {
+    "EnchantClass": "protected_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_protected_100_2",
+    "Stat": "STR-8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_protected_100_2"
+  },
+  {
+    "EnchantClass": "protected_100",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_light_armor_mastery",
+    "ConditionDesc": "4)",
+    "Stat": "GameUI_Heroes_EnchantCondition_protected_100_3",
+    "StatDesc": "HP+4"
+  },
+  {
+    "EnchantClass": "protected_100",
+    "Order": 4,
+    "Condition": "skillrank>=(skill_light_armor_mastery",
+    "ConditionDesc": "4)",
+    "Stat": "GameUI_Heroes_EnchantCondition_protected_100_4",
+    "StatDesc": "DEF+16"
+  },
+  {
+    "EnchantClass": "curious_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_curious_100_1",
+    "Stat": "STR+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_curious_100_1"
+  },
+  {
+    "EnchantClass": "curious_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_curious_100_2",
+    "Stat": "INT+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_curious_100_2"
+  },
+  {
+    "EnchantClass": "curious_100",
+    "Order": 3,
+    "Condition": "level>=(65)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_curious_100_3",
+    "Stat": "DEF+130",
+    "StatDesc": "GameUI_Heroes_EnchantStat_curious_100_3"
+  },
+  {
+    "EnchantClass": "mind_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mind_100_1",
+    "Stat": "ATK+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mind_100_1"
+  },
+  {
+    "EnchantClass": "mind_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mind_100_2",
+    "Stat": "MATK+30",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mind_100_2"
+  },
+  {
+    "EnchantClass": "mind_100",
+    "Order": 3,
+    "Condition": "level>=(70)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_mind_100_3",
+    "Stat": "@enchant_buff_stamina_recovery+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_mind_100_3"
+  },
+  {
+    "EnchantClass": "antique_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_antique_100_1",
+    "Stat": "ATK_Speed-1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_antique_100_1"
+  },
+  {
+    "EnchantClass": "antique_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_antique_100_2",
+    "Stat": "ATK+320",
+    "StatDesc": "GameUI_Heroes_EnchantStat_antique_100_2"
+  },
+  {
+    "EnchantClass": "underdone_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_underdone_100_1",
+    "Stat": "ATK+180",
+    "StatDesc": "GameUI_Heroes_EnchantStat_underdone_100_1"
+  },
+  {
+    "EnchantClass": "underdone_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_underdone_100_2",
+    "Stat": "MATK+150",
+    "StatDesc": "GameUI_Heroes_EnchantStat_underdone_100_2"
+  },
+  {
+    "EnchantClass": "underdone_100",
+    "Order": 3,
+    "Condition": "title_acquired(410202)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_underdone_100_3",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_underdone_100_3"
+  },
+  {
+    "EnchantClass": "bitter_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_bitter_100_1",
+    "Stat": "Balance+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_bitter_100_1"
+  },
+  {
+    "EnchantClass": "bitter_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_bitter_100_2",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_bitter_100_2"
+  },
+  {
+    "EnchantClass": "bitter_100",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_lethita_dualsword_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_bitter_100_3",
+    "StatDesc": "ATK_Speed+2"
+  },
+  {
+    "EnchantClass": "bitter_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_bitter_100_4",
+    "Stat": "ATK-64",
+    "StatDesc": "GameUI_Heroes_EnchantStat_bitter_100_4"
+  },
+  {
+    "EnchantClass": "bitter_100",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_bitter_100_5",
+    "Stat": "Critical+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_bitter_100_5"
+  },
+  {
+    "EnchantClass": "rich_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rich_100_1",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rich_100_1"
+  },
+  {
+    "EnchantClass": "rich_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rich_100_2",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rich_100_2"
+  },
+  {
+    "EnchantClass": "rich_100",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_fiona_longsword_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_rich_100_3",
+    "StatDesc": "ATK_Speed+3"
+  },
+  {
+    "EnchantClass": "rich_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rich_100_4",
+    "Stat": "ATK-80",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rich_100_4"
+  },
+  {
+    "EnchantClass": "rich_100",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_rich_100_5",
+    "Stat": "Critical+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_rich_100_5"
+  },
+  {
+    "EnchantClass": "resolution_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_resolution_100_1",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_resolution_100_1"
+  },
+  {
+    "EnchantClass": "resolution_100",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_lethita_dualspear_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_resolution_100_2",
+    "StatDesc": "Balance+3"
+  },
+  {
+    "EnchantClass": "resolution_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_resolution_100_3",
+    "Stat": "ATK_Speed+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_resolution_100_3"
+  },
+  {
+    "EnchantClass": "resolution_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_resolution_100_4",
+    "Stat": "ATK-45",
+    "StatDesc": "GameUI_Heroes_EnchantStat_resolution_100_4"
+  },
+  {
+    "EnchantClass": "valor_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_valor_100_1",
+    "Stat": "Balance+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_valor_100_1"
+  },
+  {
+    "EnchantClass": "valor_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_valor_100_2",
+    "Stat": "ATK_Speed+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_valor_100_2"
+  },
+  {
+    "EnchantClass": "valor_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_valor_100_3",
+    "Stat": "ATK+130",
+    "StatDesc": "GameUI_Heroes_EnchantStat_valor_100_3"
+  },
+  {
+    "EnchantClass": "valor_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_valor_100_4",
+    "Stat": "MATK+119",
+    "StatDesc": "GameUI_Heroes_EnchantStat_valor_100_4"
+  },
+  {
+    "EnchantClass": "jasmine_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_jasmine_100_1",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_jasmine_100_1"
+  },
+  {
+    "EnchantClass": "jasmine_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_jasmine_100_2",
+    "Stat": "ATK+140",
+    "StatDesc": "GameUI_Heroes_EnchantStat_jasmine_100_2"
+  },
+  {
+    "EnchantClass": "jasmine_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_jasmine_100_3",
+    "Stat": "MATK+132",
+    "StatDesc": "GameUI_Heroes_EnchantStat_jasmine_100_3"
+  },
+  {
+    "EnchantClass": "jasmine_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_jasmine_100_4",
+    "Stat": "DEF-28",
+    "StatDesc": "GameUI_Heroes_EnchantStat_jasmine_100_4"
+  },
+  {
+    "EnchantClass": "fallenleaf_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fallenleaf_100_1",
+    "Stat": "ATK-15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fallenleaf_100_1"
+  },
+  {
+    "EnchantClass": "fallenleaf_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fallenleaf_100_2",
+    "Stat": "DEF+118",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fallenleaf_100_2"
+  },
+  {
+    "EnchantClass": "fallenleaf_100",
+    "Order": 3,
+    "Condition": "skillrank>=(skill_will_mastery",
+    "ConditionDesc": "6)",
+    "Stat": "GameUI_Heroes_EnchantCondition_fallenleaf_100_3",
+    "StatDesc": "DEF+106"
+  },
+  {
+    "EnchantClass": "fallenleaf_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fallenleaf_100_4",
+    "Stat": "Res_Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fallenleaf_100_4"
+  },
+  {
+    "EnchantClass": "ambition_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_100_1",
+    "Stat": "Balance-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_100_1"
+  },
+  {
+    "EnchantClass": "ambition_100",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_critical_hit",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_ambition_100_2",
+    "StatDesc": "ATK_Speed+1"
+  },
+  {
+    "EnchantClass": "ambition_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_100_3",
+    "Stat": "ATK+752",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_100_3"
+  },
+  {
+    "EnchantClass": "ambition_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_ambition_100_4",
+    "Stat": "Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_ambition_100_4"
+  },
+  {
+    "EnchantClass": "stout_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_stout_100_1",
+    "Stat": "STR+9",
+    "StatDesc": "GameUI_Heroes_EnchantStat_stout_100_1"
+  },
+  {
+    "EnchantClass": "stout_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_stout_100_2",
+    "Stat": "INT+9",
+    "StatDesc": "GameUI_Heroes_EnchantStat_stout_100_2"
+  },
+  {
+    "EnchantClass": "stout_100",
+    "Order": 3,
+    "Condition": "level>=(66)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_stout_100_3",
+    "Stat": "STAMINA+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_stout_100_3"
+  },
+  {
+    "EnchantClass": "vitality_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_vitality_100_1",
+    "Stat": "HP+12",
+    "StatDesc": "GameUI_Heroes_EnchantStat_vitality_100_1"
+  },
+  {
+    "EnchantClass": "vitality_100",
+    "Order": 2,
+    "Condition": "level>=(67)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_vitality_100_2",
+    "Stat": "DEF+130",
+    "StatDesc": "GameUI_Heroes_EnchantStat_vitality_100_2"
+  },
+  {
+    "EnchantClass": "significant_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_significant_100_1",
+    "Stat": "ATK+15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_significant_100_1"
+  },
+  {
+    "EnchantClass": "significant_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_significant_100_2",
+    "Stat": "MATK+15",
+    "StatDesc": "GameUI_Heroes_EnchantStat_significant_100_2"
+  },
+  {
+    "EnchantClass": "significant_100",
+    "Order": 3,
+    "Condition": "level>=(68)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_significant_100_3",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_significant_100_3"
+  },
+  {
+    "EnchantClass": "passion_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_passion_100_1",
+    "Stat": "DEF+200",
+    "StatDesc": "GameUI_Heroes_EnchantStat_passion_100_1"
+  },
+  {
+    "EnchantClass": "passion_100",
+    "Order": 2,
+    "Condition": "level>=(69)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_passion_100_2",
+    "Stat": "STAMINA+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_passion_100_2"
+  },
+  {
+    "EnchantClass": "punish_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_punish_100_1",
+    "Stat": "MATK+677",
+    "StatDesc": "GameUI_Heroes_EnchantStat_punish_100_1"
+  },
+  {
+    "EnchantClass": "punish_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_punish_100_2",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_punish_100_2"
+  },
+  {
+    "EnchantClass": "punish_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_punish_100_3",
+    "Stat": "Balance-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_punish_100_3"
+  },
+  {
+    "EnchantClass": "punish_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_punish_100_4",
+    "Stat": "Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_punish_100_4"
+  },
+  {
+    "EnchantClass": "tutelary_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_tutelary_100_1",
+    "Stat": "DEF+112",
+    "StatDesc": "GameUI_Heroes_EnchantStat_tutelary_100_1"
+  },
+  {
+    "EnchantClass": "tutelary_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_tutelary_100_2",
+    "Stat": "HP+50",
+    "StatDesc": "GameUI_Heroes_EnchantStat_tutelary_100_2"
+  },
+  {
+    "EnchantClass": "balanced_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_balanced_100_1",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_balanced_100_1"
+  },
+  {
+    "EnchantClass": "balanced_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_balanced_100_2",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_balanced_100_2"
+  },
+  {
+    "EnchantClass": "balanced_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_balanced_100_3",
+    "Stat": "Critical+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_balanced_100_3"
+  },
+  {
+    "EnchantClass": "balanced_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_balanced_100_4",
+    "Stat": "Res_Critical-1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_balanced_100_4"
+  },
+  {
+    "EnchantClass": "leopard_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_leopard_100_1",
+    "Stat": "ATK-240",
+    "StatDesc": "GameUI_Heroes_EnchantStat_leopard_100_1"
+  },
+  {
+    "EnchantClass": "leopard_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_leopard_100_2",
+    "Stat": "MATK-240",
+    "StatDesc": "GameUI_Heroes_EnchantStat_leopard_100_2"
+  },
+  {
+    "EnchantClass": "leopard_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_leopard_100_3",
+    "Stat": "ATK_Speed+8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_leopard_100_3"
+  },
+  {
+    "EnchantClass": "leopard_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_leopard_100_4",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_leopard_100_4"
+  },
+  {
+    "EnchantClass": "speedy_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speedy_100_1",
+    "Stat": "ATK_Speed+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speedy_100_1"
+  },
+  {
+    "EnchantClass": "speedy_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speedy_100_2",
+    "Stat": "Balance-8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speedy_100_2"
+  },
+  {
+    "EnchantClass": "explosive_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_explosive_100_1",
+    "Stat": "ATK+1128",
+    "StatDesc": "GameUI_Heroes_EnchantStat_explosive_100_1"
+  },
+  {
+    "EnchantClass": "explosive_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_explosive_100_2",
+    "Stat": "ATK_Speed-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_explosive_100_2"
+  },
+  {
+    "EnchantClass": "explosive_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_explosive_100_3",
+    "Stat": "Critical-7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_explosive_100_3"
+  },
+  {
+    "EnchantClass": "fervor_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_100_1",
+    "Stat": "Balance+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_100_1"
+  },
+  {
+    "EnchantClass": "fervor_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_100_2",
+    "Stat": "ATK+270",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_100_2"
+  },
+  {
+    "EnchantClass": "fervor_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_100_3",
+    "Stat": "MATK+282",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_100_3"
+  },
+  {
+    "EnchantClass": "fervor_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fervor_100_4",
+    "Stat": "DEF-370",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fervor_100_4"
+  },
+  {
+    "EnchantClass": "cresent_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_cresent_100_1",
+    "Stat": "ATK+100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_cresent_100_1"
+  },
+  {
+    "EnchantClass": "cresent_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_cresent_100_2",
+    "Stat": "MATK+100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_cresent_100_2"
+  },
+  {
+    "EnchantClass": "cresent_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_cresent_100_3",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_cresent_100_3"
+  },
+  {
+    "EnchantClass": "starlight_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_starlight_100_1",
+    "Stat": "ATK+200",
+    "StatDesc": "GameUI_Heroes_EnchantStat_starlight_100_1"
+  },
+  {
+    "EnchantClass": "starlight_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_starlight_100_2",
+    "Stat": "MATK+200",
+    "StatDesc": "GameUI_Heroes_EnchantStat_starlight_100_2"
+  },
+  {
+    "EnchantClass": "starlight_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_starlight_100_3",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_starlight_100_3"
+  },
+  {
+    "EnchantClass": "petal_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_100_1",
+    "Stat": "Balance+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_100_1"
+  },
+  {
+    "EnchantClass": "petal_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_100_2",
+    "Stat": "ATK_Speed+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_100_2"
+  },
+  {
+    "EnchantClass": "petal_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_100_3",
+    "Stat": "ATK+150",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_100_3"
+  },
+  {
+    "EnchantClass": "petal_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_petal_100_4",
+    "Stat": "MATK+138",
+    "StatDesc": "GameUI_Heroes_EnchantStat_petal_100_4"
+  },
+  {
+    "EnchantClass": "perspicuity_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_perspicuity_100_1",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_perspicuity_100_1"
+  },
+  {
+    "EnchantClass": "perspicuity_100",
+    "Order": 2,
+    "Condition": "skillrank>=(skill_evy_staff_mastery",
+    "ConditionDesc": "9)",
+    "Stat": "GameUI_Heroes_EnchantCondition_perspicuity_100_2",
+    "StatDesc": "ATK_Speed+3"
+  },
+  {
+    "EnchantClass": "perspicuity_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_perspicuity_100_3",
+    "Stat": "Critical+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_perspicuity_100_3"
+  },
+  {
+    "EnchantClass": "delicate",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_delicate_1",
+    "Stat": "Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_delicate_1"
+  },
+  {
+    "EnchantClass": "delicate",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_delicate_2",
+    "Stat": "Res_Critical-3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_delicate_2"
+  },
+  {
+    "EnchantClass": "delicate",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_delicate_3",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_delicate_3"
+  },
+  {
+    "EnchantClass": "delicate",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_delicate_4",
+    "Stat": "STAMINA+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_delicate_4"
+  },
+  {
+    "EnchantClass": "random_test",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_random_test_1",
+    "Stat": "ATK_Speed+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_random_test_1"
+  },
+  {
+    "EnchantClass": "random_test",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_random_test_2",
+    "Stat": "STAMINA+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_random_test_2"
+  },
+  {
+    "EnchantClass": "inner_test",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_inner_test_1",
+    "Stat": "ATK_Speed+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_inner_test_1"
+  },
+  {
+    "EnchantClass": "inner_test",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_inner_test_2",
+    "Stat": "STAMINA+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_inner_test_2"
+  },
+  {
+    "EnchantClass": "atk50day30",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk50day30_1",
+    "Stat": "ATK+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk50day30_1"
+  },
+  {
+    "EnchantClass": "atk50day30",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk50day30_2",
+    "Stat": "MATK+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk50day30_2"
+  },
+  {
+    "EnchantClass": "atk500day60",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk500day60_1",
+    "Stat": "ATK+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk500day60_1"
+  },
+  {
+    "EnchantClass": "atk500day60",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk500day60_2",
+    "Stat": "MATK+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk500day60_2"
+  },
+  {
+    "EnchantClass": "atk1000day90",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk1000day90_1",
+    "Stat": "ATK+1000",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk1000day90_1"
+  },
+  {
+    "EnchantClass": "atk1000day90",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk1000day90_2",
+    "Stat": "MATK+1000",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk1000day90_2"
+  },
+  {
+    "EnchantClass": "speed1day30",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speed1day30_1",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speed1day30_1"
+  },
+  {
+    "EnchantClass": "speed2day60",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speed2day60_1",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speed2day60_1"
+  },
+  {
+    "EnchantClass": "speed3day90",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speed3day90_1",
+    "Stat": "ATK_Speed+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speed3day90_1"
+  },
+  {
+    "EnchantClass": "def50day30",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_def50day30_1",
+    "Stat": "DEF+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_def50day30_1"
+  },
+  {
+    "EnchantClass": "def500day60",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_def500day60_1",
+    "Stat": "DEF+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_def500day60_1"
+  },
+  {
+    "EnchantClass": "def1000day90",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_def1000day90_1",
+    "Stat": "DEF+1000",
+    "StatDesc": "GameUI_Heroes_EnchantStat_def1000day90_1"
+  },
+  {
+    "EnchantClass": "hp50day30",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_hp50day30_1",
+    "Stat": "HP+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_hp50day30_1"
+  },
+  {
+    "EnchantClass": "hp500day60",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_hp500day60_1",
+    "Stat": "HP+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_hp500day60_1"
+  },
+  {
+    "EnchantClass": "hp1000day90",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_hp1000day90_1",
+    "Stat": "HP+1000",
+    "StatDesc": "GameUI_Heroes_EnchantStat_hp1000day90_1"
+  },
+  {
+    "EnchantClass": "adventurer",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_adventurer_1",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_adventurer_1"
+  },
+  {
+    "EnchantClass": "adventurer",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_adventurer_2",
+    "Stat": "DEF+200",
+    "StatDesc": "GameUI_Heroes_EnchantStat_adventurer_2"
+  },
+  {
+    "EnchantClass": "adventurer_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_adventurer_100_1",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_adventurer_100_1"
+  },
+  {
+    "EnchantClass": "adventurer_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_adventurer_100_2",
+    "Stat": "DEF+200",
+    "StatDesc": "GameUI_Heroes_EnchantStat_adventurer_100_2"
+  },
+  {
+    "EnchantClass": "atk50day7",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk50day7_1",
+    "Stat": "ATK+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk50day7_1"
+  },
+  {
+    "EnchantClass": "atk50day7",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk50day7_2",
+    "Stat": "MATK+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk50day7_2"
+  },
+  {
+    "EnchantClass": "def50day7",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_def50day7_1",
+    "Stat": "DEF+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_def50day7_1"
+  },
+  {
+    "EnchantClass": "hp50day7",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_hp50day7_1",
+    "Stat": "HP+{0}",
+    "StatDesc": "GameUI_Heroes_EnchantStat_hp50day7_1"
+  },
+  {
+    "EnchantClass": "speed1day7",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speed1day7_1",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speed1day7_1"
+  },
+  {
+    "EnchantClass": "atk500day30",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk500day30_1",
+    "Stat": "ATK+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk500day30_1"
+  },
+  {
+    "EnchantClass": "atk500day30",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk500day30_2",
+    "Stat": "MATK+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk500day30_2"
+  },
+  {
+    "EnchantClass": "def500day30",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_def500day30_1",
+    "Stat": "DEF+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_def500day30_1"
+  },
+  {
+    "EnchantClass": "hp500day30",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_hp500day30_1",
+    "Stat": "HP+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_hp500day30_1"
+  },
+  {
+    "EnchantClass": "speed2day30",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speed2day30_1",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speed2day30_1"
+  },
+  {
+    "EnchantClass": "atk500day7",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk500day7_1",
+    "Stat": "ATK+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk500day7_1"
+  },
+  {
+    "EnchantClass": "atk500day7",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_atk500day7_2",
+    "Stat": "MATK+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_atk500day7_2"
+  },
+  {
+    "EnchantClass": "def500day7",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_def500day7_1",
+    "Stat": "DEF+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_def500day7_1"
+  },
+  {
+    "EnchantClass": "hp500day7",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_hp500day7_1",
+    "Stat": "HP+500",
+    "StatDesc": "GameUI_Heroes_EnchantStat_hp500day7_1"
+  },
+  {
+    "EnchantClass": "speed2day7",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_speed2day7_1",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_speed2day7_1"
+  },
+  {
+    "EnchantClass": "berserker",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_berserker_1",
+    "Stat": "@enchant_berserker+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_berserker_1"
+  },
+  {
+    "EnchantClass": "enlightenment",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_enlightenment_1",
+    "Stat": "Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_enlightenment_1"
+  },
+  {
+    "EnchantClass": "enlightenment",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_enlightenment_2",
+    "Stat": "Res_Critical+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_enlightenment_2"
+  },
+  {
+    "EnchantClass": "enlightenment",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_enlightenment_3",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_enlightenment_3"
+  },
+  {
+    "EnchantClass": "enlightenment",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_enlightenment_4",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_enlightenment_4"
+  },
+  {
+    "EnchantClass": "enlightenment",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_enlightenment_5",
+    "Stat": "ATK+210",
+    "StatDesc": "GameUI_Heroes_EnchantStat_enlightenment_5"
+  },
+  {
+    "EnchantClass": "enlightenment",
+    "Order": 6,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_enlightenment_6",
+    "Stat": "MATK+210",
+    "StatDesc": "GameUI_Heroes_EnchantStat_enlightenment_6"
+  },
+  {
+    "EnchantClass": "enlightenment",
+    "Order": 7,
+    "Condition": "equip_class(CLOTH)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_enlightenment_7",
+    "Stat": "ATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_enlightenment_7"
+  },
+  {
+    "EnchantClass": "enlightenment",
+    "Order": 8,
+    "Condition": "equip_class(CLOTH)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_enlightenment_8",
+    "Stat": "MATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_enlightenment_8"
+  },
+  {
+    "EnchantClass": "remember",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_remember_1",
+    "Stat": "Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_remember_1"
+  },
+  {
+    "EnchantClass": "remember",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_remember_2",
+    "Stat": "Res_Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_remember_2"
+  },
+  {
+    "EnchantClass": "remember",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_remember_3",
+    "Stat": "Balance+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_remember_3"
+  },
+  {
+    "EnchantClass": "remember",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_remember_4",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_remember_4"
+  },
+  {
+    "EnchantClass": "remember",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_remember_5",
+    "Stat": "DEF+100",
+    "StatDesc": "GameUI_Heroes_EnchantStat_remember_5"
+  },
+  {
+    "EnchantClass": "remember",
+    "Order": 6,
+    "Condition": "equip_class(HEAVY_ARMOR)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_remember_6",
+    "Stat": "ATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_remember_6"
+  },
+  {
+    "EnchantClass": "remember",
+    "Order": 7,
+    "Condition": "equip_class(HEAVY_ARMOR)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_remember_7",
+    "Stat": "MATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_remember_7"
+  },
+  {
+    "EnchantClass": "silent",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_silent_1",
+    "Stat": "Critical+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_silent_1"
+  },
+  {
+    "EnchantClass": "silent",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_silent_2",
+    "Stat": "Res_Critical-2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_silent_2"
+  },
+  {
+    "EnchantClass": "silent",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_silent_3",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_silent_3"
+  },
+  {
+    "EnchantClass": "silent",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_silent_4",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_silent_4"
+  },
+  {
+    "EnchantClass": "silent",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_silent_5",
+    "Stat": "DEF+150",
+    "StatDesc": "GameUI_Heroes_EnchantStat_silent_5"
+  },
+  {
+    "EnchantClass": "silent",
+    "Order": 6,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_silent_6",
+    "Stat": "ATK+110",
+    "StatDesc": "GameUI_Heroes_EnchantStat_silent_6"
+  },
+  {
+    "EnchantClass": "silent",
+    "Order": 7,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_silent_7",
+    "Stat": "MATK+110",
+    "StatDesc": "GameUI_Heroes_EnchantStat_silent_7"
+  },
+  {
+    "EnchantClass": "silent",
+    "Order": 8,
+    "Condition": "equip_class(CLOTH)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_silent_8",
+    "Stat": "ATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_silent_8"
+  },
+  {
+    "EnchantClass": "silent",
+    "Order": 9,
+    "Condition": "equip_class(CLOTH)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_silent_9",
+    "Stat": "MATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_silent_9"
+  },
+  {
+    "EnchantClass": "repeatsay",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_repeatsay_1",
+    "Stat": "Critical+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_repeatsay_1"
+  },
+  {
+    "EnchantClass": "repeatsay",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_repeatsay_2",
+    "Stat": "Res_Critical-1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_repeatsay_2"
+  },
+  {
+    "EnchantClass": "repeatsay",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_repeatsay_3",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_repeatsay_3"
+  },
+  {
+    "EnchantClass": "repeatsay",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_repeatsay_4",
+    "Stat": "ATK_Speed+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_repeatsay_4"
+  },
+  {
+    "EnchantClass": "repeatsay",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_repeatsay_5",
+    "Stat": "DEF+150",
+    "StatDesc": "GameUI_Heroes_EnchantStat_repeatsay_5"
+  },
+  {
+    "EnchantClass": "repeatsay",
+    "Order": 6,
+    "Condition": "equip_class(HEAVY_ARMOR)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_repeatsay_6",
+    "Stat": "ATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_repeatsay_6"
+  },
+  {
+    "EnchantClass": "repeatsay",
+    "Order": 7,
+    "Condition": "equip_class(HEAVY_ARMOR)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_repeatsay_7",
+    "Stat": "MATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_repeatsay_7"
+  },
+  {
+    "EnchantClass": "time",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_time_1",
+    "Stat": "Critical+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_time_1"
+  },
+  {
+    "EnchantClass": "time",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_time_2",
+    "Stat": "Res_Critical+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_time_2"
+  },
+  {
+    "EnchantClass": "time",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_time_3",
+    "Stat": "Balance-3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_time_3"
+  },
+  {
+    "EnchantClass": "time",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_time_4",
+    "Stat": "HP+50",
+    "StatDesc": "GameUI_Heroes_EnchantStat_time_4"
+  },
+  {
+    "EnchantClass": "time",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_time_5",
+    "Stat": "DEF+160",
+    "StatDesc": "GameUI_Heroes_EnchantStat_time_5"
+  },
+  {
+    "EnchantClass": "injustice",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_injustice_1",
+    "Stat": "Critical+8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_injustice_1"
+  },
+  {
+    "EnchantClass": "injustice",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_injustice_2",
+    "Stat": "Res_Critical-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_injustice_2"
+  },
+  {
+    "EnchantClass": "injustice",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_injustice_3",
+    "Stat": "ATK_Speed+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_injustice_3"
+  },
+  {
+    "EnchantClass": "injustice",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_injustice_4",
+    "Stat": "ATK+220",
+    "StatDesc": "GameUI_Heroes_EnchantStat_injustice_4"
+  },
+  {
+    "EnchantClass": "injustice",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_injustice_5",
+    "Stat": "MATK+220",
+    "StatDesc": "GameUI_Heroes_EnchantStat_injustice_5"
+  },
+  {
+    "EnchantClass": "justice",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_justice_1",
+    "Stat": "Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_justice_1"
+  },
+  {
+    "EnchantClass": "justice",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_justice_2",
+    "Stat": "Balance+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_justice_2"
+  },
+  {
+    "EnchantClass": "justice",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_justice_3",
+    "Stat": "ATK_Speed+8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_justice_3"
+  },
+  {
+    "EnchantClass": "justice",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_justice_4",
+    "Stat": "ATK+430",
+    "StatDesc": "GameUI_Heroes_EnchantStat_justice_4"
+  },
+  {
+    "EnchantClass": "justice",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_justice_5",
+    "Stat": "MATK+430",
+    "StatDesc": "GameUI_Heroes_EnchantStat_justice_5"
+  },
+  {
+    "EnchantClass": "itinerary",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_itinerary_1",
+    "Stat": "Critical+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_itinerary_1"
+  },
+  {
+    "EnchantClass": "itinerary",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_itinerary_2",
+    "Stat": "Res_Critical+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_itinerary_2"
+  },
+  {
+    "EnchantClass": "itinerary",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_itinerary_3",
+    "Stat": "DEF+150",
+    "StatDesc": "GameUI_Heroes_EnchantStat_itinerary_3"
+  },
+  {
+    "EnchantClass": "itinerary",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_itinerary_4",
+    "Stat": "ATK+250",
+    "StatDesc": "GameUI_Heroes_EnchantStat_itinerary_4"
+  },
+  {
+    "EnchantClass": "itinerary",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_itinerary_5",
+    "Stat": "MATK+250",
+    "StatDesc": "GameUI_Heroes_EnchantStat_itinerary_5"
+  },
+  {
+    "EnchantClass": "itinerary",
+    "Order": 6,
+    "Condition": "equip_class(CLOTH)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_itinerary_6",
+    "Stat": "ATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_itinerary_6"
+  },
+  {
+    "EnchantClass": "itinerary",
+    "Order": 7,
+    "Condition": "equip_class(CLOTH)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_itinerary_7",
+    "Stat": "MATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_itinerary_7"
+  },
+  {
+    "EnchantClass": "expedition",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_1",
+    "Stat": "Res_Critical+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_1"
+  },
+  {
+    "EnchantClass": "expedition",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_2",
+    "Stat": "DEF+280",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_2"
+  },
+  {
+    "EnchantClass": "expedition",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_3",
+    "Stat": "ATK+170",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_3"
+  },
+  {
+    "EnchantClass": "expedition",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_4",
+    "Stat": "MATK+170",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_4"
+  },
+  {
+    "EnchantClass": "expedition",
+    "Order": 5,
+    "Condition": "equip_class(HEAVY_ARMOR)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_5",
+    "Stat": "ATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_5"
+  },
+  {
+    "EnchantClass": "expedition",
+    "Order": 6,
+    "Condition": "equip_class(HEAVY_ARMOR)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_6",
+    "Stat": "MATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_6"
+  },
+  {
+    "EnchantClass": "announcement",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_announcement_1",
+    "Stat": "Res_Critical+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_announcement_1"
+  },
+  {
+    "EnchantClass": "announcement",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_announcement_2",
+    "Stat": "Balance+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_announcement_2"
+  },
+  {
+    "EnchantClass": "announcement",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_announcement_3",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_announcement_3"
+  },
+  {
+    "EnchantClass": "announcement",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_announcement_4",
+    "Stat": "DEF-330",
+    "StatDesc": "GameUI_Heroes_EnchantStat_announcement_4"
+  },
+  {
+    "EnchantClass": "announcement",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_announcement_5",
+    "Stat": "ATK+330",
+    "StatDesc": "GameUI_Heroes_EnchantStat_announcement_5"
+  },
+  {
+    "EnchantClass": "announcement",
+    "Order": 6,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_announcement_6",
+    "Stat": "MATK+330",
+    "StatDesc": "GameUI_Heroes_EnchantStat_announcement_6"
+  },
+  {
+    "EnchantClass": "announcement",
+    "Order": 7,
+    "Condition": "equip_class(CLOTH)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_announcement_7",
+    "Stat": "ATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_announcement_7"
+  },
+  {
+    "EnchantClass": "announcement",
+    "Order": 8,
+    "Condition": "equip_class(CLOTH)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_announcement_8",
+    "Stat": "MATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_announcement_8"
+  },
+  {
+    "EnchantClass": "echo",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_echo_1",
+    "Stat": "Res_Critical+2",
+    "StatDesc": "GameUI_Heroes_EnchantStat_echo_1"
+  },
+  {
+    "EnchantClass": "echo",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_echo_2",
+    "Stat": "Balance+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_echo_2"
+  },
+  {
+    "EnchantClass": "echo",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_echo_3",
+    "Stat": "ATK_Speed+1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_echo_3"
+  },
+  {
+    "EnchantClass": "echo",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_echo_4",
+    "Stat": "DEF-260",
+    "StatDesc": "GameUI_Heroes_EnchantStat_echo_4"
+  },
+  {
+    "EnchantClass": "echo",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_echo_5",
+    "Stat": "ATK+190",
+    "StatDesc": "GameUI_Heroes_EnchantStat_echo_5"
+  },
+  {
+    "EnchantClass": "echo",
+    "Order": 6,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_echo_6",
+    "Stat": "MATK+190",
+    "StatDesc": "GameUI_Heroes_EnchantStat_echo_6"
+  },
+  {
+    "EnchantClass": "echo",
+    "Order": 7,
+    "Condition": "equip_class(HEAVY_ARMOR)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_echo_7",
+    "Stat": "ATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_echo_7"
+  },
+  {
+    "EnchantClass": "echo",
+    "Order": 8,
+    "Condition": "equip_class(HEAVY_ARMOR)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_echo_8",
+    "Stat": "MATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_echo_8"
+  },
+  {
+    "EnchantClass": "stigma",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_stigma_1",
+    "Stat": "Critical+5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_stigma_1"
+  },
+  {
+    "EnchantClass": "stigma",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_stigma_2",
+    "Stat": "Res_Critical+7",
+    "StatDesc": "GameUI_Heroes_EnchantStat_stigma_2"
+  },
+  {
+    "EnchantClass": "stigma",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_stigma_3",
+    "Stat": "Balance-1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_stigma_3"
+  },
+  {
+    "EnchantClass": "stigma",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_stigma_4",
+    "Stat": "HP-80",
+    "StatDesc": "GameUI_Heroes_EnchantStat_stigma_4"
+  },
+  {
+    "EnchantClass": "stigma",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_stigma_5",
+    "Stat": "DEF+70",
+    "StatDesc": "GameUI_Heroes_EnchantStat_stigma_5"
+  },
+  {
+    "EnchantClass": "judgment",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_judgment_1",
+    "Stat": "Critical+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_judgment_1"
+  },
+  {
+    "EnchantClass": "judgment",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_judgment_2",
+    "Stat": "Res_Critical-1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_judgment_2"
+  },
+  {
+    "EnchantClass": "judgment",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_judgment_3",
+    "Stat": "Balance-1",
+    "StatDesc": "GameUI_Heroes_EnchantStat_judgment_3"
+  },
+  {
+    "EnchantClass": "judgment",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_judgment_4",
+    "Stat": "ATK_Speed+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_judgment_4"
+  },
+  {
+    "EnchantClass": "judgment",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_judgment_5",
+    "Stat": "ATK+870",
+    "StatDesc": "GameUI_Heroes_EnchantStat_judgment_5"
+  },
+  {
+    "EnchantClass": "judgment",
+    "Order": 6,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_judgment_6",
+    "Stat": "MATK+870",
+    "StatDesc": "GameUI_Heroes_EnchantStat_judgment_6"
+  },
+  {
+    "EnchantClass": "convict",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_convict_1",
+    "Stat": "Critical+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_convict_1"
+  },
+  {
+    "EnchantClass": "convict",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_convict_2",
+    "Stat": "ATK+680",
+    "StatDesc": "GameUI_Heroes_EnchantStat_convict_2"
+  },
+  {
+    "EnchantClass": "convict",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_convict_3",
+    "Stat": "MATK+680",
+    "StatDesc": "GameUI_Heroes_EnchantStat_convict_3"
+  },
+  {
+    "EnchantClass": "fresh",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fresh_1",
+    "Stat": "ATK_Speed+3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fresh_1"
+  },
+  {
+    "EnchantClass": "fresh",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fresh_2",
+    "Stat": "ATK+55",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fresh_2"
+  },
+  {
+    "EnchantClass": "fresh",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_fresh_3",
+    "Stat": "MATK+55",
+    "StatDesc": "GameUI_Heroes_EnchantStat_fresh_3"
+  },
+  {
+    "EnchantClass": "time_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_time_100_1",
+    "Stat": "Critical+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_time_100_1"
+  },
+  {
+    "EnchantClass": "time_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_time_100_2",
+    "Stat": "Res_Critical+6",
+    "StatDesc": "GameUI_Heroes_EnchantStat_time_100_2"
+  },
+  {
+    "EnchantClass": "time_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_time_100_3",
+    "Stat": "Balance-3",
+    "StatDesc": "GameUI_Heroes_EnchantStat_time_100_3"
+  },
+  {
+    "EnchantClass": "time_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_time_100_4",
+    "Stat": "HP+50",
+    "StatDesc": "GameUI_Heroes_EnchantStat_time_100_4"
+  },
+  {
+    "EnchantClass": "time_100",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_time_100_5",
+    "Stat": "DEF+160",
+    "StatDesc": "GameUI_Heroes_EnchantStat_time_100_5"
+  },
+  {
+    "EnchantClass": "injustice_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_injustice_100_1",
+    "Stat": "Critical+8",
+    "StatDesc": "GameUI_Heroes_EnchantStat_injustice_100_1"
+  },
+  {
+    "EnchantClass": "injustice_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_injustice_100_2",
+    "Stat": "Res_Critical-5",
+    "StatDesc": "GameUI_Heroes_EnchantStat_injustice_100_2"
+  },
+  {
+    "EnchantClass": "injustice_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_injustice_100_3",
+    "Stat": "ATK_Speed+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_injustice_100_3"
+  },
+  {
+    "EnchantClass": "injustice_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_injustice_100_4",
+    "Stat": "ATK+220",
+    "StatDesc": "GameUI_Heroes_EnchantStat_injustice_100_4"
+  },
+  {
+    "EnchantClass": "injustice_100",
+    "Order": 5,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_injustice_100_5",
+    "Stat": "MATK+220",
+    "StatDesc": "GameUI_Heroes_EnchantStat_injustice_100_5"
+  },
+  {
+    "EnchantClass": "expedition_100",
+    "Order": 1,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_100_1",
+    "Stat": "Res_Critical+4",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_100_1"
+  },
+  {
+    "EnchantClass": "expedition_100",
+    "Order": 2,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_100_2",
+    "Stat": "DEF+280",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_100_2"
+  },
+  {
+    "EnchantClass": "expedition_100",
+    "Order": 3,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_100_3",
+    "Stat": "ATK+170",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_100_3"
+  },
+  {
+    "EnchantClass": "expedition_100",
+    "Order": 4,
+    "Condition": "",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_100_4",
+    "Stat": "MATK+170",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_100_4"
+  },
+  {
+    "EnchantClass": "expedition_100",
+    "Order": 5,
+    "Condition": "equip_class(HEAVY_ARMOR)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_100_5",
+    "Stat": "ATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_100_5"
+  },
+  {
+    "EnchantClass": "expedition_100",
+    "Order": 6,
+    "Condition": "equip_class(HEAVY_ARMOR)",
+    "ConditionDesc": "GameUI_Heroes_EnchantCondition_expedition_100_6",
+    "Stat": "MATK+35",
+    "StatDesc": "GameUI_Heroes_EnchantStat_expedition_100_6"
+  }
+]
