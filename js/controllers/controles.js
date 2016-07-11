@@ -17,7 +17,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						
 						$('.linkname').each(function(){
 							EnchantScrollName = $(this).attr('value')
-							$('.Input'+EnchantScrollName).val(EnchantScrollName).trigger(this);
+							$('.Input'+EnchantScrollName).val(EnchantScrollName).trigger('.Input'+EnchantScrollName);
 						})
 						
 						$('.tagname').each(function(){
