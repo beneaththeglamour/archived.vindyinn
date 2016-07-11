@@ -276,10 +276,10 @@ table {
 	text-align:center;
     height: 1.1rem;}
 .code {
-	width: 12rem;
+	width: 13rem;
 word-break: break-all;
 border: thin solid rgb(53, 53, 53);
-margin: 0.2rem 0rem;
+margin: 0.5rem auto;
 padding: 0.2rem;
 background-color: rgb(29, 29, 29);
 font-family: monospace;
