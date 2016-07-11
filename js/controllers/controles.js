@@ -171,7 +171,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							ReplaceEnchantScrollName()
 							ReplaceESStats()
 							ReplaceESCondition()
-							$('.isPrefix')each(function(){
+							$('.isPrefix').each(function(){
 								IsPrefix = $(this).attr('value')
 								if (IsPrefix == 'TRUE') {$(this).html('Prefix')}
 								else {$(this).html('Suffix')}
