@@ -1,0 +1,48 @@
+<div style="background-color: rgb(158, 63, 63);font-size: 1rem;padding: 0.6rem;text-align: center;">
+	<strong>You are currently using a live yet uncompleted version of the site.</strong><br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
+</div>
+	<table class="itemtable" style="table-layout:fixed">
+	<col style="width:67px">
+	<col style="width:250px">
+	<thead> 	
+		<th class="itemcol"></th> 	
+		<th>Name</th> 
+		<th>Type</th> 	
+		<th>Uses</th>
+	</thead> 
+	<tbody> 	
+		<tr class="itemlist" ng-repeat="item in ItemVariable"> 		
+			<td><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/enchant_scroll.png)"/></td>
+	 		<td class="name" width="20%">
+				<a href="#!/item/{{ItemVariable.indexOf(item)}}" class="Beginner linkname" value="{{item.EnchantClass}}">{{item.EnchantClass}} Enchant Scroll</a>
+				<div class="hidetooltip">
+					<div class="border" id="{{item.EnchantClass}}"> 	
+						<div class="itemtooltip"> 				 		
+							<div class="icon"> 			
+								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/enchant_scroll.png)"/> 			
+								<span class="Beginner rarity">{{item.EnchantClass}} Enchant Scroll</span> 			
+								<span class="bubble"> 				
+									<span class="itemtype">Rank {{item.EnchantLevel}} {{item.IsPrefix}} Enchant</span> 				
+									<span id="sell">Sell Price</span> 				
+									<span class="right">
+										<img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack">
+										<span class="number sellingfor">500</span>
+									</span> 			
+								</span> 					 			
+								<span class="bubble Beginner">Beginner 						
+								</span> 				 		
+							</div> 			 		
+									 		
+							<div class="containres"> 				 			
+								<span class="restriction classres">For <span class="classresvalue">{{item.ItemConstraintDesc}}</span></span> 		
+							</div> 			 		
+							<span class="desc">An enchant scroll that lets you infuse a piece of equipment with magical power.
+Brynn probably knows how to use this.</span> 			 		
+							<span class="trade" value="{{item.TradeRestirction}}"></span> 
+						</div> 	
+					</div> 
+				</div>
+			</td> 		 	
+			<td class="centercell">{{item.IsPrefix}}</td> 	
+			<td class="subtype centercell">{{item.ItemConstraintDesc}}</td>
+	</tr> </tbody> </table> 
