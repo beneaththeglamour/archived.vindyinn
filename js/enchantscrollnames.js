@@ -1,4 +1,4 @@
- ReplaceUpperEnchantName = function(){
+ ReplaceEnchantScrollName = function(){
 		if (UpperEnchantName == "ACID") {$(this).html("Swift")}
 		if (UpperEnchantName == "ADROIT") {$(this).html("Even")}
 		if (UpperEnchantName == "ADVENTURER") {$(this).html("Explorer's")}
