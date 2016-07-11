@@ -173,7 +173,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							ReplaceESCondition()
 							$('.isPrefix').each(function(){
 								IsPrefix = $(this).attr('value')
-								if (IsPrefix == 'TRUE') {$(this).html('Prefix')}
+								if (IsPrefix == 'True') {$(this).html('Prefix')}
 								else {$(this).html('Suffix')}
 							})
 							
