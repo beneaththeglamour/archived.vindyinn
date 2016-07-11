@@ -206,7 +206,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams',
 	 function($scope, $http, $routeParams)
 		{    
-				$http.get('/json/items.json').success (function(data){
+				$http.get('/json/enchant-scroll-base.json').success (function(data){
 				$scope.ItemVariable = data;
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
