@@ -483,9 +483,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$.getScript( menu, function() {
 								MenuList()
 							})		
-					$.getScript( "/js/modelviewer.js", function() {
-								SetUpViewer()
-							})		
 					$('#tabs').tabs();
 }, 200);
 			}); 
