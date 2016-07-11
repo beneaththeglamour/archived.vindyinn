@@ -33,8 +33,10 @@
 								<ul class="enchantstatlist">
 								<input class="Input{{ItemVariable[whichItem].EnchantClass}}" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;Loading...&#39;" name="search">
 									<span ng-repeat="item in ItemVariable2 | filter : {'EnchantClass':mainquery}:true">
-										<li class="enchantstat" value="{{item.StatDesc|uppercase}}"></li>
-										<li class="enchantstatconstraint" value="{{item.ConditionDesc|uppercase}}"></li>
+										<li>
+											<span class="enchantstatconstraint" value="{{item.ConditionDesc|uppercase}}">:</span>
+											<span class="enchantstat" value="{{item.StatDesc|uppercase}}"></span>
+										</li>
 									</span>
 								</ul>
 							</div>
@@ -55,7 +57,7 @@
 				<li><strong>Ignore Max Armor:</strong> <br />
 				{{ItemVariable[whichItem].IgnoreMaxArmor}}</li> 			
 				<li><strong>Chat Link:</strong> <br />
-				<div class="code">[[itemToolTipEnd]itemToolTipStart]ENCHANT_SCROLL[<span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span>:{{ItemVariable[whichItem].EnchantClass}}][[itemToolTipEnd]itemToolTipMiddle]x</div></li> 			
+				<div class="code">[itemToolTipStart]ENCHANT_SCROLL[<span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span>:{{ItemVariable[whichItem].EnchantClass}}][itemToolTipMiddle][<span class="itemname" value="{{ItemVariable[whichItem].EnchantClass}}"></span> Enchant Scroll]</div></li> 			
 			</ul> 	
 	</div>
 	<div id="tabs">
