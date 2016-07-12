@@ -191,6 +191,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.ItemVariable = data;
 					$http.get('/json/EquipItemInfo.json').success (function(data2){
 					$scope.EquipItemInfo = data2;
+					})$http.get('/json/RecipeMaterialInfo.json').success (function(data3){
+					$scope.RecipeMaterialInfo = data3;
 					})
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
@@ -210,6 +212,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.itemtooltip').each(function(){
 							ItemClassName = $(this).attr('value')
 							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
+						})
+					$('.itemdetail').each(function(){
+							RecipeID = $(this).attr('value')
+							$('.Input'+RecipeID).val('recipe_'+RecipeID).trigger('input');
 						})
 					$('#classresvalue').each(
 					function(){
