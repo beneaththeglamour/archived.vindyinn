@@ -216,7 +216,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						})
 					$('.itemdetail').each(function(){
 							RecipeID = $(this).attr('value')
-							$('.Input'+RecipeID).val('recipe_'+RecipeID).trigger('input');
+							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
 						})
 					$('#classresvalue').each(
 					function(){
