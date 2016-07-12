@@ -414,12 +414,12 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					})
 					$('.itemrarity').each(function(){
 						ItemRarity = $(this).attr('value')
-						if (ItemRarity = 0) {$(this).html('Regular')}
-						if (ItemRarity = 1) {$(this).html('Regular')}
-						if (ItemRarity = 2) {$(this).html('Beginner')}
-						if (ItemRarity = 3) {$(this).html('Fine')}
-						if (ItemRarity = 4) {$(this).html('Superior')}
-						if (ItemRarity = 5) {$(this).html('Rare')}
+						if (ItemRarity = 0) {$(this).prepend('Regular')}
+						if (ItemRarity = 1) {$(this).prepend('Regular')}
+						if (ItemRarity = 2) {$(this).prepend('Beginner')}
+						if (ItemRarity = 3) {$(this).prepend('Fine')}
+						if (ItemRarity = 4) {$(this).prepend('Superior')}
+						if (ItemRarity = 5) {$(this).prepend('Rare')}
 					} )
 					$('.stat').each(function() {
 							doihide = $(this).attr("value");
