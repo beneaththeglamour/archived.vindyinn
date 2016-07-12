@@ -285,3 +285,6 @@ background-color: rgb(29, 29, 29);
 font-family: monospace;
 color: rgb(168, 168, 168);
 }
+.statbox {
+	margin-bottom:0.3rem;
+}

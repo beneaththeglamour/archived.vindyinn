@@ -23,7 +23,7 @@
 				</span> 				 		
 			</div>
 			<input class="Input{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="callstatlist" ng-init="callstatlist = &#39;Loading...&#39;" name="search">
-			<div ng-repeat="item in EquipItemInfo | filter : {'ItemClass':callstatlist}:true">
+			<div class="statbox" ng-repeat="item in EquipItemInfo | filter : {'ItemClass':callstatlist}:true">
 				<span class="stat" id="att" value="{{item.ATK}}">ATT +<span class="number">{{item.ATK}}</span></span> 			 		
 				<span class="stat" id="pvpatt" value="{{item.PVP_ATK}}">PVP ATT +<span class="number">{{item.PVP_ATK}}</span></span> 			 		
 				<span class="stat" id="matt" value="{{item.MATK}}">MATT +<span class="number">{{item.MATK}}</span></span>

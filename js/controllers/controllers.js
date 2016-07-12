@@ -408,7 +408,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					})
 					$('.stat').each(function() {
 							doihide = $(this).attr("value");
-							if (doihide == 0) {
+							if (doihide != 0) {
 								$(this).show();
 							} else {$(this).hide();}
 						});
