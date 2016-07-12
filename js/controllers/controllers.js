@@ -119,12 +119,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						replacetag = tagpopup.replace(/_/g, ' ');
 						$(this).attr('title',replacetag)
 					});
-					$('.stat').each(function() {
-							doihide = $(this).attr("value");
-							if (doihide != 0) {
-								$(this).show();
-							} else {$(this).hide();}
-						});
 					$('.weight').each(function() {
 							doihide = $(this).attr("value");
 							if (doihide != "") {
@@ -174,6 +168,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
+					$('.stat').each(function() {
+							doihide = $(this).attr("value");
+							if (doihide != 0) {
+								$(this).show();
+							} else {$(this).hide();}
+							console.log('I ran')
+						});
 				var url = "/js/descriptions.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
