@@ -191,7 +191,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.ItemVariable = data;
 					$http.get('/json/EquipItemInfo.json').success (function(data2){
 					$scope.EquipItemInfo = data2;
-					})$http.get('/json/RecipeMaterialInfo.json').success (function(data3){
+					});
+					$http.get('/json/RecipeMaterialInfo.json').success (function(data3){
 					$scope.RecipeMaterialInfo = data3;
 					})
 				$scope.whichItem = $routeParams.ItemID;
