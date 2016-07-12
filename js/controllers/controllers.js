@@ -121,7 +121,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 					});
 					$('.stat').each(function() {
 							doihide = $(this).attr("value");
-							if (doihide != "") {
+							if (doihide != 0) {
 								$(this).show();
 							} else {$(this).hide();}
 						});
