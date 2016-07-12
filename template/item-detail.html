@@ -7,7 +7,7 @@
 		<div ng-model="ItemVariable" class="itemtooltip" value="{{ItemVariable[whichItem].ItemClass|lowercase}}"> 				 		
 			<div class="icon"> 			
 				<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/> 			
-				<span class="{{ItemVariable[whichItem].Rarity}} rarity">{{ItemVariable[whichItem].Name}}</span> 			
+				<span class="rare{{ItemVariable[whichItem].Rarity}} rarity">{{ItemVariable[whichItem].Name}}</span> 			
 				<span class="bubble"> 				
 					<span class="itemtype">{{ItemVariable[whichItem].TradeCategorySub}}, {{ItemVariable[whichItem].TradeCategory}}</span> 				
 					<span id="sell">Sell Price</span> 				
@@ -16,7 +16,7 @@
 						<span class="number sellingfor">{{ItemVariable[whichItem].SellPrice}}</span>
 					</span> 			
 				</span> 					 			
-				<span class="bubble itemrarity {{ItemVariable[whichItem].Rarity}}" value="{{ItemVariable[whichItem].Rarity}}"> 				
+				<span class="bubble itemrarity rare{{ItemVariable[whichItem].Rarity}}" value="{{ItemVariable[whichItem].Rarity}}"> 				
 					<span class="right weight" id="weight" value="{{ItemVariable[whichItem].Weight}}">
 						<span id="changeweight" class="number"></span> stones
 					</span> 			
