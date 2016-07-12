@@ -17,6 +17,12 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						$('.itemtooltip').each(function(){
 							ItemClassName = $(this).attr('value')
 							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
+							$('.stat').each(function() {
+							doihide = $(this).attr("value");
+							if (doihide != 0) {
+								$(this).show();
+							} else {$(this).hide();}
+						});
 						})
 						
 						$('.tagname').each(function(){
@@ -183,12 +189,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-					$('.stat').each(function() {
-							doihide = $(this).attr("value");
-							if (doihide != 0) {
-								$(this).show();
-							} else {$(this).hide();}
-						});
 				var url = "/js/descriptions.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
