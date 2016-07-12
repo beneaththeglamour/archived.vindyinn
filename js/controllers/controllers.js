@@ -14,6 +14,11 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
 						$('#searchmenu').click(RemoveSearch)
 						
+						$('.itemtooltip').each(function(){
+							ItemClassName = $(this).attr('value')
+							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
+						})
+						
 						$('.tagname').each(function(){
 							console.log('I swapped the underscores for you.')
 							tagpopup = $(this).attr('title');
