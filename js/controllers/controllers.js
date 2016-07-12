@@ -173,7 +173,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							if (doihide != 0) {
 								$(this).show();
 							} else {$(this).hide();}
-							console.log('I ran')
 						});
 				var url = "/js/descriptions.js";
 							$.getScript( url, function() {
@@ -279,6 +278,15 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						if (WhatIsTheSkillRank == '14') {$(this).html('2')}
 						if (WhatIsTheSkillRank == '15') {$(this).html('1')}
 					})
+					$('.itemrarity').each(function(){
+						ItemRarity = $(this).attr('value')
+						if (ItemRarity == 0) {$(this).prepend('Regular')}
+						if (ItemRarity == 1) {$(this).prepend('Regular')}
+						if (ItemRarity == 2) {$(this).prepend('Beginner')}
+						if (ItemRarity == 3) {$(this).prepend('Fine')}
+						if (ItemRarity == 4) {$(this).prepend('Superior')}
+						if (ItemRarity == 5) {$(this).prepend('Rare')}
+					} )
 					checkmaxdura = $('#checkmaxdura').html();
 					if (checkmaxdura != "") {
 						$('#maxdura').show();
@@ -415,12 +423,12 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					})
 					$('.itemrarity').each(function(){
 						ItemRarity = $(this).attr('value')
-						if (ItemRarity = 0) {$(this).prepend('Regular')}
-						if (ItemRarity = 1) {$(this).prepend('Regular')}
-						if (ItemRarity = 2) {$(this).prepend('Beginner')}
-						if (ItemRarity = 3) {$(this).prepend('Fine')}
-						if (ItemRarity = 4) {$(this).prepend('Superior')}
-						if (ItemRarity = 5) {$(this).prepend('Rare')}
+						if (ItemRarity == 0) {$(this).prepend('Regular')}
+						if (ItemRarity == 1) {$(this).prepend('Regular')}
+						if (ItemRarity == 2) {$(this).prepend('Beginner')}
+						if (ItemRarity == 3) {$(this).prepend('Fine')}
+						if (ItemRarity == 4) {$(this).prepend('Superior')}
+						if (ItemRarity == 5) {$(this).prepend('Rare')}
 					} )
 					$('.stat').each(function() {
 							doihide = $(this).attr("value");
