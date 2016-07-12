@@ -332,9 +332,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					})
 					$('.manufacture').each(function(){
 						IsThereManuID = $(this).html()
-						if (IsThereManuID == '') {
-							$(this).next().html('Cannot be crafted by an Expertise.')
-						}
+						
 					})
 					$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
