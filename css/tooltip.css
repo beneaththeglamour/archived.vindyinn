@@ -93,16 +93,19 @@
 	background-position: left center;
 	clear:both;
 }
-.Regular {
+.0 {
 	color:#ddd !important;
 }
-.Beginner {
+.1 {
+	color:#ddd !important;
+}
+.2 {
 	color:#74ff84 !important;
 }
-.Fine {
+.3 {
 	color:#82a7fe !important;
 }
-.Superior {
+.4 {
 	color:#cf87ed !important;
 }
 .itemtype {

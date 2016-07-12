@@ -406,6 +406,15 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						if (WhatIsTheSkillRank == '14') {$(this).html('2')}
 						if (WhatIsTheSkillRank == '15') {$(this).html('1')}
 					})
+					$('.itemrarity').each(function(){
+						ItemRarity = $(this).attr('value')
+						if (ItemRarity = 0) {$(this).html('Regular')}
+						if (ItemRarity = 1) {$(this).html('Regular')}
+						if (ItemRarity = 2) {$(this).html('Beginner')}
+						if (ItemRarity = 3) {$(this).html('Fine')}
+						if (ItemRarity = 4) {$(this).html('Superior')}
+						if (ItemRarity = 5) {$(this).html('Rare')}
+					} )
 					$('.stat').each(function() {
 							doihide = $(this).attr("value");
 							if (doihide != 0) {
