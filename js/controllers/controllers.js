@@ -207,6 +207,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
 					$('.mainiteminput').val(ItemClass).trigger('input');
+					$('.itemtooltip').each(function(){
+							ItemClassName = $(this).attr('value')
+							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
+						})
 					$('#classresvalue').each(
 					function(){
 					checkclasses = $('#classresvalue').html();
