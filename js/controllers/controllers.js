@@ -205,15 +205,15 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					updateweight = weight.toFixed(0);
 					$('#changeweight').html(updateweight);
 					replacestart = $('#valueitem').attr('value');
-					ItemClass = $('#itemtooltip').attr('value');
+					ItemClass = $('#valueitem').attr('value');
 					$('title').html(replacestart + ' &bull; VinDB');
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
-					$('.mainiteminput').val(ItemClass).trigger('input');
 					$('.itemtooltip').each(function(){
 							ItemClassName = $(this).attr('value')
 							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
 						})
+					$('.mainiteminput').val(ItemClass).trigger('input');
 					$('.itemdetail').each(function(){
 							RecipeID = $(this).attr('value')
 							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
