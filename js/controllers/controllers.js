@@ -114,6 +114,21 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						if (WhatIsTheSkillRank == '14') {$(this).html('2')}
 						if (WhatIsTheSkillRank == '15') {$(this).html('1')}
 					})
+					$('.itemrarity').each(function(){
+						ItemRarity = $(this).attr('value')
+						if (ItemRarity == 0) {$(this).prepend('Regular')}
+						if (ItemRarity == 1) {$(this).prepend('Regular')}
+						if (ItemRarity == 2) {$(this).prepend('Beginner')}
+						if (ItemRarity == 3) {$(this).prepend('Fine')}
+						if (ItemRarity == 4) {$(this).prepend('Superior')}
+						if (ItemRarity == 5) {$(this).prepend('Rare')}
+					} )
+					$('.stat').each(function() {
+							doihide = $(this).attr("value");
+							if (doihide != 0) {
+								$(this).show();
+							} else {$(this).hide();}
+						});
 					$('.tagname').each(function(){
 						tagpopup = $(this).attr('title');
 						replacetag = tagpopup.replace(/_/g, ' ');
