@@ -5,7 +5,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 		{    
 				$http.get('/json/ItemClassInfo.json').success (function(data){
 				$scope.ItemVariable = data;
-					$http.get('/json/EquipItemInfo.json').success (function(data){
+					$http.get('/json/EquipItemInfo.json').success (function(data2){
 					$scope.EquipItemInfo = data2;})
 				setTimeout(function(){
 						WhatIsTheURL = window.location.pathname
@@ -189,7 +189,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 		{    
 				$http.get('/json/ItemClassInfo.json').success (function(data){
 				$scope.ItemVariable = data;
-					$http.get('/json/EquipItemInfo.json').success (function(data){
+					$http.get('/json/EquipItemInfo.json').success (function(data2){
 					$scope.EquipItemInfo = data2;
 					})
 				$scope.whichItem = $routeParams.ItemID;
