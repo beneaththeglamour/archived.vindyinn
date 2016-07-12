@@ -260,33 +260,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					if (checkskill != "") {
 						$('#skilllvlres').show();
 					}
-					$('.skillrank').each(function(){
-						WhatIsTheSkillRank = $(this).attr('value')
-						if (WhatIsTheSkillRank == '1') {$(this).html('F')}
-						if (WhatIsTheSkillRank == '2') {$(this).html('E')}
-						if (WhatIsTheSkillRank == '3') {$(this).html('D')}
-						if (WhatIsTheSkillRank == '4') {$(this).html('C')}
-						if (WhatIsTheSkillRank == '5') {$(this).html('B')}
-						if (WhatIsTheSkillRank == '6') {$(this).html('A')}
-						if (WhatIsTheSkillRank == '7') {$(this).html('9')}
-						if (WhatIsTheSkillRank == '8') {$(this).html('8')}
-						if (WhatIsTheSkillRank == '9') {$(this).html('7')}
-						if (WhatIsTheSkillRank == '10') {$(this).html('6')}
-						if (WhatIsTheSkillRank == '11') {$(this).html('5')}
-						if (WhatIsTheSkillRank == '12') {$(this).html('4')}
-						if (WhatIsTheSkillRank == '13') {$(this).html('3')}
-						if (WhatIsTheSkillRank == '14') {$(this).html('2')}
-						if (WhatIsTheSkillRank == '15') {$(this).html('1')}
-					})
-					$('.itemrarity').each(function(){
-						ItemRarity = $(this).attr('value')
-						if (ItemRarity == 0) {$(this).prepend('Regular')}
-						if (ItemRarity == 1) {$(this).prepend('Regular')}
-						if (ItemRarity == 2) {$(this).prepend('Beginner')}
-						if (ItemRarity == 3) {$(this).prepend('Fine')}
-						if (ItemRarity == 4) {$(this).prepend('Superior')}
-						if (ItemRarity == 5) {$(this).prepend('Rare')}
-					} )
 					checkmaxdura = $('#checkmaxdura').html();
 					if (checkmaxdura != "") {
 						$('#maxdura').show();
