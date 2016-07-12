@@ -3,8 +3,10 @@ var ItemControllers = angular.module("ItemControllers", []);
 ItemControllers.controller("ListController", ['$scope','$http', 
 	function($scope, $http)
 		{    
-				$http.get('/json/items.json').success (function(data){
+				$http.get('/json/ItemClassInfo.json').success (function(data){
 				$scope.ItemVariable = data;
+					$http.get('/json/EquipItemInfo.json').success (function(data){
+					$scope.EquipItemInfo = data2;})
 				setTimeout(function(){
 						WhatIsTheURL = window.location.pathname
 						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}
@@ -185,8 +187,11 @@ ItemControllers.controller("ListController", ['$scope','$http',
 ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams',
 	 function($scope, $http, $routeParams)
 		{    
-				$http.get('/json/items.json').success (function(data){
+				$http.get('/json/ItemClassInfo.json').success (function(data){
 				$scope.ItemVariable = data;
+					$http.get('/json/EquipItemInfo.json').success (function(data){
+					$scope.EquipItemInfo = data2;
+					})
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
@@ -197,10 +202,11 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					updateweight = weight.toFixed(0);
 					$('#changeweight').html(updateweight);
 					replacestart = $('#valueitem').attr('value');
+					ItemClass = $('#itemtooltip').attr('value');
 					$('title').html(replacestart + ' &bull; VinDB');
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
-					$('.mainiteminput').val(replacestart).trigger('input');
+					$('.mainiteminput').val(ItemClass).trigger('input');
 					$('#classresvalue').each(
 					function(){
 					checkclasses = $('#classresvalue').html();
