@@ -325,10 +325,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					})
 					$('.fee').each(function(){
 						IsThereGold = $(this).html()
-						if (IsThereGold == 'NaN') {
-							$(this).hide()
-							$(this).parent().next().html('Cannot be crafted by an NPC.')
-						}
 					})
 					$('.manufacture').each(function(){
 						IsThereManuID = $(this).html()
