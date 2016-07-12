@@ -44,7 +44,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '									<span id="changeweight">{{item.Weight}}</span> stones</span> 			'+
 '								</span> 				 		'+
 '							</div>'+
-'							<input class="Input{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="callstatlist" ng-init="callstatlist = &#39;Loading...&#39;" name="search">'+
+'							<input class="Input{{item.ItemClass|lowercase}}" style="display:none;" ng-model="callstatlist" ng-init="callstatlist = &#39;Loading...&#39;" name="search">'+
 '							<div class="statbox" ng-repeat="item in EquipItemInfo | filter : {&#39;ItemClass&#39;:callstatlist}:true">'+
 '								<span class="stat" id="att" value="{{item.ATK}}">ATT +<span class="number">{{item.ATK}}</span></span> 			 	'+
 '								<span class="stat" id="pvpatt" value="{{item.PVP_ATK}}">PVP ATT +<span class="number">{{item.PVP_ATK}}</span></span> 			 		'+

@@ -9,8 +9,8 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 	'<table class="itemtable" style="table-layout:fixed">'+
 	'<col style="width:67px">'+
 	'<col style="width:250px">'+
-	'<thead> 	<th class="itemcol"></th> 	<th>Name</th> <th>Trade</th>	<th>Level</th> 	<th>DEF</th><th>STR</th><th>AGI</th><th>INT</th><th>WIL</th><th>RES</th> </thead> <tbody> 	<tr class="itemlist" ng-repeat="item in ItemVariable | filter : ' + filter + '"> 		<td><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/{{item.Icon}}.png)"/></td></td> 		<td class="name" width="20%"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="{{item.Rarity}} linkname" value="{{item.ItemClass}}">{{item.ItemClass}}</a>'+
-	'<div class="hidetooltip"><div class="border" id="{{item.ItemClass}}">'+ 	
+	'<thead> 	<th class="itemcol"></th> 	<th>Name</th> <th>Trade</th>	<th>Level</th> 	<th>DEF</th><th>STR</th><th>AGI</th><th>INT</th><th>WIL</th><th>RES</th> </thead> <tbody> 	<tr class="itemlist" ng-repeat="item in ItemVariable | filter : ' + filter + '"> 		<td><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/{{item.Icon}}.png)"/></td></td> 		<td class="name" width="20%"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}} linkname" value="{{item.Name}}">{{item.Name}}</a>'+
+	'<div class="hidetooltip"><div class="border" id="{{item.Name}}">'+ 	
 	'						<div class="itemtooltip" value="{{item.ItemClass|lowercase}}">  				 		'+
 '							<div class="icon"> 			'+
 '								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/{{item.Icon}}.png)"/> 			'+
@@ -28,7 +28,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '									<span id="changeweight">{{item.Weight}}</span> stones</span> 			'+
 '								</span> 				 		'+
 '							</div>'+
-'							<input class="Input{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="callstatlist" ng-init="callstatlist = &#39;Loading...&#39;" name="search">'+
+'							<input class="Input{{item.ItemClass|lowercase}}" style="display:none;" ng-model="callstatlist" ng-init="callstatlist = &#39;Loading...&#39;" name="search">'+
 '							<div class="statbox" ng-repeat="item in EquipItemInfo | filter : {&#39;ItemClass&#39;:callstatlist}:true">'+
 '								<span class="stat" id="att" value="{{item.ATK}}">ATT +<span class="number">{{item.ATK}}</span></span> 			 	'+
 '								<span class="stat" id="pvpatt" value="{{item.PVP_ATK}}">PVP ATT +<span class="number">{{item.PVP_ATK}}</span></span> 			 		'+
