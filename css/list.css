@@ -124,7 +124,6 @@ color: #ddd;}
 }
 .hidetooltip {
 	position:absolute;
-	left:1rem;
 	z-index:9999;
 	display:none;
 }
