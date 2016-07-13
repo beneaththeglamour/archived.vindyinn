@@ -106,7 +106,11 @@
 	<td class="mats" width="400px">
 		<input class="Recipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
 		<span ng-repeat="item in RecipeMaterialInfo | filter : {'RecipeID':npcmat , 'Type':'1'}">
-			<img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{item.ItemClass}}.png')" title="{{item.ItemClass}}">{{item.Num}}
+			<input class="NPC{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search">
+			<span class="RecipeID" id="{{item.ItemClass}}" ng-repeat="item in ItemVariable | filter : {'ItemClass':npcclass}">
+				<img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{item.icon}}.png')" title="{{item.Name}}">
+			</span>
+			{{item.Num}}
 			</ul>
 		</span>
 		<div class="absolutely"><div class="bordertool" ng-repeat="NPCRecipeQuantity in item.NPCRecipeQuantity track by $index"><span class="bottomright">{{NPCRecipeQuantity}}</span></div></div> 				<div class="absolutely"><a ng-repeat="NPCRecipe in item.NPCRecipe"><div class="tagname" title="{{NPCRecipe}}"></div></a></div> 				<div class="listitem {{NPCRecipe}}" ng-repeat="NPCRecipe in item.NPCRecipe"></div> 		</td> 			</tr> 			</tbody> 		</table>
