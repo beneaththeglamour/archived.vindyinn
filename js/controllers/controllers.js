@@ -19,10 +19,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						for (var i = 0; i < itemtooltipClassLength; i++) {
 							ItemClassName = itemtooltipClass[i].getAttribute('value')
 							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
-							console.log('Loaded stats')
 						}
 
-						setTimeout(function(){
 						$('.tagname').each(function(){
 							console.log('I swapped the underscores for you.')
 							tagpopup = $(this).attr('title');
@@ -195,7 +193,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$.getScript( menu, function() {
 								MenuList()
 							})	
-						}, 10000)
 	
 }, 200);
 			}); 
