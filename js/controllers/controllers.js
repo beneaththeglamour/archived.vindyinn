@@ -17,8 +17,9 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						itemtooltipClass = document.getElementsByClassName('itemtooltip')
 						itemtooltipClassLength = itemtooltipClass.length;
 						for (var i = 0; i < itemtooltipClassLength; i++) {
-							ItemClassName = $(this).attr('value')
+							ItemClassName = itemtooltipClass[i].getAttribute('value')
 							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
+							console.log('Loaded stats')
 						}
 
 						
