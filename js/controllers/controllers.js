@@ -20,7 +20,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							ItemClassName = itemtooltipClass[i].getAttribute('value')
 							$('.Input'+ItemClassName).val(ItemClassName);
 						}
-
+						$('input').trigger('input')
+						
 						$('.tagname').each(function(){
 							console.log('I swapped the underscores for you.')
 							tagpopup = $(this).attr('title');
