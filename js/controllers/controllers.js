@@ -195,7 +195,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$.getScript( menu, function() {
 								MenuList()
 							})	
-						}, 600)
+						}, 10000)
 	
 }, 200);
 			}); 
