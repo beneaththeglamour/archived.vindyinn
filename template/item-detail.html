@@ -108,12 +108,12 @@
 		<span ng-repeat="item in RecipeMaterialInfo | filter : {'RecipeID':npcmat , 'Type':'1'}">
 			<input class="NPC{{item.ItemClass|uppercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search" type="text">
 			<span class="RecipeID" value="{{item.ItemClass|uppercase}}"></span>
-			<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':npcclass}:true" style="width: 44px !important;
+			<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':npcclass, 'ItemClass':'!gold'}:true" style="width: 44px !important;
 display: block;
 height: 44px;
 float: left;
 margin-right: 0.2rem;">
-					<a href="/db#!/item/{{ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{mat.Icon}}.png');background-position:center;background-repeat:no-repeat" title="{{mat.Name}}"></a>
+					<a href="/db#!/item/{{ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
 					<div class="hidetooltip">
 						<div class="border" id="{{mat.Name}}"> 	
 							<div class="itemtooltip" value="{{mat.ItemClass|lowercase}}"> 				 		
