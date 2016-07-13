@@ -168,7 +168,7 @@ margin-right: 0.2rem;">
 						</div> 	
 					</div>
 			</span>
-			<div class="absolutely"><span class="bottomright">{{item.Num}}</span></div>
+			<div class="absolutely"><a href="/db#!/item/{{ItemVariable.indexOf(mat)}}"><span class="bottomright">{{item.Num}}</span></a></div>
 			</ul>
 		</span>
 		<div class="absolutely"><div class="bordertool" ng-repeat="NPCRecipeQuantity in item.NPCRecipeQuantity track by $index"><span class="bottomright">{{NPCRecipeQuantity}}</span></div></div> 				<div class="absolutely"><a ng-repeat="NPCRecipe in item.NPCRecipe"><div class="tagname" title="{{NPCRecipe}}"></div></a></div> 				<div class="listitem {{NPCRecipe}}" ng-repeat="NPCRecipe in item.NPCRecipe"></div> 		</td> 			</tr> 			</tbody> 		</table>
