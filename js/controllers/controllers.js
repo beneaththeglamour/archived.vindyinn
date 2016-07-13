@@ -18,8 +18,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						itemtooltipClassLength = itemtooltipClass.length;
 						for (var i = 0; i < itemtooltipClassLength; i++) {
 							setTimeout(function(){ItemClassName = itemtooltipClass[i].getAttribute('value')
-							}, 200)
 							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
+							}, 200)
 							console.log('Loaded stats')
 						}
 
