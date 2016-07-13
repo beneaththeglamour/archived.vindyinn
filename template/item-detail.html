@@ -108,7 +108,7 @@
 		<span ng-repeat="item in RecipeMaterialInfo | filter : {'RecipeID':npcmat , 'Type':'1'}">
 			<input class="NPC{{item.ItemClass|uppercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search" type="text">
 			<span class="RecipeID" value="{{item.ItemClass|uppercase}}"></span>
-			<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':npcclass, 'ItemClass':'!gold'}:true" style="width: 44px !important;
+			<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':npcclass, 'ItemClass':'!GOLD'}:true" style="width: 44px !important;
 display: block;
 height: 44px;
 float: left;
