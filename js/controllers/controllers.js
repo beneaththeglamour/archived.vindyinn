@@ -18,7 +18,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						itemtooltipClassLength = itemtooltipClass.length;
 						for (var i = 0; i < itemtooltipClassLength; i++) {
 							ItemClassName = itemtooltipClass[i].getAttribute('value')
-							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
+							$('.Input'+ItemClassName).val(ItemClassName);
 						}
 
 						$('.tagname').each(function(){
