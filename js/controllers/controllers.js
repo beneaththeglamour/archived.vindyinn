@@ -17,13 +17,12 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						itemtooltipClass = document.getElementsByClassName('itemtooltip')
 						itemtooltipClassLength = itemtooltipClass.length;
 						for (var i = 0; i < itemtooltipClassLength; i++) {
-							setTimeout(function(){ItemClassName = itemtooltipClass[i].getAttribute('value')
+							ItemClassName = itemtooltipClass[i].getAttribute('value')
 							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
-							}, 200)
 							console.log('Loaded stats')
 						}
 
-						
+						setTimeout(function(){
 						$('.tagname').each(function(){
 							console.log('I swapped the underscores for you.')
 							tagpopup = $(this).attr('title');
@@ -196,6 +195,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$.getScript( menu, function() {
 								MenuList()
 							})	
+						}, 600)
 	
 }, 200);
 			}); 
