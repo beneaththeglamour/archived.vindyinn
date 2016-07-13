@@ -234,6 +234,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							RecipeID = $(this).attr('value')
 							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
 						})
+					$('.RecipeID').each(function(){
+							NPCMatID = $(this).attr('id')
+							$('.NPC'+NPCMatID).val(NPCMatID).trigger('input');
+						})
 					$('#classresvalue').each(
 					function(){
 					checkclasses = $('#classresvalue').html();
