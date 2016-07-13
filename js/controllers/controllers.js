@@ -14,18 +14,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
 						$('#searchmenu').click(RemoveSearch)
 						
-						$('.itemtooltip').each(function(){
+						itemtooltipClass = document.getElementsByClassName('itemtooltip')
+						itemtooltipClassLength = itemtooltipClass.length;
+						for (var i = 0; i < itemtooltipClassLength; i++) {
 							ItemClassName = $(this).attr('value')
 							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
-								setTimeout(function(){
-									$('.stat').each(function() {
-										doihide = $(this).attr("value");
-										if (doihide != 0) {
-											$(this).show();
-										} else {$(this).hide();}
-									});
-								},200 )
-						})
+						}
+
 						
 						$('.tagname').each(function(){
 							console.log('I swapped the underscores for you.')
