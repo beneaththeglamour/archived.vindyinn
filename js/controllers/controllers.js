@@ -149,7 +149,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-				},200)
+				},5000)
 				setTimeout(function(){
 						itemtooltipClass = document.getElementsByClassName('itemtooltip')
 						itemtooltipClassLength = itemtooltipClass.length;
@@ -157,7 +157,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							ItemClassName = itemtooltipClass[i].getAttribute('value')
 							$('.Input'+ItemClassName).val(ItemClassName);
 						}
-						},4000)
+						},1000)
 				setTimeout(function(){$('input').trigger('input')},6000)
 				setTimeout(function(){$('.stat').each(function() {
 							doihide = $(this).attr("value");
