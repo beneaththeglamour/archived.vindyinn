@@ -111,6 +111,16 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						if (ItemRarity == 4) {$(this).prepend('Superior')}
 						if (ItemRarity == 5) {$(this).prepend('Rare')}
 					} )
+<<<<<<< HEAD
+=======
+					setTimeout(function(){$('.stat').each(function() {
+							doihide = $(this).attr("value");
+							if (doihide != 0) {
+								$(this).show();
+							} else {$(this).hide();}
+						});
+					},5000)
+>>>>>>> parent of 0b1750d... this is going to suck
 					$('.tagname').each(function(){
 						tagpopup = $(this).attr('title');
 						replacetag = tagpopup.replace(/_/g, ' ');
