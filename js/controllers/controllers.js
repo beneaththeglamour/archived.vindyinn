@@ -20,7 +20,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						for (var i = 0; i < itemtooltipClassLength; i++) {
 							ItemClassName = itemtooltipClass[i].getAttribute('value')
 							$('.Input'+ItemClassName).val(ItemClassName);
-						},3000})
+						}
+						},3000)
 						
 						$('.tagname').each(function(){
 							console.log('I swapped the underscores for you.')
