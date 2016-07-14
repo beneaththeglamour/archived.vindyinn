@@ -21,7 +21,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							ItemClassName = itemtooltipClass[i].getAttribute('value')
 							$('.Input'+ItemClassName).val(ItemClassName);
 						}
-						},3000)
+						},5000)
 						$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);
@@ -124,7 +124,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								$(this).show();
 							} else {$(this).hide();}
 						});
-					},7000)
+					},10000)
 					$('.tagname').each(function(){
 						tagpopup = $(this).attr('title');
 						replacetag = tagpopup.replace(/_/g, ' ');
@@ -163,13 +163,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-				setTimeout(function(){$('input').trigger('input')},6000)
+				setTimeout(function(){$('input').trigger('input')},9000)
 				setTimeout(function(){
 					var url = "/js/descriptions.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
-				},6000)
+				},9000)
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
