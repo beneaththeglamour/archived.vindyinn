@@ -20,7 +20,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							ItemClassName = itemtooltipClass[i].getAttribute('value')
 							$('.Input'+ItemClassName).val(ItemClassName);
 						}
-						$('input').trigger('input')
 						
 						$('.tagname').each(function(){
 							console.log('I swapped the underscores for you.')
@@ -186,6 +185,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
+				$('input').trigger('input')
 				var url = "/js/descriptions.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
