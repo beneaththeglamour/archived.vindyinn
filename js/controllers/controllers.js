@@ -22,15 +22,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$('.Input'+ItemClassName).val(ItemClassName);
 						}
 						},3000)
-						
-						$('.tagname').each(function(){
-							console.log('I swapped the underscores for you.')
-							tagpopup = $(this).attr('title');
-							replacetag = tagpopup.replace(/_/g, ' ');
-							replaceforlink = tagpopup.replace(/_/g, '+');
-							$(this).attr('title',replacetag)
-							$(this).parent().attr('href','http://db.vindictusinn.com/search.html?find='+replaceforlink)
-						});
 						$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);
@@ -58,9 +49,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						checkclasses = $(this).html()
 							if (checkclasses != '2047') {
 							$(this).parent().show();
-						} else {
-							$(this).parent().hide();
-						}
 							if (checkclasses == '1') {$(this).html('Lann')}
 							if (checkclasses == '2') {$(this).html('Fiona')}
 							if (checkclasses == '33') {$(this).html('Lann, Vella')}
@@ -83,6 +71,9 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							if (checkclasses == '1983') {$(this).html('Lann, Fiona, Evie, Karok, Kai, Vella, Lynn, Arisha, Sylas, Delia')}
 							if (checkclasses == '529') {$(this).html('Lann, Kai, Sylas')}
 							if (checkclasses == '1518') {$(this).html('Fiona, Evie, Karok, Vella, Hurk, Lynn, Arisha, Delia')}
+						} else {
+							$(this).parent().hide();
+						}
 					})
 					$('.checkreqlvl').each(function(){
 						checklvl = $(this).html()
@@ -127,12 +118,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						if (ItemRarity == 4) {$(this).prepend('Superior')}
 						if (ItemRarity == 5) {$(this).prepend('Rare')}
 					} )
-					$('.stat').each(function() {
+					setTimeout(function(){$('.stat').each(function() {
 							doihide = $(this).attr("value");
 							if (doihide != 0) {
 								$(this).show();
 							} else {$(this).hide();}
 						});
+					},5000)
 					$('.tagname').each(function(){
 						tagpopup = $(this).attr('title');
 						replacetag = tagpopup.replace(/_/g, ' ');
@@ -164,22 +156,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							}
 						}
 					)
-					$('.itemicon').each(
-						function(){
-							ValueofIcon = $(this).attr('value')
-							if ( ValueofIcon.indexOf('imgur') > -1 ) {
-								$(this).css('background-image','url('+ ValueofIcon +')');
-							}
-						}
-					)
-					$('.tableicon').each(
-						function(){
-							ValueofTableIcon = $(this).attr('value')
-							if ( ValueofTableIcon.indexOf('imgur') > -1 ) {
-								$(this).css('background-image','url('+ ValueofTableIcon +')');
-							}
-						}
-					)
 					$('.desc').each(
 						function(){
 							ValueofDesc = $(this).attr('value')
@@ -187,7 +163,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-				$('input').trigger('input')
+				setTimeout(function(){$('input').trigger('input')},6000)
 				var url = "/js/descriptions.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
