@@ -22,14 +22,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 											RunningDescriptions()
 										})
 							}
-							 $('.itemtable')
-								.on( 'order.dt',  function () { console.log('Order' ); Refresh() } )
-								.on( 'search.dt', function () {console.log('Search' ); } )
-								.on( 'page.dt',   function () { console.log('Page' ); } )
-								.on( 'length.dt', function ( e, settings, len ) {
-									console.log( 'New page length: '+len );
-								} )
-								.dataTable();
 						
 						Refresh = function(){
 								itemtooltipClass = document.getElementsByClassName('itemtooltip')
@@ -191,6 +183,15 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								MenuList()
 							})	
 				}
+				
+				$('.itemtable')
+								.on( 'order.dt',  function () { console.log('Order' ); Refresh() } )
+								.on( 'search.dt', function () {console.log('Search' ); } )
+								.on( 'page.dt',   function () { console.log('Page' ); } )
+								.on( 'length.dt', function ( e, settings, len ) {
+									console.log( 'New page length: '+len );
+								} )
+								.dataTable();
 	
 }, 200);
 			}); 
