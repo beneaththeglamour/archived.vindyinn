@@ -164,10 +164,12 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						}
 					)
 				setTimeout(function(){$('input').trigger('input')},6000)
-				var url = "/js/descriptions.js";
+				setTimeout(function(){
+					var url = "/js/descriptions.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
+				},6000)
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
