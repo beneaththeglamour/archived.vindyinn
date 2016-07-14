@@ -120,6 +120,9 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							} else {$(this).hide();}
 						});
 					},5000)
+<<<<<<< HEAD
+>>>>>>> parent of 0b1750d... this is going to suck
+=======
 >>>>>>> parent of 0b1750d... this is going to suck
 					$('.tagname').each(function(){
 						tagpopup = $(this).attr('title');
