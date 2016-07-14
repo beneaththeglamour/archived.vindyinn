@@ -22,16 +22,17 @@ ItemControllers.controller("ListController", ['$scope','$http',
 											RunningDescriptions()
 										})
 							}
-						
-						itemtooltipClass = document.getElementsByClassName('itemtooltip')
-						itemtooltipClassLength = itemtooltipClass.length;
-						for (var i = 0; i < itemtooltipClassLength; i++) {
-							ItemClassName = itemtooltipClass[i].getAttribute('value')
-							$('.Input'+ItemClassName).val(ItemClassName);
+						function RunningSearchandTriggers() {
+								itemtooltipClass = document.getElementsByClassName('itemtooltip')
+								itemtooltipClassLength = itemtooltipClass.length;
+								for (var i = 0; i < itemtooltipClassLength; i++) {
+									ItemClassName = itemtooltipClass[i].getAttribute('value')
+									$('.Input'+ItemClassName).val(ItemClassName);
+								}
+								setTimeout(function(){
+									TriggerInputs()
+						},10000)
 						}
-						setTimeout(function(){
-							TriggerInputs()
-				},10000)
 						
 						
 						$('.weight').each(function(){
