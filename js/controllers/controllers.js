@@ -26,16 +26,22 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								.on( 'order.dt',  function () { console.log('Order' ); } )
 								.on( 'search.dt', function () {console.log('Search' ); } )
 								.on( 'page.dt',   function () { console.log('Page' ); } )
+								.on( 'length.dt', function ( e, settings, len ) {
+									console.log( 'New page length: '+len );
+								} )
 								.dataTable();
-								/**itemtooltipClass = document.getElementsByClassName('itemtooltip')
+						
+						Refresh = function(){
+								itemtooltipClass = document.getElementsByClassName('itemtooltip')
 								itemtooltipClassLength = itemtooltipClass.length;
 								for (var i = 0; i < itemtooltipClassLength; i++) {
 									ItemClassName = itemtooltipClass[i].getAttribute('value')
 									$('.Input'+ItemClassName).val(ItemClassName);
 								}
+								
 								setTimeout(function(){
 									TriggerInputs()
-						},10000)**/
+								},10000)
 
 						
 						
@@ -184,6 +190,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$.getScript( menu, function() {
 								MenuList()
 							})	
+				}
 	
 }, 200);
 			}); 
