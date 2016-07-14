@@ -13,7 +13,10 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						
 						RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
 						$('#searchmenu').click(RemoveSearch)
-						TriggerInputs = function() {
+						
+						Refresh = function(){
+							
+							TriggerInputs = function() {
 								$('input').each(function(){
 									$(this).trigger('input')
 								} )
@@ -22,8 +25,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 											RunningDescriptions()
 										})
 							}
-						
-						Refresh = function(){
+							
 								itemtooltipClass = document.getElementsByClassName('itemtooltip')
 								itemtooltipClassLength = itemtooltipClass.length;
 								for (var i = 0; i < itemtooltipClassLength; i++) {
@@ -188,10 +190,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								.on( 'order.dt',  function () { console.log('Order' ); Refresh() } )
 								.on( 'search.dt', function () {console.log('Search' ); Refresh() } )
 								.on( 'page.dt',   function () { console.log('Page' ); Refresh() } )
-								.on( 'length.dt', function ( e, settings, len ) {
-									console.log( 'New page length: '+len );
-									Refresh()
-								} )
+								.on( 'length.dt', function ( e, settings, len ) {	console.log( 'New page length: '+len ); Refresh() } )
 								.dataTable();
 	
 }, 200);
