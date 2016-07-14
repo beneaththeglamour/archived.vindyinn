@@ -23,7 +23,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 										})
 							}
 							 $('.itemtable')
-								.on( 'order.dt',  function () { console.log('Order' ); } )
+								.on( 'order.dt',  function () { console.log('Order' ); Refresh() } )
 								.on( 'search.dt', function () {console.log('Search' ); } )
 								.on( 'page.dt',   function () { console.log('Page' ); } )
 								.on( 'length.dt', function ( e, settings, len ) {
