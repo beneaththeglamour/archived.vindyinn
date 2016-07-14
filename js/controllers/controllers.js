@@ -165,13 +165,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								$(this).show();
 							} else {$(this).hide();}
 						});
-					},6500)
+					},7000)
 				setTimeout(function(){
 				var url = "/js/descriptions.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
-				},6500)
+				},8000)
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
