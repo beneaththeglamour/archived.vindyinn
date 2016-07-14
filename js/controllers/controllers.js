@@ -158,20 +158,20 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$('.Input'+ItemClassName).val(ItemClassName);
 						}
 						},2000)
-				setTimeout(function(){$('input').trigger('input')},4000)
+				setTimeout(function(){$('input').trigger('input')},6000)
 				setTimeout(function(){$('.stat').each(function() {
 							doihide = $(this).attr("value");
 							if (doihide != 0) {
 								$(this).show();
 							} else {$(this).hide();}
 						});
-					},5000)
+					},6500)
 				setTimeout(function(){
 				var url = "/js/descriptions.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
-				},5200)
+				},6500)
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
