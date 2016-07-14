@@ -17,7 +17,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								$('input').each(function(){
 									$(this).trigger('input')
 								} )
-								var url = "/js/descriptions.js";
+								var url = "/js/desclist.js";
 										$.getScript( url, function() {
 											RunningDescriptions()
 										})
