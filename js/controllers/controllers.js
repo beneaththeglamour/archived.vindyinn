@@ -31,9 +31,9 @@ ItemControllers.controller("ListController", ['$scope','$http',
 									$('.Input'+ItemClassName).val(ItemClassName);
 								}
 								
-								setTimeout(function(){
+								
 									TriggerInputs()
-								},10000)
+								
 
 						
 						
@@ -186,10 +186,11 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				
 				$('.itemtable')
 								.on( 'order.dt',  function () { console.log('Order' ); Refresh() } )
-								.on( 'search.dt', function () {console.log('Search' ); } )
-								.on( 'page.dt',   function () { console.log('Page' ); } )
+								.on( 'search.dt', function () {console.log('Search' ); Refresh() } )
+								.on( 'page.dt',   function () { console.log('Page' ); Refresh() } )
 								.on( 'length.dt', function ( e, settings, len ) {
 									console.log( 'New page length: '+len );
+									Refresh()
 								} )
 								.dataTable();
 	
