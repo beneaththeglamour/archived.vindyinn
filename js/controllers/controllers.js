@@ -29,7 +29,9 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							ItemClassName = itemtooltipClass[i].getAttribute('value')
 							$('.Input'+ItemClassName).val(ItemClassName);
 						}
-						TriggerInputs()
+						setTimeout(function(){
+							TriggerInputs()
+				},10000}
 						
 						
 						$('.weight').each(function(){
