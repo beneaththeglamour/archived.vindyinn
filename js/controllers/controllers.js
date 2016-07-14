@@ -124,7 +124,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								$(this).show();
 							} else {$(this).hide();}
 						});
-					},5000)
+					},7000)
 					$('.tagname').each(function(){
 						tagpopup = $(this).attr('title');
 						replacetag = tagpopup.replace(/_/g, ' ');
