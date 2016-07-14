@@ -163,13 +163,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-				setTimeout(function(){$('input').trigger('input')},9000)
-				setTimeout(function(){
+				TriggerInputs = function() {
+					$('input').trigger('input')
 					var url = "/js/descriptions.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
-				},9000)
+				}
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
