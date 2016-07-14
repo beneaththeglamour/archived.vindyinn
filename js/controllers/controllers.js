@@ -13,15 +13,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						
 						RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
 						$('#searchmenu').click(RemoveSearch)
-						
-						setTimeout(function(){
-						itemtooltipClass = document.getElementsByClassName('itemtooltip')
-						itemtooltipClassLength = itemtooltipClass.length;
-						for (var i = 0; i < itemtooltipClassLength; i++) {
-							ItemClassName = itemtooltipClass[i].getAttribute('value')
-							$('.Input'+ItemClassName).val(ItemClassName);
-						}
-						},3000)
+					
+					setTimeout(function(){
 						$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);
@@ -118,13 +111,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						if (ItemRarity == 4) {$(this).prepend('Superior')}
 						if (ItemRarity == 5) {$(this).prepend('Rare')}
 					} )
-					setTimeout(function(){$('.stat').each(function() {
-							doihide = $(this).attr("value");
-							if (doihide != 0) {
-								$(this).show();
-							} else {$(this).hide();}
-						});
-					},7000)
 					$('.tagname').each(function(){
 						tagpopup = $(this).attr('title');
 						replacetag = tagpopup.replace(/_/g, ' ');
@@ -163,11 +149,29 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-				setTimeout(function(){$('input').trigger('input')},6000)
+				},200)
+				setTimeout(function(){
+						itemtooltipClass = document.getElementsByClassName('itemtooltip')
+						itemtooltipClassLength = itemtooltipClass.length;
+						for (var i = 0; i < itemtooltipClassLength; i++) {
+							ItemClassName = itemtooltipClass[i].getAttribute('value')
+							$('.Input'+ItemClassName).val(ItemClassName);
+						}
+						},2000)
+				setTimeout(function(){$('input').trigger('input')},4000)
+				setTimeout(function(){$('.stat').each(function() {
+							doihide = $(this).attr("value");
+							if (doihide != 0) {
+								$(this).show();
+							} else {$(this).hide();}
+						});
+					},5000)
+				setTimeout(function(){
 				var url = "/js/descriptions.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
+				},5200)
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
