@@ -22,8 +22,12 @@ ItemControllers.controller("ListController", ['$scope','$http',
 											RunningDescriptions()
 										})
 							}
-						function RunningSearchandTriggers() {
-								itemtooltipClass = document.getElementsByClassName('itemtooltip')
+							 $('.itemtable')
+								.on( 'order.dt',  function () { console.log('Order' ); } )
+								.on( 'search.dt', function () {console.log('Search' ); } )
+								.on( 'page.dt',   function () { console.log('Page' ); } )
+								.dataTable();
+								/**itemtooltipClass = document.getElementsByClassName('itemtooltip')
 								itemtooltipClassLength = itemtooltipClass.length;
 								for (var i = 0; i < itemtooltipClassLength; i++) {
 									ItemClassName = itemtooltipClass[i].getAttribute('value')
@@ -31,8 +35,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								}
 								setTimeout(function(){
 									TriggerInputs()
-						},10000)
-						}
+						},10000)**/
+
 						
 						
 						$('.weight').each(function(){
