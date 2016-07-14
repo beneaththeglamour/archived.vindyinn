@@ -31,7 +31,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						}
 						setTimeout(function(){
 							TriggerInputs()
-				},10000}
+				},10000)
 						
 						
 						$('.weight').each(function(){
