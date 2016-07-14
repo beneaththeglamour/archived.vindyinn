@@ -13,15 +13,25 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						
 						RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
 						$('#searchmenu').click(RemoveSearch)
+						TriggerInputs = function() {
+								$('input').each(function(){
+									$(this).trigger('input')
+								} )
+								var url = "/js/descriptions.js";
+										$.getScript( url, function() {
+											RunningDescriptions()
+										})
+							}
 						
-						setTimeout(function(){
 						itemtooltipClass = document.getElementsByClassName('itemtooltip')
 						itemtooltipClassLength = itemtooltipClass.length;
 						for (var i = 0; i < itemtooltipClassLength; i++) {
 							ItemClassName = itemtooltipClass[i].getAttribute('value')
 							$('.Input'+ItemClassName).val(ItemClassName);
 						}
-						},5000)
+						TriggerInputs()
+						
+						
 						$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);
@@ -163,13 +173,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-				TriggerInputs = function() {
-					$('input').trigger('input')
-					var url = "/js/descriptions.js";
-							$.getScript( url, function() {
-								RunningDescriptions()
-							})
-				}
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
