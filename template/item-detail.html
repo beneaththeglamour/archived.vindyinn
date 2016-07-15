@@ -189,11 +189,13 @@
 			<col style="width:67px;">
 			<col style="width:250px;">
 			<col style="width:12%;">
+			<col style="width:12%;">
 			<col style="width:63%;">
 			<thead>
 				<th class="itemcol"></th>
 				<th  width="20%">Name</th>
 				<th>Expertise</th>
+				<th>Req. Prof.</th>
 				<th style="width: 60% !important;">Crafting Recipe</th>		
 			</thead>
 			<tbody>
@@ -213,6 +215,12 @@
 			<input class="ExpertType{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="experttype" ng-init="experttype = &#39;Loading...&#39;" name="search">
 			<span ng-repeat="expertise in ManufactureRecipeInfo | filter : {'RecipeID':experttype}">
 				{{expertise.ManufactureID}}
+			</span>
+		</td>
+		<td class="centercell" width="1%">
+			<input class="ReqProf{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="reqprof" ng-init="reqprof = &#39;Loading...&#39;" name="search">
+			<span ng-repeat="expertise in ManufactureRecipeInfo | filter : {'RecipeID':reqprof}">
+				{{expertise.ExperienceRequired}}
 			</span>
 		</td>
 		<td class="mats" width="400px">

@@ -201,6 +201,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
 							$('.ExpertRecipe'+RecipeID).val(RecipeID).trigger('input');
 							$('.ExpertType'+RecipeID).val(RecipeID).trigger('input');
+							$('.ReqProf'+RecipeID).val(RecipeID).trigger('input');
 						})
 					$('.RecipeID').each(function(){
 							NPCMatID = $(this).attr('value')
