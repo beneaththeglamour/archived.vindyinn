@@ -391,6 +391,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						if (ItemRarity == 4) {$(this).prepend('Superior')}
 						if (ItemRarity == 5) {$(this).prepend('Rare')}
 					} )
+					$('.ExpertType').each(function(){
+						ExpertType = $(this).attr('value')
+						if (ExpertType == 'armor') {$(this).html('Armorsmithing')}
+						if (ExpertType == 'cooking') {$(this).html('Cooking')}
+						if (ExpertType == 'metal_weapon') {$(this).html('Weaponsmithing')}
+						if (ExpertType == 'sewing') {$(this).html('Tailoring')}
+					} )
 					$('.TradeCategory').each(function(){
 						TradeCategorySub = $(this).attr('value')
 						if (TradeCategorySub == 'ACCESSORY') {$(this).html('Accessory')}

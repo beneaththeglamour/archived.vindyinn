@@ -214,7 +214,7 @@
 		<td class="centercell" width="1%">
 			<input class="ExpertType{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="experttype" ng-init="experttype = &#39;Loading...&#39;" name="search">
 			<span ng-repeat="expertise in ManufactureRecipeInfo | filter : {'RecipeID':experttype}">
-				{{expertise.ManufactureID}}
+				<span class="ExpertType" value="{{expertise.ManufactureID}}"></span>
 			</span>
 		</td>
 		<td class="centercell" width="1%">
