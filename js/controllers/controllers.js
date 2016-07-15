@@ -187,6 +187,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					replacestart = $('#valueitem').attr('value');
 					ItemClass = $('#valueitem').attr('value');
 					$('title').html(replacestart + ' &bull; VinDB');
+					$('head').append('<meta property="og:title" content="VindictusInnDB - Vindictus (Mabinogi Heroes) Database OKAY" />');
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
 					$('.mainiteminput').val(ItemClass).trigger('input');
