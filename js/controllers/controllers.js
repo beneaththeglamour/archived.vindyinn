@@ -3,36 +3,15 @@ var ItemControllers = angular.module("ItemControllers", []);
 ItemControllers.controller("ListController", ['$scope','$http', 
 	function($scope, $http)
 		{    
-				$http.get('/json/ItemClassInfo.json').success (function(data){
+				$http.get('/json/ItemClassInfoV2.json').success (function(data){
 				$scope.ItemVariable = data;
-					$http.get('/json/EquipItemInfo.json').success (function(data2){
-					$scope.EquipItemInfo = data2;})
+
 				setTimeout(function(){
 						WhatIsTheURL = window.location.pathname
 						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}
 						
 						RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
-						$('#searchmenu').click(RemoveSearch)
-						TriggerInputs = function() {
-								$('input').each(function(){
-									$(this).trigger('input')
-								} )
-								var url = "/js/descriptions.js";
-										$.getScript( url, function() {
-											RunningDescriptions()
-										})
-							}
-								itemtooltipClass = document.getElementsByClassName('itemtooltip')
-								itemtooltipClassLength = itemtooltipClass.length;
-								for (var i = 0; i < itemtooltipClassLength; i++) {
-									ItemClassName = itemtooltipClass[i].getAttribute('value')
-									$('.Input'+ItemClassName).val(ItemClassName);
-								}
-								setTimeout(function(){
-									TriggerInputs()
-						},10000)
-
-						
+						$('#searchmenu').click(RemoveSearch)						
 						
 						$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
@@ -188,11 +167,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams',
 	 function($scope, $http, $routeParams)
 		{    
-				$http.get('/json/ItemClassInfo.json').success (function(data){
+				$http.get('/json/ItemClassInfoV2.json').success (function(data){
 				$scope.ItemVariable = data;
-					$http.get('/json/EquipItemInfo.json').success (function(data2){
-					$scope.EquipItemInfo = data2;
-					});
 					$http.get('/json/RecipeMaterialInfo.json').success (function(data3){
 					$scope.RecipeMaterialInfo = data3;
 					})
@@ -210,10 +186,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('title').html(replacestart + ' &bull; VinDB');
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
-					$('.itemtooltip').each(function(){
-							ItemClassName = $(this).attr('value')
-							$('.Input'+ItemClassName).val(ItemClassName).trigger('input');
-						})
 					$('.mainiteminput').val(ItemClass).trigger('input');
 					$('.itemdetail').each(function(){
 							RecipeID = $(this).attr('value')
