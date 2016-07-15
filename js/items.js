@@ -44,8 +44,6 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '									<span id="changeweight">{{item.Weight}}</span> stones</span> 			'+
 '								</span> 				 		'+
 '							</div>'+
-'							<input class="Input{{item.ItemClass|lowercase}}" style="display:none;" ng-model="callstatlist" ng-init="callstatlist = &#39;Loading...&#39;" name="search">'+
-'							<div class="statbox" ng-repeat="item in EquipItemInfo | filter : {&#39;ItemClass&#39;:callstatlist}:true">'+
 '								<span class="stat" id="att" value="{{item.ATK}}">ATT +<span class="number">{{item.ATK}}</span></span> 			 	'+
 '								<span class="stat" id="pvpatt" value="{{item.PVP_ATK}}">PVP ATT +<span class="number">{{item.PVP_ATK}}</span></span> 			 		'+
 '								<span class="stat" id="matt" value="{{item.MATK}}">MATT +<span class="number">{{item.MATK}}</span></span> 			 		'+
@@ -64,14 +62,13 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '								<span class="stat" id="stam" value="{{item.STAMINA}}">Stamina +{{item.STAMINA}}</span> 			 		'+
 '								<span class="stat" id="critres" value="{{item.Res_Critical}}">Critical Resistance +<span class="number">{{item.Res_Critical}}</span></span> 			 		'+
 '								<span class="stat" id="movspd" value="{{item.TOWN_SPEED}}">Movement Speed +{{item.TOWN_SPEED}}</span> 			 		'+
-'							</div> 				 			'+
 '							<div class="containres"> 				 			'+
 '								<span class="restriction classres">Only for <span class="classresvalue">{{item.ClassRestriction}}</span></span>		 			'+
 '								<span class="restriction requlvl">For levels <span class="checkreqlvl">{{item.RequiredLevel}}</span> and above</span> 			'+
 '								<span class="restriction skilllvlres">Rank <span class="checkskillreq">{{item.RequiredSkill}}</span> {{item.RequiredSkillRank}} or above</span> 			 		'+
 '							</div> 			 		'+
 '							<span class="uses">{{item.Uses}}</span> 			 		'+
-'							<span class="desc" value="{{item.Name}}">{{item.Desc}}</span> 			 		'+
+'							<span class="desc" value="{{item.ItemClass|uppercase}}">{{item.Desc}}</span> 			 		'+
 '							<span class="trade" value="{{item.TradeRestirction}}"></span> '+
 '						</div> 	'+
 '					</div> '+

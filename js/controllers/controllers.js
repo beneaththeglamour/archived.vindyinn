@@ -153,7 +153,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-				var url = "/js/descriptions.js";
+				var url = "/js/descriptionsV2.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
@@ -427,7 +427,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-					var url = "/js/descriptions.js";
+					var url = "/js/descriptionsV2.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
