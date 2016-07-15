@@ -160,7 +160,7 @@
 	min-width:15rem;
 }
 .moreinfobubble ul {
-	margin:0.3rem 1rem;
+	margin: 0.3rem 0rem 0.3rem 1rem;
 	font-family: Alegreya Sans;
 	font-size: 0.9rem;
 }
@@ -290,4 +290,15 @@ color: rgb(168, 168, 168);
 }
 .statbox {
 	overflow:hidden;
+}
+.moreinfobubble li {
+    display: block;
+    float: left;
+    width: 7rem;
+}
+.moreinfobubble h2 {
+	clear:both;
+}
+.moreinfobubble .wide {
+	width: 13.4rem;
 }

@@ -54,13 +54,13 @@
 	<div class="moreinfobubble"> 		
 		<h2>Additional Info</h2> 		 
 			<ul> 			
-				<li><strong>Item ID:</strong> <br />{{ItemVariable[whichItem].ItemClass}}</li>
-				<li><strong>Purchase Price (each):</strong> <br /><span class="number">{{ItemVariable[whichItem].Price}}</span> <img src="http://i.imgur.com/Hq3oGZI.png" style="vertical-align: middle;"></li> 			
+				<li class="wide"><strong>Item ID:</strong> <br />{{ItemVariable[whichItem].ItemClass}}</li>
+				<li class="wide"><strong>Purchase Price (each):</strong> <br /><span class="number">{{ItemVariable[whichItem].Price}}</span> <img src="http://i.imgur.com/Hq3oGZI.png" style="vertical-align: middle;"></li> 			
 				<li><strong>Stacks to:</strong> <br /><span class="number">{{ItemVariable[whichItem].MaxStack}}</span></li> 			
 				<li><strong>QuickSlot Max Stack:</strong> <br /><span class="number">{{ItemVariable[whichItem].QuickSlotMaxStack}}</span></li> 			
 				<li id="maxdura"><strong>Max Durability:</strong> <br /><span id="checkmaxdura"><span class="number">{{ItemVariable[whichItem].MaxDurability}}</span></span></li> 			
 				<li id="armorhp"><strong>Armor HP:</strong> <br /><span id="checkarmorhp"><span class="number">{{ItemVariable[whichItem].ArmorHP}}</span></span></li> 	
-				<li><strong>Inventory Category:</strong> <br />{{ItemVariable[whichItem].InventoryFilterName}}</li>				
+				<li class="wide"><strong>Inventory Category:</strong> <br />{{ItemVariable[whichItem].InventoryFilterName}}</li>				
 			</ul> 	
 		<h2>Chat Link</h2>
 			<div class="code">[itemToolTipStart]{{ItemVariable[whichItem].ItemClass|lowercase}}[itemToolTipMiddle][{{ItemVariable[whichItem].Name}}]
