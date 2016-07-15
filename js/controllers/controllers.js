@@ -378,6 +378,62 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						if (ItemRarity == 4) {$(this).prepend('Superior')}
 						if (ItemRarity == 5) {$(this).prepend('Rare')}
 					} )
+					$('.TradeCategorySub').each(function(){
+						TradeCategorySub = $(this).attr('value')
+						if (TradeCategorySub == 'ACCESSORY_ETC') {$(this).html('Other')}
+						if (TradeCategorySub == 'ARTIFACT') {$(this).html('Artifact')}
+						if (TradeCategorySub == 'AVATAR_BOOTS') {$(this).html('Feet Armor')}
+						if (TradeCategorySub == 'AVATAR_GLOVES') {$(this).html('Hand Armor')}
+						if (TradeCategorySub == 'AVATAR_HELM') {$(this).html('Head Armor')}
+						if (TradeCategorySub == 'AVATAR_PANTS') {$(this).html('Leg Armor')}
+						if (TradeCategorySub == 'AVATAR_TUNIC') {$(this).html('Chest Armor')}
+						if (TradeCategorySub == 'BASTARDSWORD') {$(this).html('Bastard Sword')}
+						if (TradeCategorySub == 'BATTLEGLAIVE') {$(this).html('Battle Glaive')}
+						if (TradeCategorySub == 'BELT') {$(this).html('Belt')}
+						if (TradeCategorySub == 'BLASTER') {$(this).html('Cestus')}
+						if (TradeCategorySub == 'BOW') {$(this).html('Bow')}
+						if (TradeCategorySub == 'CASTLET') {$(this).html('Focus')}
+						if (TradeCategorySub == 'CLOTH_BOOTS') {$(this).html('Boots')}
+						if (TradeCategorySub == 'CLOTH_GLOVES') {$(this).html('Gloves')}
+						if (TradeCategorySub == 'CLOTH_HELM') {$(this).html('Helm')}
+						if (TradeCategorySub == 'CLOTH_PANTS') {$(this).html('Pants')}
+						if (TradeCategorySub == 'CLOTH_TUNIC') {$(this).html('Tunic')}
+						if (TradeCategorySub == 'COMBINE_PART_ARMOR') {$(this).html('Armor')}
+						if (TradeCategorySub == 'COMBINE_PART_WEAPON') {$(this).html('Weapon')}
+						if (TradeCategorySub == 'COOKING') {$(this).html('Cooking')}
+						if (TradeCategorySub == 'CROSSGUN') {$(this).html('Cross Gun')}
+						if (TradeCategorySub == 'CUSTOMIZE') {$(this).html('Customization')}
+						if (TradeCategorySub == 'DUALBLADE') {$(this).html('Twin Chainblades')}
+						if (TradeCategorySub == 'DUALSPEAR') {$(this).html('Twin Spears')}
+						if (TradeCategorySub == 'DUALSWORD') {$(this).html('Twin Swords')}
+						if (TradeCategorySub == 'DYE_AVATAR') {$(this).html('Avatar Dye Ampoule')}
+						if (TradeCategorySub == 'DYE_EQUIP') {$(this).html('Clodagh&apos;s Dye Ampoule')}
+						if (TradeCategorySub == 'ETC_ETC') {$(this).html('Other')}
+						if (TradeCategorySub == 'EVENT_ETC') {$(this).html('Event')}
+						if (TradeCategorySub == 'FEATHER') {$(this).html('Feather')}
+						if (TradeCategorySub == 'GEMSTONE') {$(this).html('Bracelet Gem')}
+						if (TradeCategorySub == 'GOODS_ETC') {$(this).html('Etc.')}
+						if (TradeCategorySub == 'GREATSWORD') {$(this).html('Greatsword')}
+						if (TradeCategorySub == 'HAMMER') {$(this).html('Long Hammer')}
+						if (TradeCategorySub == 'HEAVYARMOR_BOOTS') {$(this).html('Boots')}
+						if (TradeCategorySub == 'HEAVYARMOR_GLOVES') {$(this).html('Gloves')}
+						if (TradeCategorySub == 'HEAVYARMOR_HELM') {$(this).html('Helm')}
+						if (TradeCategorySub == 'HEAVYARMOR_PANTS') {$(this).html('Pants')}
+						if (TradeCategorySub == 'HEAVYARMOR_TUNIC') {$(this).html('Tunic')}
+						if (TradeCategorySub == 'JEWELLERY') {$(this).html('Jewelry')}
+						if (TradeCategorySub == 'KEYITEM') {$(this).html('Story')}
+						if (TradeCategorySub == 'LARGESHIELD') {$(this).html('Giant Shield')}
+						if (TradeCategorySub == 'LIGHTARMOR_BOOTS') {$(this).html('Boots')}
+						if (TradeCategorySub == 'LIGHTARMOR_GLOVES') {$(this).html('Gloves')}
+						if (TradeCategorySub == 'LIGHTARMOR_HELM') {$(this).html('Helm')}
+						if (TradeCategorySub == 'LIGHTARMOR_PANTS') {$(this).html('Pants')}
+						if (TradeCategorySub == 'LIGHTARMOR_TUNIC') {$(this).html('Tunic')}
+						if (TradeCategorySub == 'LONGBLADE') {$(this).html('Spellsword')}
+						if (TradeCategorySub == 'LONGSWORD') {$(this).html('Longsword')}
+						if (TradeCategorySub == 'MANA_ERG') {$(this).html('Erg Crystal')}
+						if (TradeCategorySub == 'MATERIAL_CLOTH') {$(this).html('Cloth')}
+						if (TradeCategorySub == 'MATERIAL_ENCHANT') {$(this).html('Enchant')}
+					})
 					$('.stat').each(function() {
 							doihide = $(this).attr("value");
 							if (doihide != 0) {
