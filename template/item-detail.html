@@ -9,7 +9,10 @@
 				<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/> 			
 				<span class="rare{{ItemVariable[whichItem].Rarity}} rarity">{{ItemVariable[whichItem].Name}}</span> 			
 				<span class="bubble"> 				
-					<span class="itemtype"><span class="TradeCategorySub" value="{{ItemVariable[whichItem].TradeCategorySub}}"></span>, <span class="TradeCategory" value="{{ItemVariable[whichItem].TradeCategory}}"></span></span> 				
+					<span class="itemtype">
+						<span class="TradeCategorySub" value="{{ItemVariable[whichItem].TradeCategorySub}}"></span>, 
+						<span class="TradeCategory" value="{{ItemVariable[whichItem].TradeCategory}}"></span>
+					</span> 				
 					<span id="sell">Sell Price</span> 				
 					<span class="right">
 						<img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack">
@@ -80,93 +83,105 @@
 			<li><a href="#tabs-7">Model Viewer</a></li>
 		</ul>
 	<div class="usewindow" id="tabs-1">  
-	<h2>NPC Recipes <input class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;acid&#39;" name="search"></h2>
-	<table style="table-layout:fixed">
-		<col style="width:67px;">
-		<col style="width:250px;">
-		<col style="width:12%;">
-		<col style="width:63%;">
-		<thead>
-			<th class="itemcol"></th>
-			<th  width="20%">Name</th>
-			<th>Gold Fee</th>
-			<th style="width: 60% !important;">Crafting Recipe</th>		
-		</thead>
-		<tbody>
-			<tr ng-repeat="item in ItemVariable | filter : {&#39;Name&#39;:mainquery}:true">
-				<td width="10px"><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/></td>
-				<td width="250px" class="name"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}}">{{item.Name}}</a>
-					<div class="hidetooltip"><div class="border" id="{{item.Name}}"> 	<div class="itemtooltip" value="{{item.ItemClass|lowercase}}"> 				 		<div class="icon"> 			<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/> 			<span class="rare{{item.Rarity}} rarity">{{item.Name}}</span> 			<span class="bubble"> 				<span class="itemtype">{{item.TradeCategorySub}}, {{item.TradeCategory}}</span> 				<span id="sell">Sell Price</span> 				<span class="right"><img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack"><span class="number sellingfor">{{item.SellPrice}}</span></span> 			</span> 					 			<span class="bubble itemrarity rare{{item.Rarity}}" value="{{item.Rarity}}"> 				<span class="right	weight" value="{{item.Weight}}"><span id="changeweight">{{item.Weight}}</span> stones</span> 			</span> 				 		</div> 			 		<span class="stat" id="att" value="{{item.ATK}}">ATT +<span class="number">{{item.ATK}}</span></span> 			 		<span class="stat" id="pvpatt" value="{{item.PVP_ATK}}">PVP ATT +<span class="number">{{item.PVP_ATK}}</span></span> 			 		<span class="stat" id="matt" value="{{item.MATK}}">MATT +<span class="number">{{item.MATK}}</span></span> 			 		<span class="stat" id="pvpmatt" value="{{item.PVP_MATK}}">PVP MATT +<span class="number">{{item.PVP_MATK}}</span></span> 			 		<span class="stat" id="balance" value="{{item.Balance}}">Balance +<span class="number">{{item.Balance}}</span></span> 			 		<span class="stat" id="crit" value="{{item.Critical}}">Critical +<span class="number">{{item.Critical}}</span></span> 			 		<span class="stat" id="atkspd" value="{{item.ATK_Speed}}">Attack Speed +<span class="number">{{item.ATK_Speed}}</span></span> 			 		<span class="stat" id="def" value="{{item.DEF}}">DEF +<span class="number">{{item.DEF}}</span></span> 			 		<span class="stat" id="pvpdef" value="{{item.PVP_DEF}}">PVP DEF +<span class="number">{{item.PVP_DEF}}</span></span> 			 		<span class="stat" id="str" value="{{item.STR}}">STR +<span class="number">{{item.STR}}</span></span> 		<span class="stat" id="dex" value="{{item.DEX}}">AGI +<span class="number">{{item.DEX}}</span></span> 		<span class="stat" id="int" value="{{item.INT}}">INT +<span class="number">{{item.INT}}</span></span> 			 		<span class="stat" id="wil" value="{{item.WILL}}">WIL +<span class="number">{{item.WILL}}</span></span> 			 		<span class="stat" id="luck" value="{{item.LUCK}}">Luck +<span class="number">23{{item.LUCK}}</span></span> 			 		<span class="stat" id="hp" value="{{item.HP}}">HP +{{item.HP}}</span> 			 		<span class="stat" id="stam" value="{{item.STAMINA}}">Stamina +{{item.STAMINA}}</span> 			 		<span class="stat" id="critres" value="{{item.Res_Critical}}">Critical Resistance +<span class="number">{{item.Res_Critical}}</span></span> 			 		<span class="stat" id="movspd" value="{{item.TOWN_SPEED}}">Movement Speed +{{item.TOWN_SPEED}}</span> 			 		<div class="containres"> 				 			<span class="restriction classres">Only for <span class="classresvalue">{{item.ClassRestriction}}</span></span>		 			<span class="restriction requlvl">For levels <span class="checkreqlvl">{{item.RequiredLevel}}</span> and above</span> 			<span class="restriction skilllvlres">Rank <span class="checkskillreq">{{item.RequiredSkill}}</span> {{item.RequiredSkillRank}} or above</span> 			 		</div> 			 		<span class="uses">{{item.Uses}}</span> 			 		<span value="{{item.ItemClass|uppercase}}" class="desc">{{item.Desc}}</span> 			 		<span class="trade" value="{{item.TradeRestirction}}"></span> </div> 	</div> </div> 
+		<h2>NPC Recipes <input class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;acid&#39;" name="search"></h2>
+		<table style="table-layout:fixed">
+			<col style="width:67px;">
+			<col style="width:250px;">
+			<col style="width:12%;">
+			<col style="width:63%;">
+			<thead>
+				<th class="itemcol"></th>
+				<th  width="20%">Name</th>
+				<th>Gold Fee</th>
+				<th style="width: 60% !important;">Crafting Recipe</th>		
+			</thead>
+			<tbody>
+				<tr ng-repeat="item in ItemVariable | filter : {&#39;Name&#39;:mainquery}:true">
+					<td width="10px"><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/></td>
+					<td width="250px" class="name"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}}">{{item.Name}}</a>
+						<div class="hidetooltip"><div class="border" id="{{item.Name}}"> 	<div class="itemtooltip" value="{{item.ItemClass|lowercase}}"> 				 		<div class="icon"> 			<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/> 			<span class="rare{{item.Rarity}} rarity">{{item.Name}}</span> 			<span class="bubble"> 				
+						<span class="itemtype">
+							<span class="TradeCategorySub" value="{{item.TradeCategorySub}}"></span>, 
+							<span class="TradeCategory" value="{{item.TradeCategory}}"></span>
+						</span> 	 				
+						<span id="sell">Sell Price</span> 				<span class="right"><img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack"><span class="number sellingfor">{{item.SellPrice}}</span></span> 			</span> 					 			<span class="bubble itemrarity rare{{item.Rarity}}" value="{{item.Rarity}}"> 				<span class="right	weight" value="{{item.Weight}}"><span id="changeweight">{{item.Weight}}</span> stones</span> 			</span> 				 		</div> 			 		<span class="stat" id="att" value="{{item.ATK}}">ATT +<span class="number">{{item.ATK}}</span></span> 			 		<span class="stat" id="pvpatt" value="{{item.PVP_ATK}}">PVP ATT +<span class="number">{{item.PVP_ATK}}</span></span> 			 		<span class="stat" id="matt" value="{{item.MATK}}">MATT +<span class="number">{{item.MATK}}</span></span> 			 		<span class="stat" id="pvpmatt" value="{{item.PVP_MATK}}">PVP MATT +<span class="number">{{item.PVP_MATK}}</span></span> 			 		<span class="stat" id="balance" value="{{item.Balance}}">Balance +<span class="number">{{item.Balance}}</span></span> 			 		<span class="stat" id="crit" value="{{item.Critical}}">Critical +<span class="number">{{item.Critical}}</span></span> 			 		<span class="stat" id="atkspd" value="{{item.ATK_Speed}}">Attack Speed +<span class="number">{{item.ATK_Speed}}</span></span> 			 		<span class="stat" id="def" value="{{item.DEF}}">DEF +<span class="number">{{item.DEF}}</span></span> 			 		<span class="stat" id="pvpdef" value="{{item.PVP_DEF}}">PVP DEF +<span class="number">{{item.PVP_DEF}}</span></span> 			 		<span class="stat" id="str" value="{{item.STR}}">STR +<span class="number">{{item.STR}}</span></span> 		<span class="stat" id="dex" value="{{item.DEX}}">AGI +<span class="number">{{item.DEX}}</span></span> 		<span class="stat" id="int" value="{{item.INT}}">INT +<span class="number">{{item.INT}}</span></span> 			 		<span class="stat" id="wil" value="{{item.WILL}}">WIL +<span class="number">{{item.WILL}}</span></span> 			 		<span class="stat" id="luck" value="{{item.LUCK}}">Luck +<span class="number">23{{item.LUCK}}</span></span> 			 		<span class="stat" id="hp" value="{{item.HP}}">HP +{{item.HP}}</span> 			 		<span class="stat" id="stam" value="{{item.STAMINA}}">Stamina +{{item.STAMINA}}</span> 			 		<span class="stat" id="critres" value="{{item.Res_Critical}}">Critical Resistance +<span class="number">{{item.Res_Critical}}</span></span> 			 		<span class="stat" id="movspd" value="{{item.TOWN_SPEED}}">Movement Speed +{{item.TOWN_SPEED}}</span> 			 		<div class="containres"> 				 			<span class="restriction classres">Only for <span class="classresvalue">{{item.ClassRestriction}}</span></span>		 			<span class="restriction requlvl">For levels <span class="checkreqlvl">{{item.RequiredLevel}}</span> and above</span> 			<span class="restriction skilllvlres">Rank <span class="checkskillreq">{{item.RequiredSkill}}</span> {{item.RequiredSkillRank}} or above</span> 			 		</div> 			 		<span class="uses">{{item.Uses}}</span> 			 		<span value="{{item.ItemClass|uppercase}}" class="desc">{{item.Desc}}</span> 			 		<span class="trade" value="{{item.TradeRestirction}}"></span> </div> 	</div> </div> 
 
-	<div class="craftable">Crafted by <span class="NPCCraft">{{item.NPCCraft}}</span> after completing <span class="UnlockBattle">{{item.UnlockBattle||TBA}}</span></div>
-	</td> 				 							
-	<td class="centercell" width="1%"><span class="fee number">{{item.NPCFee}} </span> <img src="http://i.imgur.com/Hq3oGZI.png" style="vertical-align: middle;"></td>
-	<td class="mats" width="400px">
-		<input class="Recipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
-		<span ng-repeat="item in RecipeMaterialInfo | filter : {'RecipeID':npcmat , 'ItemClass':'!gold','Type':'1'}">
-			<input class="NPC{{item.ItemClass|uppercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search" type="text">
-			<span class="RecipeID" value="{{item.ItemClass|uppercase}}"></span>
-			<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':npcclass , 'Name':'!Gold Coin'}:true" style="width: 44px !important;
-display: block;
-height: 44px;
-float: left;
-margin-right: 0.2rem;">
-					<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
-					<div class="hidetooltip">
-						<div class="border" id="{{mat.Name}}"> 	
-							<div class="itemtooltip" value="{{mat.ItemClass|lowercase}}"> 				 		
-								<div class="icon"> 			
-									<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{mat.Icon}}" style="background-image:url('/images/icons/{{mat.Icon}}.png')"/> 			
-									<span class="rare{{mat.Rarity}} rarity">{{mat.Name}}</span> 			
-									<span class="bubble"> 				
-										<span class="itemtype">{{mat.TradeCategorySub}}, {{mat.TradeCategory}}</span> 				
-										<span id="sell">Sell Price</span> 				
-										<span class="right">
-											<img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack">
-											<span class="number sellingfor">{{mat.SellPrice}}</span>
-										</span> 			
-									</span> 					 			
-									<span class="bubble itemrarity rare{{mat.Rarity}}" value="{{mat.Rarity}}"> 				
-										<span class="right weight" id="weight" value="{{mat.Weight}}">
-											<span id="changeweight" class="number"></span> stones
-										</span> 			
-									</span> 				 		
-								</div>
-									<span class="stat" id="att" value="{{mat.ATK}}">ATT +<span class="number">{{mat.ATK}}</span></span> 			 		
-									<span class="stat" id="pvpatt" value="{{mat.PVP_ATK}}">PVP ATT +<span class="number">{{mat.PVP_ATK}}</span></span> 			 		
-									<span class="stat" id="matt" value="{{mat.MATK}}">MATT +<span class="number">{{mat.MATK}}</span></span>
-									<span class="stat" id="pvpmatt" value="{{mat.PVP_MATK}}">PVP MATT +<span class="number">{{mat.PVP_MATK}}</span></span> 			 		
-									<span class="stat" id="balance" value="{{mat.Balance}}">Balance +<span class="number">{{mat.Balance}}</span></span> 			 		
-									<span class="stat" id="crit" value="{{mat.Critical}}">Critical +<span class="number">{{mat.Critical}}</span></span>
-									<span class="stat" id="atkspd" value="{{mat.ATK_Speed}}">Attack Speed +<span class="number">{{mat.ATK_Speed}}</span></span> 			 		
-									<span class="stat" id="def" value="{{mat.DEF}}">DEF +<span class="number">{{mat.DEF}}</span></span> 			 		
-									<span class="stat" id="pvpdef" value="{{mat.PVP_DEF}}">PVP DEF +<span class="number">{{mat.PVP_DEF}}</span></span> 			 		
-									<span class="stat" id="str" value="{{mat.STR}}">STR +<span class="number">{{mat.STR}}</span></span> 		
-									<span class="stat" id="dex" value="{{mat.DEX}}">AGI +<span class="number">{{mat.DEX}}</span></span> 		
-									<span class="stat" id="int" value="{{mat.INT}}">INT +<span class="number">{{mat.INT}}</span></span> 			 		
-									<span class="stat" id="wil" value="{{mat.WILL}}">WIL +<span class="number">{{mat.WILL}}</span></span>
-									<span class="stat" id="luck" value="{{mat.LUCK}}">Luck +<span class="number">23{{mat.LUCK}}</span></span>
-									<span class="stat" id="hp" value="{{mat.HP}}">HP +{{mat.HP}}</span> 			 		
-									<span class="stat" id="stam" value="{{mat.STAMINA}}">Stamina +{{mat.STAMINA}}</span> 			 		
-									<span class="stat" id="critres" value="{{mat.Res_Critical}}">Critical Resistance +<span class="number">{{mat.Res_Critical}}</span></span> 			 		
-									<span class="stat" id="movspd" value="{{mat.TOWN_SPEED}}">Movement Speed +{{mat.TOWN_SPEED}}</span> 			 		
-									<div class="containres"> 				 			
-										<span class="restriction" id="classres">Only for <span id="classresvalue">{{mat.ClassRestriction}}</span></span>		 			
-										<span class="restriction" id="requlvl">For levels <span id="checkreqlvl">{{mat.RequiredLevel}}</span> and above</span> 			
-										<span class="restriction" id="skilllvlres">Rank <span id="checkskillreq">{{mat.RequiredSkill}}</span> 
-										<span class="skillrank" value="{{mat.RequiredSkillRank}}">{{mat.RequiredSkillRank}}</span> or above</span> 			 		
-									</div> 			 		
-								<span class="uses">{{mat.Uses}}</span> 			 		
-								<span value="{{mat.ItemClass|uppercase}}" class="desc">{{mat.Desc}}</span> 			 		
-								<span class="trade" value="{{mat.TradeRestirction}}"></span> 
-							</div> 	
-						</div> 	
-					</div>
+		<div class="craftable">Crafted by <span class="NPCCraft">{{item.NPCCraft}}</span> after completing <span class="UnlockBattle">{{item.UnlockBattle||TBA}}</span></div>
+		</td> 				 							
+		<td class="centercell" width="1%">
+			<input class="Recipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
+			<span ng-repeat="item in RecipeMaterialInfo | filter : {'RecipeID':npcmat , 'ItemClass':'gold','Type':'1'}">
+				<span class="fee number">{{item.Num}} </span> <img src="http://i.imgur.com/Hq3oGZI.png" style="vertical-align: middle;">
 			</span>
-			<div class="absolutely"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><span class="bottomright">{{item.Num}}</span></a></div>
-			</ul>
-		</span>
-		 		</td> 			</tr> 			</tbody> 		</table>
+		</td>
+		<td class="mats" width="400px">
+			<input class="Recipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
+			<span ng-repeat="item in RecipeMaterialInfo | filter : {'RecipeID':npcmat , 'ItemClass':'!gold','Type':'1'}">
+				<input class="NPC{{item.ItemClass|uppercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search" type="text">
+				<span class="RecipeID" value="{{item.ItemClass|uppercase}}"></span>
+				<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':npcclass , 'Name':'!Gold Coin'}:true" style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
+						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
+						<div class="hidetooltip">
+							<div class="border" id="{{mat.Name}}"> 	
+								<div class="itemtooltip" value="{{mat.ItemClass|lowercase}}"> 				 		
+									<div class="icon"> 			
+										<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{mat.Icon}}" style="background-image:url('/images/icons/{{mat.Icon}}.png')"/> 			
+										<span class="rare{{mat.Rarity}} rarity">{{mat.Name}}</span> 			
+										<span class="bubble"> 				
+											<span class="itemtype">
+												<span class="TradeCategorySub" value="{{item.TradeCategorySub}}"></span>, 
+												<span class="TradeCategory" value="{{item.TradeCategory}}"></span>
+											</span> 				
+											<span id="sell">Sell Price</span> 				
+											<span class="right">
+												<img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack">
+												<span class="number sellingfor">{{mat.SellPrice}}</span>
+											</span> 			
+										</span> 					 			
+										<span class="bubble itemrarity rare{{mat.Rarity}}" value="{{mat.Rarity}}"> 				
+											<span class="right weight" id="weight" value="{{mat.Weight}}">
+												<span id="changeweight" class="number"></span> stones
+											</span> 			
+										</span> 				 		
+									</div>
+										<span class="stat" id="att" value="{{mat.ATK}}">ATT +<span class="number">{{mat.ATK}}</span></span> 			 		
+										<span class="stat" id="pvpatt" value="{{mat.PVP_ATK}}">PVP ATT +<span class="number">{{mat.PVP_ATK}}</span></span> 			 		
+										<span class="stat" id="matt" value="{{mat.MATK}}">MATT +<span class="number">{{mat.MATK}}</span></span>
+										<span class="stat" id="pvpmatt" value="{{mat.PVP_MATK}}">PVP MATT +<span class="number">{{mat.PVP_MATK}}</span></span> 			 		
+										<span class="stat" id="balance" value="{{mat.Balance}}">Balance +<span class="number">{{mat.Balance}}</span></span> 			 		
+										<span class="stat" id="crit" value="{{mat.Critical}}">Critical +<span class="number">{{mat.Critical}}</span></span>
+										<span class="stat" id="atkspd" value="{{mat.ATK_Speed}}">Attack Speed +<span class="number">{{mat.ATK_Speed}}</span></span> 			 		
+										<span class="stat" id="def" value="{{mat.DEF}}">DEF +<span class="number">{{mat.DEF}}</span></span> 			 		
+										<span class="stat" id="pvpdef" value="{{mat.PVP_DEF}}">PVP DEF +<span class="number">{{mat.PVP_DEF}}</span></span> 			 		
+										<span class="stat" id="str" value="{{mat.STR}}">STR +<span class="number">{{mat.STR}}</span></span> 		
+										<span class="stat" id="dex" value="{{mat.DEX}}">AGI +<span class="number">{{mat.DEX}}</span></span> 		
+										<span class="stat" id="int" value="{{mat.INT}}">INT +<span class="number">{{mat.INT}}</span></span> 			 		
+										<span class="stat" id="wil" value="{{mat.WILL}}">WIL +<span class="number">{{mat.WILL}}</span></span>
+										<span class="stat" id="luck" value="{{mat.LUCK}}">Luck +<span class="number">23{{mat.LUCK}}</span></span>
+										<span class="stat" id="hp" value="{{mat.HP}}">HP +{{mat.HP}}</span> 			 		
+										<span class="stat" id="stam" value="{{mat.STAMINA}}">Stamina +{{mat.STAMINA}}</span> 			 		
+										<span class="stat" id="critres" value="{{mat.Res_Critical}}">Critical Resistance +<span class="number">{{mat.Res_Critical}}</span></span> 			 		
+										<span class="stat" id="movspd" value="{{mat.TOWN_SPEED}}">Movement Speed +{{mat.TOWN_SPEED}}</span> 			 		
+										<div class="containres"> 				 			
+											<span class="restriction" id="classres">Only for <span id="classresvalue">{{mat.ClassRestriction}}</span></span>		 			
+											<span class="restriction" id="requlvl">For levels <span id="checkreqlvl">{{mat.RequiredLevel}}</span> and above</span> 			
+											<span class="restriction" id="skilllvlres">Rank <span id="checkskillreq">{{mat.RequiredSkill}}</span> 
+											<span class="skillrank" value="{{mat.RequiredSkillRank}}">{{mat.RequiredSkillRank}}</span> or above</span> 			 		
+										</div> 			 		
+									<span class="uses">{{mat.Uses}}</span> 			 		
+									<span value="{{mat.ItemClass|uppercase}}" class="desc">{{mat.Desc}}</span> 			 		
+									<span class="trade" value="{{mat.TradeRestirction}}"></span> 
+								</div> 	
+							</div> 	
+						</div>
+				</span>
+				<div class="absolutely"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><span class="bottomright">{{item.Num}}</span></a></div>
+				</ul>
+			</span>
+					</td> 			
+				</tr> 			
+			</tbody> 		
+		</table>
 	</div>
 	<div class="usewindow" id="tabs-2">
 		<h2>Expertise Recipes <input class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;Loading...&#39;" name="search"></h2>
