@@ -196,16 +196,19 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
 					$('.mainiteminput').val(ItemClass).trigger('input');
+					LoadMats = function(){
+						$('.RecipeID').each(function(){
+							NPCMatID = $(this).attr('value')
+							$('.NPC'+NPCMatID).val(NPCMatID).trigger('input');
+						})
+					}
 					$('.itemdetail').each(function(){
 							RecipeID = $(this).attr('value')
 							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
 							$('.ExpertRecipe'+RecipeID).val(RecipeID).trigger('input');
 							$('.ExpertType'+RecipeID).val(RecipeID).trigger('input');
 							$('.ReqProf'+RecipeID).val(RecipeID).trigger('input');
-						})
-					$('.RecipeID').each(function(){
-							NPCMatID = $(this).attr('value')
-							$('.NPC'+NPCMatID).val(NPCMatID).trigger('input');
+							LoadMats()
 						})
 					$('.ExpertID').each(function(){
 							ExpertMatID = $(this).attr('value')
