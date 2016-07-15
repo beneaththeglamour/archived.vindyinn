@@ -193,7 +193,7 @@
 			<thead>
 				<th class="itemcol"></th>
 				<th  width="20%">Name</th>
-				<th>Gold Fee</th>
+				<th>Expertise</th>
 				<th style="width: 60% !important;">Crafting Recipe</th>		
 			</thead>
 			<tbody>
@@ -210,7 +210,10 @@
 		<div class="craftable">Crafted by <span class="NPCCraft">{{item.NPCCraft}}</span> after completing <span class="UnlockBattle">{{item.UnlockBattle||TBA}}</span></div>
 		</td> 				 							
 		<td class="centercell" width="1%">
-			TBA
+			<input class="ExpertType{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="experttype" ng-init="experttype = &#39;Loading...&#39;" name="search">
+			<span ng-repeat="expertise in ManufactureRecipeInfo | filter : {'RecipeID':experttype}">
+				{{expertise.ManufactureID}}
+			</span>
 		</td>
 		<td class="mats" width="400px">
 			<input class="ExpertRecipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="expertmat" ng-init="expertmat = &#39;Loading...&#39;" name="search">

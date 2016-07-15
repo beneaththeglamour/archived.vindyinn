@@ -178,6 +178,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$http.get('/json/ManufactureMaterialInfo.json').success (function(data2){
 					$scope.ManufactureMaterialInfo = data2;
 					})
+					$http.get('/json/ManufactureRecipeInfo.json').success (function(data4){
+					$scope.ManufactureRecipeInfo = data4;
+					})
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
@@ -197,6 +200,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							RecipeID = $(this).attr('value')
 							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
 							$('.ExpertRecipe'+RecipeID).val(RecipeID).trigger('input');
+							$('.ExpertType'+RecipeID).val(RecipeID).trigger('input');
 						})
 					$('.RecipeID').each(function(){
 							NPCMatID = $(this).attr('value')
