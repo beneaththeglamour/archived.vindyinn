@@ -24,7 +24,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '				<img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/{{item.Icon}}.png)"/>'+
 '			</td> 		'+
 '			<td class="name">'+
-'				<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="{{item.Rarity}} linkname" value="{{item.Name}}">{{item.Name}}</a>'+
+'				<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}} linkname" value="{{item.Name}}">{{item.Name}}</a>'+
 '				<div class="hidetooltip">'+
 '					<div class="border" id="{{item.Name}}"> 	'+
 '						<div class="itemtooltip" value="{{item.ItemClass|lowercase}}">  				 		'+
@@ -74,7 +74,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '					</div> '+
 '				</div>'+
 '			</td> 		'+
-'			<td class="{{item.Rarity}} centercell">{{item.Rarity}}</td> 		'+
+'			<td class="rare{{item.Rarity}} centercell itemrarity" value="{{item.Rarity}}"></td> 		'+
 '			<td class="type centercell">{{item.TradeCategory}}</td> 		'+
 '			<td class="subtype centercell">{{item.TradeCategorySub}}</td> 		'+
 '		</tr> '+
