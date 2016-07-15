@@ -180,23 +180,6 @@ MenuList = function() {
 			'</li>'+
 		'</ul>'+
 	'</li>'+
-	'<li><a>Recipes</a>'+
-		'<ul>'+
-			'<li><a href="/expertise/tailoring">Tailoring</a></li>'+
-			'<li><a href="/expertise/goldsmithing">Goldsmithing</a></li>'+
-			'<li><a href="/expertise/weaponsmithing">Weaponsmithing</a></li>'+
-			'<li><a href="/expertise/armorsmithing">Armorsmithing</a></li>'+
-			'<li><a>Cooking</a></li>'+
-			'<li><a>NPC</a>'+
-				'<ul>'+
-					'<li><a>Clodagh</a></li>'+
-					'<li><a>Brynn</a></li>'+
-					'<li><a>Ferghus</a></li>'+
-					'<li><a>Kirstie</a></li>'+
-				'</ul>'+
-			'</li>'+
-		'</ul>'+
-	'</li>'+
 	'<li><a href="http://titles.vindictusinn.com">Titles</a></li>'+
 	'<li><a href="/">Skills</a>'+
 		'<ul>'+
