@@ -213,7 +213,7 @@
 			TBA
 		</td>
 		<td class="mats" width="400px">
-			<input class="Recipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="expertmat" ng-init="expertmat = &#39;Loading...&#39;" name="search">
+			<input class="ExpertRecipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="expertmat" ng-init="expertmat = &#39;Loading...&#39;" name="search">
 			<span ng-repeat="item in ManufactureMaterialInfo | filter : {'RecipeID':expertmat , 'Type':'1'}">
 				<input class="Expert{{item.ItemClass|uppercase}}" style="display:none;" ng-model="expertclass" ng-init="expertclass = &#39;Loading...&#39;" name="search" type="text">
 				<span class="ExpertID" value="{{item.ItemClass|uppercase}}"></span>
