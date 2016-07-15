@@ -378,6 +378,26 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						if (ItemRarity == 4) {$(this).prepend('Superior')}
 						if (ItemRarity == 5) {$(this).prepend('Rare')}
 					} )
+					$('.TradeCategory').each(function(){
+						TradeCategorySub = $(this).attr('value')
+						if (TradeCategorySub == 'ACCESSORY') {$(this).html('Accessory')}
+						if (TradeCategorySub == 'AVATAR') {$(this).html('Outfit')}
+						if (TradeCategorySub == 'CLOTH') {$(this).html('Cloth Armor')}
+						if (TradeCategorySub == 'COMBINE_PART') {$(this).html('Composite Material')}
+						if (TradeCategorySub == 'EQUIPMENT') {$(this).html('Equipment')}
+						if (TradeCategorySub == 'ETC') {$(this).html('Etc.')}
+						if (TradeCategorySub == 'EVENT') {$(this).html('Event')}
+						if (TradeCategorySub == 'GOODS') {$(this).html('Consumable')}
+						if (TradeCategorySub == 'HEAVYARMOR') {$(this).html('Heavy Armor')}
+						if (TradeCategorySub == 'LIGHTARMOR') {$(this).html('Light Armor')}
+						if (TradeCategorySub == 'MATERIAL') {$(this).html('Material')}
+						if (TradeCategorySub == 'PLATEARMOR') {$(this).html('Plate Armor')}
+						if (TradeCategorySub == 'QUEST') {$(this).html('Battle')}
+						if (TradeCategorySub == 'REAR') {$(this).html('Rear')}
+						if (TradeCategorySub == 'TAIL') {$(this).html('Tail')}
+						if (TradeCategorySub == 'TIRCOIN') {$(this).html('Tir Coin')}
+						if (TradeCategorySub == 'WEAPON') {$(this).html('Weapon')}
+					} )
 					$('.TradeCategorySub').each(function(){
 						TradeCategorySub = $(this).attr('value')
 						if (TradeCategorySub == 'ACCESSORY_ETC') {$(this).html('Other')}
@@ -433,6 +453,37 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						if (TradeCategorySub == 'MANA_ERG') {$(this).html('Erg Crystal')}
 						if (TradeCategorySub == 'MATERIAL_CLOTH') {$(this).html('Cloth')}
 						if (TradeCategorySub == 'MATERIAL_ENCHANT') {$(this).html('Enchant')}
+						if (TradeCategorySub == 'MATERIAL_ENHANCE') {$(this).html('Enhance')}
+						if (TradeCategorySub == 'MATERIAL_ETC') {$(this).html('Etc.')}
+						if (TradeCategorySub == 'MATERIAL_LEATHER') {$(this).html('Leather')}
+						if (TradeCategorySub == 'MATERIAL_ORE') {$(this).html('Ore')}
+						if (TradeCategorySub == 'MATERIAL_SKILLENHANCE') {$(this).html('Skill Awakening Material')}
+						if (TradeCategorySub == 'MATERIAL_SPECIAL') {$(this).html('Special Material')}
+						if (TradeCategorySub == 'MATERIAL_SPIRITINJECTION') {$(this).html('Power Infusion')}
+						if (TradeCategorySub == 'MATERIAL_SUB') {$(this).html('Secondary Material')}
+						if (TradeCategorySub == 'NECKLACE') {$(this).html('Necklace')}
+						if (TradeCategorySub == 'PHANTOMDAGGER') {$(this).html('Phantom Dagger')}
+						if (TradeCategorySub == 'PILLAR') {$(this).html('Pillar')}
+						if (TradeCategorySub == 'PLATEARMOR_BOOTS') {$(this).html('Boots')}
+						if (TradeCategorySub == 'PLATEARMOR_GLOVES') {$(this).html('Gloves')}
+						if (TradeCategorySub == 'PLATEARMOR_HELM') {$(this).html('Helm')}
+						if (TradeCategorySub == 'PLATEARMOR_PANTS') {$(this).html('Pants')}
+						if (TradeCategorySub == 'PLATEARMOR_TUNIC') {$(this).html('Tunic')}
+						if (TradeCategorySub == 'POTION') {$(this).html('Potion')}
+						if (TradeCategorySub == 'REAR') {$(this).html('Rear')}
+						if (TradeCategorySub == 'REAR_WING') {$(this).html('Wings')}
+						if (TradeCategorySub == 'RING') {$(this).html('Ring')}
+						if (TradeCategorySub == 'SCYTHE') {$(this).html('Battle Scythe')}
+						if (TradeCategorySub == 'SHAREENABLE') {$(this).html('Cash Consumable')}
+						if (TradeCategorySub == 'SHAREENABLE_TRADE') {$(this).html('Cash Consumable')}
+						if (TradeCategorySub == 'SHIELD') {$(this).html('Shield')}
+						if (TradeCategorySub == 'SPECIAL_POTION') {$(this).html('Special Potion')}
+						if (TradeCategorySub == 'SPELLBOOK') {$(this).html('Spell Book')}
+						if (TradeCategorySub == 'STAFF') {$(this).html('Staff')}
+						if (TradeCategorySub == 'SUBWEAPON') {$(this).html('Secondary Weapon')}
+						if (TradeCategorySub == 'TAIL') {$(this).html('Tail')}
+						if (TradeCategorySub == 'TIRCOIN_ETC') {$(this).html('Tir Coin')}
+						if (TradeCategorySub == 'TROPHY') {$(this).html('Loot')}
 					})
 					$('.stat').each(function() {
 							doihide = $(this).attr("value");
