@@ -1,4 +1,8 @@
-if (ThisItemDesc == "desc ng-binding ItemDesc_1111_COOKIE"){ $(this).html("광곤절을 기념하는 과자. 먹으면 머리 위에 하트가 둥둥 떠다닌다. 솔로지만 왠지 연애하고 있는 느낌이 든다.\\n먹으면 스태미나가 지속적으로 회복되는듯하다. 혼자서도 잘 싸울 수 있겠다는 용기를 얻었다.")
+RunningDescriptions = function() {
+	console.log('Loading Descriptions for items.')
+$('.desc').each( function(){
+		ThisItemDesc = $(this).attr('class')		
+		if (ThisItemDesc == "desc ng-binding ItemDesc_1111_COOKIE"){ $(this).html("광곤절을 기념하는 과자. 먹으면 머리 위에 하트가 둥둥 떠다닌다. 솔로지만 왠지 연애하고 있는 느낌이 든다.\\n먹으면 스태미나가 지속적으로 회복되는듯하다. 혼자서도 잘 싸울 수 있겠다는 용기를 얻었다.")
 		if (ThisItemDesc == "desc ng-binding ItemDesc_2010_WORLDCUP_FOOT"){ $(this).html("Clodagh, the fashion leader of Colhen, is cheering for the Red Devils of the other world! She designed this outfit to promote and support the Korean Red Devils.\\nWear this outfit and cheer for Korean Red Devils!\\nEvent item (The sale will end when the event ends.)\\n(Cannot be dyed)")
 		if (ThisItemDesc == "desc ng-binding ItemDesc_2010_WORLDCUP_LOWER"){ $(this).html("Clodagh, the fashion leader of Colhen, is cheering for the Red Devils of the other world! She designed this outfit to promote and support the Korean Red Devils.\\nWear this outfit and cheer for Korean Red Devils!\\nEvent item (The sale will end when the event ends.)\\n(Cannot be dyed)")
 		if (ThisItemDesc == "desc ng-binding ItemDesc_2010_WORLDCUP_UPPER"){ $(this).html("Clodagh, the fashion leader of Colhen, is cheering for the Red Devils of the other world! She designed this outfit to promote and support the Korean Red Devils.\\nWear this outfit and cheer for Korean Red Devils!\\nEvent item (The sale will end when the event ends.)\\n(Cannot be dyed)")
@@ -17544,10 +17548,6 @@ if (ThisItemDesc == "desc ng-binding ItemDesc_1111_COOKIE"){ $(this).html("광�
 		if (ThisItemDesc == "desc ng-binding ItemDesc_WILDDUKE_UPPER_LVL1"){ $(this).html("A breastplate that contains the rage of the white tyrant. It signifies your battle and defeat of the Hoarfrost Hollow tyrant on more than one occasion. \\nIt can be crafted by Kirstie.")
 		if (ThisItemDesc == "desc ng-binding ItemDesc_WILDDUKE_UPPER_LVL2"){ $(this).html("A breastplate that contains the rage of the white tyrant. It signifies your battle and defeat of the Hoarfrost Hollow tyrant on more than one occasion. \\nIt can be crafted by Kirstie.")
 		if (ThisItemDesc == "desc ng-binding ItemDesc_WILDDUKE_UPPER_LVL3"){ $(this).html("A breastplate that contains the rage of the white tyrant. It signifies your battle and defeat of the Hoarfrost Hollow tyrant on more than one occasion. \\nIt can be crafted by Kirstie.")
-RunningDescriptions = function() {
-	console.log('Loading Descriptions for items.')
-$('.desc').each( function(){
-		ThisItemDesc = $(this).attr('class')
 		if (ThisItemDesc == "desc ng-binding ItemDesc_WILDDUKE_UPPER_LVL4"){ $(this).html("A breastplate that contains the rage of the white tyrant. It signifies your battle and defeat of the Hoarfrost Hollow tyrant on more than one occasion. \\nIt can be crafted by Kirstie.")
 		if (ThisItemDesc == "desc ng-binding ItemDesc_WILDDUKE_UPPER_LVL5"){ $(this).html("A breastplate that contains the rage of the white tyrant. It signifies your battle and defeat of the Hoarfrost Hollow tyrant on more than one occasion. \\nIt can be crafted by Kirstie.")
 		if (ThisItemDesc == "desc ng-binding ItemDesc_WILDFLOWER_BERRY"){ $(this).html("This herb is occasionally found in Hilder Forest, but it is not common. \\nWhen consumed, this herb has calming properties. Useful for those in shock.")
