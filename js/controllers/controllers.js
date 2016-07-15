@@ -109,13 +109,12 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						if (ItemRarity == 4) {$(this).prepend('Superior')}
 						if (ItemRarity == 5) {$(this).prepend('Rare')}
 					} )
-					setTimeout(function(){$('.stat').each(function() {
+					$('.stat').each(function() {
 							doihide = $(this).attr("value");
 							if (doihide != 0) {
 								$(this).show();
 							} else {$(this).hide();}
 						});
-					},10000)
 					$('.tagname').each(function(){
 						tagpopup = $(this).attr('title');
 						replacetag = tagpopup.replace(/_/g, ' ');
@@ -154,6 +153,10 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
+				var url = "/js/descriptions.js";
+							$.getScript( url, function() {
+								RunningDescriptions()
+							})
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
