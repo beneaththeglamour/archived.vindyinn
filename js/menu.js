@@ -1,9 +1,9 @@
 MenuList = function() {
 	$('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
-	'<li><a href="">Equipment</a>'+
+	'<li><a>Equipment</a>'+
 		'<ul>'+
-			'<li><a href="">Armor</a>'+
+			'<li><a>Armor</a>'+
 				'<ul>'+
 					'<li><a href="/armor/heavy-armor">Heavy Armor</a>'+
 						'<ul>'+
@@ -43,7 +43,7 @@ MenuList = function() {
 					'</li>'+
 				'</ul>'+
 			'</li>'+
-			'<li><a href="">Weapons</a>'+
+			'<li><a>Weapons</a>'+
 				'<ul>'+
 					'<li><a href="/weapon/twin-swords">Twin Swords</a></li>'+
 					'<li><a href="/weapon/twin-spears">Twin Spears</a></li>'+
@@ -63,7 +63,7 @@ MenuList = function() {
 					'<li><a href="/weapon/bastard+sword">Bastard Sword</a></li>'+
 				'</ul>'+
 			'</li>'+
-			'<li><a href="">Outfitters</a>'+
+			'<li><a>Outfitters</a>'+
 				'<ul>'+
 					'<li><a href="/outfitters/helm">Helm</a>'+
 					'<li><a href="/outfitters/tunic">Tunic</a>'+
@@ -72,7 +72,7 @@ MenuList = function() {
 					'<li><a href="/outfitters/gloves">Gloves</a>'+
 				'</ul>'+
 			'</li>'+
-			'<li><a href="">Accessories</a>'+
+			'<li><a>Accessories</a>'+
 				'<ul>'+
 					'<li><a href="/accessories/artifact">Artifact</a></li>'+
 					'<li><a href="/accessories/belt">Belt</a></li>'+
@@ -84,7 +84,7 @@ MenuList = function() {
 					'<li><a href="/accessories/ring">Ring</a></li>'+
 					'<li><a href="/accessories/spell-book">Spell Book</a></li>'+
 					'<li><a href="/accessories/tail">Tail</a></li>'+
-					'<li><a href="">Rear</a>'+
+					'<li><a>Rear</a>'+
 						'<ul>'+
 							'<li><a href="/accessories/rear/rear">Rear</a></li>'+
 							'<li><a href="/accessories/rear/wings">Wings</a></li>'+
@@ -92,7 +92,7 @@ MenuList = function() {
 					'</li>'+
 				'</ul>'+
 			'</li>'+
-			'<li><a href="">Customization</a>'+
+			'<li><a>Customization</a>'+
 				'<ul>'+
 					'<li><a href="/customization/appearance">Appearance</a></li>'+
 					'<li><a href="/customization/beard">Beard</a></li>'+
@@ -106,17 +106,17 @@ MenuList = function() {
 				'</ul>'+
 			'</li>'+
 		'</ul>'+
-	'<li><a href="">Items</a>'+
+	'<li><a>Items</a>'+
 		'<ul>'+
 			'<li><a href="/enchant-scroll">Enchant Scrolls</a></li>'+
 			'<li><a href="/event">Event</a></li>'+
-			'<li><a href="">Consumables</a>'+
+			'<li><a>Consumables</a>'+
 				'<ul>'+
 					'<li><a href="/consumable/avatar-dye-ampoule">Avatar Dye Ampoule</a></li>'+
 					'<li><a href="/consumable/cash-consumable">Cash Consumable</a></li>'+
 					'<li><a href="/consumable/clodaghs-dye-ampoule">Clodagh&apos;s Dye Ampoule</a></li>'+
 					'<li><a href="/consumable/cooking">Cooking</a></li>'+
-					'<li><a href="">Etc.</a>'+
+					'<li><a>Etc.</a>'+
 						'<ul>'+
 							'<li><a href="/consumable/etc/adventurer-kit">Adventurer Kit</a></li>'+
 							'<li><a href="/consumable/etc/avatar-package">Avatar Package</a></li>'+
@@ -143,7 +143,7 @@ MenuList = function() {
 					'<li><a href="/consumable/special-potion">Special Potion</a></li>'+
 				'</ul>'+
 			'</li>'+
-			'<li><a href="">Materials</a>'+
+			'<li><a>Materials</a>'+
 				'<ul>'+
 					'<li><a href="/materials/bracelet-gem">Bracelet Gem</a></li>'+
 					'<li><a href="/materials/cash-consumable">Cash Consumable</a></li>'+
@@ -159,19 +159,19 @@ MenuList = function() {
 					'<li><a href="/materials/skill-awakening-material">Skill Awakening Material</a></li>'+
 				'</ul>'+
 			'</li>'+
-			'<li><a href="">Composite Material</a>'+
+			'<li><a>Composite Material</a>'+
 				'<ul>'+
 					'<li><a href="/composite-material/armor-composite-material">Armor</a></li>'+
 					'<li><a href="/composite-material/weapon-composite-material">Weapon</a></li>'+
 				'</ul>'+
 			'</li>'+
-			'<li><a href="">Battle</a>'+
+			'<li><a>Battle</a>'+
 				'<ul>'+
 					'<li><a href="/battle/loot">Loot</a></li>'+
 					'<li><a href="/battle/story">Story</a></li>'+
 				'</ul>'+
 			'</li>'+
-			'<li><a href="">Etc</a>'+
+			'<li><a>Etc</a>'+
 				'<ul>'+
 					'<li><a href="/etc/cash-consumable">Cash Consumable</a></li>'+
 					'<li><a href="/etc/etc">Etc.</a></li>'+
@@ -180,19 +180,19 @@ MenuList = function() {
 			'</li>'+
 		'</ul>'+
 	'</li>'+
-	'<li><a href="">Recipes</a>'+
+	'<li><a>Recipes</a>'+
 		'<ul>'+
 			'<li><a href="/expertise/tailoring">Tailoring</a></li>'+
 			'<li><a href="/expertise/goldsmithing">Goldsmithing</a></li>'+
 			'<li><a href="/expertise/weaponsmithing">Weaponsmithing</a></li>'+
 			'<li><a href="/expertise/armorsmithing">Armorsmithing</a></li>'+
-			'<li><a href="">Cooking</a></li>'+
-			'<li><a href="">NPC</a>'+
+			'<li><a>Cooking</a></li>'+
+			'<li><a>NPC</a>'+
 				'<ul>'+
-					'<li><a href="">Clodagh</a></li>'+
-					'<li><a href="">Brynn</a></li>'+
-					'<li><a href="">Ferghus</a></li>'+
-					'<li><a href="">Kirstie</a></li>'+
+					'<li><a>Clodagh</a></li>'+
+					'<li><a>Brynn</a></li>'+
+					'<li><a>Ferghus</a></li>'+
+					'<li><a>Kirstie</a></li>'+
 				'</ul>'+
 			'</li>'+
 		'</ul>'+
@@ -200,23 +200,23 @@ MenuList = function() {
 	'<li><a href="http://titles.vindictusinn.com">Titles</a></li>'+
 	'<li><a href="/">Skills</a>'+
 		'<ul>'+
-			'<li><a href="">Male</a>'+
+			'<li><a>Male</a>'+
 				'<ul>'+
-					'<li><a href="">Lann</a></li>'+
-					'<li><a href="">Karok</a></li>'+
-					'<li><a href="">Kai</a></li>'+
-					'<li><a href="">Hurk</a></li>'+
-					'<li><a href="">Sylas</a></li>'+
+					'<li><a>Lann</a></li>'+
+					'<li><a>Karok</a></li>'+
+					'<li><a>Kai</a></li>'+
+					'<li><a>Hurk</a></li>'+
+					'<li><a>Sylas</a></li>'+
 				'</ul>'+
 			'</li>'+
-			'<li><a href="">Female</a>'+
+			'<li><a>Female</a>'+
 				'<ul>'+
-					'<li><a href="">Fiona</a></li>'+
-					'<li><a href="">Evie</a></li>'+
-					'<li><a href="">Vella</a></li>'+
-					'<li><a href="">Lynn</a></li>'+
-					'<li><a href="">Arisha</a></li>'+
-					'<li><a href="">Delia</a></li>'+
+					'<li><a>Fiona</a></li>'+
+					'<li><a>Evie</a></li>'+
+					'<li><a>Vella</a></li>'+
+					'<li><a>Lynn</a></li>'+
+					'<li><a>Arisha</a></li>'+
+					'<li><a>Delia</a></li>'+
 				'</ul>'+
 			'</li>'+
 		'</ul>'+
