@@ -17640,8 +17640,6 @@ console.log('DataTable loaded.')
 								"order": [[ 2, "asc" ]]
 							});
 						} else {
-							$('table').DataTable({
-								"order": [[ 1, "asc" ]]
-							});
+							$('table').DataTable();
 						}
 }
