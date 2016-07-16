@@ -28,14 +28,17 @@
 								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url('/images/icons/{{item.Icon}}.png')"/> 			
 								<span class="rare{{item.Rarity}} rarity">{{item.Name}}</span> 			
 								<span class="bubble"> 				
-									<span class="itemtype">{{item.TradeCategorySub}}, {{item.TradeCategory}}</span> 				
+									<span class="itemtype">
+												<span class="TradeCategorySub" value="{{item.TradeCategorySub}}"></span>, 
+												<span class="TradeCategory" value="{{item.TradeCategory}}"></span>
+											</span> 			
 									<span id="sell">Sell Price</span> 				
 									<span class="right">
 										<img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack">
 										<span class="number sellingfor">{{item.SellPrice}}</span>
 									</span> 			
 								</span> 					 			
-								<span class="bubble itemrarity rare{{item.Rarity}}" value="{{item.Rarity}}"> {{item.Rarity}} 				
+								<span class="bubble itemrarity rare{{item.Rarity}}" value="{{item.Rarity}}"> 		
 								<span class="right weight" value="{{item.Weight}}">
 									<span id="changeweight">{{item.Weight}}</span> stones</span> 			
 								</span> 				 		
@@ -71,8 +74,8 @@
 					</div> 
 				</div>
 			</td> 		
-			<td class="type centercell">{{item.TradeCategory}}</td> 		
-			<td class="subtype centercell">{{item.TradeCategorySub}}</td> 		
+			<td class="type centercell"><span class="TradeCategory" value="{{item.TradeCategory}}"></span></span></td> 		
+			<td class="subtype centercell"><span class="TradeCategorySub" value="{{item.TradeCategorySub}}"></span></td> 		
 		</tr> 
 	</tbody> 
 </table>
