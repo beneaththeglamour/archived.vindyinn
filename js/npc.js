@@ -16,7 +16,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/{{item.Icon}}.png)"/> 			'+
 '								<span class="rare{{item.Rarity}} rarity">{{item.Name}}</span> 			'+
 '								<span class="bubble"> 				'+
-'									<span class="itemtype">{{item.TradeCategorySub}}, {{item.TradeCategory}}</span> 				'+
+'									<span class="itemtype"><span class="TradeCategorySub" value="{{item.TradeCategorySub}}"></span>, <span class="TradeCategory" value="{{item.TradeCategory}}"></span></span> 				'+
 '									<span id="sell">Sell Price</span> 				'+
 '									<span class="right">'+
 '										<img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack">'+
