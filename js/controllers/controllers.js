@@ -214,6 +214,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.ExpertID').each(function(){
 							ExpertMatID = $(this).attr('value')
 							$('.Expert'+ExpertMatID).val(ExpertMatID).trigger('input');
+							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).trigger('input');
 						})
 					$('#classresvalue').each(
 					function(){
