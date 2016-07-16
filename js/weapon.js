@@ -5,7 +5,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
   $locationProvider.hashPrefix('!');
   $routeProvider.
   when('/list', {
-    template: '<div style="background-color: rgb(158, 63, 63);font-size: 1rem;padding: 0.6rem;text-align: center;"><strong>You are currently using a live yet uncompleted version of the site.</strong><br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.</div>'+
+    template: '<div style="background-color: rgb(158, 63, 63);font-size: 1rem;padding: 0.6rem;text-align: center;"><strong>You are currently using a live yet uncompleted version of the site. (v.1.2 <a href="https://github.com/vindictusinn/vindictusinn.github.io/releases">What&apos;s New</a>)</strong><br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.</div>'+
 	'<table class="itemtable" style="table-layout:fixed">'+
 	'<col style="width:67px">'+
 	'<col style="width:250px">'+
