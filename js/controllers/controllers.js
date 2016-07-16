@@ -402,6 +402,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						if (ExpertType == 'cooking') {$(this).html('Cooking')}
 						if (ExpertType == 'metal_weapon') {$(this).html('Weaponsmithing')}
 						if (ExpertType == 'sewing') {$(this).html('Tailoring')}
+						if (ExpertType == 'workmanship') {$(this).html('Goldsmithing')}
 					} )
 					$('.TradeCategory').each(function(){
 						TradeCategorySub = $(this).attr('value')
