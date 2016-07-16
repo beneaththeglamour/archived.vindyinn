@@ -356,7 +356,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					if (checklvl > '1') {
 						$('#requlvl').show();
 					}
-					checkskill = $('#checkskillreq').html();
+					checkskill = $('#checkskillreq').attr('value');
 					if (checkskill != "") {
 						$('#skilllvlres').show();
 					}
@@ -469,7 +469,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						}
 					})
 					$('.checkskillreq').each(function(){
-						checkskill = $(this).html()
+						checkskill = $(this).attr('value')
 							if (checkskill != "") {
 							$(this).parent().show();
 						} else {
@@ -510,6 +510,27 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						if (ExpertType == 'metal_weapon') {$(this).html('Weaponsmithing')}
 						if (ExpertType == 'sewing') {$(this).html('Tailoring')}
 						if (ExpertType == 'workmanship') {$(this).html('Goldsmithing')}
+					} )
+					$('.checkskillreq').each(function(){
+						SkillReplace = $(this).attr('value')
+						if (SkillReplace == 'skill_lethita_dualsword_mastery') {$(this).html('Twin Sword Mastery')}
+						if (SkillReplace == 'skill_lethita_dualspear_mastery') {$(this).html('Twin Spear Mastery')}
+						if (SkillReplace == 'skill_fiona_longhammer_mastery') {$(this).html('Long Hammer Mastery')}
+						if (SkillReplace == 'skill_fiona_longsword_mastery') {$(this).html('Longsword Mastery')}
+						if (SkillReplace == 'skill_fiona_largeshield_mastery') {$(this).html('Large Shield Mastery')}
+						if (SkillReplace == 'skill_fiona_shield_mastery') {$(this).html('Shield Mastery')}
+						if (SkillReplace == 'skill_evy_staff_mastery') {$(this).html('Staff Mastery')}
+						if (SkillReplace == 'skill_evy_scythe_mastery') {$(this).html('Battle Scythe Mastery')}
+						if (SkillReplace == 'skill_kalok_battlepillar_mastery') {$(this).html('Pillar Mastery')}
+						if (SkillReplace == 'skill_kalok_blaster_mastery') {$(this).html('Cestus Mastery')}
+						if (SkillReplace == 'skill_kay_bow_mastery') {$(this).html('Bow Mastery')}
+						if (SkillReplace == 'skill_kay_crossgun_mastery') {$(this).html('Cross Gun Mastery')}
+						if (SkillReplace == 'skill_vella_dualblade_mastery') {$(this).html('Twin Chainblade Mastery')}
+						if (SkillReplace == 'skill_hurk_greatsword_mastery') {$(this).html('Greatsword Mastery')}
+						if (SkillReplace == 'skill_lynn_battleglaive_mastery') {$(this).html('Glaive Mastery')}
+						if (SkillReplace == 'skill_arisha_longblade_mastery') {$(this).html('Spellsword Mastery')}
+						if (SkillReplace == 'skill_hagie_phantomdagger_mastery') {$(this).html('Phantom Dagger Mastery')}
+						if (SkillReplace == 'skill_delia_bastard_mastery') {$(this).html('Bastard Sword Mastery')}
 					} )
 					$('.TradeCategory').each(function(){
 						TradeCategorySub = $(this).attr('value')
