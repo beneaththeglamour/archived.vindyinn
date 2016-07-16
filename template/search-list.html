@@ -65,7 +65,7 @@
 							<div class="containres"> 				 			
 								<span class="restriction classres">Only for <span class="classresvalue">{{item.ClassRestriction}}</span></span>		 			
 								<span class="restriction requlvl">For levels <span class="checkreqlvl">{{item.RequiredLevel}}</span> and above</span> 			
-								<span class="restriction skilllvlres">Rank <span class="checkskillreq">{{item.RequiredSkill}}</span> {{item.RequiredSkillRank}} or above</span> 			 		
+								<span class="restriction skilllvlres">Rank <span class="checkskillreq" value="{{item.RequiredSkill}}"></span> <span class="skillrank" value="{{item.RequiredSkillRank}}">{{item.RequiredSkillRank}}</span> or above</span> 			 		
 							</div> 			 		
 							<span class="uses">{{item.Uses}}</span> 			 		
 							<span class="desc" value="{{item.ItemClass|uppercase}}">{{item.Desc}}</span> 			 		
