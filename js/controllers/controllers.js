@@ -356,10 +356,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					if (checklvl > '1') {
 						$('#requlvl').show();
 					}
-					checkskill = $('#checkskillreq').attr('value');
-					if (checkskill != "") {
-						$('#skilllvlres').show();
-					}
 					checkmaxdura = $('#checkmaxdura').html();
 					if (checkmaxdura != "") {
 						$('#maxdura').show();
