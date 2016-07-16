@@ -207,7 +207,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
 							$('.ExpertRecipe'+RecipeID).val(RecipeID).trigger('input');
 							$('.ExpertType'+RecipeID).val(RecipeID).trigger('input');
-							$('.ExpertTypeTailor'+RecipeID).val(sewing_RecipeID).trigger('input');
+							$('.ExpertTypeTailor'+RecipeID).val('sewing_'+RecipeID).trigger('input');
 							$('.ReqProf'+RecipeID).val(RecipeID).trigger('input');
 							LoadMats()
 						})
