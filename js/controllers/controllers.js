@@ -416,42 +416,45 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							}
 							if (checktrade == 'STORY') {
 								$(this).html('Story items cannot be traded.')
 								$(this).css({
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							}
 							if (checktrade == 'PRACTICE') {
 								$(this).html('Practice items cannot be traded.')
 								$(this).css({
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							}
 							if (checktrade == 'EVENT') {
 								$(this).html('Event items cannot be traded.')
 								$(this).css({
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							} 
 							if (checktrade == 'CASH') {
 								$(this).html('Cash items cannot be traded.')
 								$(this).css({
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							} 
 							if (checktrade == 'ACCOUNTONLY') {
 								$(this).html('You can mail items between characters on the same ID.')
 								$(this).css({
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							} 
+							if (checktrade == '') {
+								$(this).html('Can use all forms of trade')
+							} 
 						}
 					)
 					$('.NPCCraft').each(function(){
@@ -710,42 +713,45 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							}
 							if (checktrade == 'STORY') {
 								$(this).html('Story items cannot be traded.')
 								$(this).css({
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							}
 							if (checktrade == 'PRACTICE') {
 								$(this).html('Practice items cannot be traded.')
 								$(this).css({
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							}
 							if (checktrade == 'EVENT') {
 								$(this).html('Event items cannot be traded.')
 								$(this).css({
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							} 
 							if (checktrade == 'CASH') {
 								$(this).html('Cash items cannot be traded.')
 								$(this).css({
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							} 
 							if (checktrade == 'ACCOUNTONLY') {
 								$(this).html('You can mail items between characters on the same ID.')
 								$(this).css({
 									'color':'#c25631',
 									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
 								})
-							} else {$(this).html('Can use all forms of trade')}
+							} 
+							if (checktrade == '') {
+								$(this).html('Can use all forms of trade')
+							} 
 						}
 					)
 					$('.itemicon').each(
