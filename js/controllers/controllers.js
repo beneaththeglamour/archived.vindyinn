@@ -82,6 +82,56 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).parent().hide();
 						}
 					})
+					$('.trade').each(
+						function(){
+							checktrade = $(this).attr('value')
+							if (checktrade == 'DEFAULT') {
+								$(this).html('This item cannot be traded.')
+								$(this).css({
+									'color':'#c25631',
+									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
+								})
+							}
+							if (checktrade == 'STORY') {
+								$(this).html('Story items cannot be traded.')
+								$(this).css({
+									'color':'#c25631',
+									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
+								})
+							}
+							if (checktrade == 'PRACTICE') {
+								$(this).html('Practice items cannot be traded.')
+								$(this).css({
+									'color':'#c25631',
+									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
+								})
+							}
+							if (checktrade == 'EVENT') {
+								$(this).html('Event items cannot be traded.')
+								$(this).css({
+									'color':'#c25631',
+									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
+								})
+							} 
+							if (checktrade == 'CASH') {
+								$(this).html('Cash items cannot be traded.')
+								$(this).css({
+									'color':'#c25631',
+									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
+								})
+							} 
+							if (checktrade == 'ACCOUNTONLY') {
+								$(this).html('You can mail items between characters on the same ID.')
+								$(this).css({
+									'color':'#c25631',
+									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
+								})
+							} 
+							if (checktrade == '') {
+								$(this).html('Can use all forms of trade')
+							} 
+						}
+					)
 					$('.skillrank').each(function(){
 						WhatIsTheSkillRank = $(this).attr('value')
 						if (WhatIsTheSkillRank == '1') {$(this).html('F')}
@@ -393,56 +443,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							convert = grab.toLocaleString()
 							$(this).html(convert)
 						})
-					$('.trade').each(
-						function(){
-							checktrade = $(this).attr('value')
-							if (checktrade == 'DEFAULT') {
-								$(this).html('This item cannot be traded.')
-								$(this).css({
-									'color':'#c25631',
-									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
-								})
-							}
-							if (checktrade == 'STORY') {
-								$(this).html('Story items cannot be traded.')
-								$(this).css({
-									'color':'#c25631',
-									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
-								})
-							}
-							if (checktrade == 'PRACTICE') {
-								$(this).html('Practice items cannot be traded.')
-								$(this).css({
-									'color':'#c25631',
-									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
-								})
-							}
-							if (checktrade == 'EVENT') {
-								$(this).html('Event items cannot be traded.')
-								$(this).css({
-									'color':'#c25631',
-									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
-								})
-							} 
-							if (checktrade == 'CASH') {
-								$(this).html('Cash items cannot be traded.')
-								$(this).css({
-									'color':'#c25631',
-									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
-								})
-							} 
-							if (checktrade == 'ACCOUNTONLY') {
-								$(this).html('You can mail items between characters on the same ID.')
-								$(this).css({
-									'color':'#c25631',
-									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
-								})
-							} 
-							if (checktrade == '') {
-								$(this).html('Can use all forms of trade')
-							} 
-						}
-					)
 					$('.NPCCraft').each(function(){
 						IsThereANPC = $(this).html()
 						if (IsThereANPC == '') {
