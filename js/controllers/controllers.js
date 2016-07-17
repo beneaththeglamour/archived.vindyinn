@@ -260,20 +260,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								$(this).html('No')
 						}
 					})
-					$('.trade').each(
-						function(){
-							checktrade = $(this).attr('value')
-							if (checktrade == 'DEFAULT') {
-								$(this).html('This item cannot be traded.')
-								$(this).css({
-									'color':'#c25631',
-									'background-image':'url(http://i.imgur.com/6zZAs1q.png)'
-								})
-							} else {
-								$(this).html('Can use all forms of trade')
-							}
-						}
-					)
 					$('.desc').each(
 						function(){
 							ValueofDesc = $(this).attr('value')
