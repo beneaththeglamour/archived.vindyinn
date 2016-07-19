@@ -195,16 +195,16 @@
 #tabs ul li:hover{
 	background-color:#2a2c30;
 }
-#battletabs {
+#battletab {
 	padding-bottom:0.5rem;
 }
-#battletabs ul {
+#battletab ul {
 	clear:both;
 	padding:0;
 	margin:0rem 1rem;
 	margin-bottom:-0.7rem;
 }
-#battletabs ul li{
+#battletab ul li{
 	display:inline;
 	background-color:#36393e;
 	border-top-left-radius: 5px;
@@ -212,7 +212,7 @@
 	padding:0.3rem;
 	margin-right: 0.3rem;
 }
-#battletabs ul li:hover{
+#battletab ul li:hover{
 	background-color:#2a2c30;
 }
 table {
