@@ -57,7 +57,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								MenuList()
 							})	
 					$('#tabs').tabs();
-					$('#battletab').tabs();
+					$('#battletabs').tabs();
 }, 200);
 			}); 
 		}]

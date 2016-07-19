@@ -229,16 +229,16 @@ border-top-right-radius: 0.3rem;
 #tabs ul li:hover{
 	background-color:#2a2c30;
 }
-#battletab {
+#battletabs {
 	padding-bottom:0.5rem;
 }
-#battletab ul {
+#battletabs ul {
 	clear: both;
 	padding: 0;
 	margin: 0rem 0.3rem;
 	margin-bottom: -0.75rem;
 }
-#battletab ul li{
+#battletabs ul li{
 	display: inline;
     background-color: #0f0f0f;
 border-top-left-radius: 5px;
@@ -249,7 +249,7 @@ border: thin solid #0C0C0C;
 box-shadow: RGBA(35, 31, 31, 0.8) 2px 2px 2px inset, RGBA(35, 31, 31, 0.8) -2px 2px 2px inset;
 border-bottom: 0px;
 }
-#battletab ul li:hover{
+#battletabs ul li:hover{
 	background-color:#2a2c30;
 }
 table {
@@ -375,4 +375,5 @@ color: rgb(168, 168, 168);
 	width:95px;
 	height:95px;
 	float:left;
+	margin: 0rem 0.5rem 0.5rem 0rem;
 }
