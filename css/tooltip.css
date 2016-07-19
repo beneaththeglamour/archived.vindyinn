@@ -388,11 +388,15 @@ box-shadow: #414141 0px 0px 2px;
 .battlequote {
 	color:rgb(159, 149, 136);
 }
+.battleborder {
+    border: #050505 thin solid;
+    box-shadow: #323232 0px 0px 3px;
+    border-radius: 0.3rem;
+    clear: both;
+	background-color: #0b0b0b;
+}
 .detailboard {
 	background-color: #0b0b0b;
-border: #050505 thin solid;
-box-shadow: #323232 0px 0px 3px;
-border-radius: 0.3rem;
 padding:0.5rem;
 }
 .detailboard td {
@@ -405,4 +409,12 @@ background: #0b0b0b;
 }
 .detailboard .battleval {
 	color:rgb(159, 149, 136);
+}
+.detailboard .location {
+    border-top: thin rgba(255, 192, 203, 0.02) solid;
+    margin: 0rem 0.6rem;
+    padding: 0rem;
+    display: block;
+    width: 95% !important;
+    border-bottom: thin rgba(255, 192, 203, 0.02) solid;
 }
