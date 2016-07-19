@@ -418,3 +418,27 @@ background: #0b0b0b;
     width: 95% !important;
     border-bottom: thin rgb(24, 24, 24) solid;
 }
+.rewardgold {
+	background-image:url(http://i.imgur.com/r9ogYKN.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	width:10px;
+	height:25px;
+}
+.rewardexp {
+	background-image:url(http://i.imgur.com/r9ogYKN.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:10px;
+	height:25px;
+}
+.rewardap {
+	background-image:url(http://i.imgur.com/r9ogYKN.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	width:10px;
+	height:25px;
+}
+.reward {
+	text-align:right;
+}
