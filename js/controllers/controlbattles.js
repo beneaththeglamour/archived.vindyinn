@@ -10,10 +10,16 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				WhatIsTheURL = window.location.pathname
 						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}	
 						
-				var url = "/js/descriptionsV2.js";
-							$.getScript( url, function() {
-								RunningDescriptions()
-							})
+				console.log('DataTable loaded.')
+						if (WhatIsTheURL.indexOf('expertise') == 1) {
+							$('.nametable').DataTable({
+								"order": [[ 2, "asc" ]]
+							});
+						} else {
+							$('table').DataTable({
+								"order": [[ 1, "asc" ]]
+							});
+						}
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
@@ -39,6 +45,16 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
+					console.log('DataTable loaded.')
+						if (WhatIsTheURL.indexOf('expertise') == 1) {
+							$('.nametable').DataTable({
+								"order": [[ 2, "asc" ]]
+							});
+						} else {
+							$('table').DataTable({
+								"order": [[ 1, "asc" ]]
+							});
+						}
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
