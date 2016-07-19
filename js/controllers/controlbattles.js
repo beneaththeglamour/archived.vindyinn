@@ -41,10 +41,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
 						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}
-					var url = "/js/descriptionsV2.js";
-							$.getScript( url, function() {
-								RunningDescriptions()
-							})
+
 					console.log('DataTable loaded.')
 						if (WhatIsTheURL.indexOf('expertise') == 1) {
 							$('.nametable').DataTable({
