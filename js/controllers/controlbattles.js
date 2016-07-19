@@ -29,7 +29,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.ItemVariable = data;
 					
 				$scope.whichItem = $routeParams.ItemID;
-				$scope.keyToDisplay = 'ItemClass';
+				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
 					var url = "/js/descriptionsV2.js";
 							$.getScript( url, function() {
