@@ -422,22 +422,25 @@ background: #0b0b0b;
 	background-image:url(http://i.imgur.com/r9ogYKN.png);
 	background-repeat:no-repeat;
 	background-position:left;
-	width:10px;
-	height:25px;
+	width: 25px;
+height: 25px;
+display: block;
 }
 .rewardexp {
 	background-image:url(http://i.imgur.com/r9ogYKN.png);
 	background-repeat:no-repeat;
 	background-position:center;
-	width:10px;
-	height:25px;
+	width: 25px;
+height: 25px;
+display: block;
 }
 .rewardap {
 	background-image:url(http://i.imgur.com/r9ogYKN.png);
 	background-repeat:no-repeat;
 	background-position:right;
-	width:10px;
-	height:25px;
+	width: 25px;
+height: 25px;
+display: block;
 }
 .reward {
 	text-align:right;
