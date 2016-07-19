@@ -451,3 +451,12 @@ margin: -0.2rem 0rem 0rem 0.2rem;
 .reward {
 	text-align:right;
 }
+.gold {
+	color:#a59878;
+}
+.exp {
+	color:#7b8560;
+}
+.ap {
+	color:#42617d;
+}
