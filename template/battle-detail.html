@@ -3,8 +3,8 @@
 		<strong>You are currently using a live yet uncompleted version of the site.</strong>
 		<br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
 	</div>
-	<div class="border"> 	
-		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
+	<div class="borderbattle"> 	
+		<div ng-model="ItemVariable" class="itemtooltipbattle"> 				 		
 			<div class="battlebanner">
 				<span class="battlename" value="{{ItemVariable[whichItem].Name}}">Autumn Reed Bed</span>
 			</div>	 		
@@ -13,7 +13,7 @@
 					<li><a href="#battletabs-1">Details</a></li>
 					<li><a href="#battletabs-2">Battle Points</a></li>
 				</ul>
-			<div class="usewindow" id="#battletabs-1">  
+			<div class="usewindowbattle" id="#battletabs-1">  
 				<div class="client" value="{{ItemVariable[whichItem].Client}}"></div>
 				<div class="battledesc" value="{{ItemVariable[whichItem].Description}}">
 					<p>Search Ben Chenner. Remember, we'll be keeping an eye on you.</p>
@@ -43,7 +43,7 @@
 					</table>
 				</div>
 			</div>
-			<div class="usewindow" id="#battletabs-2">  
+			<div class="usewindowbattle" id="#battletabs-2">  
 			</div>
 			</div>
 		</div> 		 	
@@ -51,22 +51,23 @@
 	<div class="moreinfobubble"> 		
 		<h2>Additional Info</h2> 		
 			<ul> 			
-				<li><strong>Enchant ID:</strong> <br />
-				{{ItemVariable[whichItem].ID}}</li> 			
-				<li><strong>Enchant Class:</strong> <br />
-				{{ItemVariable[whichItem].EnchantClass}}</li> 			
-				<li><strong>Minimum Success Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].MinSuccessRatio}}</span>%</li> 			
-				<li><strong>Maximum Success Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].MaxSuccessRatio}}</span>%</li> 			
-				<li><strong>Destruction Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].DestructionRatio}}</span>%</li> 			
-				<li><strong>Ignore Max Armor:</strong> <br />
-				{{ItemVariable[whichItem].IgnoreMaxArmor}}</li> 						
+				<li><strong>Level Unlocked:</strong> <br />
+				{{ItemVariable[whichItem].AutoGiveLevel}}</li> 			
+				<li><strong>Min Evil Cores:</strong> <br />
+				{{ItemVariable[whichItem].DropItemCountMin}}</li> 			
+				<li><strong>Max Evil Cores:</strong> <br />
+				{{ItemVariable[whichItem].DropItemCountMax}}</li> 			
+				<li><strong>Time Limit:</strong> <br />
+				{{ItemVariable[whichItem].TimeLimit}} minutes</li> 			
+				<li><strong>Durability Ratio:</strong> <br />
+				{{ItemVariable[whichItem].DurabilityRatio}}</li> 			
+				<li><strong>Minimum Clear Time:</strong> <br />
+				{{ItemVariable[whichItem].MinClearTime}} minutes</li> 			
+				<li><strong>Practice Mode:</strong> <br />
+				{{ItemVariable[whichItem].EnablePracticeMode}}</li> 			
+				<li><strong>Is Hardcore:</strong> <br />
+				{{ItemVariable[whichItem].IsHardcore}}</li> 			
 			</ul> 	
-		<h2>Chat Link</h2>
-			<div class="code">[itemToolTipStart]ENCHANT_SCROLL[<span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span>:{{ItemVariable[whichItem].EnchantClass}}][itemToolTipMiddle][<span class="itemname" value="{{ItemVariable[whichItem].EnchantClass}}"></span> Enchant Scroll]
-			</div> 
-			<ul>
-				<li><em>* Available only for Inbox Messages</em></li>
-			</ul>
 	</div>
 	<div id="tabs">
 		<ul>

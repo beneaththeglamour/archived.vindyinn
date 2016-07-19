@@ -13,6 +13,19 @@
 	font-family:Alegreya Sans, sans-serif;
 	font-size:0.9rem;
 }
+.itemtooltipbattle {
+	width:25rem;
+	background-color:#18181b;
+	color:white;
+	padding:1rem;
+	-webkit-box-shadow: 0px 0px 10px 0px #2D2929 inset;
+	-moz-box-shadow: 0px 0px 10px 0px #2D2929 inset;
+	box-shadow: 0px 0px 10px 0px #2D2929 inset;
+	border: 1px solid #333333;
+	border-radius:0.5rem;
+	font-family:Alegreya Sans, sans-serif;
+	font-size:0.9rem;
+}
 .number {
 	font-family:ITC Goudy Sans Book, sans-serif;
 }
@@ -20,6 +33,16 @@
 	border: 1px solid black;
 	overflow:hidden;
 	width:32rem;
+	background:black;
+	border-radius:0.5rem;
+	box-shadow: 0px 0px 10px 0px #1A1818;
+	float: left;
+    margin: 1rem;
+}
+.borderbattle {
+	border: 1px solid black;
+	overflow:hidden;
+	width:27rem;
 	background:black;
 	border-radius:0.5rem;
 	box-shadow: 0px 0px 10px 0px #1A1818;
@@ -172,6 +195,14 @@
 	margin:1rem;
 	border: thin solid #36393e;
 }
+.usewindowbattle {
+	clear:both;
+	margin: 1rem 0.3rem;
+border: thin solid #0C0C0C;
+box-shadow: RGBA(53, 47, 47, 0.8) 0px -2px 4px inset;
+background-color: #0f0f0f;
+padding: 1rem;
+}
 .iteminput {
 	display:none;
 }
@@ -199,18 +230,20 @@
 	padding-bottom:0.5rem;
 }
 #battletab ul {
-	clear:both;
-	padding:0;
-	margin:0rem 1rem;
-	margin-bottom:-0.7rem;
+	clear: both;
+	padding: 0;
+	margin: 0rem 0.3rem;
+	margin-bottom: -0.75rem;
 }
 #battletab ul li{
-	display:inline;
-	background-color:#36393e;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	padding:0.3rem;
-	margin-right: 0.3rem;
+	display: inline;
+    background-color: #0f0f0f;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 0.3rem 2rem;
+    margin-right: 0.3rem;
+    border: thin solid #0C0C0C;
+    box-shadow: RGBA(53, 47, 47, 0.8) 0px 2px 4px inset;
 }
 #battletab ul li:hover{
 	background-color:#2a2c30;
