@@ -16,7 +16,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								"order": [[ 2, "asc" ]]
 							});
 						} else {
-							$('table').DataTable({
+							$('.nametable').DataTable({
 								"order": [[ 1, "asc" ]]
 							});
 						}
@@ -51,7 +51,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								"order": [[ 2, "asc" ]]
 							});
 						} else {
-							$('table').DataTable({
+							$('.nametable').DataTable({
 								"order": [[ 1, "asc" ]]
 							});
 						}
