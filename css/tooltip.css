@@ -425,6 +425,8 @@ background: #0b0b0b;
 	width: 25px;
 height: 25px;
 display: block;
+float: right;
+margin: -0.2rem 0rem 0rem 0.2rem;
 }
 .rewardexp {
 	background-image:url(http://i.imgur.com/r9ogYKN.png);
@@ -433,6 +435,8 @@ display: block;
 	width: 25px;
 height: 25px;
 display: block;
+float: right;
+margin: -0.2rem 0rem 0rem 0.2rem;
 }
 .rewardap {
 	background-image:url(http://i.imgur.com/r9ogYKN.png);
@@ -441,6 +445,8 @@ display: block;
 	width: 25px;
 height: 25px;
 display: block;
+float: right;
+margin: -0.2rem 0rem 0rem 0.2rem;
 }
 .reward {
 	text-align:right;
