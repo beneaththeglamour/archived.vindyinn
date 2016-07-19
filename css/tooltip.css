@@ -452,11 +452,11 @@ margin: -0.2rem 0rem 0rem 0.2rem;
 	text-align:right;
 }
 .gold {
-	color:#a59878;
+	color:#a59878 !important;
 }
 .exp {
-	color:#7b8560;
+	color:#7b8560 !important;
 }
 .ap {
-	color:#42617d;
+	color:#42617d !important;
 }
