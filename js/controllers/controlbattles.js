@@ -60,6 +60,15 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$.getScript( menu, function() {
 								MenuList()
 							})	
+					$('.battlequote').each(function(){
+					hidedesc = $(this).html();
+						if (hidedesc != "") {
+						$(this).css({'display':'block'});
+						GetReadytoReplaceDesc = $(this).html();
+						ReplacedDesc = GetReadytoReplaceDesc.replace(/\\n/g, "<br/>")
+						$(this).html(ReplacedDesc)
+						}
+					})
 					$('#tabs').tabs();
 					$('#battletabs').tabs();
 }, 200);
