@@ -7,6 +7,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				$scope.ItemVariable = data;
 
 				setTimeout(function(){
+				WhatIsTheURL = window.location.pathname
+						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}	
 						
 				var url = "/js/descriptionsV2.js";
 							$.getScript( url, function() {
@@ -31,6 +33,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
+				WhatIsTheURL = window.location.pathname
+						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}
 					var url = "/js/descriptionsV2.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
