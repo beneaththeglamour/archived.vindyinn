@@ -368,4 +368,5 @@ BattleQuote = function(){
 		if (BattleDesc ==  "HEROES_QUEST_DESC_WISP_TWIN") {$(this).html("The more condensed the magic, the more spirits the barrier stone will attract. I suggest you find a place where a lot of spirits can be found...")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_XE_TUTORIAL") {$(this).html("Go here if you want to learn a more specialized skill.")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_YETI_BLACKVALLEY") {$(this).html("None of us know anything about the creature that appeared. It may be stronger than any beast we've encountered before. Still, it is a very important battle. I pray for your victory.")}
-	 }
+	 })
+}
