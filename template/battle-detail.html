@@ -6,7 +6,7 @@
 	<div class="borderbattle"> 	
 		<div ng-model="ItemVariable" class="itemtooltipbattle"> 				 		
 			<div class="battlebanner">
-				<span class="battlename" value="{{ItemVariable[whichItem].Name}}">Autumn Reed Bed</span>
+				<span class="battlename" value="{{ItemVariable[whichItem].Name}}"></span>
 			</div>	 		
 			<div id="battletabs">
 				<ul>
@@ -17,7 +17,7 @@
 				<div class="client" value="{{ItemVariable[whichItem].Client}}"></div>
 				<div class="battledesc" value="{{ItemVariable[whichItem].Description}}">
 					<img class="questclient" src="/images/npc/quest_client_{{ItemVariable[whichItem].Client|lowercase}}.png">
-					<p class="battlequote">Search Ben Chenner. Remember, we'll be keeping an eye on you.</p>
+					<p class="battlequote">{{ItemVariable[whichItem].Description}}</p>
 				</div>
 				<div class="battleborder">
 					<table class="detailboard">
@@ -25,7 +25,7 @@
 						<col width="75%"></col>
 						<tr>
 							<td class="battleval">Mission</td>
-							<td>Defeat the Wood Elf Captain</td>
+							<td></td>
 						</tr>
 						<tr>
 							<td class="battleval">Difficulty</td>
