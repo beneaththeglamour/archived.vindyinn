@@ -1,0 +1,77 @@
+<h2 ng-model="ItemVariable" id ="valueitem" value="{{ItemVariable[whichItem].Name}}" >Battle Name</h2> 	
+	<div style="background-color: rgb(158, 63, 63);font-size: 1rem;padding: 0.6rem;text-align: center;">
+		<strong>You are currently using a live yet uncompleted version of the site.</strong>
+		<br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
+	</div>
+	<div class="border"> 	
+		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
+			<div class="battlebanner">
+				<span class="battlename" value="{{ItemVariable[whichItem].Name}}">Autumn Reed Bed</span>
+			</div>	 		
+			<div id="battletab">
+				<ul>
+					<li><a href="#battletabs-1">Details</a></li>
+					<li><a href="#battletabs-2">Battle Points</a></li>
+				</ul>
+			<div class="usewindow" id="#battletabs-1">  
+				<div class="client" value="{{ItemVariable[whichItem].Client}}"></div>
+				<div class="battledesc" value="{{ItemVariable[whichItem].Description}}">
+					<p>Search Ben Chenner. Remember, we'll be keeping an eye on you.</p>
+				</div>
+				<div class="battleborder">
+					<table class="detailboard">
+						<tr>
+							<td>Mission</td>
+							<td>Defeat the Wood Elf Captain</td>
+						</tr>
+						<tr>
+							<td>Difficulty</td>
+							<td>Level.{{ItemVariable[whichItem].Level}} or above</td>
+						</tr>
+						<tr>
+							<td>Prerequisites</td>
+							<td>{{ItemVariable[whichItem].RequiredStoryLineID}}</td>
+						</tr>
+						<tr>
+							<td>Location</td>
+							<td>{{ItemVariable[whichItem].STAGE}}</td>
+						</tr>
+						<tr>
+							<td>Reward</td>
+							<td>GOLD EXP AP</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="usewindow" id="#battletabs-2">  
+			</div>
+			</div>
+		</div> 		 	
+	<div class="moreinfobubble"> 		
+		<h2>Additional Info</h2> 		
+			<ul> 			
+				<li><strong>Enchant ID:</strong> <br />
+				{{ItemVariable[whichItem].ID}}</li> 			
+				<li><strong>Enchant Class:</strong> <br />
+				{{ItemVariable[whichItem].EnchantClass}}</li> 			
+				<li><strong>Minimum Success Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].MinSuccessRatio}}</span>%</li> 			
+				<li><strong>Maximum Success Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].MaxSuccessRatio}}</span>%</li> 			
+				<li><strong>Destruction Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].DestructionRatio}}</span>%</li> 			
+				<li><strong>Ignore Max Armor:</strong> <br />
+				{{ItemVariable[whichItem].IgnoreMaxArmor}}</li> 						
+			</ul> 	
+		<h2>Chat Link</h2>
+			<div class="code">[itemToolTipStart]ENCHANT_SCROLL[<span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span>:{{ItemVariable[whichItem].EnchantClass}}][itemToolTipMiddle][<span class="itemname" value="{{ItemVariable[whichItem].EnchantClass}}"></span> Enchant Scroll]
+			</div> 
+			<ul>
+				<li><em>* Available only for Inbox Messages</em></li>
+			</ul>
+	</div>
+	<div id="tabs">
+		<ul>
+			<li><a href="#tabs-1">Drop Locations</a></li>
+			<li><a href="#tabs-2">Comments</a></li>
+		</ul>
+	<div class="usewindow" id="tabs-1"> 		<h2>Drop Locations</h2> 	<p>Coming Soon</p></div>
+	<div class="usewindow" id="tabs-2"> 		<h2>Comments</h2> 	<p>Coming Soon</p></div>
+</div> 

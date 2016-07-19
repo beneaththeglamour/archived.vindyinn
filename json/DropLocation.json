@@ -1,14 +1,752 @@
 [
     {	
-		"Battle":"Mercenary Training Site", 
+		"Battle":"Mercenary Training Site",
+		"Class":"quest_gnoll_watchman"
 		"Drops":["Empty Bottle","Spear","Wood Plank"]	
 	},
     {	
 		"Battle":"Fomorian Emblem", 
+		"Class":"quest_gnoll_shadowfang"
 		"Drops":["Spider Web","Life Erg Crystal","Wooden Staff","Cloth","Spiked Gnoll Club","Shadow Fang Helm","Enhancement Stone"]	
 	},
     {	
 		"Battle":"Gold Leather", 
+		"Class":"quest_gnoll_ambermane"
 		"Drops":["Fire Spirit Remnant","Magic Powder","Brown Gnoll Leather","Life Erg Crystal","Cloth","Enhancement Stone","Gold Gnoll Leather","Spiked Gnoll Club","Pristine Gold Gnoll Leather"]	
+	},
+    {	
+		"Battle":"Gwynn's Request", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Wind Through the Ruins", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Gnoll Assembly Area", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Decisive Battle", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Revenge", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Hoarfrost Hollow", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Meet the Cave Spider", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Southern Rock Cliff", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Western Ice Passage", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Another Slingshot", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Final Slingshot", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Fomorian Order", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Red Ruins", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Frost Stones", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Brynn's Research", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Source of the Rumor", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Kobold Chief", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Dethrone the White Tyrant", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Sports Day Fruit Fight", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Frosted Omen", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Prepare for Counterattack", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"A Town Engulfed", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ellis's Trust", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Hell Beyond the Door", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Resenlian's Labyrinth", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Wake Up Call", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Friend or Foe", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Piercing the Crescent Moon", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Culprit Behind the Disturbance", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ulchas's Relic", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Dead End Street", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Being from the Other World", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Trampled Plains", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Blood Prince", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Remnants", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"An Ancient Race", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Burnt Pumplin Field", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Depths of Ainle", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Perilous Ruins Gauntlet", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Prairie Entrance", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Red Archer", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Spider Overload", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Prairie Gnoll", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Hunter at the Ruins", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ruins of Sanctity", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"White Tyrant's Challenge", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Five Spider Brothers", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Gnoll King, Ruler of the Ruins", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Goliath", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Fleeing Gnoll King", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Hoarfrost Hollow Gauntlet", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Where the legend sleeps", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Holy Ground", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The God of Fomors", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Guardian of the East", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Guardian of the West", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Unveiling Truth", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Hidden", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Regrets...Too Late", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Patrolling the Depths", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Shadowed by Darkness", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Nightmare at the Ruins", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Snowman Alert", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Windgun", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Greedy Kobold", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ocean Scent", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Yeti, an Ancient Race", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Appearance of a Small Bear", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Big Horn Yeti", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Hoarfrost Hollow in Flames", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Yeti King", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ainle Gauntlet", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Madness", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Secret Naughty Chamber", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Irukul", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Proof of Courage", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Revived Fear", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Unfinished Business", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Howling Soul", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Two Moons", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Beginning of the Memory", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Investigation", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"West Hilder Forest", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Habitat for Wild Plants", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Forest Ruins", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Fight That Must Be Won", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Shady Forest", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Chicanery", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Storeroom", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Contact", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Rocktune's Cabin", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Cadet's Challenge", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Bandits", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Weeping Queen", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Herb Lands", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Rocky Wilderness", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Lost Road", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Fruitful", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Buried Sorrow", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Colhen in Flames", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Pursuit", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Rescue", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Gremlin Lair", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Secret", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Another Storeroom", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Reinforcements", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Investigation", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Last Fragment", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Contract", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ambush", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Fomorian Leader", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Secret Waterway", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ruins of Sanctity Gauntlet", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Giant", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Pretty Green Beetle", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Where the Road Leads", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Where the Sun Don't Shine", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Give a Beggar a Coin...", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"What the Dead Leave Behind", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Taking Initiative", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Wet, Dark, and Mossy", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Sewers", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Strong Drink", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Dark, Dank Sewers", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Inverse Blade", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Silent Blade", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Central Garden", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ahglan the Golem", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Gatekeeper of the Catacombs", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Avatar of Destruction", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Betrayal", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Evil One", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Colru the Golem", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Earthborn Seal", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Frostborn Seal", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Timeless Rage", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Fate and Destiny", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Traces of Battle", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Rocheste by Sea", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Queen of the Cursed", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Refuge of the Dead", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Requiem of the Lost One", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"", 
+		"Class":"quest_"
+		"Drops":[]	
+	},
+    {	
+		"Battle":"", 
+		"Class":"quest_"
+		"Drops":[]	
 	},
 ]
