@@ -303,3 +303,14 @@ color: rgb(168, 168, 168);
 	width: 13.4rem;
 	word-break: break-all;
 }
+.battlebanner {
+	background-image:url(http://i.imgur.com/FEl1rDu.png);
+	height:3.4rem;
+	background-repeat:no-repeat;
+	padding:0.5rem 0.7rem;
+}
+.battlename {
+	font-size:1.2rem;
+	color:#47453f;
+	margin-top:0.5rem;
+}
