@@ -411,10 +411,10 @@ background: #0b0b0b;
 	color:rgb(159, 149, 136);
 }
 .detailboard.location {
-    border-top: thin rgba(255, 192, 203, 0.02) solid;
+    border-top: thin rgb(24, 24, 24) solid;
     margin: 0rem 0.6rem;
     padding: 0rem;
     display: block;
     width: 95% !important;
-    border-bottom: thin rgba(255, 192, 203, 0.02) solid;
+    border-bottom: thin rgb(24, 24, 24) solid;
 }
