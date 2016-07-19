@@ -52,6 +52,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								"order": [[ 1, "asc" ]]
 							});
 						}
+					var menu = "/js/battledesc.js";
+							$.getScript( menu, function() {
+								BattleQuote()
+							})	
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
