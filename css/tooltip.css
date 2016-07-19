@@ -196,12 +196,15 @@
 	border: thin solid #36393e;
 }
 .usewindowbattle {
-	clear:both;
-	margin: 1rem 0.3rem;
+clear: both;
+margin: 1rem 0.3rem;
 border: thin solid #0C0C0C;
-box-shadow: RGBA(53, 47, 47, 0.8) 0px -2px 4px inset;
+box-shadow: RGBA(35, 31, 31, 0.8) -2px -2px 2px inset, RGBA(35, 31, 31, 0.8) 2px -2px 2px inset;
 background-color: #0f0f0f;
 padding: 1rem;
+border-bottom-left-radius: 0.3rem;
+border-bottom-right-radius: 0.3rem;
+border-top-right-radius: 0.3rem;
 }
 .iteminput {
 	display:none;
@@ -238,12 +241,13 @@ padding: 1rem;
 #battletab ul li{
 	display: inline;
     background-color: #0f0f0f;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    padding: 0.3rem 2rem;
-    margin-right: 0.3rem;
-    border: thin solid #0C0C0C;
-    box-shadow: RGBA(53, 47, 47, 0.8) 0px 2px 4px inset;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+padding: 0.3rem 2rem;
+margin-right: 0.3rem;
+border: thin solid #0C0C0C;
+box-shadow: RGBA(35, 31, 31, 0.8) 2px 2px 2px inset, RGBA(35, 31, 31, 0.8) -2px 2px 2px inset;
+border-bottom: 0px;
 }
 #battletab ul li:hover{
 	background-color:#2a2c30;
@@ -366,4 +370,9 @@ color: rgb(168, 168, 168);
 	font-size:1.2rem;
 	color:#47453f;
 	margin-top:0.5rem;
+}
+.questclient {
+	width:95px;
+	height:95px;
+	float:left;
 }
