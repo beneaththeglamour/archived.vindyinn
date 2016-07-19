@@ -17,24 +17,26 @@
 				<div class="client" value="{{ItemVariable[whichItem].Client}}"></div>
 				<div class="battledesc" value="{{ItemVariable[whichItem].Description}}">
 					<img class="questclient" src="/images/npc/quest_client_{{ItemVariable[whichItem].Client|lowercase}}.png">
-					<p>Search Ben Chenner. Remember, we'll be keeping an eye on you.</p>
+					<p class="battlequote">Search Ben Chenner. Remember, we'll be keeping an eye on you.</p>
 				</div>
 				<div class="battleborder">
 					<table class="detailboard">
+						<col width="25%"></col>
+						<col width="75%"></col>
 						<tr>
-							<td>Mission</td>
+							<td class="battleval">Mission</td>
 							<td>Defeat the Wood Elf Captain</td>
 						</tr>
 						<tr>
-							<td>Difficulty</td>
+							<td class="battleval">Difficulty</td>
 							<td>Level.{{ItemVariable[whichItem].Level}} or above</td>
 						</tr>
 						<tr>
-							<td>Prerequisites</td>
+							<td class="battleval">Prerequisites</td>
 							<td>{{ItemVariable[whichItem].RequiredStoryLineID}}</td>
 						</tr>
 						<tr>
-							<td>Location</td>
+							<td class="battleval">Location</td>
 							<td>{{ItemVariable[whichItem].STAGE}}</td>
 						</tr>
 						<tr>
