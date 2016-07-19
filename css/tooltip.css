@@ -232,6 +232,9 @@ border-top-right-radius: 0.3rem;
 #battletabs {
 	padding-bottom:0.5rem;
 }
+#battletabs a {
+	color:rgb(159, 149, 136);
+}
 #battletabs ul {
 	clear: both;
 	padding: 0;
@@ -397,6 +400,8 @@ padding:0.5rem;
 	font-family: Alegreya Sans;
 	word-break: break-all;
 	table-layout: fixed;
+	border: none;
+background: #0b0b0b;
 }
 .detailboard .battleval {
 	color:rgb(159, 149, 136);
