@@ -410,7 +410,7 @@ background: #0b0b0b;
 .detailboard .battleval {
 	color:rgb(159, 149, 136);
 }
-.detailboard .location {
+.detailboard.location {
     border-top: thin rgba(255, 192, 203, 0.02) solid;
     margin: 0rem 0.6rem;
     padding: 0rem;
