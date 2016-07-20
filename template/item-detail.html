@@ -4,7 +4,7 @@
 		<br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
 	</div>
 	<div class="border"> 	
-		<div ng-model="ItemVariable" class="itemtooltip" value="{{ItemVariable[whichItem].ItemClass|lowercase}}"> 				 		
+		<div ng-model="ItemVariable" id="mainitem" class="itemtooltip" value="{{ItemVariable[whichItem].ItemClass|lowercase}}"> 				 		
 			<div class="icon"> 			
 				<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/> 			
 				<span class="rare{{ItemVariable[whichItem].Rarity}} rarity">{{ItemVariable[whichItem].Name}}</span> 			
@@ -183,6 +183,7 @@
 			</tbody> 		
 		</table>
 	</div>
+	
 	<div class="usewindow" id="tabs-2">
 		<h2>Expertise Recipes <input class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;Loading...&#39;" name="search"></h2>
 		<table style="table-layout:fixed">
@@ -355,7 +356,19 @@
 		</table>
  	</div>
 	<div class="usewindow" id="tabs-4"> 	
-		<h2>Used in Expertise <input class="iteminput" ng-model="query" ng-init="query = &#39;Loading...&#39;" name="search"></h2> 	 		
+		<h2>Used in Expertise <input class="mainitemclass" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
+			<table>
+				<thead>
+					<th>Icon</th>
+					<th>Name</th>
+					<th>Type</th>
+				</thead>
+				<tbody>
+					<tr ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass'}:true">
+						<td>{{mat.RecipeID}}</td>
+					</tr>
+				</tbody>
+			</table>
 	</div>
 	<div class="usewindow" id="tabs-5"> 		<h2>Drop Locations</h2> 	<p>Coming Soon</p></div>
 	<div class="usewindow" id="tabs-6"> 		<h2>Comments</h2> 	<p>Coming Soon</p></div>

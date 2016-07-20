@@ -360,6 +360,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
 					$('.mainiteminput').val(ItemClass).trigger('input');
+					$('#mainitem').each(function(){
+							ItemClassValue = $(this).attr('value')
+							$('.mainitemclass').val(ItemClassValue).trigger()
+					})
 					LoadMats = function(){
 						$('.RecipeID').each(function(){
 							NPCMatID = $(this).attr('value')
