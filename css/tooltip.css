@@ -451,6 +451,8 @@ margin: -0.2rem 0rem 0rem 0.2rem;
 }
 .reward {
 	text-align:right;
+	width: 5rem;
+display: inline-block;
 }
 .gold {
 	color:#a59878 !important;
