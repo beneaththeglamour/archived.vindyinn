@@ -55,7 +55,7 @@
 						<tr>
 							<td class="battleval">Reward</td>
 							<input class="mission" style="display:none;" ng-model="missionstat" ng-init="missionstat = &#39;Loading...&#39;" name="search">
-							<td ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missionstat , 'Relation':0}:true">					
+							<td ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missionstat , 'Relation':0 , 'Weight':100}:true">					
 							<div class="reward gold"><span class="number">{{item.Gold}}</span></span><span class="rewardgold"></span></div>
 							<div class="reward exp"><span class="number">{{item.XP}}</span><span class="rewardexp"></span></div>
 							<div class="reward ap"><span class="number">{{item.MaxAP}}</span>-<span class="number">{{item.MinAP}}</span><span class="rewardap"></span></div>
