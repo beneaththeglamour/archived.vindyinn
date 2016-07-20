@@ -56,9 +56,11 @@
 						<col width="25%"></col>
 						<tr>
 							<td class="battleval">Reward</td>
-							<td class="reward gold">GOLD<span class="rewardgold"></span></td>
-							<td class="reward exp">EXP<span class="rewardexp"></span></td>
-							<td class="reward ap">AP<span class="rewardap"></span></td>
+							<div ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':0}:true">					
+							<td class="reward gold">{{item.Gold}}<span class="rewardgold"></span></td>
+							<td class="reward exp">{{item.XP}}<span class="rewardexp"></span></td>
+							<td class="reward ap">{{item.MaxAP}}-{{item.MinAP}}<span class="rewardap"></span></td>
+							</div>
 						</tr>
 					</table>
 				</div>
