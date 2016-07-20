@@ -468,6 +468,15 @@ display: inline-block;
 	text-align:right;
 }
 .playcount {
-	text-align:right;
-	color:white;
+	color: white;
+    float: right;
+    margin-right: 1rem;
+}
+p.battleval {
+	border-top: thin rgb(24, 24, 24) solid;
+	margin: 0.3rem 0rem 0rem 0rem;
+    padding: 0.7rem 0rem 0rem 0rem;
+}
+.battlerow {
+	  margin-bottom: 0.6rem;
 }
