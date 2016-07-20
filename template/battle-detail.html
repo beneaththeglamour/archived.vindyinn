@@ -6,7 +6,7 @@
 	<div class="borderbattle"> 	
 		<div ng-model="ItemVariable" class="itemtooltipbattle"> 				 		
 			<div class="battlebanner">
-				<span class="battlename" value="{{ItemVariable[whichItem].Name}}"></span>
+				<span class="battlename" value="{{ItemVariable[whichItem].Name|uppercase}}"></span>
 			</div>	 		
 			<div id="battletabs">
 				<ul>
@@ -38,7 +38,7 @@
 					</table>
 					<table class="detailboard location">
 						<col width="25%"></col>
-						<col width="75%"></col>
+						<col width="50%"></col>
 						<tr>
 							<td class="battleval">Location</td>
 							<td><span class="area" value="{{ItemVariable[whichItem].STAGE|uppercase}}"></span></td>
