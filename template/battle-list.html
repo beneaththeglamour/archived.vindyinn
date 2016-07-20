@@ -2,8 +2,9 @@
 	<strong>You are currently using a live yet uncompleted version of the site.</strong><br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
 </div>
 	<table class="itemtable" style="table-layout:fixed">
-	<col style="width:67px">
-	<col style="width:250px">
+	<col width="700">
+	<col width="100">
+	<col width="500">
 	<thead> 	
 		<th>Name</th> 
 		<th>Level</th> 	
@@ -12,7 +13,7 @@
 	<tbody> 	
 		<tr class="itemlist" ng-repeat="item in ItemVariable"> 		
 			<td><a href="#!/battle/{{ItemVariable.indexOf(item)}}"><span class="battlename" value="{{item.Name|uppercase}}"></span></a></td>
-			<td>{{item.Level}}</td>
+			<td class="centercell">{{item.Level}}</td>
 			<td><span class="area" value="{{item.STAGE|uppercase}}"></span></td>
 		</tr> 
 	</tbody> 
