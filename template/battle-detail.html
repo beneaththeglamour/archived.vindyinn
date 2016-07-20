@@ -84,9 +84,9 @@
 				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':3}:true">
 					<td>+{{item.Weight}}pt</td>
 					<td class="missiondesc"  value="{{item.Description}}">{{item.Description}}</td>
-					<td class="rewardgain gold"><span class="number">{{item.Gold}}</span><br /><span class="rewardgold"></span></td>
-					<td class="rewardgain exp"><span class="number">{{item.XP}}</span><br /><span class="rewardexp"></span></td>
-					<td class="rewardgain ap"><span class="number">{{item.MaxAP}}</span>-<span class="number">{{item.MinAP}}</span><br /><span class="rewardap"></span></td>
+					<td class="rewardgain gold centercell"><span class="number">{{item.Gold}}</span><br /><span class="rewardgold"></span></td>
+					<td class="rewardgain exp centercell"><span class="number">{{item.XP}}</span><br /><span class="rewardexp"></span></td>
+					<td class="rewardgain ap centercell"><span class="number">{{item.MaxAP}}</span>-<span class="number">{{item.MinAP}}</span><br /><span class="rewardap"></span></td>
 				</tr>
 			</table>
 			<p class="battleval battlerow">Battles
