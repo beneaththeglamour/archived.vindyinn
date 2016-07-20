@@ -2,32 +2,36 @@
 <html lang="en" ng-app="ItemApp">
 <head>
   <meta charset="utf-8">
-  <title>Battle Missions &#8226; VinDB</title>
-   <meta property="og:title" content="Battle Missions - Vindictus (Mabinogi Heroes) Database" />
-<meta property="og:url" content="http://db.vindictusinn.com" />
-<meta property="og:description" content="From items, titles, recipes, enemies and more, Vindictus Inn DB is your database for all things Vindictus." />
-<meta property="og:image" content="http://db.vindictusinn.com/images/misc/logosquare.png" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="1200" />
-<meta name="description" content="From items, titles, recipes, enemies and more, Vindictus Inn DB is your database for all things Vindictus.">
-<meta name="keywords" content="vindictus,db,database" />
-<link rel="stylesheet" href="http://static.tumblr.com/aiwikf1/8suo7dw6i/menubar.css" />
+  <title>Battle Missions &#8226; Vindictus Database</title>
+	<meta property="og:title" content="Battle Missions - Vindictus (Mabinogi Heroes) Database" />
+	<meta property="og:url" content="http://db.vindictusinn.com" />
+	<meta property="og:description" content="From items, titles, recipes, enemies and more, Vindictus Inn DB is your database for all things Vindictus. Currently a work in progress." />
+	<meta property="og:image" content="http://db.vindictusinn.com/images/misc/logosquare.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="1200" />
+	<meta name="description" content="From items, titles, recipes, enemies and more, Vindictus Inn DB is your database for all things Vindictus.">
+	<meta name="keywords" content="vindictus,db,database" />
+   
+	<link rel="stylesheet" href="http://static.tumblr.com/aiwikf1/8suo7dw6i/menubar.css" />
+	
+	<link rel="shortcut icon" href="/images/misc/logosquare.png" />
 
-<link rel="shortcut icon" href="/images/misc/logosquare.png" />
-
-<meta name="google-site-verification" content="uPGglZhUD5Q7p0Owg26nWSxYHjc3DCUTTb1Hy3hrc5s" />
+	<meta name="google-site-verification" content="uPGglZhUD5Q7p0Owg26nWSxYHjc3DCUTTb1Hy3hrc5s" />
 
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
   <script type="text/javascript" src="http://static.tumblr.com/aiwikf1/QoNo7cpzv/datatable.js"></script><!--datatablejs-->
   <script type="text/javascript" src="http://static.tumblr.com/aiwikf1/TXEo3i7w8/menubar.js"></script>
+
+<script src="/js/three.min.js"></script>
+  <script src="/js/OrbitControls.js"></script>
   
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
-
-
-  <script type="text/javascript" src="/js/battle.js"></script>
-  <script type="text/javascript" src="/js/controllers/controlbattles.js"></script>
+  
+  
+  <script type="text/javascript" src="/js/items.js"></script>
+  <script type="text/javascript" src="/js/controllers/controllers.js"></script>
   <link rel="stylesheet" href="/css/dbstyle.css" />
   <link rel="stylesheet" href="/css/dbbase.css">
   
@@ -36,7 +40,7 @@
   <link rel="stylesheet" href="/css/list.css">
   
   <link rel="stylesheet" href="/css/itemicons.css">
-
+<script>filter = 'running'</script>
 
 </head>
 <body>
@@ -61,7 +65,7 @@
         </section>
         
         <section id="searchmenu">
-		<form action="/search.html" method="get">
+		<form action="search.html" method="get">
 		<input type="text" name="find" value="Search">
 		<input type="submit" value="?">
 		</form>
@@ -73,6 +77,7 @@
 </nav>
 
 <div class="scopecontain">
+
 <div ng-view></div>
 </div>
 
@@ -85,7 +90,7 @@
 		<a href="http://vindictusinn.com/dyepreviewer">Dye Previewer</a>
 		<a href="http://vindictusinn.com/tagged/update">Future Content</a>
 	</nav>
-	<p class="disclaimer">Vindictus content and materials are trademarks and copyrights of their respective publisher and its licensors. All rights reserved.<br /> This site is not affiliated with Nexon.</p>
+	<p class="disclaimer">Vindictus content and materials are trademarks and copyrights of their respective publisher and its licensors. All rights reserved.<br /> This site is created and maintained by Insanitee on the West North American server and is not affiliated with Nexon.</p>
 	
 </footer>
     
