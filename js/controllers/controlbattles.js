@@ -22,15 +22,9 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$.getScript( menu, function() {
 								MenuList()
 									console.log('DataTable loaded.')
-										if (WhatIsTheURL.indexOf('expertise') == 1) {
-											$('.nametable').DataTable({
+											$('.itemtable').DataTable({
 												"order": [[ 2, "asc" ]]
 											});
-										} else {
-											$('.nametable').DataTable({
-												"order": [[ 1, "asc" ]]
-											});
-										}
 							})	
 	
 }, 200);
