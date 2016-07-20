@@ -478,7 +478,7 @@ p.battleval {
     padding: 0.7rem 0rem 0rem 0rem;
 }
 .battlerow {
-	  margin-bottom: 0.6rem;
+	  margin-bottom: 0.6rem !important;
 }
 .topmission {
 	 border:none;
