@@ -414,7 +414,7 @@ background: #0b0b0b;
 .detailboard.location {
     border-top: thin rgb(24, 24, 24) solid;
     margin: 0rem 0.6rem;
-    padding: 0rem;
+    padding: 0.6rem 0rem;
     display: block;
     width: 95% !important;
     border-bottom: thin rgb(24, 24, 24) solid;
