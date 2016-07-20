@@ -69,9 +69,17 @@
 			<div class="detailboard">
 			<p class="battleval topmission">Mission</p>
 			<table>
+			<col width="40"></col>
 				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':0}:true">
 					<td>+{{item.Weight}}pt</td>
 					<td class="missiondesc"  value="{{item.Description}}">{{item.Description}}</td>
+				</tr>
+				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':3}:true">
+					<td>+{{item.Weight}}pt</td>
+					<td class="missiondesc"  value="{{item.Description}}">{{item.Description}}</td>
+					<td class="rewardgain gold"><span class="number">{{item.Gold}}</span><span class="rewardgold"></span></td>
+					<td class="rewardgain exp"><span class="number">{{item.XP}}</span><span class="rewardexp"></span></td>
+					<td class="rewardgain ap"><span class="number">{{item.MaxAP}}</span>-<span class="number">{{item.MinAP}}</span><span class="rewardap"></span></td>
 				</tr>
 			</table>
 			<p class="battleval battlerow">Battles
@@ -83,27 +91,22 @@
 					<td class="missiondesc"  value="{{item.Description}}">{{item.Description}}</td>
 					<td class="rewardgain gold"><span class="number">{{item.Gold}}</span><span class="rewardgold"></span></td>
 				</tr>
-				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':3}:true">
-					<td>+{{item.Weight}}pt</td>
-					<td class="missiondesc"  value="{{item.Description}}">{{item.Description}}</td>
-					<td class="rewardgain gold"><span class="number">{{item.Gold}}</span><span class="rewardgold"></span></td>
-					<td class="rewardgain exp"><span class="number">{{item.XP}}</span><span class="rewardexp"></span></td>
-					<td class="rewardgain ap"><span class="number">{{item.MaxAP}}</span>-<span class="number">{{item.MinAP}}</span><span class="rewardap"></span></td>
-				</tr>
-			</table>
-			<p class="battleval">Oath of Honor</p>
-			<table>
-				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':2}:true">
-					<td>+{{item.Weight}}pt</td>
-					<td class="missiondesc"  value="{{item.Description}}">{{item.Description}}</td>
-					<td class="rewardgain exp"><span class="number">{{item.XP}}</span><span class="rewardexp"></span></td>
-				</tr>
 				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':4}:true">
 					<td>+{{item.Weight}}pt</td>
 					<td class="missiondesc"  value="{{item.Description}}">{{item.Description}}</td>
 					<td class="rewardgain gold"><span class="number">{{item.Gold}}</span><span class="rewardgold"></span></td>
 				</tr>
-
+			</table>
+			<p class="battleval">Oath of Honor</p>
+			<table>
+				<col width="40"></col>
+				<col width="195"></col>
+				<col width="90"></col>
+				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':2}:true">
+					<td>+{{item.Weight}}pt</td>
+					<td class="missiondesc"  value="{{item.Description}}">{{item.Description}}</td>
+					<td class="rewardgain exp"><span class="number">{{item.XP}}</span><span class="rewardexp"></span></td>
+				</tr>
 			</table>
 			</div>
 			</div>

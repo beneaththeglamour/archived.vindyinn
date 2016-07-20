@@ -404,7 +404,6 @@ padding:0.5rem;
 .detailboard td {
 	color: #ececec;
 	font-family: Alegreya Sans;
-	word-break: break-all;
 	table-layout: fixed;
 	border: none;
 background: #0b0b0b;
