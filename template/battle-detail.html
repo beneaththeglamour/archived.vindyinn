@@ -77,17 +77,21 @@
 			<p class="battleval">Battles</p>
 			<p>0/{{ItemVariable[whichItem].MaxPlayCount||"∞"}}</p>
 			<p class="battleval">Bonus Mission</p>
+			<table>
 				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':1}:true">
 					<td>+{{item.Weight}}pt</td>
 					<td class="missiondesc"  value="{{item.Description}}">{{item.Description}}</td>
 					<td><span class="number">{{item.Gold}}</span><span class="rewardgold"></span></td>
 				</tr>
+			</table>
 			<p class="battleval">Oath of Honor</p>
+			<table>
 				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':2}:true">
 					<td>+{{item.Weight}}pt</td>
 					<td class="missiondesc"  value="{{item.Description}}">{{item.Description}}</td>
 					<td><span class="number">{{item.XP}}</span><span class="rewardexp"></span></td>
 				</tr>
+			</table>
 			</div>
 			</div>
 			</div>
