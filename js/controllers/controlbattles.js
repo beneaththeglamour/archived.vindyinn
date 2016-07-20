@@ -89,6 +89,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						QuestID = $(this).attr('value')
 						$('.mission').val(QuestID).trigger('input')
 					} )
+					$('.number').each(function(){
+							grab = parseInt($(this).html())
+							if (grab > 0) {
+								convert = grab.toLocaleString()
+								$(this).html(convert)
+							} else {$(this).html('')}
+						})
 }, 200);
 			}); 
 		}]
