@@ -17,14 +17,14 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				var menu = "/js/battlelocation.js";
 							$.getScript( menu, function() {
 								BattleLocation()
-							})	
-				var menu = "/js/menu.js";
-							$.getScript( menu, function() {
-								MenuList()
 									console.log('DataTable loaded.')
 											$('.itemtable').DataTable({
 												"order": [[ 2, "asc" ]]
 											});
+							})	
+				var menu = "/js/menu.js";
+							$.getScript( menu, function() {
+								MenuList()
 							})	
 	
 }, 200);
