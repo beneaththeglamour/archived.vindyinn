@@ -8,7 +8,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
     templateUrl: '/template/battle-list.html',
     controller: 'ListController'
   }).
-  when('/item/:ItemID/', {
+  when('/battle/:ItemID/', {
     templateUrl: '/template/battle-detail.html',
     controller: 'DetailsController'
   }).
