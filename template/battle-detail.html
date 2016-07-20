@@ -67,7 +67,8 @@
 			<div class="usewindowbattle" id="battletabs-2">  
 			<p class="battleval">Mission</p>
 			<table>
-				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':!0}:true">
+				<input class="mission" style="display:none;" ng-model="missionmain2" ng-init="missionmain2 = &#39;Loading...&#39;" name="search">
+				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missionmain2 , 'Relation':!0}:true">
 					<td>+{{item.Weight}}pt</td>
 					<td class="missiondesc">{{item.Description}}</td>
 				</tr>
