@@ -20,6 +20,14 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								"order": [[ 1, "asc" ]]
 							});
 						}
+				var menu = "/js/battlename.js";
+							$.getScript( menu, function() {
+								BattleTitle()
+							})	
+				var menu = "/js/battlelocation.js";
+							$.getScript( menu, function() {
+								BattleLocation()
+							})	
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
