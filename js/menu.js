@@ -205,7 +205,7 @@ MenuList = function() {
 		'</ul>'+
 	'</li>'+
 	'<li><a href="/enemies">Enemies</a></li>'+
-	'<li><a href="/battle.html">Battles</a></li>'+
+	'<li><a href="/battles">Battles</a></li>'+
 	'<li><a href="/">Maps</a></li>'+
 	'<li><a href="/">Stories</a></li>'+
 	'<li><a href="/">NPCs</a></li>'+
