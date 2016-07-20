@@ -68,7 +68,7 @@
 			<p class="battleval">Mission</p>
 			<table>
 				<input class="mission" style="display:none;" ng-model="missionmain2" ng-init="missionmain2 = &#39;Loading...&#39;" name="search">
-				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missionmain2 , 'Relation':!0}:true">
+				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missionmain2}:true">
 					<td>+{{item.Weight}}pt</td>
 					<td class="missiondesc">{{item.Description}}</td>
 				</tr>
