@@ -25,7 +25,12 @@
 						<col width="246"></col>
 						<tr>
 							<td class="battleval">Mission</td>
-							<td></td>
+							<td>
+								<input class="Mission{{ItemVariable[whichItem].ID|lowercase}}" style="display:none;" ng-model="missiondesc" ng-init="missiondesc = &#39;Loading...&#39;" name="search">
+								<span ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':'0'}:true">
+									<span>{{item.Description}}</span>
+								</span>
+							</td>
 						</tr>
 						<tr>
 							<td class="battleval">Difficulty</td>
