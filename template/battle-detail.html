@@ -65,7 +65,17 @@
 				</div>
 			</div>
 			<div class="usewindowbattle" id="battletabs-2">  
-			TBA
+			<p class="battleval">Mission</p>
+			<table>
+				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':!0}:true">
+					<td>+{{item.Weight}}pt</td>
+					<td class="missiondesc">{{item.Description}}</td>
+				</tr>
+			</table>
+			<p class="battleval">Battles</p>
+			<p>0/{{item.MaxPlayCount}}</p>
+			<p class="battleval">Bonus Mission</p>
+			<p class="battleval">Oath of Honor</p>
 			</div>
 			</div>
 		</div> 		 	
