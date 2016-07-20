@@ -481,5 +481,6 @@ p.battleval {
 	  margin-bottom: 0.6rem !important;
 }
 .topmission {
-	 border:none;
+	 border-top: none !important;
+padding: 0rem !important;
 }
