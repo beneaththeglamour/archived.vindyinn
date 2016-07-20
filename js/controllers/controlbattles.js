@@ -9,17 +9,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
 						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}	
-						
-				console.log('DataTable loaded.')
-						if (WhatIsTheURL.indexOf('expertise') == 1) {
-							$('.nametable').DataTable({
-								"order": [[ 2, "asc" ]]
-							});
-						} else {
-							$('.nametable').DataTable({
-								"order": [[ 1, "asc" ]]
-							});
-						}
+				
 				var menu = "/js/battlename.js";
 							$.getScript( menu, function() {
 								BattleTitle()
@@ -31,6 +21,16 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
+									console.log('DataTable loaded.')
+										if (WhatIsTheURL.indexOf('expertise') == 1) {
+											$('.nametable').DataTable({
+												"order": [[ 2, "asc" ]]
+											});
+										} else {
+											$('.nametable').DataTable({
+												"order": [[ 1, "asc" ]]
+											});
+										}
 							})	
 	
 }, 200);
