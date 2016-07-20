@@ -395,6 +395,7 @@ box-shadow: #414141 0px 0px 2px;
     border-radius: 0.3rem;
     clear: both;
 	background-color: #0b0b0b;
+	margin-top: 1rem;
 }
 .detailboard {
 	background-color: #0b0b0b;
@@ -462,4 +463,11 @@ display: inline-block;
 }
 .ap {
 	color:#42617d !important;
+}
+.rewardgain {
+	text-align:right;
+}
+.playcount {
+	text-align:right;
+	color:white;
 }
