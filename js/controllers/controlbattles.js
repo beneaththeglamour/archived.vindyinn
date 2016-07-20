@@ -75,6 +75,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$.getScript( menu, function() {
 								BattleTitle()
 							})	
+					var menu = "/js/battlegoal.js";
+							$.getScript( menu, function() {
+								MainMission()
+							})	
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
