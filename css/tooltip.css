@@ -480,3 +480,6 @@ p.battleval {
 .battlerow {
 	  margin-bottom: 0.6rem;
 }
+.topmission {
+	 border:none;
+}
