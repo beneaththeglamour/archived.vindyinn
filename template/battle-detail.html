@@ -93,6 +93,9 @@
 			<span class="playcount gold">0/{{ItemVariable[whichItem].MaxPlayCount||"∞"}}</span></p>
 			<p class="battleval">Bonus Mission</p>
 			<table>
+				<col width="40"></col>
+				<col width="195"></col>
+				<col width="90"></col>
 				<tr ng-repeat="item in QuestGoalInfo | filter : {'QuestID':missiondesc , 'Relation':1}:true">
 					<td>+{{item.Weight}}pt</td>
 					<td class="missiondesc"  value="{{item.Description}}">{{item.Description}}</td>
