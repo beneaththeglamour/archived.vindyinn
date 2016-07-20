@@ -18,9 +18,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$.getScript( menu, function() {
 								BattleLocation()
 									console.log('DataTable loaded.')
-											$('.itemtable').DataTable({
-												"order": [[ 2, "asc" ]]
-											});
+											$('.itemtable').DataTable();
 							})	
 								
 							})	
