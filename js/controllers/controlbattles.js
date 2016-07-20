@@ -81,6 +81,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							})	
 					$('#tabs').tabs();
 					$('#battletabs').tabs();
+					$('.battlebanner').each(function(){
+						QuestID = $(this).attr('value')
+						$('.mission').val(QuestID).trigger('input')
+					} )
 }, 200);
 			}); 
 		}]
