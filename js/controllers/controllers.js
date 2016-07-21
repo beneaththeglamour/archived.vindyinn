@@ -384,18 +384,23 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.Expert'+ExpertMatID).val(ExpertMatID).trigger('input');
 							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).trigger('input');
 						})
-					    function sformat(s) {
-							  var fm = [
-									Math.floor(s / 60 / 60 / 24), // DAYS
-									Math.floor(s / 60 / 60) % 24, // HOURS
-									Math.floor(s / 60) % 60, // MINUTES
-									s % 60 // SECONDS
-							  ];
-							  return $.map(fm, function(v, i) { return ((v < 10) ? '0' : '') + v; }).join(':');
-						}
-					ConvertSeconds = $('.converttime').attr('value')
-					var sf = sformat( ConvertSeconds );  
-					$('.converttime').html(sf)
+				function sformat(s) {
+						  var fm = [
+								Math.floor(s / 60 / 60 / 24), // DAYS
+								Math.floor(s / 60 / 60) % 24, // HOURS
+								Math.floor(s / 60) % 60, // MINUTES
+								s % 60 // SECONDS
+						  ];
+						  return $.map(fm, function(v, i) { return ((v < 10) ? '0' : '') + v; }).join(':');
+					}
+				   ConvertSeconds = $('.converttime').attr('value')
+				   ConTime = sformat( ConvertSeconds );  
+				   ConTime = ConTime.replace(':',' Day(s) ')
+				   ConTime = ConTime.replace(':',' Hours(s) ')
+				   ConTime = ConTime.replace(':',' Minutes(s) ')
+				   ConTime = ConTime.replace('00 Minutes(s) 00','')
+					$('.converttime').html(ConTime)
+					
 					$('#classresvalue').each(
 					function(){
 					checkclasses = $('#classresvalue').html();
