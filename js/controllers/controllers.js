@@ -362,7 +362,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.mainiteminput').val(ItemClass).trigger('input');
 					$('#mainitem').each(function(){
 							ItemClassValue = $(this).attr('value')
-							$('.mainitemclass').val(ItemClassValue).trigger()
+							$('.mainitemclass').val(ItemClassValue).trigger('input')
 					})
 					LoadMats = function(){
 						$('.RecipeID').each(function(){
