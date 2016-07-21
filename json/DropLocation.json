@@ -17,17 +17,17 @@
     {	
 		"Battle":"Gwynn's Request", 
 		"Class":"quest_"
-		"Drops":[]	
+		"Drops":["Cloth","Broken Arrow","Brown Gnoll Leather","Ice Spirit Remnant","Foul Snowpaw Twin Sword","Enhancement Stone","White Gnoll Leather","Crimson Blade Staff","Enhancement Stone","Ruins Erg Crystal"]	
 	},
     {	
 		"Battle":"Wind Through the Ruins", 
 		"Class":"quest_"
-		"Drops":[]	
+		"Drops":["Broken Arrow","Brown Gnoll Leather","Fire Spirit Remnant","Magic Powder","Cloth","White Gnoll Heart","Broken Crimson Rage Helm","Broken Crimson Rage Tunic","Mad Grizzlepaw Earring","Enhancement Stone","Crimson Rage Gloves"]	
 	},
     {	
 		"Battle":"Gnoll Assembly Area", 
 		"Class":"quest_"
-		"Drops":[]	
+		"Drops":["Spider Web","Life Erg Crystal","Brown Gnoll Leather","Enhancement Stone","Twin Fluted Longswords","Fluted Longsword","Leather","Cloth","Leather"]	
 	},
     {	
 		"Battle":"Decisive Battle", 
@@ -721,31 +721,6 @@
 	},
     {	
 		"Battle":"Requiem of the Lost One", 
-		"Class":"quest_"
-		"Drops":[]	
-	},
-    {	
-		"Battle":"", 
-		"Class":"quest_"
-		"Drops":[]	
-	},
-    {	
-		"Battle":"", 
-		"Class":"quest_"
-		"Drops":[]	
-	},
-    {	
-		"Battle":"", 
-		"Class":"quest_"
-		"Drops":[]	
-	},
-    {	
-		"Battle":"", 
-		"Class":"quest_"
-		"Drops":[]	
-	},
-    {	
-		"Battle":"", 
 		"Class":"quest_"
 		"Drops":[]	
 	},
