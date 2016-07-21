@@ -403,7 +403,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						   ConTime = ConTime.replace(':',' day(s) ')
 						   ConTime = ConTime.replace(':',' hr(s) ')
 						   ConTime = ConTime.replace(':',' min(s) ')
-						   ConTime = ConTime.replace('00 sec(s) 00','')
+						   ConTime = ConTime.replace('00 min(s) 00','')
 							$('.converttime').html(ConTime)
 					}
 					
