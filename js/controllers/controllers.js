@@ -395,10 +395,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					}
 				   ConvertSeconds = $('.converttime').attr('value')
 				   ConTime = sformat( ConvertSeconds );  
-				   ConTime = ConTime.replace(':',' Day(s) ')
-				   ConTime = ConTime.replace(':',' Hours(s) ')
-				   ConTime = ConTime.replace(':',' Minutes(s) ')
-				   ConTime = ConTime.replace('00 Minutes(s) 00','')
+				   ConTime = ConTime.replace(':',' day(s) ')
+				   ConTime = ConTime.replace(':',' hours(s) ')
+				   ConTime = ConTime.replace(':',' minutes(s) ')
+				   ConTime = ConTime.replace('00 minutes(s) 00','')
 					$('.converttime').html(ConTime)
 					
 					$('#classresvalue').each(
