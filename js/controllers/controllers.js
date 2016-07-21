@@ -485,7 +485,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					})
 					UsedIn = $('.UsedIn').attr('value')
 					UsedIn = UsedIn.replace('recipe_','')
-					UsedIn = $('.UsedIn').val(UsedIn).trigger('input')
 					$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);
