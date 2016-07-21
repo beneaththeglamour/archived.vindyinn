@@ -360,15 +360,15 @@
 		<h2>Used in Expertise <input class="mainitemclass" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
 			<table>
 				<thead>
-					<th>Icon</th>
 					<th>Name</th>
-					<th>Type</th>
 				</thead>
 				<tbody>
 					<tr ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true">
-						<td>{{mat.RecipeID}}</td>
-						<td>{{mat.RecipeID}}</td>
-						<td>{{mat.RecipeID}}</td>
+						<td><input class="UsedIn" ng-model="usedin" value="{{mat.RecipeID}}" name="search">
+							<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
+								{{mat.Name}}
+							</span>
+						</td>
 					</tr>
 				</tbody>
 			</table>
