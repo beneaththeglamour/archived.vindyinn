@@ -358,7 +358,7 @@
  	</div>
 	<div class="usewindow overflow" id="tabs-3"> 	
 		<h2>Used in Crafting <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
-			<div bindonce ng-repeat="recipe in RecipeMaterialInfo  | filter : {'ItemClass':mainitemclass}:true track by $index | limitTo : limit">
+			<div bindonce ng-repeat="recipe in RecipeMaterialInfo  | filter : {'ItemClass':mainitemclass}:true | limitTo : limit track by $index">
 				<div class="UsedIn" value="{{recipe.RecipeID|uppercase}}"><input ng-model-options="{  updateOn: blur }"class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer" bindonce ng-repeat="mat in ItemVariable  | filter : {'ItemClass':usedin}:true track by mat.id">
 						<img class="useicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{mat.Icon}}" style="background-image:url('/images/icons/{{mat.Icon}}.png')"/>  
