@@ -486,9 +486,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.UsedInValue').each(function(){
 						UsedIn = $(this).attr('value')
 						UsedIn = UsedIn.replace('RECIPE_','')
-						$scope.usedin = function (item) { 
-							return item.ItemClass === 'SINISTER_HELM'	};
 					} )
+					$scope.usedin = function (item) { 
+							return item.ItemClass === 'SINISTER_HELM'	};
 					$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);
