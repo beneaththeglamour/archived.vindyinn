@@ -364,7 +364,7 @@
 				</thead>
 				<tbody>
 					<tr ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true">
-						<td class="UsedInValue" value="{{mat.RecipeID}}"><input class="UsedIn" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
+						<td class="UsedInValue" value="{{mat.RecipeID|uppercase}}"><input class="UsedIn" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 							<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
 								{{mat.Name}}
 							</span>
