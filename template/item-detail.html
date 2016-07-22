@@ -363,7 +363,7 @@
 					<th>Name</th>
 				</thead>
 				<tbody>
-					<tr ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true">
+					<tr ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true | limitTo : 10 : 0">
 						<td><input class="UsedIn" ng-model="usedin" value="{{mat.RecipeID}}" name="search">
 							<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
 								{{mat.Name}}
