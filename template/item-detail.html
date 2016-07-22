@@ -365,7 +365,7 @@
 				<tbody>
 					<tr ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true">
 						<td class="UsedInValue" value="{{mat.RecipeID|uppercase}}">
-							<span ng-repeat="item in ItemVariable | filter : {'ItemClass':usedin}:true">
+							<span ng-repeat="item in ItemVariable | filter :usedin">
 								<img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url('/images/icons/{{item.Icon}}.png')"/>
 								<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}} linkname" value="{{item.Name}}">{{item.Name}}</a>
 							</span>
