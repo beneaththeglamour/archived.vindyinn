@@ -356,8 +356,8 @@
 			</tbody> 		
 		</table>
  	</div>
-	<div class="usewindow" id="tabs-4"> 	
-		<h2>Used in Expertise <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
+	<div class="usewindow" id="tabs-3"> 	
+		<h2>Used in Crafting <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
 			<div ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true | limitTo : limit">
 				<div class="UsedIn" value="{{mat.RecipeID|uppercase}}"><input class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer" ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
@@ -369,6 +369,7 @@
 			<a href ng-click="incrementLimit()" class="more">more</a>
 			<a href ng-click="decrementLimit()" class="less">less</a>
 	</div>
+	<div class="usewindow" id="tabs-4"> 		<h2>Used in Expertise</h2> 	<p>Coming Soon</p></div>
 	<div class="usewindow" id="tabs-5"> 		<h2>Drop Locations</h2> 	<p>Coming Soon</p></div>
 	<div class="usewindow" id="tabs-6"> 		<h2>Comments</h2> 	<p>Coming Soon</p></div>
 	<div class="usewindow" id="tabs-7">
