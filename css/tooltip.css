@@ -194,6 +194,7 @@
 	clear:both;
 	margin:1rem;
 	border: thin solid #36393e;
+	overflow:hidden;
 }
 .usewindowbattle {
 clear: both;
@@ -484,5 +485,19 @@ p.battleval {
 padding: 0rem !important;
 }
 .usedincontainer {
-	overflow:hidden;
+	   overflow: hidden;
+float: left;
+width: 317px;
+padding: 0.3rem;
+border-right: #2C2C2C thin solid;
+}
+.useicon {
+	border: #18181b thin solid;
+border-radius: 0.2rem;
+box-shadow: 0px 0px 5px 0px #575151;
+background-position: center;
+background-repeat: no-repeat;
+margin: 0.4rem;
+margin-right: 1rem;
+vertical-align: middle;
 }

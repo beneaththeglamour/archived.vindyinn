@@ -361,7 +361,7 @@
 			<div ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true | limitTo : limit">
 				<div class="UsedIn" value="{{mat.RecipeID|uppercase}}"><input class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer" ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
-						<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{mat.Icon}}" style="background-image:url('/images/icons/{{mat.Icon}}.png')"/>  
+						<img class="useicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{mat.Icon}}" style="background-image:url('/images/icons/{{mat.Icon}}.png')"/>  
 						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}" class="rare{{mat.Rarity}} linkname" value="{{mat.Name}}">{{mat.Name}}</a>
 					</div>
 				</div>
