@@ -348,11 +348,12 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
-					$('.UsedInValue').each(function(){
+					$scope.usedin = function (item) { 
+						UsedIn = 'ZYARGA_FRAGMENT'
+					/*UsedInValue').each(function(){
 							UsedIn = $(this).attr('value')
 							UsedIn = UsedIn.replace('RECIPE_','')
-						} )
-					$scope.usedin = function (item) { 
+						} ) */
 						return item.ItemClass === UsedIn	};
 						
 					WhatIsTheURL = window.location.pathname
