@@ -486,7 +486,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.UsedInValue').each(function(){
 						UsedIn = $(this).attr('value')
 						UsedIn = UsedIn.replace('RECIPE_','')
-						$('this').val(UsedIn)
+						$(this).children().val(UsedIn)
 					} )
 					$('.UsedIn').trigger('input')
 					$('.weight').each(function(){

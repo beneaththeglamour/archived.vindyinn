@@ -357,14 +357,15 @@
 		</table>
  	</div>
 	<div class="usewindow" id="tabs-4"> 	
-		<h2>Used in Expertise <input class="mainitemclass" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
+		<h2>Used in Expertise <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
 			<table>
 				<thead>
 					<th>Name</th>
 				</thead>
 				<tbody>
 					<tr ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true">
-						<td class="UsedInValue" value="{{mat.RecipeID|uppercase}}"><input class="UsedIn" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
+						<td class="UsedInValue" value="{{mat.RecipeID|uppercase}}">
+						<input class="UsedIn" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 							<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
 								{{mat.Name}}
 							</span>
