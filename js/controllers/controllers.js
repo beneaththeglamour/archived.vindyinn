@@ -364,7 +364,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.mainiteminput').val(ItemClass).trigger('input');
 					$('#mainitem').each(function(){
 							ItemClassValue = $(this).attr('value')
-							$('.mainitemclass').val(ItemClassValue).trigger('input')
+							$scope.mainitemclass = function (item) { 
+								return item.ItemClass === ItemClassValue	};
+
 							$('.UsedInValue').each(function(){
 							UsedIn = $(this).attr('value')
 							UsedIn = UsedIn.replace('RECIPE_','')
