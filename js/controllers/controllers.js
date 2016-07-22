@@ -331,8 +331,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 		}]
 );
 
-ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams','$filter',
-	 function($scope, $http, $routeParams, $filter)
+ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams',
+	 function($scope, $http, $routeParams)
 		{    
 				$http.get('/json/ItemClassInfoV2.json').success (function(data){
 				$scope.ItemVariable = data;
@@ -348,8 +348,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
-
-						
 					WhatIsTheURL = window.location.pathname
 					RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
 					$('#searchmenu').click(RemoveSearch)
@@ -362,28 +360,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
 					$('.mainiteminput').val(ItemClass).trigger('input');
-					ThisIsStupod = $('#mainitem').attr('value')
-					$scope.mainitemclass = function (mat) { 	return mat.ItemClass === ThisIsStupod };
-					console.log('I sweartoGod')
-					setTimeout(function(){
-					$('.UsedInValue').each(function(){
-							console.log('I ran right Mommy?')
-							UsedIn = $(this).attr('value')
-							UsedIn = UsedIn.replace('RECIPE_','')
-								} ) 
-					$scope.usedin = function (item) { return item.ItemClass === UsedIn	};
-					},10000)
-								
-				$('#mainitem').each(function(){
-								/*ItemClassValue = $(this).attr('value')
+					$('#mainitem').each(function(){
+							ItemClassValue = $(this).attr('value')
 							$('.mainitemclass').val(ItemClassValue).trigger('input')
-					
-							$('.UsedInValue').each(function(){
-							UsedIn = $(this).attr('value')
-							UsedIn = UsedIn.replace('RECIPE_','')
-								} ) 
-							$scope.usedin = function (item) { 
-								return item.ItemClass === UsedIn	};*/
 					})
 					LoadMats = function(){
 						$('.RecipeID').each(function(){
@@ -405,7 +384,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.Expert'+ExpertMatID).val(ExpertMatID).trigger('input');
 							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).trigger('input');
 						})
-					
 					/* CONVERT EXPIRY TIME */
 					ConvertSeconds = $('.converttime').attr('value')
 					if (ConvertSeconds == '') {
@@ -505,6 +483,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						IsThereManuID = $(this).html()
 						
 					})
+					UsedIn = $('.UsedIn').attr('value')
+					UsedIn = UsedIn.replace('recipe_','')
+					UsedIn = $('.UsedIn').val(UsedIn).trigger('input')
 					$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);

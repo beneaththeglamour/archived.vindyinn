@@ -357,18 +357,16 @@
 		</table>
  	</div>
 	<div class="usewindow" id="tabs-4"> 	
-		<h2>Used in Expertise <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
-		<input style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
+		<h2>Used in Expertise <input class="mainitemclass" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
 			<table>
 				<thead>
 					<th>Name</th>
 				</thead>
 				<tbody>
-					<tr ng-repeat="mat in RecipeMaterialInfo | filter :mainitemclass :true">
-						<td class="UsedInValue" value="{{mat.RecipeID|uppercase}}">
-							<span ng-repeat="item in ItemVariable | filter:usedin :true">
-								<img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url('/images/icons/{{item.Icon}}.png')"/>
-								<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}} linkname" value="{{item.Name}}">{{item.Name}}</a>
+					<tr ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true">
+						<td><input class="UsedIn" ng-model="usedin" value="{{mat.RecipeID}}" name="search">
+							<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
+								{{mat.Name}}
 							</span>
 						</td>
 					</tr>
