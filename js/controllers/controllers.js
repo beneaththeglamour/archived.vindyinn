@@ -361,6 +361,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.UsedInput').trigger('input')
 							$('.UsedInput').attr('class','expired')
 							$('.UsedIn').attr('class','expired')
+							$('.expired').each(function(){$(this).blur()})
 						}, 200)
 					};
 					$scope.decrementLimit = function() {
@@ -379,6 +380,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.UsedInput').trigger('input')
 							$('.UsedInput').attr('class','expired')
 							$('.UsedIn').attr('class','expired')
+							$('.expired').each(function(){$(this).blur()})
 						}, 200)
 					};
 					$scope.decrementLimit2 = function() {
@@ -394,31 +396,31 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					ItemClass = $('#valueitem').attr('value');
 					$('title').html(replacestart + ' &bull; VinDB');
 					finalreplace = replacestart.replace(/ /g,"_");
-					$('.iteminput').val(finalreplace).trigger('input');
-					$('.mainiteminput').val(ItemClass).trigger('input');
+					$('.iteminput').val(finalreplace).blur()
+					$('.mainiteminput').val(ItemClass).blur()
 					$('#mainitem').each(function(){
 							ItemClassValue = $(this).attr('value')
-							$('.mainitemclass').val(ItemClassValue).trigger('input')
+							$('.mainitemclass').val(ItemClassValue).blur()
 					})
 					LoadMats = function(){
 						$('.RecipeID').each(function(){
 							NPCMatID = $(this).attr('value')
-							$('.NPC'+NPCMatID).val(NPCMatID).trigger('input');
+							$('.NPC'+NPCMatID).val(NPCMatID).blur()
 						})
 					}
 					$('.itemdetail').each(function(){
 							RecipeID = $(this).attr('value')
-							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
-							$('.ExpertRecipe'+RecipeID).val(RecipeID).trigger('input');
-							$('.ExpertType'+RecipeID).val(RecipeID).trigger('input');
-							$('.ExpertTypeTailor'+RecipeID).val('sewing_'+RecipeID).trigger('input');
-							$('.ReqProf'+RecipeID).val(RecipeID).trigger('input');
+							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).blur();
+							$('.ExpertRecipe'+RecipeID).val(RecipeID).blur();
+							$('.ExpertType'+RecipeID).val(RecipeID).blur();
+							$('.ExpertTypeTailor'+RecipeID).val('sewing_'+RecipeID).blur();
+							$('.ReqProf'+RecipeID).val(RecipeID).blur();
 							LoadMats()
 						})
 					$('.ExpertID').each(function(){
 							ExpertMatID = $(this).attr('value')
-							$('.Expert'+ExpertMatID).val(ExpertMatID).trigger('input');
-							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).trigger('input');
+							$('.Expert'+ExpertMatID).val(ExpertMatID).blur();
+							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).blur();
 						})
 					/* CONVERT EXPIRY TIME */
 					ConvertSeconds = $('.converttime').attr('value')
@@ -523,7 +525,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.UsedIn').each(function(){
 						UsedIn = $(this).attr('value')
 						UsedIn = UsedIn.replace('RECIPE_','')
-						$(this).children().val(UsedIn).trigger('input')
+						$(this).children().val(UsedIn).blur()
 						$(this).attr('class','expired')
 					} )
 					$('.weight').each(function(){
