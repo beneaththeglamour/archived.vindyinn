@@ -365,7 +365,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('#mainitem').each(function(){
 							ItemClassValue = $(this).attr('value')
 							$scope.mainitemclass = function (mat) { 
-								return mat.ItemClass === ItemClassValue	};
+								return mat.ItemClass === 'zyarga_fragment'	};
 
 							$('.UsedInValue').each(function(){
 							UsedIn = $(this).attr('value')
