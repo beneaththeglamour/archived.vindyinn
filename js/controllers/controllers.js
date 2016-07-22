@@ -348,7 +348,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
-					$scope = $scope
+
 						
 					WhatIsTheURL = window.location.pathname
 					RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
@@ -362,11 +362,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					finalreplace = replacestart.replace(/ /g,"_");
 					$('.iteminput').val(finalreplace).trigger('input');
 					$('.mainiteminput').val(ItemClass).trigger('input');
-					$('#mainitem').each(function(){
-							ItemClassValue = $(this).attr('value')
-							$scope.mainitemclass = function (mat) { 
-								return mat.ItemClass === 'zyarga_fragment'	};
-
+					ThisIsStupod = $('#mainitem').attr('value')
+					$scope.mainitemclass = function (mat) { 	return mat.ItemClass === ThisIsStupod	};
+								
+				$('#mainitem').each(function(){
+								/*ItemClassValue = $(this).attr('value')
+							$('.mainitemclass').val(ItemClassValue).trigger('input')
+					*/
 							$('.UsedInValue').each(function(){
 							UsedIn = $(this).attr('value')
 							UsedIn = UsedIn.replace('RECIPE_','')
