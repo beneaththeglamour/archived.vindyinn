@@ -358,6 +358,7 @@
  	</div>
 	<div class="usewindow" id="tabs-4"> 	
 		<h2>Used in Expertise <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
+		<input style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 		<span ng-repeat="item in ItemVariable | filter:usedin :true">
 								<img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url('/images/icons/{{item.Icon}}.png')"/>
 								<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}} linkname" value="{{item.Name}}">{{item.Name}}</a>
