@@ -364,7 +364,7 @@
 					<th>Name</th>
 				</thead>
 				<tbody>
-					<tr ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true">
+					<tr ng-repeat="mat in RecipeMaterialInfo | filter :mainitemclass :true">
 						<td class="UsedInValue" value="{{mat.RecipeID|uppercase}}">
 							<span ng-repeat="item in ItemVariable | filter:usedin :true">
 								<img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url('/images/icons/{{item.Icon}}.png')"/>
