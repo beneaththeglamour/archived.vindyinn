@@ -348,6 +348,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
+					$('.UsedInValue').each(function(){
+							UsedIn = $(this).attr('value')
+							UsedIn = UsedIn.replace('RECIPE_','')
+						} )
+					$scope.usedin = function (item) { 
+						return item.ItemClass === UsedIn	};
+						
 					WhatIsTheURL = window.location.pathname
 					RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
 					$('#searchmenu').click(RemoveSearch)
@@ -483,12 +490,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						IsThereManuID = $(this).html()
 						
 					})
-					$scope.usedin = function (item) { 
-						$('.UsedInValue').each(function(){
-							UsedIn = $(this).attr('value')
-							UsedIn = UsedIn.replace('RECIPE_','')
-						} )
-						return item.ItemClass === UsedIn	};
 					$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);
