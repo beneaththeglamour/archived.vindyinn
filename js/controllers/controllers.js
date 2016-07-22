@@ -359,6 +359,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								$(this).children().val(UsedIn)
 							} )
 							$('.UsedInput').trigger('input')
+							$('.UsedInput').attr('class','expired')
 							$('.UsedIn').attr('class','expired')
 						}, 200)
 					};
@@ -376,6 +377,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								$(this).children().val(UsedIn)
 							} )
 							$('.UsedInput').trigger('input')
+							$('.UsedInput').attr('class','expired')
 							$('.UsedIn').attr('class','expired')
 						}, 200)
 					};
