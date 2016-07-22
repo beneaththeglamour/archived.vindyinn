@@ -194,7 +194,6 @@
 	clear:both;
 	margin:1rem;
 	border: thin solid #36393e;
-	overflow:hidden;
 }
 .usewindowbattle {
 clear: both;
@@ -520,4 +519,7 @@ font-size: 1rem;
 width: 3rem;
 text-align: center;
 font-family: raleway;
+}
+.overflow {
+	overflow:hidden;
 }
