@@ -332,7 +332,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 );
 
 ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams',
-	 function($scope, $http, $routeParams)
+	 function($scope, $http, $routeParams, $filter)
 		{    
 				$http.get('/json/ItemClassInfoV2.json').success (function(data){
 				$scope.ItemVariable = data;
@@ -486,9 +486,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.UsedInValue').each(function(){
 						UsedIn = $(this).attr('value')
 						UsedIn = UsedIn.replace('RECIPE_','')
-						$(this).children().val(UsedIn)
+						$scope.ItemVariable2 = $scope.ItemVariable2
+						$scope.ItemVariable = $filter('filter')($scope.ItemVariable2, {'ItemClass':UsedIn});
 					} )
-					$('.UsedIn').trigger('input')
 					$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);
