@@ -387,7 +387,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).trigger('input');
 						})
 					$scope.usedin = function (item) { 
-					UsedInValue').each(function(){
+					$('.UsedInValue').each(function(){
 							UsedIn = $(this).attr('value')
 							UsedIn = UsedIn.replace('RECIPE_','')
 						} ) 
