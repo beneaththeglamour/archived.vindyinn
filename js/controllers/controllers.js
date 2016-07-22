@@ -348,13 +348,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
-					$scope.usedin = function (item) { 
-						UsedIn = 'ZYARGA_FRAGMENT'
-					/*UsedInValue').each(function(){
-							UsedIn = $(this).attr('value')
-							UsedIn = UsedIn.replace('RECIPE_','')
-						} ) */
-						return item.ItemClass === UsedIn	};
+
 						
 					WhatIsTheURL = window.location.pathname
 					RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
@@ -393,11 +387,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).trigger('input');
 						})
 					$scope.usedin = function (item) { 
-						UsedIn = 'METAL_CLAMP'
-					/*UsedInValue').each(function(){
+					UsedInValue').each(function(){
 							UsedIn = $(this).attr('value')
 							UsedIn = UsedIn.replace('RECIPE_','')
-						} ) */
+						} ) 
 						return item.ItemClass === UsedIn	};
 					/* CONVERT EXPIRY TIME */
 					ConvertSeconds = $('.converttime').attr('value')
