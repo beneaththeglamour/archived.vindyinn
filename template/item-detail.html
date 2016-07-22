@@ -1,4 +1,4 @@
-<h2 ng-model="ItemVariable" id ="valueitem" value="{{ItemVariable[whichItem].Name}}" bo-text="ItemVariable[whichItem].Name"><span class="itemdetail" value="{{ItemVariable[whichItem].ItemClass|lowercase}}"></span></h2> 	
+<h2 ng-model="ItemVariable" id ="valueitem" value="{{ItemVariable[whichItem].Name}}" >{{ItemVariable[whichItem].Name}} <span class="itemdetail" value="{{ItemVariable[whichItem].ItemClass|lowercase}}"></span></h2> 	
 	<div style="background-color: rgb(158, 63, 63);font-size: 1rem;padding: 0.6rem;text-align: center;">
 		<strong>You are currently using a live yet uncompleted version of the site. (v.1.2 <a href="https://github.com/vindictusinn/vindictusinn.github.io/releases">What&apos;s New</a>)</strong>
 		<br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
@@ -98,8 +98,8 @@
 			</thead>
 			<tbody>
 				<tr bindonce ng-repeat="item in ItemVariable  | filter : {&#39;Name&#39;:mainquery}:true">
-					<td width="10px"><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" bo-value="ItemVariable[whichItem].Icon" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/></td>
-					<td width="250px" class="name"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}}" bo-text="item.Name"></a>
+					<td width="10px"><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/></td>
+					<td width="250px" class="name"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}}" bo-bind="item.Name"></a>
 						<div class="hidetooltip"><div class="border" id="{{item.Name}}"> 	<div class="itemtooltip" value="{{item.ItemClass|lowercase}}"> 				 		<div class="icon"> 			<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/> 			<span class="rare{{item.Rarity}} rarity">{{item.Name}}</span> 			<span class="bubble"> 				
 						<span class="itemtype">
 							<span class="TradeCategorySub" value="{{item.TradeCategorySub}}"></span>, 
