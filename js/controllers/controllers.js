@@ -348,6 +348,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
+					$scope.destroy()
 					var limitStep = 9;
 					$scope.limit = limitStep;
 					$scope.incrementLimit = function() {
