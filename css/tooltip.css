@@ -483,3 +483,6 @@ p.battleval {
 	 border-top: none !important;
 padding: 0rem !important;
 }
+.usedincontainer {
+	overflow:hidden;
+}
