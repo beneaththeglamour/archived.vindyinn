@@ -99,7 +99,7 @@
 			<tbody>
 				<tr ng-repeat="item in ItemVariable | filter : {&#39;Name&#39;:mainquery}:true">
 					<td width="10px"><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/></td>
-					<td width="250px" class="name"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{::item.Rarity}}">{{::item.Name}}</a>
+					<td width="250px" class="name"><a href="http://db.vindictusinn.com/db#!/item/{{::ItemVariable.indexOf(item)}}" class="rare{{::item.Rarity}}">{{::item.Name}}</a>
 						<div class="hidetooltip"><div class="border" id="{{::item.Name}}"> 	<div class="itemtooltip" value="{{::item.ItemClass|lowercase}}"> 				 		<div class="icon"> 			<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/> 			<span class="rare{{::item.Rarity}} rarity">{{::item.Name}}</span> 			<span class="bubble"> 				
 						<span class="itemtype">
 							<span class="TradeCategorySub" value="{{::item.TradeCategorySub}}"></span>, 
@@ -121,7 +121,7 @@
 				<input class="NPC{{::item.ItemClass|uppercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search" type="text">
 				<span class="RecipeID" value="{{::item.ItemClass|uppercase}}"></span>
 				<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':npcclass , 'Name':'!Gold Coin'}:true" style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
-						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{::mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
+						<a href="http://db.vindictusinn.com/db#!/item/{{::ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{::mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
 						<div class="hidetooltip">
 							<div class="border" id="{{::mat.Name}}"> 	
 								<div class="itemtooltip" value="{{::mat.ItemClass|lowercase}}"> 				 		
@@ -176,7 +176,7 @@
 							</div> 	
 						</div>
 				</span>
-				<div class="absolutely"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><span class="bottomright">{{::item.Num}}</span></a></div>
+				<div class="absolutely"><a href="http://db.vindictusinn.com/db#!/item/{{::ItemVariable.indexOf(mat)}}"><span class="bottomright">{{::item.Num}}</span></a></div>
 				</ul>
 			</span>
 					</td> 			
@@ -203,7 +203,7 @@
 			<tbody>
 				<tr ng-repeat="item in ItemVariable | filter : {&#39;Name&#39;:mainquery}:true">
 					<td width="10px"><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/></td>
-					<td width="250px" class="name"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{::item.Rarity}}">{{::item.Name}}</a>
+					<td width="250px" class="name"><a href="http://db.vindictusinn.com/db#!/item/{{::ItemVariable.indexOf(item)}}" class="rare{{::item.Rarity}}">{{::item.Name}}</a>
 						<div class="hidetooltip"><div class="border" id="{{::item.Name}}"> 	<div class="itemtooltip" value="{{::item.ItemClass|lowercase}}"> 				 		<div class="icon"> 			<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/> 			<span class="rare{{::item.Rarity}} rarity">{{::item.Name}}</span> 			<span class="bubble"> 				
 						<span class="itemtype">
 							<span class="TradeCategorySub" value="{{::item.TradeCategorySub}}"></span>, 
@@ -216,17 +216,17 @@
 		<td class="centercell" width="1%">
 			<input class="ExpertType{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="experttype" ng-init="experttype = &#39;Loading...&#39;" name="search">
 			<span ng-repeat="expertise in ManufactureRecipeInfo | filter : {'RecipeID':experttype}:true">
-				<span class="ExpertType" value="{{expertise.ManufactureID}}"></span>
+				<span class="ExpertType" value="{{::expertise.ManufactureID}}"></span>
 			</span>
 			<input class="ExpertTypeTailor{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="experttailor" ng-init="experttailor = &#39;Loading...&#39;" name="search">
 			<span ng-repeat="expertise in ManufactureRecipeInfo | filter : {'RecipeID':experttailor}:true">
-				<span class="ExpertType" value="{{expertise.ManufactureID}}"></span>
+				<span class="ExpertType" value="{{::expertise.ManufactureID}}"></span>
 			</span>
 		</td>
 		<td class="centercell" width="1%">
 			<input class="ReqProf{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="reqprof" ng-init="reqprof = &#39;Loading...&#39;" name="search">
 			<span ng-repeat="expertise in ManufactureRecipeInfo | filter : {'RecipeID':reqprof}:true">
-				{{expertise.ExperienceRequired}}
+				{{::expertise.ExperienceRequired}}
 			</span>
 		</td>
 		<td class="mats" width="400px">
@@ -235,7 +235,7 @@
 				<input class="Expert{{::item.ItemClass|uppercase}}" style="display:none;" ng-model="expertclass" ng-init="expertclass = &#39;Loading...&#39;" name="search" type="text">
 				<span class="ExpertID" value="{{::item.ItemClass|uppercase}}"></span>
 				<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':expertclass , 'Name':'!Gold Coin'}:true" style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
-						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{::mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
+						<a href="http://db.vindictusinn.com/db#!/item/{{::ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{::mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
 						<div class="hidetooltip">
 							<div class="border" id="{{::mat.Name}}"> 	
 								<div class="itemtooltip" value="{{::mat.ItemClass|lowercase}}"> 				 		
@@ -293,7 +293,7 @@
 				<input class="ExpertTailor{{::item.ItemClass|uppercase}}" style="display:none;" ng-model="expertsew" ng-init="expertsew = &#39;Loading...&#39;" name="search" type="text">
 				<span class="ExpertID" value="{{::item.ItemClass|uppercase}}"></span>
 				<span ng-repeat="mat in ItemVariable | filter : {'ItemClass':expertsew , 'Name':'!Gold Coin'}:true" style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
-						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{::mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
+						<a href="http://db.vindictusinn.com/db#!/item/{{::ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{::mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
 						<div class="hidetooltip">
 							<div class="border" id="{{::mat.Name}}"> 	
 								<div class="itemtooltip" value="{{::mat.ItemClass|lowercase}}"> 				 		
@@ -348,7 +348,7 @@
 							</div> 	
 						</div>
 				</span>
-				<div class="absolutely"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><span class="bottomright">{{::item.Num}}</span></a></div>
+				<div class="absolutely"><a href="http://db.vindictusinn.com/db#!/item/{{::ItemVariable.indexOf(mat)}}"><span class="bottomright">{{::item.Num}}</span></a></div>
 				</ul>
 			</span> 
 					</td> 			
@@ -362,7 +362,7 @@
 				<div class="UsedIn" value="{{::mat.RecipeID|uppercase}}"><input class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer" ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
 						<img class="useicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{::mat.Icon}}" style="background-image:url('/images/icons/{{::mat.Icon}}.png')"/>  
-						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}" class="rare{{::mat.Rarity}} linkname" value="{{::mat.Name}}">{{::mat.Name}}</a>
+						<a href="http://db.vindictusinn.com/db#!/item/{{::ItemVariable.indexOf(mat)}}" class="rare{{::mat.Rarity}} linkname" value="{{::mat.Name}}">{{::mat.Name}}</a>
 					</div>
 				</div>
 			</div>
@@ -375,7 +375,7 @@
 				<div class="UsedIn" value="{{::mat.RecipeID|uppercase}}"><input class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer" ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
 						<img class="useicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{::mat.Icon}}" style="background-image:url('/images/icons/{{::mat.Icon}}.png')"/>  
-						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}" class="rare{{::mat.Rarity}} linkname" value="{{::mat.Name}}">{{::mat.Name}}</a>
+						<a href="http://db.vindictusinn.com/db#!/item/{{::ItemVariable.indexOf(mat)}}" class="rare{{::mat.Rarity}} linkname" value="{{::mat.Name}}">{{::mat.Name}}</a>
 					</div>
 				</div>
 			</div>
