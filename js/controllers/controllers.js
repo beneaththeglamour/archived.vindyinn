@@ -392,6 +392,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.Expert'+ExpertMatID).val(ExpertMatID).trigger('input');
 							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).trigger('input');
 						})
+					$scope.usedin = function (item) { 
+						UsedIn = 'METAL_CLAMP'
+					/*UsedInValue').each(function(){
+							UsedIn = $(this).attr('value')
+							UsedIn = UsedIn.replace('RECIPE_','')
+						} ) */
+						return item.ItemClass === UsedIn	};
 					/* CONVERT EXPIRY TIME */
 					ConvertSeconds = $('.converttime').attr('value')
 					if (ConvertSeconds == '') {
