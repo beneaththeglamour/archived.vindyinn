@@ -1,4 +1,4 @@
-var ItemApp = angular.module('ItemApp', ['ngRoute','ItemControllers','pasvaz.bindonce']);
+var ItemApp = angular.module('ItemApp', ['ngRoute','ItemControllers']);
 replacestart = $('#valueitem').attr('value');
 
 ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
