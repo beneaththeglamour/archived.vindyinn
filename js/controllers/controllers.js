@@ -483,12 +483,12 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						IsThereManuID = $(this).html()
 						
 					})
-					$('.UsedInValue').each(function(){
-						UsedIn = $(this).attr('value')
-						UsedIn = UsedIn.replace('RECIPE_','')
-						$scope.usedin = function (item) { 
+					$scope.usedin = function (item) { 
+						$('.UsedInValue').each(function(){
+							UsedIn = $(this).attr('value')
+							UsedIn = UsedIn.replace('RECIPE_','')
+						} )
 						return item.ItemClass === UsedIn	};
-					} )
 					$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);
