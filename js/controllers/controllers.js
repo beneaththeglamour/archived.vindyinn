@@ -331,7 +331,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 		}]
 );
 
-ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams',
+ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams','$filter',
 	 function($scope, $http, $routeParams, $filter)
 		{    
 				$http.get('/json/ItemClassInfoV2.json').success (function(data){
