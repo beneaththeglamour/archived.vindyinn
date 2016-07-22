@@ -487,8 +487,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						UsedIn = $(this).attr('value')
 						UsedIn = UsedIn.replace('RECIPE_','')
 						$(this).children().val(UsedIn)
+					$filter('usedin')({'ItemClass':UsedIn},true)
 					} )
-					$('.UsedIn').trigger('input')
 					$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);
