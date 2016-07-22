@@ -362,6 +362,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.UsedInput').attr('class','expired')
 							$('.UsedIn').attr('class','expired')
 						}, 200)
+						$scope.$broadcast('suspend');
+						$scope.$digest();
+						$scope.$broadcast('resume');
 					};
 					$scope.decrementLimit = function() {
 						$scope.limit -= limitStep;
@@ -380,6 +383,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.UsedInput').attr('class','expired')
 							$('.UsedIn').attr('class','expired')
 						}, 200)
+							$scope.$broadcast('suspend');
+							$scope.$digest();
+							$scope.$broadcast('resume');
 					};
 					$scope.decrementLimit2 = function() {
 						$scope.limit2 -= limitStep;
@@ -845,7 +851,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								SetUpViewer()
 							})		
 					$('#tabs').tabs();
-					scope.$no('$destroy')
 }, 200);
 			}); 
 		}]
