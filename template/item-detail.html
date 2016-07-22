@@ -84,7 +84,7 @@
 			<li><a href="#tabs-7">Model Viewer</a></li>
 		</ul>
 	<div class="usewindow" id="tabs-1">  
-		<h2>NPC Recipes <input ng-model-options="{  debounce: 250 }"class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;acid&#39;" name="search" ></h2>
+		<h2>NPC Recipes <input class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;acid&#39;" name="search" ></h2>
 		<table style="table-layout:fixed">
 			<col style="width:67px;">
 			<col style="width:250px;">
@@ -110,15 +110,15 @@
 		<div class="craftable">Crafted by <span class="NPCCraft">{{item.NPCCraft}}</span> after completing <span class="UnlockBattle">{{item.UnlockBattle||TBA}}</span></div>
 		</td> 				 							
 		<td class="centercell" width="1%">
-			<input ng-model-options="{  debounce: 250 }"class="Recipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
+			<input class="Recipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
 			<span bindonce ng-repeat="item in RecipeMaterialInfo  | filter : {'RecipeID':npcmat , 'ItemClass':'gold'}:true">
 				<span class="fee number">{{item.Num}} </span> <img src="http://i.imgur.com/Hq3oGZI.png" style="vertical-align: middle;">
 			</span>
 		</td>
 		<td class="mats" width="400px">
-			<input ng-model-options="{  debounce: 250 }"class="Recipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
+			<input class="Recipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
 			<span bindonce ng-repeat="item in RecipeMaterialInfo  | filter : {'RecipeID':npcmat , 'ItemClass':'!gold','Type':'1'}">
-				<input ng-model-options="{  debounce: 250 }"class="NPC{{item.ItemClass|uppercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search" type="text">
+				<input class="NPC{{item.ItemClass|uppercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search" type="text">
 				<span class="RecipeID" value="{{item.ItemClass|uppercase}}"></span>
 				<span bindonce ng-repeat="mat in ItemVariable  | filter : {'ItemClass':npcclass , 'Name':'!Gold Coin'}:true" style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
 						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
@@ -186,7 +186,7 @@
 	</div>
 	
 	<div class="usewindow" id="tabs-2">
-		<h2>Expertise Recipes <input ng-model-options="{  debounce: 250 }"class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;Loading...&#39;" name="search"></h2>
+		<h2>Expertise Recipes <input class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;Loading...&#39;" name="search"></h2>
 		<table style="table-layout:fixed">
 			<col style="width:67px;">
 			<col style="width:250px;">
@@ -214,25 +214,25 @@
 		<div class="craftable">Crafted by <span class="NPCCraft">{{item.NPCCraft}}</span> after completing <span class="UnlockBattle">{{item.UnlockBattle||TBA}}</span></div>
 		</td> 				 							
 		<td class="centercell" width="1%">
-			<input ng-model-options="{  debounce: 250 }"class="ExpertType{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="experttype" ng-init="experttype = &#39;Loading...&#39;" name="search">
+			<input class="ExpertType{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="experttype" ng-init="experttype = &#39;Loading...&#39;" name="search">
 			<span bindonce ng-repeat="expertise in ManufactureRecipeInfo  | filter : {'RecipeID':experttype}:true">
 				<span class="ExpertType" value="{{expertise.ManufactureID}}"></span>
 			</span>
-			<input ng-model-options="{  debounce: 250 }"class="ExpertTypeTailor{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="experttailor" ng-init="experttailor = &#39;Loading...&#39;" name="search">
+			<input class="ExpertTypeTailor{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="experttailor" ng-init="experttailor = &#39;Loading...&#39;" name="search">
 			<span bindonce ng-repeat="expertise in ManufactureRecipeInfo  | filter : {'RecipeID':experttailor}:true">
 				<span class="ExpertType" value="{{expertise.ManufactureID}}"></span>
 			</span>
 		</td>
 		<td class="centercell" width="1%">
-			<input ng-model-options="{  debounce: 250 }"class="ReqProf{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="reqprof" ng-init="reqprof = &#39;Loading...&#39;" name="search">
+			<input class="ReqProf{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="reqprof" ng-init="reqprof = &#39;Loading...&#39;" name="search">
 			<span bindonce ng-repeat="expertise in ManufactureRecipeInfo  | filter : {'RecipeID':reqprof}:true">
 				{{expertise.ExperienceRequired}}
 			</span>
 		</td>
 		<td class="mats" width="400px">
-			<input ng-model-options="{  debounce: 250 }"class="ExpertRecipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="expertmat" ng-init="expertmat = &#39;Loading...&#39;" name="search">
+			<input class="ExpertRecipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="expertmat" ng-init="expertmat = &#39;Loading...&#39;" name="search">
 			<span bindonce ng-repeat="item in ManufactureMaterialInfo  | filter : {'RecipeID':expertmat , 'Type':1}:true">
-				<input ng-model-options="{  debounce: 250 }"class="Expert{{item.ItemClass|uppercase}}" style="display:none;" ng-model="expertclass" ng-init="expertclass = &#39;Loading...&#39;" name="search" type="text">
+				<input class="Expert{{item.ItemClass|uppercase}}" style="display:none;" ng-model="expertclass" ng-init="expertclass = &#39;Loading...&#39;" name="search" type="text">
 				<span class="ExpertID" value="{{item.ItemClass|uppercase}}"></span>
 				<span bindonce ng-repeat="mat in ItemVariable  | filter : {'ItemClass':expertclass , 'Name':'!Gold Coin'}:true" style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
 						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
@@ -290,7 +290,7 @@
 							</div> 	
 						</div>
 				</span>
-				<input ng-model-options="{  debounce: 250 }"class="ExpertTailor{{item.ItemClass|uppercase}}" style="display:none;" ng-model="expertsew" ng-init="expertsew = &#39;Loading...&#39;" name="search" type="text">
+				<input class="ExpertTailor{{item.ItemClass|uppercase}}" style="display:none;" ng-model="expertsew" ng-init="expertsew = &#39;Loading...&#39;" name="search" type="text">
 				<span class="ExpertID" value="{{item.ItemClass|uppercase}}"></span>
 				<span bindonce ng-repeat="mat in ItemVariable  | filter : {'ItemClass':expertsew , 'Name':'!Gold Coin'}:true" style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
 						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
@@ -357,7 +357,7 @@
 		</table>
  	</div>
 	<div class="usewindow overflow" id="tabs-3"> 	
-		<h2>Used in Crafting <input ng-model-options="{  debounce: 250 }"class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
+		<h2>Used in Crafting <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
 			<div bindonce ng-repeat="mat in RecipeMaterialInfo  | filter : {'ItemClass':mainitemclass}:true | limitTo : limit">
 				<div class="UsedIn" value="{{mat.RecipeID|uppercase}}"><input ng-model-options="{  updateOn: blur }"class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer" bindonce ng-repeat="mat in ItemVariable  | filter : {'ItemClass':usedin}:true">
