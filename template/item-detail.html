@@ -219,7 +219,7 @@
 				<span class="ExpertType" value="{{expertise.ManufactureID}}"></span>
 			</span>
 			<input class="ExpertTypeTailor{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="experttailor" ng-init="experttailor = &#39;Loading...&#39;" name="search">
-			<span bindonce ng-repeat="expertise in ManufactureRecipeInfo  | filter : {'RecipeID':experttailor}:true track by exoertise.id">
+			<span bindonce ng-repeat="expertise in ManufactureRecipeInfo  | filter : {'RecipeID':experttailor}:true track by expertise.id">
 				<span class="ExpertType" value="{{expertise.ManufactureID}}"></span>
 			</span>
 		</td>
