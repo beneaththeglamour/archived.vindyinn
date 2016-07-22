@@ -386,11 +386,11 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.Expert'+ExpertMatID).val(ExpertMatID).trigger('input');
 							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).trigger('input');
 						})
-					$scope.usedin = function (item) { 
 					$('.UsedInValue').each(function(){
 							UsedIn = $(this).attr('value')
 							UsedIn = UsedIn.replace('RECIPE_','')
 						} ) 
+					$scope.usedin = function (item) { 
 						return item.ItemClass === UsedIn	};
 					/* CONVERT EXPIRY TIME */
 					ConvertSeconds = $('.converttime').attr('value')
