@@ -363,15 +363,15 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.iteminput').val(finalreplace).trigger('input');
 					$('.mainiteminput').val(ItemClass).trigger('input');
 					ThisIsStupod = $('#mainitem').attr('value')
-					$scope.mainitemclass = function (mat) { 	return mat.ItemClass === ThisIsStupod	};
+					$scope.mainitemclass = function (mat) { 	return mat.ItemClass === ThisIsStupod	
+					console.log('Yes You can run')};
 					console.log('I sweartoGod')
 					$('.UsedInValue').each(function(){
 							console.log('I ran right Mommy?')
 							UsedIn = $(this).attr('value')
 							UsedIn = UsedIn.replace('RECIPE_','')
 								} ) 
-							$scope.usedin = function (item) { 
-								return item.ItemClass === UsedIn	};
+					$scope.usedin = function (item) { return item.ItemClass === UsedIn	};
 								
 				$('#mainitem').each(function(){
 								/*ItemClassValue = $(this).attr('value')
