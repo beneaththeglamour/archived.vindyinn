@@ -352,12 +352,14 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$scope.limit = limitStep;
 					$scope.incrementLimit = function() {
 						$scope.limit += limitStep;
-						$('.UsedIn').each(function(){
-							UsedIn = $(this).attr('value')
-							UsedIn = UsedIn.replace('RECIPE_','')
-							$(this).children().val(UsedIn).trigger('input')
-							$(this).attr('class','expired')
-						} )
+						setTimeout(function(){
+							$('.UsedIn').each(function(){
+								UsedIn = $(this).attr('value')
+								UsedIn = UsedIn.replace('RECIPE_','')
+								$(this).children().val(UsedIn).trigger('input')
+								$(this).attr('class','expired')
+							} )
+						}, 1000)
 					};
 					$scope.decrementLimit = function() {
 						$scope.limit -= limitStep;
