@@ -364,7 +364,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.mainiteminput').val(ItemClass).trigger('input');
 					ThisIsStupod = $('#mainitem').attr('value')
 					$scope.mainitemclass = function (mat) { 	return mat.ItemClass === ThisIsStupod	};
+					console.log('I sweartoGod')
 					$('.UsedInValue').each(function(){
+							console.log('I ran right Mommy?')
 							UsedIn = $(this).attr('value')
 							UsedIn = UsedIn.replace('RECIPE_','')
 								} ) 
