@@ -348,6 +348,14 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
+					var limitStep = 5;
+					$scope.limit = limitStep;
+					$scope.incrementLimit = function() {
+						$scope.limit += limitStep;
+					};
+					$scope.decrementLimit = function() {
+						$scope.limit -= limitStep;
+					};
 					WhatIsTheURL = window.location.pathname
 					RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
 					$('#searchmenu').click(RemoveSearch)
@@ -483,9 +491,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						IsThereManuID = $(this).html()
 						
 					})
+					
 					$('.UsedIn').each(function(){
 						UsedIn = $(this).attr('value')
-						UsedIn = UsedIn.replace('recipe_','')
+						UsedIn = UsedIn.replace('RECIPE_','')
 						$(this).children().val(UsedIn).trigger('input')
 					} )
 					$('.weight').each(function(){
