@@ -359,7 +359,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								$(this).children().val(UsedIn).trigger('input')
 								$(this).attr('class','expired')
 							} )
-						}, 1000)
+						}, 500)
 					};
 					$scope.decrementLimit = function() {
 						$scope.limit -= limitStep;

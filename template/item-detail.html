@@ -357,11 +357,12 @@
 		</table>
  	</div>
 	<div class="usewindow" id="tabs-4"> 	
-		<h2>Used in Expertise <input class="mainitemclass" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
+		<h2>Used in Expertise <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
 			<div ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true | limitTo : limit">
-				<div class="UsedIn" value="{{mat.RecipeID|uppercase}}"><input class="UsedInput" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
+				<div class="UsedIn" value="{{mat.RecipeID|uppercase}}"><input class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<p ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
-						{{mat.Name}}
+						<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{mat.Icon}}" style="background-image:url('/images/icons/{{mat.Icon}}.png')"/>  
+						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}" class="rare{{mat.Rarity}} linkname" value="{{mat.Name}}">{{mat.Name}}</a>
 					</p>
 				</div>
 			</div>
