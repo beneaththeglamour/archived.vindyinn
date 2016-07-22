@@ -348,7 +348,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){
-					var limitStep = 9;
+					var limitStep = 15;
 					$scope.limit = limitStep;
 					$scope.incrementLimit = function() {
 						$scope.limit += limitStep;
@@ -356,10 +356,11 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.UsedIn').each(function(){
 								UsedIn = $(this).attr('value')
 								UsedIn = UsedIn.replace('RECIPE_','')
-								$(this).children().val(UsedIn).trigger('input')
-								$(this).attr('class','expired')
+								$(this).children().val(UsedIn)
 							} )
-						}, 500)
+							$('.UsedInput').trigger('input')
+							$('.UsedIn').attr('class','expired')
+						}, 200)
 					};
 					$scope.decrementLimit = function() {
 						$scope.limit -= limitStep;
