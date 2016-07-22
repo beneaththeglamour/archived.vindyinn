@@ -358,8 +358,8 @@
  	</div>
 	<div class="usewindow overflow" id="tabs-3"> 	
 		<h2>Used in Crafting <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
-			<div bindonce ng-repeat="mat in RecipeMaterialInfo  | filter : {'ItemClass':mainitemclass}:true  | limitTo : limit">
-				<div class="UsedIn" value="{{mat.RecipeID|uppercase}}"><input ng-model-options="{  updateOn: blur }"class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
+			<div bindonce ng-repeat="recipe in RecipeMaterialInfo  | filter : {'ItemClass':mainitemclass}:true track by recipe.id | limitTo : limit">
+				<div class="UsedIn" value="{{recipe.RecipeID|uppercase}}"><input ng-model-options="{  updateOn: blur }"class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer" bindonce ng-repeat="mat in ItemVariable  | filter : {'ItemClass':usedin}:true track by mat.id">
 						<img class="useicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{mat.Icon}}" style="background-image:url('/images/icons/{{mat.Icon}}.png')"/>  
 						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}" class="rare{{mat.Rarity}} linkname" value="{{mat.Name}}">{{mat.Name}}</a>
