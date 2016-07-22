@@ -359,7 +359,7 @@
 	<div class="usewindow" id="tabs-4"> 	
 		<h2>Used in Expertise <input class="mainitemclass" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
 			<div ng-repeat="mat in RecipeMaterialInfo | filter : {'ItemClass':mainitemclass}:true | limitTo : 10 : 0">
-				<div class="UsedIn" value="{{mat.RecipeID}}"><input class="UsedInput" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
+				<div class="UsedIn" value="{{mat.RecipeID|uppercase}}"><input class="UsedInput" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<p ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
 						{{mat.Name}}
 					</p>
