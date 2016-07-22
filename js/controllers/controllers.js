@@ -845,7 +845,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								SetUpViewer()
 							})		
 					$('#tabs').tabs();
-					
+					$scope.$no('$destroy')
 }, 200);
 			}); 
 		}]
