@@ -501,7 +501,7 @@ margin: 0.4rem;
 margin-right: 1rem;
 vertical-align: middle;
 }
-.less a {
+.less  {
 	display: block;
 float: right;
 background-color: rgb(23, 24, 26);
@@ -511,7 +511,7 @@ width: 3rem;
 text-align: center;
 font-family: raleway;
 }
-.more a {
+.more  {
 	background-color: rgb(158, 63, 63);
 padding: 0.3rem 0.6rem;
 float: right;
