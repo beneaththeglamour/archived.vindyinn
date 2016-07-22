@@ -486,8 +486,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.UsedInValue').each(function(){
 						UsedIn = $(this).attr('value')
 						UsedIn = UsedIn.replace('RECIPE_','')
-						$scope.ItemVariable2 = $scope.ItemVariable2
-						$scope.ItemVariable = $filter('filter')($scope.ItemVariable2, {'ItemClass':UsedIn});
+						$scope.usedin = function (item) { 
+							return item === 'SINISTER_HELM' || item === 'SINISTER_HELM'; 
+						};
 					} )
 					$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
