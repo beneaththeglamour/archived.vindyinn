@@ -365,6 +365,12 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('#mainitem').each(function(){
 							ItemClassValue = $(this).attr('value')
 							$('.mainitemclass').val(ItemClassValue).trigger('input')
+							$('.UsedInValue').each(function(){
+							UsedIn = $(this).attr('value')
+							UsedIn = UsedIn.replace('RECIPE_','')
+								} ) 
+							$scope.usedin = function (item) { 
+								return item.ItemClass === UsedIn	};
 					})
 					LoadMats = function(){
 						$('.RecipeID').each(function(){
@@ -386,12 +392,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.Expert'+ExpertMatID).val(ExpertMatID).trigger('input');
 							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).trigger('input');
 						})
-					$('.UsedInValue').each(function(){
-							UsedIn = $(this).attr('value')
-							UsedIn = UsedIn.replace('RECIPE_','')
-						} ) 
-					$scope.usedin = function (item) { 
-						return item.ItemClass === UsedIn	};
+					
 					/* CONVERT EXPIRY TIME */
 					ConvertSeconds = $('.converttime').attr('value')
 					if (ConvertSeconds == '') {
