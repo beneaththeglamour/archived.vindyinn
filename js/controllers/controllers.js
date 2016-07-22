@@ -365,6 +365,23 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$scope.decrementLimit = function() {
 						$scope.limit -= limitStep;
 					};
+					
+					$scope.limit2 = limitStep;
+					$scope.incrementLimit2 = function() {
+						$scope.limit2 += limitStep;
+						setTimeout(function(){
+							$('.UsedIn').each(function(){
+								UsedIn = $(this).attr('value')
+								UsedIn = UsedIn.replace('RECIPE_','')
+								$(this).children().val(UsedIn)
+							} )
+							$('.UsedInput').trigger('input')
+							$('.UsedIn').attr('class','expired')
+						}, 200)
+					};
+					$scope.decrementLimit2 = function() {
+						$scope.limit2 -= limitStep;
+					};
 					WhatIsTheURL = window.location.pathname
 					RemoveSearch = function(){$('#searchmenu').children().children().first().attr('value','')}
 					$('#searchmenu').click(RemoveSearch)

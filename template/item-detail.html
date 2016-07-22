@@ -369,7 +369,19 @@
 			<a href ng-click="incrementLimit()" class="more">more</a>
 			<a href ng-click="decrementLimit()" class="less">less</a>
 	</div>
-	<div class="usewindow" id="tabs-4"> 		<h2>Used in Expertise</h2> 	<p>Coming Soon</p></div>
+	<div class="usewindow" id="tabs-4"> 		
+		<h2>Used in Expertise</h2>
+		<div ng-repeat="mat in ManufactureMaterialInfo | filter : {'ItemClass':mainitemclass}:true | limitTo : limit2">
+				<div class="UsedIn" value="{{mat.RecipeID|uppercase}}"><input class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
+					<div class="usedincontainer" ng-repeat="mat in ItemVariable | filter : {'ItemClass':usedin}:true">
+						<img class="useicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{mat.Icon}}" style="background-image:url('/images/icons/{{mat.Icon}}.png')"/>  
+						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}" class="rare{{mat.Rarity}} linkname" value="{{mat.Name}}">{{mat.Name}}</a>
+					</div>
+				</div>
+			</div>
+			<a href ng-click="incrementLimit2()" class="more">more</a>
+			<a href ng-click="decrementLimit2()" class="less">less</a>
+	</div>
 	<div class="usewindow" id="tabs-5"> 		<h2>Drop Locations</h2> 	<p>Coming Soon</p></div>
 	<div class="usewindow" id="tabs-6"> 		<h2>Comments</h2> 	<p>Coming Soon</p></div>
 	<div class="usewindow" id="tabs-7">
