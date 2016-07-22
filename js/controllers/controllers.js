@@ -361,6 +361,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.UsedInput').trigger('input')
 							$('.UsedInput').attr('class','expired')
 							$('.UsedIn').attr('class','expired')
+							$on('$destroy'))
 						}, 200)
 					};
 					$scope.decrementLimit = function() {
@@ -845,6 +846,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								SetUpViewer()
 							})		
 					$('#tabs').tabs();
+					
 }, 200);
 			}); 
 		}]
