@@ -92,12 +92,12 @@
     {	
 		"Battle":"Source of the Rumor", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Kobold Cloth","Cloth","Broken Arrow","Ice Crystal","Leather","Daring Enchant Scroll","Kobold Bomb Sack","Kobold Slingshot Bullet","Magic Powder"]	
 	},
     {	
 		"Battle":"Kobold Chief", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Magic Powder","Spider Web","Cloth","Average Kobold Cloth","Leather","Hoarfrost Hollow Erg Crystal","Fire Spirit Remnant","Kobold Shoulder Plates","Enhancement Stone","Northern Pike Greaves","Emuloch Horned Helm","Light Erg Crystal"]	
 	},
     {	
 		"Battle":"Dethrone the White Tyrant", 
