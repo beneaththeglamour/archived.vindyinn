@@ -32,62 +32,62 @@
     {	
 		"Battle":"Decisive Battle", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Bryialne Heart","Magic Powder","Life Erg Crystal","Gnoll Leather Tunic","Chieftain Shoulder Armor","Crimson Rage Tunic"]	
 	},
     {	
 		"Battle":"Revenge", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Brown Gnoll Leather","Iron Ore","Spider Web","Magic Powder","Cloth","Gold Gnoll Leather","Spiked Gnoll Club","Leather","Jagged Tooth Staff","Dawn Ring","Gauntlet Ticket: Perilous Ruins","Enhancement Stone"]	
 	},
     {	
 		"Battle":"Hoarfrost Hollow", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Life Erg Crystal","Spirit Remnant","Leather","Hoarfrost Hollow Erg Crystal","Broken Arrow","Studded Leather Vest","Disciple's Enchant Scroll","Studded Leather Skirt","Enhancement Elixir","Studded Leather Gloves"]	
 	},
     {	
 		"Battle":"Meet the Cave Spider", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Spider Web","Red Spider Web","Crimson Spider Web","Spider Cloth Gloves","Spider Cloth Tunic","Powerful Enchant Scroll"]	
 	},
     {	
 		"Battle":"Southern Rock Cliff", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Hoarfrost Hollow Erg Crystal","Spider Web","Blood Silk Shoes","Gauntlet Ticket: Hoarfrost Hollow","Blood Silk Headband","Kobold Battle Axe","Average Kobold Cloth"]	
 	},
     {	
 		"Battle":"Western Ice Passage", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Cloth","Battle Mage Staff","Kobold Slingshot Bullet","Slingshot","Enhancement Stone"]	
 	},
     {	
 		"Battle":"Another Slingshot", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Leather","Cloth","Spider Web","Magic Powder","Life Erg Crystal","Broken Arrow","Kobold Slingshot Bullet","Slingshot","Modified Slingshot","Enhancement Stone","Ebeloch Staff"]	
 	},
     {	
 		"Battle":"Final Slingshot", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Kobold Double Bladed Axe","Acidic Poison Pouch","Broken Arrow","Epic Enhancement Stone","Kobold Bomb Sack","Kobold Enchant Scroll","Slingshot","Enhancement Elixir","Kobold Slingshot Bullet","Suffering Enchant Scroll","Kobold Winter Pants","Kobold Winter Boots","Kobold Winter Jacket"]	
 	},
     {	
 		"Battle":"Fomorian Order", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Enhancement Stone","Kobold Cloth","Agile Enchant Scroll","Average Kobold Cloth","Kobold Leather Suit","Black Kobold Hood","Epic Enhancement Stone","Cloth"]	
 	},
     {	
 		"Battle":"Red Ruins", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Brown Gnoll Leather","Life Erg Crystal","Light Plate Greaves","Light Plate Helm","Bingo Ticket","Light Plate Boots"]	
 	},
     {	
 		"Battle":"Frost Stones", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Spider Web","Night Shade","Life Erg Crystal","Enhancement Stone","Hoarfrost Hollow Erg Crystal","Fine Iron Ore","Copper Ore","Enhancement Elixir","Silver Ore","Amethyst"]	
 	},
     {	
 		"Battle":"Brynn's Research", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Cloth","Average Kobold Cloth","Magic Powder","Eflame Heart","Spirit Remnant","Hoarfrost Hollow Erg Crystal","Broken Northern Pike Boots","Kobold Red Metal","Enhancement Stone","Broken Northern Pike Greaves"]	
 	},
     {	
 		"Battle":"Source of the Rumor", 
@@ -721,6 +721,181 @@
 	},
     {	
 		"Battle":"Requiem of the Lost One", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Crescent Moon Island", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Serpent King Lakoria", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Earth Shaker", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Wasp Hive", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Chief of Death", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"A Ruler's Refuge", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ship Graveyard", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"From the Depths", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Stormy Seas", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Lost and Damned", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Tone Deaf Siren", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Treasure Hunt", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Devil in the Water", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Buoy Hunt", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Throw!", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Twilight Desert", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Princess of the Desert", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Guardian", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Death's Shadow", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Desert Passage", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Cave of the Reaper", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Voices in the Dark", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Way Home", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Endless Questions", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Underground City", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Memory of the Past", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Last Meeting", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Misty Summit", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Moonlight Peak", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Pinnacle", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Deep Mines", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Charles Expedition", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"No Man's Mine", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Crumbling Mine", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"END", 
 		"Class":"quest_",
 		"Drops":[]	
 	}
