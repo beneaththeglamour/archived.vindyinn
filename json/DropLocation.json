@@ -652,7 +652,7 @@
     {	
 		"Battle":"Ahglan the Golem", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Blue Ore Crystal","Clear Ore Crystal","Old Fabric","Magical Ore Fragment","Luminous Crystal Powder","Bingo Ticket","Yellow Ore Crystal","Mysterious Emblem","Red Ore Crystal"]	
 	},
     {	
 		"Battle":"Gatekeeper of the Catacombs", 
@@ -672,7 +672,7 @@
     {	
 		"Battle":"The Evil One", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Bingo Ticket","Lionotus Leather","Lionotus Claw","Lionotus Tooth","Verafim's Staff"]	
 	},
     {	
 		"Battle":"Colru the Golem", 
@@ -697,7 +697,7 @@
     {	
 		"Battle":"Fate and Destiny", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Shattered Lion Shoulder","Bingo Ticket","Worn-Down Knightly Boots","Dented Swordsman's Shield","Well-balanced Enchant Scroll"]	
 	},
     {	
 		"Battle":"Traces of Battle", 
@@ -707,7 +707,7 @@
     {	
 		"Battle":"Rocheste by Sea", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Muir Skin","Muir Fin","Paradise Enhancement Stone"]	
 	},
     {	
 		"Battle":"Queen of the Cursed", 
