@@ -102,7 +102,7 @@
     {	
 		"Battle":"Dethrone the White Tyrant", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Savage Leather Pants","Exquisite Savage Leather Gloves","Savage Leather Chestpiece","Enhancement Elixir","Polar Bear Front Claw","Epic Enhancement Stone","Bingo Ticket"]	
 	},
     {	
 		"Battle":"Sports Day Fruit Fight", 
@@ -117,7 +117,7 @@
     {	
 		"Battle":"Prepare for Counterattack", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Fire Spirit Remnant","Hardy Enchant Scroll","Cloth","Epic Enhancement Stone","Average Kobold Leather","Leather","Advanced Enhancement Stone","Kobold Leather Suit","Spider Cave Scroll","Kobold Red Metal","Kobold Greaves","Blade Armor Fragment","Enhancement Elixir","Northern Pike Greaves","Avenger Eye"]	
 	},
     {	
 		"Battle":"A Town Engulfed", 
@@ -895,7 +895,217 @@
 		"Drops":[]	
 	},
     {	
-		"Battle":"END", 
+		"Battle":"Artifical Men", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Cliff Crystal", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Under the Moonlight", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Just to be Sure", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Mine Rendezvous", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Vanishing Magician", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"A Conversation", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Bizarre Machine", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Into the Abyss (Raid)", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Into the Abyss", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Desolate Malina", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Gates of Hell", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Burning Temple", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"God of Death", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Autumn Reed Bed", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Deciduous Forest", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Glowing Plant", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Garden Guardian", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Orders from Above", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"A Friend Once Lost", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"River on Fire", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"The Fallen Guardian", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Summoning Remnant", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"En Route", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"A Place of Loss", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Statue at the Summit", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Lochlann Plains Entrance", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Abandoned Ruins", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Facing the Inevitable", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ben Chenner Entrance", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ben Chenner Trailhead", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Ben Chenner Summit", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Lochlann Plains", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Garden of Tears", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Corrupted Queen", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Island Ruins", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Twists in Time", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Temple of the Fallen Moon", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Light and Shadows", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Radiance", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Shining Lugh", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Agony and Despair", 
+		"Class":"quest_",
+		"Drops":[]	
+	},
+    {	
+		"Battle":"Under the Surface", 
 		"Class":"quest_",
 		"Drops":[]	
 	}
