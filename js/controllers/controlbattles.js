@@ -86,6 +86,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								MenuList()
 							})	
 					$('#tabs').tabs();
+					Raid = $('.raid').attr('value');
+					if (Raid == 'nightmare') {
+						$(this).html('<img src="/misc/raid.png">')
+					}
 					$('#battletabs').tabs();
 					$('.battlebanner').each(function(){
 						QuestID = $(this).attr('value')
