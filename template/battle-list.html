@@ -12,7 +12,7 @@
 	</thead> 
 	<tbody> 	
 		<tr class="itemlist" ng-repeat="item in ItemVariable"> 		
-			<td><a href="#!/battle/{{ItemVariable.indexOf(item)}}"><span class="battlename" value="{{item.Name|uppercase}}"></span></a></td>
+			<td><a href="#!/battle/{{ItemVariable.indexOf(item)}}"><span class="battlename" value="{{item.Name|uppercase}}"></span> <span class="raid" value="{{item.QuestGrade}}"></span></a></td>
 			<td class="centercell">{{item.Level}}</td>
 			<td class="centercell"><span class="area" value="{{item.STAGE|uppercase}}"></span></td>
 		</tr> 
