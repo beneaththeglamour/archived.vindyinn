@@ -6,8 +6,10 @@
 	<div class="borderbattle"> 	
 		<div ng-model="ItemVariable" class="itemtooltipbattle"> 				 		
 			<div class="battlebanner" value="{{ItemVariable[whichItem].ID}}">
-				<span class="battlename title" value="{{ItemVariable[whichItem].Name|uppercase}}"></span>
-				<span class="raid" value="{{ItemVariable[whichItem].QuestGrade}}"></span>
+				<div class="title">
+					<span class="battlename" value="{{ItemVariable[whichItem].Name|uppercase}}"></span>
+					<span class="raid" value="{{ItemVariable[whichItem].QuestGrade}}"></span>
+				</div>
 			</div>	 		
 			<div id="battletabs">
 				<ul>

@@ -9,7 +9,12 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
 						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}	
-				
+				$('.raid').each(function(){
+						Raid = $(this).attr('value');
+						if (Raid == 'nightmare') {
+							$(this).html('<img src="/images/misc/raid.png">')
+						}
+					} )
 				var menu = "/js/battlename.js";
 							$.getScript( menu, function() {
 								BattleTitle()
@@ -89,7 +94,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.raid').each(function(){
 						Raid = $(this).attr('value');
 						if (Raid == 'nightmare') {
-							$(this).html('<img src="/misc/raid.png">')
+							$(this).html('<img src="/images/misc/raid.png">')
 						}
 					} )
 					
