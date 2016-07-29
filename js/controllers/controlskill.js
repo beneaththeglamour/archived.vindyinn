@@ -44,7 +44,17 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								if (checkclasses == '1446') {$(this).html('Fiona, Evie, Vella, Lynn, Arisha, Delia')}
 								if (checkclasses == '601') {$(this).html('Lann, Karok, Kai, Hurk, Sylas')}
 						})
-				
+				$('.skillcategory').each(function(){
+					SkillCategory = $(this).attr('value')
+					if (SkillCategory == 'ALL') {$(this).html('All')}
+					if (SkillCategory == 'BATTLE') {$(this).html('Combat')}
+					if (SkillCategory == 'EQUIPMENT') {$(this).html('Requipment')}
+					if (SkillCategory == 'RECOVERY') {$(this).html('Restoration')}
+					if (SkillCategory == 'SOCIETY') {$(this).html('Community')}
+					if (SkillCategory == 'SP') {$(this).html('SP')}
+					if (SkillCategory == 'TRAINING') {$(this).html('Training')}
+					if (SkillCategory == 'VOCATION') {$(this).html('Path')}
+				} )
 				var skillnamejs = "/js/skillname.js";
 							$.getScript( skillnamejs, function() {
 								ReplaceSkillName()
@@ -108,6 +118,17 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								if (checkclasses == '1446') {$(this).html('Fiona, Evie, Vella, Lynn, Arisha, Delia')}
 								if (checkclasses == '601') {$(this).html('Lann, Karok, Kai, Hurk, Sylas')}
 						})
+					$('.skillcategory').each(function(){
+						SkillCategory = $(this).attr('value')
+						if (SkillCategory == 'ALL') {$(this).html('All')}
+						if (SkillCategory == 'BATTLE') {$(this).html('Combat')}
+						if (SkillCategory == 'EQUIPMENT') {$(this).html('Requipment')}
+						if (SkillCategory == 'RECOVERY') {$(this).html('Restoration')}
+						if (SkillCategory == 'SOCIETY') {$(this).html('Community')}
+						if (SkillCategory == 'SP') {$(this).html('SP')}
+						if (SkillCategory == 'TRAINING') {$(this).html('Training')}
+						if (SkillCategory == 'VOCATION') {$(this).html('Path')}
+					} )
 					var menu = "/js/skillname.js";
 							$.getScript( menu, function() {
 								ReplaceSkillName()
