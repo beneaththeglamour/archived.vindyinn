@@ -8,19 +8,38 @@ ItemControllers.controller("ListController", ['$scope','$http',
 
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
-
+				$('.hidetooltip').each(function(){
+							$(this).children().hide()
+							$(this).prev().mouseover(function(){
+								$(this).next().children().show()
+								$(this).next().show()
+								})
+							$(this).prev().mouseout(function(){
+								$(this).next().children().hide()
+								$(this).next().hide()
+								})
+						})
 				
-				var menu = "/js/skillname.js";
-							$.getScript( menu, function() {
+				var skillnamejs = "/js/skillname.js";
+							$.getScript( skillnamejs, function() {
 								ReplaceSkillName()
 							})	
+				var skilldescjs = "/js/skilldesc.js";
+							$.getScript( skilldescjs, function() {
+								ReplaceSkillDesc()
+									$('.skilldesc').each(function() {
+										GetReadytoReplaceDesc = $(this).html();
+										ReplacedDesc = GetReadytoReplaceDesc.replace(/\\n/g, "<br/>")
+										$(this).html(ReplacedDesc)
+									})
+					})	
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
 							})	
 							
 				console.log('DataTable loaded.')
-				$('.skillid').DataTable();
+				$('.itemtable').DataTable();
 	
 }, 200);
 			}); 
