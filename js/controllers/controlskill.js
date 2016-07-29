@@ -23,23 +23,23 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				var skillnamejs = "/js/skillname.js";
 							$.getScript( skillnamejs, function() {
 								ReplaceSkillName()
+								var skilldescjs = "/js/skilldesc.js";
+										$.getScript( skilldescjs, function() {
+											ReplaceSkillDesc()
+												$('.skilldesc').each(function() {
+													GetReadytoReplaceDesc = $(this).html();
+													ReplacedDesc = GetReadytoReplaceDesc.replace(/\\n/g, "<br/>")
+													$(this).html(ReplacedDesc)
+												})
+											console.log('DataTable loaded.')
+											$('.itemtable').DataTable();
+								})	
 							})	
-				var skilldescjs = "/js/skilldesc.js";
-							$.getScript( skilldescjs, function() {
-								ReplaceSkillDesc()
-									$('.skilldesc').each(function() {
-										GetReadytoReplaceDesc = $(this).html();
-										ReplacedDesc = GetReadytoReplaceDesc.replace(/\\n/g, "<br/>")
-										$(this).html(ReplacedDesc)
-									})
-					})	
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
 							})	
 							
-				console.log('DataTable loaded.')
-				$('.itemtable').DataTable();
 	
 }, 200);
 			}); 
