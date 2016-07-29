@@ -1,8 +1,8 @@
 var EnemyApp = angular.module('EnemyApp', ['ngRoute','EnemyControllers','ngDisqus']);
 replacestart = $('#valueitem').attr('value');
 
-EnemyApp.config(['$routeProvider', function($routeProvider) {
-	$locationProvider.hashPrefix('!');
+EnemyApp.config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
+  $locationProvider.hashPrefix('!');
   $routeProvider.
   when('/list', {
     templateUrl: 'template/enemy-list.html',
