@@ -185,9 +185,9 @@ MenuList = function() {
 	'</li>'+
 	'<li><a href="/enemies">Enemies</a></li>'+
 	'<li><a href="/battles">Battles</a></li>'+
-	'<li><a href="/">Maps</a></li>'+
-	'<li><a href="/">Stories</a></li>'+
-	'<li><a href="/">NPCs</a></li>'+
+	'<li class="comingsoon"><a href="/">Maps</a></li>'+
+	'<li class="comingsoon"><a href="/">Stories</a></li>'+
+	'<li class="comingsoon"><a href="/">NPCs</a></li>'+
 '</ul>')			
 
 $.fn.menumaker = function(options) {
