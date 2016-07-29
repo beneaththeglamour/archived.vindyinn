@@ -10,6 +10,10 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				WhatIsTheURL = window.location.pathname
 
 				
+				var menu = "/js/skillname.js";
+							$.getScript( menu, function() {
+								ReplaceSkillName()
+							})	
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
