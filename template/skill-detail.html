@@ -6,41 +6,12 @@
 	<div class="border"> 	
 		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
 			<div class="icon"> 			
-								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icon/{{ItemVariable[whichItem].IconType}}.png)"/> 			
-								<span class="Beginner rarity itemname"  value="{{ItemVariable[whichItem].SkillName}}">{{ItemVariable[whichItem].SkillName}}</span> 			
-								<span class="bubble"> 				
-									<span class="itemtype">Rank <span class="RankEnum" value="{{ItemVariable[whichItem].EnchantLevel}}"></span> <span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span> Enchant</span> 				
-									<span id="sell">Sell Price</span> 				
-									<span class="right">
-										<img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack">
-										<span class="number sellingfor">500</span>
-									</span> 			
-								</span> 					 			
-								<span class="bubble Beginner">Beginner 						
-								</span> 				 		
-							</div> 			 				
-							<div class="containres"> 				 			
-								<span class="restriction classres"><span class="classresvalue"><span class="itemconstraint" value="{{ItemVariable[whichItem].ItemConstraintDesc|uppercase}}"></span></span></span> 		
-							</div> 			 		
-							<div class="desc">
+								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/{{ItemVariable[whichItem].IconType}}.png)"/> 			
+								<span class="Beginner rarity itemname"  value="{{ItemVariable[whichItem].SkillName}}">{{ItemVariable[whichItem].SkillName}}</span> 							 							 		
+							</div> 			 						 		
+							<div class="skilldesc">
 							{{ItemVariable[whichItem].SkillDescription}}
-							<div class="enchantid">
-								<span class="itemname" value="{{ItemVariable[whichItem].EnchantClass}}"></span>
-								<span class="prefixrank"><span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span><span class="RankEnum" value="{{ItemVariable[whichItem].EnchantLevel}}"></span>Rank</span>
 							</div>
-							<div class="enchantinfo">
-								<ul class="enchantstatlist">
-								<input class="Input{{ItemVariable[whichItem].EnchantClass}}" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;Loading...&#39;" name="search">
-									<span ng-repeat="item in ItemVariable2 | filter : {'EnchantClass':mainquery}:true">
-										<li>
-											<span class="enchantstatconstraint" value="{{item.ConditionDesc|uppercase}}"> :</span>
-											<span class="enchantstat" value="{{item.StatDesc|uppercase}}"></span>
-										</li>
-									</span>
-								</ul>
-							</div>
-							</div>
-							<span class="trade" value="{{ItemVariable[whichItem].TradeRestirction}}"></span> 
 		</div> 	
 	</div> 		 	
 	<div class="moreinfobubble"> 		
