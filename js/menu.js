@@ -186,9 +186,6 @@ MenuList = function() {
 	'</li>'+
 	'<li><a href="/enemies">Enemies</a></li>'+
 	'<li><a href="/battles">Battles</a></li>'+
-	'<li class="comingsoon"><a href="/">Maps</a></li>'+
-	'<li class="comingsoon"><a href="/">Stories</a></li>'+
-	'<li class="comingsoon"><a href="/">NPCs</a></li>'+
 	'<li><a href="/new">What&apos;s New</a></li>'+
 '</ul>')			
 
