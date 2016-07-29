@@ -404,3 +404,9 @@ table a {
     width:100%;
     cursor:default;
 }
+.announcement {
+	background-color: rgb(158, 63, 63);
+	font-size: 1rem;
+	padding: 0.6rem;
+	text-align: center;
+}
