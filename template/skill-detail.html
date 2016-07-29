@@ -41,7 +41,7 @@
 			<tbody>
 				<input class="rankinput" style="display:none;" ng-model="skillid" ng-init="skillid = &#39;Loading...&#39;" name="search">
 				<tr ng-repeat="rank in SkillRankInfo | filter:{'SkillID':skillid}:true">
-					<td class="centercell">{{rank.Rank}}</td>
+					<td class="centercell enum">{{rank.Rank}}</td>
 					<td class="skillrank" value="{{rank.Description|uppercase}}"></td>
 					<td class="centercell">{{rank.LevelConstraint}}</td>
 					<td class="centercell">{{rank.RequiredAP}}</td>
