@@ -405,7 +405,7 @@ table a {
     cursor:default;
 }
 .announcement {
-    background-color: rgba(40, 40, 40, 0.47);
+    background-color:rgba(144, 36, 36, 0.61);
     font-size: 0.8rem;
     padding: 0.5rem;
     text-align: center;
@@ -417,10 +417,12 @@ table a {
     font-size: 0.8rem;
     padding: 0.5rem 1.5rem;
     text-align: right;
-    clear: both;
     margin: -1rem;
     color: #606060;
 }
 .comingsoon a {
 	color:rgb(90, 90, 90) !important;
+}
+.has-sub {
+    cursor: default;
 }
