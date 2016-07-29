@@ -23,9 +23,11 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				$('.classresvalue').each(function(){
 							checkclasses = $(this).attr('value')
 								if (checkclasses == '2047') {$(this).html('Lann, Fiona, Evie, Karok, Kai, Vella, Hurk, Lynn, Arisha, Sylas, Delia')}
+								if (checkclasses == '1275') {$(this).html('Lann, Fiona, Karok, Kai, Vella, Hurk, Lynn, Delia')}
 								if (checkclasses == '1') {$(this).html('Lann')}
 								if (checkclasses == '2') {$(this).html('Fiona')}
 								if (checkclasses == '33') {$(this).html('Lann, Vella')}
+								if (checkclasses == '35') {$(this).html('Lann, Fiona, Vella')}
 								if (checkclasses == '4') {$(this).html('Evie')}
 								if (checkclasses == '8') {$(this).html('Karok')}
 								if (checkclasses == '16') {$(this).html('Kai')}
@@ -85,9 +87,11 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.classresvalue').each(function(){
 							checkclasses = $(this).attr('value')
 								if (checkclasses == '2047') {$(this).html('Lann, Fiona, Evie, Karok, Kai, Vella, Hurk, Lynn, Arisha, Sylas, Delia')}
+								if (checkclasses == '1275') {$(this).html('Lann, Fiona, Karok, Kai, Vella, Hurk, Lynn, Delia')}
 								if (checkclasses == '1') {$(this).html('Lann')}
 								if (checkclasses == '2') {$(this).html('Fiona')}
 								if (checkclasses == '33') {$(this).html('Lann, Vella')}
+								if (checkclasses == '35') {$(this).html('Lann, Fiona, Vella')}
 								if (checkclasses == '4') {$(this).html('Evie')}
 								if (checkclasses == '8') {$(this).html('Karok')}
 								if (checkclasses == '16') {$(this).html('Kai')}
