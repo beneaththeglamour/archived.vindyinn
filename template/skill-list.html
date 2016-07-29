@@ -1,0 +1,29 @@
+<div style="background-color: rgb(158, 63, 63);font-size: 1rem;padding: 0.6rem;text-align: center;">
+	<strong>You are currently using a live yet uncompleted version of the site.</strong><br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
+</div>
+	<table class="itemtable" style="table-layout:fixed">
+	<col style="width:67px">
+	<col style="width:250px">
+	<thead> 	
+		<th class="itemcol"></th> 	
+		<th>Skill</th> 
+	</thead> 
+	<tbody> 	
+		<tr class="itemlist" ng-repeat="skill in ItemVariable"> 		
+			<td><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/{{skill.IconType}}.png)"/></td>
+	 		<td class="name" width="20%">
+				<a href="#!/skill/{{ItemVariable.indexOf(skill)}}" class="Beginner linkname itemname" value="{{skill.SkillName|uppercase}}"></a>
+				<div class="hidetooltip">
+					<div class="border" id="{{skill.SkillID}}"> 	
+						<div class="itemtooltipskill"> 				 		
+							<div class="icon"> 			
+								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/{{skill.IconType}}.png)"/> 			
+								<span class="Beginner rarity itemname"  value="{{skill.SkillName|uppercase}}"></span> 		
+							</div>
+							<div class="skilldesc" value="{{skill.SkillDescription|uppercase}}">
+							</div>
+						</div> 	
+					</div> 
+				</div>
+			</td> 		 	
+	</tr> </tbody> </table> 
