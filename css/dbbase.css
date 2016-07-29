@@ -444,3 +444,14 @@ margin: 0rem;
 	color:gray;
 	font-style:italic;
 }
+.team {
+	text-align:center;
+}
+.team .member {
+	float:left;
+	display:inline;
+}
+.member img {
+	border-radius: 50%;
+border: 0.4rem solid rgb(20, 20, 20);
+}
