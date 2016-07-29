@@ -538,7 +538,6 @@ font-family: raleway;
 }
 .skilldesc {
 	clear: both;
-display: block;
 padding-top: 1rem;
 color: rgb(173, 164, 148);
 }
