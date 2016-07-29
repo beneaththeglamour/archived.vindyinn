@@ -96,8 +96,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				WhatIsTheURL = window.location.pathname
 					SkillID = $('.skillid').attr('value')
 					$('.rankinput').val(SkillID).trigger('input')
-					SkillEnhance = $('.enchantinfo').attr('value')
-					$('.enhanceinput').val(SkillEnhance).trigger('input')
 					$('.classresvalue').each(function(){
 							checkclasses = $(this).attr('value')
 								if (checkclasses == '2047') {$(this).html('Lann, Fiona, Evie, Karok, Kai, Vella, Hurk, Lynn, Arisha, Sylas, Delia')}
