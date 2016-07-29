@@ -82,11 +82,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				WhatIsTheURL = window.location.pathname
 					SkillID = $('.skillid').attr('value')
 					$('.rankinput').val(SkillID).trigger('input')
-					$('.number').each(function(){
-							grab = parseInt($(this).html())
-							convert = grab.toLocaleString()
-							$(this).html(convert)
-						})
 					$('.classresvalue').each(function(){
 							checkclasses = $(this).attr('value')
 								if (checkclasses == '2047') {$(this).html('Lann, Fiona, Evie, Karok, Kai, Vella, Hurk, Lynn, Arisha, Sylas, Delia')}
@@ -157,6 +152,11 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 											totalap = totalap + addap
 										} )
 										$('.totalap').html(totalap)
+										$('.number').each(function(){
+											grab = parseInt($(this).html())
+											convert = grab.toLocaleString()
+											$(this).html(convert)
+										})
 										console.log('DataTable loaded.')
 										$('.skillid').DataTable();
 									})	
