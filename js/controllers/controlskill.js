@@ -21,12 +21,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						})
 						
 				$('.classresvalue').each(function(){
-							checkclasses = $(this).html()
-								if (checkclasses != '2047') {
-								$(this).parent().show();
-							} else {
-								$(this).parent().hide();
-							}
+							checkclasses = $(this).attr('value')
 								if (checkclasses == '1') {$(this).html('Lann')}
 								if (checkclasses == '2') {$(this).html('Fiona')}
 								if (checkclasses == '33') {$(this).html('Lann, Vella')}
@@ -92,12 +87,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$(this).html(convert)
 						})
 					$('.classresvalue').each(function(){
-							checkclasses = $(this).html()
-								if (checkclasses != '2047') {
-								$(this).parent().show();
-							} else {
-								$(this).parent().hide();
-							}
+							checkclasses = $(this).attr('value')
 								if (checkclasses == '1') {$(this).html('Lann')}
 								if (checkclasses == '2') {$(this).html('Fiona')}
 								if (checkclasses == '33') {$(this).html('Lann, Vella')}
