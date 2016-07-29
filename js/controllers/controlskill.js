@@ -53,6 +53,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 									$(this).html(ReplacedDesc)
 								})
 							})	
+					var menu = "/js/skillrankdesc.js";
+							$.getScript( menu, function() {
+								ReplaceSkillRank()
+							})	
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()

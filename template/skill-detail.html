@@ -9,7 +9,7 @@
 				<img class="skillicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/{{ItemVariable[whichItem].IconType}}.png)"/> 			
 				<span class="Beginner rarity itemname skillname"  value="{{ItemVariable[whichItem].SkillName|uppercase}}"></span> 							 							 		
 			</div> 			 						 		
-			<div id="skilldesc" class="skilldesc" value="{{ItemVariable[whichItem].SkillDescription|uppercase}}">
+			<div class="skilldesc" value="{{ItemVariable[whichItem].SkillDescription|uppercase}}">
 			</div>
 		</div> 	
 	</div> 		 	
@@ -41,10 +41,10 @@
 			<tbody>
 				<input class="rankinput" style="display:none;" ng-model="skillid" ng-init="skillid = &#39;Loading...&#39;" name="search">
 				<tr ng-repeat="rank in SkillRankInfo | filter:{'SkillID':skillid}:true">
-					<td>{{rank.Rank}}</td>
-					<td>{{rank.Description}}</td>
-					<td>{{rank.LevelConstraint}}</td>
-					<td>{{rank.RequiredAP}}</td>
+					<td class="centercell">{{rank.Rank}}</td>
+					<td class="skillrank" value="{{rank.Description|uppercase}}"></td>
+					<td class="centercell">{{rank.LevelConstraint}}</td>
+					<td class="centercell">{{rank.RequiredAP}}</td>
 				</tr>
 			</tbody>
 		</table>
