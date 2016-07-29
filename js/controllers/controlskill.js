@@ -149,7 +149,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 										$('.calculateap').each(function(){
 											checknegative = $(this).attr('value')
 											if(checknegative == '-1') {$(this).attr('value','0')}
-										}
+										} )
 										$('.calculateap').each(function(){
 											addap = parseInt($(this).attr('value'))
 											totalap = totalap + addap
