@@ -52,15 +52,17 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 										ReplacedDesc = GetReadytoReplaceDesc.replace(/\\n/g, "<br/>")
 										$(this).html(ReplacedDesc)
 									})
-							})	
-					var menu = "/js/skillrankdesc.js";
-							$.getScript( menu, function() {
-								ReplaceSkillRank()
-									$('.skillrank').each(function() {
-										GetReadytoReplaceDesc = $(this).html();
-										ReplacedDesc = GetReadytoReplaceDesc.replace(/\\n/g, "<br/>")
-										$(this).html(ReplacedDesc)
-									})
+								var menu = "/js/skillrankdesc.js";
+									$.getScript( menu, function() {
+										ReplaceSkillRank()
+											$('.skillrank').each(function() {
+												GetReadytoReplaceDesc = $(this).html();
+												ReplacedDesc = GetReadytoReplaceDesc.replace(/\\n/g, "<br/>")
+												$(this).html(ReplacedDesc)
+											})
+										console.log('DataTable loaded.')
+										$('.skillid').DataTable();
+									})	
 							})	
 					$('.enum').each(function(){
 						WhatIsTheSkillRank = $(this).attr('value')
@@ -85,8 +87,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								MenuList()
 							})	
 					$('#tabs').tabs();
-					console.log('DataTable loaded.')
-					$('.skillid').DataTable();
 					
 }, 200);
 			}); 
