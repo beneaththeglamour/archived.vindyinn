@@ -85,6 +85,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								MenuList()
 							})	
 					$('#tabs').tabs();
+					console.log('DataTable loaded.')
+					$('.skillid').DataTable();
 					
 }, 200);
 			}); 
