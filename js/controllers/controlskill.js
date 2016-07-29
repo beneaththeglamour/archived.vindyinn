@@ -40,7 +40,12 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				WhatIsTheURL = window.location.pathname
 					SkillID = $('.skillid').attr('value')
 					$('.rankinput').val(SkillID).trigger('input')
-					
+					$('.number').each(function(){
+							grab = parseInt($(this).html())
+							convert = grab.toLocaleString()
+							$(this).html(convert)
+						})
+						
 					var menu = "/js/skillname.js";
 							$.getScript( menu, function() {
 								ReplaceSkillName()
