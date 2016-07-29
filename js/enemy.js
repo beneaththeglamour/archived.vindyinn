@@ -1,7 +1,8 @@
-var EnemyApp = angular.module('EnemyApp', ['ngRoute','EnemyControllers']);
+var EnemyApp = angular.module('EnemyApp', ['ngRoute','EnemyControllers','ngDisqus']);
 replacestart = $('#valueitem').attr('value');
 
 EnemyApp.config(['$routeProvider', function($routeProvider) {
+	$locationProvider.hashPrefix('!');
   $routeProvider.
   when('/list', {
     templateUrl: 'template/enemy-list.html',
@@ -15,3 +16,8 @@ EnemyApp.config(['$routeProvider', function($routeProvider) {
     redirectTo: '/list'
   });
 }]);
+
+EnemyApp.config(function($disqusProvider){
+	 shortname = 'vindictusinndb'
+      $disqusProvider.setShortname(shortname);
+   });
