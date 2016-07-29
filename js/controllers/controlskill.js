@@ -145,6 +145,15 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 												if (WhatIsTheSkillRank == '14') {$(this).html('2')}
 												if (WhatIsTheSkillRank == '15') {$(this).html('1')}
 											})
+										totalap = 0
+										$('.calculateap').each(function(){
+											checknegative = $(this).attr('value')
+											if(checknegative == '-1') {$(this).attr('value','0')}
+										}
+										$('.calculateap').each(function(){
+											addap = parseInt($(this).attr('value'))
+											totalap = totalap + addap
+										} )
 										console.log('DataTable loaded.')
 										$('.skillid').DataTable();
 									})	
