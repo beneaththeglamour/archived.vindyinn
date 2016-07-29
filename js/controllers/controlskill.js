@@ -154,6 +154,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 											addap = parseInt($(this).attr('value'))
 											totalap = totalap + addap
 										} )
+										$('.skillid').append('<tfoot class="total"><tr><td></td><td></td><td class="centercell">Total</td><td class="centercell">' + totalap + '</td></tr><tfoot>')
 										console.log('DataTable loaded.')
 										$('.skillid').DataTable();
 									})	
