@@ -10,8 +10,16 @@
 				<span class="Beginner rarity itemname skillname"  value="{{ItemVariable[whichItem].SkillName|uppercase}}"></span> 							 							 		
 			</div> 			 						 		
 			<div class="skilldesc" value="{{ItemVariable[whichItem].SkillDescription|uppercase}}"></div>
-			<div class="enchantinfo">
-				This should be holding enchancement info.
+			<div class="enchantid">
+				<span>Available Effect</span>
+			</div>
+			<div class="enchantinfo" value="{{ItemVariable[whichItem].SkillEnhanceGroup}}">
+				<input class="enhanceinput" style="display:none;" ng-model="skillenhance" ng-init="skillenhance = &#39;Loading...&#39;" name="search">
+				<ul>
+					<li ng-repeat="enhance in SkillEnhanceInfo | filter:{'SkillEnhanceGroup':skillenhance ,'SkillEnhanceKey':1}">
+						<span>{{enhance.ItemClass}}</span>
+					</li>
+				</ul>
 			</div>
 		</div> 	
 	</div> 		 	
