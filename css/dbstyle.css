@@ -39,7 +39,7 @@ main h2 {
 	background-color: rgb(35, 35, 35);
 }
 #disqus_thread {
-	padding:2em;
+	margin: 0rem 1rem;
 }
 h1 {
 	font-family: "Raleway",sans-serif;
