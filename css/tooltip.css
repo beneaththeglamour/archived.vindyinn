@@ -53,6 +53,17 @@
     margin: 1rem;
 	margin-bottom: 2rem;
 }
+.borderskill {
+	border: 1px solid black;
+	overflow:hidden;
+	width:32rem;
+	background:black;
+	border-radius:0.5rem;
+	box-shadow: 0px 0px 10px 0px #1A1818;
+	float: left;
+    margin: 1rem;
+	margin-bottom: 2rem;
+}
 .borderbattle {
 	border: 1px solid black;
 	overflow:hidden;
