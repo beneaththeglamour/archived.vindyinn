@@ -88,6 +88,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.ItemVariable = data;
 					$http.get('/json/SkillRankInfo.json').success (function(data2){
 					$scope.SkillRankInfo = data2; })
+					$http.get('/json/SkillEnhanceInfo.json').success (function(data3){
+					$scope.SkillEnhanceInfo = data3; })
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
