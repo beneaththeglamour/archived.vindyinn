@@ -394,7 +394,7 @@ table a {
     font-family:Raleway;
 }
 .scopecontain {
-	max-width:1300px;
+	width:1300px;
 	margin:0 auto;
 	margin-top:3rem;
 	overflow:hidden;
