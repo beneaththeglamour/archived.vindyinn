@@ -426,3 +426,19 @@ table a {
 .has-sub {
     cursor: default;
 }
+.release {
+	margin:1rem;
+}
+.release ul {
+    list-style-position: inside;
+    padding: 0em 0.4em;
+}
+.release h3 {
+    border-bottom: #2f3135 solid thin;
+    padding-bottom: 0.5rem;
+}
+.plug {
+	text-align:center;
+	color:gray;
+	font-style:italic;
+}
