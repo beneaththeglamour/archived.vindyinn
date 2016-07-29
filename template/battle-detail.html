@@ -154,9 +154,9 @@
 		
 		<table>
 			<thead></thead>
-			<tbody ng-model="DropLocation">
-				<tr ng-repeat="Drops in drop.Drops | filter:{'Class':missionstat}:true">
-					<td>{{Drops}}</td>
+			<tbody>
+				<tr ng-repeat="drop in DropLocation | filter:{'Class':missionstat}:true">
+					<td ng-repeat="Drops in drop.Drops">{{Drops}}</td>
 				</tr>
 			</tbody>
 		</table>
