@@ -109,7 +109,18 @@ MenuList = function() {
 		'</ul>'+
 	'<li><a>Items</a>'+
 		'<ul>'+
-			'<li><a href="/event">Event</a></li>'+
+			'<li><a>Event</a>'+
+				'<ul>'+
+					'<li><a href="/event/adventurer-kit">Adventurer Kit</a></li>'+
+					'<li><a href="/event/consumable">Consumable</a></li>'+
+					'<li><a href="/event/normal-item">Normal Item</a></li>'+
+					'<li><a href="/event/nx-item">NX Item</a></li>'+
+					'<li><a href="/event/rare-item">Rare Item</a></li>'+
+					'<li><a href="/event/set">Set</a></li>'+
+					'<li><a href="/event/title-scroll">Title Scroll</a></li>'+
+					'<li><a href="/event/weapon">Weapon</a></li>'+
+				'</ul>'+
+			'</li>'+
 			'<li><a>Consumables</a>'+
 				'<ul>'+
 					'<li><a href="/consumable/avatar-dye-ampoule">Avatar Dye Ampoule</a></li>'+
@@ -133,7 +144,7 @@ MenuList = function() {
 							'<li><a href="/consumable/etc/potion">Potion</a></li>'+
 							'<li><a href="/consumable/etc/regular-item">Regular Item</a></li>'+
 							'<li><a href="/consumable/etc/set">Set</a></li>'+
-							'<li><a href="/consumable/etc/title-scroll">Title Scroll</a></li>'+
+							'<li><a href="/consumable/etc/title-scroll">Scroll</a></li>'+
 							
 						'</ul>'+
 					'</li>'+
