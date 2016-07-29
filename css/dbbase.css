@@ -443,6 +443,7 @@ margin: 0rem;
 	text-align:center;
 	color:gray;
 	font-style:italic;
+	clear:both;
 }
 .team {
 	text-align:center;
