@@ -42,6 +42,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$.getScript( menu, function() {
 								ReplaceSkillName()
 							})	
+					var menu = "/js/skilldesc.js";
+							$.getScript( menu, function() {
+								ReplaceSkillDesc()
+							})	
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
