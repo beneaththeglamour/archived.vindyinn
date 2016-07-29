@@ -19,6 +19,33 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								$(this).next().hide()
 								})
 						})
+						
+				$('.classresvalue').each(function(){
+							checkclasses = $(this).html()
+								if (checkclasses != '2047') {
+								$(this).parent().show();
+							} else {
+								$(this).parent().hide();
+							}
+								if (checkclasses == '1') {$(this).html('Lann')}
+								if (checkclasses == '2') {$(this).html('Fiona')}
+								if (checkclasses == '33') {$(this).html('Lann, Vella')}
+								if (checkclasses == '4') {$(this).html('Evie')}
+								if (checkclasses == '8') {$(this).html('Karok')}
+								if (checkclasses == '16') {$(this).html('Kai')}
+								if (checkclasses == '32') {$(this).html('Vella')}
+								if (checkclasses == '64') {$(this).html('Hurk')}
+								if (checkclasses == '128') {$(this).html('Lynn')}
+								if (checkclasses == '256') {$(this).html('Arisha')}
+								if (checkclasses == '512') {$(this).html('Sylas')}
+								if (checkclasses == '1185') {$(this).html('Lann, Vella, Lynn')}
+								if (checkclasses == '516') {$(this).html('Evie, Sylas')}
+								if (checkclasses == '72') {$(this).html('Karok, Hurk')}
+								if (checkclasses == '772') {$(this).html('Evie, Arisha, Sylas')}
+								if (checkclasses == '1024') {$(this).html('Delia')}
+								if (checkclasses == '1446') {$(this).html('Fiona, Evie, Vella, Lynn, Arisha, Delia')}
+								if (checkclasses == '601') {$(this).html('Lann, Karok, Kai, Hurk, Sylas')}
+						})
 				
 				var skillnamejs = "/js/skillname.js";
 							$.getScript( skillnamejs, function() {
