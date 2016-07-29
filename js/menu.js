@@ -1,4 +1,5 @@
 MenuList = function() {
+	$('#searchmenu').append('<div id="version">Version 1.25</div>')
 	$('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
 	'<li><a>Equipment</a>'+
