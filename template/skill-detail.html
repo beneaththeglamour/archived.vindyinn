@@ -1,0 +1,74 @@
+<h2 ng-model="ItemVariable" id ="valueitem" value="{{ItemVariable[whichItem].ItemClass}}" >{{ItemVariable[whichItem].ItemClass}}</h2> 	
+	<div style="background-color: rgb(158, 63, 63);font-size: 1rem;padding: 0.6rem;text-align: center;">
+		<strong>You are currently using a live yet uncompleted version of the site.</strong>
+		<br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
+	</div>
+	<div class="border"> 	
+		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
+			<div class="icon"> 			
+								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url(/images/icons/enchant_scroll.png)"/> 			
+								<span class="Beginner rarity itemname"  value="{{ItemVariable[whichItem].EnchantClass}}"> Enchant Scroll</span> 			
+								<span class="bubble"> 				
+									<span class="itemtype">Rank <span class="RankEnum" value="{{ItemVariable[whichItem].EnchantLevel}}"></span> <span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span> Enchant</span> 				
+									<span id="sell">Sell Price</span> 				
+									<span class="right">
+										<img src="http://i.imgur.com/Hq3oGZI.png" id="goldsack">
+										<span class="number sellingfor">500</span>
+									</span> 			
+								</span> 					 			
+								<span class="bubble Beginner">Beginner 						
+								</span> 				 		
+							</div> 			 		
+							<span class="expiry">Expires in: 7 day(s).</span>		 		
+							<div class="containres"> 				 			
+								<span class="restriction classres"><span class="classresvalue"><span class="itemconstraint" value="{{ItemVariable[whichItem].ItemConstraintDesc|uppercase}}"></span></span></span> 		
+							</div> 			 		
+							<div class="desc">
+							An enchant scroll that lets you infuse a piece of equipment with magical power.<br />Brynn probably knows how to use this.
+							<div class="enchantid">
+								<span class="itemname" value="{{ItemVariable[whichItem].EnchantClass}}"></span>
+								<span class="prefixrank"><span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span><span class="RankEnum" value="{{ItemVariable[whichItem].EnchantLevel}}"></span>Rank</span>
+							</div>
+							<div class="enchantinfo">
+								<ul class="enchantstatlist">
+								<input class="Input{{ItemVariable[whichItem].EnchantClass}}" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;Loading...&#39;" name="search">
+									<span ng-repeat="item in ItemVariable2 | filter : {'EnchantClass':mainquery}:true">
+										<li>
+											<span class="enchantstatconstraint" value="{{item.ConditionDesc|uppercase}}"> :</span>
+											<span class="enchantstat" value="{{item.StatDesc|uppercase}}"></span>
+										</li>
+									</span>
+								</ul>
+							</div>
+							</div>
+							<span class="trade" value="{{ItemVariable[whichItem].TradeRestirction}}"></span> 
+		</div> 	
+	</div> 		 	
+	<div class="moreinfobubble"> 		
+		<h2>Additional Info</h2> 		
+			<ul> 			
+				<li><strong>Enchant ID:</strong> <br />
+				{{ItemVariable[whichItem].ID}}</li> 			
+				<li><strong>Enchant Class:</strong> <br />
+				{{ItemVariable[whichItem].EnchantClass}}</li> 			
+				<li><strong>Minimum Success Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].MinSuccessRatio}}</span>%</li> 			
+				<li><strong>Maximum Success Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].MaxSuccessRatio}}</span>%</li> 			
+				<li><strong>Destruction Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].DestructionRatio}}</span>%</li> 			
+				<li><strong>Ignore Max Armor:</strong> <br />
+				{{ItemVariable[whichItem].IgnoreMaxArmor}}</li> 						
+			</ul> 	
+		<h2>Chat Link</h2>
+			<div class="code">[itemToolTipStart]ENCHANT_SCROLL[<span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span>:{{ItemVariable[whichItem].EnchantClass}}][itemToolTipMiddle][<span class="itemname" value="{{ItemVariable[whichItem].EnchantClass}}"></span> Enchant Scroll]
+			</div> 
+			<ul>
+				<li><em>* Available only for Inbox Messages</em></li>
+			</ul>
+	</div>
+	<div id="tabs">
+		<ul>
+			<li><a href="#tabs-1">Drop Locations</a></li>
+			<li><a href="#tabs-2">Comments</a></li>
+		</ul>
+	<div class="usewindow" id="tabs-1"> 		<h2>Drop Locations</h2> 	<p>Coming Soon</p></div>
+	<div class="usewindow" id="tabs-2"> 		<h2>Comments</h2> 	<p>Coming Soon</p></div>
+</div> 
