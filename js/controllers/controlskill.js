@@ -32,12 +32,14 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 		{    
 				$http.get('/json/SkillInfo.json').success (function(data){
 				$scope.ItemVariable = data;
-
+					$http.get('/json/SkillRankInfo.json').success (function(data2){
+					$scope.SkillRankInfo = data2; })
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
-
+					SkillID = $('.skillid').attr('value')
+					$('.rankinput').val(SkillID).trigger('input')
 					var menu = "/js/skillname.js";
 							$.getScript( menu, function() {
 								ReplaceSkillName()

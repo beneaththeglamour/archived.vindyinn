@@ -39,11 +39,12 @@
 				<th>AP</th>
 			</thead>
 			<tbody>
-				<tr>
-					<td>1</td>
-					<td>2</td>
-					<td>3</td>
-					<td>4</td>
+				<input class="rankinput" style="display:none;" ng-model="skillid" ng-init="skillid = &#39;Loading...&#39;" name="search">
+				<tr ng-repeat="rank in SkillRankInfo | filter:{'SkillID':skillid}:true">
+					<td>{{rank.Rank}}</td>
+					<td>{{rank.Description}}</td>
+					<td>{{rank.LevelConstraint}}</td>
+					<td>{{rank.RequiredAP}}</td>
 				</tr>
 			</tbody>
 		</table>
