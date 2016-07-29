@@ -4,10 +4,10 @@
 		<br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
 	</div>
 	<div class="border"> 	
-		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
+		<div ng-model="ItemVariable" class="itemtooltipskill"> 				 		
 			<div class="icon"> 			
 								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/{{ItemVariable[whichItem].IconType}}.png)"/> 			
-								<span class="Beginner rarity itemname"  value="{{ItemVariable[whichItem].SkillName}}">{{ItemVariable[whichItem].SkillName}}</span> 							 							 		
+								<span class="Beginner rarity itemname skillname"  value="{{ItemVariable[whichItem].SkillName}}">{{ItemVariable[whichItem].SkillName}}</span> 							 							 		
 							</div> 			 						 		
 							<div class="skilldesc">
 							{{ItemVariable[whichItem].SkillDescription}}
@@ -17,15 +17,11 @@
 	<div class="moreinfobubble"> 		
 		<h2>Additional Info</h2> 		
 			<ul> 			
-				<li><strong>Enchant ID:</strong> <br />
-				{{ItemVariable[whichItem].ID}}</li> 			
-				<li><strong>Enchant Class:</strong> <br />
-				{{ItemVariable[whichItem].EnchantClass}}</li> 			
-				<li><strong>Minimum Success Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].MinSuccessRatio}}</span>%</li> 			
-				<li><strong>Maximum Success Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].MaxSuccessRatio}}</span>%</li> 			
-				<li><strong>Destruction Ratio:</strong> <br /><span class="number">{{ItemVariable[whichItem].DestructionRatio}}</span>%</li> 			
-				<li><strong>Ignore Max Armor:</strong> <br />
-				{{ItemVariable[whichItem].IgnoreMaxArmor}}</li> 						
+				<li class="wide"><strong>Price:</strong> <br /><span class="number">{{ItemVariable[whichItem].Price}}</span> <img src="http://i.imgur.com/Hq3oGZI.png" style="vertical-align: middle;"></li> 			
+				<li class="wide"><strong>Class Restriction:</strong> <br />
+				{{ItemVariable[whichItem].ClassRestriction}}</li> 			
+				<li><strong>Category:</strong> <br />
+				{{ItemVariable[whichItem].Category}}</li> 							
 			</ul> 	
 		<h2>Chat Link</h2>
 			<div class="code">[itemToolTipStart]ENCHANT_SCROLL[<span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span>:{{ItemVariable[whichItem].EnchantClass}}][itemToolTipMiddle][<span class="itemname" value="{{ItemVariable[whichItem].EnchantClass}}"></span> Enchant Scroll]
