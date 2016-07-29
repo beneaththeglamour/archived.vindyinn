@@ -113,6 +113,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								$(this).html(convert)
 							} else {$(this).html('')}
 						})
+					console.log('DataTable loaded.')
+					$('.knowndrops').DataTable();
 }, 200);
 			}); 
 		}]
