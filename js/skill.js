@@ -18,5 +18,6 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 }]);
 
  ItemApp.config(function($disqusProvider){
+	 shortname = 'vindictusinndb'
       $disqusProvider.setShortname(shortname);
    });
