@@ -108,7 +108,6 @@ MenuList = function() {
 		'</ul>'+
 	'<li><a>Items</a>'+
 		'<ul>'+
-			'<li><a href="/enchant-scroll">Enchant Scrolls</a></li>'+
 			'<li><a href="/event">Event</a></li>'+
 			'<li><a>Consumables</a>'+
 				'<ul>'+
@@ -180,6 +179,7 @@ MenuList = function() {
 			'</li>'+
 		'</ul>'+
 	'</li>'+
+	'<li><a href="/enchant-scroll">Enchants</a></li>'+
 	'<li><a href="http://titles.vindictusinn.com">Titles</a></li>'+
 	'<li><a href="/skill">Skills</a>'+
 	'</li>'+
