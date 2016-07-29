@@ -446,11 +446,16 @@ margin: 0rem;
 	clear:both;
 }
 .team {
-	text-align:center;
+	text-align: center;
+margin: 0 auto !important;
+overflow: hidden;
+display: block;
+width: 400px;
 }
 .team .member {
 	float:left;
 	display:inline;
+	margin: 1rem 2rem;
 }
 .member img {
 	border-radius: 50%;
