@@ -22,6 +22,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						
 				$('.classresvalue').each(function(){
 							checkclasses = $(this).attr('value')
+								if (checkclasses == '2047') {$(this).html('Lann, Fiona, Evie, Karok, Kai, Vella, Hurk, Lynn, Arisha, Sylas, Delia')}
 								if (checkclasses == '1') {$(this).html('Lann')}
 								if (checkclasses == '2') {$(this).html('Fiona')}
 								if (checkclasses == '33') {$(this).html('Lann, Vella')}
