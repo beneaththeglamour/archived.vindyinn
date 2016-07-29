@@ -15,7 +15,7 @@
 }
 .itemtooltipskill {
 	width:30rem;
-	background-color:#33201a;
+	background-color:rgba(51, 36, 36, 0.9);
 	color:white;
 	padding:1rem;
 	-webkit-box-shadow: 0px 0px 10px 0px #2D2929 inset;

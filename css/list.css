@@ -134,7 +134,13 @@ color: #ddd;}
 .hidetooltip .border {
 	background: rgba(24, 24, 24, 0.95);
 }
+.hidetooltip .borderskill {
+	background: rgba(51, 36, 36, 0.9);
+}
 .hidetooltip .itemtooltip {
+	background:transparent;
+}
+.hidetooltip .itemtooltipskill {
 	background:transparent;
 }
 .weight {
