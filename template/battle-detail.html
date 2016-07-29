@@ -149,7 +149,18 @@
 			<li><a href="#tabs-1">Known Drops</a></li>
 			<li><a href="#tabs-2">Comments</a></li>
 		</ul>
-	<div class="usewindow" id="tabs-1"> 		<h2>Known Drops</h2> 	<p>If you'd like to be a part of the process of collecting item drop information, please contact Insanitee/Sanitee.</p></div>
+	<div class="usewindow" id="tabs-1"> 		
+		<h2>Known Drops</h2> 	
+		
+		<table>
+			<thead></thead>
+			<tbody>
+				<tr ng-repeat="drop in DropLocation | filter:{'Class':missionstat}:true">
+					<td>{{drop.Drops}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 	<div class="usewindow" id="tabs-2">
 		<h2>Comments</h2> 	
 		<div disqus="id"></div>

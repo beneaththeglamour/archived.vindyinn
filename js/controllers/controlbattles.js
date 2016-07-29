@@ -45,6 +45,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$http.get('/json/QuestGoalInfo.json').success (function(data2){
 					$scope.QuestGoalInfo = data2;
 					})
+					$http.get('/json/DropLocation.json').success (function(data3){
+					$scope.DropLocation = data3;
+					})
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
