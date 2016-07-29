@@ -1,4 +1,4 @@
-<h2 ng-model="ItemVariable" id ="valueitem" value="{{ItemVariable[whichItem].ItemClass}}" >{{ItemVariable[whichItem].ItemClass}}</h2> 	
+<h2 ng-model="ItemVariable" id ="valueitem" value="{{ItemVariable[whichItem].SkillName}}" >{{ItemVariable[whichItem].SkillName}}</h2> 	
 	<div style="background-color: rgb(158, 63, 63);font-size: 1rem;padding: 0.6rem;text-align: center;">
 		<strong>You are currently using a live yet uncompleted version of the site.</strong>
 		<br/> The finalized version is still a work in progress. Certain functions and capabilities have been added or disabled for testing purposes.
@@ -6,12 +6,12 @@
 	<div class="border"> 	
 		<div ng-model="ItemVariable" class="itemtooltipskill"> 				 		
 			<div class="icon"> 			
-								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/{{ItemVariable[whichItem].IconType}}.png)"/> 			
-								<span class="Beginner rarity itemname skillname"  value="{{ItemVariable[whichItem].SkillName}}">{{ItemVariable[whichItem].SkillName}}</span> 							 							 		
-							</div> 			 						 		
-							<div class="skilldesc">
-							{{ItemVariable[whichItem].SkillDescription}}
-							</div>
+				<img class="skillicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/{{ItemVariable[whichItem].IconType}}.png)"/> 			
+				<span class="Beginner rarity itemname skillname"  value="{{ItemVariable[whichItem].SkillName}}">{{ItemVariable[whichItem].SkillName}}</span> 							 							 		
+			</div> 			 						 		
+			<div class="skilldesc">
+				{{ItemVariable[whichItem].SkillDescription}}
+			</div>
 		</div> 	
 	</div> 		 	
 	<div class="moreinfobubble"> 		
@@ -23,12 +23,6 @@
 				<li><strong>Category:</strong> <br />
 				{{ItemVariable[whichItem].Category}}</li> 							
 			</ul> 	
-		<h2>Chat Link</h2>
-			<div class="code">[itemToolTipStart]ENCHANT_SCROLL[<span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span>:{{ItemVariable[whichItem].EnchantClass}}][itemToolTipMiddle][<span class="itemname" value="{{ItemVariable[whichItem].EnchantClass}}"></span> Enchant Scroll]
-			</div> 
-			<ul>
-				<li><em>* Available only for Inbox Messages</em></li>
-			</ul>
 	</div>
 	<div id="tabs">
 		<ul>
