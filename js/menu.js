@@ -189,6 +189,7 @@ MenuList = function() {
 	'<li class="comingsoon"><a href="/">Maps</a></li>'+
 	'<li class="comingsoon"><a href="/">Stories</a></li>'+
 	'<li class="comingsoon"><a href="/">NPCs</a></li>'+
+	'<li><a href="/new">What&apos;s New</a></li>'+
 '</ul>')			
 
 $.fn.menumaker = function(options) {
