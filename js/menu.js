@@ -181,28 +181,7 @@ MenuList = function() {
 		'</ul>'+
 	'</li>'+
 	'<li><a href="http://titles.vindictusinn.com">Titles</a></li>'+
-	'<li><a href="/">Skills</a>'+
-		'<ul>'+
-			'<li><a>Male</a>'+
-				'<ul>'+
-					'<li><a>Lann</a></li>'+
-					'<li><a>Karok</a></li>'+
-					'<li><a>Kai</a></li>'+
-					'<li><a>Hurk</a></li>'+
-					'<li><a>Sylas</a></li>'+
-				'</ul>'+
-			'</li>'+
-			'<li><a>Female</a>'+
-				'<ul>'+
-					'<li><a>Fiona</a></li>'+
-					'<li><a>Evie</a></li>'+
-					'<li><a>Vella</a></li>'+
-					'<li><a>Lynn</a></li>'+
-					'<li><a>Arisha</a></li>'+
-					'<li><a>Delia</a></li>'+
-				'</ul>'+
-			'</li>'+
-		'</ul>'+
+	'<li><a href="/skill">Skills</a>'+
 	'</li>'+
 	'<li><a href="/enemies">Enemies</a></li>'+
 	'<li><a href="/battles">Battles</a></li>'+
