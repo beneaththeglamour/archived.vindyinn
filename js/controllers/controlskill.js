@@ -45,6 +45,11 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					var menu = "/js/skilldesc.js";
 							$.getScript( menu, function() {
 								ReplaceSkillDesc()
+								$('.skilldesc').each(function() {
+									GetReadytoReplaceDesc = $(this).html();
+									ReplacedDesc = GetReadytoReplaceDesc.replace(/\\n/g, "<br/>")
+									$(this).html(ReplacedDesc)
+								})
 							})	
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
