@@ -81,7 +81,9 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
     templateUrl: '/template/item-detail.html',
     controller: 'DetailsController'
   }).
-
+  otherwise({
+    redirectTo: '/list'
+  });
   $locationProvider.html5Mode(true);
 }]);
 
