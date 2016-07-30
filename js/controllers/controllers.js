@@ -860,7 +860,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								SetUpViewer()
 							})		
 					$('#tabs').tabs();
-}, 200);
+}, 500);
 			}); 
 		}]
 );
