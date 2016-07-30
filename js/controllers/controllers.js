@@ -348,6 +348,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$http.get('/json/DropLocation.json').success (function(data5){
 					$scope.DropLocation = data5;
 					})
+					$http.get('/json/CraftShopInfo.json').success (function(data6){
+					$scope.CraftShopInfo = data6;
+					})
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
 				setTimeout(function(){	
