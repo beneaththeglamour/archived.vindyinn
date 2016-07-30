@@ -472,26 +472,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					if (checkarmorhp != "") {
 						$('#armorhp').show();
 					}
-					LoadMats = function(){
-						$('.RecipeID').each(function(){
-							NPCMatID = $(this).attr('value')
-							$('.NPC'+NPCMatID).val(NPCMatID).trigger('input')
-						})
-					}
-					$('.itemdetail').each(function(){
-							RecipeID = $(this).attr('value')
-							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
-							$('.ExpertRecipe'+RecipeID).val(RecipeID).trigger('input');
-							$('.ExpertType'+RecipeID).val(RecipeID).trigger('input');
-							$('.ExpertTypeTailor'+RecipeID).val('sewing_'+RecipeID).trigger('input');
-							$('.ReqProf'+RecipeID).val(RecipeID).trigger('input');
-							LoadMats()
-						})
-					$('.ExpertID').each(function(){
-							ExpertMatID = $(this).attr('value')
-							$('.Expert'+ExpertMatID).val(ExpertMatID).trigger('input');
-							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).trigger('input');
-						})
 					$('.desc').each(function(){
 					hidedesc = $(this).html();
 						if (hidedesc != "") {
@@ -513,7 +493,26 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						IsThereManuID = $(this).html()
 						
 					})
-					
+					LoadMats = function(){
+						$('.RecipeID').each(function(){
+							NPCMatID = $(this).attr('value')
+							$('.NPC'+NPCMatID).val(NPCMatID).trigger('input')
+						})
+					}
+					$('.itemdetail').each(function(){
+							RecipeID = $(this).attr('value')
+							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
+							$('.ExpertRecipe'+RecipeID).val(RecipeID).trigger('input');
+							$('.ExpertType'+RecipeID).val(RecipeID).trigger('input');
+							$('.ExpertTypeTailor'+RecipeID).val('sewing_'+RecipeID).trigger('input');
+							$('.ReqProf'+RecipeID).val(RecipeID).trigger('input');
+							LoadMats()
+						})
+					$('.ExpertID').each(function(){
+							ExpertMatID = $(this).attr('value')
+							$('.Expert'+ExpertMatID).val(ExpertMatID).trigger('input');
+							$('.ExpertTailor'+ExpertMatID).val('sewing_'+ExpertMatID).trigger('input');
+						})
 					$('.UsedIn').each(function(){
 						UsedIn = $(this).attr('value')
 						UsedIn = UsedIn.replace('RECIPE_','')
