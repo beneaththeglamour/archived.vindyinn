@@ -2,7 +2,7 @@ var ItemApp = angular.module('ItemApp', ['ngRoute','ItemControllers','ngDisqus']
 replacestart = $('#valueitem').attr('value');
 
 ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
+  $locationProvider.html5Mode(true);
   $routeProvider.
   when('/list', {
     template: '<table class="itemtable" style="table-layout:fixed"> '+
