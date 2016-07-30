@@ -297,6 +297,7 @@ table {
 	display: block;
 	font-size: 0.75rem;
 	color: rgb(156, 156, 156);
+	display:none;
 }
 .NPCCraft {
 	color:#fde587 !important;

@@ -558,6 +558,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						if (ShopNPC == 'SOLDIER_DEATHMATCH_WEAPON_Craft') {$(this).html('Battlemaster'); $('.craftable').show()}
 						if (ShopNPC == 'TUREN_Craft') {$(this).html('Turhan'); $('.craftable').show()}
 					} )
+					$('.battlename').each(function(){
+						BattleNameShow = $(this).attr('value')
+						if (BattleNameShow != "") {$('.craftable').show()}
+					} )
 					$('.classresvalue').each(function(){
 						checkclasses = $(this).html()
 							if (checkclasses != '2047') {
