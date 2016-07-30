@@ -105,11 +105,13 @@
 
 		<div class="craftable">Crafted by 
 		<input class="Recipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
-		<span ng-repeat="npc in CraftShopInfo | filter:{'RecipeID':npcmat }" class="NPCCraft">
+		<span ng-repeat="npc in CraftShopInfo | filter:{'RecipeID':npcmat }:true" class="NPCCraft">
 			<span class="ShopID" value="{{npc.ShopID}}"></span>
 		</span> 
 		after completing 
-		<span class="UnlockBattle">{{item.UnlockBattle||TBA}}</span></div>
+		<span ng-repeat="npc in CraftShopInfo | filter:{'RecipeID':npcmat }" class="UnlockBattle">
+			<span class="battlename" value="{{npc.AppearQuestID|uppercase}}"></span>
+		</span> 
 		</td> 				 							
 		<td class="centercell" width="1%">
 			<span  ng-repeat="item in RecipeMaterialInfo  | filter : {'RecipeID':npcmat , 'ItemClass':'gold'}:true ">

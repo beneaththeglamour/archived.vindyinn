@@ -852,6 +852,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
+					var menu = "/js/battlename.js";
+							$.getScript( menu, function() {
+								BattleTitle()
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
