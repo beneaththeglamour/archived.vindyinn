@@ -506,12 +506,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							convert = grab.toLocaleString()
 							$(this).html(convert)
 						})
-					$('.NPCCraft').each(function(){
-						IsThereANPC = $(this).html()
-						if (IsThereANPC == '') {
-							$(this).parent().hide()
-						}
-					})
 					$('.fee').each(function(){
 						IsThereGold = $(this).html()
 					})
@@ -543,6 +537,28 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								$(this).next().hide()
 								})
 						})
+					$('.ShopID').each(function(){
+						ShopNPC = $(this).attr('value')
+						if (ShopNPC == 'AILIE_Craft') {$(this).html('Aislinn'); $('.craftable').show()}
+						if (ShopNPC == 'AILIE_EGG_Craft') {$(this).html('Aislinn'); $('.craftable').show()}
+						if (ShopNPC == 'ARTHYEN_Craft') {$(this).html('Arthyen'); $('.craftable').show()}
+						if (ShopNPC == 'BARAX_Craft') {$(this).html('Brakis'); $('.craftable').show()}
+						if (ShopNPC == 'BRYN_Craft') {$(this).html('Brynn'); $('.craftable').show()}
+						if (ShopNPC == 'CAT_Craft') {$(this).html('Cat'); $('.craftable').show()}
+						if (ShopNPC == 'CLODAGH_Craft') {$(this).html('Clodagh'); $('.craftable').show()}
+						if (ShopNPC == 'ELAHAN_Craft') {$(this).html('Enzo'); $('.craftable').show()}
+						if (ShopNPC == 'EMMA_Craft') {$(this).html('Emma'); $('.craftable').show()}
+						if (ShopNPC == 'ESYLLT_Craft') {$(this).html('Esyllt'); $('.craftable').show()}
+						if (ShopNPC == 'FERGHUS_Craft') {$(this).html('Ferghus'); $('.craftable').show()}
+						if (ShopNPC == 'JARLATH_Craft') {$(this).html('Jarlath'); $('.craftable').show()}
+						if (ShopNPC == 'KIRSTIE_Craft') {$(this).html('Kirstie'); $('.craftable').show()}
+						if (ShopNPC == 'NEVEREZ_Craft') {$(this).html('Nyle'); $('.craftable').show()}
+						if (ShopNPC == 'NIEVE_Craft') {$(this).html('Nel'); $('.craftable').show()}
+						if (ShopNPC == 'SOLDIER_DEATHMATCH_ACCESSORY_Craft') {$(this).html('Battlemaster'); $('.craftable').show()}
+						if (ShopNPC == 'SOLDIER_DEATHMATCH_ARMOR_Craft') {$(this).html('Battlemaster'); $('.craftable').show()}
+						if (ShopNPC == 'SOLDIER_DEATHMATCH_WEAPON_Craft') {$(this).html('Battlemaster'); $('.craftable').show()}
+						if (ShopNPC == 'TUREN_Craft') {$(this).html('Turhan'); $('.craftable').show()}
+					} )
 					$('.classresvalue').each(function(){
 						checkclasses = $(this).html()
 							if (checkclasses != '2047') {

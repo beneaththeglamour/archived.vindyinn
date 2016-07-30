@@ -106,7 +106,7 @@
 		<div class="craftable">Crafted by 
 		<input class="Recipe{{ItemVariable[whichItem].ItemClass|lowercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
 		<span ng-repeat="npc in CraftShopInfo | filter:{'RecipeID':npcmat }" class="NPCCraft">
-			{{npc.ShopID}}
+			<span class="ShopID" value="{{npc.ShopID}}"></span>
 		</span> 
 		after completing 
 		<span class="UnlockBattle">{{item.UnlockBattle||TBA}}</span></div>
