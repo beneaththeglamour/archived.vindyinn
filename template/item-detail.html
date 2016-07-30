@@ -109,7 +109,7 @@
 			<span class="ShopID" value="{{npc.ShopID}}"></span>
 		</span> 
 		after completing 
-		<span ng-repeat="npc in CraftShopInfo | filter:{'RecipeID':npcmat }" class="UnlockBattle">
+		<span ng-repeat="npc in CraftShopInfo | filter:{'RecipeID':npcmat } | limitTo: 1" class="UnlockBattle">
 			<span class="battlename" value="{{npc.AppearQuestID|uppercase}}"></span>
 		</span> 
 		</td> 				 							
