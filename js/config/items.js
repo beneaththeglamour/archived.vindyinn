@@ -2,7 +2,6 @@ var ItemApp = angular.module('ItemApp', ['ngRoute','ItemControllers','ngDisqus']
 replacestart = $('#valueitem').attr('value');
 
 ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
   $routeProvider.
   when('/list', {
     template: '<table class="itemtable" style="table-layout:fixed"> '+
@@ -85,6 +84,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
   otherwise({
     redirectTo: '/list'
   });
+  $locationProvider.html5Mode(true);
 }]);
 
 ItemApp.config(function($disqusProvider){
