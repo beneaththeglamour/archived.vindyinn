@@ -53,7 +53,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					Frame1()
 
 					console.log('DataTable loaded.')
-					$('table').DataTable();
+					$('.repeatingtable').each(function(){
+						$(this).DataTable();
+					})
+					
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
