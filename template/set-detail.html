@@ -35,13 +35,13 @@
 		</ul>
 	<div class="usewindow" id="tabs-1"> 		
 		<h2>Pieces</h2> 
-		<table>
+		<table class="maincontainingtable">
 			<tbody>
 				<tr class="enchantstatconstraint" ng-repeat="setitem in SetItemInfo|filter:{'SetID':setid}:true">
 					<td>
 						<span class="setitemclass" value="{{setitem.ItemClass|uppercase}}">
 							<input class="{{setitem.ItemClass|uppercase}}" style="display:none;" ng-model="setitemclass" ng-init="setitemclass = &#39;Loading...&#39;" name="search">
-							<table>
+							<table class="repeatingtable">
 							<col width="60px"></col>
 							<col width="1200px"></col>
 							<tr ng-repeat="item in ItemClassInfo|filter:{'ItemClass':setitemclass}:true">
