@@ -39,19 +39,21 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
-					SetID = $('#MainSetID').attr('value')
-					$('.SetIDInput').val(SetID).trigger('input')
-					$('.setitemclass').each(function(){
-						SetItemClass = $(this).attr('value')
-						$('.'+SetItemClass).val(SetItemClass).trigger('input')
-					} )
-				
-							/**
-							console.log('DataTable loaded.')
-										$('.skillid').DataTable({
-											"order": [[ 3, "asc" ]]
-										});
-							**/
+					Frame2 = function(){
+						$('.setitemclass').each(function(){
+							SetItemClass = $(this).attr('value')
+							$('.'+SetItemClass).val(SetItemClass).trigger('input')
+						} )
+					}
+					Frame1 = function(){
+						SetID = $('#MainSetID').attr('value')
+						$('.SetIDInput').val(SetID).trigger('input')
+						Frame2()
+					}
+					Frame1()
+
+					console.log('DataTable loaded.')
+					$('table').DataTable();
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
