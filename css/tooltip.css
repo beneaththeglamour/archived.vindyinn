@@ -582,3 +582,6 @@ border-radius: 0.2rem;
 padding: 0rem 0.2rem;
 background-color: rgb(11, 11, 11);
 }
+.effecttarget {
+	padding-right: 0.4rem;
+}
