@@ -587,8 +587,7 @@ background-color: rgb(11, 11, 11);
 }
 .fakedb {
     padding: 8px 10px;
-	border: #2a2c30 solid thin !important;
-border-collapse: collapse !important;
+	border: none !important;
 }
 .nothing {
     padding: 0;
