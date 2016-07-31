@@ -33,12 +33,18 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$scope.SetEffectInfo = data2; })
 					$http.get('/json/SetItemInfo.json').success (function(data3){
 					$scope.SetItemInfo = data3; })
+					$http.get('/json/ItemClassInfo.json').success (function(data4){
+					$scope.ItemClassInfo = data4; })
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
 					SetID = $('#MainSetID').attr('value')
 					$('.SetIDInput').val(SetID).trigger('input')
+					$('.setitemclass').each(function(){
+						SetItemClass = $(this).attr('value')
+						$('.'+SetItemClass).val(SetItemClass).trigger('input')
+					} )
 							/**
 							console.log('DataTable loaded.')
 										$('.skillid').DataTable({
