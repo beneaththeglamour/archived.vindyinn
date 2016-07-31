@@ -45,10 +45,12 @@
 					<td>
 						<span class="setitemclass" value="{{setitem.ItemClass|uppercase}}">
 							<input class="{{setitem.ItemClass|uppercase}}" style="display:none;" ng-model="setitemclass" ng-init="setitemclass = &#39;Loading...&#39;" name="search">
+							<table>
 							<tr ng-repeat="item in ItemClassInfo|filter:{'ItemClass':setitemclass}:true">
 								<td>Icon</td>
 								<td><a href="http://db.vindictusinn.com/db#!/item/{{item.indexOf(item)}}">{{item.Name}}</a></td>
 							</tr>
+							<table>
 						</span>
 					</td>
 				</tr>
