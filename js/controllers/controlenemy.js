@@ -17,6 +17,10 @@ EnemyControllers.controller("ListEnemyController", ['$scope','$http',
 							convert = grab.toLocaleString()
 							$(this).html(convert)
 						})
+						var enemyname = "/js/enemyname.js";
+							$.getScript( enemyname, function() {
+								MonsterName()
+							})	
 						console.log('DataTable loaded.')
 						$('table').DataTable({
 							"order": [[ 0, "asc" ]]
