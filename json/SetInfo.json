@@ -1,0 +1,779 @@
+[
+  {
+    "SetID": "premium_newbie_set"
+  },
+  {
+    "SetID": "swordwind_set"
+  },
+  {
+    "SetID": "premium_youth_set"
+  },
+  {
+    "SetID": "veteran_raiment_set"
+  },
+  {
+    "SetID": "veteran_cloth_set"
+  },
+  {
+    "SetID": "crimsonrage_set"
+  },
+  {
+    "SetID": "battlemail_set"
+  },
+  {
+    "SetID": "lorica_set"
+  },
+  {
+    "SetID": "sharpshooter_set"
+  },
+  {
+    "SetID": "kobold_set"
+  },
+  {
+    "SetID": "nothern_set"
+  },
+  {
+    "SetID": "savage_set"
+  },
+  {
+    "SetID": "brokenash_set"
+  },
+  {
+    "SetID": "studded_set"
+  },
+  {
+    "SetID": "prince_set"
+  },
+  {
+    "SetID": "spidercloth_set"
+  },
+  {
+    "SetID": "bloodsilk_set"
+  },
+  {
+    "SetID": "lightplate_set"
+  },
+  {
+    "SetID": "waredge_set"
+  },
+  {
+    "SetID": "spiderlord_set"
+  },
+  {
+    "SetID": "promise_set"
+  },
+  {
+    "SetID": "windcrust_set"
+  },
+  {
+    "SetID": "reinforced_set"
+  },
+  {
+    "SetID": "wildduke_set"
+  },
+  {
+    "SetID": "light_wildduke_set"
+  },
+  {
+    "SetID": "heavy_wildduke_set"
+  },
+  {
+    "SetID": "scarlet_set"
+  },
+  {
+    "SetID": "crystal_set"
+  },
+  {
+    "SetID": "sweety_bear_set"
+  },
+  {
+    "SetID": "lagho_evy_set"
+  },
+  {
+    "SetID": "lagho_set"
+  },
+  {
+    "SetID": "rosedrop_set"
+  },
+  {
+    "SetID": "nightmare_set"
+  },
+  {
+    "SetID": "2010year_set"
+  },
+  {
+    "SetID": "bloodlord_set"
+  },
+  {
+    "SetID": "finesteel_set"
+  },
+  {
+    "SetID": "lightmelka_set"
+  },
+  {
+    "SetID": "southern_set"
+  },
+  {
+    "SetID": "deepmaze_set"
+  },
+  {
+    "SetID": "fallenrock_set"
+  },
+  {
+    "SetID": "crashers_set"
+  },
+  {
+    "SetID": "shaman_set"
+  },
+  {
+    "SetID": "royalheavy_set"
+  },
+  {
+    "SetID": "royallight_set"
+  },
+  {
+    "SetID": "knight_set"
+  },
+  {
+    "SetID": "warrior_set"
+  },
+  {
+    "SetID": "ghostwitch_set"
+  },
+  {
+    "SetID": "ancient_str_set"
+  },
+  {
+    "SetID": "frosthard_set"
+  },
+  {
+    "SetID": "frostsoft_set"
+  },
+  {
+    "SetID": "ivory_set"
+  },
+  {
+    "SetID": "sinister_set"
+  },
+  {
+    "SetID": "shiningwill_set"
+  },
+  {
+    "SetID": "barbarian_set"
+  },
+  {
+    "SetID": "temp_Set"
+  },
+  {
+    "SetID": "queens_lust_set"
+  },
+  {
+    "SetID": "queens_lust_evy_set"
+  },
+  {
+    "SetID": "blackhammer_set"
+  },
+  {
+    "SetID": "rage_evy_set"
+  },
+  {
+    "SetID": "goblin_set"
+  },
+  {
+    "SetID": "kakrish_set"
+  },
+  {
+    "SetID": "swift_set"
+  },
+  {
+    "SetID": "midnight_set"
+  },
+  {
+    "SetID": "wingplate_set"
+  },
+  {
+    "SetID": "plate_set"
+  },
+  {
+    "SetID": "feather_set"
+  },
+  {
+    "SetID": "chiulin_set"
+  },
+  {
+    "SetID": "frostheart_set"
+  },
+  {
+    "SetID": "ingkara_set"
+  },
+  {
+    "SetID": "southern_giant_set"
+  },
+  {
+    "SetID": "royalheavy_term_set"
+  },
+  {
+    "SetID": "royallight_term_set"
+  },
+  {
+    "SetID": "thor_set"
+  },
+  {
+    "SetID": "ergreaver_set"
+  },
+  {
+    "SetID": "ingkells_set"
+  },
+  {
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "SetID": "ingkells_evy_set"
+  },
+  {
+    "SetID": "glasgavelen_set"
+  },
+  {
+    "SetID": "wonderland_set"
+  },
+  {
+    "SetID": "nightmare_expire_set"
+  },
+  {
+    "SetID": "frosthard_expire_set"
+  },
+  {
+    "SetID": "lorica_expire_set"
+  },
+  {
+    "SetID": "shiningwill_expire_set"
+  },
+  {
+    "SetID": "midnight_expire_set"
+  },
+  {
+    "SetID": "bloodlord_expire_set"
+  },
+  {
+    "SetID": "southern_expire_set"
+  },
+  {
+    "SetID": "rage_evy_expire_set"
+  },
+  {
+    "SetID": "southern_giant_expire_set"
+  },
+  {
+    "SetID": "fevor_set"
+  },
+  {
+    "SetID": "calm_set"
+  },
+  {
+    "SetID": "fallenangel_set"
+  },
+  {
+    "SetID": "cuallemeach_set"
+  },
+  {
+    "SetID": "sinister_term_set"
+  },
+  {
+    "SetID": "shiningwill_term_set"
+  },
+  {
+    "SetID": "barbarian_term_set"
+  },
+  {
+    "SetID": "temp_term_set"
+  },
+  {
+    "SetID": "legend_set"
+  },
+  {
+    "SetID": "legend_evy_set"
+  },
+  {
+    "SetID": "royalheavy_term_5_set"
+  },
+  {
+    "SetID": "royallight_term_5_set"
+  },
+  {
+    "SetID": "sinister_hour_set"
+  },
+  {
+    "SetID": "shiningwill_hour_set"
+  },
+  {
+    "SetID": "barbarian_hour_set"
+  },
+  {
+    "SetID": "temp_hour_set"
+  },
+  {
+    "SetID": "royalheavy_term_10_5day_set"
+  },
+  {
+    "SetID": "royallight_term_10_5day_set"
+  },
+  {
+    "SetID": "sinister_restoration_set"
+  },
+  {
+    "SetID": "shiningwill_restoration_set"
+  },
+  {
+    "SetID": "temp_restoration_set"
+  },
+  {
+    "SetID": "barbarian_restoration_set"
+  },
+  {
+    "SetID": "guardian_set"
+  },
+  {
+    "SetID": "guardian_fiona_set"
+  },
+  {
+    "SetID": "guardian_evy_set"
+  },
+  {
+    "SetID": "naturewalker_set"
+  },
+  {
+    "SetID": "empire_set"
+  },
+  {
+    "SetID": "death_set"
+  },
+  {
+    "SetID": "archer_set"
+  },
+  {
+    "SetID": "sinister_comback_set"
+  },
+  {
+    "SetID": "shiningwill_comback_set"
+  },
+  {
+    "SetID": "barbarian_comback_set"
+  },
+  {
+    "SetID": "temp_comback_set"
+  },
+  {
+    "SetID": "death_comback_set"
+  },
+  {
+    "SetID": "naturewalker_restoration_set"
+  },
+  {
+    "SetID": "naturewalker_term_set"
+  },
+  {
+    "SetID": "crimsonrage_enus_set"
+  },
+  {
+    "SetID": "kobold_enus_set"
+  },
+  {
+    "SetID": "prince_enus_set"
+  },
+  {
+    "SetID": "lagho_enus_set"
+  },
+  {
+    "SetID": "nightmare_enus_set"
+  },
+  {
+    "SetID": "bloodsilk_enus_set"
+  },
+  {
+    "SetID": "bloodlord_enus_set"
+  },
+  {
+    "SetID": "sinister_comback_limitless_set"
+  },
+  {
+    "SetID": "shiningwill_comback_limitless_set"
+  },
+  {
+    "SetID": "barbarian_comback_limitless_set"
+  },
+  {
+    "SetID": "temp_comback_limitless_set"
+  },
+  {
+    "SetID": "death_comback_limitless_set"
+  },
+  {
+    "SetID": "naturewalker_hour_set"
+  },
+  {
+    "SetID": "s2_beast_set"
+  },
+  {
+    "SetID": "s2_beast_light_set"
+  },
+  {
+    "SetID": "s2_explorer_soft_set"
+  },
+  {
+    "SetID": "s2_explorer_classic_set"
+  },
+  {
+    "SetID": "s2_explorer_set"
+  },
+  {
+    "SetID": "s2_viking_set"
+  },
+  {
+    "SetID": "s2_viking_light_set"
+  },
+  {
+    "SetID": "s2_viking_heavy_set"
+  },
+  {
+    "SetID": "s2_guardian_set"
+  },
+  {
+    "SetID": "s2_western_set"
+  },
+  {
+    "SetID": "s2_assault_set"
+  },
+  {
+    "SetID": "s2_shadow_set"
+  },
+  {
+    "SetID": "s2_scholar_set"
+  },
+  {
+    "SetID": "s2_royalguard_set"
+  },
+  {
+    "SetID": "s2_royalguard_hard_set"
+  },
+  {
+    "SetID": "s2_royalguard_soft_set"
+  },
+  {
+    "SetID": "s2_royalguard_light_set"
+  },
+  {
+    "SetID": "s2_phantom_light_set"
+  },
+  {
+    "SetID": "s2_phantom_heavy_set"
+  },
+  {
+    "SetID": "butterfly_set"
+  },
+  {
+    "SetID": "whiteshark_set"
+  },
+  {
+    "SetID": "death_vella_set"
+  },
+  {
+    "SetID": "butterfly_comback"
+  },
+  {
+    "SetID": "butterfly_restoration"
+  },
+  {
+    "SetID": "s2_pirate_femele"
+  },
+  {
+    "SetID": "s2_pirate_evy"
+  },
+  {
+    "SetID": "s2_pirate"
+  },
+  {
+    "SetID": "s2_pirate_light_male"
+  },
+  {
+    "SetID": "kobold_comback_set"
+  },
+  {
+    "SetID": "spidercloth_comback_set"
+  },
+  {
+    "SetID": "crimsonrage_comback_set"
+  },
+  {
+    "SetID": "scarlet_comback_set"
+  },
+  {
+    "SetID": "savage_comback_set"
+  },
+  {
+    "SetID": "brokenash_comback_set"
+  },
+  {
+    "SetID": "waredge_comback_set"
+  },
+  {
+    "SetID": "rosedrop_comback_set"
+  },
+  {
+    "SetID": "nightmare_comback_set"
+  },
+  {
+    "SetID": "bloodlord_comback_set"
+  },
+  {
+    "SetID": "voidreaper_set"
+  },
+  {
+    "SetID": "halloween_acc_set"
+  },
+  {
+    "SetID": "butterfly_hour_set"
+  },
+  {
+    "SetID": "butterfly_comback_limitless_set"
+  },
+  {
+    "SetID": "butterfly_term_set"
+  },
+  {
+    "SetID": "s2_nighthawk"
+  },
+  {
+    "SetID": "s2_nighthawk_heavy"
+  },
+  {
+    "SetID": "s2_nighthawk_light"
+  },
+  {
+    "SetID": "s2_heremon"
+  },
+  {
+    "SetID": "s2_heremon_soft_evy"
+  },
+  {
+    "SetID": "s2_nighthawk_day30"
+  },
+  {
+    "SetID": "whiteshark_set_30days"
+  },
+  {
+    "SetID": "s2_royalguard_hard_day30"
+  },
+  {
+    "SetID": "s2_noblesse"
+  },
+  {
+    "SetID": "s2_noblesse_evy"
+  },
+  {
+    "SetID": "s2_nighthawk_7days"
+  },
+  {
+    "SetID": "s2_nighthawk_heavy_7days"
+  },
+  {
+    "SetID": "s2_nighthawk_light_7days"
+  },
+  {
+    "SetID": "warriors_edge_set"
+  },
+  {
+    "SetID": "k9_set"
+  },
+  {
+    "SetID": "nightmare_set_gift"
+  },
+  {
+    "SetID": "bloodlord_set_gift"
+  },
+  {
+    "SetID": "s2_champion_set"
+  },
+  {
+    "SetID": "s2_champion_female_set"
+  },
+  {
+    "SetID": "s2_champion_evy_set"
+  },
+  {
+    "SetID": "warriors_edge_comback_set"
+  },
+  {
+    "SetID": "warriors_edge_term_set"
+  },
+  {
+    "SetID": "hundreds_set"
+  },
+  {
+    "SetID": "s2_skeleton"
+  },
+  {
+    "SetID": "s2_skeleton_evy"
+  },
+  {
+    "SetID": "warriors_edge_restoration_set"
+  },
+  {
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "SetID": "s2ep4_80lv_female"
+  },
+  {
+    "SetID": "s2ep4_70lv_evy"
+  },
+  {
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "SetID": "s2ep4_70lv_female"
+  },
+  {
+    "SetID": "soulloop_set"
+  },
+  {
+    "SetID": "oriental_odyssey_set"
+  },
+  {
+    "SetID": "dancing_blade_set"
+  },
+  {
+    "SetID": "soulloop_30day_set"
+  },
+  {
+    "SetID": "soulloop_hour_set"
+  },
+  {
+    "SetID": "soulloop_restoration_set"
+  },
+  {
+    "SetID": "snowflake_eneu_set"
+  },
+  {
+    "SetID": "snowflake_set"
+  },
+  {
+    "SetID": "l_strike_set"
+  },
+  {
+    "SetID": "silverfox_set"
+  },
+  {
+    "SetID": "apexseniore_set"
+  },
+  {
+    "SetID": "l_strike_30day_set"
+  },
+  {
+    "SetID": "l_strike_hour_set"
+  },
+  {
+    "SetID": "l_strike_restoration_set"
+  },
+  {
+    "SetID": "halloween_jajp_2014_acc_set"
+  },
+  {
+    "SetID": "s2_explorer_classic_15days_event"
+  },
+  {
+    "SetID": "s2_explorer_soft_15days_event"
+  },
+  {
+    "SetID": "s2_explorer_15days_event"
+  },
+  {
+    "SetID": "sinister_15days_event"
+  },
+  {
+    "SetID": "shiningwill_15days_event"
+  },
+  {
+    "SetID": "temp_15days_event"
+  },
+  {
+    "SetID": "barbarian_15days_event"
+  },
+  {
+    "SetID": "naturewalker_15days_event"
+  },
+  {
+    "SetID": "butterfly_15days_event"
+  },
+  {
+    "SetID": "warriors_edge_15days_event"
+  },
+  {
+    "SetID": "soulloop_15days_event"
+  },
+  {
+    "SetID": "l_strike_15days_event"
+  },
+  {
+    "SetID": "swift_15days_event"
+  },
+  {
+    "SetID": "wonderland_15days_event"
+  },
+  {
+    "SetID": "guardian_30days_event"
+  },
+  {
+    "SetID": "guardian_fiona_30days_event"
+  },
+  {
+    "SetID": "guardian_evy_30days_event"
+  },
+  {
+    "SetID": "s2_skeleton_30days_event"
+  },
+  {
+    "SetID": "s2_skeleton_evy_30days_event"
+  },
+  {
+    "SetID": "regina_set"
+  },
+  {
+    "SetID": "braha_set"
+  },
+  {
+    "SetID": "border_guardian_set"
+  },
+  {
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "SetID": "pitbull_set"
+  },
+  {
+    "SetID": "scavenger_set"
+  },
+  {
+    "SetID": "time_chaser_set"
+  },
+  {
+    "SetID": "trial_judge_set"
+  },
+  {
+    "SetID": "soul_burst_set"
+  },
+  {
+    "SetID": "infinity_crown_set"
+  },
+  {
+    "SetID": "training_cube_set"
+  },
+  {
+    "SetID": "crystal_rose_set"
+  },
+  {
+    "SetID": "eochaid_set"
+  }
+]
