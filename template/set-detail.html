@@ -37,7 +37,7 @@
 		<h2>Pieces</h2> 
 		<table class="maincontainingtable">
 				<tr class="enchantstatconstraint" ng-repeat="setitem in SetItemInfo|filter:{'SetID':setid}:true">
-					<td class="fakedb">
+					<td class="nothing">
 						<span class="setitemclass" value="{{setitem.ItemClass|uppercase}}">
 							<input class="{{setitem.ItemClass|uppercase}}" style="display:none;" ng-model="setitemclass" ng-init="setitemclass = &#39;Loading...&#39;" name="search">
 							<table class="repeatingtable">

@@ -590,3 +590,7 @@ background-color: rgb(11, 11, 11);
 	border: #2a2c30 solid thin !important;
 border-collapse: collapse !important;
 }
+.nothing {
+    padding: 0;
+	border: none !important;
+}
