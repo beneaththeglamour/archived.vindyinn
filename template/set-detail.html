@@ -40,13 +40,17 @@
 				<th></th>
 				<th>Name</th>
 			</thead>
-			<tbody ng-repeat="setitem in SetItemInfo|filter:{'SetID':setid}:true">
-					<tr class="setitemclass" value="{{setitem.ItemClass|uppercase}}" ng-repeat="item in ItemClassInfo|filter:{'ItemClass':setitemclass}:true">
-						<td ng-repeat="item in ItemClassInfo|filter:{'ItemClass':setitemclass}:true">
+			<tbody>
+				<tr class="enchantstatconstraint" ng-repeat="setitem in SetItemInfo|filter:{'SetID':setid}:true">
+					<td>
+						<span class="setitemclass" value="{{setitem.ItemClass|uppercase}}">
 							<input class="{{setitem.ItemClass|uppercase}}" style="display:none;" ng-model="setitemclass" ng-init="setitemclass = &#39;Loading...&#39;" name="search">
-							<a href="http://db.vindictusinn.com/db#!/item/{{item.indexOf(item)}}">{{item.Name}}</a>
-						</td>
-					</tr>
+							<span ng-repeat="item in ItemClassInfo|filter:{'ItemClass':setitemclass}:true">
+								<a href="http://db.vindictusinn.com/db#!/item/{{item.indexOf(item)}}">{{item.Name}}</a>
+							</span>
+						</span>
+					</td>
+				</tr>
 			</tbody>
 		</table>
 	</div>
