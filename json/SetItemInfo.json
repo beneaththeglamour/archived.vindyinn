@@ -1,0 +1,7022 @@
+[
+  {
+    "ItemClass": "premium_newbie_boots",
+    "BaseItemClass": "premium_newbie_boots",
+    "SetID": "premium_newbie_set"
+  },
+  {
+    "ItemClass": "premium_newbie_pants",
+    "BaseItemClass": "premium_newbie_pants",
+    "SetID": "premium_newbie_set"
+  },
+  {
+    "ItemClass": "premium_newbie_tunic",
+    "BaseItemClass": "premium_newbie_tunic",
+    "SetID": "premium_newbie_set"
+  },
+  {
+    "ItemClass": "swordwind_head",
+    "BaseItemClass": "swordwind_head",
+    "SetID": "swordwind_set"
+  },
+  {
+    "ItemClass": "swordwind_upper",
+    "BaseItemClass": "swordwind_upper",
+    "SetID": "swordwind_set"
+  },
+  {
+    "ItemClass": "premium_youth_upper",
+    "BaseItemClass": "premium_youth_upper",
+    "SetID": "premium_youth_set"
+  },
+  {
+    "ItemClass": "premium_youth_lower",
+    "BaseItemClass": "premium_youth_lower",
+    "SetID": "premium_youth_set"
+  },
+  {
+    "ItemClass": "veteran_raiment_head",
+    "BaseItemClass": "veteran_raiment_head",
+    "SetID": "veteran_raiment_set"
+  },
+  {
+    "ItemClass": "veteran_raiment_lower",
+    "BaseItemClass": "veteran_raiment_lower",
+    "SetID": "veteran_raiment_set"
+  },
+  {
+    "ItemClass": "veteran_raiment_upper",
+    "BaseItemClass": "veteran_raiment_upper",
+    "SetID": "veteran_raiment_set"
+  },
+  {
+    "ItemClass": "veteran_cloth_head",
+    "BaseItemClass": "veteran_cloth_head",
+    "SetID": "veteran_cloth_set"
+  },
+  {
+    "ItemClass": "veteran_cloth_upper",
+    "BaseItemClass": "veteran_cloth_upper",
+    "SetID": "veteran_cloth_set"
+  },
+  {
+    "ItemClass": "ring_dawn",
+    "BaseItemClass": "ring_dawn",
+    "SetID": "veteran_cloth_set"
+  },
+  {
+    "ItemClass": "crimsonrage_hand",
+    "BaseItemClass": "crimsonrage_hand",
+    "SetID": "crimsonrage_set"
+  },
+  {
+    "ItemClass": "crimsonrage_foot",
+    "BaseItemClass": "crimsonrage_foot",
+    "SetID": "crimsonrage_set"
+  },
+  {
+    "ItemClass": "crimsonrage_head",
+    "BaseItemClass": "crimsonrage_head",
+    "SetID": "crimsonrage_set"
+  },
+  {
+    "ItemClass": "crimsonrage_lower",
+    "BaseItemClass": "crimsonrage_lower",
+    "SetID": "crimsonrage_set"
+  },
+  {
+    "ItemClass": "crimsonrage_upper",
+    "BaseItemClass": "crimsonrage_upper",
+    "SetID": "crimsonrage_set"
+  },
+  {
+    "ItemClass": "battlemail_hand",
+    "BaseItemClass": "battlemail_hand",
+    "SetID": "battlemail_set"
+  },
+  {
+    "ItemClass": "battlemail_foot",
+    "BaseItemClass": "battlemail_foot",
+    "SetID": "battlemail_set"
+  },
+  {
+    "ItemClass": "battlemail_head",
+    "BaseItemClass": "battlemail_head",
+    "SetID": "battlemail_set"
+  },
+  {
+    "ItemClass": "battlemail_lower",
+    "BaseItemClass": "battlemail_lower",
+    "SetID": "battlemail_set"
+  },
+  {
+    "ItemClass": "battlemail_upper",
+    "BaseItemClass": "battlemail_upper",
+    "SetID": "battlemail_set"
+  },
+  {
+    "ItemClass": "lorica_hand",
+    "BaseItemClass": "lorica_hand",
+    "SetID": "lorica_set"
+  },
+  {
+    "ItemClass": "lorica_foot",
+    "BaseItemClass": "lorica_foot",
+    "SetID": "lorica_set"
+  },
+  {
+    "ItemClass": "lorica_head",
+    "BaseItemClass": "lorica_head",
+    "SetID": "lorica_set"
+  },
+  {
+    "ItemClass": "lorica_lower",
+    "BaseItemClass": "lorica_lower",
+    "SetID": "lorica_set"
+  },
+  {
+    "ItemClass": "lorica_upper",
+    "BaseItemClass": "lorica_upper",
+    "SetID": "lorica_set"
+  },
+  {
+    "ItemClass": "sharpshooter_hand",
+    "BaseItemClass": "sharpshooter_hand",
+    "SetID": "sharpshooter_set"
+  },
+  {
+    "ItemClass": "sharpshooter_foot",
+    "BaseItemClass": "sharpshooter_foot",
+    "SetID": "sharpshooter_set"
+  },
+  {
+    "ItemClass": "sharpshooter_head",
+    "BaseItemClass": "sharpshooter_head",
+    "SetID": "sharpshooter_set"
+  },
+  {
+    "ItemClass": "sharpshooter_lower",
+    "BaseItemClass": "sharpshooter_lower",
+    "SetID": "sharpshooter_set"
+  },
+  {
+    "ItemClass": "sharpshooter_upper",
+    "BaseItemClass": "sharpshooter_upper",
+    "SetID": "sharpshooter_set"
+  },
+  {
+    "ItemClass": "kobold_hand",
+    "BaseItemClass": "kobold_hand",
+    "SetID": "kobold_set"
+  },
+  {
+    "ItemClass": "kobold_foot",
+    "BaseItemClass": "kobold_foot",
+    "SetID": "kobold_set"
+  },
+  {
+    "ItemClass": "kobold_head",
+    "BaseItemClass": "kobold_head",
+    "SetID": "kobold_set"
+  },
+  {
+    "ItemClass": "kobold_lower",
+    "BaseItemClass": "kobold_lower",
+    "SetID": "kobold_set"
+  },
+  {
+    "ItemClass": "kobold_upper",
+    "BaseItemClass": "kobold_upper",
+    "SetID": "kobold_set"
+  },
+  {
+    "ItemClass": "nothern_hand",
+    "BaseItemClass": "nothern_hand",
+    "SetID": "nothern_set"
+  },
+  {
+    "ItemClass": "nothern_foot",
+    "BaseItemClass": "nothern_foot",
+    "SetID": "nothern_set"
+  },
+  {
+    "ItemClass": "nothern_head",
+    "BaseItemClass": "nothern_head",
+    "SetID": "nothern_set"
+  },
+  {
+    "ItemClass": "nothern_lower",
+    "BaseItemClass": "nothern_lower",
+    "SetID": "nothern_set"
+  },
+  {
+    "ItemClass": "nothern_upper",
+    "BaseItemClass": "nothern_upper",
+    "SetID": "nothern_set"
+  },
+  {
+    "ItemClass": "savage_hand",
+    "BaseItemClass": "savage_hand",
+    "SetID": "savage_set"
+  },
+  {
+    "ItemClass": "savage_foot",
+    "BaseItemClass": "savage_foot",
+    "SetID": "savage_set"
+  },
+  {
+    "ItemClass": "savage_head",
+    "BaseItemClass": "savage_head",
+    "SetID": "savage_set"
+  },
+  {
+    "ItemClass": "savage_lower",
+    "BaseItemClass": "savage_lower",
+    "SetID": "savage_set"
+  },
+  {
+    "ItemClass": "savage_upper",
+    "BaseItemClass": "savage_upper",
+    "SetID": "savage_set"
+  },
+  {
+    "ItemClass": "life_ring",
+    "BaseItemClass": "life_ring",
+    "SetID": "savage_set"
+  },
+  {
+    "ItemClass": "studded_hand",
+    "BaseItemClass": "studded_hand",
+    "SetID": "studded_set"
+  },
+  {
+    "ItemClass": "studded_foot",
+    "BaseItemClass": "studded_foot",
+    "SetID": "studded_set"
+  },
+  {
+    "ItemClass": "studded_head",
+    "BaseItemClass": "studded_head",
+    "SetID": "studded_set"
+  },
+  {
+    "ItemClass": "studded_lower",
+    "BaseItemClass": "studded_lower",
+    "SetID": "studded_set"
+  },
+  {
+    "ItemClass": "studded_upper",
+    "BaseItemClass": "studded_upper",
+    "SetID": "studded_set"
+  },
+  {
+    "ItemClass": "brokenash_hand",
+    "BaseItemClass": "brokenash_hand",
+    "SetID": "brokenash_set"
+  },
+  {
+    "ItemClass": "brokenash_foot",
+    "BaseItemClass": "brokenash_foot",
+    "SetID": "brokenash_set"
+  },
+  {
+    "ItemClass": "brokenash_head",
+    "BaseItemClass": "brokenash_head",
+    "SetID": "brokenash_set"
+  },
+  {
+    "ItemClass": "brokenash_lower",
+    "BaseItemClass": "brokenash_lower",
+    "SetID": "brokenash_set"
+  },
+  {
+    "ItemClass": "brokenash_upper",
+    "BaseItemClass": "brokenash_upper",
+    "SetID": "brokenash_set"
+  },
+  {
+    "ItemClass": "prince_hand",
+    "BaseItemClass": "prince_hand",
+    "SetID": "prince_set"
+  },
+  {
+    "ItemClass": "prince_foot",
+    "BaseItemClass": "prince_foot",
+    "SetID": "prince_set"
+  },
+  {
+    "ItemClass": "prince_head",
+    "BaseItemClass": "prince_head",
+    "SetID": "prince_set"
+  },
+  {
+    "ItemClass": "prince_lower",
+    "BaseItemClass": "prince_lower",
+    "SetID": "prince_set"
+  },
+  {
+    "ItemClass": "prince_upper",
+    "BaseItemClass": "prince_upper",
+    "SetID": "prince_set"
+  },
+  {
+    "ItemClass": "vampire_ring",
+    "BaseItemClass": "vampire_ring",
+    "SetID": "prince_set"
+  },
+  {
+    "ItemClass": "spidercloth_hand",
+    "BaseItemClass": "spidercloth_hand",
+    "SetID": "spidercloth_set"
+  },
+  {
+    "ItemClass": "spidercloth_foot",
+    "BaseItemClass": "spidercloth_foot",
+    "SetID": "spidercloth_set"
+  },
+  {
+    "ItemClass": "spidercloth_head",
+    "BaseItemClass": "spidercloth_head",
+    "SetID": "spidercloth_set"
+  },
+  {
+    "ItemClass": "spidercloth_lower",
+    "BaseItemClass": "spidercloth_lower",
+    "SetID": "spidercloth_set"
+  },
+  {
+    "ItemClass": "spidercloth_upper",
+    "BaseItemClass": "spidercloth_upper",
+    "SetID": "spidercloth_set"
+  },
+  {
+    "ItemClass": "bloodsilk_hand",
+    "BaseItemClass": "bloodsilk_hand",
+    "SetID": "bloodsilk_set"
+  },
+  {
+    "ItemClass": "bloodsilk_foot",
+    "BaseItemClass": "bloodsilk_foot",
+    "SetID": "bloodsilk_set"
+  },
+  {
+    "ItemClass": "bloodsilk_head",
+    "BaseItemClass": "bloodsilk_head",
+    "SetID": "bloodsilk_set"
+  },
+  {
+    "ItemClass": "bloodsilk_lower",
+    "BaseItemClass": "bloodsilk_lower",
+    "SetID": "bloodsilk_set"
+  },
+  {
+    "ItemClass": "bloodsilk_upper",
+    "BaseItemClass": "bloodsilk_upper",
+    "SetID": "bloodsilk_set"
+  },
+  {
+    "ItemClass": "lightplate_hand",
+    "BaseItemClass": "lightplate_hand",
+    "SetID": "lightplate_set"
+  },
+  {
+    "ItemClass": "lightplate_foot",
+    "BaseItemClass": "lightplate_foot",
+    "SetID": "lightplate_set"
+  },
+  {
+    "ItemClass": "lightplate_head",
+    "BaseItemClass": "lightplate_head",
+    "SetID": "lightplate_set"
+  },
+  {
+    "ItemClass": "lightplate_lower",
+    "BaseItemClass": "lightplate_lower",
+    "SetID": "lightplate_set"
+  },
+  {
+    "ItemClass": "lightplate_upper",
+    "BaseItemClass": "lightplate_upper",
+    "SetID": "lightplate_set"
+  },
+  {
+    "ItemClass": "waredge_hand",
+    "BaseItemClass": "waredge_hand",
+    "SetID": "waredge_set"
+  },
+  {
+    "ItemClass": "waredge_foot",
+    "BaseItemClass": "waredge_foot",
+    "SetID": "waredge_set"
+  },
+  {
+    "ItemClass": "waredge_head",
+    "BaseItemClass": "waredge_head",
+    "SetID": "waredge_set"
+  },
+  {
+    "ItemClass": "waredge_lower",
+    "BaseItemClass": "waredge_lower",
+    "SetID": "waredge_set"
+  },
+  {
+    "ItemClass": "waredge_upper",
+    "BaseItemClass": "waredge_upper",
+    "SetID": "waredge_set"
+  },
+  {
+    "ItemClass": "spiderlord_hand",
+    "BaseItemClass": "spiderlord_hand",
+    "SetID": "spiderlord_set"
+  },
+  {
+    "ItemClass": "spiderlord_foot",
+    "BaseItemClass": "spiderlord_foot",
+    "SetID": "spiderlord_set"
+  },
+  {
+    "ItemClass": "spiderlord_head",
+    "BaseItemClass": "spiderlord_head",
+    "SetID": "spiderlord_set"
+  },
+  {
+    "ItemClass": "spiderlord_lower",
+    "BaseItemClass": "spiderlord_lower",
+    "SetID": "spiderlord_set"
+  },
+  {
+    "ItemClass": "spiderlord_upper",
+    "BaseItemClass": "spiderlord_upper",
+    "SetID": "spiderlord_set"
+  },
+  {
+    "ItemClass": "wildduke_hand",
+    "BaseItemClass": "wildduke_hand",
+    "SetID": "wildduke_set"
+  },
+  {
+    "ItemClass": "wildduke_foot",
+    "BaseItemClass": "wildduke_foot",
+    "SetID": "wildduke_set"
+  },
+  {
+    "ItemClass": "wildduke_head",
+    "BaseItemClass": "wildduke_head",
+    "SetID": "wildduke_set"
+  },
+  {
+    "ItemClass": "wildduke_lower",
+    "BaseItemClass": "wildduke_lower",
+    "SetID": "wildduke_set"
+  },
+  {
+    "ItemClass": "wildduke_upper",
+    "BaseItemClass": "wildduke_upper",
+    "SetID": "wildduke_set"
+  },
+  {
+    "ItemClass": "light_wildduke_hand",
+    "BaseItemClass": "light_wildduke_hand",
+    "SetID": "light_wildduke_set"
+  },
+  {
+    "ItemClass": "light_wildduke_foot",
+    "BaseItemClass": "light_wildduke_foot",
+    "SetID": "light_wildduke_set"
+  },
+  {
+    "ItemClass": "light_wildduke_head",
+    "BaseItemClass": "light_wildduke_head",
+    "SetID": "light_wildduke_set"
+  },
+  {
+    "ItemClass": "light_wildduke_lower",
+    "BaseItemClass": "light_wildduke_lower",
+    "SetID": "light_wildduke_set"
+  },
+  {
+    "ItemClass": "light_wildduke_upper",
+    "BaseItemClass": "light_wildduke_upper",
+    "SetID": "light_wildduke_set"
+  },
+  {
+    "ItemClass": "heavy_wildduke_hand",
+    "BaseItemClass": "heavy_wildduke_hand",
+    "SetID": "heavy_wildduke_set"
+  },
+  {
+    "ItemClass": "heavy_wildduke_foot",
+    "BaseItemClass": "heavy_wildduke_foot",
+    "SetID": "heavy_wildduke_set"
+  },
+  {
+    "ItemClass": "heavy_wildduke_head",
+    "BaseItemClass": "heavy_wildduke_head",
+    "SetID": "heavy_wildduke_set"
+  },
+  {
+    "ItemClass": "heavy_wildduke_lower",
+    "BaseItemClass": "heavy_wildduke_lower",
+    "SetID": "heavy_wildduke_set"
+  },
+  {
+    "ItemClass": "heavy_wildduke_upper",
+    "BaseItemClass": "heavy_wildduke_upper",
+    "SetID": "heavy_wildduke_set"
+  },
+  {
+    "ItemClass": "ring_promise",
+    "BaseItemClass": "ring_promise",
+    "SetID": "promise_set"
+  },
+  {
+    "ItemClass": "charm_promise",
+    "BaseItemClass": "charm_promise",
+    "SetID": "promise_set"
+  },
+  {
+    "ItemClass": "longsword_disdain",
+    "BaseItemClass": "weapon_promise",
+    "SetID": "promise_set"
+  },
+  {
+    "ItemClass": "dualsword_disdain",
+    "BaseItemClass": "weapon_promise",
+    "SetID": "promise_set"
+  },
+  {
+    "ItemClass": "staff_promise",
+    "BaseItemClass": "weapon_promise",
+    "SetID": "promise_set"
+  },
+  {
+    "ItemClass": "pillar_gothic",
+    "BaseItemClass": "weapon_promise",
+    "SetID": "promise_set"
+  },
+  {
+    "ItemClass": "bow_disdain",
+    "BaseItemClass": "weapon_promise",
+    "SetID": "promise_set"
+  },
+  {
+    "ItemClass": "greatsword_gothic",
+    "BaseItemClass": "weapon_promise",
+    "SetID": "promise_set"
+  },
+  {
+    "ItemClass": "windcrust_hand",
+    "BaseItemClass": "windcrust_hand",
+    "SetID": "windcrust_set"
+  },
+  {
+    "ItemClass": "windcrust_foot",
+    "BaseItemClass": "windcrust_foot",
+    "SetID": "windcrust_set"
+  },
+  {
+    "ItemClass": "windcrust_head",
+    "BaseItemClass": "windcrust_head",
+    "SetID": "windcrust_set"
+  },
+  {
+    "ItemClass": "windcrust_lower",
+    "BaseItemClass": "windcrust_lower",
+    "SetID": "windcrust_set"
+  },
+  {
+    "ItemClass": "windcrust_upper",
+    "BaseItemClass": "windcrust_upper",
+    "SetID": "windcrust_set"
+  },
+  {
+    "ItemClass": "reinforced_head",
+    "BaseItemClass": "reinforced_head",
+    "SetID": "reinforced_set"
+  },
+  {
+    "ItemClass": "reinforced_foot",
+    "BaseItemClass": "reinforced_foot",
+    "SetID": "reinforced_set"
+  },
+  {
+    "ItemClass": "reinforced_lower",
+    "BaseItemClass": "reinforced_lower",
+    "SetID": "reinforced_set"
+  },
+  {
+    "ItemClass": "reinforced_hand",
+    "BaseItemClass": "reinforced_hand",
+    "SetID": "reinforced_set"
+  },
+  {
+    "ItemClass": "reinforced_upper",
+    "BaseItemClass": "reinforced_upper",
+    "SetID": "reinforced_set"
+  },
+  {
+    "ItemClass": "scarlet_lower",
+    "BaseItemClass": "scarlet_lower",
+    "SetID": "scarlet_set"
+  },
+  {
+    "ItemClass": "scarlet_head",
+    "BaseItemClass": "scarlet_head",
+    "SetID": "scarlet_set"
+  },
+  {
+    "ItemClass": "scarlet_hand",
+    "BaseItemClass": "scarlet_hand",
+    "SetID": "scarlet_set"
+  },
+  {
+    "ItemClass": "scarlet_upper",
+    "BaseItemClass": "scarlet_upper",
+    "SetID": "scarlet_set"
+  },
+  {
+    "ItemClass": "scarlet_foot",
+    "BaseItemClass": "scarlet_foot",
+    "SetID": "scarlet_set"
+  },
+  {
+    "ItemClass": "crystal_hand",
+    "BaseItemClass": "crystal_hand",
+    "SetID": "crystal_set"
+  },
+  {
+    "ItemClass": "crystal_foot",
+    "BaseItemClass": "crystal_foot",
+    "SetID": "crystal_set"
+  },
+  {
+    "ItemClass": "crystal_head",
+    "BaseItemClass": "crystal_head",
+    "SetID": "crystal_set"
+  },
+  {
+    "ItemClass": "crystal_lower",
+    "BaseItemClass": "crystal_lower",
+    "SetID": "crystal_set"
+  },
+  {
+    "ItemClass": "crystal_upper",
+    "BaseItemClass": "crystal_upper",
+    "SetID": "crystal_set"
+  },
+  {
+    "ItemClass": "spike_ring",
+    "BaseItemClass": "spike_ring",
+    "SetID": "lagho_evy_set"
+  },
+  {
+    "ItemClass": "staff_blooming",
+    "BaseItemClass": "staff_blooming",
+    "SetID": "lagho_evy_set"
+  },
+  {
+    "ItemClass": "lagho_hand",
+    "BaseItemClass": "lagho_hand",
+    "SetID": "lagho_set"
+  },
+  {
+    "ItemClass": "lagho_foot",
+    "BaseItemClass": "lagho_foot",
+    "SetID": "lagho_set"
+  },
+  {
+    "ItemClass": "lagho_head",
+    "BaseItemClass": "lagho_head",
+    "SetID": "lagho_set"
+  },
+  {
+    "ItemClass": "lagho_lower",
+    "BaseItemClass": "lagho_lower",
+    "SetID": "lagho_set"
+  },
+  {
+    "ItemClass": "lagho_upper",
+    "BaseItemClass": "lagho_upper",
+    "SetID": "lagho_set"
+  },
+  {
+    "ItemClass": "rosedrop_head",
+    "BaseItemClass": "rosedrop_head",
+    "SetID": "rosedrop_set"
+  },
+  {
+    "ItemClass": "rosedrop_upper",
+    "BaseItemClass": "rosedrop_upper",
+    "SetID": "rosedrop_set"
+  },
+  {
+    "ItemClass": "rosedrop_lower",
+    "BaseItemClass": "rosedrop_lower",
+    "SetID": "rosedrop_set"
+  },
+  {
+    "ItemClass": "rosedrop_foot",
+    "BaseItemClass": "rosedrop_foot",
+    "SetID": "rosedrop_set"
+  },
+  {
+    "ItemClass": "rosedrop_hand",
+    "BaseItemClass": "rosedrop_hand",
+    "SetID": "rosedrop_set"
+  },
+  {
+    "ItemClass": "nightmare_hand",
+    "BaseItemClass": "nightmare_hand",
+    "SetID": "nightmare_set"
+  },
+  {
+    "ItemClass": "nightmare_foot",
+    "BaseItemClass": "nightmare_foot",
+    "SetID": "nightmare_set"
+  },
+  {
+    "ItemClass": "nightmare_head",
+    "BaseItemClass": "nightmare_head",
+    "SetID": "nightmare_set"
+  },
+  {
+    "ItemClass": "nightmare_lower",
+    "BaseItemClass": "nightmare_lower",
+    "SetID": "nightmare_set"
+  },
+  {
+    "ItemClass": "nightmare_upper",
+    "BaseItemClass": "nightmare_upper",
+    "SetID": "nightmare_set"
+  },
+  {
+    "ItemClass": "event_magpie_leftring",
+    "BaseItemClass": "event_magpie_leftring",
+    "SetID": "2010year_set"
+  },
+  {
+    "ItemClass": "event_magpie_rightring",
+    "BaseItemClass": "event_magpie_rightring",
+    "SetID": "2010year_set"
+  },
+  {
+    "ItemClass": "bloodlord_hand",
+    "BaseItemClass": "bloodlord_hand",
+    "SetID": "bloodlord_set"
+  },
+  {
+    "ItemClass": "bloodlord_foot",
+    "BaseItemClass": "bloodlord_foot",
+    "SetID": "bloodlord_set"
+  },
+  {
+    "ItemClass": "bloodlord_new_head",
+    "BaseItemClass": "bloodlord_new_head",
+    "SetID": "bloodlord_set"
+  },
+  {
+    "ItemClass": "bloodlord_lower",
+    "BaseItemClass": "bloodlord_lower",
+    "SetID": "bloodlord_set"
+  },
+  {
+    "ItemClass": "bloodlord_upper",
+    "BaseItemClass": "bloodlord_upper",
+    "SetID": "bloodlord_set"
+  },
+  {
+    "ItemClass": "sweety_bear_glove",
+    "BaseItemClass": "sweety_bear_glove",
+    "SetID": "sweety_bear_set"
+  },
+  {
+    "ItemClass": "sweety_bear_foot",
+    "BaseItemClass": "sweety_bear_foot",
+    "SetID": "sweety_bear_set"
+  },
+  {
+    "ItemClass": "sweety_bear_head",
+    "BaseItemClass": "sweety_bear_head",
+    "SetID": "sweety_bear_set"
+  },
+  {
+    "ItemClass": "sweety_bear_upper",
+    "BaseItemClass": "sweety_bear_upper",
+    "SetID": "sweety_bear_set"
+  },
+  {
+    "ItemClass": "sweety_bear_lower",
+    "BaseItemClass": "sweety_bear_lower",
+    "SetID": "sweety_bear_set"
+  },
+  {
+    "ItemClass": "finesteel_hand",
+    "BaseItemClass": "finesteel_hand",
+    "SetID": "finesteel_set"
+  },
+  {
+    "ItemClass": "finesteel_foot",
+    "BaseItemClass": "finesteel_foot",
+    "SetID": "finesteel_set"
+  },
+  {
+    "ItemClass": "finesteel_head",
+    "BaseItemClass": "finesteel_head",
+    "SetID": "finesteel_set"
+  },
+  {
+    "ItemClass": "finesteel_lower",
+    "BaseItemClass": "finesteel_lower",
+    "SetID": "finesteel_set"
+  },
+  {
+    "ItemClass": "finesteel_upper",
+    "BaseItemClass": "finesteel_upper",
+    "SetID": "finesteel_set"
+  },
+  {
+    "ItemClass": "deathclaw_hand",
+    "BaseItemClass": "deathclaw_hand",
+    "SetID": "lightmelka_set"
+  },
+  {
+    "ItemClass": "deathclaw_foot",
+    "BaseItemClass": "deathclaw_foot",
+    "SetID": "lightmelka_set"
+  },
+  {
+    "ItemClass": "deathclaw_head",
+    "BaseItemClass": "deathclaw_head",
+    "SetID": "lightmelka_set"
+  },
+  {
+    "ItemClass": "deathclaw_lower",
+    "BaseItemClass": "deathclaw_lower",
+    "SetID": "lightmelka_set"
+  },
+  {
+    "ItemClass": "deathclaw_upper",
+    "BaseItemClass": "deathclaw_upper",
+    "SetID": "lightmelka_set"
+  },
+  {
+    "ItemClass": "southern_hand",
+    "BaseItemClass": "southern_hand",
+    "SetID": "southern_set"
+  },
+  {
+    "ItemClass": "southern_foot",
+    "BaseItemClass": "southern_foot",
+    "SetID": "southern_set"
+  },
+  {
+    "ItemClass": "southern_head",
+    "BaseItemClass": "southern_head",
+    "SetID": "southern_set"
+  },
+  {
+    "ItemClass": "southern_lower",
+    "BaseItemClass": "southern_lower",
+    "SetID": "southern_set"
+  },
+  {
+    "ItemClass": "southern_upper",
+    "BaseItemClass": "southern_upper",
+    "SetID": "southern_set"
+  },
+  {
+    "ItemClass": "deepmaze_hand",
+    "BaseItemClass": "deepmaze_hand",
+    "SetID": "deepmaze_set"
+  },
+  {
+    "ItemClass": "deepmaze_lower",
+    "BaseItemClass": "deepmaze_lower",
+    "SetID": "deepmaze_set"
+  },
+  {
+    "ItemClass": "fallenrock_head",
+    "BaseItemClass": "fallenrock_head",
+    "SetID": "fallenrock_set"
+  },
+  {
+    "ItemClass": "fallenrock_upper",
+    "BaseItemClass": "fallenrock_upper",
+    "SetID": "fallenrock_set"
+  },
+  {
+    "ItemClass": "belt_sargamu",
+    "BaseItemClass": "belt_sargamu",
+    "SetID": "fallenrock_set"
+  },
+  {
+    "ItemClass": "hammer_crashers",
+    "BaseItemClass": "hammer_crashers",
+    "SetID": "crashers_set"
+  },
+  {
+    "ItemClass": "largeshield_horn",
+    "BaseItemClass": "largeshield_horn",
+    "SetID": "crashers_set"
+  },
+  {
+    "ItemClass": "staff_mysterious",
+    "BaseItemClass": "staff_mysterious",
+    "SetID": "shaman_set"
+  },
+  {
+    "ItemClass": "spellbook_kobold_shaman",
+    "BaseItemClass": "spellbook_kobold_shaman",
+    "SetID": "shaman_set"
+  },
+  {
+    "ItemClass": "royalheavy_hand",
+    "BaseItemClass": "royalheavy_hand",
+    "SetID": "royalheavy_set"
+  },
+  {
+    "ItemClass": "royalheavy_foot",
+    "BaseItemClass": "royalheavy_foot",
+    "SetID": "royalheavy_set"
+  },
+  {
+    "ItemClass": "royalheavy_head",
+    "BaseItemClass": "royalheavy_head",
+    "SetID": "royalheavy_set"
+  },
+  {
+    "ItemClass": "royalheavy_lower",
+    "BaseItemClass": "royalheavy_lower",
+    "SetID": "royalheavy_set"
+  },
+  {
+    "ItemClass": "royalheavy_upper",
+    "BaseItemClass": "royalheavy_upper",
+    "SetID": "royalheavy_set"
+  },
+  {
+    "ItemClass": "royallight_hand",
+    "BaseItemClass": "royallight_hand",
+    "SetID": "royallight_set"
+  },
+  {
+    "ItemClass": "royallight_foot",
+    "BaseItemClass": "royallight_foot",
+    "SetID": "royallight_set"
+  },
+  {
+    "ItemClass": "royallight_head",
+    "BaseItemClass": "royallight_head",
+    "SetID": "royallight_set"
+  },
+  {
+    "ItemClass": "royallight_lower",
+    "BaseItemClass": "royallight_lower",
+    "SetID": "royallight_set"
+  },
+  {
+    "ItemClass": "royallight_upper",
+    "BaseItemClass": "royallight_upper",
+    "SetID": "royallight_set"
+  },
+  {
+    "ItemClass": "ring_knight",
+    "BaseItemClass": "ring_knight",
+    "SetID": "knight_set"
+  },
+  {
+    "ItemClass": "charm_sign_knight",
+    "BaseItemClass": "charm_sign_knight",
+    "SetID": "knight_set"
+  },
+  {
+    "ItemClass": "shield_medium",
+    "BaseItemClass": "shield_medium",
+    "SetID": "knight_set"
+  },
+  {
+    "ItemClass": "ring_warrior",
+    "BaseItemClass": "ring_warrior",
+    "SetID": "warrior_set"
+  },
+  {
+    "ItemClass": "charm_courage_warrior",
+    "BaseItemClass": "charm_courage_warrior",
+    "SetID": "warrior_set"
+  },
+  {
+    "ItemClass": "ring_ghostwitch",
+    "BaseItemClass": "ring_ghostwitch",
+    "SetID": "ghostwitch_set"
+  },
+  {
+    "ItemClass": "spellbook_ghostwitch",
+    "BaseItemClass": "spellbook_ghostwitch",
+    "SetID": "ghostwitch_set"
+  },
+  {
+    "ItemClass": "charm_sign_ghostwitch",
+    "BaseItemClass": "charm_sign_ghostwitch",
+    "SetID": "ghostwitch_set"
+  },
+  {
+    "ItemClass": "ring_wise_whisper",
+    "BaseItemClass": "ring_wise_whisper",
+    "SetID": "ancient_str_set"
+  },
+  {
+    "ItemClass": "charm_ancient_str",
+    "BaseItemClass": "charm_ancient_str",
+    "SetID": "ancient_str_set"
+  },
+  {
+    "ItemClass": "frosthard_hand",
+    "BaseItemClass": "frosthard_hand",
+    "SetID": "frosthard_set"
+  },
+  {
+    "ItemClass": "frosthard_foot",
+    "BaseItemClass": "frosthard_foot",
+    "SetID": "frosthard_set"
+  },
+  {
+    "ItemClass": "frosthard_head",
+    "BaseItemClass": "frosthard_head",
+    "SetID": "frosthard_set"
+  },
+  {
+    "ItemClass": "frosthard_lower",
+    "BaseItemClass": "frosthard_lower",
+    "SetID": "frosthard_set"
+  },
+  {
+    "ItemClass": "frosthard_upper",
+    "BaseItemClass": "frosthard_upper",
+    "SetID": "frosthard_set"
+  },
+  {
+    "ItemClass": "frostsoft_hand",
+    "BaseItemClass": "frostsoft_hand",
+    "SetID": "frostsoft_set"
+  },
+  {
+    "ItemClass": "frostsoft_foot",
+    "BaseItemClass": "frostsoft_foot",
+    "SetID": "frostsoft_set"
+  },
+  {
+    "ItemClass": "frostsoft_head",
+    "BaseItemClass": "frostsoft_head",
+    "SetID": "frostsoft_set"
+  },
+  {
+    "ItemClass": "frostsoft_lower",
+    "BaseItemClass": "frostsoft_lower",
+    "SetID": "frostsoft_set"
+  },
+  {
+    "ItemClass": "frostsoft_upper",
+    "BaseItemClass": "frostsoft_upper",
+    "SetID": "frostsoft_set"
+  },
+  {
+    "ItemClass": "longsword_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "dualsword_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "hammer_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "dualspear_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "staff_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "scythe_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "pillar_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "blaster_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "bow_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "crossgun_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "dualblade_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "greatsword_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "battleglaive_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "longblade_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "phantomdagger_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "bastardsword_ivory",
+    "BaseItemClass": "weapon_ivory",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "ring_rochest_mage_guild",
+    "BaseItemClass": "ring_rochest_mage_guild",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "belt_urkul",
+    "BaseItemClass": "belt_urkul",
+    "SetID": "ivory_set"
+  },
+  {
+    "ItemClass": "sinister_hand",
+    "BaseItemClass": "sinister_hand",
+    "SetID": "sinister_set"
+  },
+  {
+    "ItemClass": "sinister_foot",
+    "BaseItemClass": "sinister_foot",
+    "SetID": "sinister_set"
+  },
+  {
+    "ItemClass": "sinister_head",
+    "BaseItemClass": "sinister_head",
+    "SetID": "sinister_set"
+  },
+  {
+    "ItemClass": "sinister_lower",
+    "BaseItemClass": "sinister_lower",
+    "SetID": "sinister_set"
+  },
+  {
+    "ItemClass": "sinister_upper",
+    "BaseItemClass": "sinister_upper",
+    "SetID": "sinister_set"
+  },
+  {
+    "ItemClass": "shiningwill_hand",
+    "BaseItemClass": "shiningwill_hand",
+    "SetID": "shiningwill_set"
+  },
+  {
+    "ItemClass": "shiningwill_foot",
+    "BaseItemClass": "shiningwill_foot",
+    "SetID": "shiningwill_set"
+  },
+  {
+    "ItemClass": "shiningwill_head",
+    "BaseItemClass": "shiningwill_head",
+    "SetID": "shiningwill_set"
+  },
+  {
+    "ItemClass": "shiningwill_lower",
+    "BaseItemClass": "shiningwill_lower",
+    "SetID": "shiningwill_set"
+  },
+  {
+    "ItemClass": "shiningwill_upper",
+    "BaseItemClass": "shiningwill_upper",
+    "SetID": "shiningwill_set"
+  },
+  {
+    "ItemClass": "temp_hand",
+    "BaseItemClass": "temp_hand",
+    "SetID": "temp_Set"
+  },
+  {
+    "ItemClass": "temp_foot",
+    "BaseItemClass": "temp_foot",
+    "SetID": "temp_Set"
+  },
+  {
+    "ItemClass": "earring_temp",
+    "BaseItemClass": "earring_temp",
+    "SetID": "temp_Set"
+  },
+  {
+    "ItemClass": "temp_lower",
+    "BaseItemClass": "temp_lower",
+    "SetID": "temp_Set"
+  },
+  {
+    "ItemClass": "temp_upper",
+    "BaseItemClass": "temp_upper",
+    "SetID": "temp_Set"
+  },
+  {
+    "ItemClass": "queens_lust_head",
+    "BaseItemClass": "queens_lust_head",
+    "SetID": "queens_lust_set"
+  },
+  {
+    "ItemClass": "queens_lust_upper",
+    "BaseItemClass": "queens_lust_upper",
+    "SetID": "queens_lust_set"
+  },
+  {
+    "ItemClass": "queens_lust_lower",
+    "BaseItemClass": "queens_lust_lower",
+    "SetID": "queens_lust_set"
+  },
+  {
+    "ItemClass": "queens_lust_hand",
+    "BaseItemClass": "queens_lust_hand",
+    "SetID": "queens_lust_set"
+  },
+  {
+    "ItemClass": "queens_lust_foot",
+    "BaseItemClass": "queens_lust_foot",
+    "SetID": "queens_lust_set"
+  },
+  {
+    "ItemClass": "queens_lust_evy_head",
+    "BaseItemClass": "queens_lust_evy_head",
+    "SetID": "queens_lust_evy_set"
+  },
+  {
+    "ItemClass": "queens_lust_evy_upper",
+    "BaseItemClass": "queens_lust_evy_upper",
+    "SetID": "queens_lust_evy_set"
+  },
+  {
+    "ItemClass": "queens_lust_evy_lower",
+    "BaseItemClass": "queens_lust_evy_lower",
+    "SetID": "queens_lust_evy_set"
+  },
+  {
+    "ItemClass": "queens_lust_evy_hand",
+    "BaseItemClass": "queens_lust_evy_hand",
+    "SetID": "queens_lust_evy_set"
+  },
+  {
+    "ItemClass": "queens_lust_evy_foot",
+    "BaseItemClass": "queens_lust_evy_foot",
+    "SetID": "queens_lust_evy_set"
+  },
+  {
+    "ItemClass": "blackhammer_head",
+    "BaseItemClass": "blackhammer_head",
+    "SetID": "blackhammer_set"
+  },
+  {
+    "ItemClass": "blackhammer_upper",
+    "BaseItemClass": "blackhammer_upper",
+    "SetID": "blackhammer_set"
+  },
+  {
+    "ItemClass": "blackhammer_lower",
+    "BaseItemClass": "blackhammer_lower",
+    "SetID": "blackhammer_set"
+  },
+  {
+    "ItemClass": "blackhammer_hand",
+    "BaseItemClass": "blackhammer_hand",
+    "SetID": "blackhammer_set"
+  },
+  {
+    "ItemClass": "blackhammer_foot",
+    "BaseItemClass": "blackhammer_foot",
+    "SetID": "blackhammer_set"
+  },
+  {
+    "ItemClass": "goblin_head",
+    "BaseItemClass": "goblin_head",
+    "SetID": "goblin_set"
+  },
+  {
+    "ItemClass": "goblin_upper",
+    "BaseItemClass": "goblin_upper",
+    "SetID": "goblin_set"
+  },
+  {
+    "ItemClass": "goblin_lower",
+    "BaseItemClass": "goblin_lower",
+    "SetID": "goblin_set"
+  },
+  {
+    "ItemClass": "goblin_hand",
+    "BaseItemClass": "goblin_hand",
+    "SetID": "goblin_set"
+  },
+  {
+    "ItemClass": "goblin_foot",
+    "BaseItemClass": "goblin_foot",
+    "SetID": "goblin_set"
+  },
+  {
+    "ItemClass": "kakrish_head",
+    "BaseItemClass": "kakrish_head",
+    "SetID": "kakrish_set"
+  },
+  {
+    "ItemClass": "kakrish_upper",
+    "BaseItemClass": "kakrish_upper",
+    "SetID": "kakrish_set"
+  },
+  {
+    "ItemClass": "kakrish_lower",
+    "BaseItemClass": "kakrish_lower",
+    "SetID": "kakrish_set"
+  },
+  {
+    "ItemClass": "kakrish_hand",
+    "BaseItemClass": "kakrish_hand",
+    "SetID": "kakrish_set"
+  },
+  {
+    "ItemClass": "kakrish_foot",
+    "BaseItemClass": "kakrish_foot",
+    "SetID": "kakrish_set"
+  },
+  {
+    "ItemClass": "rage_evy_head",
+    "BaseItemClass": "rage_evy_head",
+    "SetID": "rage_evy_set"
+  },
+  {
+    "ItemClass": "rage_evy_upper",
+    "BaseItemClass": "rage_evy_upper",
+    "SetID": "rage_evy_set"
+  },
+  {
+    "ItemClass": "rage_evy_lower",
+    "BaseItemClass": "rage_evy_lower",
+    "SetID": "rage_evy_set"
+  },
+  {
+    "ItemClass": "rage_evy_hand",
+    "BaseItemClass": "rage_evy_hand",
+    "SetID": "rage_evy_set"
+  },
+  {
+    "ItemClass": "rage_evy_foot",
+    "BaseItemClass": "rage_evy_foot",
+    "SetID": "rage_evy_set"
+  },
+  {
+    "ItemClass": "blackhammer2_head",
+    "BaseItemClass": "blackhammer2_head",
+    "SetID": "swift_set"
+  },
+  {
+    "ItemClass": "blackhammer2_upper",
+    "BaseItemClass": "blackhammer2_upper",
+    "SetID": "swift_set"
+  },
+  {
+    "ItemClass": "blackhammer2_lower",
+    "BaseItemClass": "blackhammer2_lower",
+    "SetID": "swift_set"
+  },
+  {
+    "ItemClass": "blackhammer2_hand",
+    "BaseItemClass": "blackhammer2_hand",
+    "SetID": "swift_set"
+  },
+  {
+    "ItemClass": "blackhammer2_foot",
+    "BaseItemClass": "blackhammer2_foot",
+    "SetID": "swift_set"
+  },
+  {
+    "ItemClass": "midnight_head",
+    "BaseItemClass": "midnight_head",
+    "SetID": "midnight_set"
+  },
+  {
+    "ItemClass": "midnight_upper",
+    "BaseItemClass": "midnight_upper",
+    "SetID": "midnight_set"
+  },
+  {
+    "ItemClass": "midnight_lower",
+    "BaseItemClass": "midnight_lower",
+    "SetID": "midnight_set"
+  },
+  {
+    "ItemClass": "midnight_hand",
+    "BaseItemClass": "midnight_hand",
+    "SetID": "midnight_set"
+  },
+  {
+    "ItemClass": "midnight_foot",
+    "BaseItemClass": "midnight_foot",
+    "SetID": "midnight_set"
+  },
+  {
+    "ItemClass": "wingplate_head",
+    "BaseItemClass": "wingplate_head",
+    "SetID": "wingplate_set"
+  },
+  {
+    "ItemClass": "wingplate_upper",
+    "BaseItemClass": "wingplate_upper",
+    "SetID": "wingplate_set"
+  },
+  {
+    "ItemClass": "wingplate_lower",
+    "BaseItemClass": "wingplate_lower",
+    "SetID": "wingplate_set"
+  },
+  {
+    "ItemClass": "wingplate_hand",
+    "BaseItemClass": "wingplate_hand",
+    "SetID": "wingplate_set"
+  },
+  {
+    "ItemClass": "wingplate_foot",
+    "BaseItemClass": "wingplate_foot",
+    "SetID": "wingplate_set"
+  },
+  {
+    "ItemClass": "earring_feather",
+    "BaseItemClass": "earring_feather",
+    "SetID": "feather_set"
+  },
+  {
+    "ItemClass": "feather_upper",
+    "BaseItemClass": "feather_upper",
+    "SetID": "feather_set"
+  },
+  {
+    "ItemClass": "feather_lower",
+    "BaseItemClass": "feather_lower",
+    "SetID": "feather_set"
+  },
+  {
+    "ItemClass": "feather_hand",
+    "BaseItemClass": "feather_hand",
+    "SetID": "feather_set"
+  },
+  {
+    "ItemClass": "feather_foot",
+    "BaseItemClass": "feather_foot",
+    "SetID": "feather_set"
+  },
+  {
+    "ItemClass": "plate_hand",
+    "BaseItemClass": "plate_hand",
+    "SetID": "plate_set"
+  },
+  {
+    "ItemClass": "plate_foot",
+    "BaseItemClass": "plate_foot",
+    "SetID": "plate_set"
+  },
+  {
+    "ItemClass": "plate_head",
+    "BaseItemClass": "plate_head",
+    "SetID": "plate_set"
+  },
+  {
+    "ItemClass": "plate_lower",
+    "BaseItemClass": "plate_lower",
+    "SetID": "plate_set"
+  },
+  {
+    "ItemClass": "plate_upper",
+    "BaseItemClass": "plate_upper",
+    "SetID": "plate_set"
+  },
+  {
+    "ItemClass": "chiulin_head",
+    "BaseItemClass": "chiulin_head",
+    "SetID": "chiulin_set"
+  },
+  {
+    "ItemClass": "chiulin_upper",
+    "BaseItemClass": "chiulin_upper",
+    "SetID": "chiulin_set"
+  },
+  {
+    "ItemClass": "chiulin_lower",
+    "BaseItemClass": "chiulin_lower",
+    "SetID": "chiulin_set"
+  },
+  {
+    "ItemClass": "chiulin_hand",
+    "BaseItemClass": "chiulin_hand",
+    "SetID": "chiulin_set"
+  },
+  {
+    "ItemClass": "chiulin_foot",
+    "BaseItemClass": "chiulin_foot",
+    "SetID": "chiulin_set"
+  },
+  {
+    "ItemClass": "frostheart_head",
+    "BaseItemClass": "frostheart_head",
+    "SetID": "frostheart_set"
+  },
+  {
+    "ItemClass": "frostheart_upper",
+    "BaseItemClass": "frostheart_upper",
+    "SetID": "frostheart_set"
+  },
+  {
+    "ItemClass": "frostheart_lower",
+    "BaseItemClass": "frostheart_lower",
+    "SetID": "frostheart_set"
+  },
+  {
+    "ItemClass": "frostheart_hand",
+    "BaseItemClass": "frostheart_hand",
+    "SetID": "frostheart_set"
+  },
+  {
+    "ItemClass": "frostheart_foot",
+    "BaseItemClass": "frostheart_foot",
+    "SetID": "frostheart_set"
+  },
+  {
+    "ItemClass": "ingkara_head",
+    "BaseItemClass": "ingkara_head",
+    "SetID": "ingkara_set"
+  },
+  {
+    "ItemClass": "ingkara_upper",
+    "BaseItemClass": "ingkara_upper",
+    "SetID": "ingkara_set"
+  },
+  {
+    "ItemClass": "ingkara_lower",
+    "BaseItemClass": "ingkara_lower",
+    "SetID": "ingkara_set"
+  },
+  {
+    "ItemClass": "ingkara_hand",
+    "BaseItemClass": "ingkara_hand",
+    "SetID": "ingkara_set"
+  },
+  {
+    "ItemClass": "ingkara_foot",
+    "BaseItemClass": "ingkara_foot",
+    "SetID": "ingkara_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_head",
+    "BaseItemClass": "giant_barbarian_head",
+    "SetID": "barbarian_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_upper",
+    "BaseItemClass": "giant_barbarian_upper",
+    "SetID": "barbarian_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_lower",
+    "BaseItemClass": "giant_barbarian_lower",
+    "SetID": "barbarian_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_hand",
+    "BaseItemClass": "giant_barbarian_hand",
+    "SetID": "barbarian_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_foot",
+    "BaseItemClass": "giant_barbarian_foot",
+    "SetID": "barbarian_set"
+  },
+  {
+    "ItemClass": "southern_giant_head",
+    "BaseItemClass": "southern_giant_head",
+    "SetID": "southern_giant_set"
+  },
+  {
+    "ItemClass": "southern_giant_upper",
+    "BaseItemClass": "southern_giant_upper",
+    "SetID": "southern_giant_set"
+  },
+  {
+    "ItemClass": "southern_giant_lower",
+    "BaseItemClass": "southern_giant_lower",
+    "SetID": "southern_giant_set"
+  },
+  {
+    "ItemClass": "southern_giant_hand",
+    "BaseItemClass": "southern_giant_hand",
+    "SetID": "southern_giant_set"
+  },
+  {
+    "ItemClass": "southern_giant_foot",
+    "BaseItemClass": "southern_giant_foot",
+    "SetID": "southern_giant_set"
+  },
+  {
+    "ItemClass": "royalheavy_hand_term",
+    "BaseItemClass": "royalheavy_hand_term",
+    "SetID": "royalheavy_term_set"
+  },
+  {
+    "ItemClass": "royalheavy_foot_term",
+    "BaseItemClass": "royalheavy_foot_term",
+    "SetID": "royalheavy_term_set"
+  },
+  {
+    "ItemClass": "royalheavy_head_term",
+    "BaseItemClass": "royalheavy_head_term",
+    "SetID": "royalheavy_term_set"
+  },
+  {
+    "ItemClass": "royalheavy_lower_term",
+    "BaseItemClass": "royalheavy_lower_term",
+    "SetID": "royalheavy_term_set"
+  },
+  {
+    "ItemClass": "royalheavy_upper_term",
+    "BaseItemClass": "royalheavy_upper_term",
+    "SetID": "royalheavy_term_set"
+  },
+  {
+    "ItemClass": "royallight_hand_term",
+    "BaseItemClass": "royallight_hand_term",
+    "SetID": "royallight_term_set"
+  },
+  {
+    "ItemClass": "royallight_foot_term",
+    "BaseItemClass": "royallight_foot_term",
+    "SetID": "royallight_term_set"
+  },
+  {
+    "ItemClass": "royallight_head_term",
+    "BaseItemClass": "royallight_head_term",
+    "SetID": "royallight_term_set"
+  },
+  {
+    "ItemClass": "royallight_lower_term",
+    "BaseItemClass": "royallight_lower_term",
+    "SetID": "royallight_term_set"
+  },
+  {
+    "ItemClass": "royallight_upper_term",
+    "BaseItemClass": "royallight_upper_term",
+    "SetID": "royallight_term_set"
+  },
+  {
+    "ItemClass": "longsword_thor",
+    "BaseItemClass": "weapon_thor",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "dualsword_thor",
+    "BaseItemClass": "weapon_thor",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "staff_thor",
+    "BaseItemClass": "weapon_thor",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "pillar_capricorn",
+    "BaseItemClass": "weapon_thor",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "ring_ghost_thank",
+    "BaseItemClass": "ring_ghost_thank",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "belt_thor",
+    "BaseItemClass": "belt_thor",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "bow_thor",
+    "BaseItemClass": "weapon_thor",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "greatsword_titan",
+    "BaseItemClass": "weapon_thor",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "battleglaive_thor",
+    "BaseItemClass": "weapon_thor",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "longblade_thor",
+    "BaseItemClass": "weapon_thor",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "phantomdagger_thor",
+    "BaseItemClass": "weapon_thor",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "bastardsword_thor",
+    "BaseItemClass": "weapon_thor",
+    "SetID": "thor_set"
+  },
+  {
+    "ItemClass": "ergreaver_head",
+    "BaseItemClass": "ergreaver_head",
+    "SetID": "ergreaver_set"
+  },
+  {
+    "ItemClass": "ergreaver_upper",
+    "BaseItemClass": "ergreaver_upper",
+    "SetID": "ergreaver_set"
+  },
+  {
+    "ItemClass": "ergreaver_lower",
+    "BaseItemClass": "ergreaver_lower",
+    "SetID": "ergreaver_set"
+  },
+  {
+    "ItemClass": "ergreaver_hand",
+    "BaseItemClass": "ergreaver_hand",
+    "SetID": "ergreaver_set"
+  },
+  {
+    "ItemClass": "ergreaver_foot",
+    "BaseItemClass": "ergreaver_foot",
+    "SetID": "ergreaver_set"
+  },
+  {
+    "ItemClass": "ingkells_head",
+    "BaseItemClass": "ingkells_head",
+    "SetID": "ingkells_set"
+  },
+  {
+    "ItemClass": "ingkells_upper",
+    "BaseItemClass": "ingkells_upper",
+    "SetID": "ingkells_set"
+  },
+  {
+    "ItemClass": "ingkells_lower",
+    "BaseItemClass": "ingkells_lower",
+    "SetID": "ingkells_set"
+  },
+  {
+    "ItemClass": "ingkells_hand",
+    "BaseItemClass": "ingkells_hand",
+    "SetID": "ingkells_set"
+  },
+  {
+    "ItemClass": "ingkells_foot",
+    "BaseItemClass": "ingkells_foot",
+    "SetID": "ingkells_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_00_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_20_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_28_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_32_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_34_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_00_fiona_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_20_fiona_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_28_fiona_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_32_fiona_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_34_fiona_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_00_evie_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_20_evie_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_28_evie_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_32_evie_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_34_evie_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_00_kalok_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_20_kalok_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_28_kalok_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_32_kalok_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_34_kalok_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_00_kay_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_20_kay_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_28_kay_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_32_kay_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_34_kay_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_00_vella_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_20_vella_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_28_vella_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_32_vella_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_34_vella_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_00_hurk_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_20_hurk_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_28_hurk_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_32_hurk_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_upper_34_hurk_enUS",
+    "BaseItemClass": "event_superbowl_upper_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_head_enUS",
+    "BaseItemClass": "event_superbowl_head_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "event_superbowl_head_tw",
+    "BaseItemClass": "event_superbowl_head_enUS",
+    "SetID": "superbowl_enUS_set"
+  },
+  {
+    "ItemClass": "ingkells_evy_head",
+    "BaseItemClass": "ingkells_evy_head",
+    "SetID": "ingkells_evy_set"
+  },
+  {
+    "ItemClass": "ingkells_evy_upper",
+    "BaseItemClass": "ingkells_evy_upper",
+    "SetID": "ingkells_evy_set"
+  },
+  {
+    "ItemClass": "ingkells_evy_lower",
+    "BaseItemClass": "ingkells_evy_lower",
+    "SetID": "ingkells_evy_set"
+  },
+  {
+    "ItemClass": "ingkells_evy_hand",
+    "BaseItemClass": "ingkells_evy_hand",
+    "SetID": "ingkells_evy_set"
+  },
+  {
+    "ItemClass": "ingkells_evy_foot",
+    "BaseItemClass": "ingkells_evy_foot",
+    "SetID": "ingkells_evy_set"
+  },
+  {
+    "ItemClass": "glasgavelen_head",
+    "BaseItemClass": "glasgavelen_head",
+    "SetID": "glasgavelen_set"
+  },
+  {
+    "ItemClass": "glasgavelen_upper",
+    "BaseItemClass": "glasgavelen_upper",
+    "SetID": "glasgavelen_set"
+  },
+  {
+    "ItemClass": "glasgavelen_lower",
+    "BaseItemClass": "glasgavelen_lower",
+    "SetID": "glasgavelen_set"
+  },
+  {
+    "ItemClass": "glasgavelen_hand",
+    "BaseItemClass": "glasgavelen_hand",
+    "SetID": "glasgavelen_set"
+  },
+  {
+    "ItemClass": "glasgavelen_foot",
+    "BaseItemClass": "glasgavelen_foot",
+    "SetID": "glasgavelen_set"
+  },
+  {
+    "ItemClass": "wonderland_head",
+    "BaseItemClass": "wonderland_head",
+    "SetID": "wonderland_set"
+  },
+  {
+    "ItemClass": "wonderland_upper",
+    "BaseItemClass": "wonderland_upper",
+    "SetID": "wonderland_set"
+  },
+  {
+    "ItemClass": "wonderland_lower",
+    "BaseItemClass": "wonderland_lower",
+    "SetID": "wonderland_set"
+  },
+  {
+    "ItemClass": "wonderland_hand",
+    "BaseItemClass": "wonderland_hand",
+    "SetID": "wonderland_set"
+  },
+  {
+    "ItemClass": "wonderland_foot",
+    "BaseItemClass": "wonderland_foot",
+    "SetID": "wonderland_set"
+  },
+  {
+    "ItemClass": "nightmare_hand_expire",
+    "BaseItemClass": "nightmare_hand_expire",
+    "SetID": "nightmare_expire_set"
+  },
+  {
+    "ItemClass": "nightmare_foot_expire",
+    "BaseItemClass": "nightmare_foot_expire",
+    "SetID": "nightmare_expire_set"
+  },
+  {
+    "ItemClass": "nightmare_head_expire",
+    "BaseItemClass": "nightmare_head_expire",
+    "SetID": "nightmare_expire_set"
+  },
+  {
+    "ItemClass": "nightmare_lower_expire",
+    "BaseItemClass": "nightmare_lower_expire",
+    "SetID": "nightmare_expire_set"
+  },
+  {
+    "ItemClass": "nightmare_upper_expire",
+    "BaseItemClass": "nightmare_upper_expire",
+    "SetID": "nightmare_expire_set"
+  },
+  {
+    "ItemClass": "frosthard_hand_expire",
+    "BaseItemClass": "frosthard_hand_expire",
+    "SetID": "frosthard_expire_set"
+  },
+  {
+    "ItemClass": "frosthard_foot_expire",
+    "BaseItemClass": "frosthard_foot_expire",
+    "SetID": "frosthard_expire_set"
+  },
+  {
+    "ItemClass": "frosthard_head_expire",
+    "BaseItemClass": "frosthard_head_expire",
+    "SetID": "frosthard_expire_set"
+  },
+  {
+    "ItemClass": "frosthard_lower_expire",
+    "BaseItemClass": "frosthard_lower_expire",
+    "SetID": "frosthard_expire_set"
+  },
+  {
+    "ItemClass": "frosthard_upper_expire",
+    "BaseItemClass": "frosthard_upper_expire",
+    "SetID": "frosthard_expire_set"
+  },
+  {
+    "ItemClass": "lorica_hand_expire",
+    "BaseItemClass": "lorica_hand_expire",
+    "SetID": "lorica_expire_set"
+  },
+  {
+    "ItemClass": "lorica_foot_expire",
+    "BaseItemClass": "lorica_foot_expire",
+    "SetID": "lorica_expire_set"
+  },
+  {
+    "ItemClass": "lorica_head_expire",
+    "BaseItemClass": "lorica_head_expire",
+    "SetID": "lorica_expire_set"
+  },
+  {
+    "ItemClass": "lorica_lower_expire",
+    "BaseItemClass": "lorica_lower_expire",
+    "SetID": "lorica_expire_set"
+  },
+  {
+    "ItemClass": "lorica_upper_expire",
+    "BaseItemClass": "lorica_upper_expire",
+    "SetID": "lorica_expire_set"
+  },
+  {
+    "ItemClass": "shiningwill_hand_expire",
+    "BaseItemClass": "shiningwill_hand_expire",
+    "SetID": "shiningwill_expire_set"
+  },
+  {
+    "ItemClass": "shiningwill_foot_expire",
+    "BaseItemClass": "shiningwill_foot_expire",
+    "SetID": "shiningwill_expire_set"
+  },
+  {
+    "ItemClass": "shiningwill_head_expire",
+    "BaseItemClass": "shiningwill_head_expire",
+    "SetID": "shiningwill_expire_set"
+  },
+  {
+    "ItemClass": "shiningwill_lower_expire",
+    "BaseItemClass": "shiningwill_lower_expire",
+    "SetID": "shiningwill_expire_set"
+  },
+  {
+    "ItemClass": "shiningwill_upper_expire",
+    "BaseItemClass": "shiningwill_upper_expire",
+    "SetID": "shiningwill_expire_set"
+  },
+  {
+    "ItemClass": "midnight_head_expire",
+    "BaseItemClass": "midnight_head_expire",
+    "SetID": "midnight_expire_set"
+  },
+  {
+    "ItemClass": "midnight_upper_expire",
+    "BaseItemClass": "midnight_upper_expire",
+    "SetID": "midnight_expire_set"
+  },
+  {
+    "ItemClass": "midnight_lower_expire",
+    "BaseItemClass": "midnight_lower_expire",
+    "SetID": "midnight_expire_set"
+  },
+  {
+    "ItemClass": "midnight_hand_expire",
+    "BaseItemClass": "midnight_hand_expire",
+    "SetID": "midnight_expire_set"
+  },
+  {
+    "ItemClass": "midnight_foot_expire",
+    "BaseItemClass": "midnight_foot_expire",
+    "SetID": "midnight_expire_set"
+  },
+  {
+    "ItemClass": "bloodlord_hand_expire",
+    "BaseItemClass": "bloodlord_hand_expire",
+    "SetID": "bloodlord_expire_set"
+  },
+  {
+    "ItemClass": "bloodlord_foot_expire",
+    "BaseItemClass": "bloodlord_foot_expire",
+    "SetID": "bloodlord_expire_set"
+  },
+  {
+    "ItemClass": "bloodlord_head_expire",
+    "BaseItemClass": "bloodlord_head_expire",
+    "SetID": "bloodlord_expire_set"
+  },
+  {
+    "ItemClass": "bloodlord_lower_expire",
+    "BaseItemClass": "bloodlord_lower_expire",
+    "SetID": "bloodlord_expire_set"
+  },
+  {
+    "ItemClass": "bloodlord_upper_expire",
+    "BaseItemClass": "bloodlord_upper_expire",
+    "SetID": "bloodlord_expire_set"
+  },
+  {
+    "ItemClass": "southern_hand_expire",
+    "BaseItemClass": "southern_hand_expire",
+    "SetID": "southern_expire_set"
+  },
+  {
+    "ItemClass": "southern_foot_expire",
+    "BaseItemClass": "southern_foot_expire",
+    "SetID": "southern_expire_set"
+  },
+  {
+    "ItemClass": "southern_head_expire",
+    "BaseItemClass": "southern_head_expire",
+    "SetID": "southern_expire_set"
+  },
+  {
+    "ItemClass": "southern_lower_expire",
+    "BaseItemClass": "southern_lower_expire",
+    "SetID": "southern_expire_set"
+  },
+  {
+    "ItemClass": "southern_upper_expire",
+    "BaseItemClass": "southern_upper_expire",
+    "SetID": "southern_expire_set"
+  },
+  {
+    "ItemClass": "rage_evy_head_expire",
+    "BaseItemClass": "rage_evy_head_expire",
+    "SetID": "rage_evy_expire_set"
+  },
+  {
+    "ItemClass": "rage_evy_upper_expire",
+    "BaseItemClass": "rage_evy_upper_expire",
+    "SetID": "rage_evy_expire_set"
+  },
+  {
+    "ItemClass": "rage_evy_lower_expire",
+    "BaseItemClass": "rage_evy_lower_expire",
+    "SetID": "rage_evy_expire_set"
+  },
+  {
+    "ItemClass": "rage_evy_hand_expire",
+    "BaseItemClass": "rage_evy_hand_expire",
+    "SetID": "rage_evy_expire_set"
+  },
+  {
+    "ItemClass": "rage_evy_foot_expire",
+    "BaseItemClass": "rage_evy_foot_expire",
+    "SetID": "rage_evy_expire_set"
+  },
+  {
+    "ItemClass": "southern_giant_head_expire",
+    "BaseItemClass": "southern_giant_head_expire",
+    "SetID": "southern_giant_expire_set"
+  },
+  {
+    "ItemClass": "southern_giant_upper_expire",
+    "BaseItemClass": "southern_giant_upper_expire",
+    "SetID": "southern_giant_expire_set"
+  },
+  {
+    "ItemClass": "southern_giant_lower_expire",
+    "BaseItemClass": "southern_giant_lower_expire",
+    "SetID": "southern_giant_expire_set"
+  },
+  {
+    "ItemClass": "southern_giant_hand_expire",
+    "BaseItemClass": "southern_giant_hand_expire",
+    "SetID": "southern_giant_expire_set"
+  },
+  {
+    "ItemClass": "southern_giant_foot_expire",
+    "BaseItemClass": "southern_giant_foot_expire",
+    "SetID": "southern_giant_expire_set"
+  },
+  {
+    "ItemClass": "fervor_head",
+    "BaseItemClass": "fervor_head",
+    "SetID": "fevor_set"
+  },
+  {
+    "ItemClass": "fervor_upper",
+    "BaseItemClass": "fervor_upper",
+    "SetID": "fevor_set"
+  },
+  {
+    "ItemClass": "fervor_lower",
+    "BaseItemClass": "fervor_lower",
+    "SetID": "fevor_set"
+  },
+  {
+    "ItemClass": "fervor_hand",
+    "BaseItemClass": "fervor_hand",
+    "SetID": "fevor_set"
+  },
+  {
+    "ItemClass": "fervor_foot",
+    "BaseItemClass": "fervor_foot",
+    "SetID": "fevor_set"
+  },
+  {
+    "ItemClass": "calm_new_head",
+    "BaseItemClass": "calm_new_head",
+    "SetID": "calm_set"
+  },
+  {
+    "ItemClass": "calm_new_upper",
+    "BaseItemClass": "calm_new_upper",
+    "SetID": "calm_set"
+  },
+  {
+    "ItemClass": "calm_new_lower",
+    "BaseItemClass": "calm_new_lower",
+    "SetID": "calm_set"
+  },
+  {
+    "ItemClass": "calm_new_hand",
+    "BaseItemClass": "calm_new_hand",
+    "SetID": "calm_set"
+  },
+  {
+    "ItemClass": "calm_new_foot",
+    "BaseItemClass": "calm_new_foot",
+    "SetID": "calm_set"
+  },
+  {
+    "ItemClass": "fallenangel_head",
+    "BaseItemClass": "fallenangel_head",
+    "SetID": "fallenangel_set"
+  },
+  {
+    "ItemClass": "fallenangel_upper",
+    "BaseItemClass": "fallenangel_upper",
+    "SetID": "fallenangel_set"
+  },
+  {
+    "ItemClass": "fallenangel_lower",
+    "BaseItemClass": "fallenangel_lower",
+    "SetID": "fallenangel_set"
+  },
+  {
+    "ItemClass": "fallenangel_hand",
+    "BaseItemClass": "fallenangel_hand",
+    "SetID": "fallenangel_set"
+  },
+  {
+    "ItemClass": "fallenangel_foot",
+    "BaseItemClass": "fallenangel_foot",
+    "SetID": "fallenangel_set"
+  },
+  {
+    "ItemClass": "cuallemeach_head",
+    "BaseItemClass": "cuallemeach_head",
+    "SetID": "cuallemeach_set"
+  },
+  {
+    "ItemClass": "cuallemeach_upper",
+    "BaseItemClass": "cuallemeach_upper",
+    "SetID": "cuallemeach_set"
+  },
+  {
+    "ItemClass": "cuallemeach_lower",
+    "BaseItemClass": "cuallemeach_lower",
+    "SetID": "cuallemeach_set"
+  },
+  {
+    "ItemClass": "cuallemeach_hand",
+    "BaseItemClass": "cuallemeach_hand",
+    "SetID": "cuallemeach_set"
+  },
+  {
+    "ItemClass": "cuallemeach_foot",
+    "BaseItemClass": "cuallemeach_foot",
+    "SetID": "cuallemeach_set"
+  },
+  {
+    "ItemClass": "sinister_hand_term",
+    "BaseItemClass": "sinister_hand_term",
+    "SetID": "sinister_term_set"
+  },
+  {
+    "ItemClass": "sinister_foot_term",
+    "BaseItemClass": "sinister_foot_term",
+    "SetID": "sinister_term_set"
+  },
+  {
+    "ItemClass": "sinister_head_term",
+    "BaseItemClass": "sinister_head_term",
+    "SetID": "sinister_term_set"
+  },
+  {
+    "ItemClass": "sinister_lower_term",
+    "BaseItemClass": "sinister_lower_term",
+    "SetID": "sinister_term_set"
+  },
+  {
+    "ItemClass": "sinister_upper_term",
+    "BaseItemClass": "sinister_upper_term",
+    "SetID": "sinister_term_set"
+  },
+  {
+    "ItemClass": "shiningwill_hand_term",
+    "BaseItemClass": "shiningwill_hand_term",
+    "SetID": "shiningwill_term_set"
+  },
+  {
+    "ItemClass": "shiningwill_foot_term",
+    "BaseItemClass": "shiningwill_foot_term",
+    "SetID": "shiningwill_term_set"
+  },
+  {
+    "ItemClass": "shiningwill_head_term",
+    "BaseItemClass": "shiningwill_head_term",
+    "SetID": "shiningwill_term_set"
+  },
+  {
+    "ItemClass": "shiningwill_lower_term",
+    "BaseItemClass": "shiningwill_lower_term",
+    "SetID": "shiningwill_term_set"
+  },
+  {
+    "ItemClass": "shiningwill_upper_term",
+    "BaseItemClass": "shiningwill_upper_term",
+    "SetID": "shiningwill_term_set"
+  },
+  {
+    "ItemClass": "temp_hand_term",
+    "BaseItemClass": "temp_hand_term",
+    "SetID": "temp_term_set"
+  },
+  {
+    "ItemClass": "temp_foot_term",
+    "BaseItemClass": "temp_foot_term",
+    "SetID": "temp_term_set"
+  },
+  {
+    "ItemClass": "earring_temp_term",
+    "BaseItemClass": "earring_temp_term",
+    "SetID": "temp_term_set"
+  },
+  {
+    "ItemClass": "temp_lower_term",
+    "BaseItemClass": "temp_lower_term",
+    "SetID": "temp_term_set"
+  },
+  {
+    "ItemClass": "temp_upper_term",
+    "BaseItemClass": "temp_upper_term",
+    "SetID": "temp_term_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_head_term",
+    "BaseItemClass": "giant_barbarian_head_term",
+    "SetID": "barbarian_term_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_upper_term",
+    "BaseItemClass": "giant_barbarian_upper_term",
+    "SetID": "barbarian_term_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_lower_term",
+    "BaseItemClass": "giant_barbarian_lower_term",
+    "SetID": "barbarian_term_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_hand_term",
+    "BaseItemClass": "giant_barbarian_hand_term",
+    "SetID": "barbarian_term_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_foot_term",
+    "BaseItemClass": "giant_barbarian_foot_term",
+    "SetID": "barbarian_term_set"
+  },
+  {
+    "ItemClass": "legend_head",
+    "BaseItemClass": "legend_head",
+    "SetID": "legend_set"
+  },
+  {
+    "ItemClass": "legend_upper",
+    "BaseItemClass": "legend_upper",
+    "SetID": "legend_set"
+  },
+  {
+    "ItemClass": "legend_lower",
+    "BaseItemClass": "legend_lower",
+    "SetID": "legend_set"
+  },
+  {
+    "ItemClass": "legend_hand",
+    "BaseItemClass": "legend_hand",
+    "SetID": "legend_set"
+  },
+  {
+    "ItemClass": "legend_foot",
+    "BaseItemClass": "legend_foot",
+    "SetID": "legend_set"
+  },
+  {
+    "ItemClass": "legend_evy_head",
+    "BaseItemClass": "legend_evy_head",
+    "SetID": "legend_evy_set"
+  },
+  {
+    "ItemClass": "legend_evy_upper",
+    "BaseItemClass": "legend_evy_upper",
+    "SetID": "legend_evy_set"
+  },
+  {
+    "ItemClass": "legend_evy_lower",
+    "BaseItemClass": "legend_evy_lower",
+    "SetID": "legend_evy_set"
+  },
+  {
+    "ItemClass": "legend_evy_hand",
+    "BaseItemClass": "legend_evy_hand",
+    "SetID": "legend_evy_set"
+  },
+  {
+    "ItemClass": "legend_evy_foot",
+    "BaseItemClass": "legend_evy_foot",
+    "SetID": "legend_evy_set"
+  },
+  {
+    "ItemClass": "royalheavy_hand_term_5",
+    "BaseItemClass": "royalheavy_hand_term_5",
+    "SetID": "royalheavy_term_5_set"
+  },
+  {
+    "ItemClass": "royalheavy_foot_term_5",
+    "BaseItemClass": "royalheavy_foot_term_5",
+    "SetID": "royalheavy_term_5_set"
+  },
+  {
+    "ItemClass": "royalheavy_head_term_5",
+    "BaseItemClass": "royalheavy_head_term_5",
+    "SetID": "royalheavy_term_5_set"
+  },
+  {
+    "ItemClass": "royalheavy_lower_term_5",
+    "BaseItemClass": "royalheavy_lower_term_5",
+    "SetID": "royalheavy_term_5_set"
+  },
+  {
+    "ItemClass": "royalheavy_upper_term_5",
+    "BaseItemClass": "royalheavy_upper_term_5",
+    "SetID": "royalheavy_term_5_set"
+  },
+  {
+    "ItemClass": "royallight_hand_term_5",
+    "BaseItemClass": "royallight_hand_term_5",
+    "SetID": "royallight_term_5_set"
+  },
+  {
+    "ItemClass": "royallight_foot_term_5",
+    "BaseItemClass": "royallight_foot_term_5",
+    "SetID": "royallight_term_5_set"
+  },
+  {
+    "ItemClass": "royallight_head_term_5",
+    "BaseItemClass": "royallight_head_term_5",
+    "SetID": "royallight_term_5_set"
+  },
+  {
+    "ItemClass": "royallight_lower_term_5",
+    "BaseItemClass": "royallight_lower_term_5",
+    "SetID": "royallight_term_5_set"
+  },
+  {
+    "ItemClass": "royallight_upper_term_5",
+    "BaseItemClass": "royallight_upper_term_5",
+    "SetID": "royallight_term_5_set"
+  },
+  {
+    "ItemClass": "sinister_hand_hour",
+    "BaseItemClass": "sinister_hand_hour",
+    "SetID": "sinister_hour_set"
+  },
+  {
+    "ItemClass": "sinister_foot_hour",
+    "BaseItemClass": "sinister_foot_hour",
+    "SetID": "sinister_hour_set"
+  },
+  {
+    "ItemClass": "sinister_head_hour",
+    "BaseItemClass": "sinister_head_hour",
+    "SetID": "sinister_hour_set"
+  },
+  {
+    "ItemClass": "sinister_lower_hour",
+    "BaseItemClass": "sinister_lower_hour",
+    "SetID": "sinister_hour_set"
+  },
+  {
+    "ItemClass": "sinister_upper_hour",
+    "BaseItemClass": "sinister_upper_hour",
+    "SetID": "sinister_hour_set"
+  },
+  {
+    "ItemClass": "shiningwill_hand_hour",
+    "BaseItemClass": "shiningwill_hand_hour",
+    "SetID": "shiningwill_hour_set"
+  },
+  {
+    "ItemClass": "shiningwill_foot_hour",
+    "BaseItemClass": "shiningwill_foot_hour",
+    "SetID": "shiningwill_hour_set"
+  },
+  {
+    "ItemClass": "shiningwill_head_hour",
+    "BaseItemClass": "shiningwill_head_hour",
+    "SetID": "shiningwill_hour_set"
+  },
+  {
+    "ItemClass": "shiningwill_lower_hour",
+    "BaseItemClass": "shiningwill_lower_hour",
+    "SetID": "shiningwill_hour_set"
+  },
+  {
+    "ItemClass": "shiningwill_upper_hour",
+    "BaseItemClass": "shiningwill_upper_hour",
+    "SetID": "shiningwill_hour_set"
+  },
+  {
+    "ItemClass": "temp_hand_hour",
+    "BaseItemClass": "temp_hand_hour",
+    "SetID": "temp_hour_set"
+  },
+  {
+    "ItemClass": "temp_foot_hour",
+    "BaseItemClass": "temp_foot_hour",
+    "SetID": "temp_hour_set"
+  },
+  {
+    "ItemClass": "earring_temp_hour",
+    "BaseItemClass": "earring_temp_hour",
+    "SetID": "temp_hour_set"
+  },
+  {
+    "ItemClass": "temp_lower_hour",
+    "BaseItemClass": "temp_lower_hour",
+    "SetID": "temp_hour_set"
+  },
+  {
+    "ItemClass": "temp_upper_hour",
+    "BaseItemClass": "temp_upper_hour",
+    "SetID": "temp_hour_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_head_hour",
+    "BaseItemClass": "giant_barbarian_head_hour",
+    "SetID": "barbarian_hour_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_upper_hour",
+    "BaseItemClass": "giant_barbarian_upper_hour",
+    "SetID": "barbarian_hour_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_lower_hour",
+    "BaseItemClass": "giant_barbarian_lower_hour",
+    "SetID": "barbarian_hour_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_hand_hour",
+    "BaseItemClass": "giant_barbarian_hand_hour",
+    "SetID": "barbarian_hour_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_foot_hour",
+    "BaseItemClass": "giant_barbarian_foot_hour",
+    "SetID": "barbarian_hour_set"
+  },
+  {
+    "ItemClass": "royalheavy_hand_term_10_5day",
+    "BaseItemClass": "royalheavy_hand_term_10_5day",
+    "SetID": "royalheavy_term_10_5day_set"
+  },
+  {
+    "ItemClass": "royalheavy_foot_term_10_5day",
+    "BaseItemClass": "royalheavy_foot_term_10_5day",
+    "SetID": "royalheavy_term_10_5day_set"
+  },
+  {
+    "ItemClass": "royalheavy_head_term_10_5day",
+    "BaseItemClass": "royalheavy_head_term_10_5day",
+    "SetID": "royalheavy_term_10_5day_set"
+  },
+  {
+    "ItemClass": "royalheavy_lower_term_10_5day",
+    "BaseItemClass": "royalheavy_lower_term_10_5day",
+    "SetID": "royalheavy_term_10_5day_set"
+  },
+  {
+    "ItemClass": "royalheavy_upper_term_10_5day",
+    "BaseItemClass": "royalheavy_upper_term_10_5day",
+    "SetID": "royalheavy_term_10_5day_set"
+  },
+  {
+    "ItemClass": "royallight_hand_term_10_5day",
+    "BaseItemClass": "royallight_hand_term_10_5day",
+    "SetID": "royallight_term_10_5day_set"
+  },
+  {
+    "ItemClass": "royallight_foot_term_10_5day",
+    "BaseItemClass": "royallight_foot_term_10_5day",
+    "SetID": "royallight_term_10_5day_set"
+  },
+  {
+    "ItemClass": "royallight_head_term_10_5day",
+    "BaseItemClass": "royallight_head_term_10_5day",
+    "SetID": "royallight_term_10_5day_set"
+  },
+  {
+    "ItemClass": "royallight_lower_term_10_5day",
+    "BaseItemClass": "royallight_lower_term_10_5day",
+    "SetID": "royallight_term_10_5day_set"
+  },
+  {
+    "ItemClass": "royallight_upper_term_10_5day",
+    "BaseItemClass": "royallight_upper_term_10_5day",
+    "SetID": "royallight_term_10_5day_set"
+  },
+  {
+    "ItemClass": "sinister_hand_restoration",
+    "BaseItemClass": "sinister_hand_restoration",
+    "SetID": "sinister_restoration_set"
+  },
+  {
+    "ItemClass": "sinister_foot_restoration",
+    "BaseItemClass": "sinister_foot_restoration",
+    "SetID": "sinister_restoration_set"
+  },
+  {
+    "ItemClass": "sinister_head_restoration",
+    "BaseItemClass": "sinister_head_restoration",
+    "SetID": "sinister_restoration_set"
+  },
+  {
+    "ItemClass": "sinister_lower_restoration",
+    "BaseItemClass": "sinister_lower_restoration",
+    "SetID": "sinister_restoration_set"
+  },
+  {
+    "ItemClass": "sinister_upper_restoration",
+    "BaseItemClass": "sinister_upper_restoration",
+    "SetID": "sinister_restoration_set"
+  },
+  {
+    "ItemClass": "shiningwill_hand_restoration",
+    "BaseItemClass": "shiningwill_hand_restoration",
+    "SetID": "shiningwill_restoration_set"
+  },
+  {
+    "ItemClass": "shiningwill_foot_restoration",
+    "BaseItemClass": "shiningwill_foot_restoration",
+    "SetID": "shiningwill_restoration_set"
+  },
+  {
+    "ItemClass": "shiningwill_head_restoration",
+    "BaseItemClass": "shiningwill_head_restoration",
+    "SetID": "shiningwill_restoration_set"
+  },
+  {
+    "ItemClass": "shiningwill_lower_restoration",
+    "BaseItemClass": "shiningwill_lower_restoration",
+    "SetID": "shiningwill_restoration_set"
+  },
+  {
+    "ItemClass": "shiningwill_upper_restoration",
+    "BaseItemClass": "shiningwill_upper_restoration",
+    "SetID": "shiningwill_restoration_set"
+  },
+  {
+    "ItemClass": "temp_hand_restoration",
+    "BaseItemClass": "temp_hand_restoration",
+    "SetID": "temp_restoration_set"
+  },
+  {
+    "ItemClass": "temp_foot_restoration",
+    "BaseItemClass": "temp_foot_restoration",
+    "SetID": "temp_restoration_set"
+  },
+  {
+    "ItemClass": "temp_lower_restoration",
+    "BaseItemClass": "temp_lower_restoration",
+    "SetID": "temp_restoration_set"
+  },
+  {
+    "ItemClass": "temp_upper_restoration",
+    "BaseItemClass": "temp_upper_restoration",
+    "SetID": "temp_restoration_set"
+  },
+  {
+    "ItemClass": "earring_temp_restoration",
+    "BaseItemClass": "earring_temp_restoration",
+    "SetID": "temp_restoration_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_head_restoration",
+    "BaseItemClass": "giant_barbarian_head_restoration",
+    "SetID": "barbarian_restoration_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_upper_restoration",
+    "BaseItemClass": "giant_barbarian_upper_restoration",
+    "SetID": "barbarian_restoration_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_lower_restoration",
+    "BaseItemClass": "giant_barbarian_lower_restoration",
+    "SetID": "barbarian_restoration_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_hand_restoration",
+    "BaseItemClass": "giant_barbarian_hand_restoration",
+    "SetID": "barbarian_restoration_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_foot_restoration",
+    "BaseItemClass": "giant_barbarian_foot_restoration",
+    "SetID": "barbarian_restoration_set"
+  },
+  {
+    "ItemClass": "ep10_head",
+    "BaseItemClass": "ep10_head",
+    "SetID": "guardian_set"
+  },
+  {
+    "ItemClass": "ep10_upper",
+    "BaseItemClass": "ep10_upper",
+    "SetID": "guardian_set"
+  },
+  {
+    "ItemClass": "ep10_lower",
+    "BaseItemClass": "ep10_lower",
+    "SetID": "guardian_set"
+  },
+  {
+    "ItemClass": "ep10_hand",
+    "BaseItemClass": "ep10_hand",
+    "SetID": "guardian_set"
+  },
+  {
+    "ItemClass": "ep10_foot",
+    "BaseItemClass": "ep10_foot",
+    "SetID": "guardian_set"
+  },
+  {
+    "ItemClass": "ep10_fiona_head",
+    "BaseItemClass": "ep10_fiona_head",
+    "SetID": "guardian_fiona_set"
+  },
+  {
+    "ItemClass": "ep10_fiona_upper",
+    "BaseItemClass": "ep10_fiona_upper",
+    "SetID": "guardian_fiona_set"
+  },
+  {
+    "ItemClass": "ep10_fiona_lower",
+    "BaseItemClass": "ep10_fiona_lower",
+    "SetID": "guardian_fiona_set"
+  },
+  {
+    "ItemClass": "ep10_fiona_hand",
+    "BaseItemClass": "ep10_fiona_hand",
+    "SetID": "guardian_fiona_set"
+  },
+  {
+    "ItemClass": "ep10_fiona_foot",
+    "BaseItemClass": "ep10_fiona_foot",
+    "SetID": "guardian_fiona_set"
+  },
+  {
+    "ItemClass": "ep10_evy_head",
+    "BaseItemClass": "ep10_evy_head",
+    "SetID": "guardian_evy_set"
+  },
+  {
+    "ItemClass": "ep10_evy_upper",
+    "BaseItemClass": "ep10_evy_upper",
+    "SetID": "guardian_evy_set"
+  },
+  {
+    "ItemClass": "ep10_evy_lower",
+    "BaseItemClass": "ep10_evy_lower",
+    "SetID": "guardian_evy_set"
+  },
+  {
+    "ItemClass": "ep10_evy_hand",
+    "BaseItemClass": "ep10_evy_hand",
+    "SetID": "guardian_evy_set"
+  },
+  {
+    "ItemClass": "ep10_evy_foot",
+    "BaseItemClass": "ep10_evy_foot",
+    "SetID": "guardian_evy_set"
+  },
+  {
+    "ItemClass": "naturewalker_hand",
+    "BaseItemClass": "naturewalker_hand",
+    "SetID": "naturewalker_set"
+  },
+  {
+    "ItemClass": "naturewalker_foot",
+    "BaseItemClass": "naturewalker_foot",
+    "SetID": "naturewalker_set"
+  },
+  {
+    "ItemClass": "naturewalker_head",
+    "BaseItemClass": "naturewalker_head",
+    "SetID": "naturewalker_set"
+  },
+  {
+    "ItemClass": "naturewalker_lower",
+    "BaseItemClass": "naturewalker_lower",
+    "SetID": "naturewalker_set"
+  },
+  {
+    "ItemClass": "naturewalker_upper",
+    "BaseItemClass": "naturewalker_upper",
+    "SetID": "naturewalker_set"
+  },
+  {
+    "ItemClass": "empire_head",
+    "BaseItemClass": "empire_head",
+    "SetID": "empire_set"
+  },
+  {
+    "ItemClass": "empire_upper",
+    "BaseItemClass": "empire_upper",
+    "SetID": "empire_set"
+  },
+  {
+    "ItemClass": "empire_lower",
+    "BaseItemClass": "empire_lower",
+    "SetID": "empire_set"
+  },
+  {
+    "ItemClass": "empire_hand",
+    "BaseItemClass": "empire_hand",
+    "SetID": "empire_set"
+  },
+  {
+    "ItemClass": "empire_foot",
+    "BaseItemClass": "empire_foot",
+    "SetID": "empire_set"
+  },
+  {
+    "ItemClass": "death_head",
+    "BaseItemClass": "death_head",
+    "SetID": "death_set"
+  },
+  {
+    "ItemClass": "death_upper",
+    "BaseItemClass": "death_upper",
+    "SetID": "death_set"
+  },
+  {
+    "ItemClass": "death_lower",
+    "BaseItemClass": "death_lower",
+    "SetID": "death_set"
+  },
+  {
+    "ItemClass": "death_hand",
+    "BaseItemClass": "death_hand",
+    "SetID": "death_set"
+  },
+  {
+    "ItemClass": "death_foot",
+    "BaseItemClass": "death_foot",
+    "SetID": "death_set"
+  },
+  {
+    "ItemClass": "ring_archer",
+    "BaseItemClass": "ring_archer",
+    "SetID": "archer_set"
+  },
+  {
+    "ItemClass": "charm_archer",
+    "BaseItemClass": "charm_archer",
+    "SetID": "archer_set"
+  },
+  {
+    "ItemClass": "sinister_hand_comback",
+    "BaseItemClass": "sinister_hand_comback",
+    "SetID": "sinister_comback_set"
+  },
+  {
+    "ItemClass": "sinister_foot_comback",
+    "BaseItemClass": "sinister_foot_comback",
+    "SetID": "sinister_comback_set"
+  },
+  {
+    "ItemClass": "sinister_head_comback",
+    "BaseItemClass": "sinister_head_comback",
+    "SetID": "sinister_comback_set"
+  },
+  {
+    "ItemClass": "sinister_lower_comback",
+    "BaseItemClass": "sinister_lower_comback",
+    "SetID": "sinister_comback_set"
+  },
+  {
+    "ItemClass": "sinister_upper_comback",
+    "BaseItemClass": "sinister_upper_comback",
+    "SetID": "sinister_comback_set"
+  },
+  {
+    "ItemClass": "shiningwill_hand_comback",
+    "BaseItemClass": "shiningwill_hand_comback",
+    "SetID": "shiningwill_comback_set"
+  },
+  {
+    "ItemClass": "shiningwill_foot_comback",
+    "BaseItemClass": "shiningwill_foot_comback",
+    "SetID": "shiningwill_comback_set"
+  },
+  {
+    "ItemClass": "shiningwill_head_comback",
+    "BaseItemClass": "shiningwill_head_comback",
+    "SetID": "shiningwill_comback_set"
+  },
+  {
+    "ItemClass": "shiningwill_lower_comback",
+    "BaseItemClass": "shiningwill_lower_comback",
+    "SetID": "shiningwill_comback_set"
+  },
+  {
+    "ItemClass": "shiningwill_upper_comback",
+    "BaseItemClass": "shiningwill_upper_comback",
+    "SetID": "shiningwill_comback_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_head_comback",
+    "BaseItemClass": "giant_barbarian_head_comback",
+    "SetID": "barbarian_comback_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_upper_comback",
+    "BaseItemClass": "giant_barbarian_upper_comback",
+    "SetID": "barbarian_comback_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_lower_comback",
+    "BaseItemClass": "giant_barbarian_lower_comback",
+    "SetID": "barbarian_comback_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_hand_comback",
+    "BaseItemClass": "giant_barbarian_hand_comback",
+    "SetID": "barbarian_comback_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_foot_comback",
+    "BaseItemClass": "giant_barbarian_foot_comback",
+    "SetID": "barbarian_comback_set"
+  },
+  {
+    "ItemClass": "temp_hand_comback",
+    "BaseItemClass": "temp_hand_comback",
+    "SetID": "temp_comback_set"
+  },
+  {
+    "ItemClass": "temp_foot_comback",
+    "BaseItemClass": "temp_foot_comback",
+    "SetID": "temp_comback_set"
+  },
+  {
+    "ItemClass": "earring_temp_comback",
+    "BaseItemClass": "earring_temp_comback",
+    "SetID": "temp_comback_set"
+  },
+  {
+    "ItemClass": "temp_lower_comback",
+    "BaseItemClass": "temp_lower_comback",
+    "SetID": "temp_comback_set"
+  },
+  {
+    "ItemClass": "temp_upper_comback",
+    "BaseItemClass": "temp_upper_comback",
+    "SetID": "temp_comback_set"
+  },
+  {
+    "ItemClass": "death_head_comback",
+    "BaseItemClass": "death_head_comback",
+    "SetID": "death_comback_set"
+  },
+  {
+    "ItemClass": "death_upper_comback",
+    "BaseItemClass": "death_upper_comback",
+    "SetID": "death_comback_set"
+  },
+  {
+    "ItemClass": "death_lower_comback",
+    "BaseItemClass": "death_lower_comback",
+    "SetID": "death_comback_set"
+  },
+  {
+    "ItemClass": "death_hand_comback",
+    "BaseItemClass": "death_hand_comback",
+    "SetID": "death_comback_set"
+  },
+  {
+    "ItemClass": "death_foot_comback",
+    "BaseItemClass": "death_foot_comback",
+    "SetID": "death_comback_set"
+  },
+  {
+    "ItemClass": "naturewalker_hand_restoration",
+    "BaseItemClass": "naturewalker_hand_restoration",
+    "SetID": "naturewalker_restoration_set"
+  },
+  {
+    "ItemClass": "naturewalker_foot_restoration",
+    "BaseItemClass": "naturewalker_foot_restoration",
+    "SetID": "naturewalker_restoration_set"
+  },
+  {
+    "ItemClass": "naturewalker_head_restoration",
+    "BaseItemClass": "naturewalker_head_restoration",
+    "SetID": "naturewalker_restoration_set"
+  },
+  {
+    "ItemClass": "naturewalker_lower_restoration",
+    "BaseItemClass": "naturewalker_lower_restoration",
+    "SetID": "naturewalker_restoration_set"
+  },
+  {
+    "ItemClass": "naturewalker_upper_restoration",
+    "BaseItemClass": "naturewalker_upper_restoration",
+    "SetID": "naturewalker_restoration_set"
+  },
+  {
+    "ItemClass": "naturewalker_hand_term",
+    "BaseItemClass": "naturewalker_hand_term",
+    "SetID": "naturewalker_term_set"
+  },
+  {
+    "ItemClass": "naturewalker_foot_term",
+    "BaseItemClass": "naturewalker_foot_term",
+    "SetID": "naturewalker_term_set"
+  },
+  {
+    "ItemClass": "naturewalker_head_term",
+    "BaseItemClass": "naturewalker_head_term",
+    "SetID": "naturewalker_term_set"
+  },
+  {
+    "ItemClass": "naturewalker_lower_term",
+    "BaseItemClass": "naturewalker_lower_term",
+    "SetID": "naturewalker_term_set"
+  },
+  {
+    "ItemClass": "naturewalker_upper_term",
+    "BaseItemClass": "naturewalker_upper_term",
+    "SetID": "naturewalker_term_set"
+  },
+  {
+    "ItemClass": "crimsonrage_hand_premium_enus",
+    "BaseItemClass": "crimsonrage_hand_premium_enus",
+    "SetID": "crimsonrage_enus_set"
+  },
+  {
+    "ItemClass": "crimsonrage_foot_premium_enus",
+    "BaseItemClass": "crimsonrage_foot_premium_enus",
+    "SetID": "crimsonrage_enus_set"
+  },
+  {
+    "ItemClass": "crimsonrage_head_premium_enus",
+    "BaseItemClass": "crimsonrage_head_premium_enus",
+    "SetID": "crimsonrage_enus_set"
+  },
+  {
+    "ItemClass": "crimsonrage_lower_premium_enus",
+    "BaseItemClass": "crimsonrage_lower_premium_enus",
+    "SetID": "crimsonrage_enus_set"
+  },
+  {
+    "ItemClass": "crimsonrage_upper_premium_enus",
+    "BaseItemClass": "crimsonrage_upper_premium_enus",
+    "SetID": "crimsonrage_enus_set"
+  },
+  {
+    "ItemClass": "kobold_hand_premium_enus",
+    "BaseItemClass": "kobold_hand_premium_enus",
+    "SetID": "kobold_enus_set"
+  },
+  {
+    "ItemClass": "kobold_foot_premium_enus",
+    "BaseItemClass": "kobold_foot_premium_enus",
+    "SetID": "kobold_enus_set"
+  },
+  {
+    "ItemClass": "kobold_head_premium_enus",
+    "BaseItemClass": "kobold_head_premium_enus",
+    "SetID": "kobold_enus_set"
+  },
+  {
+    "ItemClass": "kobold_lower_premium_enus",
+    "BaseItemClass": "kobold_lower_premium_enus",
+    "SetID": "kobold_enus_set"
+  },
+  {
+    "ItemClass": "kobold_upper_premium_enus",
+    "BaseItemClass": "kobold_upper_premium_enus",
+    "SetID": "kobold_enus_set"
+  },
+  {
+    "ItemClass": "prince_hand_premium_enus",
+    "BaseItemClass": "prince_hand_premium_enus",
+    "SetID": "prince_enus_set"
+  },
+  {
+    "ItemClass": "prince_foot_premium_enus",
+    "BaseItemClass": "prince_foot_premium_enus",
+    "SetID": "prince_enus_set"
+  },
+  {
+    "ItemClass": "prince_head_premium_enus",
+    "BaseItemClass": "prince_head_premium_enus",
+    "SetID": "prince_enus_set"
+  },
+  {
+    "ItemClass": "prince_lower_premium_enus",
+    "BaseItemClass": "prince_lower_premium_enus",
+    "SetID": "prince_enus_set"
+  },
+  {
+    "ItemClass": "prince_upper_premium_enus",
+    "BaseItemClass": "prince_upper_premium_enus",
+    "SetID": "prince_enus_set"
+  },
+  {
+    "ItemClass": "lagho_hand_premium_enus",
+    "BaseItemClass": "lagho_hand_premium_enus",
+    "SetID": "lagho_enus_set"
+  },
+  {
+    "ItemClass": "lagho_foot_premium_enus",
+    "BaseItemClass": "lagho_foot_premium_enus",
+    "SetID": "lagho_enus_set"
+  },
+  {
+    "ItemClass": "lagho_head_premium_enus",
+    "BaseItemClass": "lagho_head_premium_enus",
+    "SetID": "lagho_enus_set"
+  },
+  {
+    "ItemClass": "lagho_lower_premium_enus",
+    "BaseItemClass": "lagho_lower_premium_enus",
+    "SetID": "lagho_enus_set"
+  },
+  {
+    "ItemClass": "lagho_upper_premium_enus",
+    "BaseItemClass": "lagho_upper_premium_enus",
+    "SetID": "lagho_enus_set"
+  },
+  {
+    "ItemClass": "nightmare_hand_premium_enus",
+    "BaseItemClass": "nightmare_hand_premium_enus",
+    "SetID": "nightmare_enus_set"
+  },
+  {
+    "ItemClass": "nightmare_foot_premium_enus",
+    "BaseItemClass": "nightmare_foot_premium_enus",
+    "SetID": "nightmare_enus_set"
+  },
+  {
+    "ItemClass": "nightmare_head_premium_enus",
+    "BaseItemClass": "nightmare_head_premium_enus",
+    "SetID": "nightmare_enus_set"
+  },
+  {
+    "ItemClass": "nightmare_lower_premium_enus",
+    "BaseItemClass": "nightmare_lower_premium_enus",
+    "SetID": "nightmare_enus_set"
+  },
+  {
+    "ItemClass": "nightmare_upper_premium_enus",
+    "BaseItemClass": "nightmare_upper_premium_enus",
+    "SetID": "nightmare_enus_set"
+  },
+  {
+    "ItemClass": "bloodsilk_hand_premium_enus",
+    "BaseItemClass": "bloodsilk_hand_premium_enus",
+    "SetID": "bloodsilk_enus_set"
+  },
+  {
+    "ItemClass": "bloodsilk_foot_premium_enus",
+    "BaseItemClass": "bloodsilk_foot_premium_enus",
+    "SetID": "bloodsilk_enus_set"
+  },
+  {
+    "ItemClass": "bloodsilk_head_premium_enus",
+    "BaseItemClass": "bloodsilk_head_premium_enus",
+    "SetID": "bloodsilk_enus_set"
+  },
+  {
+    "ItemClass": "bloodsilk_lower_premium_enus",
+    "BaseItemClass": "bloodsilk_lower_premium_enus",
+    "SetID": "bloodsilk_enus_set"
+  },
+  {
+    "ItemClass": "bloodsilk_upper_premium_enus",
+    "BaseItemClass": "bloodsilk_upper_premium_enus",
+    "SetID": "bloodsilk_enus_set"
+  },
+  {
+    "ItemClass": "bloodlord_hand_premium_enus",
+    "BaseItemClass": "bloodlord_hand_premium_enus",
+    "SetID": "bloodlord_enus_set"
+  },
+  {
+    "ItemClass": "bloodlord_foot_premium_enus",
+    "BaseItemClass": "bloodlord_foot_premium_enus",
+    "SetID": "bloodlord_enus_set"
+  },
+  {
+    "ItemClass": "bloodlord_head_premium_enus",
+    "BaseItemClass": "bloodlord_head_premium_enus",
+    "SetID": "bloodlord_enus_set"
+  },
+  {
+    "ItemClass": "bloodlord_lower_premium_enus",
+    "BaseItemClass": "bloodlord_lower_premium_enus",
+    "SetID": "bloodlord_enus_set"
+  },
+  {
+    "ItemClass": "bloodlord_upper_premium_enus",
+    "BaseItemClass": "bloodlord_upper_premium_enus",
+    "SetID": "bloodlord_enus_set"
+  },
+  {
+    "ItemClass": "sinister_hand_comback_limitless",
+    "BaseItemClass": "sinister_hand_comback_limitless",
+    "SetID": "sinister_comback_limitless_set"
+  },
+  {
+    "ItemClass": "sinister_foot_comback_limitless",
+    "BaseItemClass": "sinister_foot_comback_limitless",
+    "SetID": "sinister_comback_limitless_set"
+  },
+  {
+    "ItemClass": "sinister_head_comback_limitless",
+    "BaseItemClass": "sinister_head_comback_limitless",
+    "SetID": "sinister_comback_limitless_set"
+  },
+  {
+    "ItemClass": "sinister_lower_comback_limitless",
+    "BaseItemClass": "sinister_lower_comback_limitless",
+    "SetID": "sinister_comback_limitless_set"
+  },
+  {
+    "ItemClass": "sinister_upper_comback_limitless",
+    "BaseItemClass": "sinister_upper_comback_limitless",
+    "SetID": "sinister_comback_limitless_set"
+  },
+  {
+    "ItemClass": "shiningwill_hand_comback_limitless",
+    "BaseItemClass": "shiningwill_hand_comback_limitless",
+    "SetID": "shiningwill_comback_limitless_set"
+  },
+  {
+    "ItemClass": "shiningwill_foot_comback_limitless",
+    "BaseItemClass": "shiningwill_foot_comback_limitless",
+    "SetID": "shiningwill_comback_limitless_set"
+  },
+  {
+    "ItemClass": "shiningwill_head_comback_limitless",
+    "BaseItemClass": "shiningwill_head_comback_limitless",
+    "SetID": "shiningwill_comback_limitless_set"
+  },
+  {
+    "ItemClass": "shiningwill_lower_comback_limitless",
+    "BaseItemClass": "shiningwill_lower_comback_limitless",
+    "SetID": "shiningwill_comback_limitless_set"
+  },
+  {
+    "ItemClass": "shiningwill_upper_comback_limitless",
+    "BaseItemClass": "shiningwill_upper_comback_limitless",
+    "SetID": "shiningwill_comback_limitless_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_head_comback_limitless",
+    "BaseItemClass": "giant_barbarian_head_comback_limitless",
+    "SetID": "barbarian_comback_limitless_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_upper_comback_limitless",
+    "BaseItemClass": "giant_barbarian_upper_comback_limitless",
+    "SetID": "barbarian_comback_limitless_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_lower_comback_limitless",
+    "BaseItemClass": "giant_barbarian_lower_comback_limitless",
+    "SetID": "barbarian_comback_limitless_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_hand_comback_limitless",
+    "BaseItemClass": "giant_barbarian_hand_comback_limitless",
+    "SetID": "barbarian_comback_limitless_set"
+  },
+  {
+    "ItemClass": "giant_barbarian_foot_comback_limitless",
+    "BaseItemClass": "giant_barbarian_foot_comback_limitless",
+    "SetID": "barbarian_comback_limitless_set"
+  },
+  {
+    "ItemClass": "temp_hand_comback_limitless",
+    "BaseItemClass": "temp_hand_comback_limitless",
+    "SetID": "temp_comback_limitless_set"
+  },
+  {
+    "ItemClass": "temp_foot_comback_limitless",
+    "BaseItemClass": "temp_foot_comback_limitless",
+    "SetID": "temp_comback_limitless_set"
+  },
+  {
+    "ItemClass": "earring_temp_comback_limitless",
+    "BaseItemClass": "earring_temp_comback_limitless",
+    "SetID": "temp_comback_limitless_set"
+  },
+  {
+    "ItemClass": "temp_lower_comback_limitless",
+    "BaseItemClass": "temp_lower_comback_limitless",
+    "SetID": "temp_comback_limitless_set"
+  },
+  {
+    "ItemClass": "temp_upper_comback_limitless",
+    "BaseItemClass": "temp_upper_comback_limitless",
+    "SetID": "temp_comback_limitless_set"
+  },
+  {
+    "ItemClass": "death_head_comback_limitless",
+    "BaseItemClass": "death_head_comback_limitless",
+    "SetID": "death_comback_limitless_set"
+  },
+  {
+    "ItemClass": "death_upper_comback_limitless",
+    "BaseItemClass": "death_upper_comback_limitless",
+    "SetID": "death_comback_limitless_set"
+  },
+  {
+    "ItemClass": "death_lower_comback_limitless",
+    "BaseItemClass": "death_lower_comback_limitless",
+    "SetID": "death_comback_limitless_set"
+  },
+  {
+    "ItemClass": "death_hand_comback_limitless",
+    "BaseItemClass": "death_hand_comback_limitless",
+    "SetID": "death_comback_limitless_set"
+  },
+  {
+    "ItemClass": "death_foot_comback_limitless",
+    "BaseItemClass": "death_foot_comback_limitless",
+    "SetID": "death_comback_limitless_set"
+  },
+  {
+    "ItemClass": "naturewalker_hand_hour",
+    "BaseItemClass": "naturewalker_hand_hour",
+    "SetID": "naturewalker_hour_set"
+  },
+  {
+    "ItemClass": "naturewalker_foot_hour",
+    "BaseItemClass": "naturewalker_foot_hour",
+    "SetID": "naturewalker_hour_set"
+  },
+  {
+    "ItemClass": "naturewalker_head_hour",
+    "BaseItemClass": "naturewalker_head_hour",
+    "SetID": "naturewalker_hour_set"
+  },
+  {
+    "ItemClass": "naturewalker_lower_hour",
+    "BaseItemClass": "naturewalker_lower_hour",
+    "SetID": "naturewalker_hour_set"
+  },
+  {
+    "ItemClass": "naturewalker_upper_hour",
+    "BaseItemClass": "naturewalker_upper_hour",
+    "SetID": "naturewalker_hour_set"
+  },
+  {
+    "ItemClass": "s2_beast_hand",
+    "BaseItemClass": "s2_beast_hand",
+    "SetID": "s2_beast_set"
+  },
+  {
+    "ItemClass": "s2_beast_foot",
+    "BaseItemClass": "s2_beast_foot",
+    "SetID": "s2_beast_set"
+  },
+  {
+    "ItemClass": "s2_beast_head",
+    "BaseItemClass": "s2_beast_head",
+    "SetID": "s2_beast_set"
+  },
+  {
+    "ItemClass": "s2_beast_lower",
+    "BaseItemClass": "s2_beast_lower",
+    "SetID": "s2_beast_set"
+  },
+  {
+    "ItemClass": "s2_beast_upper",
+    "BaseItemClass": "s2_beast_upper",
+    "SetID": "s2_beast_set"
+  },
+  {
+    "ItemClass": "s2_beast_light_hand",
+    "BaseItemClass": "s2_beast_light_hand",
+    "SetID": "s2_beast_light_set"
+  },
+  {
+    "ItemClass": "s2_beast_light_foot",
+    "BaseItemClass": "s2_beast_light_foot",
+    "SetID": "s2_beast_light_set"
+  },
+  {
+    "ItemClass": "s2_beast_light_head",
+    "BaseItemClass": "s2_beast_light_head",
+    "SetID": "s2_beast_light_set"
+  },
+  {
+    "ItemClass": "s2_beast_light_lower",
+    "BaseItemClass": "s2_beast_light_lower",
+    "SetID": "s2_beast_light_set"
+  },
+  {
+    "ItemClass": "s2_beast_light_upper",
+    "BaseItemClass": "s2_beast_light_upper",
+    "SetID": "s2_beast_light_set"
+  },
+  {
+    "ItemClass": "s2_explorer_soft_hand",
+    "BaseItemClass": "s2_explorer_soft_hand",
+    "SetID": "s2_explorer_soft_set"
+  },
+  {
+    "ItemClass": "s2_explorer_soft_foot",
+    "BaseItemClass": "s2_explorer_soft_foot",
+    "SetID": "s2_explorer_soft_set"
+  },
+  {
+    "ItemClass": "s2_explorer_soft_head",
+    "BaseItemClass": "s2_explorer_soft_head",
+    "SetID": "s2_explorer_soft_set"
+  },
+  {
+    "ItemClass": "s2_explorer_soft_lower",
+    "BaseItemClass": "s2_explorer_soft_lower",
+    "SetID": "s2_explorer_soft_set"
+  },
+  {
+    "ItemClass": "s2_explorer_soft_upper",
+    "BaseItemClass": "s2_explorer_soft_upper",
+    "SetID": "s2_explorer_soft_set"
+  },
+  {
+    "ItemClass": "s2_explorer_classic_hand",
+    "BaseItemClass": "s2_explorer_classic_hand",
+    "SetID": "s2_explorer_classic_set"
+  },
+  {
+    "ItemClass": "s2_explorer_classic_foot",
+    "BaseItemClass": "s2_explorer_classic_foot",
+    "SetID": "s2_explorer_classic_set"
+  },
+  {
+    "ItemClass": "s2_explorer_classic_head",
+    "BaseItemClass": "s2_explorer_classic_head",
+    "SetID": "s2_explorer_classic_set"
+  },
+  {
+    "ItemClass": "s2_explorer_classic_lower",
+    "BaseItemClass": "s2_explorer_classic_lower",
+    "SetID": "s2_explorer_classic_set"
+  },
+  {
+    "ItemClass": "s2_explorer_classic_upper",
+    "BaseItemClass": "s2_explorer_classic_upper",
+    "SetID": "s2_explorer_classic_set"
+  },
+  {
+    "ItemClass": "s2_explorer_hand",
+    "BaseItemClass": "s2_explorer_hand",
+    "SetID": "s2_explorer_set"
+  },
+  {
+    "ItemClass": "s2_explorer_foot",
+    "BaseItemClass": "s2_explorer_foot",
+    "SetID": "s2_explorer_set"
+  },
+  {
+    "ItemClass": "s2_explorer_head",
+    "BaseItemClass": "s2_explorer_head",
+    "SetID": "s2_explorer_set"
+  },
+  {
+    "ItemClass": "s2_explorer_lower",
+    "BaseItemClass": "s2_explorer_lower",
+    "SetID": "s2_explorer_set"
+  },
+  {
+    "ItemClass": "s2_explorer_upper",
+    "BaseItemClass": "s2_explorer_upper",
+    "SetID": "s2_explorer_set"
+  },
+  {
+    "ItemClass": "s2_viking_hand",
+    "BaseItemClass": "s2_viking_heavy_set_hand",
+    "SetID": "s2_viking_set"
+  },
+  {
+    "ItemClass": "s2_viking_foot",
+    "BaseItemClass": "s2_viking_heavy_set_foot",
+    "SetID": "s2_viking_set"
+  },
+  {
+    "ItemClass": "s2_viking_head",
+    "BaseItemClass": "s2_viking_heavy_set_head",
+    "SetID": "s2_viking_set"
+  },
+  {
+    "ItemClass": "s2_viking_lower",
+    "BaseItemClass": "s2_viking_heavy_set_lower",
+    "SetID": "s2_viking_set"
+  },
+  {
+    "ItemClass": "s2_viking_upper",
+    "BaseItemClass": "s2_viking_heavy_set_upper",
+    "SetID": "s2_viking_set"
+  },
+  {
+    "ItemClass": "s2_viking_light_hand",
+    "BaseItemClass": "s2_viking_light_hand",
+    "SetID": "s2_viking_light_set"
+  },
+  {
+    "ItemClass": "s2_viking_light_foot",
+    "BaseItemClass": "s2_viking_light_foot",
+    "SetID": "s2_viking_light_set"
+  },
+  {
+    "ItemClass": "s2_viking_light_head",
+    "BaseItemClass": "s2_viking_light_head",
+    "SetID": "s2_viking_light_set"
+  },
+  {
+    "ItemClass": "s2_viking_light_lower",
+    "BaseItemClass": "s2_viking_light_lower",
+    "SetID": "s2_viking_light_set"
+  },
+  {
+    "ItemClass": "s2_viking_light_upper",
+    "BaseItemClass": "s2_viking_light_upper",
+    "SetID": "s2_viking_light_set"
+  },
+  {
+    "ItemClass": "s2_viking_heavy_hand",
+    "BaseItemClass": "s2_viking_heavy_set_hand",
+    "SetID": "s2_viking_set"
+  },
+  {
+    "ItemClass": "s2_viking_heavy_foot",
+    "BaseItemClass": "s2_viking_heavy_set_foot",
+    "SetID": "s2_viking_set"
+  },
+  {
+    "ItemClass": "s2_viking_heavy_head",
+    "BaseItemClass": "s2_viking_heavy_set_head",
+    "SetID": "s2_viking_set"
+  },
+  {
+    "ItemClass": "s2_viking_heavy_lower",
+    "BaseItemClass": "s2_viking_heavy_set_lower",
+    "SetID": "s2_viking_set"
+  },
+  {
+    "ItemClass": "s2_viking_heavy_upper",
+    "BaseItemClass": "s2_viking_heavy_set_upper",
+    "SetID": "s2_viking_set"
+  },
+  {
+    "ItemClass": "s2_guardian_hand",
+    "BaseItemClass": "s2_guardian_hand",
+    "SetID": "s2_guardian_set"
+  },
+  {
+    "ItemClass": "s2_guardian_foot",
+    "BaseItemClass": "s2_guardian_foot",
+    "SetID": "s2_guardian_set"
+  },
+  {
+    "ItemClass": "s2_guardian_head",
+    "BaseItemClass": "s2_guardian_head",
+    "SetID": "s2_guardian_set"
+  },
+  {
+    "ItemClass": "s2_guardian_lower",
+    "BaseItemClass": "s2_guardian_lower",
+    "SetID": "s2_guardian_set"
+  },
+  {
+    "ItemClass": "s2_guardian_upper",
+    "BaseItemClass": "s2_guardian_upper",
+    "SetID": "s2_guardian_set"
+  },
+  {
+    "ItemClass": "s2_western_upper",
+    "BaseItemClass": "s2_western_upper",
+    "SetID": "s2_western_set"
+  },
+  {
+    "ItemClass": "s2_western_lower",
+    "BaseItemClass": "s2_western_lower",
+    "SetID": "s2_western_set"
+  },
+  {
+    "ItemClass": "s2_western_foot",
+    "BaseItemClass": "s2_western_foot",
+    "SetID": "s2_western_set"
+  },
+  {
+    "ItemClass": "s2_western_head",
+    "BaseItemClass": "s2_western_head",
+    "SetID": "s2_western_set"
+  },
+  {
+    "ItemClass": "s2_assault_hand",
+    "BaseItemClass": "s2_assault_hand",
+    "SetID": "s2_assault_set"
+  },
+  {
+    "ItemClass": "s2_assault_foot",
+    "BaseItemClass": "s2_assault_foot",
+    "SetID": "s2_assault_set"
+  },
+  {
+    "ItemClass": "s2_assault_head",
+    "BaseItemClass": "s2_assault_head",
+    "SetID": "s2_assault_set"
+  },
+  {
+    "ItemClass": "s2_assault_lower",
+    "BaseItemClass": "s2_assault_lower",
+    "SetID": "s2_assault_set"
+  },
+  {
+    "ItemClass": "s2_assault_upper",
+    "BaseItemClass": "s2_assault_upper",
+    "SetID": "s2_assault_set"
+  },
+  {
+    "ItemClass": "s2_shadow_hand",
+    "BaseItemClass": "s2_shadow_hand",
+    "SetID": "s2_shadow_set"
+  },
+  {
+    "ItemClass": "s2_shadow_foot",
+    "BaseItemClass": "s2_shadow_foot",
+    "SetID": "s2_shadow_set"
+  },
+  {
+    "ItemClass": "s2_shadow_head",
+    "BaseItemClass": "s2_shadow_head",
+    "SetID": "s2_shadow_set"
+  },
+  {
+    "ItemClass": "s2_shadow_lower",
+    "BaseItemClass": "s2_shadow_lower",
+    "SetID": "s2_shadow_set"
+  },
+  {
+    "ItemClass": "s2_shadow_upper",
+    "BaseItemClass": "s2_shadow_upper",
+    "SetID": "s2_shadow_set"
+  },
+  {
+    "ItemClass": "s2_scholar_hand",
+    "BaseItemClass": "s2_scholar_hand",
+    "SetID": "s2_scholar_set"
+  },
+  {
+    "ItemClass": "s2_scholar_foot",
+    "BaseItemClass": "s2_scholar_foot",
+    "SetID": "s2_scholar_set"
+  },
+  {
+    "ItemClass": "s2_scholar_head",
+    "BaseItemClass": "s2_scholar_head",
+    "SetID": "s2_scholar_set"
+  },
+  {
+    "ItemClass": "s2_scholar_lower",
+    "BaseItemClass": "s2_scholar_lower",
+    "SetID": "s2_scholar_set"
+  },
+  {
+    "ItemClass": "s2_scholar_upper",
+    "BaseItemClass": "s2_scholar_upper",
+    "SetID": "s2_scholar_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_hand",
+    "BaseItemClass": "s2_royalguard_hand",
+    "SetID": "s2_royalguard_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_foot",
+    "BaseItemClass": "s2_royalguard_foot",
+    "SetID": "s2_royalguard_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_head",
+    "BaseItemClass": "s2_royalguard_head",
+    "SetID": "s2_royalguard_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_lower",
+    "BaseItemClass": "s2_royalguard_lower",
+    "SetID": "s2_royalguard_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_upper",
+    "BaseItemClass": "s2_royalguard_upper",
+    "SetID": "s2_royalguard_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_hard_hand",
+    "BaseItemClass": "s2_royalguard_hard_hand",
+    "SetID": "s2_royalguard_hard_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_hard_foot",
+    "BaseItemClass": "s2_royalguard_hard_foot",
+    "SetID": "s2_royalguard_hard_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_hard_head",
+    "BaseItemClass": "s2_royalguard_hard_head",
+    "SetID": "s2_royalguard_hard_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_hard_lower",
+    "BaseItemClass": "s2_royalguard_hard_lower",
+    "SetID": "s2_royalguard_hard_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_hard_upper",
+    "BaseItemClass": "s2_royalguard_hard_upper",
+    "SetID": "s2_royalguard_hard_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_soft_hand",
+    "BaseItemClass": "s2_royalguard_soft_hand",
+    "SetID": "s2_royalguard_soft_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_soft_foot",
+    "BaseItemClass": "s2_royalguard_soft_foot",
+    "SetID": "s2_royalguard_soft_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_soft_head",
+    "BaseItemClass": "s2_royalguard_soft_head",
+    "SetID": "s2_royalguard_soft_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_soft_lower",
+    "BaseItemClass": "s2_royalguard_soft_lower",
+    "SetID": "s2_royalguard_soft_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_soft_upper",
+    "BaseItemClass": "s2_royalguard_soft_upper",
+    "SetID": "s2_royalguard_soft_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_light_hand",
+    "BaseItemClass": "s2_royalguard_light_hand",
+    "SetID": "s2_royalguard_light_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_light_foot",
+    "BaseItemClass": "s2_royalguard_light_foot",
+    "SetID": "s2_royalguard_light_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_light_head",
+    "BaseItemClass": "s2_royalguard_light_head",
+    "SetID": "s2_royalguard_light_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_light_lower",
+    "BaseItemClass": "s2_royalguard_light_lower",
+    "SetID": "s2_royalguard_light_set"
+  },
+  {
+    "ItemClass": "s2_royalguard_light_upper",
+    "BaseItemClass": "s2_royalguard_light_upper",
+    "SetID": "s2_royalguard_light_set"
+  },
+  {
+    "ItemClass": "s2_phantom_light_hand",
+    "BaseItemClass": "s2_phantom_light_hand",
+    "SetID": "s2_phantom_light_set"
+  },
+  {
+    "ItemClass": "s2_phantom_light_foot",
+    "BaseItemClass": "s2_phantom_light_foot",
+    "SetID": "s2_phantom_light_set"
+  },
+  {
+    "ItemClass": "s2_phantom_light_head",
+    "BaseItemClass": "s2_phantom_light_head",
+    "SetID": "s2_phantom_light_set"
+  },
+  {
+    "ItemClass": "s2_phantom_light_lower",
+    "BaseItemClass": "s2_phantom_light_lower",
+    "SetID": "s2_phantom_light_set"
+  },
+  {
+    "ItemClass": "s2_phantom_light_upper",
+    "BaseItemClass": "s2_phantom_light_upper",
+    "SetID": "s2_phantom_light_set"
+  },
+  {
+    "ItemClass": "s2_phantom_heavy_hand",
+    "BaseItemClass": "s2_phantom_heavy_hand",
+    "SetID": "s2_phantom_heavy_set"
+  },
+  {
+    "ItemClass": "s2_phantom_heavy_foot",
+    "BaseItemClass": "s2_phantom_heavy_foot",
+    "SetID": "s2_phantom_heavy_set"
+  },
+  {
+    "ItemClass": "s2_phantom_heavy_head",
+    "BaseItemClass": "s2_phantom_heavy_head",
+    "SetID": "s2_phantom_heavy_set"
+  },
+  {
+    "ItemClass": "s2_phantom_heavy_lower",
+    "BaseItemClass": "s2_phantom_heavy_lower",
+    "SetID": "s2_phantom_heavy_set"
+  },
+  {
+    "ItemClass": "s2_phantom_heavy_upper",
+    "BaseItemClass": "s2_phantom_heavy_upper",
+    "SetID": "s2_phantom_heavy_set"
+  },
+  {
+    "ItemClass": "butterfly_head",
+    "BaseItemClass": "butterfly_head",
+    "SetID": "butterfly_set"
+  },
+  {
+    "ItemClass": "butterfly_upper",
+    "BaseItemClass": "butterfly_upper",
+    "SetID": "butterfly_set"
+  },
+  {
+    "ItemClass": "butterfly_lower",
+    "BaseItemClass": "butterfly_lower",
+    "SetID": "butterfly_set"
+  },
+  {
+    "ItemClass": "butterfly_hand",
+    "BaseItemClass": "butterfly_hand",
+    "SetID": "butterfly_set"
+  },
+  {
+    "ItemClass": "butterfly_foot",
+    "BaseItemClass": "butterfly_foot",
+    "SetID": "butterfly_set"
+  },
+  {
+    "ItemClass": "whiteshark_head",
+    "BaseItemClass": "whiteshark_head",
+    "SetID": "whiteshark_set"
+  },
+  {
+    "ItemClass": "whiteshark_upper",
+    "BaseItemClass": "whiteshark_upper",
+    "SetID": "whiteshark_set"
+  },
+  {
+    "ItemClass": "whiteshark_lower",
+    "BaseItemClass": "whiteshark_lower",
+    "SetID": "whiteshark_set"
+  },
+  {
+    "ItemClass": "whiteshark_hand",
+    "BaseItemClass": "whiteshark_hand",
+    "SetID": "whiteshark_set"
+  },
+  {
+    "ItemClass": "whiteshark_foot",
+    "BaseItemClass": "whiteshark_foot",
+    "SetID": "whiteshark_set"
+  },
+  {
+    "ItemClass": "death_head_vella",
+    "BaseItemClass": "death_head_vella",
+    "SetID": "death_vella_set"
+  },
+  {
+    "ItemClass": "death_upper_vella",
+    "BaseItemClass": "death_upper_vella",
+    "SetID": "death_vella_set"
+  },
+  {
+    "ItemClass": "death_lower_vella",
+    "BaseItemClass": "death_lower_vella",
+    "SetID": "death_vella_set"
+  },
+  {
+    "ItemClass": "death_hand_vella",
+    "BaseItemClass": "death_hand_vella",
+    "SetID": "death_vella_set"
+  },
+  {
+    "ItemClass": "death_foot_vella",
+    "BaseItemClass": "death_foot_vella",
+    "SetID": "death_vella_set"
+  },
+  {
+    "ItemClass": "butterfly_head_comback",
+    "BaseItemClass": "butterfly_head_comback",
+    "SetID": "butterfly_comback"
+  },
+  {
+    "ItemClass": "butterfly_upper_comback",
+    "BaseItemClass": "butterfly_upper_comback",
+    "SetID": "butterfly_comback"
+  },
+  {
+    "ItemClass": "butterfly_lower_comback",
+    "BaseItemClass": "butterfly_lower_comback",
+    "SetID": "butterfly_comback"
+  },
+  {
+    "ItemClass": "butterfly_hand_comback",
+    "BaseItemClass": "butterfly_hand_comback",
+    "SetID": "butterfly_comback"
+  },
+  {
+    "ItemClass": "butterfly_foot_comback",
+    "BaseItemClass": "butterfly_foot_comback",
+    "SetID": "butterfly_comback"
+  },
+  {
+    "ItemClass": "butterfly_head_restoration",
+    "BaseItemClass": "butterfly_head_restoration",
+    "SetID": "butterfly_restoration"
+  },
+  {
+    "ItemClass": "butterfly_upper_restoration",
+    "BaseItemClass": "butterfly_upper_restoration",
+    "SetID": "butterfly_restoration"
+  },
+  {
+    "ItemClass": "butterfly_lower_restoration",
+    "BaseItemClass": "butterfly_lower_restoration",
+    "SetID": "butterfly_restoration"
+  },
+  {
+    "ItemClass": "butterfly_hand_restoration",
+    "BaseItemClass": "butterfly_hand_restoration",
+    "SetID": "butterfly_restoration"
+  },
+  {
+    "ItemClass": "butterfly_foot_restoration",
+    "BaseItemClass": "butterfly_foot_restoration",
+    "SetID": "butterfly_restoration"
+  },
+  {
+    "ItemClass": "s2_pirate_femele_hand",
+    "BaseItemClass": "s2_pirate_light_male_set_hand",
+    "SetID": "s2_pirate_light_male"
+  },
+  {
+    "ItemClass": "s2_pirate_femele_foot",
+    "BaseItemClass": "s2_pirate_light_male_set_foot",
+    "SetID": "s2_pirate_light_male"
+  },
+  {
+    "ItemClass": "s2_pirate_femele_head",
+    "BaseItemClass": "s2_pirate_light_male_set_head",
+    "SetID": "s2_pirate_light_male"
+  },
+  {
+    "ItemClass": "s2_pirate_femele_lower",
+    "BaseItemClass": "s2_pirate_light_male_set_lower",
+    "SetID": "s2_pirate_light_male"
+  },
+  {
+    "ItemClass": "s2_pirate_femele_upper",
+    "BaseItemClass": "s2_pirate_light_male_set_upper",
+    "SetID": "s2_pirate_light_male"
+  },
+  {
+    "ItemClass": "s2_pirate_evy_hand",
+    "BaseItemClass": "s2_pirate_evy_hand",
+    "SetID": "s2_pirate_evy"
+  },
+  {
+    "ItemClass": "s2_pirate_evy_foot",
+    "BaseItemClass": "s2_pirate_evy_foot",
+    "SetID": "s2_pirate_evy"
+  },
+  {
+    "ItemClass": "s2_pirate_evy_head",
+    "BaseItemClass": "s2_pirate_evy_head",
+    "SetID": "s2_pirate_evy"
+  },
+  {
+    "ItemClass": "s2_pirate_evy_lower",
+    "BaseItemClass": "s2_pirate_evy_lower",
+    "SetID": "s2_pirate_evy"
+  },
+  {
+    "ItemClass": "s2_pirate_evy_upper",
+    "BaseItemClass": "s2_pirate_evy_upper",
+    "SetID": "s2_pirate_evy"
+  },
+  {
+    "ItemClass": "s2_pirate_heavy_male_hand",
+    "BaseItemClass": "s2_pirate_heavy_male_hand",
+    "SetID": "s2_pirate"
+  },
+  {
+    "ItemClass": "s2_pirate_heavy_male_foot",
+    "BaseItemClass": "s2_pirate_heavy_male_foot",
+    "SetID": "s2_pirate"
+  },
+  {
+    "ItemClass": "s2_pirate_heavy_male_head",
+    "BaseItemClass": "s2_pirate_heavy_male_head",
+    "SetID": "s2_pirate"
+  },
+  {
+    "ItemClass": "s2_pirate_heavy_male_lower",
+    "BaseItemClass": "s2_pirate_heavy_male_lower",
+    "SetID": "s2_pirate"
+  },
+  {
+    "ItemClass": "s2_pirate_heavy_male_upper",
+    "BaseItemClass": "s2_pirate_heavy_male_upper",
+    "SetID": "s2_pirate"
+  },
+  {
+    "ItemClass": "s2_pirate_light_male_hand",
+    "BaseItemClass": "s2_pirate_light_male_set_hand",
+    "SetID": "s2_pirate_light_male"
+  },
+  {
+    "ItemClass": "s2_pirate_light_male_foot",
+    "BaseItemClass": "s2_pirate_light_male_set_foot",
+    "SetID": "s2_pirate_light_male"
+  },
+  {
+    "ItemClass": "s2_pirate_light_male_head",
+    "BaseItemClass": "s2_pirate_light_male_set_head",
+    "SetID": "s2_pirate_light_male"
+  },
+  {
+    "ItemClass": "s2_pirate_light_male_lower",
+    "BaseItemClass": "s2_pirate_light_male_set_lower",
+    "SetID": "s2_pirate_light_male"
+  },
+  {
+    "ItemClass": "s2_pirate_light_male_upper",
+    "BaseItemClass": "s2_pirate_light_male_set_upper",
+    "SetID": "s2_pirate_light_male"
+  },
+  {
+    "ItemClass": "kobold_hand_comback",
+    "BaseItemClass": "kobold_hand_comback",
+    "SetID": "kobold_comback_set"
+  },
+  {
+    "ItemClass": "kobold_foot_comback",
+    "BaseItemClass": "kobold_foot_comback",
+    "SetID": "kobold_comback_set"
+  },
+  {
+    "ItemClass": "kobold_head_comback",
+    "BaseItemClass": "kobold_head_comback",
+    "SetID": "kobold_comback_set"
+  },
+  {
+    "ItemClass": "kobold_lower_comback",
+    "BaseItemClass": "kobold_lower_comback",
+    "SetID": "kobold_comback_set"
+  },
+  {
+    "ItemClass": "kobold_upper_comback",
+    "BaseItemClass": "kobold_upper_comback",
+    "SetID": "kobold_comback_set"
+  },
+  {
+    "ItemClass": "spidercloth_hand_comback",
+    "BaseItemClass": "spidercloth_hand_comback",
+    "SetID": "spidercloth_comback_set"
+  },
+  {
+    "ItemClass": "spidercloth_foot_comback",
+    "BaseItemClass": "spidercloth_foot_comback",
+    "SetID": "spidercloth_comback_set"
+  },
+  {
+    "ItemClass": "spidercloth_head_comback",
+    "BaseItemClass": "spidercloth_head_comback",
+    "SetID": "spidercloth_comback_set"
+  },
+  {
+    "ItemClass": "spidercloth_lower_comback",
+    "BaseItemClass": "spidercloth_lower_comback",
+    "SetID": "spidercloth_comback_set"
+  },
+  {
+    "ItemClass": "spidercloth_upper_comback",
+    "BaseItemClass": "spidercloth_upper_comback",
+    "SetID": "spidercloth_comback_set"
+  },
+  {
+    "ItemClass": "crimsonrage_hand_comback",
+    "BaseItemClass": "crimsonrage_hand_comback",
+    "SetID": "crimsonrage_comback_set"
+  },
+  {
+    "ItemClass": "crimsonrage_foot_comback",
+    "BaseItemClass": "crimsonrage_foot_comback",
+    "SetID": "crimsonrage_comback_set"
+  },
+  {
+    "ItemClass": "crimsonrage_head_comback",
+    "BaseItemClass": "crimsonrage_head_comback",
+    "SetID": "crimsonrage_comback_set"
+  },
+  {
+    "ItemClass": "crimsonrage_lower_comback",
+    "BaseItemClass": "crimsonrage_lower_comback",
+    "SetID": "crimsonrage_comback_set"
+  },
+  {
+    "ItemClass": "crimsonrage_upper_comback",
+    "BaseItemClass": "crimsonrage_upper_comback",
+    "SetID": "crimsonrage_comback_set"
+  },
+  {
+    "ItemClass": "scarlet_lower_comback",
+    "BaseItemClass": "scarlet_lower_comback",
+    "SetID": "scarlet_comback_set"
+  },
+  {
+    "ItemClass": "scarlet_head_comback",
+    "BaseItemClass": "scarlet_head_comback",
+    "SetID": "scarlet_comback_set"
+  },
+  {
+    "ItemClass": "scarlet_hand_comback",
+    "BaseItemClass": "scarlet_hand_comback",
+    "SetID": "scarlet_comback_set"
+  },
+  {
+    "ItemClass": "scarlet_upper_comback",
+    "BaseItemClass": "scarlet_upper_comback",
+    "SetID": "scarlet_comback_set"
+  },
+  {
+    "ItemClass": "scarlet_foot_comback",
+    "BaseItemClass": "scarlet_foot_comback",
+    "SetID": "scarlet_comback_set"
+  },
+  {
+    "ItemClass": "savage_hand_comback",
+    "BaseItemClass": "savage_hand_comback",
+    "SetID": "savage_comback_set"
+  },
+  {
+    "ItemClass": "savage_foot_comback",
+    "BaseItemClass": "savage_foot_comback",
+    "SetID": "savage_comback_set"
+  },
+  {
+    "ItemClass": "savage_head_comback",
+    "BaseItemClass": "savage_head_comback",
+    "SetID": "savage_comback_set"
+  },
+  {
+    "ItemClass": "savage_lower_comback",
+    "BaseItemClass": "savage_lower_comback",
+    "SetID": "savage_comback_set"
+  },
+  {
+    "ItemClass": "savage_upper_comback",
+    "BaseItemClass": "savage_upper_comback",
+    "SetID": "savage_comback_set"
+  },
+  {
+    "ItemClass": "brokenash_hand_comback",
+    "BaseItemClass": "brokenash_hand_comback",
+    "SetID": "brokenash_comback_set"
+  },
+  {
+    "ItemClass": "brokenash_foot_comback",
+    "BaseItemClass": "brokenash_foot_comback",
+    "SetID": "brokenash_comback_set"
+  },
+  {
+    "ItemClass": "brokenash_head_comback",
+    "BaseItemClass": "brokenash_head_comback",
+    "SetID": "brokenash_comback_set"
+  },
+  {
+    "ItemClass": "brokenash_lower_comback",
+    "BaseItemClass": "brokenash_lower_comback",
+    "SetID": "brokenash_comback_set"
+  },
+  {
+    "ItemClass": "brokenash_upper_comback",
+    "BaseItemClass": "brokenash_upper_comback",
+    "SetID": "brokenash_comback_set"
+  },
+  {
+    "ItemClass": "waredge_hand_comback",
+    "BaseItemClass": "waredge_hand_comback",
+    "SetID": "waredge_comback_set"
+  },
+  {
+    "ItemClass": "waredge_foot_comback",
+    "BaseItemClass": "waredge_foot_comback",
+    "SetID": "waredge_comback_set"
+  },
+  {
+    "ItemClass": "waredge_head_comback",
+    "BaseItemClass": "waredge_head_comback",
+    "SetID": "waredge_comback_set"
+  },
+  {
+    "ItemClass": "waredge_lower_comback",
+    "BaseItemClass": "waredge_lower_comback",
+    "SetID": "waredge_comback_set"
+  },
+  {
+    "ItemClass": "waredge_upper_comback",
+    "BaseItemClass": "waredge_upper_comback",
+    "SetID": "waredge_comback_set"
+  },
+  {
+    "ItemClass": "rosedrop_head_comback",
+    "BaseItemClass": "rosedrop_head_comback",
+    "SetID": "rosedrop_comback_set"
+  },
+  {
+    "ItemClass": "rosedrop_upper_comback",
+    "BaseItemClass": "rosedrop_upper_comback",
+    "SetID": "rosedrop_comback_set"
+  },
+  {
+    "ItemClass": "rosedrop_lower_comback",
+    "BaseItemClass": "rosedrop_lower_comback",
+    "SetID": "rosedrop_comback_set"
+  },
+  {
+    "ItemClass": "rosedrop_foot_comback",
+    "BaseItemClass": "rosedrop_foot_comback",
+    "SetID": "rosedrop_comback_set"
+  },
+  {
+    "ItemClass": "rosedrop_hand_comback",
+    "BaseItemClass": "rosedrop_hand_comback",
+    "SetID": "rosedrop_comback_set"
+  },
+  {
+    "ItemClass": "nightmare_hand_comback",
+    "BaseItemClass": "nightmare_hand_comback",
+    "SetID": "nightmare_comback_set"
+  },
+  {
+    "ItemClass": "nightmare_foot_comback",
+    "BaseItemClass": "nightmare_foot_comback",
+    "SetID": "nightmare_comback_set"
+  },
+  {
+    "ItemClass": "nightmare_head_comback",
+    "BaseItemClass": "nightmare_head_comback",
+    "SetID": "nightmare_comback_set"
+  },
+  {
+    "ItemClass": "nightmare_lower_comback",
+    "BaseItemClass": "nightmare_lower_comback",
+    "SetID": "nightmare_comback_set"
+  },
+  {
+    "ItemClass": "nightmare_upper_comback",
+    "BaseItemClass": "nightmare_upper_comback",
+    "SetID": "nightmare_comback_set"
+  },
+  {
+    "ItemClass": "bloodlord_hand_comback",
+    "BaseItemClass": "bloodlord_hand_comback",
+    "SetID": "bloodlord_comback_set"
+  },
+  {
+    "ItemClass": "bloodlord_foot_comback",
+    "BaseItemClass": "bloodlord_foot_comback",
+    "SetID": "bloodlord_comback_set"
+  },
+  {
+    "ItemClass": "bloodlord_head_comback",
+    "BaseItemClass": "bloodlord_head_comback",
+    "SetID": "bloodlord_comback_set"
+  },
+  {
+    "ItemClass": "bloodlord_lower_comback",
+    "BaseItemClass": "bloodlord_lower_comback",
+    "SetID": "bloodlord_comback_set"
+  },
+  {
+    "ItemClass": "bloodlord_upper_comback",
+    "BaseItemClass": "bloodlord_upper_comback",
+    "SetID": "bloodlord_comback_set"
+  },
+  {
+    "ItemClass": "voidreaper_head",
+    "BaseItemClass": "voidreaper_head",
+    "SetID": "voidreaper_set"
+  },
+  {
+    "ItemClass": "voidreaper_head_tradable",
+    "BaseItemClass": "voidreaper_head",
+    "SetID": "voidreaper_set"
+  },
+  {
+    "ItemClass": "voidreaper_upper",
+    "BaseItemClass": "voidreaper_upper",
+    "SetID": "voidreaper_set"
+  },
+  {
+    "ItemClass": "voidreaper_upper_tradable",
+    "BaseItemClass": "voidreaper_upper",
+    "SetID": "voidreaper_set"
+  },
+  {
+    "ItemClass": "voidreaper_lower",
+    "BaseItemClass": "voidreaper_lower",
+    "SetID": "voidreaper_set"
+  },
+  {
+    "ItemClass": "voidreaper_lower_tradable",
+    "BaseItemClass": "voidreaper_lower",
+    "SetID": "voidreaper_set"
+  },
+  {
+    "ItemClass": "voidreaper_hand",
+    "BaseItemClass": "voidreaper_hand",
+    "SetID": "voidreaper_set"
+  },
+  {
+    "ItemClass": "voidreaper_hand_tradable",
+    "BaseItemClass": "voidreaper_hand",
+    "SetID": "voidreaper_set"
+  },
+  {
+    "ItemClass": "necklace_halloween_2012",
+    "BaseItemClass": "necklace_halloween_2012",
+    "SetID": "halloween_acc_set"
+  },
+  {
+    "ItemClass": "badge_halloween_2012",
+    "BaseItemClass": "badge_halloween_2012",
+    "SetID": "halloween_acc_set"
+  },
+  {
+    "ItemClass": "butterfly_head_hour",
+    "BaseItemClass": "butterfly_head_hour",
+    "SetID": "butterfly_hour_set"
+  },
+  {
+    "ItemClass": "butterfly_upper_hour",
+    "BaseItemClass": "butterfly_upper_hour",
+    "SetID": "butterfly_hour_set"
+  },
+  {
+    "ItemClass": "butterfly_lower_hour",
+    "BaseItemClass": "butterfly_lower_hour",
+    "SetID": "butterfly_hour_set"
+  },
+  {
+    "ItemClass": "butterfly_hand_hour",
+    "BaseItemClass": "butterfly_hand_hour",
+    "SetID": "butterfly_hour_set"
+  },
+  {
+    "ItemClass": "butterfly_foot_hour",
+    "BaseItemClass": "butterfly_foot_hour",
+    "SetID": "butterfly_hour_set"
+  },
+  {
+    "ItemClass": "butterfly_head_comback_limitless",
+    "BaseItemClass": "butterfly_head_comback_limitless",
+    "SetID": "butterfly_comback_limitless_set"
+  },
+  {
+    "ItemClass": "butterfly_upper_comback_limitless",
+    "BaseItemClass": "butterfly_upper_comback_limitless",
+    "SetID": "butterfly_comback_limitless_set"
+  },
+  {
+    "ItemClass": "butterfly_lower_comback_limitless",
+    "BaseItemClass": "butterfly_lower_comback_limitless",
+    "SetID": "butterfly_comback_limitless_set"
+  },
+  {
+    "ItemClass": "butterfly_hand_comback_limitless",
+    "BaseItemClass": "butterfly_hand_comback_limitless",
+    "SetID": "butterfly_comback_limitless_set"
+  },
+  {
+    "ItemClass": "butterfly_foot_comback_limitless",
+    "BaseItemClass": "butterfly_foot_comback_limitless",
+    "SetID": "butterfly_comback_limitless_set"
+  },
+  {
+    "ItemClass": "butterfly_head_term",
+    "BaseItemClass": "butterfly_head_term",
+    "SetID": "butterfly_term_set"
+  },
+  {
+    "ItemClass": "butterfly_upper_term",
+    "BaseItemClass": "butterfly_upper_term",
+    "SetID": "butterfly_term_set"
+  },
+  {
+    "ItemClass": "butterfly_lower_term",
+    "BaseItemClass": "butterfly_lower_term",
+    "SetID": "butterfly_term_set"
+  },
+  {
+    "ItemClass": "butterfly_hand_term",
+    "BaseItemClass": "butterfly_hand_term",
+    "SetID": "butterfly_term_set"
+  },
+  {
+    "ItemClass": "butterfly_foot_term",
+    "BaseItemClass": "butterfly_foot_term",
+    "SetID": "butterfly_term_set"
+  },
+  {
+    "ItemClass": "s2_nighthawk_hand",
+    "BaseItemClass": "s2_nighthawk_hand",
+    "SetID": "s2_nighthawk"
+  },
+  {
+    "ItemClass": "s2_nighthawk_foot",
+    "BaseItemClass": "s2_nighthawk_foot",
+    "SetID": "s2_nighthawk"
+  },
+  {
+    "ItemClass": "s2_nighthawk_head",
+    "BaseItemClass": "s2_nighthawk_head",
+    "SetID": "s2_nighthawk"
+  },
+  {
+    "ItemClass": "s2_nighthawk_lower",
+    "BaseItemClass": "s2_nighthawk_lower",
+    "SetID": "s2_nighthawk"
+  },
+  {
+    "ItemClass": "s2_nighthawk_upper",
+    "BaseItemClass": "s2_nighthawk_upper",
+    "SetID": "s2_nighthawk"
+  },
+  {
+    "ItemClass": "s2_nighthawk_heavy_hand",
+    "BaseItemClass": "s2_nighthawk_heavy_hand",
+    "SetID": "s2_nighthawk_heavy"
+  },
+  {
+    "ItemClass": "s2_nighthawk_heavy_foot",
+    "BaseItemClass": "s2_nighthawk_heavy_foot",
+    "SetID": "s2_nighthawk_heavy"
+  },
+  {
+    "ItemClass": "s2_nighthawk_heavy_head",
+    "BaseItemClass": "s2_nighthawk_heavy_head",
+    "SetID": "s2_nighthawk_heavy"
+  },
+  {
+    "ItemClass": "s2_nighthawk_heavy_lower",
+    "BaseItemClass": "s2_nighthawk_heavy_lower",
+    "SetID": "s2_nighthawk_heavy"
+  },
+  {
+    "ItemClass": "s2_nighthawk_heavy_upper",
+    "BaseItemClass": "s2_nighthawk_heavy_upper",
+    "SetID": "s2_nighthawk_heavy"
+  },
+  {
+    "ItemClass": "s2_nighthawk_light_hand",
+    "BaseItemClass": "s2_nighthawk_light_hand",
+    "SetID": "s2_nighthawk_light"
+  },
+  {
+    "ItemClass": "s2_nighthawk_light_foot",
+    "BaseItemClass": "s2_nighthawk_light_foot",
+    "SetID": "s2_nighthawk_light"
+  },
+  {
+    "ItemClass": "s2_nighthawk_light_head",
+    "BaseItemClass": "s2_nighthawk_light_head",
+    "SetID": "s2_nighthawk_light"
+  },
+  {
+    "ItemClass": "s2_nighthawk_light_lower",
+    "BaseItemClass": "s2_nighthawk_light_lower",
+    "SetID": "s2_nighthawk_light"
+  },
+  {
+    "ItemClass": "s2_nighthawk_light_upper",
+    "BaseItemClass": "s2_nighthawk_light_upper",
+    "SetID": "s2_nighthawk_light"
+  },
+  {
+    "ItemClass": "s2_heremon_male_hand",
+    "BaseItemClass": "s2_heremon_male_hand",
+    "SetID": "s2_heremon"
+  },
+  {
+    "ItemClass": "s2_heremon_male_foot",
+    "BaseItemClass": "s2_heremon_male_foot",
+    "SetID": "s2_heremon"
+  },
+  {
+    "ItemClass": "s2_heremon_male_head",
+    "BaseItemClass": "s2_heremon_male_head",
+    "SetID": "s2_heremon"
+  },
+  {
+    "ItemClass": "s2_heremon_male_lower",
+    "BaseItemClass": "s2_heremon_male_lower",
+    "SetID": "s2_heremon"
+  },
+  {
+    "ItemClass": "s2_heremon_male_upper",
+    "BaseItemClass": "s2_heremon_male_upper",
+    "SetID": "s2_heremon"
+  },
+  {
+    "ItemClass": "s2_heremon_soft_evy_hand",
+    "BaseItemClass": "s2_heremon_soft_evy_hand",
+    "SetID": "s2_heremon_soft_evy"
+  },
+  {
+    "ItemClass": "s2_heremon_soft_evy_foot",
+    "BaseItemClass": "s2_heremon_soft_evy_foot",
+    "SetID": "s2_heremon_soft_evy"
+  },
+  {
+    "ItemClass": "s2_heremon_soft_evy_head",
+    "BaseItemClass": "s2_heremon_soft_evy_head",
+    "SetID": "s2_heremon_soft_evy"
+  },
+  {
+    "ItemClass": "s2_heremon_soft_evy_lower",
+    "BaseItemClass": "s2_heremon_soft_evy_lower",
+    "SetID": "s2_heremon_soft_evy"
+  },
+  {
+    "ItemClass": "s2_heremon_soft_evy_upper",
+    "BaseItemClass": "s2_heremon_soft_evy_upper",
+    "SetID": "s2_heremon_soft_evy"
+  },
+  {
+    "ItemClass": "s2_nighthawk_hand_day30",
+    "BaseItemClass": "s2_nighthawk_hand_day30",
+    "SetID": "s2_nighthawk_day30"
+  },
+  {
+    "ItemClass": "s2_nighthawk_foot_day30",
+    "BaseItemClass": "s2_nighthawk_foot_day30",
+    "SetID": "s2_nighthawk_day30"
+  },
+  {
+    "ItemClass": "s2_nighthawk_head_day30",
+    "BaseItemClass": "s2_nighthawk_head_day30",
+    "SetID": "s2_nighthawk_day30"
+  },
+  {
+    "ItemClass": "s2_nighthawk_lower_day30",
+    "BaseItemClass": "s2_nighthawk_lower_day30",
+    "SetID": "s2_nighthawk_day30"
+  },
+  {
+    "ItemClass": "s2_nighthawk_upper_day30",
+    "BaseItemClass": "s2_nighthawk_upper_day30",
+    "SetID": "s2_nighthawk_day30"
+  },
+  {
+    "ItemClass": "whiteshark_head_30days",
+    "BaseItemClass": "whiteshark_head_30days",
+    "SetID": "whiteshark_set_30days"
+  },
+  {
+    "ItemClass": "whiteshark_upper_30days",
+    "BaseItemClass": "whiteshark_upper_30days",
+    "SetID": "whiteshark_set_30days"
+  },
+  {
+    "ItemClass": "whiteshark_lower_30days",
+    "BaseItemClass": "whiteshark_lower_30days",
+    "SetID": "whiteshark_set_30days"
+  },
+  {
+    "ItemClass": "whiteshark_hand_30days",
+    "BaseItemClass": "whiteshark_hand_30days",
+    "SetID": "whiteshark_set_30days"
+  },
+  {
+    "ItemClass": "whiteshark_foot_30days",
+    "BaseItemClass": "whiteshark_foot_30days",
+    "SetID": "whiteshark_set_30days"
+  },
+  {
+    "ItemClass": "s2_royalguard_hard_hand_day30",
+    "BaseItemClass": "s2_royalguard_hard_hand_day30",
+    "SetID": "s2_royalguard_hard_day30"
+  },
+  {
+    "ItemClass": "s2_royalguard_hard_foot_day30",
+    "BaseItemClass": "s2_royalguard_hard_foot_day30",
+    "SetID": "s2_royalguard_hard_day30"
+  },
+  {
+    "ItemClass": "s2_royalguard_hard_head_day30",
+    "BaseItemClass": "s2_royalguard_hard_head_day30",
+    "SetID": "s2_royalguard_hard_day30"
+  },
+  {
+    "ItemClass": "s2_royalguard_hard_lower_day30",
+    "BaseItemClass": "s2_royalguard_hard_lower_day30",
+    "SetID": "s2_royalguard_hard_day30"
+  },
+  {
+    "ItemClass": "s2_royalguard_hard_upper_day30",
+    "BaseItemClass": "s2_royalguard_hard_upper_day30",
+    "SetID": "s2_royalguard_hard_day30"
+  },
+  {
+    "ItemClass": "s2ep2_ex_noblesse_head",
+    "BaseItemClass": "s2ep2_ex_noblesse_head",
+    "SetID": "s2_noblesse"
+  },
+  {
+    "ItemClass": "s2ep2_ex_noblesse_upper",
+    "BaseItemClass": "s2ep2_ex_noblesse_upper",
+    "SetID": "s2_noblesse"
+  },
+  {
+    "ItemClass": "s2ep2_ex_noblesse_lower",
+    "BaseItemClass": "s2ep2_ex_noblesse_lower",
+    "SetID": "s2_noblesse"
+  },
+  {
+    "ItemClass": "s2ep2_ex_noblesse_hand",
+    "BaseItemClass": "s2ep2_ex_noblesse_hand",
+    "SetID": "s2_noblesse"
+  },
+  {
+    "ItemClass": "s2ep2_ex_noblesse_foot",
+    "BaseItemClass": "s2ep2_ex_noblesse_foot",
+    "SetID": "s2_noblesse"
+  },
+  {
+    "ItemClass": "s2ep2_ex_noblesse_evy_head",
+    "BaseItemClass": "s2ep2_ex_noblesse_evy_head",
+    "SetID": "s2_noblesse_evy"
+  },
+  {
+    "ItemClass": "s2ep2_ex_noblesse_evy_upper",
+    "BaseItemClass": "s2ep2_ex_noblesse_evy_upper",
+    "SetID": "s2_noblesse_evy"
+  },
+  {
+    "ItemClass": "s2ep2_ex_noblesse_evy_lower",
+    "BaseItemClass": "s2ep2_ex_noblesse_evy_lower",
+    "SetID": "s2_noblesse_evy"
+  },
+  {
+    "ItemClass": "s2ep2_ex_noblesse_evy_hand",
+    "BaseItemClass": "s2ep2_ex_noblesse_evy_hand",
+    "SetID": "s2_noblesse_evy"
+  },
+  {
+    "ItemClass": "s2ep2_ex_noblesse_evy_foot",
+    "BaseItemClass": "s2ep2_ex_noblesse_evy_foot",
+    "SetID": "s2_noblesse_evy"
+  },
+  {
+    "ItemClass": "s2_nighthawk_hand_7days",
+    "BaseItemClass": "s2_nighthawk_hand_7days",
+    "SetID": "s2_nighthawk_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_foot_7days",
+    "BaseItemClass": "s2_nighthawk_foot_7days",
+    "SetID": "s2_nighthawk_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_head_7days",
+    "BaseItemClass": "s2_nighthawk_head_7days",
+    "SetID": "s2_nighthawk_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_lower_7days",
+    "BaseItemClass": "s2_nighthawk_lower_7days",
+    "SetID": "s2_nighthawk_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_upper_7days",
+    "BaseItemClass": "s2_nighthawk_upper_7days",
+    "SetID": "s2_nighthawk_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_heavy_hand_7days",
+    "BaseItemClass": "s2_nighthawk_heavy_hand_7days",
+    "SetID": "s2_nighthawk_heavy_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_heavy_foot_7days",
+    "BaseItemClass": "s2_nighthawk_heavy_foot_7days",
+    "SetID": "s2_nighthawk_heavy_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_heavy_head_7days",
+    "BaseItemClass": "s2_nighthawk_heavy_head_7days",
+    "SetID": "s2_nighthawk_heavy_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_heavy_lower_7days",
+    "BaseItemClass": "s2_nighthawk_heavy_lower_7days",
+    "SetID": "s2_nighthawk_heavy_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_heavy_upper_7days",
+    "BaseItemClass": "s2_nighthawk_heavy_upper_7days",
+    "SetID": "s2_nighthawk_heavy_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_light_hand_7days",
+    "BaseItemClass": "s2_nighthawk_light_hand_7days",
+    "SetID": "s2_nighthawk_light_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_light_foot_7days",
+    "BaseItemClass": "s2_nighthawk_light_foot_7days",
+    "SetID": "s2_nighthawk_light_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_light_head_7days",
+    "BaseItemClass": "s2_nighthawk_light_head_7days",
+    "SetID": "s2_nighthawk_light_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_light_lower_7days",
+    "BaseItemClass": "s2_nighthawk_light_lower_7days",
+    "SetID": "s2_nighthawk_light_7days"
+  },
+  {
+    "ItemClass": "s2_nighthawk_light_upper_7days",
+    "BaseItemClass": "s2_nighthawk_light_upper_7days",
+    "SetID": "s2_nighthawk_light_7days"
+  },
+  {
+    "ItemClass": "warriors_edge_head",
+    "BaseItemClass": "warriors_edge_head",
+    "SetID": "warriors_edge_set"
+  },
+  {
+    "ItemClass": "warriors_edge_upper",
+    "BaseItemClass": "warriors_edge_upper",
+    "SetID": "warriors_edge_set"
+  },
+  {
+    "ItemClass": "warriors_edge_lower",
+    "BaseItemClass": "warriors_edge_lower",
+    "SetID": "warriors_edge_set"
+  },
+  {
+    "ItemClass": "warriors_edge_hand",
+    "BaseItemClass": "warriors_edge_hand",
+    "SetID": "warriors_edge_set"
+  },
+  {
+    "ItemClass": "warriors_edge_foot",
+    "BaseItemClass": "warriors_edge_foot",
+    "SetID": "warriors_edge_set"
+  },
+  {
+    "ItemClass": "k9_head_hurk",
+    "BaseItemClass": "k9_head_hurk",
+    "SetID": "k9_set"
+  },
+  {
+    "ItemClass": "k9_upper_hurk",
+    "BaseItemClass": "k9_upper_hurk",
+    "SetID": "k9_set"
+  },
+  {
+    "ItemClass": "k9_lower_hurk",
+    "BaseItemClass": "k9_lower_hurk",
+    "SetID": "k9_set"
+  },
+  {
+    "ItemClass": "k9_hand_hurk",
+    "BaseItemClass": "k9_hand_hurk",
+    "SetID": "k9_set"
+  },
+  {
+    "ItemClass": "k9_foot_hurk",
+    "BaseItemClass": "k9_foot_hurk",
+    "SetID": "k9_set"
+  },
+  {
+    "ItemClass": "nightmare_hand_gift",
+    "BaseItemClass": "nightmare_hand_gift",
+    "SetID": "nightmare_set_gift"
+  },
+  {
+    "ItemClass": "nightmare_foot_gift",
+    "BaseItemClass": "nightmare_foot_gift",
+    "SetID": "nightmare_set_gift"
+  },
+  {
+    "ItemClass": "nightmare_head_gift",
+    "BaseItemClass": "nightmare_head_gift",
+    "SetID": "nightmare_set_gift"
+  },
+  {
+    "ItemClass": "nightmare_lower_gift",
+    "BaseItemClass": "nightmare_lower_gift",
+    "SetID": "nightmare_set_gift"
+  },
+  {
+    "ItemClass": "nightmare_upper_gift",
+    "BaseItemClass": "nightmare_upper_gift",
+    "SetID": "nightmare_set_gift"
+  },
+  {
+    "ItemClass": "bloodlord_hand_gift",
+    "BaseItemClass": "bloodlord_hand_gift",
+    "SetID": "bloodlord_set_gift"
+  },
+  {
+    "ItemClass": "bloodlord_foot_gift",
+    "BaseItemClass": "bloodlord_foot_gift",
+    "SetID": "bloodlord_set_gift"
+  },
+  {
+    "ItemClass": "bloodlord_head_gift",
+    "BaseItemClass": "bloodlord_head_gift",
+    "SetID": "bloodlord_set_gift"
+  },
+  {
+    "ItemClass": "bloodlord_lower_gift",
+    "BaseItemClass": "bloodlord_lower_gift",
+    "SetID": "bloodlord_set_gift"
+  },
+  {
+    "ItemClass": "bloodlord_upper_gift",
+    "BaseItemClass": "bloodlord_upper_gift",
+    "SetID": "bloodlord_set_gift"
+  },
+  {
+    "ItemClass": "s2_champion_head",
+    "BaseItemClass": "s2_champion_head",
+    "SetID": "s2_champion_set"
+  },
+  {
+    "ItemClass": "s2_champion_upper",
+    "BaseItemClass": "s2_champion_upper",
+    "SetID": "s2_champion_set"
+  },
+  {
+    "ItemClass": "s2_champion_lower",
+    "BaseItemClass": "s2_champion_lower",
+    "SetID": "s2_champion_set"
+  },
+  {
+    "ItemClass": "s2_champion_hand",
+    "BaseItemClass": "s2_champion_hand",
+    "SetID": "s2_champion_set"
+  },
+  {
+    "ItemClass": "s2_champion_foot",
+    "BaseItemClass": "s2_champion_foot",
+    "SetID": "s2_champion_set"
+  },
+  {
+    "ItemClass": "s2_champion_female_head",
+    "BaseItemClass": "s2_champion_female_head",
+    "SetID": "s2_champion_female_set"
+  },
+  {
+    "ItemClass": "s2_champion_female_upper",
+    "BaseItemClass": "s2_champion_female_upper",
+    "SetID": "s2_champion_female_set"
+  },
+  {
+    "ItemClass": "s2_champion_female_lower",
+    "BaseItemClass": "s2_champion_female_lower",
+    "SetID": "s2_champion_female_set"
+  },
+  {
+    "ItemClass": "s2_champion_female_hand",
+    "BaseItemClass": "s2_champion_female_hand",
+    "SetID": "s2_champion_female_set"
+  },
+  {
+    "ItemClass": "s2_champion_female_foot",
+    "BaseItemClass": "s2_champion_female_foot",
+    "SetID": "s2_champion_female_set"
+  },
+  {
+    "ItemClass": "s2_champion_evy_head",
+    "BaseItemClass": "s2_champion_evy_head",
+    "SetID": "s2_champion_evy_set"
+  },
+  {
+    "ItemClass": "s2_champion_evy_upper",
+    "BaseItemClass": "s2_champion_evy_upper",
+    "SetID": "s2_champion_evy_set"
+  },
+  {
+    "ItemClass": "s2_champion_evy_lower",
+    "BaseItemClass": "s2_champion_evy_lower",
+    "SetID": "s2_champion_evy_set"
+  },
+  {
+    "ItemClass": "s2_champion_evy_hand",
+    "BaseItemClass": "s2_champion_evy_hand",
+    "SetID": "s2_champion_evy_set"
+  },
+  {
+    "ItemClass": "s2_champion_evy_foot",
+    "BaseItemClass": "s2_champion_evy_foot",
+    "SetID": "s2_champion_evy_set"
+  },
+  {
+    "ItemClass": "warriors_edge_head_comback",
+    "BaseItemClass": "warriors_edge_head_comback",
+    "SetID": "warriors_edge_comback_set"
+  },
+  {
+    "ItemClass": "warriors_edge_upper_comback",
+    "BaseItemClass": "warriors_edge_upper_comback",
+    "SetID": "warriors_edge_comback_set"
+  },
+  {
+    "ItemClass": "warriors_edge_lower_comback",
+    "BaseItemClass": "warriors_edge_lower_comback",
+    "SetID": "warriors_edge_comback_set"
+  },
+  {
+    "ItemClass": "warriors_edge_hand_comback",
+    "BaseItemClass": "warriors_edge_hand_comback",
+    "SetID": "warriors_edge_comback_set"
+  },
+  {
+    "ItemClass": "warriors_edge_foot_comback",
+    "BaseItemClass": "warriors_edge_foot_comback",
+    "SetID": "warriors_edge_comback_set"
+  },
+  {
+    "ItemClass": "warriors_edge_head_term",
+    "BaseItemClass": "warriors_edge_head_term",
+    "SetID": "warriors_edge_term_set"
+  },
+  {
+    "ItemClass": "warriors_edge_upper_term",
+    "BaseItemClass": "warriors_edge_upper_term",
+    "SetID": "warriors_edge_term_set"
+  },
+  {
+    "ItemClass": "warriors_edge_lower_term",
+    "BaseItemClass": "warriors_edge_lower_term",
+    "SetID": "warriors_edge_term_set"
+  },
+  {
+    "ItemClass": "warriors_edge_hand_term",
+    "BaseItemClass": "warriors_edge_hand_term",
+    "SetID": "warriors_edge_term_set"
+  },
+  {
+    "ItemClass": "warriors_edge_foot_term",
+    "BaseItemClass": "warriors_edge_foot_term",
+    "SetID": "warriors_edge_term_set"
+  },
+  {
+    "ItemClass": "hundreds_head",
+    "BaseItemClass": "hundreds_head",
+    "SetID": "hundreds_set"
+  },
+  {
+    "ItemClass": "hundreds_upper",
+    "BaseItemClass": "hundreds_upper",
+    "SetID": "hundreds_set"
+  },
+  {
+    "ItemClass": "hundreds_lower",
+    "BaseItemClass": "hundreds_lower",
+    "SetID": "hundreds_set"
+  },
+  {
+    "ItemClass": "hundreds_hand",
+    "BaseItemClass": "hundreds_hand",
+    "SetID": "hundreds_set"
+  },
+  {
+    "ItemClass": "hundreds_foot",
+    "BaseItemClass": "hundreds_foot",
+    "SetID": "hundreds_set"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_head",
+    "BaseItemClass": "s2ep3_skeletone_head",
+    "SetID": "s2_skeleton"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_upper",
+    "BaseItemClass": "s2ep3_skeletone_upper",
+    "SetID": "s2_skeleton"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_lower",
+    "BaseItemClass": "s2ep3_skeletone_lower",
+    "SetID": "s2_skeleton"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_hand",
+    "BaseItemClass": "s2ep3_skeletone_hand",
+    "SetID": "s2_skeleton"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_foot",
+    "BaseItemClass": "s2ep3_skeletone_foot",
+    "SetID": "s2_skeleton"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_evy_head",
+    "BaseItemClass": "s2ep3_skeletone_evy_head",
+    "SetID": "s2_skeleton_evy"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_evy_upper",
+    "BaseItemClass": "s2ep3_skeletone_evy_upper",
+    "SetID": "s2_skeleton_evy"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_evy_lower",
+    "BaseItemClass": "s2ep3_skeletone_evy_lower",
+    "SetID": "s2_skeleton_evy"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_evy_hand",
+    "BaseItemClass": "s2ep3_skeletone_evy_hand",
+    "SetID": "s2_skeleton_evy"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_evy_foot",
+    "BaseItemClass": "s2ep3_skeletone_evy_foot",
+    "SetID": "s2_skeleton_evy"
+  },
+  {
+    "ItemClass": "warriors_edge_head_restoration",
+    "BaseItemClass": "warriors_edge_head_restoration",
+    "SetID": "warriors_edge_restoration_set"
+  },
+  {
+    "ItemClass": "warriors_edge_upper_restoration",
+    "BaseItemClass": "warriors_edge_upper_restoration",
+    "SetID": "warriors_edge_restoration_set"
+  },
+  {
+    "ItemClass": "warriors_edge_lower_restoration",
+    "BaseItemClass": "warriors_edge_lower_restoration",
+    "SetID": "warriors_edge_restoration_set"
+  },
+  {
+    "ItemClass": "warriors_edge_hand_restoration",
+    "BaseItemClass": "warriors_edge_hand_restoration",
+    "SetID": "warriors_edge_restoration_set"
+  },
+  {
+    "ItemClass": "warriors_edge_foot_restoration",
+    "BaseItemClass": "warriors_edge_foot_restoration",
+    "SetID": "warriors_edge_restoration_set"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_head",
+    "BaseItemClass": "s2ep4_70lv_head",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_upper",
+    "BaseItemClass": "s2ep4_70lv_upper",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_lower",
+    "BaseItemClass": "s2ep4_70lv_lower",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_hand",
+    "BaseItemClass": "s2ep4_70lv_hand",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_foot",
+    "BaseItemClass": "s2ep4_70lv_foot",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_head_permanent",
+    "BaseItemClass": "s2ep4_70lv_head",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_upper_permanent",
+    "BaseItemClass": "s2ep4_70lv_upper",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_lower_permanent",
+    "BaseItemClass": "s2ep4_70lv_lower",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_hand_permanent",
+    "BaseItemClass": "s2ep4_70lv_hand",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_foot_permanent",
+    "BaseItemClass": "s2ep4_70lv_foot",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_female_head",
+    "BaseItemClass": "s2ep4_70lv_female_set_head",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_female_upper",
+    "BaseItemClass": "s2ep4_70lv_female_set_upper",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_female_lower",
+    "BaseItemClass": "s2ep4_70lv_female_set_lower",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_female_hand",
+    "BaseItemClass": "s2ep4_70lv_female_set_hand",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_female_foot",
+    "BaseItemClass": "s2ep4_70lv_female_set_foot",
+    "SetID": "s2ep4_70lv"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_evy_head",
+    "BaseItemClass": "s2ep4_70lv_evy_head",
+    "SetID": "s2ep4_70lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_evy_upper",
+    "BaseItemClass": "s2ep4_70lv_evy_upper",
+    "SetID": "s2ep4_70lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_evy_lower",
+    "BaseItemClass": "s2ep4_70lv_evy_lower",
+    "SetID": "s2ep4_70lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_evy_hand",
+    "BaseItemClass": "s2ep4_70lv_evy_hand",
+    "SetID": "s2ep4_70lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_evy_foot",
+    "BaseItemClass": "s2ep4_70lv_evy_foot",
+    "SetID": "s2ep4_70lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_evy_head_permanent",
+    "BaseItemClass": "s2ep4_70lv_evy_head",
+    "SetID": "s2ep4_70lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_evy_upper_permanent",
+    "BaseItemClass": "s2ep4_70lv_evy_upper",
+    "SetID": "s2ep4_70lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_evy_lower_permanent",
+    "BaseItemClass": "s2ep4_70lv_evy_lower",
+    "SetID": "s2ep4_70lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_evy_hand_permanent",
+    "BaseItemClass": "s2ep4_70lv_evy_hand",
+    "SetID": "s2ep4_70lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_70lv_evy_foot_permanent",
+    "BaseItemClass": "s2ep4_70lv_evy_foot",
+    "SetID": "s2ep4_70lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_head",
+    "BaseItemClass": "s2ep4_80lv_head",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_upper",
+    "BaseItemClass": "s2ep4_80lv_upper",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_lower",
+    "BaseItemClass": "s2ep4_80lv_lower",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_hand",
+    "BaseItemClass": "s2ep4_80lv_hand",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_foot",
+    "BaseItemClass": "s2ep4_80lv_foot",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_head_permanent",
+    "BaseItemClass": "s2ep4_80lv_head",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_upper_permanent",
+    "BaseItemClass": "s2ep4_80lv_upper",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_lower_permanent",
+    "BaseItemClass": "s2ep4_80lv_lower",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_hand_permanent",
+    "BaseItemClass": "s2ep4_80lv_hand",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_foot_permanent",
+    "BaseItemClass": "s2ep4_80lv_foot",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_female_head",
+    "BaseItemClass": "s2ep4_80lv_female_head",
+    "SetID": "s2ep4_80lv_female"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_female_upper",
+    "BaseItemClass": "s2ep4_80lv_female_upper",
+    "SetID": "s2ep4_80lv_female"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_female_lower",
+    "BaseItemClass": "s2ep4_80lv_female_lower",
+    "SetID": "s2ep4_80lv_female"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_female_hand",
+    "BaseItemClass": "s2ep4_80lv_female_hand",
+    "SetID": "s2ep4_80lv_female"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_female_foot",
+    "BaseItemClass": "s2ep4_80lv_female_foot",
+    "SetID": "s2ep4_80lv_female"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_head",
+    "BaseItemClass": "s2ep4_80lv_evy_head",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_upper",
+    "BaseItemClass": "s2ep4_80lv_evy_upper",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_lower",
+    "BaseItemClass": "s2ep4_80lv_evy_lower",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_hand",
+    "BaseItemClass": "s2ep4_80lv_evy_hand",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_foot",
+    "BaseItemClass": "s2ep4_80lv_evy_foot",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_head_permanent",
+    "BaseItemClass": "s2ep4_80lv_evy_head",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_upper_permanent",
+    "BaseItemClass": "s2ep4_80lv_evy_upper",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_lower_permanent",
+    "BaseItemClass": "s2ep4_80lv_evy_lower",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_hand_permanent",
+    "BaseItemClass": "s2ep4_80lv_evy_hand",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_foot_permanent",
+    "BaseItemClass": "s2ep4_80lv_evy_foot",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "soulloop_hand",
+    "BaseItemClass": "soulloop_hand",
+    "SetID": "soulloop_set"
+  },
+  {
+    "ItemClass": "soulloop_foot",
+    "BaseItemClass": "soulloop_foot",
+    "SetID": "soulloop_set"
+  },
+  {
+    "ItemClass": "soulloop_head",
+    "BaseItemClass": "soulloop_head",
+    "SetID": "soulloop_set"
+  },
+  {
+    "ItemClass": "soulloop_lower",
+    "BaseItemClass": "soulloop_lower",
+    "SetID": "soulloop_set"
+  },
+  {
+    "ItemClass": "soulloop_upper",
+    "BaseItemClass": "soulloop_upper",
+    "SetID": "soulloop_set"
+  },
+  {
+    "ItemClass": "oriental_odyssey_head",
+    "BaseItemClass": "oriental_odyssey_head",
+    "SetID": "oriental_odyssey_set"
+  },
+  {
+    "ItemClass": "oriental_odyssey_upper",
+    "BaseItemClass": "oriental_odyssey_upper",
+    "SetID": "oriental_odyssey_set"
+  },
+  {
+    "ItemClass": "oriental_odyssey_lower",
+    "BaseItemClass": "oriental_odyssey_lower",
+    "SetID": "oriental_odyssey_set"
+  },
+  {
+    "ItemClass": "oriental_odyssey_hand",
+    "BaseItemClass": "oriental_odyssey_hand",
+    "SetID": "oriental_odyssey_set"
+  },
+  {
+    "ItemClass": "oriental_odyssey_foot",
+    "BaseItemClass": "oriental_odyssey_foot",
+    "SetID": "oriental_odyssey_set"
+  },
+  {
+    "ItemClass": "dancing_blade_head",
+    "BaseItemClass": "dancing_blade_head",
+    "SetID": "dancing_blade_set"
+  },
+  {
+    "ItemClass": "dancing_blade_upper",
+    "BaseItemClass": "dancing_blade_upper",
+    "SetID": "dancing_blade_set"
+  },
+  {
+    "ItemClass": "dancing_blade_lower",
+    "BaseItemClass": "dancing_blade_lower",
+    "SetID": "dancing_blade_set"
+  },
+  {
+    "ItemClass": "dancing_blade_hand",
+    "BaseItemClass": "dancing_blade_hand",
+    "SetID": "dancing_blade_set"
+  },
+  {
+    "ItemClass": "dancing_blade_foot",
+    "BaseItemClass": "dancing_blade_foot",
+    "SetID": "dancing_blade_set"
+  },
+  {
+    "ItemClass": "soulloop_hand_30day",
+    "BaseItemClass": "soulloop_hand_30day",
+    "SetID": "soulloop_30day_set"
+  },
+  {
+    "ItemClass": "soulloop_foot_30day",
+    "BaseItemClass": "soulloop_foot_30day",
+    "SetID": "soulloop_30day_set"
+  },
+  {
+    "ItemClass": "soulloop_head_30day",
+    "BaseItemClass": "soulloop_head_30day",
+    "SetID": "soulloop_30day_set"
+  },
+  {
+    "ItemClass": "soulloop_lower_30day",
+    "BaseItemClass": "soulloop_lower_30day",
+    "SetID": "soulloop_30day_set"
+  },
+  {
+    "ItemClass": "soulloop_upper_30day",
+    "BaseItemClass": "soulloop_upper_30day",
+    "SetID": "soulloop_30day_set"
+  },
+  {
+    "ItemClass": "soulloop_hand_hour",
+    "BaseItemClass": "soulloop_hand_hour",
+    "SetID": "soulloop_hour_set"
+  },
+  {
+    "ItemClass": "soulloop_foot_hour",
+    "BaseItemClass": "soulloop_foot_hour",
+    "SetID": "soulloop_hour_set"
+  },
+  {
+    "ItemClass": "soulloop_head_hour",
+    "BaseItemClass": "soulloop_head_hour",
+    "SetID": "soulloop_hour_set"
+  },
+  {
+    "ItemClass": "soulloop_lower_hour",
+    "BaseItemClass": "soulloop_lower_hour",
+    "SetID": "soulloop_hour_set"
+  },
+  {
+    "ItemClass": "soulloop_upper_hour",
+    "BaseItemClass": "soulloop_upper_hour",
+    "SetID": "soulloop_hour_set"
+  },
+  {
+    "ItemClass": "soulloop_hand_restoration",
+    "BaseItemClass": "soulloop_hand_restoration",
+    "SetID": "soulloop_restoration_set"
+  },
+  {
+    "ItemClass": "soulloop_foot_restoration",
+    "BaseItemClass": "soulloop_foot_restoration",
+    "SetID": "soulloop_restoration_set"
+  },
+  {
+    "ItemClass": "soulloop_head_restoration",
+    "BaseItemClass": "soulloop_head_restoration",
+    "SetID": "soulloop_restoration_set"
+  },
+  {
+    "ItemClass": "soulloop_lower_restoration",
+    "BaseItemClass": "soulloop_lower_restoration",
+    "SetID": "soulloop_restoration_set"
+  },
+  {
+    "ItemClass": "soulloop_upper_restoration",
+    "BaseItemClass": "soulloop_upper_restoration",
+    "SetID": "soulloop_restoration_set"
+  },
+  {
+    "ItemClass": "necklace_snowflake_eneu",
+    "BaseItemClass": "necklace_snowflake_eneu",
+    "SetID": "snowflake_eneu_set"
+  },
+  {
+    "ItemClass": "badge_snowflake_eneu",
+    "BaseItemClass": "badge_snowflake_eneu",
+    "SetID": "snowflake_eneu_set"
+  },
+  {
+    "ItemClass": "epaulet_snowflake_left_eneu",
+    "BaseItemClass": "epaulet_snowflake_left_eneu",
+    "SetID": "snowflake_eneu_set"
+  },
+  {
+    "ItemClass": "necklace_snowflake",
+    "BaseItemClass": "necklace_snowflake",
+    "SetID": "snowflake_set"
+  },
+  {
+    "ItemClass": "badge_snowflake",
+    "BaseItemClass": "badge_snowflake",
+    "SetID": "snowflake_set"
+  },
+  {
+    "ItemClass": "epaulet_snowflake_left",
+    "BaseItemClass": "epaulet_snowflake_left",
+    "SetID": "snowflake_set"
+  },
+  {
+    "ItemClass": "epaulet_snowflake_right",
+    "BaseItemClass": "epaulet_snowflake_right",
+    "SetID": "snowflake_set"
+  },
+  {
+    "ItemClass": "l_strike_head",
+    "BaseItemClass": "l_strike_head",
+    "SetID": "l_strike_set"
+  },
+  {
+    "ItemClass": "l_strike_upper",
+    "BaseItemClass": "l_strike_upper",
+    "SetID": "l_strike_set"
+  },
+  {
+    "ItemClass": "l_strike_lower",
+    "BaseItemClass": "l_strike_lower",
+    "SetID": "l_strike_set"
+  },
+  {
+    "ItemClass": "l_strike_hand",
+    "BaseItemClass": "l_strike_hand",
+    "SetID": "l_strike_set"
+  },
+  {
+    "ItemClass": "l_strike_foot",
+    "BaseItemClass": "l_strike_foot",
+    "SetID": "l_strike_set"
+  },
+  {
+    "ItemClass": "silverfox_head",
+    "BaseItemClass": "silverfox_head",
+    "SetID": "silverfox_set"
+  },
+  {
+    "ItemClass": "silverfox_upper",
+    "BaseItemClass": "silverfox_upper",
+    "SetID": "silverfox_set"
+  },
+  {
+    "ItemClass": "silverfox_lower",
+    "BaseItemClass": "silverfox_lower",
+    "SetID": "silverfox_set"
+  },
+  {
+    "ItemClass": "silverfox_hand",
+    "BaseItemClass": "silverfox_hand",
+    "SetID": "silverfox_set"
+  },
+  {
+    "ItemClass": "silverfox_foot",
+    "BaseItemClass": "silverfox_foot",
+    "SetID": "silverfox_set"
+  },
+  {
+    "ItemClass": "apexseniore_head",
+    "BaseItemClass": "apexseniore_head",
+    "SetID": "apexseniore_set"
+  },
+  {
+    "ItemClass": "apexseniore_upper",
+    "BaseItemClass": "apexseniore_upper",
+    "SetID": "apexseniore_set"
+  },
+  {
+    "ItemClass": "apexseniore_lower",
+    "BaseItemClass": "apexseniore_lower",
+    "SetID": "apexseniore_set"
+  },
+  {
+    "ItemClass": "apexseniore_hand",
+    "BaseItemClass": "apexseniore_hand",
+    "SetID": "apexseniore_set"
+  },
+  {
+    "ItemClass": "apexseniore_foot",
+    "BaseItemClass": "apexseniore_foot",
+    "SetID": "apexseniore_set"
+  },
+  {
+    "ItemClass": "l_strike_head_30days",
+    "BaseItemClass": "l_strike_head_30days",
+    "SetID": "l_strike_30day_set"
+  },
+  {
+    "ItemClass": "l_strike_upper_30days",
+    "BaseItemClass": "l_strike_upper_30days",
+    "SetID": "l_strike_30day_set"
+  },
+  {
+    "ItemClass": "l_strike_lower_30days",
+    "BaseItemClass": "l_strike_lower_30days",
+    "SetID": "l_strike_30day_set"
+  },
+  {
+    "ItemClass": "l_strike_hand_30days",
+    "BaseItemClass": "l_strike_hand_30days",
+    "SetID": "l_strike_30day_set"
+  },
+  {
+    "ItemClass": "l_strike_foot_30days",
+    "BaseItemClass": "l_strike_foot_30days",
+    "SetID": "l_strike_30day_set"
+  },
+  {
+    "ItemClass": "l_strike_head_3hour",
+    "BaseItemClass": "l_strike_head_3hour",
+    "SetID": "l_strike_hour_set"
+  },
+  {
+    "ItemClass": "l_strike_upper_3hour",
+    "BaseItemClass": "l_strike_upper_3hour",
+    "SetID": "l_strike_hour_set"
+  },
+  {
+    "ItemClass": "l_strike_lower_3hour",
+    "BaseItemClass": "l_strike_lower_3hour",
+    "SetID": "l_strike_hour_set"
+  },
+  {
+    "ItemClass": "l_strike_hand_3hour",
+    "BaseItemClass": "l_strike_hand_3hour",
+    "SetID": "l_strike_hour_set"
+  },
+  {
+    "ItemClass": "l_strike_foot_3hour",
+    "BaseItemClass": "l_strike_foot_3hour",
+    "SetID": "l_strike_hour_set"
+  },
+  {
+    "ItemClass": "l_strike_head_restoration",
+    "BaseItemClass": "l_strike_head_restoration",
+    "SetID": "l_strike_restoration_set"
+  },
+  {
+    "ItemClass": "l_strike_upper_restoration",
+    "BaseItemClass": "l_strike_upper_restoration",
+    "SetID": "l_strike_restoration_set"
+  },
+  {
+    "ItemClass": "l_strike_lower_restoration",
+    "BaseItemClass": "l_strike_lower_restoration",
+    "SetID": "l_strike_restoration_set"
+  },
+  {
+    "ItemClass": "l_strike_hand_restoration",
+    "BaseItemClass": "l_strike_hand_restoration",
+    "SetID": "l_strike_restoration_set"
+  },
+  {
+    "ItemClass": "l_strike_foot_restoration",
+    "BaseItemClass": "l_strike_foot_restoration",
+    "SetID": "l_strike_restoration_set"
+  },
+  {
+    "ItemClass": "necklace_halloween_2014_jajp",
+    "BaseItemClass": "necklace_halloween_2014_jajp",
+    "SetID": "halloween_jajp_2014_acc_set"
+  },
+  {
+    "ItemClass": "badge_halloween_2014_jajp",
+    "BaseItemClass": "badge_halloween_2014_jajp",
+    "SetID": "halloween_jajp_2014_acc_set"
+  },
+  {
+    "ItemClass": "s2_explorer_classic_hand_15days_event",
+    "BaseItemClass": "s2_explorer_classic_hand_15days_event",
+    "SetID": "s2_explorer_classic_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_classic_foot_15days_event",
+    "BaseItemClass": "s2_explorer_classic_foot_15days_event",
+    "SetID": "s2_explorer_classic_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_classic_head_15days_event",
+    "BaseItemClass": "s2_explorer_classic_head_15days_event",
+    "SetID": "s2_explorer_classic_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_classic_lower_15days_event",
+    "BaseItemClass": "s2_explorer_classic_lower_15days_event",
+    "SetID": "s2_explorer_classic_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_classic_upper_15days_event",
+    "BaseItemClass": "s2_explorer_classic_upper_15days_event",
+    "SetID": "s2_explorer_classic_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_soft_hand_15days_event",
+    "BaseItemClass": "s2_explorer_soft_hand_15days_event",
+    "SetID": "s2_explorer_soft_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_soft_foot_15days_event",
+    "BaseItemClass": "s2_explorer_soft_foot_15days_event",
+    "SetID": "s2_explorer_soft_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_soft_head_15days_event",
+    "BaseItemClass": "s2_explorer_soft_head_15days_event",
+    "SetID": "s2_explorer_soft_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_soft_lower_15days_event",
+    "BaseItemClass": "s2_explorer_soft_lower_15days_event",
+    "SetID": "s2_explorer_soft_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_soft_upper_15days_event",
+    "BaseItemClass": "s2_explorer_soft_upper_15days_event",
+    "SetID": "s2_explorer_soft_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_hand_15days_event",
+    "BaseItemClass": "s2_explorer_hand_15days_event",
+    "SetID": "s2_explorer_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_foot_15days_event",
+    "BaseItemClass": "s2_explorer_foot_15days_event",
+    "SetID": "s2_explorer_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_head_15days_event",
+    "BaseItemClass": "s2_explorer_head_15days_event",
+    "SetID": "s2_explorer_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_lower_15days_event",
+    "BaseItemClass": "s2_explorer_lower_15days_event",
+    "SetID": "s2_explorer_15days_event"
+  },
+  {
+    "ItemClass": "s2_explorer_upper_15days_event",
+    "BaseItemClass": "s2_explorer_upper_15days_event",
+    "SetID": "s2_explorer_15days_event"
+  },
+  {
+    "ItemClass": "sinister_hand_15days_event",
+    "BaseItemClass": "sinister_hand_15days_event",
+    "SetID": "sinister_15days_event"
+  },
+  {
+    "ItemClass": "sinister_foot_15days_event",
+    "BaseItemClass": "sinister_foot_15days_event",
+    "SetID": "sinister_15days_event"
+  },
+  {
+    "ItemClass": "sinister_head_15days_event",
+    "BaseItemClass": "sinister_head_15days_event",
+    "SetID": "sinister_15days_event"
+  },
+  {
+    "ItemClass": "sinister_lower_15days_event",
+    "BaseItemClass": "sinister_lower_15days_event",
+    "SetID": "sinister_15days_event"
+  },
+  {
+    "ItemClass": "sinister_upper_15days_event",
+    "BaseItemClass": "sinister_upper_15days_event",
+    "SetID": "sinister_15days_event"
+  },
+  {
+    "ItemClass": "shiningwill_hand_15days_event",
+    "BaseItemClass": "shiningwill_hand_15days_event",
+    "SetID": "shiningwill_15days_event"
+  },
+  {
+    "ItemClass": "shiningwill_foot_15days_event",
+    "BaseItemClass": "shiningwill_foot_15days_event",
+    "SetID": "shiningwill_15days_event"
+  },
+  {
+    "ItemClass": "shiningwill_head_15days_event",
+    "BaseItemClass": "shiningwill_head_15days_event",
+    "SetID": "shiningwill_15days_event"
+  },
+  {
+    "ItemClass": "shiningwill_lower_15days_event",
+    "BaseItemClass": "shiningwill_lower_15days_event",
+    "SetID": "shiningwill_15days_event"
+  },
+  {
+    "ItemClass": "shiningwill_upper_15days_event",
+    "BaseItemClass": "shiningwill_upper_15days_event",
+    "SetID": "shiningwill_15days_event"
+  },
+  {
+    "ItemClass": "temp_hand_15days_event",
+    "BaseItemClass": "temp_hand_15days_event",
+    "SetID": "temp_15days_event"
+  },
+  {
+    "ItemClass": "temp_foot_15days_event",
+    "BaseItemClass": "temp_foot_15days_event",
+    "SetID": "temp_15days_event"
+  },
+  {
+    "ItemClass": "temp_lower_15days_event",
+    "BaseItemClass": "temp_lower_15days_event",
+    "SetID": "temp_15days_event"
+  },
+  {
+    "ItemClass": "temp_upper_15days_event",
+    "BaseItemClass": "temp_upper_15days_event",
+    "SetID": "temp_15days_event"
+  },
+  {
+    "ItemClass": "earring_temp_15days_event",
+    "BaseItemClass": "earring_temp_15days_event",
+    "SetID": "temp_15days_event"
+  },
+  {
+    "ItemClass": "giant_barbarian_head_15days_event",
+    "BaseItemClass": "giant_barbarian_head_15days_event",
+    "SetID": "barbarian_15days_event"
+  },
+  {
+    "ItemClass": "giant_barbarian_upper_15days_event",
+    "BaseItemClass": "giant_barbarian_upper_15days_event",
+    "SetID": "barbarian_15days_event"
+  },
+  {
+    "ItemClass": "giant_barbarian_lower_15days_event",
+    "BaseItemClass": "giant_barbarian_lower_15days_event",
+    "SetID": "barbarian_15days_event"
+  },
+  {
+    "ItemClass": "giant_barbarian_hand_15days_event",
+    "BaseItemClass": "giant_barbarian_hand_15days_event",
+    "SetID": "barbarian_15days_event"
+  },
+  {
+    "ItemClass": "giant_barbarian_foot_15days_event",
+    "BaseItemClass": "giant_barbarian_foot_15days_event",
+    "SetID": "barbarian_15days_event"
+  },
+  {
+    "ItemClass": "naturewalker_hand_15days_event",
+    "BaseItemClass": "naturewalker_hand_15days_event",
+    "SetID": "naturewalker_15days_event"
+  },
+  {
+    "ItemClass": "naturewalker_foot_15days_event",
+    "BaseItemClass": "naturewalker_foot_15days_event",
+    "SetID": "naturewalker_15days_event"
+  },
+  {
+    "ItemClass": "naturewalker_head_15days_event",
+    "BaseItemClass": "naturewalker_head_15days_event",
+    "SetID": "naturewalker_15days_event"
+  },
+  {
+    "ItemClass": "naturewalker_lower_15days_event",
+    "BaseItemClass": "naturewalker_lower_15days_event",
+    "SetID": "naturewalker_15days_event"
+  },
+  {
+    "ItemClass": "naturewalker_upper_15days_event",
+    "BaseItemClass": "naturewalker_upper_15days_event",
+    "SetID": "naturewalker_15days_event"
+  },
+  {
+    "ItemClass": "butterfly_head_15days_event",
+    "BaseItemClass": "butterfly_head_15days_event",
+    "SetID": "butterfly_15days_event"
+  },
+  {
+    "ItemClass": "butterfly_upper_15days_event",
+    "BaseItemClass": "butterfly_upper_15days_event",
+    "SetID": "butterfly_15days_event"
+  },
+  {
+    "ItemClass": "butterfly_lower_15days_event",
+    "BaseItemClass": "butterfly_lower_15days_event",
+    "SetID": "butterfly_15days_event"
+  },
+  {
+    "ItemClass": "butterfly_hand_15days_event",
+    "BaseItemClass": "butterfly_hand_15days_event",
+    "SetID": "butterfly_15days_event"
+  },
+  {
+    "ItemClass": "butterfly_foot_15days_event",
+    "BaseItemClass": "butterfly_foot_15days_event",
+    "SetID": "butterfly_15days_event"
+  },
+  {
+    "ItemClass": "warriors_edge_head_15days_event",
+    "BaseItemClass": "warriors_edge_head_15days_event",
+    "SetID": "warriors_edge_15days_event"
+  },
+  {
+    "ItemClass": "warriors_edge_upper_15days_event",
+    "BaseItemClass": "warriors_edge_upper_15days_event",
+    "SetID": "warriors_edge_15days_event"
+  },
+  {
+    "ItemClass": "warriors_edge_lower_15days_event",
+    "BaseItemClass": "warriors_edge_lower_15days_event",
+    "SetID": "warriors_edge_15days_event"
+  },
+  {
+    "ItemClass": "warriors_edge_hand_15days_event",
+    "BaseItemClass": "warriors_edge_hand_15days_event",
+    "SetID": "warriors_edge_15days_event"
+  },
+  {
+    "ItemClass": "warriors_edge_foot_15days_event",
+    "BaseItemClass": "warriors_edge_foot_15days_event",
+    "SetID": "warriors_edge_15days_event"
+  },
+  {
+    "ItemClass": "soulloop_hand_15days_event",
+    "BaseItemClass": "soulloop_hand_15days_event",
+    "SetID": "soulloop_15days_event"
+  },
+  {
+    "ItemClass": "soulloop_foot_15days_event",
+    "BaseItemClass": "soulloop_foot_15days_event",
+    "SetID": "soulloop_15days_event"
+  },
+  {
+    "ItemClass": "soulloop_head_15days_event",
+    "BaseItemClass": "soulloop_head_15days_event",
+    "SetID": "soulloop_15days_event"
+  },
+  {
+    "ItemClass": "soulloop_lower_15days_event",
+    "BaseItemClass": "soulloop_lower_15days_event",
+    "SetID": "soulloop_15days_event"
+  },
+  {
+    "ItemClass": "soulloop_upper_15days_event",
+    "BaseItemClass": "soulloop_upper_15days_event",
+    "SetID": "soulloop_15days_event"
+  },
+  {
+    "ItemClass": "l_strike_head_15days_event",
+    "BaseItemClass": "l_strike_head_15days_event",
+    "SetID": "l_strike_15days_event"
+  },
+  {
+    "ItemClass": "l_strike_upper_15days_event",
+    "BaseItemClass": "l_strike_upper_15days_event",
+    "SetID": "l_strike_15days_event"
+  },
+  {
+    "ItemClass": "l_strike_lower_15days_event",
+    "BaseItemClass": "l_strike_lower_15days_event",
+    "SetID": "l_strike_15days_event"
+  },
+  {
+    "ItemClass": "l_strike_hand_15days_event",
+    "BaseItemClass": "l_strike_hand_15days_event",
+    "SetID": "l_strike_15days_event"
+  },
+  {
+    "ItemClass": "l_strike_foot_15days_event",
+    "BaseItemClass": "l_strike_foot_15days_event",
+    "SetID": "l_strike_15days_event"
+  },
+  {
+    "ItemClass": "blackhammer2_head_15days_event",
+    "BaseItemClass": "blackhammer2_head_15days_event",
+    "SetID": "swift_15days_event"
+  },
+  {
+    "ItemClass": "blackhammer2_upper_15days_event",
+    "BaseItemClass": "blackhammer2_upper_15days_event",
+    "SetID": "swift_15days_event"
+  },
+  {
+    "ItemClass": "blackhammer2_lower_15days_event",
+    "BaseItemClass": "blackhammer2_lower_15days_event",
+    "SetID": "swift_15days_event"
+  },
+  {
+    "ItemClass": "blackhammer2_hand_15days_event",
+    "BaseItemClass": "blackhammer2_hand_15days_event",
+    "SetID": "swift_15days_event"
+  },
+  {
+    "ItemClass": "blackhammer2_foot_15days_event",
+    "BaseItemClass": "blackhammer2_foot_15days_event",
+    "SetID": "swift_15days_event"
+  },
+  {
+    "ItemClass": "wonderland_head_15days_event",
+    "BaseItemClass": "wonderland_head_15days_event",
+    "SetID": "wonderland_15days_event"
+  },
+  {
+    "ItemClass": "wonderland_upper_15days_event",
+    "BaseItemClass": "wonderland_upper_15days_event",
+    "SetID": "wonderland_15days_event"
+  },
+  {
+    "ItemClass": "wonderland_lower_15days_event",
+    "BaseItemClass": "wonderland_lower_15days_event",
+    "SetID": "wonderland_15days_event"
+  },
+  {
+    "ItemClass": "wonderland_hand_15days_event",
+    "BaseItemClass": "wonderland_hand_15days_event",
+    "SetID": "wonderland_15days_event"
+  },
+  {
+    "ItemClass": "wonderland_foot_15days_event",
+    "BaseItemClass": "wonderland_foot_15days_event",
+    "SetID": "wonderland_15days_event"
+  },
+  {
+    "ItemClass": "ep10_head_30days_event",
+    "BaseItemClass": "ep10_head_30days_event",
+    "SetID": "guardian_30days_event"
+  },
+  {
+    "ItemClass": "ep10_upper_30days_event",
+    "BaseItemClass": "ep10_upper_30days_event",
+    "SetID": "guardian_30days_event"
+  },
+  {
+    "ItemClass": "ep10_lower_30days_event",
+    "BaseItemClass": "ep10_lower_30days_event",
+    "SetID": "guardian_30days_event"
+  },
+  {
+    "ItemClass": "ep10_hand_30days_event",
+    "BaseItemClass": "ep10_hand_30days_event",
+    "SetID": "guardian_30days_event"
+  },
+  {
+    "ItemClass": "ep10_foot_30days_event",
+    "BaseItemClass": "ep10_foot_30days_event",
+    "SetID": "guardian_30days_event"
+  },
+  {
+    "ItemClass": "ep10_fiona_head_30days_event",
+    "BaseItemClass": "ep10_fiona_head_30days_event",
+    "SetID": "guardian_fiona_30days_event"
+  },
+  {
+    "ItemClass": "ep10_fiona_upper_30days_event",
+    "BaseItemClass": "ep10_fiona_upper_30days_event",
+    "SetID": "guardian_fiona_30days_event"
+  },
+  {
+    "ItemClass": "ep10_fiona_lower_30days_event",
+    "BaseItemClass": "ep10_fiona_lower_30days_event",
+    "SetID": "guardian_fiona_30days_event"
+  },
+  {
+    "ItemClass": "ep10_fiona_hand_30days_event",
+    "BaseItemClass": "ep10_fiona_hand_30days_event",
+    "SetID": "guardian_fiona_30days_event"
+  },
+  {
+    "ItemClass": "ep10_fiona_foot_30days_event",
+    "BaseItemClass": "ep10_fiona_foot_30days_event",
+    "SetID": "guardian_fiona_30days_event"
+  },
+  {
+    "ItemClass": "ep10_evy_head_30days_event",
+    "BaseItemClass": "ep10_evy_head_30days_event",
+    "SetID": "guardian_evy_30days_event"
+  },
+  {
+    "ItemClass": "ep10_evy_upper_30days_event",
+    "BaseItemClass": "ep10_evy_upper_30days_event",
+    "SetID": "guardian_evy_30days_event"
+  },
+  {
+    "ItemClass": "ep10_evy_lower_30days_event",
+    "BaseItemClass": "ep10_evy_lower_30days_event",
+    "SetID": "guardian_evy_30days_event"
+  },
+  {
+    "ItemClass": "ep10_evy_hand_30days_event",
+    "BaseItemClass": "ep10_evy_hand_30days_event",
+    "SetID": "guardian_evy_30days_event"
+  },
+  {
+    "ItemClass": "ep10_evy_foot_30days_event",
+    "BaseItemClass": "ep10_evy_foot_30days_event",
+    "SetID": "guardian_evy_30days_event"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_head_30days_event",
+    "BaseItemClass": "s2ep3_skeletone_head_30days_event",
+    "SetID": "s2_skeleton_30days_event"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_upper_30days_event",
+    "BaseItemClass": "s2ep3_skeletone_upper_30days_event",
+    "SetID": "s2_skeleton_30days_event"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_lower_30days_event",
+    "BaseItemClass": "s2ep3_skeletone_lower_30days_event",
+    "SetID": "s2_skeleton_30days_event"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_hand_30days_event",
+    "BaseItemClass": "s2ep3_skeletone_hand_30days_event",
+    "SetID": "s2_skeleton_30days_event"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_foot_30days_event",
+    "BaseItemClass": "s2ep3_skeletone_foot_30days_event",
+    "SetID": "s2_skeleton_30days_event"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_evy_head_30days_event",
+    "BaseItemClass": "s2ep3_skeletone_evy_head_30days_event",
+    "SetID": "s2_skeleton_evy_30days_event"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_evy_upper_30days_event",
+    "BaseItemClass": "s2ep3_skeletone_evy_upper_30days_event",
+    "SetID": "s2_skeleton_evy_30days_event"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_evy_lower_30days_event",
+    "BaseItemClass": "s2ep3_skeletone_evy_lower_30days_event",
+    "SetID": "s2_skeleton_evy_30days_event"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_evy_hand_30days_event",
+    "BaseItemClass": "s2ep3_skeletone_evy_hand_30days_event",
+    "SetID": "s2_skeleton_evy_30days_event"
+  },
+  {
+    "ItemClass": "s2ep3_skeletone_evy_foot_30days_event",
+    "BaseItemClass": "s2ep3_skeletone_evy_foot_30days_event",
+    "SetID": "s2_skeleton_evy_30days_event"
+  },
+  {
+    "ItemClass": "dualsword_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "dualspear_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "longsword_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "longhammer_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "staff_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "scythe_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "pillar_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "blaster_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "bow_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "crossgun_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "dualblade_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "greatsword_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "battleglaive_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "longblade_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "phantomdagger_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "bastardsword_regina",
+    "BaseItemClass": "weapon_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "head_regina_male",
+    "BaseItemClass": "head_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "head_regina_female",
+    "BaseItemClass": "head_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "upper_regina_male",
+    "BaseItemClass": "upper_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "upper_regina_female",
+    "BaseItemClass": "upper_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "lower_regina_male",
+    "BaseItemClass": "lower_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "lower_regina_female",
+    "BaseItemClass": "lower_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "hand_regina_male",
+    "BaseItemClass": "hand_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "hand_regina_female",
+    "BaseItemClass": "hand_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "foot_regina_male",
+    "BaseItemClass": "foot_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "foot_regina_female",
+    "BaseItemClass": "foot_regina",
+    "SetID": "regina_set"
+  },
+  {
+    "ItemClass": "dualsword_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "dualspear_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "longsword_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "longhammer_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "staff_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "scythe_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "pillar_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "blaster_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "bow_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "crossgun_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "dualblade_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "greatsword_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "battleglaive_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "longblade_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "phantomdagger_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "bastardsword_braha",
+    "BaseItemClass": "weapon_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "head_braha_male",
+    "BaseItemClass": "head_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "upper_braha_male",
+    "BaseItemClass": "upper_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "lower_braha_male",
+    "BaseItemClass": "lower_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "hand_braha_male",
+    "BaseItemClass": "hand_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "foot_braha_male",
+    "BaseItemClass": "foot_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "head_braha_female",
+    "BaseItemClass": "head_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "upper_braha_female",
+    "BaseItemClass": "upper_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "lower_braha_female",
+    "BaseItemClass": "lower_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "hand_braha_female",
+    "BaseItemClass": "hand_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "foot_braha_female",
+    "BaseItemClass": "foot_braha",
+    "SetID": "braha_set"
+  },
+  {
+    "ItemClass": "dualsword_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "dualspear_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "longsword_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "longhammer_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "staff_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "scythe_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "pillar_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "blaster_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "bow_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "crossgun_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "dualblade_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "greatsword_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "battleglaive_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "longblade_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "phantomdagger_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "bastardsword_border_guardian",
+    "BaseItemClass": "weapon_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "head_border_guardian_male",
+    "BaseItemClass": "head_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "upper_border_guardian_male",
+    "BaseItemClass": "upper_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "lower_border_guardian_male",
+    "BaseItemClass": "lower_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "hand_border_guardian_male",
+    "BaseItemClass": "hand_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "foot_border_guardian_male",
+    "BaseItemClass": "foot_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "head_border_guardian_female",
+    "BaseItemClass": "head_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "upper_border_guardian_female",
+    "BaseItemClass": "upper_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "lower_border_guardian_female",
+    "BaseItemClass": "lower_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "hand_border_guardian_female",
+    "BaseItemClass": "hand_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "foot_border_guardian_female",
+    "BaseItemClass": "foot_border_guardian",
+    "SetID": "border_guardian_set"
+  },
+  {
+    "ItemClass": "dualsword_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "dualspear_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "longsword_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "longhammer_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "staff_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "scythe_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "pillar_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "blaster_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "bow_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "crossgun_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "dualblade_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "greatsword_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "battleglaive_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "longblade_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "phantomdagger_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "bastardsword_lughlamhfada",
+    "BaseItemClass": "weapon_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "head_lughlamhfada_male",
+    "BaseItemClass": "head_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "upper_lughlamhfada_male",
+    "BaseItemClass": "upper_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "lower_lughlamhfada_male",
+    "BaseItemClass": "lower_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "hand_lughlamhfada_male",
+    "BaseItemClass": "hand_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "foot_lughlamhfada_male",
+    "BaseItemClass": "foot_lughlamhfada",
+    "SetID": "lughlamhfada_set"
+  },
+  {
+    "ItemClass": "pitbull_head",
+    "BaseItemClass": "pitbull_head",
+    "SetID": "pitbull_set"
+  },
+  {
+    "ItemClass": "pitbull_upper",
+    "BaseItemClass": "pitbull_upper",
+    "SetID": "pitbull_set"
+  },
+  {
+    "ItemClass": "pitbull_lower",
+    "BaseItemClass": "pitbull_lower",
+    "SetID": "pitbull_set"
+  },
+  {
+    "ItemClass": "pitbull_hand",
+    "BaseItemClass": "pitbull_hand",
+    "SetID": "pitbull_set"
+  },
+  {
+    "ItemClass": "pitbull_foot",
+    "BaseItemClass": "pitbull_foot",
+    "SetID": "pitbull_set"
+  },
+  {
+    "ItemClass": "scavenger_head",
+    "BaseItemClass": "scavenger_head",
+    "SetID": "scavenger_set"
+  },
+  {
+    "ItemClass": "scavenger_upper",
+    "BaseItemClass": "scavenger_upper",
+    "SetID": "scavenger_set"
+  },
+  {
+    "ItemClass": "scavenger_lower",
+    "BaseItemClass": "scavenger_lower",
+    "SetID": "scavenger_set"
+  },
+  {
+    "ItemClass": "scavenger_hand",
+    "BaseItemClass": "scavenger_hand",
+    "SetID": "scavenger_set"
+  },
+  {
+    "ItemClass": "scavenger_foot",
+    "BaseItemClass": "scavenger_foot",
+    "SetID": "scavenger_set"
+  },
+  {
+    "ItemClass": "time_chaser_head",
+    "BaseItemClass": "time_chaser_head",
+    "SetID": "time_chaser_set"
+  },
+  {
+    "ItemClass": "time_chaser_upper",
+    "BaseItemClass": "time_chaser_upper",
+    "SetID": "time_chaser_set"
+  },
+  {
+    "ItemClass": "time_chaser_lower",
+    "BaseItemClass": "time_chaser_lower",
+    "SetID": "time_chaser_set"
+  },
+  {
+    "ItemClass": "time_chaser_hand",
+    "BaseItemClass": "time_chaser_hand",
+    "SetID": "time_chaser_set"
+  },
+  {
+    "ItemClass": "time_chaser_foot",
+    "BaseItemClass": "time_chaser_foot",
+    "SetID": "time_chaser_set"
+  },
+  {
+    "ItemClass": "trial_judge_head",
+    "BaseItemClass": "trial_judge_head",
+    "SetID": "trial_judge_set"
+  },
+  {
+    "ItemClass": "trial_judge_upper",
+    "BaseItemClass": "trial_judge_upper",
+    "SetID": "trial_judge_set"
+  },
+  {
+    "ItemClass": "trial_judge_lower",
+    "BaseItemClass": "trial_judge_lower",
+    "SetID": "trial_judge_set"
+  },
+  {
+    "ItemClass": "trial_judge_hand",
+    "BaseItemClass": "trial_judge_hand",
+    "SetID": "trial_judge_set"
+  },
+  {
+    "ItemClass": "trial_judge_foot",
+    "BaseItemClass": "trial_judge_foot",
+    "SetID": "trial_judge_set"
+  },
+  {
+    "ItemClass": "soul_burst_head",
+    "BaseItemClass": "soul_burst_head",
+    "SetID": "soul_burst_set"
+  },
+  {
+    "ItemClass": "soul_burst_upper",
+    "BaseItemClass": "soul_burst_upper",
+    "SetID": "soul_burst_set"
+  },
+  {
+    "ItemClass": "soul_burst_lower",
+    "BaseItemClass": "soul_burst_lower",
+    "SetID": "soul_burst_set"
+  },
+  {
+    "ItemClass": "soul_burst_hand",
+    "BaseItemClass": "soul_burst_hand",
+    "SetID": "soul_burst_set"
+  },
+  {
+    "ItemClass": "soul_burst_foot",
+    "BaseItemClass": "soul_burst_foot",
+    "SetID": "soul_burst_set"
+  },
+  {
+    "ItemClass": "infinity_crown_head",
+    "BaseItemClass": "infinity_crown_head",
+    "SetID": "infinity_crown_set"
+  },
+  {
+    "ItemClass": "infinity_crown_plus_head",
+    "BaseItemClass": "infinity_crown_head",
+    "SetID": "infinity_crown_set"
+  },
+  {
+    "ItemClass": "infinity_crown_upper",
+    "BaseItemClass": "infinity_crown_upper",
+    "SetID": "infinity_crown_set"
+  },
+  {
+    "ItemClass": "infinity_crown_lower",
+    "BaseItemClass": "infinity_crown_lower",
+    "SetID": "infinity_crown_set"
+  },
+  {
+    "ItemClass": "infinity_crown_hand",
+    "BaseItemClass": "infinity_crown_hand",
+    "SetID": "infinity_crown_set"
+  },
+  {
+    "ItemClass": "infinity_crown_foot",
+    "BaseItemClass": "infinity_crown_foot",
+    "SetID": "infinity_crown_set"
+  },
+  {
+    "ItemClass": "training_cube_head",
+    "BaseItemClass": "training_cube_head",
+    "SetID": "training_cube_set"
+  },
+  {
+    "ItemClass": "training_cube_upper",
+    "BaseItemClass": "training_cube_upper",
+    "SetID": "training_cube_set"
+  },
+  {
+    "ItemClass": "training_cube_plus_upper",
+    "BaseItemClass": "training_cube_upper",
+    "SetID": "training_cube_set"
+  },
+  {
+    "ItemClass": "training_cube_lower",
+    "BaseItemClass": "training_cube_lower",
+    "SetID": "training_cube_set"
+  },
+  {
+    "ItemClass": "training_cube_hand",
+    "BaseItemClass": "training_cube_hand",
+    "SetID": "training_cube_set"
+  },
+  {
+    "ItemClass": "training_cube_foot",
+    "BaseItemClass": "training_cube_foot",
+    "SetID": "training_cube_set"
+  },
+  {
+    "ItemClass": "crystal_rose_head",
+    "BaseItemClass": "crystal_rose_head",
+    "SetID": "crystal_rose_set"
+  },
+  {
+    "ItemClass": "crystal_rose_upper",
+    "BaseItemClass": "crystal_rose_upper",
+    "SetID": "crystal_rose_set"
+  },
+  {
+    "ItemClass": "crystal_rose_lower",
+    "BaseItemClass": "crystal_rose_lower",
+    "SetID": "crystal_rose_set"
+  },
+  {
+    "ItemClass": "crystal_rose_hand",
+    "BaseItemClass": "crystal_rose_hand",
+    "SetID": "crystal_rose_set"
+  },
+  {
+    "ItemClass": "crystal_rose_foot",
+    "BaseItemClass": "crystal_rose_foot",
+    "SetID": "crystal_rose_set"
+  },
+  {
+    "ItemClass": "head_eochaid_male",
+    "BaseItemClass": "head_eochaid",
+    "SetID": "eochaid_set"
+  },
+  {
+    "ItemClass": "upper_eochaid_male",
+    "BaseItemClass": "upper_eochaid",
+    "SetID": "eochaid_set"
+  },
+  {
+    "ItemClass": "lower_eochaid_male",
+    "BaseItemClass": "lower_eochaid",
+    "SetID": "eochaid_set"
+  },
+  {
+    "ItemClass": "hand_eochaid_male",
+    "BaseItemClass": "hand_eochaid",
+    "SetID": "eochaid_set"
+  },
+  {
+    "ItemClass": "foot_eochaid_male",
+    "BaseItemClass": "foot_eochaid",
+    "SetID": "eochaid_set"
+  }
+]

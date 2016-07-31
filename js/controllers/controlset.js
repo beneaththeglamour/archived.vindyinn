@@ -31,6 +31,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.ItemVariable = data;
 					$http.get('/json/SetEffectInfo.json').success (function(data2){
 					$scope.SetEffectInfo = data2; })
+					$http.get('/json/SetItemInfo.json').success (function(data3){
+					$scope.SetItemInfo = data3; })
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){

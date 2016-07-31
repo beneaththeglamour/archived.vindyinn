@@ -6,7 +6,9 @@
 				<span class="Beginner rarity itemname skillname"  value="{{ItemVariable[whichItem].SetID|uppercase}}">{{ItemVariable[whichItem].SetID|uppercase}}</span> 							 							 		
 			</div> 			 						 		
 			<div class="enchantinfo">
-				Let's get this show on the road.
+				<ul>
+					<li ng-repeat="setitem in SetItemInfo|filter:{'SetID':setid}:true">{{setitem.ItemClass}}</li>
+				</ul>
 				<div class="setbonus">Set Bonus</div>
 				<ul>
 					<li>2: <span class="effecttarget" ng-repeat="effect in SetEffectInfo|filter:{'SetID':setid ,'SetCount':2}:true">{{effect.EffectTarget}} +{{effect.Amount}}</span></li>
