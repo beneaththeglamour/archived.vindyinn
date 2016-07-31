@@ -1,7 +1,7 @@
-<h2 ng-model="EnemyVariable" id ="valueitem" class="enemyname" value="HEROES_MONSTER_{{EnemyVariable[whichItem].Class}}_{{EnemyVariable[whichItem].Variation}}" ></h2> 	
+<h2 ng-model="EnemyVariable" id ="valueitem" class="enemyname" value="HEROES_MONSTER_{{EnemyVariable[whichItem].Class|uppercase}}_{{EnemyVariable[whichItem].Variation|uppercase}}" ></h2> 	
 <div class="border">
 	<div ng-model="EnemyVariable" class="itemtooltip">
-		<span class="rarity"><span class="enemyname" value="HEROES_MONSTER_{{EnemyVariable[whichItem].Class}}_{{EnemyVariable[whichItem].Variation}}"></span> (<span id="difficulty">{{EnemyVariable[whichItem].Difficulty}}</span>)</span>	
+		<span class="rarity"><span class="enemyname" value="HEROES_MONSTER_{{EnemyVariable[whichItem].Class|uppercase}}_{{EnemyVariable[whichItem].Variation|uppercase}}"></span> (<span id="difficulty">{{EnemyVariable[whichItem].Difficulty}}</span>)</span>	
 		<span class="bubble">{{EnemyVariable[whichItem].Class}}</span>
 		<span class="bubble">Level {{EnemyVariable[whichItem].Level}} <span class="right"><span class="number">{{EnemyVariable[whichItem].Exp}}</span> <img id="expbanner" src="http://i.imgur.com/oLXctBs.png" /></span></span>			
 		<div id="healthlist">
