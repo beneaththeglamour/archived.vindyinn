@@ -53,13 +53,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					Frame1()
 
 					console.log('DataTable loaded.')
-
+					$('#tabs').tabs();
 					$('table').DataTable();
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
 							})	
-					$('#tabs').tabs();
+					
 					
 }, 200);
 			}); 
