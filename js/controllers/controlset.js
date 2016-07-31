@@ -45,6 +45,18 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						SetItemClass = $(this).attr('value')
 						$('.'+SetItemClass).val(SetItemClass).trigger('input')
 					} )
+					$('.changetable').each(function(){
+						$(this).replaceWith('<table>' + $(this).html() + '</table>')
+					})
+					$('.changeth').each(function(){
+						$(this).replaceWith('<th>' + $(this).html() + '</th>')
+					})
+					$('.changetr').each(function(){
+						$(this).replaceWith('<tr>' + $(this).html() + '</tr>')
+					})
+					$('.changetd').each(function(){
+						$(this).replaceWith('<td>' + $(this).html() + '</td>')
+					})
 							/**
 							console.log('DataTable loaded.')
 										$('.skillid').DataTable({
