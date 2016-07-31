@@ -1,12 +1,18 @@
-<h2 ng-model="ItemVariable" id ="valueitem" class="itemname" value="{{ItemVariable[whichItem].SkillName|uppercase}}" ></h2> 	
+<h2 ng-model="ItemVariable" id ="MainSetID" class="itemname" value="{{ItemVariable[whichItem].SetID}}" ></h2> 	
+<input class="SetIDInput" style="display:none;" ng-model="setid" ng-init="setid = &#39;Loading...&#39;" name="search">
 	<div class="border"> 	
 		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
-			<div class="icon"> 			
+			<div class="settitle"> 			
 				<span class="Beginner rarity itemname skillname"  value="{{ItemVariable[whichItem].SetID|uppercase}}">{{ItemVariable[whichItem].SetID|uppercase}}</span> 							 							 		
 			</div> 			 						 		
 			<div class="enchantinfo">
 				Let's get this show on the road.
 				<div class="setbonus">Set Bonus</div>
+				<ul>
+					<li ng-repeat="effect in SetEffectInfo|filter:{'SetId':setid}:true">
+						{{effect.SetCount}}: {{effect.EffectTarget}} +{{effect.Amount}}
+					</li>
+				</ul>
 			</div>
 		</div> 	
 	</div> 		 	

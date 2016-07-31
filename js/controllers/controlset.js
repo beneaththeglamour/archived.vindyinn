@@ -29,12 +29,14 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 		{    
 				$http.get('/json/SetInfo.json').success (function(data){
 				$scope.ItemVariable = data;
-	
+					$http.get('/json/SetEffectInfo.json').success (function(data2){
+					$scope.SetEffectInfo = data2; })
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
-					
+					SetID = $('#MainSetID').attr('value')
+					$('.SetIDInput').val(SetID).trigger('input')
 							/**
 							console.log('DataTable loaded.')
 										$('.skillid').DataTable({
