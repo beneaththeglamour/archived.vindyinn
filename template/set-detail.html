@@ -8,8 +8,8 @@
 			<div class="enchantinfo">
 				<ul class="enchantstatlist">
 					<li class="enchantstatconstraint" ng-repeat="setitem in SetItemInfo|filter:{'SetID':setid}:true">
-						<span class="setitemclass" value="{{setitem.ItemClass}}">
-							<input class="{{setitem.ItemClass}}" style="display:none;" ng-model="setitemclass" ng-init="setitemclass = &#39;Loading...&#39;" name="search">
+						<span class="setitemclass" value="{{setitem.ItemClass|uppercase}}">
+							<input class="{{setitem.ItemClass|uppercase}}" style="display:none;" ng-model="setitemclass" ng-init="setitemclass = &#39;Loading...&#39;" name="search">
 							<span ng-repeat="item in ItemClassInfo|filter:{'ItemClass':setitemclass}:true">{{item.Name}}</span>
 						</span>
 					</li>
