@@ -20,11 +20,11 @@ EnemyControllers.controller("ListEnemyController", ['$scope','$http',
 						var enemyname = "/js/enemyname.js";
 							$.getScript( enemyname, function() {
 								MonsterName()
+								console.log('DataTable loaded.')
+								$('table').DataTable({
+									"order": [[ 0, "asc" ]]
+								});
 							})	
-						console.log('DataTable loaded.')
-						$('table').DataTable({
-							"order": [[ 0, "asc" ]]
-						});
 						var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
