@@ -186,7 +186,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 										})
 										console.log('DataTable loaded.')
 										$('.skillid').DataTable({
-											"order": [[ 3, "desc"]]
+											"order": [[ 3, "asc" ]]
 										});
 									})	
 							})	
