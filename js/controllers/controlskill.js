@@ -185,7 +185,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 											$(this).html(convert)
 										})
 										console.log('DataTable loaded.')
-										$('.skillid').DataTable();
+										$('.skillid').DataTable({
+											"order": [[ 3, "desc"]]
+										});
 									})	
 							})	
 					var menu = "/js/menu.js";
