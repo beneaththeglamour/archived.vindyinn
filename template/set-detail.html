@@ -9,8 +9,8 @@
 				Let's get this show on the road.
 				<div class="setbonus">Set Bonus</div>
 				<ul>
-					<li ng-repeat="effect in SetEffectInfo|filter:{'SetID':setid}:true">
-						{{effect.SetCount}}: {{effect.EffectTarget}} +{{effect.Amount}}
+					<li>
+						2: <span ng-repeat="effect in SetEffectInfo|filter:{'SetID':setid ,'SetCount':2}:true">{{effect.EffectTarget}} +{{effect.Amount}}</span>
 					</li>
 				</ul>
 			</div>
