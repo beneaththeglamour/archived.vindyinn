@@ -53,9 +53,9 @@
 											<input class="NPC{{item.ItemClass|uppercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search" type="text">
 											<span class="RecipeID" value="{{item.ItemClass|uppercase}}"></span>
 											<span  ng-repeat="mat in ItemClassInfo  | filter : {'ItemClass':npcclass , 'Name':'!Gold Coin'}:true " style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
-													<a href="http://db.vindictusinn.com/db#!/item/{{mat.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
+													<a href="http://db.vindictusinn.com/db#!/item/{{ItemClassInfo.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
 											</span>
-											<div class="absolutely"><a href="http://db.vindictusinn.com/db#!/item/{{mat.indexOf(mat)}}"><span class="bottomright">{{item.Num}}</span></a></div>
+											<div class="absolutely"><a href="http://db.vindictusinn.com/db#!/item/{{ItemClassInfo.indexOf(mat)}}"><span class="bottomright">{{item.Num}}</span></a></div>
 											</ul>
 										</span>
 									</td> 	

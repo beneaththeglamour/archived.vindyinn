@@ -44,11 +44,26 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
+				
+				LoadMats = function(){
+						$('.RecipeID').each(function(){
+							NPCMatID = $(this).attr('value')
+							$('.NPC'+NPCMatID).val(NPCMatID).trigger('input')
+						})
+					}
+				
 					Frame2 = function(){
 						$('.setitemclass').each(function(){
 							SetItemClass = $(this).attr('value')
 							$('.'+SetItemClass).val(SetItemClass).trigger('input')
 						} )
+						setTimeout(function(){
+							$('.itemdetail').each(function(){
+								RecipeID = $(this).attr('value')
+								$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
+								setTimeout(function(){ LoadMats()},500)
+							})
+						},500)
 					}
 					Frame1 = function(){
 						SetID = $('#MainSetID').attr('value')
@@ -58,12 +73,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					}
 					Frame1()
 					
-					LoadMats = function(){
-						$('.RecipeID').each(function(){
-							NPCMatID = $(this).attr('value')
-							$('.NPC'+NPCMatID).val(NPCMatID).trigger('input')
-						})
-					}
+			
 					$('.itemdetail').each(function(){
 							RecipeID = $(this).attr('value')
 							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
