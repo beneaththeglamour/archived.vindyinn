@@ -1,9 +1,9 @@
-<h2 ng-model="ItemVariable" id ="MainSetID" class="itemname" value="{{ItemVariable[whichItem].SetID}}" ></h2> 	
+<h2 ng-model="ItemVariable" id ="MainSetID" class="itemname setname" value="{{ItemVariable[whichItem].SetID}}" ></h2> 	
 <input class="SetIDInput" style="display:none;" ng-model="setid" ng-init="setid = &#39;Loading...&#39;" name="search">
 	<div class="border"> 	
 		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
 			<div class="settitle"> 			
-				<span class="Beginner rarity itemname skillname"  value="{{ItemVariable[whichItem].SetID|uppercase}}">{{ItemVariable[whichItem].SetID|uppercase}}</span> 							 							 		
+				<span class="Beginner rarity itemname setname"  value="HEROES_ITEM_SETITEM_NAME_{{ItemVariable[whichItem].SetID|uppercase}}"></span> 							 							 		
 			</div> 			 						 		
 			<div class="enchantinfo">
 				<ul class="enchantstatlist">

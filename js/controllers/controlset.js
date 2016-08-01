@@ -54,6 +54,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 
 					console.log('DataTable loaded.')
 					$('#tabs').tabs();
+					var changeset = "/js/setname.js";
+							$.getScript( changeset, function() {
+								ChangeSetName()
+							})	
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
