@@ -509,6 +509,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							NPCMatID = $(this).attr('value')
 							$('.NPC'+NPCMatID).val(NPCMatID).trigger('input')
 						})
+						setTimeout(function(){
+								Secondary()
+							},600)
 					}
 					$('.itemdetail').each(function(){
 							RecipeID = $(this).attr('value')
@@ -532,12 +535,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						$(this).children().val(UsedIn).trigger('input')
 						$(this).attr('class','expired')
 					} )
+					Secondary = function(){
 					$('.weight').each(function(){
 								weight = parseInt($(this).attr('value'));
 								updateweight = weight.toFixed(0);
 								$(this).children().html(updateweight);
 						})
-						
+					
 						$('.hidetooltip').each(function(){
 							$(this).children().hide()
 							$(this).prev().mouseover(function(){
@@ -865,6 +869,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
+					} 
 					var url = "/js/descriptionsV2.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
