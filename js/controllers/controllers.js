@@ -82,6 +82,10 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$(this).parent().hide();
 						}
 					})
+					$('.maxantibind').each(function(){
+						MaxAntiBind = $(this).attr('value')
+						if(MaxAntiBind == '0') {$(this).hide()}
+					})
 					$('.trade').each(
 						function(){
 							checktrade = $(this).attr('value')

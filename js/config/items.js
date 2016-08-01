@@ -66,6 +66,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
 '							<span class="uses">{{item.Uses}}</span> 			 		'+
 '							<span class="desc" value="{{item.ItemClass|uppercase}}">{{item.Desc}}</span> 			 		'+
 '							<span class="trade" value="{{item.TradeRestirction}}"></span> '+
+				'<span class="maxantibind" value="{{item.MaxAntiBind}}">Remaining Unbind Count: {{item.MaxAntiBind}}</span> '+
 '						</div> 	'+
 '					</div> '+
 '				</div>'+
