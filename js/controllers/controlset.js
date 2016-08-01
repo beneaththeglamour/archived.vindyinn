@@ -37,7 +37,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$http.get('/json/SetItemInfo.json').success (function(data3){
 					$scope.SetItemInfo = data3; })
 					$http.get('/json/ItemClassInfo.json').success (function(data4){
-					$scope.ItemClassInfo = data4; })
+					$http.get('/json/RecipeMaterialInfo.json').success (function(data5){
+					$scope.ItemClassInfo = data5; })
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
@@ -55,6 +56,18 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						},500)
 					}
 					Frame1()
+					
+					LoadMats = function(){
+						$('.RecipeID').each(function(){
+							NPCMatID = $(this).attr('value')
+							$('.NPC'+NPCMatID).val(NPCMatID).trigger('input')
+						})
+					}
+					$('.itemdetail').each(function(){
+							RecipeID = $(this).attr('value')
+							$('.Recipe'+RecipeID).val('recipe_'+RecipeID).trigger('input');
+							LoadMats()
+						})
 
 					console.log('DataTable loaded.')
 					$('#tabs').tabs();
