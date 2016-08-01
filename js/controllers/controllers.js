@@ -517,7 +517,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$('.ExpertType'+RecipeID).val(RecipeID).trigger('input');
 							$('.ExpertTypeTailor'+RecipeID).val('sewing_'+RecipeID).trigger('input');
 							$('.ReqProf'+RecipeID).val(RecipeID).trigger('input');
-							LoadMats()
+							setTimeout(function(){
+								LoadMats()
+							},500)
 						})
 					$('.ExpertID').each(function(){
 							ExpertMatID = $(this).attr('value')
