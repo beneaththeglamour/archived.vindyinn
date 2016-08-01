@@ -80,7 +80,9 @@
 			<li><a href="#tabs-7">Model Viewer</a></li>
 		</ul>
 	<div class="usewindow" id="tabs-1">  
-		<h2>NPC Recipes <input class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;acid&#39;" name="search" ></h2>
+		<h2>NPC Recipes 
+		<input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading..&#39;" name="search" >
+		<input class="mainiteminput" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;Loading...&#39;" name="search" ></h2>
 		<table style="table-layout:fixed">
 			<col style="width:67px;">
 			<col style="width:250px;">
@@ -93,7 +95,7 @@
 				<th style="width: 60% !important;">Crafting Recipe</th>		
 			</thead>
 			<tbody>
-				<tr  ng-repeat="item in ItemVariable  | filter : {&#39;Name&#39;:mainquery} :true ">
+				<tr  ng-repeat="item in ItemVariable  | filter : {&#39;ItemClass&#39;:mainquery} :true ">
 					<td width="10px"><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/></td>
 					<td width="250px" class="name"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}}" >{{item.Name}}</a>
 						<div class="hidetooltip"><div class="border" id="{{item.Name}}"> 	<div class="itemtooltip" value="{{item.ItemClass|lowercase}}"> 				 		<div class="icon"> 			<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/> 			<span class="rare{{item.Rarity}} rarity">{{item.Name}}</span> 			<span class="bubble"> 				
@@ -119,7 +121,7 @@
 			</span>
 		</td>
 		<td class="mats" width="400px">
-			<span  ng-repeat="item in RecipeMaterialInfo  | filter : {'RecipeID':npcmat , 'ItemClass':'!gold','Type':'1'} ">
+			<span  ng-repeat="item in RecipeMaterialInfo  | filter : {'RecipeID':npcmat , 'ItemClass':'!gold','Type':1}:true ">
 				<input class="NPC{{item.ItemClass|uppercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search" type="text">
 				<span class="RecipeID" value="{{item.ItemClass|uppercase}}"></span>
 				<span  ng-repeat="mat in ItemVariable  | filter : {'ItemClass':npcclass , 'Name':'!Gold Coin'}:true " style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
@@ -203,7 +205,7 @@
 				<th style="width: 60% !important;">Crafting Recipe</th>		
 			</thead>
 			<tbody>
-				<tr  ng-repeat="item in ItemVariable  | filter : {&#39;Name&#39;:mainquery}:true ">
+				<tr  ng-repeat="item in ItemVariable  | filter : {&#39;ItemClass&#39;:mainquery}:true ">
 					<td width="10px"><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/></td>
 					<td width="250px" class="name"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}}">{{item.Name}}</a>
 						<div class="hidetooltip"><div class="border" id="{{item.Name}}"> 	<div class="itemtooltip" value="{{item.ItemClass|lowercase}}"> 				 		<div class="icon"> 			<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url('/images/icons/{{ItemVariable[whichItem].Icon}}.png')"/> 			<span class="rare{{item.Rarity}} rarity">{{item.Name}}</span> 			<span class="bubble"> 				
