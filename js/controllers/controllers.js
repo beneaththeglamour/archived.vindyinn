@@ -405,8 +405,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.iteminput').val(finalreplace).trigger('input')
 					$('.mainiteminput').val(ItemClass).trigger('input')
 					TrueItemClass = $('.itemdetail').attr('value')
-					TrueItemClass = TrueItemClass.toUpperCase()
-					$('.mainitemclass').val(TrueItemClass).trigger('input')
+					TrueItemClassCaps = TrueItemClass.toUpperCase()
+					$('.mainitemclass2').val(TrueItemClass).trigger('input')
 					$('#mainitem').each(function(){
 							ItemClassValue = $(this).attr('value')
 							$('.mainitemclass').val(ItemClassValue).trigger('input')
