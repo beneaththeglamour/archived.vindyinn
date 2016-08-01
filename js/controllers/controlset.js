@@ -48,7 +48,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					Frame1 = function(){
 						SetID = $('#MainSetID').attr('value')
 						$('.SetIDInput').val(SetID).trigger('input')
-						Frame2()
+						setTimeout(function(){Frame2()
+						},500)
 					}
 					Frame1()
 
@@ -57,6 +58,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					var changeset = "/js/setname.js";
 							$.getScript( changeset, function() {
 								ChangeSetName()
+							
 							})	
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
