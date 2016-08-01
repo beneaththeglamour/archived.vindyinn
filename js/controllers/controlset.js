@@ -9,10 +9,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
 				
-							/**
-							console.log('DataTable loaded.')
-											$('.itemtable').DataTable();
-							**/
+							
+				var changeset = "/js/setname.js";
+							$.getScript( changeset, function() {
+								ChangeSetName()
+								console.log('DataTable loaded.')
+								$('.itemtable').DataTable();
+							})				
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
