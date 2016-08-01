@@ -37,8 +37,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$http.get('/json/SetItemInfo.json').success (function(data3){
 					$scope.SetItemInfo = data3; })
 					$http.get('/json/ItemClassInfo.json').success (function(data4){
+					$scope.ItemClassInfo = data4; })
 					$http.get('/json/RecipeMaterialInfo.json').success (function(data5){
-					$scope.ItemClassInfo = data5; })
+					$scope.RecipeMaterialInfo = data5; })
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
