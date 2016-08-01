@@ -1,5 +1,9 @@
 MenuList = function() {
-	$('#searchmenu').append('<div id="version">Version 1.25</div>')
+	$('#searchmenu').html('<form action="/search.html" method="get">'+
+		'<input type="text" name="find" value="Search items">'+
+		'<input type="submit" value="?">'+
+		'</form>'+
+	'<div id="version">Version 1.25</div>')
 	$('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
 	'<li><a>Equipment</a>'+
