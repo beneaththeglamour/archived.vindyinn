@@ -496,6 +496,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						IsThereManuID = $(this).html()
 						
 					})
+					$('.maxantibind').each(function(){
+						MaxAntiBind = $(this).attr('value')
+						if(MaxAntiBind == '0') {$(this).hide()}
+					})
 					LoadMats = function(){
 						$('.RecipeID').each(function(){
 							NPCMatID = $(this).attr('value')
