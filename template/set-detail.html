@@ -48,7 +48,7 @@
 							<col width="850px"></col>
 								<tr ng-repeat="item in ItemClassInfo|filter:{'ItemClass':setitemclass}:true">
 									<td class="fakedb"><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url('/images/icons/{{item.Icon}}.png')"/></td>
-									<td class="fakedb"><a class="itemdetail" value="{{item.ItemClass}}" href="http://db.vindictusinn.com/db#!/item/{{item.indexOf(item)}}">{{item.Name}}</a></td>
+									<td class="fakedb"><a class="itemdetail" value="{{item.ItemClass}}" href="http://db.vindictusinn.com/db#!/item/{{ItemClassInfo.indexOf(item)}}">{{item.Name}}</a></td>
 									<td class="mats fakedb" width="400px">
 											<span  ng-repeat="item in RecipeMaterialInfo  | filter : {'RecipeID':npcmat , 'ItemClass':'!gold','Type':'1'} ">
 												<input class="NPC{{item.ItemClass|uppercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search" type="text">

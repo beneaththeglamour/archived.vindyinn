@@ -4,6 +4,7 @@ MenuList = function() {
 	'<li><a href="/" class="home">Index</a></li>'+
 	'<li><a>Equipment</a>'+
 		'<ul>'+
+			'<li><a href="/set">Equipment Sets</a></li>'+
 			'<li><a>Armor</a>'+
 				'<ul>'+
 					'<li><a href="/armor/heavy-armor">Heavy Armor</a>'+
