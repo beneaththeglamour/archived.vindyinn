@@ -40,7 +40,7 @@
 				<tr class="enchantstatconstraint" ng-repeat="setitem in SetItemInfo|filter:{'SetID':setid}:true">
 					<td class="nothing">
 						<span class="setitemclass" value="{{setitem.ItemClass|uppercase}}">
-							<input class="Recipe{{setitem.ItemClass|lowercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
+							<input class="Recipe{{setitem.ItemClass|uppercase}}" style="display:none;" ng-model="npcmat" ng-init="npcmat = &#39;Loading...&#39;" name="search">
 							<input class="{{setitem.ItemClass|uppercase}}" style="display:none;" ng-model="setitemclass" ng-init="setitemclass = &#39;Loading...&#39;" name="search">
 							<table class="repeatingtable">
 							<col width="60px"></col>
@@ -108,7 +108,7 @@
 														</div> 	
 													</div>
 											</span>
-											<div class="absolutely"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><span class="bottomright">{{item.Num}}</span></a></div>
+											<div class="absolutely"><a href="http://db.vindictusinn.com/db#!/item/{{mat.indexOf(mat)}}"><span class="bottomright">{{item.Num}}</span></a></div>
 											</ul>
 										</span>
 									</td> 	
