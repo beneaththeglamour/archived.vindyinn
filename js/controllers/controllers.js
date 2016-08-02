@@ -869,11 +869,14 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$(this).addClass('ItemDesc_'+TransformedDescClass)
 						}
 					)
-					} 
 					var url = "/js/descriptionsV2.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
 							})
+					
+					} 
+					
+					
 					var menu = "/js/battlename.js";
 							$.getScript( menu, function() {
 								BattleTitle()
