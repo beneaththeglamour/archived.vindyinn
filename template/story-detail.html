@@ -1,0 +1,55 @@
+<h2 ng-model="ItemVariable" class="itemname storyname" value="{{ItemVariable[whichItem].StoryLineName|uppercase}}" >{{ItemVariable[whichItem].StoryLineName|uppercase}}</h2> 	
+	<div class="border"> 	
+		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
+			<div class="settitle"> 			
+				<span class="Beginner rarity itemname storyname"  value="{{ItemVariable[whichItem].StoryLineName|uppercase}}">{{ItemVariable[whichItem].StoryLineName|uppercase}}</span> 							 							 		
+			</div> 			 						 		
+			</div>
+		</div> 	
+	</div> 		 	
+	
+<div class="moreinfobubble"> 		
+		<h2>Additional Info</h2> 		
+			<ul> 			
+				<li ><strong>Category:</strong> <br />
+				{{ItemVariable[whichItem].Category}}</li> 									
+				<li ><strong>Season:</strong> <br />
+				{{ItemVariable[whichItem].Season}}</li> 									
+				<li ><strong>Stage:</strong> <br />
+				{{ItemVariable[whichItem].Stage}}</li> 					
+				<li ><strong>Level Unlocked:</strong> <br />
+				{{ItemVariable[whichItem].AutoGiveLevel}}</li> 					
+				<li ><strong>Auto Process:</strong> <br />
+				{{ItemVariable[whichItem].AutoProcess}}</li> 					
+				<li ><strong>Auto Reveal:</strong> <br />
+				{{ItemVariable[whichItem].AutoReveal}}</li> 					
+				<li ><strong>Class Restriction:</strong> <br />
+				<span class="classresvalue" value="{{ItemVariable[whichItem].ClassRestriction}}"></span></li> 			
+			</ul> 	
+	</div>
+	
+	<div id="tabs">
+		<ul>
+			<li><a href="#tabs-2">Comments</a></li>
+		</ul>
+
+	<div class="usewindow" id="tabs-2"> 		
+		<h2>Comments</h2> 	
+		<div disqus="id"></div>
+			
+			<script>
+			var disqus_config = function () {
+				this.page.url = window.location.href;  // Replace PAGE_URL with your page's canonical URL variable
+				this.page.identifier = window.location.hash; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+			};
+			(function() { // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				s.src = '//vindictusinndb.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		
+	</div>
+</div> 

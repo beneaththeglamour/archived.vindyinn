@@ -1,0 +1,32 @@
+<h2>Skills</h2>
+	<table class="itemtable" style="table-layout:fixed">
+	<col style="width:60px">
+	<col style="width:500px">
+	<col style="width:200px">
+	<col style="width:500px">
+	<thead> 	
+		<th class="itemcol"></th> 	
+		<th>Skill</th> 
+		<th>Category</th> 
+		<th>Class Restriction</th> 
+	</thead> 
+	<tbody> 	
+		<tr class="itemlist" ng-repeat="skill in ItemVariable"> 		
+			<td><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/{{skill.IconType}}.png)"/></td>
+	 		<td class="name" width="20%">
+				<a href="#!/skill/{{ItemVariable.indexOf(skill)}}" class="Beginner linkname itemname" value="{{skill.SkillName|uppercase}}"></a>
+				<div class="hidetooltip">
+					<div class="borderskill" id="{{skill.SkillID}}"> 	
+						<div class="itemtooltipskill"> 				 		
+							<div class="icon"> 			
+								<img class="skillicon" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/{{skill.IconType}}.png)"/> 			
+								<span class="Beginner rarity itemname skillname"  value="{{skill.SkillName|uppercase}}"></span> 		
+							</div>
+							<div class="skilldesc" value="{{skill.SkillDescription|uppercase}}"></div>
+						</div> 	
+					</div> 
+				</div>
+			</td> 
+			<td class="centercell skillcategory" value="{{skill.Category}}"></td>
+			<td><span class="classresvalue" value="{{skill.ClassRestriction}}"></span></td>
+	</tr> </tbody> </table> 
