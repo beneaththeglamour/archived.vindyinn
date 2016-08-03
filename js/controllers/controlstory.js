@@ -65,6 +65,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					var menu = "/js/storygoals.js";
 							$.getScript( menu, function() {
 								AddingStoryGoals()
+								var menu = "/js/storyreplacename.js";
+								$.getScript( menu, function() {
+									ReplaceTask()
+								})
 							})	
 				
 				
