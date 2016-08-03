@@ -16,10 +16,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				var menu = "/js/storyname.js";
 							$.getScript( menu, function() {
 								StoryName()
+								$('.storyname').each(function(){
+									NoStoryName = $(this).html()
+									if (NoStoryName == '') {$(this).html('TBA')}
+								})
+								
 								console.log('DataTable loaded.')
-								$('.itemtable').DataTable({
-											"order": [[ 2, "desc" ]]
-										});
+								$('.itemtable').DataTable();
 							})	
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
