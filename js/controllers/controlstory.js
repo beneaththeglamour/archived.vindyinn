@@ -60,6 +60,11 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$.getScript( menu, function() {
 								StoryName()
 							})	
+					var menu = "/js/storygoals.js";
+							$.getScript( menu, function() {
+								StoryTasks()
+							})	
+
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()

@@ -8,7 +8,7 @@
 				<div class="Beginner rarity itemname storyname"  value="{{ItemVariable[whichItem].StoryLineName|uppercase}}">{{ItemVariable[whichItem].StoryLineName|uppercase}}</div>
 				<input class="storyidinput" style="display:none;" ng-model="storyid" ng-init="storyid = &#39;Loading...&#39;" name="search">
 				<div ng-repeat="story in StoryGoalInfo | filter:{'StoryLine':storyid}:true">
-					<div class="{{story.Type}}">{{story.Desc|uppercase}}</div>
+					<div class="storygoal {{story.Type}}" value="{{story.Desc|uppercase}}"></div>
 				</div>
 				<div>
 					<span class="storyreward">Reward</span>
