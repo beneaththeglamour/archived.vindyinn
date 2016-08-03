@@ -618,6 +618,7 @@ background-color: rgb(11, 11, 11);
     clear: both;
     border-radius: 0.2rem;
     margin: 0.1rem 0.5rem;
+	background-position: center;
 }
 .storyreward {
     display: block;
@@ -637,4 +638,15 @@ background-color: rgb(11, 11, 11);
     background-color: rgba(216, 200, 146, 0.4) !important;
     padding: 0.2rem 0.4rem !important;
     box-shadow: 0px 0px 4px #b0b0b0 inset !important;
+	    float: left;
+    width: 75%;
+    margin-top: 0.1rem;
+	font-family: ITC Goudy Sans Book;
+}
+.storyrewardblurb .number {
+	color: #a7793d;
+}
+.storyrewardblurb strong {
+	color: #4D4D4D;
+font-weight: bold;
 }
