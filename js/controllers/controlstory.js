@@ -43,13 +43,11 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				})
 				StoryID = $('.settitle').attr('value')
 				$('.storyidinput').val(StoryID).trigger('input')
-				/**
-										console.log('DataTable loaded.')
-										$('.skillid').DataTable({
-											"order": [[ 3, "asc" ]]
-										});
-									
-							**/
+
+					var menu = "/js/storyname.js";
+							$.getScript( menu, function() {
+								StoryName()
+							})	
 					var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
