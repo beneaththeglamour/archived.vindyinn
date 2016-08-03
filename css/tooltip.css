@@ -688,6 +688,9 @@ font-weight: bold;
     font-weight: bold !important;
     font-family: ITC Goudy Sans Book !important;
 }
+.storygoal {
+	display:none;
+}
 .storygoal > .quest {
 	color:rgb(56, 170, 222);
 }
@@ -695,5 +698,5 @@ font-weight: bold;
 	color:#d27442;
 }
 .storygoal > .item {
-	color:#689a21;
+	color:#71b411;
 }
