@@ -29,6 +29,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 		{    
 				$http.get('/json/StoryLineInfo.json').success (function(data){
 				$scope.ItemVariable = data;
+					$http.get('/json/StoryGoalInfo.json').success (function(data2){
+					$scope.StoryGoalInfo = data2;})
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
@@ -39,6 +41,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					convert = grab.toLocaleString()
 					$(this).html(convert)
 				})
+				StoryID = $('.settitle').attr('value')
+				$('.storyidinput').val(StoryID).trigger('input')
 				/**
 										console.log('DataTable loaded.')
 										$('.skillid').DataTable({
