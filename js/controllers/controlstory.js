@@ -61,7 +61,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						$(this).remove()
 				 })
 				 TitleNumber = $('.titlenumber').attr('value')
-				 $('.titleidinput').val(TitleNumber).trigger('input')
+				 $('.titleidinput').val(parseInt(TitleNumber)).trigger('input')
 					var menu = "/js/storyname.js";
 							$.getScript( menu, function() {
 								StoryName()

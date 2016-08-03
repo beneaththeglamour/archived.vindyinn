@@ -20,7 +20,7 @@
 						<strong  class="number">{{ItemVariable[whichItem].RewardGold}}</strong></div>
 					<input class="titleidinput" style="display:none;" ng-model="titleid" ng-init="titleid = &#39;Loading...&#39;" name="search">
 					<span class="titlenumber" value="{{ItemVariable[whichItem].RewardTitle}}" style="display:none;"></span>
-					<div ng-repeat="title in TitleInfo | filter:{'ID':410390}:true">
+					<div ng-repeat="title in TitleInfo | filter:{'ID':titleid}:true">
 						<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/story_title.png)">
 						<div class="storyrewardblurb">Title<br />'<span>{{title.Description}}</span>'</div>
 					</div>
