@@ -55,7 +55,11 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				})
 				StoryID = $('.settitle').attr('value')
 				$('.storyidinput').val(StoryID).trigger('input')
-
+				 $('.storygoal').each(function(){
+						StoryGoal = $(this).attr('value')
+						if (StoryGoal == '') {$(this).remove()}
+						if (StoryGoal == ' ') {$(this).remove()}
+				 })
 					var menu = "/js/storyname.js";
 							$.getScript( menu, function() {
 								StoryName()
