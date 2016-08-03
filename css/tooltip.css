@@ -618,6 +618,7 @@ background-color: rgb(11, 11, 11);
     border: thin solid #0f0f0f;
     box-shadow: 0px 0px 5px #5b5a6c;
 	color: #291d15;
+	overflow-x: hidden;
 }
 .mainstoryframe > div {
 	margin:1rem;
