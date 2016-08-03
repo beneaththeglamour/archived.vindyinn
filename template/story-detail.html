@@ -2,10 +2,20 @@
 	<div class="border"> 	
 		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
 			<div class="settitle"> 			
-				<span class="Beginner rarity itemname storyname"  value="{{ItemVariable[whichItem].StoryLineName|uppercase}}">{{ItemVariable[whichItem].StoryLineName|uppercase}}</span>
+				<span class="Beginner rarity itemname storyname">Story</span>
 			</div>
 			<div class="mainstoryframe">
-			Placeholder text.
+				<div class="Beginner rarity itemname storyname"  value="{{ItemVariable[whichItem].StoryLineName|uppercase}}">{{ItemVariable[whichItem].StoryLineName|uppercase}}</div>
+				<div class="goalinfo">Talk to Brynn at the Magic Laboratory</div>
+				<div class="goalbubble">Talk to Brynn.</div>
+				<div>
+					<span class="storyreward">Reward</span>
+					<img class="rewardicons" src="/images/icons/xp.png"><div class="storyEXP">EXP<br/>{{ItemVariable[whichItem].RewardEXP}}</div>
+					<img class="rewardicons" src="/images/icons/storyitem_bryn_gold.png"><div class="storyGold">Gold<br/>{{ItemVariable[whichItem].RewardGold}}</div>
+					<img class="rewardicons" src="/images/icons/story_title.png"><div class="storyTitle">ItemVariable[whichItem].RewardTitle}}</div>
+					<img class="rewardicons" src="/images/icons/story_title.png"><div class="storyItem">ItemVariable[whichItem].RewardItem}}</div>
+					<img class="rewardicons" src="/images/icons/story_title.png"><div class="storySkill">ItemVariable[whichItem].RewardSkill}}</div>
+				</div>
 			</div>
 		</div>
 	</div> 		 	
