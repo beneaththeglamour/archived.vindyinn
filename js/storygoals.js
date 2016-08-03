@@ -1000,8 +1000,7 @@ if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E7E_SET_INGKARA_B_CONDITION1") {$(this).
 if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E7E_SET_INGKARA_B_CONDITION2") {$(this).html("{ingkara_lower:item} {0}/1")}
 if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E7E_SET_INGKARA_B_CONDITION3") {$(this).html("{ingkara_hand:item} {0}/1")}
 if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E7E_SET_INGKARA_B_CONDITION4") {$(this).html("{ingkara_foot:item} {0}/1")}
-if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E7E_SET_INGKARA_B_PHASETEXT"			"GAMEUI_HEROES_STORY_E6S_07_DOLORES_C_PHASETEXT") {$(this).html("Deliver the Gem to {DOLORES:npc}.")}
-if (StoryGoal ==  	:item}, {ingkara_lower:item}, {ingkara_foot:item}) and show {BARAX:npc}.")}
+if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E7E_SET_INGKARA_B_PHASETEXT"	{$(this).html("Collect the entire Ingkara set ({ingkara_head:item}, {ingkara_hand:item}, {ingkara_upper:item}, {ingkara_lower:item}, {ingkara_foot:item}) and show {BARAX:npc}.")}
 if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E7M_01_SHAMAN_A_ACTION0") {$(this).html("Talk to the {SOLDIER:npc}.")}
 if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E7M_01_SHAMAN_A_PHASETEXT") {$(this).html("Talk to the {SOLDIER:npc} at the Rocheste Castle gate.")}
 if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E7M_01_SHAMAN_B_ACTION0") {$(this).html("Talk to the {SOLDIER:npc}.")}
