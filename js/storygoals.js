@@ -909,7 +909,7 @@ if (StoryGoal ==  "GAMEUI_HEROES_STORY_E6S_07_DOLORES_B_PHASETEXT") {$(this).htm
 if (StoryGoal ==  "GAMEUI_HEROES_STORY_E6S_07_DOLORES_C_ACTION0") {$(this).html("Talk to {DOLORES:npc}.")}
 if (StoryGoal ==  "GAMEUI_HEROES_STORY_E6S_07_DOLORES_C_CONDITION0") {$(this).html("Gem {0}/1|{amethyst:item} {0}/1|{cats_eye:item} {0}/1|{peridot:item} {0}/1|{sapphire:item} {0}/1")}
 if (StoryGoal ==  		"GAMEUI_HEROES_STORY_E6S_07_DOLORES_C_PHASETEXT") {$(this).html("Deliver the Gem to {DOLORES:npc}.")}
-if (StoryGoal ==  	GAMEUI_HEROES_STORY_E6S_08_JARLATH_A_ACTION0") {$(this).html("Talk to {BARAX:npc}.")}
+if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E6S_08_JARLATH_A_ACTION0") {$(this).html("Talk to {BARAX:npc}.")}
 if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E6S_08_JARLATH_A_PHASETEXT") {$(this).html("Talk to {BARAX:npc} at the Royal Army Base.")}
 if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E6S_08_JARLATH_B_ACTION0") {$(this).html("Talk to {JARLATH:npc}.")}
 if (StoryGoal ==  	"GAMEUI_HEROES_STORY_E6S_08_JARLATH_B_PHASETEXT") {$(this).html("Bring {iron_snow:item} back from the Magician's Guild.")}
