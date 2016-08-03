@@ -1,4 +1,4 @@
-StoryTasks = function(){
+AddingStoryGoals = function(){
 	 $('.storygoal').each(function(){
 		StoryGoal = $(this).attr('value')
 		if (StoryGoal ==  "GAMEUI_HEROES_STORY_ADD_AILEAN_BALLISTA_A_ACTION0") {$(this).html("Talk to {AIDAN:npc}.")}
