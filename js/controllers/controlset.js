@@ -36,7 +36,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$scope.SetEffectInfo = data2; })
 					$http.get('/json/SetItemInfo.json').success (function(data3){
 					$scope.SetItemInfo = data3; })
-					$http.get('/json/ItemClassInfo.json').success (function(data4){
+					$http.get('/json/ItemClassInfoV2.json').success (function(data4){
 					$scope.ItemClassInfo = data4; })
 					$http.get('/json/RecipeMaterialInfo.json').success (function(data5){
 					$scope.RecipeMaterialInfo = data5; })
