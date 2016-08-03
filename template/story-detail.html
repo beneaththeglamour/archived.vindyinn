@@ -27,7 +27,7 @@
 					<input class="skillidinput" style="display:none;" ng-model="skillid" ng-init="skillid = &#39;Loading...&#39;" name="search">
 					<span class="skillclass" value="{{ItemVariable[whichItem].RewardSkill}}" style="display:none;"></span>
 					<div ng-repeat="skill in SkillInfo | filter:{'SkillID':skillid}:true">
-						<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/story_title.png)">
+						<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/{{skill.IconType}}.png)">
 						<div class="storyrewardblurb"><span class="itemname" value="{{skill.SkillName|uppercase}}"></span></div>
 					</div>
 				</div>
