@@ -43,6 +43,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.ItemVariable = data;
 					$http.get('/json/StoryGoalInfo.json').success (function(data2){
 					$scope.StoryGoalInfo = data2;})
+					$http.get('/json/TitleInfo.json').success (function(data3){
+					$scope.TitleInfo = data3;})
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
@@ -58,6 +60,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				 $('.Result').each(function(){
 						$(this).remove()
 				 })
+				 TitleNumber = $('.titlenumber').attr('value')
+				 $('.titleidinput').val(TitleNumber).trigger('input')
 					var menu = "/js/storyname.js";
 							$.getScript( menu, function() {
 								StoryName()
