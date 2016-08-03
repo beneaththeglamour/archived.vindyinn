@@ -8,12 +8,18 @@ ItemControllers.controller("ListController", ['$scope','$http',
 
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname				
-				
+				$('.number').each(function(){
+					grab = parseInt($(this).html())
+					convert = grab.toLocaleString()
+					$(this).html(convert)
+				})
 				var menu = "/js/storyname.js";
 							$.getScript( menu, function() {
 								StoryName()
 								console.log('DataTable loaded.')
-								$('.itemtable').DataTable();
+								$('.itemtable').DataTable({
+											"order": [[ 2, "desc" ]]
+										});
 							})	
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
