@@ -10,7 +10,7 @@
 	</thead> 
 	<tbody> 	
 		<tr class="itemlist" ng-repeat="story in ItemVariable"> 		
-			<td class="storyname" value="{{story.StoryLineName|uppercase}}"></td> 
+			<td><a href="#!/story/{{ItemVariable.indexOf(story)}}" class="storyname" value="{{story.StoryLineName|uppercase}}"></a></td> 
 			<td class="centercell">{{story.Category}}</td>
 			<td class="centercell">Season {{story.Season}}</td>
 			<td class="centercell">Lv. {{story.AutoGiveLevel}}</td>
