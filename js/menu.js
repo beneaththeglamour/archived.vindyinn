@@ -203,6 +203,16 @@ MenuList = function() {
 	'<li><a href="/enemies">Enemies</a></li>'+
 	'<li><a href="/battles">Battles</a></li>'+
 	'<li><a href="/story">Stories</a></li>'+
+	'<li><a>Tools</a>'+
+				'<ul>'+
+					'<li><a href="http://vindictusinn.com/emotes">Emote Gallery</a></li>'+
+					'<li><a href="http://vindictusinn.com/minmaxstats">Min/Max Level 90 Stats</a></li>'+
+					'<li><a href="http://vindictusinn.com/dyepreviewer">Dye Previewer</a></li>'+
+					'<li><a href="http://vindictusinn.com/aprestore">AP Restoration Tool</a></li>'+
+					'<li><a href="http://vindictusinn.com/titlecolors">List of Title Colors</a></li>'+
+					'<li><a href="http://vindictusinn.com/transbuild">Trans Build Editor</a></li>'+
+				'</ul>'+
+	'</li>'+
 	'<li><a href="/new">What&apos;s New</a></li>'+
 '</ul>')			
 
