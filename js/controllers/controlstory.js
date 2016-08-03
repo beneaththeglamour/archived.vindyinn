@@ -62,6 +62,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				 })
 				 TitleNumber = $('.titlenumber').attr('value')
 				 $('.titleidinput').val(parseInt(TitleNumber)).trigger('input')
+				 SkillNumber = $('.skillclass').attr('value')
+				 $('.skillidinput').val(SkillNumber).trigger('input')
 					var menu = "/js/storyname.js";
 							$.getScript( menu, function() {
 								StoryName()
