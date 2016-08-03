@@ -53,6 +53,17 @@
     margin: 1rem;
 	margin-bottom: 2rem;
 }
+.borderstory {
+	border: 1px solid black;
+	overflow:hidden;
+	width:24.5rem;
+	background:black;
+	border-radius:0.5rem;
+	box-shadow: 0px 0px 10px 0px #1A1818;
+	float: left;
+    margin: 1rem;
+	margin-bottom: 2rem;
+}
 .borderskill {
 	border: 1px solid black;
 	overflow:hidden;
@@ -649,4 +660,16 @@ background-color: rgb(11, 11, 11);
 .storyrewardblurb strong {
 	color: #4D4D4D;
 font-weight: bold;
+}
+.goalbubble {
+    border-radius: 0.5rem !important;
+    background-color: rgba(207, 165, 47, 0.4) !important;
+    padding: 0.3rem 0.5rem !important;
+    box-shadow: 0px 0px 4px #8d8d8d inset !important;
+    margin-left: 2rem !important;
+    margin-top: -0.4rem !important;
+}
+.storyname {
+    font-weight: bold !important;
+    font-family: ITC Goudy Sans Book !important;
 }
