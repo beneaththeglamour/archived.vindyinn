@@ -1,22 +1,29 @@
 <h2 ng-model="ItemVariable" class="itemname storyname" value="{{ItemVariable[whichItem].StoryLineName|uppercase}}" >{{ItemVariable[whichItem].StoryLineName|uppercase}}</h2> 	
 	<div class="borderstory"> 	
 		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
-			<div class="settitle"> 			
-				<span class="Beginner rarity itemname storyname">Story</span>
+			<div class="settitle" value="{{ItemVariable[whichItem].StoryLineID}}"> 			
+				<span class="Beginner rarity itemname">Story</span>
 			</div>
 			<div class="mainstoryframe">
 				<div class="Beginner rarity itemname storyname"  value="{{ItemVariable[whichItem].StoryLineName|uppercase}}">{{ItemVariable[whichItem].StoryLineName|uppercase}}</div>
-				<div class="goalinfo">Talk to Brynn at the Magic Laboratory</div>
-				<div class="goalbubble">Talk to Brynn.</div>
+				<input class="storyidinput" style="display:none;" ng-model="storyid" ng-init="storyid = &#39;Loading...&#39;" name="search">
+				<div ng-repeat="story in StoryGoalInfo | filter:{'StoryLine':storyid}:true">
+					<div class="{{story.Type}}">{{story.Desc}}</div>
+				</div>
 				<div>
 					<span class="storyreward">Reward</span>
-					<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/xp.png)"><div class="storyrewardblurb">EXP<br/>
-					<strong>{{ItemVariable[whichItem].RewardEXP}}</strong></div>
-					<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/storyitem_bryn_gold.png)"><div class="storyrewardblurb">Gold<br/>
-					<strong>{{ItemVariable[whichItem].RewardGold}}</strong></div>
-					<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/story_title.png)"><div class="storyrewardblurb">{{ItemVariable[whichItem].RewardTitle}}</div>
-					<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/story_title.png)"><div class="storyrewardblurb">{{ItemVariable[whichItem].RewardItem}}</div>
-					<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/story_title.png)"><div class="storyrewardblurb">{{ItemVariable[whichItem].RewardSkill}}</div>
+					<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/xp.png)">
+						<div class="storyrewardblurb">EXP<br/>
+						<strong class="number">{{ItemVariable[whichItem].RewardExp}}</strong></div>
+					<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/storyitem_bryn_gold.png)">
+						<div class="storyrewardblurb">Gold<br/>
+						<strong  class="number">{{ItemVariable[whichItem].RewardGold}}</strong></div>
+					<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/story_title.png)">
+						<div class="storyrewardblurb">{{ItemVariable[whichItem].RewardTitle}}</div>
+					<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/story_title.png)">
+						<div class="storyrewardblurb">{{ItemVariable[whichItem].RewardItem}}</div>
+					<img class="rewardicons" src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url(/images/icons/story_title.png)">
+						<div class="storyrewardblurb">{{ItemVariable[whichItem].RewardSkill}}</div>
 				</div>
 			</div>
 		</div>

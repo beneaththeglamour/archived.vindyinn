@@ -33,12 +33,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
-					/**
-										$('.number').each(function(){
-											grab = parseInt($(this).html())
-											convert = grab.toLocaleString()
-											$(this).html(convert)
-										})
+
+				$('.number').each(function(){
+					grab = parseInt($(this).html())
+					convert = grab.toLocaleString()
+					$(this).html(convert)
+				})
+				/**
 										console.log('DataTable loaded.')
 										$('.skillid').DataTable({
 											"order": [[ 3, "asc" ]]
