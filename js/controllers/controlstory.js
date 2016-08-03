@@ -76,8 +76,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								var menu = "/js/storyreplaceitems.js";
 								$.getScript( menu, function() {
 									ReplaceItems()
+									$('.storygoal').show()
 								})
-								$('.storygoal').show()
 							})	
 				
 				
