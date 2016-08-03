@@ -680,3 +680,9 @@ font-weight: bold;
     font-weight: bold !important;
     font-family: ITC Goudy Sans Book !important;
 }
+.storygoal > .quest {
+	color:rgb(56, 170, 222);
+}
+.storygoal > .npc {
+	color:#d27442;
+}

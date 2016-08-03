@@ -69,6 +69,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								$.getScript( menu, function() {
 									ReplaceTask()
 								})
+								var menu = "/js/storyreplacebattles.js";
+								$.getScript( menu, function() {
+									ReplaceBattles()
+								})
 							})	
 				
 				
