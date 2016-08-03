@@ -13,6 +13,24 @@ ItemControllers.controller("ListController", ['$scope','$http',
 					convert = grab.toLocaleString()
 					$(this).html(convert)
 				})
+				 $('.storycategory').each(function(){
+					 StoryType = $(this).attr('value')
+					 if (StoryType == "CONTENTS") {$(this).html("Content Story")}
+					if (StoryType == "EQUIP") {$(this).html("Equipment Story")}
+					if (StoryType == "ERROR") {$(this).html("Uncategorized")}
+					if (StoryType == "EVENT") {$(this).html("Event Story")}
+					if (StoryType == "MAIN") {$(this).html("Main Story")}
+					if (StoryType == "MAINSTREAM") {$(this).html("Main Stream: Season 1")}
+					if (StoryType == "MAINSTREAM_INTRO") {$(this).html("Main Stream: Prologue")}
+					if (StoryType == "MAINSTREAM_S2") {$(this).html("Main Stream: Season 2")}
+					if (StoryType == "MAINSTREAM_S3") {$(this).html("Main Stream: Season 3")}
+					if (StoryType == "REPEAT") {$(this).html("Repeat Story")}
+					if (StoryType == "SKILL") {$(this).html("Skill Story")}
+					if (StoryType == "SUB") {$(this).html("Sub Story: Season 1")}
+					if (StoryType == "SUB_S2") {$(this).html("Sub Story: Season 2")}
+					if (StoryType == "SUB_S3") {$(this).html("Sub Story: Season 3")}
+					if (StoryType == "WATCHING") {$(this).html("Story of Interest")}
+				 } )
 				var menu = "/js/storyname.js";
 							$.getScript( menu, function() {
 								StoryName()
@@ -66,6 +84,55 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				 $('.titleidinput').val(parseInt(TitleNumber)).trigger('input')
 				 SkillNumber = $('.skillclass').attr('value')
 				 $('.skillidinput').val(SkillNumber).trigger('input')
+				 
+				 $('.storycategory').each(function(){
+					 StoryType = $(this).attr('value')
+					 if (StoryType == "CONTENTS") {$(this).html("Content Story")}
+					if (StoryType == "EQUIP") {$(this).html("Equipment Story")}
+					if (StoryType == "ERROR") {$(this).html("Uncategorized")}
+					if (StoryType == "EVENT") {$(this).html("Event Story")}
+					if (StoryType == "MAIN") {$(this).html("Main Story")}
+					if (StoryType == "MAINSTREAM") {$(this).html("Main Stream: Season 1")}
+					if (StoryType == "MAINSTREAM_INTRO") {$(this).html("Main Stream: Prologue")}
+					if (StoryType == "MAINSTREAM_S2") {$(this).html("Main Stream: Season 2")}
+					if (StoryType == "MAINSTREAM_S3") {$(this).html("Main Stream: Season 3")}
+					if (StoryType == "REPEAT") {$(this).html("Repeat Story")}
+					if (StoryType == "SKILL") {$(this).html("Skill Story")}
+					if (StoryType == "SUB") {$(this).html("Sub Story: Season 1")}
+					if (StoryType == "SUB_S2") {$(this).html("Sub Story: Season 2")}
+					if (StoryType == "SUB_S3") {$(this).html("Sub Story: Season 3")}
+					if (StoryType == "WATCHING") {$(this).html("Story of Interest")}
+				 } )
+				  $('.storystage').each(function(){
+					 StoryStage = $(this).attr('value')
+					 if (StoryStage == "COLHEN") {$(this).html("Colhen")}
+					if (StoryStage == "DS") {$(this).html("Unknown Area")}
+					if (StoryStage == "MORVAN") {$(this).html("Malina")}
+					if (StoryStage == "ROCHEST") {$(this).html("Rocheste")}
+					if (StoryStage == "STAGE1") {$(this).html("Perilous Ruins")}
+					if (StoryStage == "STAGE1_1") {$(this).html("Ruins of Sanctity")}
+					if (StoryStage == "STAGE10") {$(this).html("Heide")}
+					if (StoryStage == "STAGE2") {$(this).html("Hoarfrost Hollow")}
+					if (StoryStage == "STAGE2_1") {$(this).html("Hoarfrost Depths")}
+					if (StoryStage == "STAGE20") {$(this).html("Crescent Moon Island")}
+					if (StoryStage == "STAGE21") {$(this).html("Ship Graveyard")}
+					if (StoryStage == "STAGE22") {$(this).html("Twilight Desert")}
+					if (StoryStage == "STAGE23") {$(this).html("Misty Summit")}
+					if (StoryStage == "STAGE24") {$(this).html("Annwyn")}
+					if (StoryStage == "STAGE3") {$(this).html("Ainle, Hilder Forest Ruins")}
+					if (StoryStage == "STAGE30") {$(this).html("Ben Chenner Entrance")}
+					if (StoryStage == "STAGE32") {$(this).html("Ben Chenner Slopes")}
+					if (StoryStage == "STAGE33") {$(this).html("Ben Chenner Summit")}
+					if (StoryStage == "STAGE4_0") {$(this).html("Prairie, Entrance")}
+					if (StoryStage == "STAGE5") {$(this).html("Hoarfrost Depths")}
+					if (StoryStage == "STAGE6") {$(this).html("Fomorian Base")}
+					if (StoryStage == "STAGE7") {$(this).html("Sewers")}
+					if (StoryStage == "STAGE8_1") {$(this).html("Ortel Castle")}
+					if (StoryStage == "STAGE8_2") {$(this).html("The Catacombs")}
+					if (StoryStage == "STAGE9") {$(this).html("Albey Ruins")}
+					if (StoryStage == "TOWN") {$(this).html("Town")}
+				  } )
+				  
 					var menu = "/js/storyname.js";
 							$.getScript( menu, function() {
 								StoryName()
@@ -81,14 +148,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								$.getScript( menu, function() {
 									ReplaceBattles()
 								})
-								var menu = "/js/titlename.js";
-								$.getScript( menu, function() {
-									ChangeTitles()
-								})
-								var menu = "/js/skillname.js";
-								$.getScript( menu, function() {
-									ReplaceSkillName()
-								})
 								var menu = "/js/storyreplaceitems.js";
 								$.getScript( menu, function() {
 									ReplaceItems()
@@ -96,6 +155,14 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								})
 							})	
 				
+					var menu = "/js/titlename.js";
+								$.getScript( menu, function() {
+									ChangeTitles()
+								})
+				var menu = "/js/skillname.js";
+								$.getScript( menu, function() {
+									ReplaceSkillName()
+								})
 				
 
 					var menu = "/js/menu.js";

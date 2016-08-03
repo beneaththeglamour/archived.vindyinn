@@ -41,11 +41,11 @@
 		<h2>Additional Info</h2> 		
 			<ul> 			
 				<li ><strong>Category:</strong> <br />
-				{{ItemVariable[whichItem].Category}}</li> 									
+				<span class="storycategory" value="{{ItemVariable[whichItem].Category|uppercase}}"></span></li> 									
 				<li ><strong>Season:</strong> <br />
 				{{ItemVariable[whichItem].Season}}</li> 									
 				<li ><strong>Stage:</strong> <br />
-				{{ItemVariable[whichItem].Stage}}</li> 					
+				<span class="storystage" value="{{ItemVariable[whichItem].Stage|uppercase}}"></span</li> 					
 				<li ><strong>Level Unlocked:</strong> <br />
 				{{ItemVariable[whichItem].AutoGiveLevel}}</li> 					
 				<li ><strong>Auto Process:</strong> <br />
