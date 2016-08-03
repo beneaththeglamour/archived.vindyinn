@@ -7,12 +7,14 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				$scope.ItemVariable = data;
 
 				setTimeout(function(){
-				WhatIsTheURL = window.location.pathname
+				WhatIsTheURL = window.location.pathname				
 				
-							/*
-				console.log('DataTable loaded.')
-				$('.itemtable').DataTable();
-				*/
+				var menu = "/js/storyname.js";
+							$.getScript( menu, function() {
+								StoryName()
+								console.log('DataTable loaded.')
+								$('.itemtable').DataTable();
+							})	
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
