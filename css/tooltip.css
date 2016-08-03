@@ -686,3 +686,6 @@ font-weight: bold;
 .storygoal > .npc {
 	color:#d27442;
 }
+.storygoal > .item {
+	color:#689a21;
+}
