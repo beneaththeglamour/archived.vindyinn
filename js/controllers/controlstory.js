@@ -19,6 +19,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								$('.storyname').each(function(){
 									NoStoryName = $(this).html()
 									if (NoStoryName == '') {$(this).html('TBA')}
+									if (NoStoryName == ' ') {$(this).html('TBA')}
 								})
 								
 								console.log('DataTable loaded.')
