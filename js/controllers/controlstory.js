@@ -85,6 +85,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								$.getScript( menu, function() {
 									ChangeTitles()
 								})
+								var menu = "/js/skillname.js";
+								$.getScript( menu, function() {
+									ReplaceSkillName()
+								})
 								var menu = "/js/storyreplaceitems.js";
 								$.getScript( menu, function() {
 									ReplaceItems()
