@@ -45,6 +45,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$scope.StoryGoalInfo = data2;})
 					$http.get('/json/TitleInfo.json').success (function(data3){
 					$scope.TitleInfo = data3;})
+					$http.get('/json/SkillInfo.json').success (function(data4){
+					$scope.SkillInfo = data4;})
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ID';
 				setTimeout(function(){
