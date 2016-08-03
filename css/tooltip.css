@@ -611,7 +611,7 @@ background-color: rgb(11, 11, 11);
 }
 .mainstoryframe {
 	 background-image: url('/images/bg/story.jpg');
-    overflow: hidden;
+    overflow: scroll;
     border-radius: 0.2rem;
     height: 382px;
     width: 355px;
