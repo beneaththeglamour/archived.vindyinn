@@ -115,6 +115,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						})
 					console.log('DataTable loaded.')
 					$('.knowndrops').DataTable();
+					DISQUS.reset({
+					  reload: true,
+					  config: function () {  
+						this.page.identifier = $('#valueitem').attr('value');  
+						this.page.url = window.location.href;
+					  }
+					});
 }, 200);
 			}); 
 		}]

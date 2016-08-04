@@ -62,6 +62,13 @@ EnemyControllers.controller("DetailsEnemyController", ['$scope','$http','$routeP
 						convert = grab.toLocaleString()
 						$(this).html(convert)
 					})
+					DISQUS.reset({
+					  reload: true,
+					  config: function () {  
+						this.page.identifier = $('#valueitem').attr('value');  
+						this.page.url = window.location.href;
+					  }
+					});
 					var enemyname = "/js/enemyname.js";
 							$.getScript( enemyname, function() {
 								MonsterName()

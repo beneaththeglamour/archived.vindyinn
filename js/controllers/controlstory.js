@@ -170,6 +170,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								MenuList()
 							})	
 					$('#tabs').tabs();
+					DISQUS.reset({
+					  reload: true,
+					  config: function () {  
+						this.page.identifier = $('.storyname').attr('value');  
+						this.page.url = window.location.href;
+					  }
+					});
 					
 }, 200);
 			}); 

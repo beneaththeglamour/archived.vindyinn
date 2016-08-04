@@ -82,6 +82,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 
 					console.log('DataTable loaded.')
 					$('#tabs').tabs();
+					DISQUS.reset({
+					  reload: true,
+					  config: function () {  
+						this.page.identifier = $('.setname').attr('value');  
+						this.page.url = window.location.href;
+					  }
+					});
 					var changeset = "/js/setname.js";
 							$.getScript( changeset, function() {
 								ChangeSetName()
