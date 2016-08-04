@@ -889,29 +889,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								SetUpViewer()
 							})								
 					$('#tabs').tabs();
-					PageID = $('.itemdetail').attr('value')
-							var disqus_config = function () {
-							this.page.url = window.location.href // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-							this.page.identifier = PageID // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-						};
-						(function() { // DON'T EDIT BELOW THIS LINE
-							var d = document, s = d.createElement('script');
-							s.src = '//vindictusinndb.disqus.com/embed.js';
-							s.setAttribute('data-timestamp', +new Date());
-							(d.head || d.body).appendChild(s);
-						})();
-				DISQUS.reset()
-				PageID = $('.itemdetail').attr('value')
-							var disqus_config = function () {
-							this.page.url = window.location.href // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-							this.page.identifier = PageID // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-						};
-						(function() { // DON'T EDIT BELOW THIS LINE
-							var d = document, s = d.createElement('script');
-							s.src = '//vindictusinndb.disqus.com/embed.js';
-							s.setAttribute('data-timestamp', +new Date());
-							(d.head || d.body).appendChild(s);
-						})();
+					RunComments()
 					
 }, 500);
 			}); 
