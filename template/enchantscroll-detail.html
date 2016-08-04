@@ -3,7 +3,7 @@
 		<div ng-model="ItemVariable" class="itemtooltip"> 				 		
 			<div class="icon"> 			
 								<img class="itemicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{ItemVariable[whichItem].Icon}}" style="background-image:url(/images/icons/enchant_scroll.png)"/> 			
-								<span class="Beginner rarity itemname"  value="{{ItemVariable[whichItem].EnchantClass}}"> Enchant Scroll</span> 			
+								<span class="Beginner rarity itemname scrollname"  value="{{ItemVariable[whichItem].EnchantClass}}"> Enchant Scroll</span> 			
 								<span class="bubble"> 				
 									<span class="itemtype">Rank <span class="RankEnum" value="{{ItemVariable[whichItem].EnchantLevel}}"></span> <span class="isPrefix" value="{{ItemVariable[whichItem].IsPrefix}}"></span> Enchant</span> 				
 									<span id="sell">Sell Price</span> 				
@@ -65,7 +65,15 @@
 			<li><a href="#tabs-1">Drop Locations</a></li>
 			<li><a href="#tabs-2">Comments</a></li>
 		</ul>
-	<div class="usewindow" id="tabs-1"> 		<h2>Drop Locations</h2> 	<p>Coming Soon</p></div>
+	<div class="usewindow" id="tabs-1"> 		
+		<h2>Drop Locations</h2> 	
+		<input class="dropzoneinput" style="display:none;" ng-model="dropzone" ng-init="dropzone = &#39;Loading...&#39;" name="search">
+		<table>
+			<tr ng-repeat="drop in DropLocation  | filter : {'Drops':dropzone}:true track by $index">
+				<td>{{drop.Battle}}</td>
+			</tr>
+		</table>
+	</div>
 	<div class="usewindow" id="tabs-2">
 		<h2>Comments</h2> 	
 		<div disqus="id"></div>

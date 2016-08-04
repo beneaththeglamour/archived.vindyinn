@@ -511,6 +511,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								if (IsPrefix == 'True') {$(this).html('Prefix')}
 								else {$(this).html('Suffix')}
 							})
+							ScrollDropName = $('.scrollname').html()
+							$('.dropzoneinput').val(ScrollDropName).trigger('input')
 							
 							console.log('DataTable loaded.')
 								if (WhatIsTheURL.indexOf('expertise') == 1) {
