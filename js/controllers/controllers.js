@@ -889,7 +889,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								SetUpViewer()
 							})								
 					$('#tabs').tabs();
-					RunComments()
+				
 					
 }, 500);
 			}); 
