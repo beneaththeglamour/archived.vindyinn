@@ -396,8 +396,20 @@
 	</div>
 	<div class="usewindow" id="tabs-6">
 		<h2>Comments</h2> 	
-		<div disqus="id"></div>
+		<dir-disqus disqus-shortname="vindictusinndb" disqus-identifier="{{ItemVariable[whichItem].ItemClass|lowercase}}"></dir-disqus>
 			
+			<script>
+			var disqus_config = function () {
+				PageID = $('.itemdetail').attr('value') // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				this.page.identifier = PageID // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+			};
+			(function() { // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				s.src = '//vindictusinndb.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
+			</script>
 			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	</div>
 	<div class="usewindow" id="tabs-7">
