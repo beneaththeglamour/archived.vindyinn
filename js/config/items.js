@@ -1,4 +1,4 @@
-var ItemApp = angular.module('ItemApp', ['ngRoute','ItemControllers','angularUtils.directives.dirDisqus']);
+var ItemApp = angular.module('ItemApp', ['ngRoute','ItemControllers','ngDisqus']);
 replacestart = $('#valueitem').attr('value');
 
 ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
