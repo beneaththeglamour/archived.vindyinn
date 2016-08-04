@@ -230,8 +230,10 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 				$scope.ItemVariable = data;
 				$scope.whichItem = $routeParams.ItemID;
 				$scope.keyToDisplay = 'ItemClass';
-					$http.get('/json/enchant-scroll-stats.json').success (function(data2){
+						$http.get('/json/enchant-scroll-stats.json').success (function(data2){
 						$scope.ItemVariable2 = data2;
+						$http.get('/json/DropLocation.json').success (function(data3){
+						$scope.DropLocation = data3;
 					});
 				setTimeout(function(){
 					WhatIsTheURL = window.location.pathname
