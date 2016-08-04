@@ -889,7 +889,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								SetUpViewer()
 							})								
 					$('#tabs').tabs();
-					DISQUS.reset()
 					RunComments = function(){
 						PageID = $('.itemdetail').attr('value')
 							var disqus_config = function () {
