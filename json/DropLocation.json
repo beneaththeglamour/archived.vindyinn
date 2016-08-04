@@ -127,12 +127,12 @@
     {	
 		"Battle":"Ellis's Trust", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Rune of Dominion","Cloth","Leather","Ainle Studs","Advanced Enhancement Stone","Blood-Sucking Plant"]	
 	},
     {	
 		"Battle":"Hell Beyond the Door", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Magic Powder","Emptiness Erg Crystal","Terra Spirit Remnant","Rusted Goblin Scimitar","Torn Officer Battle Uniform","Advanced Enhancement Stone","Beginner Alchemist Staff","Tattoo of Dominion"]	
 	},
     {	
 		"Battle":"Resenlian's Labyrinth", 
@@ -142,22 +142,22 @@
     {	
 		"Battle":"Wake Up Call", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Ainle Studs","Spider Web","Torn Officer Battle Uniform","Beginner Alchemist Staff","Rusted Goblin Scimitar","Tattoo of Dominion","Advanced Enhancement Stone","Cloth"]	
 	},
     {	
 		"Battle":"Friend or Foe", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Ainle Studs","Jelly Tissue","White Vampire Robe","Advanced Enhancement Stone","Daring Enchant Scroll","Odd Eye","Vampire Essence"]	
 	},
     {	
 		"Battle":"Piercing the Crescent Moon", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Vampire Essence","Magic Powder","Leather Sheath","Blood-Sucking Plant","Emptiness Erg Crystal","Red Vampire Robe","Vampire Shoulder Plate","Red Royal Guard Seal"]	
 	},
     {	
 		"Battle":"Culprit Behind the Disturbance", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Life Erg Crystal","Spider Web","Average Kobold Cloth","Magic Powder","Staff of Life","Kobold Cloth","Gauntlet Ticket: Hoarfrost Hollow"]	
 	},
     {	
 		"Battle":"Ulchas's Relic", 
@@ -697,7 +697,7 @@
     {	
 		"Battle":"Fate and Destiny", 
 		"Class":"quest_",
-		"Drops":["Shattered Lion Shoulder","Bingo Ticket","Worn-Down Knightly Boots","Dented Swordsman's Shield","Well-balanced Enchant Scroll"]	
+		"Drops":["Shattered Lion Shoulder","Bingo Ticket","Worn-Down Knightly Boots","Dented Swordsman's Shield","Well-balanced Enchant Scroll","Cursed Manuscript Scrap"]	
 	},
     {	
 		"Battle":"Traces of Battle", 
