@@ -396,12 +396,12 @@
 	</div>
 	<div class="usewindow" id="tabs-6">
 		<h2>Comments</h2> 	
-		<dir-disqus disqus-shortname="vindictusinndb" disqus-identifier="{{ItemVariable[whichItem].ItemClass|lowercase}}"></dir-disqus>
+		<div disqus="id"></div>
 			
 			<script>
 			var disqus_config = function () {
-				PageID = $('.itemdetail').attr('value') // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-				this.page.identifier = PageID // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				this.page.url = $('.itemdetail').attr('value');  // Replace PAGE_URL with your page's canonical URL variable
+				this.page.identifier = $('.itemdetail').attr('value') // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 			};
 			(function() { // DON'T EDIT BELOW THIS LINE
 				var d = document, s = d.createElement('script');
