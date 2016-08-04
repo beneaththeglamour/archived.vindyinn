@@ -1062,12 +1062,12 @@
     {	
 		"Battle":"Garden of Tears", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Regina Boots Accessory","Regina's Feather: Weapon","Regina Necklace Piece","Regina Head Piece Fragment","Bingo Ticket","Regina Leaf Wrist Guard","Regina's Feather: Chest Armor","Regina's Feather: Head Armor","Regina's Feather: Feet Armor","Regina's Feather: Leg Armor","Regina's Feather: Hand Armor","Regina's Feather: Giant Shield","Regina's Feather: Shield"]	
 	},
     {	
 		"Battle":"Corrupted Queen", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Regina Boots Accessory","Regina's Feather: Weapon","Regina Necklace Piece","Regina Head Piece Fragment","Bingo Ticket","Regina Leaf Wrist Guard","Regina's Feather: Chest Armor","Regina's Feather: Head Armor","Regina's Feather: Feet Armor","Regina's Feather: Leg Armor","Regina's Feather: Hand Armor","Regina's Feather: Giant Shield","Regina's Feather: Shield"]	
 	},
     {	
 		"Battle":"Island Ruins", 
