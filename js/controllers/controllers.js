@@ -889,8 +889,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								SetUpViewer()
 							})								
 					$('#tabs').tabs();
+					DISQUS.reset()
 					PageID = $('.itemdetail').attr('value')
-					var disqus_config = function () {
+						var disqus_config = function () {
 						this.page.url = window.location.href // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 						this.page.identifier = PageID // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 					};
@@ -900,6 +901,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						s.setAttribute('data-timestamp', +new Date());
 						(d.head || d.body).appendChild(s);
 					})();
+					
 }, 500);
 			}); 
 		}]
