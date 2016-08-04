@@ -399,10 +399,9 @@
 		<div disqus="id"></div>
 			
 			<script>
-			Hello = '{{ItemVariable[whichItem].ItemClass|lowercase}}'
 						var disqus_config = function () {
 							this.page.url = window.location.href // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-							this.page.identifier = '{{ItemVariable[whichItem].ItemClass|lowercase}}' // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+							this.page.identifier = window.location.hash // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 						};
 						(function() { // DON'T EDIT BELOW THIS LINE
 							var d = document, s = d.createElement('script');
