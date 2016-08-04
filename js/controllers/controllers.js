@@ -889,16 +889,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								SetUpViewer()
 							})								
 					$('#tabs').tabs();
-					var disqus_config = function () {
-							this.page.url = window.location.href // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-							this.page.identifier = $('.itemdetail').attr('value') // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-						};
-						(function() { // DON'T EDIT BELOW THIS LINE
-							var d = document, s = d.createElement('script');
-							s.src = '//vindictusinndb.disqus.com/embed.js';
-							s.setAttribute('data-timestamp', +new Date());
-							(d.head || d.body).appendChild(s);
-						})();
+					DISQUS.reset({
+					  reload: true,
+					  config: function () {  
+						this.page.identifier = $('.itemdetail').attr('value');  
+						this.page.url = window.location.href;
+					  }
+					});
 					
 }, 500);
 			}); 
