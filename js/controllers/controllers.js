@@ -889,8 +889,8 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 								SetUpViewer()
 							})								
 					$('#tabs').tabs();
+					PageID = $('.itemdetail').attr('value')
 					var disqus_config = function () {
-						PageID = $('.itemdetail').attr('value') // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 						this.page.identifier = PageID // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 					};
 					(function() { // DON'T EDIT BELOW THIS LINE
