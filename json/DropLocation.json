@@ -1,8 +1,8 @@
-[
+﻿[
     {	
 		"Battle":"Mercenary Training Site",
 		"Class":"quest_gnoll_watchman",
-		"Drops":["Empty Bottle","Spear","Wood Plank"]	
+		"Drops":["Empty Bottle","Spear","Wood Plank","Small Bomb"]	
 	},
     {	
 		"Battle":"Fomorian Emblem", 
