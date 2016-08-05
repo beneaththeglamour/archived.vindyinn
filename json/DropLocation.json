@@ -732,7 +732,7 @@
     {	
 		"Battle":"Serpent King Lakoria", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Lakoria Hide","Lakoria Stomach Exoskeleton","Red Lakoria Poison Flask","Bingo Ticket","Lakoria Tail"]	
 	},
     {	
 		"Battle":"Earth Shaker", 
@@ -962,7 +962,7 @@
     {	
 		"Battle":"God of Death", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Cromm Cruaich Fauld","Cromm Cruaich Staff Fragment","Bingo Ticket"]	
 	},
     {	
 		"Battle":"Autumn Reed Bed", 
