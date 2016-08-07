@@ -31,7 +31,6 @@ LoadModel = function() {
 			texture.repeat.set( 1, 1 );
         material = new THREE.MeshFaceMaterial([
 			new THREE.MeshPhongMaterial( { map: texture, shininess:100, specular:0xffffff  }),
-			new THREE.MeshPhongMaterial( { map: texture2, shininess:100, specular:0xffffff  }),
 		]);
 	}
 }
