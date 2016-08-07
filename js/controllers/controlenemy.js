@@ -29,6 +29,7 @@ EnemyControllers.controller("ListEnemyController", ['$scope','$http',
 							$.getScript( menu, function() {
 								MenuList()
 							})	
+							$('.scopecontain').show()
 						}, 200);
 			}); 
 		}]
@@ -77,6 +78,7 @@ EnemyControllers.controller("DetailsEnemyController", ['$scope','$http','$routeP
 							$.getScript( menu, function() {
 								MenuList()
 							})	
+					$('.scopecontain').show()
 						}, 200);
 			}); 
 		}]

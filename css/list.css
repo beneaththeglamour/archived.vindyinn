@@ -130,6 +130,7 @@ color: #ddd;}
 }
 .scopecontain {
 	overflow:visible !important;
+	display:none;
 }
 .hidetooltip .border {
 	background: rgba(24, 24, 24, 0.95);

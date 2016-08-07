@@ -21,6 +21,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								MenuList()
 							})	
 							
+						$('.scopecontain').show()
+							
 	
 }, 200);
 			}); 
@@ -98,7 +100,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$.getScript( menu, function() {
 								MenuList()
 							})	
-					
+					$('.scopecontain').show()
 					
 }, 200);
 			}); 

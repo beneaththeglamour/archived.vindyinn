@@ -47,6 +47,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$.getScript( menu, function() {
 								MenuList()
 							})	
+							$('.scopecontain').show()
 							
 	
 }, 200);
@@ -177,6 +178,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						this.page.url = window.location.href;
 					  }
 					});
+					$('.scopecontain').show()
 					
 }, 200);
 			}); 
