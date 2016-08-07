@@ -7,6 +7,10 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
   when('/list', {
     template: '<table class="itemtable" style="table-layout:fixed"> '+
 '	<col style="width:65px"> '+
+'	<col style="width:450px"> '+
+'	<col style="width:250px"> '+
+'	<col style="width:250px"> '+
+'	<col style="width:250px"> '+
 '	<thead> 	'+
 '		<th class="itemcol"></th> 	'+
 '		<th width="20%">Name</th> 	'+
