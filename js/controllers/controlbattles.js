@@ -24,6 +24,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								BattleLocation()
 									console.log('DataTable loaded.')
 											$('.itemtable').DataTable();
+											$('.scopecontain').show()
 							})	
 								
 							})	
@@ -31,7 +32,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$.getScript( menu, function() {
 								MenuList()
 							})	
-							$('.scopecontain').show()
 	
 }, 200);
 			}); 
