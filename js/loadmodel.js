@@ -24,4 +24,13 @@ LoadModel = function() {
 			new THREE.MeshLambertMaterial( { map: texture}),
 		]);
 	}
+	if (finalreplace.indexOf("Black_Hammer_Bastard_Sword") != -1) {
+		texture = THREE.ImageUtils.loadTexture('/viewer/texture/bastardsword_blackhammer.jpg'),
+			texture.wrapS = THREE.RepeatWrapping;
+			texture.wrapT = THREE.RepeatWrapping;
+			texture.repeat.set( 1, 1 );
+        material = new THREE.MeshFaceMaterial([
+			new THREE.MeshPhongMaterial( { map: texture2, shininess:100, specular:0xffffff  }),
+		]);
+	}
 }
