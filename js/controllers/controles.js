@@ -209,6 +209,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 										"order": [[ 1, "asc" ]]
 									});
 							}
+							$('.scopecontain').show()
 						});
 									
 						
@@ -216,7 +217,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$.getScript( menu, function() {
 								MenuList()
 							})	
-				$('.scopecontain').show()
+				
 	
 }, 200);
 			}); 

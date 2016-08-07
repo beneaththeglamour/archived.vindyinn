@@ -24,12 +24,13 @@ EnemyControllers.controller("ListEnemyController", ['$scope','$http',
 								$('table').DataTable({
 									"order": [[ 0, "asc" ]]
 								});
+								$('.scopecontain').show()
 							})	
 						var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
 							})	
-							$('.scopecontain').show()
+							
 						}, 200);
 			}); 
 		}]

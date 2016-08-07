@@ -42,12 +42,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								
 								console.log('DataTable loaded.')
 								$('.itemtable').DataTable();
+								$('.scopecontain').show()
 							})	
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
 							})	
-							$('.scopecontain').show()
+							
 							
 	
 }, 200);

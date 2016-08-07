@@ -324,12 +324,12 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				var url = "/js/descriptionsV2.js";
 							$.getScript( url, function() {
 								RunningDescriptions()
+								$('.scopecontain').show()
 							})
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
 							})	
-				$('.scopecontain').show()
 }, 200);
 			}); 
 		}]
