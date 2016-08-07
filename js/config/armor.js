@@ -7,7 +7,15 @@ ItemApp.config(['$locationProvider', '$routeProvider', function($locationProvide
   when('/list', {
     template: '<table class="itemtable" style="table-layout:fixed">'+
 	'<col style="width:67px">'+
-	'<col style="width:250px">'+
+	'<col style="width:450px">'+
+	'<col style="width:110px">'+
+	'<col style="width:90px">'+
+	'<col style="width:90px">'+
+	'<col style="width:90px">'+
+	'<col style="width:90px">'+
+	'<col style="width:90px">'+
+	'<col style="width:90px">'+
+	'<col style="width:90px">'+
 	'<thead> 	<th class="itemcol"></th> 	<th>Name</th> <th>Trade</th>	<th>Level</th> 	<th>DEF</th><th>STR</th><th>AGI</th><th>INT</th><th>WIL</th><th>RES</th> </thead> <tbody> 	<tr class="itemlist" ng-repeat="item in ItemVariable | filter : ' + filter + '"> 		<td><img class="tableicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{item.Icon}}" style="background-image:url(/images/icons/{{item.Icon}}.png)"/></td></td> 		<td class="name" width="20%"><a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(item)}}" class="rare{{item.Rarity}} linkname" value="{{item.Name}}">{{item.Name}}</a>'+
 	'<div class="hidetooltip"><div class="border" id="{{item.Name}}">'+ 	
 	'						<div class="itemtooltip" value="{{item.ItemClass|lowercase}}">  				 		'+
