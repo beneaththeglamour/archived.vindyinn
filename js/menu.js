@@ -280,7 +280,7 @@ $.fn.menumaker = function(options) {
   
   $("#cssmenu").menumaker({
     title: "Navigation",
-    format: "dropdown"
+    format: "multitoggle"
 	});
 
 console.log('CSSMenu Up')
