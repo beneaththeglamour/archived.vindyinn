@@ -1,4 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+.home {
+    color: #c64f42 !important;
+}
     #cssmenu,
     #cssmenu ul,
     #cssmenu ul li,
@@ -29,7 +32,7 @@
 }
 #cssmenu {
   font-family: Lato, sans-serif;
-  background: #333333;
+  background: #282828;
   z-index:999;
   width:100%;
 }
