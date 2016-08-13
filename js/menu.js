@@ -55,6 +55,8 @@ MenuList = function() {
 					'<li><a href="/weapon/twin-spears">Twin Spears</a></li>'+
 					'<li><a href="/weapon/sword">Sword</a></li>'+
 					'<li><a href="/weapon/long-hammer">Long Hammer</a></li>'+
+					'<li><a href="/weapon/shield">Shield</a></li>'+
+					'<li><a href="/weapon/giant-shield">Giant Shield</a></li>'+
 					'<li><a href="/weapon/staff">Staff</a></li>'+
 					'<li><a href="/weapon/scythe">Scythe</a></li>'+
 					'<li><a href="/weapon/pillar">Pillar</a></li>'+
@@ -65,6 +67,7 @@ MenuList = function() {
 					'<li><a href="/weapon/glaive">Glaive</a></li>'+
 					'<li><a href="/weapon/greatswords">Greatsword</a></li>'+
 					'<li><a href="/weapon/spellsword">Spellsword</a></li>'+
+					'<li><a href="/weapon/focus">Focus</a></li>'+
 					'<li><a href="/weapon/phantom-daggers">Phantom Daggers</a></li>'+
 					'<li><a href="/weapon/bastard+sword">Bastard Sword</a></li>'+
 				'</ul>'+
