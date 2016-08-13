@@ -762,7 +762,7 @@
     {	
 		"Battle":"From the Depths", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Kraken Tentacle Spike","Bingo Ticket","Kraken Ink","Kraken Fang","Kraken Mantle","Masterpiece Bracelet Box","Kraken Sucker"]	
 	},
     {	
 		"Battle":"Stormy Seas", 
@@ -807,7 +807,7 @@
     {	
 		"Battle":"Princess of the Desert", 
 		"Class":"quest_",
-		"Drops":[]	
+		"Drops":["Twilight Desert Grass","Bingo Ticket","Twilight Essence","Desert Sand Rose","Quintine Sand","Hieroglyph Fragment"]	
 	},
     {	
 		"Battle":"Guardian", 
