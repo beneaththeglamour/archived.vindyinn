@@ -9,46 +9,6 @@ MenuList = function() {
 	'<li><a>Equipment</a>'+
 		'<ul>'+
 			'<li><a href="/set">Equipment Sets</a></li>'+
-			'<li><a>Armor</a>'+
-				'<ul>'+
-					'<li><a href="/armor/heavy-armor">Heavy Armor</a>'+
-						'<ul>'+
-							'<li><a href="/armor/heavy/helm">Helm</a>'+
-							'<li><a href="/armor/heavy/tunic">Tunic</a>'+
-							'<li><a href="/armor/heavy/pants">Pants</a>'+
-							'<li><a href="/armor/heavy/boots">Boots</a>'+
-							'<li><a href="/armor/heavy/gloves">Gloves</a>'+
-						'</ul>'+
-					'</li>'+
-					'<li><a href="/armor/plate-armor">Plate Armor</a>'+
-						'<ul>'+
-							'<li><a href="/armor/plate/helm">Helm</a>'+
-							'<li><a href="/armor/plate/tunic">Tunic</a>'+
-							'<li><a href="/armor/plate/pants">Pants</a>'+
-							'<li><a href="/armor/plate/boots">Boots</a>'+
-							'<li><a href="/armor/plate/gloves">Gloves</a>'+
-						'</ul>'+
-					'</li>'+
-					'<li><a href="/armor/light-armor">Light Armor</a>'+
-						'<ul>'+
-							'<li><a href="/armor/light/helm">Helm</a>'+
-							'<li><a href="/armor/light/tunic">Tunic</a>'+
-							'<li><a href="/armor/light/pants">Pants</a>'+
-							'<li><a href="/armor/light/boots">Boots</a>'+
-							'<li><a href="/armor/light/gloves">Gloves</a>'+
-						'</ul>'+
-					'</li>'+
-					'<li><a href="/armor/cloth-armor">Cloth Armor</a>'+
-						'<ul>'+
-								'<li><a href="/armor/cloth/helm">Helm</a>'+
-								'<li><a href="/armor/cloth/tunic">Tunic</a>'+
-								'<li><a href="/armor/cloth/pants">Pants</a>'+
-								'<li><a href="/armor/cloth/boots">Boots</a>'+
-								'<li><a href="/armor/cloth/gloves">Gloves</a>'+
-						'</ul>'+
-					'</li>'+
-				'</ul>'+
-			'</li>'+
 			'<li><a>Weapons</a>'+
 				'<ul>'+
 					'<li><a>Lann</a>'+
@@ -115,6 +75,46 @@ MenuList = function() {
 							'<li><a href="/weapon/bastard+sword">Bastard Sword</a></li>'+
 						'</ul>'+
 					'</li>'+	
+				'</ul>'+
+			'</li>'+
+			'<li><a>Armor</a>'+
+				'<ul>'+
+					'<li><a href="/armor/heavy-armor">Heavy Armor</a>'+
+						'<ul>'+
+							'<li><a href="/armor/heavy/helm">Helm</a>'+
+							'<li><a href="/armor/heavy/tunic">Tunic</a>'+
+							'<li><a href="/armor/heavy/pants">Pants</a>'+
+							'<li><a href="/armor/heavy/boots">Boots</a>'+
+							'<li><a href="/armor/heavy/gloves">Gloves</a>'+
+						'</ul>'+
+					'</li>'+
+					'<li><a href="/armor/plate-armor">Plate Armor</a>'+
+						'<ul>'+
+							'<li><a href="/armor/plate/helm">Helm</a>'+
+							'<li><a href="/armor/plate/tunic">Tunic</a>'+
+							'<li><a href="/armor/plate/pants">Pants</a>'+
+							'<li><a href="/armor/plate/boots">Boots</a>'+
+							'<li><a href="/armor/plate/gloves">Gloves</a>'+
+						'</ul>'+
+					'</li>'+
+					'<li><a href="/armor/light-armor">Light Armor</a>'+
+						'<ul>'+
+							'<li><a href="/armor/light/helm">Helm</a>'+
+							'<li><a href="/armor/light/tunic">Tunic</a>'+
+							'<li><a href="/armor/light/pants">Pants</a>'+
+							'<li><a href="/armor/light/boots">Boots</a>'+
+							'<li><a href="/armor/light/gloves">Gloves</a>'+
+						'</ul>'+
+					'</li>'+
+					'<li><a href="/armor/cloth-armor">Cloth Armor</a>'+
+						'<ul>'+
+								'<li><a href="/armor/cloth/helm">Helm</a>'+
+								'<li><a href="/armor/cloth/tunic">Tunic</a>'+
+								'<li><a href="/armor/cloth/pants">Pants</a>'+
+								'<li><a href="/armor/cloth/boots">Boots</a>'+
+								'<li><a href="/armor/cloth/gloves">Gloves</a>'+
+						'</ul>'+
+					'</li>'+
 				'</ul>'+
 			'</li>'+
 			'<li><a>Outfitters</a>'+
