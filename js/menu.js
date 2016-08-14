@@ -51,25 +51,70 @@ MenuList = function() {
 			'</li>'+
 			'<li><a>Weapons</a>'+
 				'<ul>'+
-					'<li><a href="/weapon/twin-swords">Twin Swords</a></li>'+
-					'<li><a href="/weapon/twin-spears">Twin Spears</a></li>'+
-					'<li><a href="/weapon/sword">Sword</a></li>'+
-					'<li><a href="/weapon/long-hammer">Long Hammer</a></li>'+
-					'<li><a href="/weapon/shield">Shield</a></li>'+
-					'<li><a href="/weapon/giant-shield">Giant Shield</a></li>'+
-					'<li><a href="/weapon/staff">Staff</a></li>'+
-					'<li><a href="/weapon/scythe">Scythe</a></li>'+
-					'<li><a href="/weapon/pillar">Pillar</a></li>'+
-					'<li><a href="/weapon/cestus">Cestus</a></li>'+
-					'<li><a href="/weapon/bow">Bow</a></li>'+
-					'<li><a href="/weapon/cross-gun">Cross Gun</a></li>'+
-					'<li><a href="/weapon/twin-chainblades">Twin Chainblades</a></li>'+
-					'<li><a href="/weapon/glaive">Glaive</a></li>'+
-					'<li><a href="/weapon/greatswords">Greatsword</a></li>'+
-					'<li><a href="/weapon/spellsword">Spellsword</a></li>'+
-					'<li><a href="/weapon/focus">Focus</a></li>'+
-					'<li><a href="/weapon/phantom-daggers">Phantom Daggers</a></li>'+
-					'<li><a href="/weapon/bastard+sword">Bastard Sword</a></li>'+
+					'<li><a>Lann</a>'+
+						'<ul>'+
+							'<li><a href="/weapon/twin-swords">Twin Swords</a></li>'+
+							'<li><a href="/weapon/twin-spears">Twin Spears</a></li>'+
+							'</ul>'+
+					'</li>'+	
+					'<li><a>Fiona</a>'+
+						'<ul>'+
+							'<li><a href="/weapon/sword">Sword</a></li>'+
+							'<li><a href="/weapon/long-hammer">Long Hammer</a></li>'+
+							'<li><a href="/weapon/shield">Shield</a></li>'+
+							'<li><a href="/weapon/giant-shield">Giant Shield</a></li>'+
+							'</ul>'+
+					'</li>'+	
+					'<li><a>Evie</a>'+
+						'<ul>'+
+							'<li><a href="/weapon/staff">Staff</a></li>'+
+							'<li><a href="/weapon/scythe">Scythe</a></li>'+
+							'</ul>'+
+					'</li>'+	
+					'<li><a>Karok</a>'+
+						'<ul>'+
+							'<li><a href="/weapon/pillar">Pillar</a></li>'+
+							'<li><a href="/weapon/cestus">Cestus</a></li>'+
+							'</ul>'+
+					'</li>'+	
+					'<li><a>Kai</a>'+
+						'<ul>'+
+							'<li><a href="/weapon/bow">Bow</a></li>'+
+							'<li><a href="/weapon/cross-gun">Cross Gun</a></li>'+
+							'</ul>'+
+					'</li>'+	
+					'<li><a>Vella</a>'+
+						'<ul>'+
+							'<li><a href="/weapon/twin-chainblades">Twin Chainblades</a></li>'+
+							'<li><a href="/weapon/twin-swords">Twin Swords</a></li>'+
+							'</ul>'+
+					'</li>'+	
+					'<li><a>Lynn</a>'+
+						'<ul>'+
+							'<li><a href="/weapon/glaive">Glaive</a></li>'+
+							'</ul>'+
+					'</li>'+	
+					'<li><a>Hurk</a>'+
+						'<ul>'+
+							'<li><a href="/weapon/greatswords">Greatsword</a></li>'+
+							'</ul>'+
+					'</li>'+	
+					'<li><a>Arisha</a>'+
+						'<ul>'+
+							'<li><a href="/weapon/spellsword">Spellsword</a></li>'+
+							'<li><a href="/weapon/focus">Focus</a></li>'+
+							'</ul>'+
+					'</li>'+	
+					'<li><a>Sylas</a>'+
+						'<ul>'+
+							'<li><a href="/weapon/phantom-daggers">Phantom Daggers</a></li>'+
+							'</ul>'+
+					'</li>'+	
+					'<li><a>Delia</a>'+
+						'<ul>'+
+							'<li><a href="/weapon/bastard+sword">Bastard Sword</a></li>'+
+						'</ul>'+
+					'</li>'+	
 				'</ul>'+
 			'</li>'+
 			'<li><a>Outfitters</a>'+
