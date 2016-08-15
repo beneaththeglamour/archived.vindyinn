@@ -42,8 +42,9 @@
 .ttw-music-player .album-cover .img,
 .ttw-music-player .album-cover .highlight {
     display: block;
-    height: 125px;
-    width: 125px;
+    height: 325px;
+	width: 1300px;
+	position: absolute;
 }
 
 .ttw-music-player .album-cover img,
@@ -59,9 +60,9 @@
 /** Track Info **/
 .ttw-music-player .track-info {
     width: 215px;
-    margin: 8px 0 0 30px;
-    float: left;
-    font-size: 12px;
+	margin: 100px 0 0 270px;
+	position: absolute;
+	font-size: 12px;
 }
 
 .ttw-music-player .track-info p {
@@ -116,8 +117,8 @@
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     background: transparent url(/js/jplayer/images/player-bg.png) repeat 0 0 scroll;
-    float: left;
-    margin: 12px 0 0 30px;
+    position: absolute;
+	margin: 120px 0 0 500px;
 }
 
 .ttw-music-player .player-controls .main {
@@ -217,6 +218,7 @@
     background: transparent url(/js/jplayer/images/tracklist-bg.png) repeat 0 0 scroll;
     color: #999;
     font-size: 12px;
+	margin-top: 300px;
 }
 
 .ttw-music-player .tracklist ol {
