@@ -39,7 +39,7 @@ LoadModel = function() {
 			texture.wrapT = THREE.RepeatWrapping;
 			texture.repeat.set( 1, 1 );
         material = new THREE.MeshFaceMaterial([
-			new THREE.MeshPhongMaterial( { map: texture, shininess:100, specular:0xffffff  }),
+			new THREE.MeshLambertMaterial( { map: texture, shininess:100, specular:0xffffff  }),
 		]);
 	}
 }
