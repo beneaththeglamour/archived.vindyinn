@@ -6,8 +6,6 @@ var myPlaylist = [
         title:'Sample',
         artist:'Sample',
         rating:4,
-        buy:'#',
-        price:'0.99',
         duration:'0:30',
         cover:'mix/1.png'
     },
@@ -17,8 +15,6 @@ var myPlaylist = [
         title:'Next One',
         artist:'Sample',
         rating:4,
-        buy:'#',
-        price:'0.99',
         duration:'0:30',
         cover:'mix/1.png'
     }
