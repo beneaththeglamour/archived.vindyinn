@@ -33,4 +33,13 @@ LoadModel = function() {
 			new THREE.MeshPhongMaterial( { map: texture, shininess:100, specular:0xffffff  }),
 		]);
 	}
+	if (finalreplace.indexOf("Nightmare_Bastard_Sword") != -1) {
+		texture = THREE.ImageUtils.loadTexture('/viewer/texture/bastardsword_bloodlord.jpg'),
+			texture.wrapS = THREE.RepeatWrapping;
+			texture.wrapT = THREE.RepeatWrapping;
+			texture.repeat.set( 1, 1 );
+        material = new THREE.MeshFaceMaterial([
+			new THREE.MeshPhongMaterial( { map: texture, shininess:100, specular:0xffffff  }),
+		]);
+	}
 }
