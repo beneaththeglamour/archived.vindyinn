@@ -89,7 +89,7 @@ var myPlaylist = [
         cover:'   '
     },
 	 {
-        mp3:'  ',
+        mp3:'http://picosong.com/media/songs/f540a51c92228869901acb397b694c21.mp3',
         title:'Braha',
         artist:'Vindictus',
         rating:5,
