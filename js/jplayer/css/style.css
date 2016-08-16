@@ -76,13 +76,14 @@
 }
 
 .ttw-music-player .artist-outer {
-    color: #727272;
+    color: #E3E3E3;
     font-family: 'Lato Italic', arial, sans-serif;
     font-style: italic;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
 }
 
 .ttw-music-player .artist {
-    color: #999;
+    color: #E3E3E3;
     font-family: 'Lato', arial, sans-serif;
     margin-left: 4px;
 }
