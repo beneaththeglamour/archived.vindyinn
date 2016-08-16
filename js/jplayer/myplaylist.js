@@ -6,7 +6,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'1:59',
-        cover:'http://i.imgur.com/undefined.jpg'
+        cover:'http://i.imgur.com/EtuW0tc.jpg'
     },
 	 {
         mp3:'mix/1.mp3',
