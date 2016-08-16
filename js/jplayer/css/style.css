@@ -13,7 +13,7 @@
 .ttw-music-player .album-cover {
     position: relative;
     float: left;
-    background: #333 url(/js/jplayer/images/album-cover-bg.jpg) no-repeat 0 0 scroll;;
+    background: #333;
 }
 
 .ttw-music-player .album-cover .img {

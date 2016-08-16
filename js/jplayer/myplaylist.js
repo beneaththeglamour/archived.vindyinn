@@ -15,5 +15,13 @@ var myPlaylist = [
         rating:5,
         duration:'3:19',
         cover:'http://i.imgur.com/qsNtBHt.jpg'
+    },
+	 {
+        mp3:'https://a.tumblr.com/tumblr_obzf59voG41vdwdpyo1.mp3',
+        title:'Fruit Fight',
+        artist:'Vindictus',
+        rating:5,
+        duration:'3:03',
+        cover:'http://i.imgur.com/aJGGsJq.jpg'
     }
 ];
