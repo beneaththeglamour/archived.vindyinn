@@ -33,9 +33,11 @@
 
 	<script type="text/javascript">
         $(document).ready(function(){
+            var description = 'Vindictus';
 
             $('.ostplayer').ttwMusicPlayer(myPlaylist, {
                 autoPlay:false, 
+                description:description,
                 jPlayer:{
                     swfPath:'/js/jplayer/swf' //You need to override the default swf path any time the directory structure changes
                 }
