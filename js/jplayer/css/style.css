@@ -60,6 +60,7 @@
 	margin: 100px 0 0 270px;
 	position: absolute;
 	font-size: 12px;
+	text-align:right;
 }
 
 .ttw-music-player .track-info p {
@@ -89,6 +90,7 @@
 .ttw-music-player .rating {
     width: 75px;
     height: 16px;
+	float:right;
 }
 
 .ttw-music-player .rating-star {
