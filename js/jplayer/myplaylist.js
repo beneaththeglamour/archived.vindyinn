@@ -1,7 +1,7 @@
 var myPlaylist = [
 
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/4a17715ee195b3341f78b7ba0e8c4347.mp3',
         title:'Main Theme',
         artist:'Vindictus',
         rating:5,
@@ -25,7 +25,7 @@ var myPlaylist = [
         cover:'http://i.imgur.com/aJGGsJq.jpg' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/6685c5a1e1498c1773a79016ceef08ce.mp3',
         title:'Colhen Inn',
         artist:'Vindictus',
         rating:5,
@@ -73,7 +73,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/2e5d0589a1c3727c58005c09b5991341.mp3',
         title:'Malina Theme',
         artist:'Vindictus',
         rating:5,
@@ -81,7 +81,7 @@ var myPlaylist = [
         cover:'   '
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/8a7bffb90f21b4218a4458e625c7d9cd.mp3',
         title:'npc_kadan',
         artist:'Vindictus',
         rating:5,
@@ -97,7 +97,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'  ',
+        mp3:'http://picosong.com/media/songs/dba2ba6cdde9bacdae7e595097eed617.mp3',
         title:'bgm_ep7_lizardman',
         artist:'Vindictus',
         rating:5,
@@ -105,7 +105,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'  ',
+        mp3:'http://picosong.com/media/songs/2dcaacab2db59e6dd848b8a2be9ff6e2.mp3',
         title:'Ahglan',
         artist:'Vindictus',
         rating:5,
@@ -113,7 +113,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/6753f54ed626336669a2df7c57c59974.mp3',
         title:'White Whale Inn Theme',
         artist:'Vindictus',
         rating:5,
@@ -121,7 +121,7 @@ var myPlaylist = [
         cover:'   '
     },
 	 {
-        mp3:'  ',
+        mp3:'http://picosong.com/media/songs/6a1496b096262b84aaf7b959688daa52.mp3',
         title:'bgm_ep8_mankind',
         artist:'Vindictus',
         rating:5,
@@ -129,7 +129,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'  ',
+        mp3:'http://picosong.com/media/songs/28495af3ba1770ed2599487ae77f81f0.mp3',
         title:'bgm_ep10_ancient_dragon',
         artist:'Vindictus',
         rating:5,
@@ -137,7 +137,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'  ',
+        mp3:'http://picosong.com/media/songs/48abba6bb04fa09a102f7468cea7e9bc.mp3',
         title:'bgm_ep10_kadan_prev',
         artist:'Vindictus',
         rating:5,
@@ -145,7 +145,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'  ',
+        mp3:'http://picosong.com/media/songs/6a3b860308a52776be318438feac5045.mp3',
         title:'bgm_ep10_kadan',
         artist:'Vindictus',
         rating:5,
@@ -153,7 +153,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'  ',
+        mp3:'http://picosong.com/media/songs/151e37cc0684bbaf462cc2dfdc1dda20.mp3',
         title:'bgm_s2ep1_tomb',
         artist:'Vindictus',
         rating:5,
@@ -161,7 +161,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/b2c1f950645fee52f66151d305ed0a9b.mp3',
         title:'Eochaid',
         artist:'Vindictus',
         rating:5,
@@ -169,7 +169,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/d42ecda7b3bbba96494e17ebe84661de.mp3',
         title:'bgm_s3_woodenelf',
         artist:'Vindictus',
         rating:5,
@@ -177,7 +177,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/ba39a04b7efd12f499acff0689793a86.mp3',
         title:'bgm_boss_ruins',
         artist:'Vindictus',
         rating:5,
@@ -185,7 +185,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/b7674000519cdbd1b10ba5bc26615558.mp3',
         title:'Regina',
         artist:'Vindictus',
         rating:5,
@@ -193,7 +193,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/9efe794132842ae44d6adc2101b62d3a.mp3',
         title:'bgm_mboss_gnoll',
         artist:'Vindictus',
         rating:5,
@@ -201,7 +201,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/16fcf8302cc4c7e2c927939df48c3caa.mp3',
         title:'bgm_mboss_gnoll2',
         artist:'Vindictus',
         rating:5,
@@ -209,7 +209,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/24df7559550fc8ac2eecebdb4969fc30.mp3',
         title:'bgm_mboss_kobold2',
         artist:'Vindictus',
         rating:5,
@@ -217,7 +217,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/8467c9642bfc8b2b6185004e76f41433.mp3',
         title:'bgm_mboss_troll',
         artist:'Vindictus',
         rating:5,
@@ -225,7 +225,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/b0f5771fd3f756c8be75c87a04d6a42c.mp3',
         title:'Lugh Lamhfada',
         artist:'Vindictus',
         rating:5,
@@ -233,7 +233,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/c328c062e19756cdfe538543279f2346.mp3',
         title:'bgm_pvp_p03',
         artist:'Vindictus',
         rating:5,
@@ -241,7 +241,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/10ec2af915b0347a73df2a297ef608e1.mp3',
         title:'Ancient Glas',
         artist:'Vindictus',
         rating:5,
@@ -249,7 +249,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/12a5af680452ce300acac86db9dfc2b6.mp3',
         title:'bgm_mboss_yeti',
         artist:'Vindictus',
         rating:5,
@@ -257,7 +257,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/e6954b556e26284f4f2bf4174eb6d2c4.mp3',
         title:'bgm_s2ep4_1_theothers',
         artist:'Vindictus',
         rating:5,
@@ -265,7 +265,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/83916fac9f5823f71ac286e5be151220.mp3',
         title:'bgm_kadan_start',
         artist:'Vindictus',
         rating:5,
@@ -273,7 +273,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/e2db7642db0075801d6640f5b4b9a5d4.mp3',
         title:'bgm_quest_kalish',
         artist:'Vindictus',
         rating:5,
@@ -281,7 +281,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/595dd043e6ec3bd5c9dcd4bdba2b07e5.mp3',
         title:'bgm_s2ep1',
         artist:'Vindictus',
         rating:5,
@@ -289,7 +289,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/8a9c3f7b2a26c27a86141e55a40e2acb.mp3',
         title:'bgm colhen 01',
         artist:'Vindictus',
         rating:5,
@@ -297,7 +297,7 @@ var myPlaylist = [
         cover:'   '
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/184f8dd0d6b45226dd6bb897e0c579a9.mp3',
         title:'bgm_ep8_glasgavelen',
         artist:'Vindictus',
         rating:5,
@@ -305,7 +305,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/d1bc529a8150086f98304c2db22f78cb.mp3',
         title:'bgm_s2ep2_guardian',
         artist:'Vindictus',
         rating:5,
@@ -313,7 +313,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/8d2d0570776f244574b318aff8a08414.mp3',
         title:'bgm_mboss_ogre',
         artist:'Vindictus',
         rating:5,
@@ -321,7 +321,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/fe527d119dd55b5829915423c4f25f93.mp3',
         title:'bgm_mboss_vampire',
         artist:'Vindictus',
         rating:5,
@@ -329,7 +329,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'   ',
+        mp3:'http://picosong.com/media/songs/87b165e93f76e82d2c2e68864ddee235.mp3',
         title:'Princess Iset',
         artist:'Vindictus',
         rating:5,
@@ -530,7 +530,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'   ',
-        title:'Charles&apos Expedition',
+        title:'Charles&apos; Expedition',
         artist:'Vindictus',
         rating:5,
         duration:'1:13',
