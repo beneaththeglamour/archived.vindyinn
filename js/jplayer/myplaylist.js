@@ -22,6 +22,6 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'3:03',
-        cover:'http://i.imgur.com/aJGGsJq.jpg'
+        cover:'http://i.imgur.com/aJGGsJq.jpg' 
     }
 ];
