@@ -51,10 +51,10 @@
 .ttw-music-player .album-cover .img,
 .ttw-music-player .album-cover .highlight {
     position: absolute;
-    top: 0;
-    left: 0;
-    height:125px;
-    width:125px;
+	top: 0;
+	left: 0;
+	height: 325px;
+	width: 1300px;
 }
 
 /** Track Info **/
@@ -116,7 +116,7 @@
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    background: transparent url(/js/jplayer/images/player-bg.png) repeat 0 0 scroll;
+    background: rgba(92, 92, 92, 0.59) url(/js/jplayer/images/player-bg.png) repeat 0 0 scroll;
     position: absolute;
 	margin: 120px 0 0 500px;
 }
