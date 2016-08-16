@@ -1,12 +1,12 @@
 var myPlaylist = [
 
-    {
-        mp3:'https://a.tumblr.com/tumblr_nxuf1jH4S01rvumgmo1.mp3',
-        title:'Tieve&apos;s Theme',
+	 {
+        mp3:'   ',
+        title:'Main Theme',
         artist:'Vindictus',
         rating:5,
-        duration:'1:59',
-        cover:'http://i.imgur.com/EtuW0tc.jpg'
+        duration:'3:32',
+        cover:'   '
     },
 	 {
         mp3:'https://a.tumblr.com/tumblr_obzeenFlj41vdwdpyo1.mp3',
@@ -23,6 +23,14 @@ var myPlaylist = [
         rating:5,
         duration:'3:03',
         cover:'http://i.imgur.com/aJGGsJq.jpg' 
+    },
+	 {
+        mp3:'   ',
+        title:'Colhen Inn',
+        artist:'Vindictus',
+        rating:5,
+        duration:'2:53',
+        cover:'   '
     },
 	 {
         mp3:'https://a.tumblr.com/tumblr_obzkoxOaYA1vdwdpyo1.mp3',
@@ -65,6 +73,22 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
+        mp3:'   ',
+        title:'Malina Theme',
+        artist:'Vindictus',
+        rating:5,
+        duration:'2:27',
+        cover:'   '
+    },
+	 {
+        mp3:'   ',
+        title:'npc_kadan',
+        artist:'Vindictus',
+        rating:5,
+        duration:'2:23',
+        cover:'   '
+    },
+	 {
         mp3:'  ',
         title:'Braha',
         artist:'Vindictus',
@@ -87,6 +111,14 @@ var myPlaylist = [
         rating:5,
         duration:'2:18',
         cover:'  ' 
+    },
+	 {
+        mp3:'   ',
+        title:'White Whale Inn Theme',
+        artist:'Vindictus',
+        rating:5,
+        duration:'2:17',
+        cover:'   '
     },
 	 {
         mp3:'  ',
@@ -258,6 +290,14 @@ var myPlaylist = [
     },
 	 {
         mp3:'   ',
+        title:'bgm colhen 01',
+        artist:'Vindictus',
+        rating:5,
+        duration:'2:06',
+        cover:'   '
+    },
+	 {
+        mp3:'   ',
         title:'bgm_ep8_glasgavelen',
         artist:'Vindictus',
         rating:5,
@@ -384,6 +424,14 @@ var myPlaylist = [
         duration:'2:00',
         cover:'  ' 
     },
+    {
+        mp3:'https://a.tumblr.com/tumblr_nxuf1jH4S01rvumgmo1.mp3',
+        title:'Tieve&apos;s Theme',
+        artist:'Vindictus',
+        rating:5,
+        duration:'1:59',
+        cover:'http://i.imgur.com/EtuW0tc.jpg'
+    },
 	 {
         mp3:'   ',
         title:'bgm_mboss_kobold',
@@ -458,6 +506,14 @@ var myPlaylist = [
     },
 	 {
         mp3:'   ',
+        title:'bgm kadanvsshakal',
+        artist:'Vindictus',
+        rating:5,
+        duration:'1:48',
+        cover:'  ' 
+    },
+	 {
+        mp3:'   ',
         title:'bgm_ep8_storyingkells',
         artist:'Vindictus',
         rating:5,
@@ -514,6 +570,22 @@ var myPlaylist = [
     },
 	 {
         mp3:'   ',
+        title:'bgm quest start',
+        artist:'Vindictus',
+        rating:5,
+        duration:'1:00',
+        cover:'  ' 
+    },
+	 {
+        mp3:'   ',
+        title:'bgm quest success',
+        artist:'Vindictus',
+        rating:5,
+        duration:'1:00',
+        cover:'  ' 
+    },
+	 {
+        mp3:'   ',
         title:'Succubus Queen&apos;s Nightmare',
         artist:'Vindictus',
         rating:5,
@@ -546,6 +618,14 @@ var myPlaylist = [
     },
 	 {
         mp3:'   ',
+        title:'bgm prologue battle',
+        artist:'Vindictus',
+        rating:5,
+        duration:'0:33',
+        cover:'  ' 
+    },
+	 {
+        mp3:'   ',
         title:'bgm_exp1_memory',
         artist:'Vindictus',
         rating:5,
@@ -566,6 +646,14 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'0:27',
+        cover:'  ' 
+    },
+	 {
+        mp3:'   ',
+        title:'bgm quest success 02',
+        artist:'Vindictus',
+        rating:5,
+        duration:'0:23',
         cover:'  ' 
     },
 	 {
