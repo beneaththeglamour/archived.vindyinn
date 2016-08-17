@@ -34,7 +34,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'https://a.tumblr.com/tumblr_obzkoxOaYA1vdwdpyo1.mp3',
-        title:'bgm_elcu_end',
+        title:'Elchulus (Ending)',
         artist:'Vindictus',
         rating:5,
         duration:'2:50',
@@ -42,7 +42,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'https://a.tumblr.com/tumblr_oc0jji6QcV1vdwdpyo1.mp3',
-        title:'bgm_mboss_goblin',
+        title:'Goblin (Ainle)',
         artist:'Vindictus',
         rating:5,
         duration:'2:38',
@@ -50,7 +50,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'https://a.tumblr.com/tumblr_oc0jm6Jifw1vdwdpyo1.mp3',
-        title:'bgm_pvp_p02',
+        title:'PvP (Snowball Fight)',
         artist:'Vindictus',
         rating:5,
         duration:'2:30',
@@ -66,7 +66,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'https://a.tumblr.com/tumblr_oc0jt1uen31vdwdpyo1.mp3',
-        title:'bgm_pvp_p01',
+        title:'PvP (Duel)',
         artist:'Vindictus',
         rating:5,
         duration:'2:28',
@@ -82,7 +82,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/8a7bffb90f21b4218a4458e625c7d9cd.mp3',
-        title:'npc_kadan',
+        title:'Keaghan Raid Theme',
         artist:'Vindictus',
         rating:5,
         duration:'2:23',
@@ -98,7 +98,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/dba2ba6cdde9bacdae7e595097eed617.mp3',
-        title:'bgm_ep7_lizardman',
+        title:'Thor',
         artist:'Vindictus',
         rating:5,
         duration:'2:19',
@@ -106,7 +106,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/2dcaacab2db59e6dd848b8a2be9ff6e2.mp3',
-        title:'Ahglan',
+        title:'Ahglan the Golem',
         artist:'Vindictus',
         rating:5,
         duration:'2:18',
@@ -122,7 +122,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/6a1496b096262b84aaf7b959688daa52.mp3',
-        title:'bgm_ep8_mankind',
+        title:'Cloyan and Siberin',
         artist:'Vindictus',
         rating:5,
         duration:'2:16',
@@ -130,7 +130,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/28495af3ba1770ed2599487ae77f81f0.mp3',
-        title:'bgm_ep10_ancient_dragon',
+        title:'Ancient Dragon',
         artist:'Vindictus',
         rating:5,
         duration:'2:15',
@@ -138,7 +138,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/48abba6bb04fa09a102f7468cea7e9bc.mp3',
-        title:'bgm_ep10_kadan_prev',
+        title:'Keaghan (First Phase)',
         artist:'Vindictus',
         rating:5,
         duration:'2:15',
@@ -146,7 +146,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/6a3b860308a52776be318438feac5045.mp3',
-        title:'bgm_ep10_kadan',
+        title:'Keaghan Theme',
         artist:'Vindictus',
         rating:5,
         duration:'2:12',
@@ -154,7 +154,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/151e37cc0684bbaf462cc2dfdc1dda20.mp3',
-        title:'bgm_s2ep1_tomb',
+        title:'Ship Graveyard',
         artist:'Vindictus',
         rating:5,
         duration:'2:12',
@@ -162,7 +162,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/b2c1f950645fee52f66151d305ed0a9b.mp3',
-        title:'Eochaid',
+        title:'Infested Eochaid',
         artist:'Vindictus',
         rating:5,
         duration:'2:11',
@@ -170,7 +170,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/d42ecda7b3bbba96494e17ebe84661de.mp3',
-        title:'bgm_s3_woodenelf',
+        title:'Wooded Elf',
         artist:'Vindictus',
         rating:5,
         duration:'2:11',
@@ -178,7 +178,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/ba39a04b7efd12f499acff0689793a86.mp3',
-        title:'bgm_boss_ruins',
+        title:'Ruins of Sanctity',
         artist:'Vindictus',
         rating:5,
         duration:'2:11',
@@ -194,7 +194,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/9efe794132842ae44d6adc2101b62d3a.mp3',
-        title:'bgm_mboss_gnoll',
+        title:'Perilous Ruins',
         artist:'Vindictus',
         rating:5,
         duration:'2:11',
@@ -202,7 +202,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/16fcf8302cc4c7e2c927939df48c3caa.mp3',
-        title:'bgm_mboss_gnoll2',
+        title:'Gnoll Chieftain',
         artist:'Vindictus',
         rating:5,
         duration:'2:11',
@@ -210,7 +210,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/24df7559550fc8ac2eecebdb4969fc30.mp3',
-        title:'bgm_mboss_kobold2',
+        title:'Kobold',
         artist:'Vindictus',
         rating:5,
         duration:'2:10',
@@ -218,7 +218,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/8467c9642bfc8b2b6185004e76f41433.mp3',
-        title:'bgm_mboss_troll',
+        title:'Troll',
         artist:'Vindictus',
         rating:5,
         duration:'2:09',
@@ -234,7 +234,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/c328c062e19756cdfe538543279f2346.mp3',
-        title:'bgm_pvp_p03',
+        title:'PvP (Siege)',
         artist:'Vindictus',
         rating:5,
         duration:'2:09',
@@ -242,7 +242,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/10ec2af915b0347a73df2a297ef608e1.mp3',
-        title:'Ancient Glas',
+        title:'Ancient Glas Ghaibhleann',
         artist:'Vindictus',
         rating:5,
         duration:'2:09',
@@ -250,7 +250,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/12a5af680452ce300acac86db9dfc2b6.mp3',
-        title:'bgm_mboss_yeti',
+        title:'Irukul',
         artist:'Vindictus',
         rating:5,
         duration:'2:08',
@@ -258,7 +258,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/e6954b556e26284f4f2bf4174eb6d2c4.mp3',
-        title:'bgm_s2ep4_1_theothers',
+        title:'The Others',
         artist:'Vindictus',
         rating:5,
         duration:'2:08',
@@ -266,7 +266,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/83916fac9f5823f71ac286e5be151220.mp3',
-        title:'bgm_kadan_start',
+        title:'Keaghan (Battle Start)',
         artist:'Vindictus',
         rating:5,
         duration:'2:07',
@@ -274,7 +274,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/e2db7642db0075801d6640f5b4b9a5d4.mp3',
-        title:'bgm_quest_kalish',
+        title:'Kalis',
         artist:'Vindictus',
         rating:5,
         duration:'2:07',
@@ -282,7 +282,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/595dd043e6ec3bd5c9dcd4bdba2b07e5.mp3',
-        title:'bgm_s2ep1',
+        title:'Crescent Moon Island',
         artist:'Vindictus',
         rating:5,
         duration:'2:07',
@@ -290,7 +290,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/8a9c3f7b2a26c27a86141e55a40e2acb.mp3',
-        title:'bgm colhen 01',
+        title:'Colhen',
         artist:'Vindictus',
         rating:5,
         duration:'2:06',
@@ -298,7 +298,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/184f8dd0d6b45226dd6bb897e0c579a9.mp3',
-        title:'bgm_ep8_glasgavelen',
+        title:'Glas Ghaibhleann',
         artist:'Vindictus',
         rating:5,
         duration:'2:06',
@@ -306,7 +306,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/d1bc529a8150086f98304c2db22f78cb.mp3',
-        title:'bgm_s2ep2_guardian',
+        title:'Sand Guardians',
         artist:'Vindictus',
         rating:5,
         duration:'2:06',
@@ -314,7 +314,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/8d2d0570776f244574b318aff8a08414.mp3',
-        title:'bgm_mboss_ogre',
+        title:'Titan',
         artist:'Vindictus',
         rating:5,
         duration:'2:05',
@@ -322,7 +322,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/fe527d119dd55b5829915423c4f25f93.mp3',
-        title:'bgm_mboss_vampire',
+        title:'Vampire',
         artist:'Vindictus',
         rating:5,
         duration:'2:05',
@@ -354,7 +354,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/5e16a7de416cd70d2bc04936b95c646f.mp3',
-        title:'Waiting PvP',
+        title:'PvP (Lobby)',
         artist:'Vindictus',
         rating:5,
         duration:'2:03',
@@ -378,7 +378,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/ac311f4eece88d31b157e0a46cb7124a.mp3',
-        title:'bgm_s2ep2_grimreaper',
+        title:'Grim Reaper',
         artist:'Vindictus',
         rating:5,
         duration:'2:03',
@@ -386,7 +386,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/094604cbb3583ff3f733912c9193e38e.mp3',
-        title:'bgm_s3ep5_morbus',
+        title:'Morbus',
         artist:'Vindictus',
         rating:5,
         duration:'2:01',
@@ -394,7 +394,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/6e2b75866cf15e48c92ed838cba829df.mp3',
-        title:'bgm_s2ep3_gremlin2',
+        title:'Gremlin',
         artist:'Vindictus',
         rating:5,
         duration:'2:01',
@@ -418,7 +418,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/e7e88a1c9105d63a57a024f3842d49ac.mp3',
-        title:'bgm_s2ep3_puppet',
+        title:'Wood Man',
         artist:'Vindictus',
         rating:5,
         duration:'2:00',
@@ -434,7 +434,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/3acbf963b9a92d6382001072b4d6ca78.mp3',
-        title:'bgm_mboss_kobold',
+        title:'Kobold Chief',
         artist:'Vindictus',
         rating:5,
         duration:'1:59',
@@ -450,7 +450,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/322878c38f58db51ed4e52c3f55f1847.mp3',
-        title:'bgm_boss_icecave',
+        title:'White Tyrant',
         artist:'Vindictus',
         rating:5,
         duration:'1:57',
@@ -474,7 +474,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/2026de4e13d0d9e2a991286c5ec9c1d5.mp3',
-        title:'bgm_ep9_common',
+        title:'Lionotus',
         artist:'Vindictus',
         rating:5,
         duration:'1:55',
@@ -482,7 +482,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/f54f6fb35037a193d49dc3e887142b0c.mp3',
-        title:'Colru',
+        title:'Craftsman Colru',
         artist:'Vindictus',
         rating:5,
         duration:'1:54',
@@ -490,7 +490,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/d15de2c17462d8949096f1cdb99da953.mp3',
-        title:'bgm_rochest_01',
+        title:'Rocheste',
         artist:'Vindictus',
         rating:5,
         duration:'1:50',
@@ -498,7 +498,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/241f2b12ebb5d16b7791fe29bccd81cb.mp3',
-        title:'bgm_mboss_goblin2',
+        title:'Goblin (Fomorian Base)',
         artist:'Vindictus',
         rating:5,
         duration:'1:48',
@@ -506,7 +506,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/d2c696311470facd9ec5098cc8463fdd.mp3',
-        title:'bgm kadanvsshakal',
+        title:'Keaghan versus Shakaar',
         artist:'Vindictus',
         rating:5,
         duration:'1:48',
@@ -514,7 +514,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/1d69311d7224a6e5614f16e04a793ada.mp3',
-        title:'bgm_ep8_storyingkells',
+        title:'Ingkells (Story)',
         artist:'Vindictus',
         rating:5,
         duration:'1:40',
@@ -538,7 +538,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/11fdde2b2ffdc7b31c4e5656b783d241.mp3',
-        title:'bgm_quest_success_03',
+        title:'Victory (Season 3)',
         artist:'Vindictus',
         rating:5,
         duration:'1:07',
@@ -546,7 +546,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/60dde87e177e722ec08d8457e456bba8.mp3',
-        title:'bgm_pvp_arena_battle',
+        title:'PvP (Arena)',
         artist:'Vindictus',
         rating:5,
         duration:'1:06',
@@ -554,7 +554,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/84f0fe8d446e7fc5bcfbd6c690881be1.mp3',
-        title:'bgm_ep8_talkingkells',
+        title:'Ingkells (Talking)',
         artist:'Vindictus',
         rating:5,
         duration:'1:03',
@@ -562,7 +562,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/aa342eaacce22240632c4087eaddf5b7.mp3',
-        title:'bgm_colhen_inn_sereuha',
+        title:'Colhen Inn (Seanna)',
         artist:'Vindictus',
         rating:5,
         duration:'1:01',
@@ -570,15 +570,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/1f31957c11e33af62010bff4f6da4d45.mp3',
-        title:'bgm quest start',
-        artist:'Vindictus',
-        rating:5,
-        duration:'1:00',
-        cover:'  ' 
-    },
-	 {
-        mp3:'http://picosong.com/media/songs/94d026796a67026773ca62daa5797ff0.mp3',
-        title:'bgm quest success',
+        title:'Boat Launch',
         artist:'Vindictus',
         rating:5,
         duration:'1:00',
@@ -594,7 +586,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/973aee2ccfd005015c98a2bef27c13ab.mp3',
-        title:'bgm_dragon_legend',
+        title:'Dragon Prelude',
         artist:'Vindictus',
         rating:5,
         duration:'0:36',
@@ -602,7 +594,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/f5d2d69ea68a4f083e4f1013bc46b434.mp3',
-        title:'bgm_ep7_knight',
+        title:'Knighting Ceremony',
         artist:'Vindictus',
         rating:5,
         duration:'0:35',
@@ -610,7 +602,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/243eae927027b718bf53f62f3a4c76ea.mp3',
-        title:'bgm_rochest_dormitory',
+        title:'Rocheste Dormitory',
         artist:'Vindictus',
         rating:5,
         duration:'0:33',
@@ -618,7 +610,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/dbfcbb54fcd63c44afd71bd66457d5c5.mp3',
-        title:'bgm prologue battle',
+        title:'Prologue',
         artist:'Vindictus',
         rating:5,
         duration:'0:33',
@@ -626,7 +618,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/f6655477bbf1ffee63a5776b06a01957.mp3',
-        title:'bgm_exp1_memory',
+        title:'Memories',
         artist:'Vindictus',
         rating:5,
         duration:'0:28',
@@ -634,7 +626,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/3e8df483a80d25fe650e8b5f4e9e9c4b.mp3',
-        title:'bgm_exp2_memory',
+        title:'Memories (Piano)',
         artist:'Vindictus',
         rating:5,
         duration:'0:28',
@@ -642,7 +634,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/17af131a2b4a11de6cfb3b223076b4e4.mp3',
-        title:'bgm_es6_monster',
+        title:'Twilight Desert (Underground)',
         artist:'Vindictus',
         rating:5,
         duration:'0:27',
@@ -650,7 +642,7 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/efe46c3f9c1d109a905a3ad20c1e6b3b.mp3',
-        title:'bgm quest success 02',
+        title:'Battle Completion',
         artist:'Vindictus',
         rating:5,
         duration:'0:23',
@@ -658,26 +650,10 @@ var myPlaylist = [
     },
 	 {
         mp3:'http://picosong.com/media/songs/840dcc6810cea6d34c800dfd425c6a5c.mp3',
-        title:'Keaghan versus Shakarr',
+        title:'Keaghan versus Shakarr (Short)',
         artist:'Vindictus',
         rating:5,
         duration:'0:11',
-        cover:'  ' 
-    },
-	 {
-        mp3:'http://picosong.com/media/songs/a39ff25e7f160e9622256c164e48551e.mp3',
-        title:'bgm_s2ep4_annubin',
-        artist:'Vindictus',
-        rating:5,
-        duration:'0:10',
-        cover:'  ' 
-    },
-	 {
-        mp3:'http://picosong.com/media/songs/509fdf5349f322b463ac9218eb4a9027.mp3',
-        title:'Heart Beat',
-        artist:'Vindictus',
-        rating:5,
-        duration:'0:02',
         cover:'  ' 
     }
 ];
