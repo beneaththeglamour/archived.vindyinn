@@ -1,13 +1,13 @@
 MonsterName = function(){
 	 $('.enemyname').each(function(){
-		Monster = $(this).attr('value')
+		Monster = $(this).attr('value')		
 		if (Monster ==  "HEROES_MONSTER_NPC_ACTOR_ALICE") {$(this).html("Ellis")}
 		if (Monster ==  "HEROES_MONSTER_NPC_ANCIENT_GLASGAVELEN_GENERAL") {$(this).html("Lord Glas Ghaibhleann")}
 		if (Monster ==  "HEROES_MONSTER_NPC_ATTACKDOG_BIG") {$(this).html("Giant Hound")}
 		if (Monster ==  "HEROES_MONSTER_NPC_ATTACKDOG_INFECTED") {$(this).html("Infected Hounds")}
 		if (Monster ==  "HEROES_MONSTER_NPC_ATTACKDOG_SMALL") {$(this).html("Hound")}
 		if (Monster ==  "HEROES_MONSTER_NPC_ATTACKDOG_SMALL_INGKELLS") {$(this).html("Famished Hound")}
-		if (Monster ==  "HEROES_MONSTER_NPC_ATTACKDOG_SMALL_TOWER") {$(this).html("사냥개")}
+		if (Monster ==  "HEROES_MONSTER_NPC_ATTACKDOG_SMALL_TOWER") {$(this).html("Hound")}
 		if (Monster ==  "HEROES_MONSTER_NPC_BAT_SMALL") {$(this).html("Vampire Bat")}
 		if (Monster ==  "HEROES_MONSTER_NPC_BEAR_DS_GIANT") {$(this).html("Stribog")}
 		if (Monster ==  "HEROES_MONSTER_NPC_BEAR_MINI_GRAY") {$(this).html("Black Bear")}
@@ -42,9 +42,9 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_CRAGDIGGER_RED") {$(this).html("Redmaw Digger")}
 		if (Monster ==  "HEROES_MONSTER_NPC_CRAGDIGGER_SPINE") {$(this).html("Digger Spine")}
 		if (Monster ==  "HEROES_MONSTER_NPC_CRETA_CAPITAN") {$(this).html("Valus")}
-		if (Monster ==  "HEROES_MONSTER_NPC_CRETA_CAPITAN_TOWER") {$(this).html("크레타 카피탄")}
+		if (Monster ==  "HEROES_MONSTER_NPC_CRETA_CAPITAN_TOWER") {$(this).html("Valus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_CRETA_GUARDIAN") {$(this).html("Argus")}
-		if (Monster ==  "HEROES_MONSTER_NPC_CRETA_GUARDIAN_TOWER") {$(this).html("크레타 가디언")}
+		if (Monster ==  "HEROES_MONSTER_NPC_CRETA_GUARDIAN_TOWER") {$(this).html("Argus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_CROMCRUACH_GENERAL") {$(this).html("Cromm Cruaich")}
 		if (Monster ==  "HEROES_MONSTER_NPC_CROMCRUACH_SUMMON") {$(this).html("Cromm Cruaich Phantom")}
 		if (Monster ==  "HEROES_MONSTER_NPC_DESTROYEE_CROMCRUACH") {$(this).html("Grim Reaper Statue")}
@@ -153,10 +153,13 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_11SUMMER_SERVANT") {$(this).html("Goblin Servant")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_11SUMMER_SERVANT_LEADER") {$(this).html("Servant of Twilight")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_11SUMMER_SPEARMAN") {$(this).html("Goblin Spearman")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_ARMY_MUSKETEER") {$(this).html("고블린 머스키티어")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_ARMY_SPEARMAN") {$(this).html("고블린 스피어맨")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_ASSISTANT_GUN") {$(this).html("Goblin Artillery Assistant Instructor")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_ASSISTANT_SPEAR") {$(this).html("Goblin Spear Trainer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_ASSISTANT_SWORD") {$(this).html("Goblin Sword Assistant Instructor")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_BOMBMAN") {$(this).html("Goblin Cannoneer")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_CAPTAIN") {$(this).html("심판단장 자무로프")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_EXTRA_ASSISTANT_GUN") {$(this).html("Goblin Artillery Trainer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_EXTRA_ASSISTANT_SPEAR") {$(this).html("Goblin Spear Trainer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_EXTRA_ASSISTANT_SWORD") {$(this).html("Goblin Sword Trainer")}
@@ -176,16 +179,17 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_HEADSERVANT") {$(this).html("Servant of Hell")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_HEADSERVANT_11SUMMER") {$(this).html("Servant of Hell")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_HOB") {$(this).html("Hobgoblin")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_INFECTEE_SPEARMAN") {$(this).html("창병장 하키쉬")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_INVERSE_FALLENOFFICER") {$(this).html("Fallen Goblin Officer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_INVERSE_SERVANT") {$(this).html("Goblin Servant")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_JAGURSH") {$(this).html("Spear Instructor Jagursh")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_KAKRISH") {$(this).html("Commander Kakrish")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_KAKRISH_GUNNER") {$(this).html("Shooter King Kakrish")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_KAKRISH_TOWER") {$(this).html("사령관 카크리쉬")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_KAKRISH_TOWER") {$(this).html("Commander Kakrish")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_KALISH") {$(this).html("Information Chief Kalis")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_KANJEL") {$(this).html("Information Chief Kanjel")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_LARKEN") {$(this).html("Raiding Party Captain Larken")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_LARKEN_TOWER") {$(this).html("습격단장 라르켄")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_LARKEN_TOWER") {$(this).html("Raiding Party Captain Larken")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_NONCOM") {$(this).html("Goblin Petty Officer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_PROMPUSH") {$(this).html("Explosive Expert Prompush")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_PVP_BLUE_KAKRISH") {$(this).html("Summoned Kakrish")}
@@ -193,7 +197,7 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_PVP_RED_KAKRISH") {$(this).html("Summoned Commander")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_PVP_RED_KAKRISH_SINGLE") {$(this).html("Summoned Commander")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_ROPEREM") {$(this).html("Strategy Chief Roperem")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_ROPEREM_TOWER") {$(this).html("작전장교 로퍼렘")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_ROPEREM_TOWER") {$(this).html("Strategy Chief Roperem")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_SERVANT") {$(this).html("Goblin Servant")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_SERVANT_11SUMMER") {$(this).html("Goblin Servant")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_SERVANT_LEADER") {$(this).html("Servant of Twilight")}
@@ -201,6 +205,7 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_SHAMAN") {$(this).html("Goblin Witch Doctor")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_SPEARMAN") {$(this).html("Goblin Spearman")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_SPEARMAN_11SUMMER") {$(this).html("Goblin Spearman")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_SPECIAL_FORCES") {$(this).html("선발대장 바케노프")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_STRAY_SERVANT") {$(this).html("Servant of Oblivion")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOLEM_AHGLAN") {$(this).html("Ahglan")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GOLEM_COLRU") {$(this).html("Craftsman Colru")}
@@ -263,25 +268,26 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_AKANAN_DARK") {$(this).html("Dark Akanan")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ARCHER") {$(this).html("Guardian Archer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ARCHER_DARK") {$(this).html("Dark Guardian Archer")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ARCHER_DARK_TOWER") {$(this).html("어둠의 수호궁사")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ARCHER_DARK_TOWER") {$(this).html("Dark Guardian Archer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ARCHER_DUNGEON") {$(this).html("Low Guardian Archer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ASSASSIN") {$(this).html("Assassin")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ASSASSIN_CURSE") {$(this).html("Cursed Assassin")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ASSASSIN_DARK") {$(this).html("Dark Assassin")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ASSASSIN_DARK_TOWER") {$(this).html("어둠의 암살자")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ASSASSIN_DARK_TOWER") {$(this).html("Dark Assassin")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ASSASSIN_DEATH") {$(this).html("Deadly Assassin")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_ASSASSIN_DUNGEON") {$(this).html("Low Assassin")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_BAKRAM") {$(this).html("Judge Vakram")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_BAKRAM_TOWER") {$(this).html("심판관 바크람")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_BAKRAM_TOWER") {$(this).html("Judge Vakram")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_IKRIUM") {$(this).html("Commander Ikrium")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_IKRIUM_TOWER") {$(this).html("지휘관 이크리엄")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_IKRIUM_TOWER") {$(this).html("Commander Ikrium")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_SHAMIR") {$(this).html("Advisor Shamir")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_SHAMIR_TOWER") {$(this).html("보좌관 샤미르")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_SHAMIR_TOWER") {$(this).html("Advisor Shamir")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_SOLDIER") {$(this).html("Guardian Soldier")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_SOLDIER_DARK") {$(this).html("Dark Guardian Soldier")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_SOLDIER_DARK_TOWER") {$(this).html("어둠의 수호병사")}
+		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_SOLDIER_DARK_TOWER") {$(this).html("Dark Guardian Soldier")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_SOLDIER_DUNGEON") {$(this).html("Low Guardian Soldier")}
 		if (Monster ==  "HEROES_MONSTER_NPC_GUARDIAN_SOLDIER_HEAL") {$(this).html("Recovering Guardian")}
+		if (Monster ==  "HEROES_MONSTER_NPC_HABITANT_GENERAL") {$(this).html("해비던트")}
 		if (Monster ==  "HEROES_MONSTER_NPC_HARRATSON_CLONER") {$(this).html("Harratson Cloner")}
 		if (Monster ==  "HEROES_MONSTER_NPC_HARRATSON_RUNNER") {$(this).html("Harratson Runner")}
 		if (Monster ==  "HEROES_MONSTER_NPC_HAVAN_GIANT") {$(this).html("Havan")}
@@ -378,6 +384,7 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_JUGGERNAUT_NORMAL") {$(this).html("Juggernaut")}
 		if (Monster ==  "HEROES_MONSTER_NPC_KADAN_DOPPLE") {$(this).html("Keaghan Shade")}
 		if (Monster ==  "HEROES_MONSTER_NPC_KADAN_GENERAL") {$(this).html("Keaghan")}
+		if (Monster ==  "HEROES_MONSTER_NPC_KADAN_SPECIAL") {$(this).html("카단")}
 		if (Monster ==  "HEROES_MONSTER_NPC_KADAN_STATUE_KADAN_DEVIL") {$(this).html("Devil Statue")}
 		if (Monster ==  "HEROES_MONSTER_NPC_KADAN_STATUE_KADAN_GODDESS") {$(this).html("Goddess Statue")}
 		if (Monster ==  "HEROES_MONSTER_NPC_KOBOLD_ALL2_COWARD") {$(this).html("Cowardly Ewynsoch")}
@@ -386,6 +393,7 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_KOBOLD_ALL2_MYSTERIOUS") {$(this).html("Brilliant Emaighsoch")}
 		if (Monster ==  "HEROES_MONSTER_NPC_KOBOLD_ARCHER") {$(this).html("Kobold Archer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_KOBOLD_ARMY_BOWMAN") {$(this).html("코볼트 보우맨")}
+		if (Monster ==  "HEROES_MONSTER_NPC_KOBOLD_ARMY_BURSTERMAN") {$(this).html("코볼트 버스터맨")}
 		if (Monster ==  "HEROES_MONSTER_NPC_KOBOLD_ARMY_FOOTMAN") {$(this).html("코볼트 풋맨")}
 		if (Monster ==  "HEROES_MONSTER_NPC_KOBOLD_BOOMER") {$(this).html("Kobold Bomber")}
 		if (Monster ==  "HEROES_MONSTER_NPC_KOBOLD_CALM") {$(this).html("Calm Ezroch")}
@@ -466,16 +474,16 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_LINOTOSS_GENERAL") {$(this).html("Lionotus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_ASSASIN") {$(this).html("Lizardman Assassin")}
 		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_CHIULIN") {$(this).html("Novice Chiulin")}
-		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_CHIULIN_TOWER") {$(this).html("용사 치울린")}
+		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_CHIULIN_TOWER") {$(this).html("Novice Chiulin")}
 		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_EKINAR") {$(this).html("Assassin Ekinar")}
-		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_EKINAR_TOWER") {$(this).html("암살자 에키나르")}
+		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_EKINAR_TOWER") {$(this).html("Assassin Ekinar")}
 		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_GARWAY") {$(this).html("Fighter Garway")}
-		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_GARWAY_TOWER") {$(this).html("투사 가르웨이")}
+		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_GARWAY_TOWER") {$(this).html("Fighter Garway")}
 		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_INGKARA") {$(this).html("Shadow Shaman Ingkara")}
 		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_KAZGULAM") {$(this).html("Warrior Kazgulam")}
-		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_KAZGULAM_TOWER") {$(this).html("전사 카즈굴람")}
+		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_KAZGULAM_TOWER") {$(this).html("Warrior Kazgulam")}
 		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_KESER") {$(this).html("Chaser Keser")}
-		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_KESER_TOWER") {$(this).html("추적자 케세르")}
+		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_KESER_TOWER") {$(this).html("Chaser Keser")}
 		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_KIRIKAM") {$(this).html("Witch Docter Kirikam")}
 		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_PVP_BLUE_EKINAR") {$(this).html("Summoned Ekinar")}
 		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_PVP_BLUE_EKINAR_SINGLE") {$(this).html("Summoned Ekinar")}
@@ -488,9 +496,9 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_LIZARDMAN_WARRIOR") {$(this).html("Lizardman Warrior")}
 		if (Monster ==  "HEROES_MONSTER_NPC_LUGHLAMHFADA_GENERAL") {$(this).html("Lugh Lamhfada")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_CLOYAN") {$(this).html("Cloyan")}
-		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_CLOYAN_TOWER") {$(this).html("클로얀")}
+		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_CLOYAN_TOWER") {$(this).html("Cloyan")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_CROSSBOWMAN") {$(this).html("Royal Army Crossbow Archer")}
-		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_CROSSBOWMAN_TOWER") {$(this).html("왕국기사단 석궁사수")}
+		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_CROSSBOWMAN_TOWER") {$(this).html("Royal Army Crossbowman")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_CROSSBOWMAN_VARIETY") {$(this).html("Royal Army Crossbow Archer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_E3_2011_INGKELLS") {$(this).html("Ingkells")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_EVY_LV1") {$(this).html("Evie's Doppelganger")}
@@ -532,7 +540,7 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_GUARDER_VARIETY") {$(this).html("Royal Army Guard")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_GUARDER_ZECALLION") {$(this).html("Guardian of Zecallion")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_INGKELLS") {$(this).html("Ingkells")}
-		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_INGKELLS_TOWER") {$(this).html("잉켈스")}
+		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_INGKELLS_TOWER") {$(this).html("Ingkells")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_KALOK_LV1") {$(this).html("Karok's Doppelganger")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_KALOK_LV10") {$(this).html("Karok's Doppelganger")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_KALOK_LV11") {$(this).html("Karok's Doppelganger")}
@@ -556,9 +564,9 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_LETHITA_LV8") {$(this).html("Lann's Doppelganger")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_LETHITA_LV9") {$(this).html("Lann's Doppelganger")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_SILBERIN") {$(this).html("Silberin")}
-		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_SILBERIN_TOWER") {$(this).html("실베린")}
+		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_SILBERIN_TOWER") {$(this).html("Silberin")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_SOLDIER") {$(this).html("Royal Army Soldier")}
-		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_SOLDIER_TOWER") {$(this).html("왕국기사단 병사")}
+		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_SOLDIER_TOWER") {$(this).html("Royal Army Soldier")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MANKIND_SOLDIER_ZECALLION") {$(this).html("Soldier of Zecallion")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MARIONETTE_IRIS") {$(this).html("Succubus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MARIONETTE_SMALL") {$(this).html("Marionette")}
@@ -571,13 +579,14 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_EPIDEMIA_UNIQ") {$(this).html("Epidemius")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_MINI") {$(this).html("Aerophobic Tabes")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_NORMAL") {$(this).html("Morbus")}
-		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_NORMAL_TOWER") {$(this).html("모르부스")}
+		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_NORMAL_TOWER") {$(this).html("Morbus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_PESTIS") {$(this).html("Pestis")}
-		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_PESTIS_TOWER") {$(this).html("페스티스")}
+		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_PESTIS_TOWER") {$(this).html("Pestis")}
+		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_ROCK") {$(this).html("광폭의 모르부스")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_STRONG") {$(this).html("Solid Morbus")}
-		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_STRONG_TOWER") {$(this).html("견고한 모르부스")}
+		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_STRONG_TOWER") {$(this).html("Solid Morbus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_UNSTABLE") {$(this).html("Unstable Morbus")}
-		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_UNSTABLE_TOWER") {$(this).html("불안정한 모르부스")}
+		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_UNSTABLE_TOWER") {$(this).html("Unstable Morbus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OCTOPUS_ACTOR_HEAD") {$(this).html("")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OCTOPUS_ACTOR_LEGS_LONG") {$(this).html("")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OCTOPUS_ACTOR_LEGS_SHORT") {$(this).html("")}
@@ -596,24 +605,27 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_ACTOR_TITAN") {$(this).html("Titan")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_BIBLE") {$(this).html("Ogre Bible")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_BLACKHAMMER") {$(this).html("Warlord Black Hammer")}
-		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_BLACKHAMMER_TOWER") {$(this).html("워로드 블랙해머")}
+		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_BLACKHAMMER_TOWER") {$(this).html("Warlord Black Hammer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_BLOODFIST") {$(this).html("Executor Blood Fist")}
-		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_BLOODFIST_TOWER") {$(this).html("집행자 블러드피스트")}
+		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_BLOODFIST_TOWER") {$(this).html("Executor Blood Fist")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_CENTURION") {$(this).html("Ogre Centurion")}
-		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_CENTURION_TOWER") {$(this).html("오거 센츄리온")}
+		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_CENTURION_TOWER") {$(this).html("Ogre Centurion")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_COMBAT_SHAKAL") {$(this).html("Shining Shakarr")}
+		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_COMBAT_SHAKAL_SPECIAL") {$(this).html("샤이닝 샤칼")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_HEAVY") {$(this).html("Heavy Warrior")}
-		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_HEAVY_TOWER") {$(this).html("헤비워리어")}
+		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_HEAVY_TOWER") {$(this).html("Heavy Warrior")}
+		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_INFECTEE_FURYMACE") {$(this).html("단죄자 퓨리메이스")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_JIRKAL") {$(this).html("Gatekeeper Jirkal")}
-		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_JIRKAL_TOWER") {$(this).html("관문지기 지르칼")}
+		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_JIRKAL_TOWER") {$(this).html("Gatekeeper Jirkal")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_PAX_BLACKHAMMER") {$(this).html("Warlord Black Hammer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_RAGE") {$(this).html("Vehemence")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_REBIRTH_SHAKAL") {$(this).html("Summoned Shining Shakarr")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_RIDDEN") {$(this).html("Controlled Black Hammer")}
-		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_RIDDEN_TOWER") {$(this).html("지배된 블랙해머")}
+		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_RIDDEN_TOWER") {$(this).html("Controlled Black Hammer")}
+		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_SIXEYE") {$(this).html("식스아이")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_TITAN") {$(this).html("Titan")}
 		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_WARRIOR") {$(this).html("Ogre Warrior")}
-		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_WARRIOR_TOWER") {$(this).html("오거 워리어")}
+		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_WARRIOR_TOWER") {$(this).html("Ogre Warrior")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PANTHEUM_NORMAL") {$(this).html("Executioner Pantheum")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PET_BEAR_BROWN") {$(this).html("Brown Bear")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PET_BEAR_PANDA") {$(this).html("Panda Bear")}
@@ -670,6 +682,9 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_PLAYER_ALLY_C_JUNIOR_CHIEFTAIN_CUTE") {$(this).html("끌려온 놀 주니어")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PLAYER_ALLY_CHIEFTAIN_JUNIOR_RED_NEWYEAR") {$(this).html("떡메꾼 치프틴 주니어 대감")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PLAYER_ALLY_CHIEFTAIN_JUNIOR_WHITE_NEWYEAR") {$(this).html("떡메꾼 치프틴 주니어 아씨")}
+		if (Monster ==  "HEROES_MONSTER_NPC_PRIEST_ENCANTO") {$(this).html("델리라티오 인칸토")}
+		if (Monster ==  "HEROES_MONSTER_NPC_PRIEST_MANES_NAMED") {$(this).html("마네스")}
+		if (Monster ==  "HEROES_MONSTER_NPC_PRIEST_PREMO") {$(this).html("델리라티오 프레모")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PROP_GOLEM_FIRE_RANK1") {$(this).html("Fire Golem")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PROP_GOLEM_FIRE_RANK2") {$(this).html("Fire Golem")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PROP_GOLEM_FIRE_RANK3") {$(this).html("Fire Golem")}
@@ -689,7 +704,7 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_PROP_GOLEM_NORMAL_RANK5") {$(this).html("Golem")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PROP_GOLEM_NORMAL_RANK6") {$(this).html("Golem")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PROP_KNIGHT_SMALL") {$(this).html("Knight")}
-		if (Monster ==  "HEROES_MONSTER_NPC_PROP_KNIGHT_SMALL_TOWER") {$(this).html("나이트")}
+		if (Monster ==  "HEROES_MONSTER_NPC_PROP_KNIGHT_SMALL_TOWER") {$(this).html("Knight")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PROP_MONSTER_REVENGER") {$(this).html("Vengeful Langro")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PROTECTEE_GODDESS_EVENT") {$(this).html("Goddess Statue")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PROTECTEE_GODESS_LV1") {$(this).html("Goddess Statue")}
@@ -706,16 +721,16 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_GOBLIN_BOKMOON") {$(this).html("Scout Surtr")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_GOBLIN_MINER") {$(this).html("Wood Miner")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_GOBLIN_MINER_DARK") {$(this).html("Wood Miner")}
-		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_GOBLIN_MINER_TOWER") {$(this).html("광부 목인")}
+		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_GOBLIN_MINER_TOWER") {$(this).html("Wood Miner")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_GOBLIN_VENUKAN") {$(this).html("Elite Commander Venukan")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_GOBLIN_VENUKAN_DARK") {$(this).html("Elite Commander Venukan")}
-		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_GOBLIN_VENUKAN_DARK_TOWER") {$(this).html("상급기사 베누칸")}
-		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_GOBLIN_VENUKAN_TOWER") {$(this).html("상급기사 베누칸")}
+		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_GOBLIN_VENUKAN_DARK_TOWER") {$(this).html("Elite Commander Venukan")}
+		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_GOBLIN_VENUKAN_TOWER") {$(this).html("Elite Commander Venukan")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_CARPENTER") {$(this).html("Wood Carpenter")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_CARPENTER_DARK") {$(this).html("Wood Carpenter")}
-		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_CARPENTER_TOWER") {$(this).html("목수 목인")}
+		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_CARPENTER_TOWER") {$(this).html("Wood Carpenter")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_CHIAKAL") {$(this).html("Overseer Chiakal")}
-		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_CHIAKAL_TOWER") {$(this).html("작업감독 치아칼")}
+		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_CHIAKAL_TOWER") {$(this).html("Overseer Chiakal")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_JORMOON") {$(this).html("Observer Morgue")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_MARKAN") {$(this).html("Foreman Markan")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_MARKAN_DARK") {$(this).html("Foreman Markan")}
@@ -723,17 +738,17 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_MUSHYELLOW") {$(this).html("Puzzling Mushroom")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_MUSPELL") {$(this).html("Steel Muspell")}
 		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_MUSPELL_DARK") {$(this).html("Steel Muspell")}
-		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_MUSPELL_DARK_TOWER") {$(this).html("강철의 무스펠")}
-		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_MUSPELL_TOWER") {$(this).html("강철의 무스펠")}
+		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_MUSPELL_DARK_TOWER") {$(this).html("Steel Muspell")}
+		if (Monster ==  "HEROES_MONSTER_NPC_PUPPET_OGRE_MUSPELL_TOWER") {$(this).html("Steel Muspell")}
 		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_BIG_RUDOLF_RATMAN") {$(this).html("Big Brother Rudolph")}
 		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_DESERT_CAVERATMAN") {$(this).html("Desert Cave Ratman")}
 		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_KERKER") {$(this).html("Trident Master Kerker")}
 		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_KERKER_TEST") {$(this).html("Fortified Kerker")}
-		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_KERKER_TOWER") {$(this).html("삼지창의 케르케르")}
+		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_KERKER_TOWER") {$(this).html("Trident Master Kerker")}
 		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_KICHKICH") {$(this).html("Combat Master Kichkich")}
-		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_KICHKICH_TOWER") {$(this).html("무술의 키츠키츠")}
+		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_KICHKICH_TOWER") {$(this).html("Combat Master Kichkich")}
 		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_RAKRAK") {$(this).html("Scythe Master Rakrak")}
-		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_RAKRAK_TOWER") {$(this).html("사이드의 라크라크")}
+		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_RAKRAK_TOWER") {$(this).html("Scythe Master Rakrak")}
 		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_RUDOLF_RATMAN_NORMAL") {$(this).html("Rudolph")}
 		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_RUNNER_CHARLES") {$(this).html("Charles the Excavator")}
 		if (Monster ==  "HEROES_MONSTER_NPC_RATMAN_SANTA_RATMAN") {$(this).html("Santa Ratman")}
@@ -752,7 +767,7 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_RUNNER_VAMPIRE_CHRISTMAS") {$(this).html("Christmas Vampire")}
 		if (Monster ==  "HEROES_MONSTER_NPC_RUNNER_WARRIOR_CHRISTMAS") {$(this).html("Christmas Knoll Warrior")}
 		if (Monster ==  "HEROES_MONSTER_NPC_SANDPILLAR_NORMAL") {$(this).html("The Sand Pillar")}
-		if (Monster ==  "HEROES_MONSTER_NPC_SANDPILLAR_NORMAL_TOWER") {$(this).html("연성의 모래기둥")}
+		if (Monster ==  "HEROES_MONSTER_NPC_SANDPILLAR_NORMAL_TOWER") {$(this).html("The Sand Pillar")}
 		if (Monster ==  "HEROES_MONSTER_NPC_SEIREN_COMES") {$(this).html("Sea Hag Kamina")}
 		if (Monster ==  "HEROES_MONSTER_NPC_SEIREN_MARKIO") {$(this).html("Slithering Mare")}
 		if (Monster ==  "HEROES_MONSTER_NPC_SEIREN_MONARKA_ACTOR") {$(this).html("")}
@@ -764,6 +779,7 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_SNAKE_ACTOR_RAKIORA") {$(this).html("")}
 		if (Monster ==  "HEROES_MONSTER_NPC_SNAKE_ACTOR_RAKIORA_SMALL") {$(this).html("")}
 		if (Monster ==  "HEROES_MONSTER_NPC_SNAKE_RAKIORA") {$(this).html("Lakoria")}
+		if (Monster ==  "HEROES_MONSTER_NPC_SNAKE_RAKIORA_DS") {$(this).html("Ancient Lakoria")}
 		if (Monster ==  "HEROES_MONSTER_NPC_SPIDER_ALIYA") {$(this).html("Ailliagh")}
 		if (Monster ==  "HEROES_MONSTER_NPC_SPIDER_BIGJAW") {$(this).html("Giant Jaw Spider")}
 		if (Monster ==  "HEROES_MONSTER_NPC_SPIDER_BLACK") {$(this).html("Black Spider")}
@@ -826,7 +842,7 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_TROLL_RESENLIAN_KLAUS") {$(this).html("Klaus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_TROLL_SMALL") {$(this).html("Troll")}
 		if (Monster ==  "HEROES_MONSTER_NPC_TROLL_TAONU") {$(this).html("Taonu")}
-		if (Monster ==  "HEROES_MONSTER_NPC_TROLL_TAONU_TOWER") {$(this).html("타오누")}
+		if (Monster ==  "HEROES_MONSTER_NPC_TROLL_TAONU_TOWER") {$(this).html("Taonu")}
 		if (Monster ==  "HEROES_MONSTER_NPC_TROLL_VETERAN_MATUR") {$(this).html("Matur")}
 		if (Monster ==  "HEROES_MONSTER_NPC_TROLL_ZYARGA") {$(this).html("Zyarga")}
 		if (Monster ==  "HEROES_MONSTER_NPC_TROLL2_ELITE") {$(this).html("Jungle Troll Brave")}
@@ -909,31 +925,31 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_AKADUS_RAPPEL") {$(this).html("Agile Akadus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_ARCHER") {$(this).html("Wood Elf Archer")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_ARCHER_NAMED") {$(this).html("Barchadus")}
-		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_ARCHER_NAMED_TOWER") {$(this).html("바크두스")}
+		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_ARCHER_NAMED_TOWER") {$(this).html("Barchadus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_ARCHER_UNIQ") {$(this).html("Wood Elf Ranger")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_BERSERKER") {$(this).html("Wood Elf Berserker")}
-		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_BERSERKER_TOWER") {$(this).html("우든엘프 버서커")}
+		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_BERSERKER_TOWER") {$(this).html("Wood Elf Berserker")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_BRAVE") {$(this).html("Wood Elf Brave")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_DIVER") {$(this).html("Wood Elf Diver")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_FIREBOOM") {$(this).html("Wood Elf Bomber")}
-		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_FIREBOOM_TOWER") {$(this).html("우든엘프 보머")}
+		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_FIREBOOM_TOWER") {$(this).html("Wood Elf Bomber")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_GENERAL") {$(this).html("Callidus")}
-		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_GENERAL_TOWER") {$(this).html("칼리두스")}
+		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_GENERAL_TOWER") {$(this).html("Callidus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_MAGE") {$(this).html("Wood Elf Shaman")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_MAGE_NAMED") {$(this).html("Thantanus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_MAGE_UNIQ") {$(this).html("Wood Elf Warlock")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_MIST") {$(this).html("Wood Elf Mystic")}
-		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_MIST_TOWER") {$(this).html("우든엘프 미스트")}
+		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_MIST_TOWER") {$(this).html("Wood Elf Mystic")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_RAFT_GOAL") {$(this).html("Raft Battle Reward")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_RAFT_GOAL_TWO") {$(this).html("Raft Battle Reward")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_REINFORCE") {$(this).html("Wood Elf Reinforcement")}
-		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_REINFORCE_TOWER") {$(this).html("우든엘프 레인포스")}
+		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_REINFORCE_TOWER") {$(this).html("Wood Elf Reinforcement")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_SEED") {$(this).html("Spinefruit")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_SHIELD_GUARD") {$(this).html("Wood Elf Guard")}
-		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_SHIELD_GUARD_TOWER") {$(this).html("우든엘프 가드")}
+		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_SHIELD_GUARD_TOWER") {$(this).html("Wood Elf Guard")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_WARRIOR") {$(this).html("Wood Elf Warrior")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_WARRIOR_NAMED") {$(this).html("Enkidus")}
-		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_WARRIOR_NAMED_TOWER") {$(this).html("엔키두스")}
+		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_WARRIOR_NAMED_TOWER") {$(this).html("Enkidus")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WOODENELF_WARRIOR_UNIQ") {$(this).html("Wood Elf Captain")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WORM_SPERMA") {$(this).html("Causa")}
 		if (Monster ==  "HEROES_MONSTER_NPC_WORM_SPERMA_RED") {$(this).html("Parasitic Causa")}
@@ -951,20 +967,8 @@ MonsterName = function(){
 		if (Monster ==  "HEROES_MONSTER_NPC_YETI_WILDHORN") {$(this).html("Jagged Horn Yeti")}
 		if (Monster ==  "HEROES_MONSTER_NPC_YULKES_AKILLOR") {$(this).html("Sacred Sword Aquillore")}
 		if (Monster ==  "HEROES_MONSTER_NPC_YULKES_GENERAL") {$(this).html("Inquisitor Ulchas")}
-		if (Monster ==  "HEROES_MONSTER_NPC_YULKES_GENERAL_TOWER") {$(this).html("인퀴지터 율케스")}
+		if (Monster ==  "HEROES_MONSTER_NPC_YULKES_GENERAL_TOWER") {$(this).html("Inquisitor Ulchas")}
 		if (Monster ==  "HEROES_MONSTER_NPC_ZECALLION_GENERAL") {$(this).html("Zecallion")}
-		if (Monster ==  "HEROES_MONSTER_NPC_ZECALLION_GENERAL_TOWER") {$(this).html("젝칼리온")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_ARMY_MUSKETEER") {$(this).html("고블린 머스키티어")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_ARMY_SPEARMAN") {$(this).html("고블린 스피어맨")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_CAPTAIN") {$(this).html("심판단장 자무로프")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_INFECTEE_SPEARMAN") {$(this).html("창병장 하키쉬")}
-		if (Monster ==  "HEROES_MONSTER_NPC_GOBLIN_SPECIAL_FORCES") {$(this).html("선발대장 바케노프")}
-		if (Monster ==  "HEROES_MONSTER_NPC_KOBOLD_ARMY_BURSTERMAN") {$(this).html("코볼트 버스터맨")}
-		if (Monster ==  "HEROES_MONSTER_NPC_MORBUS_ROCK") {$(this).html("광폭의 모르부스")}
-		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_INFECTEE_FURYMACE") {$(this).html("단죄자 퓨리메이스")}
-		if (Monster ==  "HEROES_MONSTER_NPC_OGRE_SIXEYE") {$(this).html("식스아이")}
-		if (Monster ==  "HEROES_MONSTER_NPC_PRIEST_ENCANTO") {$(this).html("델리라티오 인칸토")}
-		if (Monster ==  "HEROES_MONSTER_NPC_PRIEST_MANES_NAMED") {$(this).html("마네스")}
-		if (Monster ==  "HEROES_MONSTER_NPC_PRIEST_PREMO") {$(this).html("델리라티오 프레모")}
+		if (Monster ==  "HEROES_MONSTER_NPC_ZECALLION_GENERAL_TOWER") {$(this).html("Zecallion")}
  })
 }
