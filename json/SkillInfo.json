@@ -1446,7 +1446,7 @@
     "Category": "BATTLE",
     "SkillName": "HEROES_SKILL_NAME_skill_kalok_battle_dash",
     "ClassRestriction": 8,
-    "VideoNameFlag": 1,
+    "VideoNameFlag": 0,
     "Price": 0,
     "IsFirstWeapon": 1,
     "IsSecondWeapon": 0,
@@ -5758,5 +5758,20 @@
     "UseType": 0,
     "SkillEnhanceGroup": "",
     "SkillDescription": "HEROES_SKILL_DESC_skill_delia_xe_move"
+  },
+  {
+    "RowID": 698,
+    "SkillID": "skill_lynn_battleglaive_sp_hold",
+    "IconType": "skill_lynn_battleglaive_sp_hold",
+    "Category": "BATTLE",
+    "SkillName": "HEROES_SKILL_NAME_skill_lynn_battleglaive_sp_hold",
+    "ClassRestriction": 128,
+    "VideoNameFlag": 0,
+    "Price": 24000,
+    "IsFirstWeapon": 1,
+    "IsSecondWeapon": 0,
+    "UseType": 1,
+    "SkillEnhanceGroup": "3;4",
+    "SkillDescription": "HEROES_SKILL_DESC_skill_lynn_battleglaive_sp_hold"
   }
 ]
