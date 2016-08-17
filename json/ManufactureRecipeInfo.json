@@ -17176,7 +17176,7 @@
     "ExperienceRequired": 0,
     "GradeRequired": 0,
     "BaseRewardEXP": 1,
-    "RecipeItemClass": "recipescroll_cooking_whiteday_2013",
+    "RecipeItemClass": "recipescroll_cooking_whiteday_2015",
     "AutoGiveQuest": "",
     "AlwaysListed": 0,
     "Feature": ""
@@ -17187,7 +17187,7 @@
     "ExperienceRequired": 0,
     "GradeRequired": 0,
     "BaseRewardEXP": 1,
-    "RecipeItemClass": "recipescroll_cooking_whiteday_2013",
+    "RecipeItemClass": "recipescroll_cooking_whiteday_2015",
     "AutoGiveQuest": "",
     "AlwaysListed": 0,
     "Feature": ""
@@ -17198,7 +17198,7 @@
     "ExperienceRequired": 0,
     "GradeRequired": 0,
     "BaseRewardEXP": 1,
-    "RecipeItemClass": "recipescroll_cooking_whiteday_2013",
+    "RecipeItemClass": "recipescroll_cooking_whiteday_2015",
     "AutoGiveQuest": "",
     "AlwaysListed": 0,
     "Feature": ""
@@ -17209,7 +17209,7 @@
     "ExperienceRequired": 0,
     "GradeRequired": 0,
     "BaseRewardEXP": 1,
-    "RecipeItemClass": "recipescroll_cooking_whiteday_2013",
+    "RecipeItemClass": "recipescroll_cooking_whiteday_2015",
     "AutoGiveQuest": "",
     "AlwaysListed": 0,
     "Feature": ""
@@ -19028,5 +19028,16 @@
     "AutoGiveQuest": "",
     "AlwaysListed": 1,
     "Feature": ""
+  },
+  {
+    "ManufactureID": "cooking",
+    "RecipeID": "greencake_cn_201603",
+    "ExperienceRequired": 0,
+    "GradeRequired": 0,
+    "BaseRewardEXP": 1,
+    "RecipeItemClass": "recipescroll_greencake_cn_201603",
+    "AutoGiveQuest": "",
+    "AlwaysListed": 0,
+    "Feature": "Event_greencake_cn_201603"
   }
 ]

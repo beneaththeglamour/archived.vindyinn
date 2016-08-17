@@ -55909,14 +55909,26 @@
   },
   {
     "RecipeID": "event_candy_red_2015",
-    "ItemClass": "cooking_flour_red",
-    "Num": 1,
+    "ItemClass": "cooking_flour_red_2015",
+    "Num": 5,
     "Type": 1
   },
   {
     "RecipeID": "event_candy_red_2015",
     "ItemClass": "cooking_sugar",
-    "Num": 2,
+    "Num": 10,
+    "Type": 1
+  },
+  {
+    "RecipeID": "event_candy_red_2015",
+    "ItemClass": "cooking_marshmallow",
+    "Num": 10,
+    "Type": 1
+  },
+  {
+    "RecipeID": "event_candy_red_2015",
+    "ItemClass": "cooking_pet_tree_fruit",
+    "Num": 10,
     "Type": 1
   },
   {
@@ -55927,14 +55939,26 @@
   },
   {
     "RecipeID": "event_candy_yellow_2015",
-    "ItemClass": "cooking_flour_yellow",
-    "Num": 1,
+    "ItemClass": "cooking_flour_yellow_2015",
+    "Num": 5,
     "Type": 1
   },
   {
     "RecipeID": "event_candy_yellow_2015",
     "ItemClass": "cooking_sugar",
-    "Num": 2,
+    "Num": 10,
+    "Type": 1
+  },
+  {
+    "RecipeID": "event_candy_yellow_2015",
+    "ItemClass": "cooking_marshmallow",
+    "Num": 10,
+    "Type": 1
+  },
+  {
+    "RecipeID": "event_candy_yellow_2015",
+    "ItemClass": "cooking_ginger",
+    "Num": 5,
     "Type": 1
   },
   {
@@ -55945,14 +55969,26 @@
   },
   {
     "RecipeID": "event_candy_blue_2015",
-    "ItemClass": "cooking_flour_blue",
-    "Num": 1,
+    "ItemClass": "cooking_flour_blue_2015",
+    "Num": 5,
     "Type": 1
   },
   {
     "RecipeID": "event_candy_blue_2015",
     "ItemClass": "cooking_sugar",
-    "Num": 2,
+    "Num": 10,
+    "Type": 1
+  },
+  {
+    "RecipeID": "event_candy_blue_2015",
+    "ItemClass": "cooking_marshmallow",
+    "Num": 10,
+    "Type": 1
+  },
+  {
+    "RecipeID": "event_candy_blue_2015",
+    "ItemClass": "cooking_cinnamon",
+    "Num": 5,
     "Type": 1
   },
   {
@@ -55963,14 +55999,26 @@
   },
   {
     "RecipeID": "event_candy_green_2015",
-    "ItemClass": "cooking_flour_green",
-    "Num": 1,
+    "ItemClass": "cooking_flour_green_2015",
+    "Num": 5,
     "Type": 1
   },
   {
     "RecipeID": "event_candy_green_2015",
     "ItemClass": "cooking_sugar",
-    "Num": 2,
+    "Num": 10,
+    "Type": 1
+  },
+  {
+    "RecipeID": "event_candy_green_2015",
+    "ItemClass": "cooking_marshmallow",
+    "Num": 10,
+    "Type": 1
+  },
+  {
+    "RecipeID": "event_candy_green_2015",
+    "ItemClass": "cooking_apple",
+    "Num": 10,
     "Type": 1
   },
   {
@@ -61737,6 +61785,36 @@
     "RecipeID": "sewing_southern_giant_upper",
     "ItemClass": "essense_madness",
     "Num": 2,
+    "Type": 1
+  },
+  {
+    "RecipeID": "greencake_cn_201603",
+    "ItemClass": "greencake_cn_201603",
+    "Num": 1,
+    "Type": 0
+  },
+  {
+    "RecipeID": "greencake_cn_201603",
+    "ItemClass": "cooking_greencake_cn_201603",
+    "Num": 1,
+    "Type": 1
+  },
+  {
+    "RecipeID": "greencake_cn_201603",
+    "ItemClass": "cooking_watterbottle_cn_201603",
+    "Num": 1,
+    "Type": 1
+  },
+  {
+    "RecipeID": "greencake_cn_201603",
+    "ItemClass": "cooking_solt_cn_201603",
+    "Num": 1,
+    "Type": 1
+  },
+  {
+    "RecipeID": "greencake_cn_201603",
+    "ItemClass": "cooking_sugar_cn_201603",
+    "Num": 1,
     "Type": 1
   }
 ]
