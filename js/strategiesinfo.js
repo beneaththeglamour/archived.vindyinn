@@ -7,7 +7,7 @@ if (StrategiesName == 'Agony and Despair') {$('.strategies').html(''+
 		'<li>Number of hits: 1 (3 Chain Hooks are required; 1 Rusted Chain Hook is required)</li>'+
 		'<li>Reward: Random Eochaid Armor or Weapon Essence</li>'+
 	'</ul>'+
-	'<h3>Battle Skills & Attacks</h3>'+
+	'<h3>Boss Skills & Attacks</h3>'+
 	'<ul>'+
 		'<li>Does one swipe in front of it.</li>'+
 		'<li>Does two swipes in succession. The second swipe will be a lunging attack, causing damage to any player that is close with its body.</li>'+
