@@ -43,6 +43,13 @@
                     swfPath:'/js/jplayer/swf' //You need to override the default swf path any time the directory structure changes
                 }
             });
+			 $(".tracklist").mCustomScrollbar({
+				axis:"y",
+				theme:"light-thin",
+				setHeight: 250,
+				keyboard:{ enable: true },
+				scrollButtons:{ enable: true }
+			});
         });
     </script>
 
@@ -104,12 +111,6 @@
 							$.getScript( menu, function() {
 								MenuList()
 							})	
-   $(".tracklist").mCustomScrollbar({
-				axis:"y",
-				theme:"light-thin",
-				setHeight: 250,
-				keyboard:{ enable: true }
-			});
        
 </script>
    
