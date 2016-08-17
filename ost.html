@@ -18,11 +18,12 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
   <script type="text/javascript" src="http://static.tumblr.com/aiwikf1/TXEo3i7w8/menubar.js"></script>
+  <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
   
   
   <link rel="stylesheet" href="/css/dbstyle.css" />
   <link rel="stylesheet" href="/css/dbbase.css">
-  
+  <link rel="stylesheet" href="/css/jquery.mCustomScrollbar.css" />
   
   <link rel="stylesheet" href="/css/list.css">
   
@@ -103,6 +104,14 @@
 							$.getScript( menu, function() {
 								MenuList()
 							})	
+	(function($){
+        $(window).on("load",function(){
+            $(".tracklist").mCustomScrollbar({
+				axis:"x", // horizontal scrollbar
+				theme:"dark-thin"
+			});
+        });
+    })(jQuery);
 </script>
    
 </body>
