@@ -134,7 +134,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:15',
-        cover:'  ' 
+        cover:'http://i.imgur.com/uHFBJYU.jpg' 
     },
 	 {
         mp3:'http://picosong.com/media/songs/48abba6bb04fa09a102f7468cea7e9bc.mp3',
@@ -166,7 +166,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:11',
-        cover:'  ' 
+        cover:'http://i.imgur.com/A0AYPMd.jpg' 
     },
 	 {
         mp3:'http://picosong.com/media/songs/d42ecda7b3bbba96494e17ebe84661de.mp3',
@@ -190,7 +190,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:11',
-        cover:'  ' 
+        cover:'http://i.imgur.com/vWQIJmf.jpg' 
     },
 	 {
         mp3:'http://picosong.com/media/songs/9efe794132842ae44d6adc2101b62d3a.mp3',
@@ -198,7 +198,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:11',
-        cover:'  ' 
+        cover:'http://i.imgur.com/a5ZRJ5X.jpg' 
     },
 	 {
         mp3:'http://picosong.com/media/songs/16fcf8302cc4c7e2c927939df48c3caa.mp3',
@@ -206,7 +206,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:11',
-        cover:'  ' 
+        cover:'http://i.imgur.com/VwZtEDc.jpg' 
     },
 	 {
         mp3:'http://picosong.com/media/songs/24df7559550fc8ac2eecebdb4969fc30.mp3',
@@ -230,7 +230,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:09',
-        cover:'  ' 
+        cover:'http://i.imgur.com/iRHEtgV.jpg' 
     },
 	 {
         mp3:'http://picosong.com/media/songs/c328c062e19756cdfe538543279f2346.mp3',
@@ -246,7 +246,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:09',
-        cover:'  ' 
+        cover:'http://i.imgur.com/jgZyGta.jpg' 
     },
 	 {
         mp3:'http://picosong.com/media/songs/12a5af680452ce300acac86db9dfc2b6.mp3',
@@ -294,7 +294,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:06',
-        cover:'   '
+        cover:'http://i.imgur.com/G6JtFxD.jpg'
     },
 	 {
         mp3:'http://picosong.com/media/songs/184f8dd0d6b45226dd6bb897e0c579a9.mp3',
