@@ -263,5 +263,5 @@ ChangeSetName = function(){
 		if (SetName ==  "HEROES_ITEM_SETITEM_NAME_WONDERLAND_15DAYS_EVENT") {$(this).html("Wonderland Set (15 Days, Event)")}
 		if (SetName ==  "HEROES_ITEM_SETITEM_NAME_WONDERLAND_SET") {$(this).html("Wonderland Set")}
 		if (SetName ==  "HEROES_ITEM_SETITEM_NAME_YKESHA") {$(this).html("Blade of Ykesha: The Nihility")}
-			 })
+					 })
 }
