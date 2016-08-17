@@ -5370,6 +5370,31 @@
     "SetID": "s2ep4_80lv"
   },
   {
+    "ItemClass": "s2ep4_80lv_head_30days",
+    "BaseItemClass": "s2ep4_80lv_head",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_upper_30days",
+    "BaseItemClass": "s2ep4_80lv_upper",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_lower_30days",
+    "BaseItemClass": "s2ep4_80lv_lower",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_hand_30days",
+    "BaseItemClass": "s2ep4_80lv_hand",
+    "SetID": "s2ep4_80lv"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_foot_30days",
+    "BaseItemClass": "s2ep4_80lv_foot",
+    "SetID": "s2ep4_80lv"
+  },
+  {
     "ItemClass": "s2ep4_80lv_head_permanent",
     "BaseItemClass": "s2ep4_80lv_head",
     "SetID": "s2ep4_80lv"
@@ -5441,6 +5466,31 @@
   },
   {
     "ItemClass": "s2ep4_80lv_evy_foot",
+    "BaseItemClass": "s2ep4_80lv_evy_foot",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_head_30days",
+    "BaseItemClass": "s2ep4_80lv_evy_head",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_upper_30days",
+    "BaseItemClass": "s2ep4_80lv_evy_upper",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_lower_30days",
+    "BaseItemClass": "s2ep4_80lv_evy_lower",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_hand_30days",
+    "BaseItemClass": "s2ep4_80lv_evy_hand",
+    "SetID": "s2ep4_80lv_evy"
+  },
+  {
+    "ItemClass": "s2ep4_80lv_evy_foot_30days",
     "BaseItemClass": "s2ep4_80lv_evy_foot",
     "SetID": "s2ep4_80lv_evy"
   },
