@@ -705,3 +705,6 @@ font-weight: bold;
 	background: transparent !important;
 display: list-item !important;
 }
+.strategies {
+	padding:0 1rem;
+}
