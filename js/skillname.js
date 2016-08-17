@@ -378,7 +378,7 @@
 		if (SkillName == "HEROES_SKILL_NAME_SKILL_LIGHT_ARMOR_MASTERY") {$(this).html("Light Armor Proficiency")}
 		if (SkillName == "HEROES_SKILL_NAME_SKILL_LIGHT_ARMOR_REINFORCEMENT") {$(this).html("Light Armor Enhancement")}
 		if (SkillName == "HEROES_SKILL_NAME_SKILL_LYNN_BATTLEGLAIVE_MASTERY") {$(this).html("Glaive Mastery")}
-		if (SkillName == "HEROES_SKILL_NAME_SKILL_LYNN_BATTLEGLAIVE_SP_HOLD") {$(this).html("액티브: 유연단화")}
+		if (SkillName == "HEROES_SKILL_NAME_SKILL_LYNN_BATTLEGLAIVE_SP_HOLD") {$(this).html("Active: Flight of the Valkyrie")}
 		if (SkillName == "HEROES_SKILL_NAME_SKILL_LYNN_BATTLEGLAIVE_SP1") {$(this).html("Active: Iron Flag")}
 		if (SkillName == "HEROES_SKILL_NAME_SKILL_LYNN_BATTLEGLAIVE_SP2") {$(this).html("Active: Divine Spear")}
 		if (SkillName == "HEROES_SKILL_NAME_SKILL_LYNN_BATTLEGLAIVE_SP3") {$(this).html("Active: Chambers of Death")}
