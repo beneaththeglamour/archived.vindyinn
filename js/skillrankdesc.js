@@ -1,7 +1,474 @@
  ReplaceSkillRank = function(){
 	 $('.skillrank').each(function(){
 		SkillRank = $(this).attr('value')
-		S_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_A_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_1") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_1_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_2") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_2_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_3") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_3_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_4") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_4_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_5") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_5_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_6") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_6_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_7") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_7_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_8") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_8_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_9") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_9_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_A") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_A_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_B") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_B_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_C") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_C_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_D") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_D_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_E") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_E_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_F") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_F_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_PRT") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ACCOUNTING_PRT_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_1") {$(this).html("\Decreases the AP required for Combat skills by 230.\\nSkills that require less than 230 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_1_EX") {$(this).html("Decreases the AP required for Combat skills by 230.\\nSkills that require less than 230 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_2") {$(this).html("Decreases the AP required for Combat skills by 190.\\nSkills that require less than 190 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_2_EX") {$(this).html("Decreases the AP required for Combat skills by 190.\\nSkills that require less than 190 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_3") {$(this).html("Decreases the AP required for Combat skills by 170.\\nSkills that require less than 170 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_3_EX") {$(this).html("Decreases the AP required for Combat skills by 170.\\nSkills that require less than 170 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_4") {$(this).html("Decreases the AP required for Combat skills by 150.\\nSkills that require less than 150 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_4_EX") {$(this).html("Decreases the AP required for Combat skills by 150.\\nSkills that require less than 150 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_5") {$(this).html("Decreases the AP required for Combat skills by 140.\\nSkills that require less than 140 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_5_EX") {$(this).html("Decreases the AP required for Combat skills by 140.\\nSkills that require less than 140 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_6") {$(this).html("Decreases the AP required for Combat skills by 130.\\nSkills that require less than 130 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_6_EX") {$(this).html("Decreases the AP required for Combat skills by 130.\\nSkills that require less than 130 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_7") {$(this).html("Decreases the AP required for Combat skills by 110.\\nSkills that require less than 110 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_7_EX") {$(this).html("Decreases the AP required for Combat skills by 110.\\nSkills that require less than 110 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_8") {$(this).html("Decreases the AP required for Combat skills by 100.\\nSkills that require less than 100 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_8_EX") {$(this).html("Decreases the AP required for Combat skills by 100.\\nSkills that require less than 100 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_9") {$(this).html("Decreases the AP required for Combat skills by 90.\\nSkills that require less than 90 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_9_EX") {$(this).html("Decreases the AP required for Combat skills by 90.\\nSkills that require less than 90 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_A") {$(this).html("Decreases the AP required for Combat skills by 80.\\nSkills that require less than 80 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_A_EX") {$(this).html("Decreases the AP required for Combat skills by 80.\\nSkills that require less than 80 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_B") {$(this).html("Decreases the AP required for Combat skills by 60.\\nSkills that require less than 60 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_B_EX") {$(this).html("Decreases the AP required for Combat skills by 60.\\nSkills that require less than 60 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_C") {$(this).html("Decreases the AP required for Combat skills by 50.\\nSkills that require less than 50 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_C_EX") {$(this).html("Decreases the AP required for Combat skills by 50.\\nSkills that require less than 50 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_D") {$(this).html("Decreases the AP required for Combat skills by 40.\\nSkills that require less than 40 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_D_EX") {$(this).html("Decreases the AP required for Combat skills by 40.\\nSkills that require less than 40 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_E") {$(this).html("Decreases the AP required for Combat skills by 30.\\nSkills that require less than 30 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_E_EX") {$(this).html("Decreases the AP required for Combat skills by 30.\\nSkills that require less than 30 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_F") {$(this).html("Decreases the AP required for Combat skills by 20.\\nSkills that require less than 20 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_F_EX") {$(this).html("Decreases the AP required for Combat skills by 20.\\nSkills that require less than 20 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_PRT") {$(this).html("Decreases the AP required for Combat skills by 0.\\nSkills that require less than 0 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_BATTLE_KNOWLEDGE_PRT_EX") {$(this).html("Decreases the AP required for Combat skills by 0.\\nSkills that require less than 0 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_1") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_1_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_2") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_2_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_3") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_3_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_4") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_4_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_5") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_5_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_6") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_6_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_7") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_7_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_8") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_8_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_9") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_9_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_A") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_A_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_B") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_B_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_C") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_C_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_D") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_D_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_E") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_E_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_F") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_F_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_PRT") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_MASTERY_PRT_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_1") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_1_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_2") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_2_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_3") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_3_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_4") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_4_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_5") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_5_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_6") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_6_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_7") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_7_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_8") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_8_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_9") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_9_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_A") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_A_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_B") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_B_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_C") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_C_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_D") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_D_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_E") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_E_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_F") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_F_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_PRT") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CLOTH_REINFORCEMENT_PRT_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_1") {$(this).html("Increases the power of normal attacks by 600%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_1_EX") {$(this).html("Increases the power of normal attacks by 600%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_2") {$(this).html("Increases the power of normal attacks by 500%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_2_EX") {$(this).html("Increases the power of normal attacks by 500%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_3") {$(this).html("Increases the power of normal attacks by 460%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_3_EX") {$(this).html("Increases the power of normal attacks by 460%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_4") {$(this).html("Increases the power of normal attacks by 420%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_4_EX") {$(this).html("Increases the power of normal attacks by 420%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_5") {$(this).html("Increases the power of normal attacks by 400%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_5_EX") {$(this).html("Increases the power of normal attacks by 400%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_6") {$(this).html("Increases the power of normal attacks by 380%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_6_EX") {$(this).html("Increases the power of normal attacks by 380%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_7") {$(this).html("Increases the power of normal attacks by 340%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_7_EX") {$(this).html("Increases the power of normal attacks by 340%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_8") {$(this).html("Increases the power of normal attacks by 320%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_8_EX") {$(this).html("Increases the power of normal attacks by 320%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_9") {$(this).html("Increases the power of normal attacks by 300%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_9_EX") {$(this).html("Increases the power of normal attacks by 300%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_A") {$(this).html("Increases the power of normal attacks by 260%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_A_EX") {$(this).html("Increases the power of normal attacks by 260%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_B") {$(this).html("Increases the power of normal attacks by 240%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_B_EX") {$(this).html("Increases the power of normal attacks by 240%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_C") {$(this).html("Increases the power of normal attacks by 220%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_C_EX") {$(this).html("Increases the power of normal attacks by 220%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_D") {$(this).html("Increases the power of normal attacks by 200%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_D_EX") {$(this).html("Increases the power of normal attacks by 200%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_E") {$(this).html("Increases the power of normal attacks by 180%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_E_EX") {$(this).html("Increases the power of normal attacks by 180%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_F") {$(this).html("Increases the power of normal attacks by 160%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_F_EX") {$(this).html("Increases the power of normal attacks by 160%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_PRT") {$(this).html("Increases the power of normal attacks by 0%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_COMBAT_MASTERY_PRT_EX") {$(this).html("Increases the power of normal attacks by 0%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_1") {$(this).html("Increases the damage done by critical hits by 127%. \\nIncreases the chance of getting a critical hit by 62%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_1_EX") {$(this).html("Increases the damage done by critical hits by 127%. \\nIncreases the chance of getting a critical hit by 62%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_2") {$(this).html("Increases the damage done by critical hits by 120%. \\nIncreases the chance of getting a critical hit by 60%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_2_EX") {$(this).html("Increases the damage done by critical hits by 120%. \\nIncreases the chance of getting a critical hit by 60%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_3") {$(this).html("Increases the damage done by critical hits by 115%. \\nIncreases the chance of getting a critical hit by 58%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_3_EX") {$(this).html("Increases the damage done by critical hits by 115%. \\nIncreases the chance of getting a critical hit by 58%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_4") {$(this).html("Increases the damage done by critical hits by 110%. \\nIncreases the chance of getting a critical hit by 56%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_4_EX") {$(this).html("Increases the damage done by critical hits by 110%. \\nIncreases the chance of getting a critical hit by 56%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_5") {$(this).html("Increases the damage done by critical hits by 105%. \\nIncreases the chance of getting a critical hit by 54%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_5_EX") {$(this).html("Increases the damage done by critical hits by 105%. \\nIncreases the chance of getting a critical hit by 54%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_6") {$(this).html("Increases the damage done by critical hits by 100%. \\nIncreases the chance of getting a critical hit by 52%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_6_EX") {$(this).html("Increases the damage done by critical hits by 100%. \\nIncreases the chance of getting a critical hit by 52%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_7") {$(this).html("Increases the damage done by critical hits by 94%. \\nIncreases the chance of getting a critical hit by 50%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_7_EX") {$(this).html("Increases the damage done by critical hits by 94%. \\nIncreases the chance of getting a critical hit by 50%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_8") {$(this).html("Increases the damage done by critical hits by 88%. \\nIncreases the chance of getting a critical hit by 48%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_8_EX") {$(this).html("Increases the damage done by critical hits by 88%. \\nIncreases the chance of getting a critical hit by 48%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_9") {$(this).html("Increases the damage done by critical hits by 82%. \\nIncreases the chance of getting a critical hit by 46%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_9_EX") {$(this).html("Increases the damage done by critical hits by 82%. \\nIncreases the chance of getting a critical hit by 46%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_A") {$(this).html("Increases the damage done by critical hits by 72%. \\nIncreases the chance of getting a critical hit by 44%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_A_EX") {$(this).html("Increases the damage done by critical hits by 72%. \\nIncreases the chance of getting a critical hit by 44%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_B") {$(this).html("Increases the damage done by critical hits by 69%. \\nIncreases the chance of getting a critical hit by 43%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_B_EX") {$(this).html("Increases the damage done by critical hits by 69%. \\nIncreases the chance of getting a critical hit by 43%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_C") {$(this).html("Increases the damage done by critical hits by 66%. \\nIncreases the chance of getting a critical hit by 42%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_C_EX") {$(this).html("Increases the damage done by critical hits by 66%. \\nIncreases the chance of getting a critical hit by 42%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_D") {$(this).html("Increases the damage done by critical hits by 63%. \\nIncreases the chance of getting a critical hit by 41%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_D_EX") {$(this).html("Increases the damage done by critical hits by 63%. \\nIncreases the chance of getting a critical hit by 41%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_E") {$(this).html("Increases the damage done by critical hits by 60%. \\nIncreases the chance of getting a critical hit by 40%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_E_EX") {$(this).html("Increases the damage done by critical hits by 60%. \\nIncreases the chance of getting a critical hit by 40%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_F") {$(this).html("Increases the damage done by critical hits by 50%. \\nIncreases the chance of getting a critical hit by 30%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_F_EX") {$(this).html("Increases the damage done by critical hits by 50%. \\nIncreases the chance of getting a critical hit by 30%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_PRT") {$(this).html("Increases the damage done by critical hits by 0%. \\nIncreases the chance of getting a critical hit by 0%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_CRITICAL_HIT_PRT_EX") {$(this).html("Increases the damage done by critical hits by 0%. \\nIncreases the chance of getting a critical hit by 0%.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_1") {$(this).html("Increases DEF by 350.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_1_EX") {$(this).html("Increases DEF by 350.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_2") {$(this).html("Increases DEF by 305.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_2_EX") {$(this).html("Increases DEF by 305.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_3") {$(this).html("Increases DEF by 265.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_3_EX") {$(this).html("Increases DEF by 265.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_4") {$(this).html("Increases DEF by 235.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_4_EX") {$(this).html("Increases DEF by 235.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_5") {$(this).html("Increases DEF by 215.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_5_EX") {$(this).html("Increases DEF by 215.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_6") {$(this).html("Increases DEF by 195.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_6_EX") {$(this).html("Increases DEF by 195.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_7") {$(this).html("Increases DEF by 165.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_7_EX") {$(this).html("Increases DEF by 165.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_8") {$(this).html("Increases DEF by 150.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_8_EX") {$(this).html("Increases DEF by 150.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_9") {$(this).html("Increases DEF by 135.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_9_EX") {$(this).html("Increases DEF by 135.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_A") {$(this).html("Increases DEF by 105.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_A_EX") {$(this).html("Increases DEF by 105.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_B") {$(this).html("Increases DEF by 90.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_B_EX") {$(this).html("Increases DEF by 90.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_C") {$(this).html("Increases DEF by 75.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_C_EX") {$(this).html("Increases DEF by 75.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_D") {$(this).html("Increases DEF by 60.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_D_EX") {$(this).html("Increases DEF by 60.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_E") {$(this).html("Increases DEF by 45.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_E_EX") {$(this).html("Increases DEF by 45.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_F") {$(this).html("Increases DEF by 30.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_F_EX") {$(this).html("Increases DEF by 30.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_PRT") {$(this).html("Increases DEF by 0.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEFENCE_MASTERY_PRT_EX") {$(this).html("Increases DEF by 0.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_1") {$(this).html("Increases your base AGI by 660.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_1_EX") {$(this).html("Increases your base AGI by 660.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_2") {$(this).html("Increases your base AGI by 620.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_2_EX") {$(this).html("Increases your base AGI by 620.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_3") {$(this).html("Increases your base AGI by 590.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_3_EX") {$(this).html("Increases your base AGI by 590.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_4") {$(this).html("Increases your base AGI by 560.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_4_EX") {$(this).html("Increases your base AGI by 560.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_5") {$(this).html("Increases your base AGI by 540.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_5_EX") {$(this).html("Increases your base AGI by 540.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_6") {$(this).html("Increases your base AGI by 520.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_6_EX") {$(this).html("Increases your base AGI by 520.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_7") {$(this).html("Increases your base AGI by 500.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_7_EX") {$(this).html("Increases your base AGI by 500.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_8") {$(this).html("Increases your base AGI by 480.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_8_EX") {$(this).html("Increases your base AGI by 480.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_9") {$(this).html("Increases your base AGI by 460.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_9_EX") {$(this).html("Increases your base AGI by 460.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_A") {$(this).html("Increases your base AGI by 440.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_A_EX") {$(this).html("Increases your base AGI by 440.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_B") {$(this).html("Increases your base AGI by 420.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_B_EX") {$(this).html("Increases your base AGI by 420.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_C") {$(this).html("Increases your base AGI by 400.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_C_EX") {$(this).html("Increases your base AGI by 400.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_D") {$(this).html("Increases your base AGI by 380.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_D_EX") {$(this).html("Increases your base AGI by 380.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_E") {$(this).html("Increases your base AGI by 360.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_E_EX") {$(this).html("Increases your base AGI by 360.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_F") {$(this).html("Increases your base AGI by 340.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_F_EX") {$(this).html("Increases your base AGI by 340.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_PRT") {$(this).html("Increases your base AGI by 0.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_DEX_MASTERY_PRT_EX") {$(this).html("Increases your base AGI by 0.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_1") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_1_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_2") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_2_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_3") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_3_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_4") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_4_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_5") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_5_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_6") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_6_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_7") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_7_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_8") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_8_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_9") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_9_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_A") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_A_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_B") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_B_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_C") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_C_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_D") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_D_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_E") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_E_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_F") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_F_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_PRT") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_ENCHANTER_MASTERY_PRT_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_1") {$(this).html("Decreases the AP required for Equipment skills by 230.\\nSkills that require less than 230 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_1_EX") {$(this).html("Decreases the AP required for Equipment skills by 230.\\nSkills that require less than 230 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_2") {$(this).html("Decreases the AP required for Equipment skills by 190.\\nSkills that require less than 190 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_2_EX") {$(this).html("Decreases the AP required for Equipment skills by 190.\\nSkills that require less than 190 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_3") {$(this).html("Decreases the AP required for Equipment skills by 170.\\nSkills that require less than 170 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_3_EX") {$(this).html("Decreases the AP required for Equipment skills by 170.\\nSkills that require less than 170 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_4") {$(this).html("Decreases the AP required for Equipment skills by 150.\\nSkills that require less than 150 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_4_EX") {$(this).html("Decreases the AP required for Equipment skills by 150.\\nSkills that require less than 150 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_5") {$(this).html("Decreases the AP required for Equipment skills by 140.\\nSkills that require less than 140 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_5_EX") {$(this).html("Decreases the AP required for Equipment skills by 140.\\nSkills that require less than 140 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_6") {$(this).html("Decreases the AP required for Equipment skills by 130.\\nSkills that require less than 130 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_6_EX") {$(this).html("Decreases the AP required for Equipment skills by 130.\\nSkills that require less than 130 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_7") {$(this).html("Decreases the AP required for Equipment skills by 110.\\nSkills that require less than 110 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_7_EX") {$(this).html("Decreases the AP required for Equipment skills by 110.\\nSkills that require less than 110 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_8") {$(this).html("Decreases the AP required for Equipment skills by 100.\\nSkills that require less than 100 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_8_EX") {$(this).html("Decreases the AP required for Equipment skills by 100.\\nSkills that require less than 100 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_9") {$(this).html("Decreases the AP required for Equipment skills by 90.\\nSkills that require less than 90 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_9_EX") {$(this).html("Decreases the AP required for Equipment skills by 90.\\nSkills that require less than 90 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_A") {$(this).html("Decreases the AP required for Equipment skills by 80.\\nSkills that require less than 80 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_A_EX") {$(this).html("Decreases the AP required for Equipment skills by 80.\\nSkills that require less than 80 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_B") {$(this).html("Decreases the AP required for Equipment skills by 60.\\nSkills that require less than 60 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_B_EX") {$(this).html("Decreases the AP required for Equipment skills by 60.\\nSkills that require less than 60 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_C") {$(this).html("Decreases the AP required for Equipment skills by 50.\\nSkills that require less than 50 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_C_EX") {$(this).html("Decreases the AP required for Equipment skills by 50.\\nSkills that require less than 50 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_D") {$(this).html("Decreases the AP required for Equipment skills by 40.\\nSkills that require less than 40 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_D_EX") {$(this).html("Decreases the AP required for Equipment skills by 40.\\nSkills that require less than 40 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_E") {$(this).html("Decreases the AP required for Equipment skills by 30.\\nSkills that require less than 30 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_E_EX") {$(this).html("Decreases the AP required for Equipment skills by 30.\\nSkills that require less than 30 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_F") {$(this).html("Decreases the AP required for Equipment skills by 20.\\nSkills that require less than 20 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_F_EX") {$(this).html("Decreases the AP required for Equipment skills by 20.\\nSkills that require less than 20 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_PRT") {$(this).html("Decreases the AP required for Equipment skills by 0.\\nSkills that require less than 0 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_EQUIPMENT_KNOWLEDGE_PRT_EX") {$(this).html("Decreases the AP required for Equipment skills by 0.\\nSkills that require less than 0 AP will be free.\\nOnly applies to skills over Rank 9.")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_1") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_1_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_2") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_2_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_3") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_3_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_4") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_4_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_5") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_5_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_6") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_6_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_7") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_7_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_8") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_8_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_9") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_9_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_A") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_A_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_B") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_B_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_C") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_C_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_D") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_D_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_E") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_E_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_F") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_F_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_PRT") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_ADV_SHILED_MASTERY_PRT_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_1") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_1_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_2") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_2_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_3") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_3_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_4") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_4_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_5") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_5_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_6") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_6_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_7") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_7_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_8") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_8_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_9") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_9_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_A") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_A_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_B") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_B_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_C") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_C_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_D") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_D_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_E") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_E_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_F") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_F_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_PRT") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGHAMMER_MASTERY_PRT_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_1") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_1_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_2") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_2_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_3") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_3_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_4") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_4_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_5") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_5_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_6") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_6_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_7") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_7_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_8") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_8_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_9") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_9_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_A") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_A_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_B") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_B_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_C") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_C_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_D") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_D_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_E") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_E_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_F") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_F_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_PRT") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_FIONA_LONGSWORD_MASTERY_PRT_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_1") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_1_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_2") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_2_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_3") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_3_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_4") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_4_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_5") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_5_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_6") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_6_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_7") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_7_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_8") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_8_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_9") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_9_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_A") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_A_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_B") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_B_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_C") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_C_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_D") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_D_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_E") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_E_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_F") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_F_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_PRT") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_MASTERY_PRT_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_1") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_1_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_2") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_2_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_3") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_3_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_4") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_4_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_5") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_5_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_6") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_6_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_7") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_7_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_8") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_8_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_9") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_9_EX") {$(this).html("0")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_A") {$(this).html(" ")}
+		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_A_EX") {$(this).html("0")}
 		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_B") {$(this).html(" ")}
 		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_B_EX") {$(this).html("0")}
 		if (SkillRank == "GAMEUI_HEROES_DESC_SKILL_ADV_HEAVY_ARMOR_REINFORCEMENT_C") {$(this).html(" ")}
