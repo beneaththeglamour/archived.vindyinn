@@ -181,14 +181,14 @@ BattleQuote = function(){
 		if (BattleDesc ==  "HEROES_QUEST_DESC_PVP_PMATCH") {$(this).html("Capture the opposing team's pot and return to the base!")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_PVP_QUEST") {$(this).html("This is a Duel test.")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_PVP_SPORTSDAY_HALLOWEEN") {$(this).html("Smash some pumpkins to celebrate Halloween!")}
-		if (BattleDesc ==  "HEROES_QUEST_DESC_PVP_SPORTSDAY_PARTYNIGHT") {$(this).html("신나는 여름밤 파티! 상대팀보다 더 많은 과일을 부수자!")}
-		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_BEAR_GIANT_EVENT") {$(this).html("이곳이 엄청난 크기의 곰을 보고 도망쳤다는 곳이야. 무언가 정상적이지 않은 일이 생긴 것 같은데, 한번 살펴봐 주지 않겠어?\\n*일부 스킬을 사용할 수 없는 전투입니다.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_PVP_SPORTSDAY_PARTYNIGHT") {$(this).html("A wild party on a hot summer night! Smash more fruit than the other team! ")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_BEAR_GIANT_EVENT") {$(this).html("The giant bear, Stribog, is said to make its home here. Wild reports have been popping up more and more frequently. Can you go and take a look?\\n*This battle does not allow you to use certain skills.")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_BEAR_RETURN_EQUAL") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_BEAR_URKUL_EQUAL") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_CRESCENT_EQUAL_KIERU") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_CRESCENT_EQUAL_ZAKARUM") {$(this).html("")}
-		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_CRESCENT_RAKIORA_DS") {$(this).html("미지의 섬 깊은 곳에 숨 죽인 공포, 고대 라키오라의 거처.\\n*일부 스킬을 사용할 수 없는 전투입니다.")}
-		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_CRESCENT_RAKIORA_DS_EVENT") {$(this).html("미지의 섬 깊은 곳에 숨 죽인 공포, 고대 라키오라의 거처.\\n*일부 스킬을 사용할 수 없는 전투입니다.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_CRESCENT_RAKIORA_DS") {$(this).html("The dwelling place of the terrifying Ancient Lakoria.\\n*This battle does not allow you to use certain skills.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_CRESCENT_RAKIORA_DS_EVENT") {$(this).html("The dwelling place of the terrifying Ancient Lakoria.\\n*This battle does not allow you to use certain skills.")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_CRESCENT_RAKIORA_EQUAL") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DESERT_EQUAL_BAKRAM") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DESERT_EQUAL_IKRIUM") {$(this).html("")}
@@ -196,15 +196,15 @@ BattleQuote = function(){
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DESERT_EQUAL_ZENON") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DESERT_HAVAN_EQUAL") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DESERT_ISET_EQUAL") {$(this).html("")}
-		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DRAGON_ANCIENT_BUGEIKLOTH_EVENT") {$(this).html("인간은 어리석었고, 그는 결국 무의미한 싸움에 환멸을 느꼈다.\\n그 무기력하고 참혹한 전투가 눈앞에 펼쳐진다.\\n*일부 스킬을 사용할 수 없는 전투입니다.")}
-		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DRAGON_ANCIENT_ELCULOUS_EVENT") {$(this).html("마족에겐 신이 있었다.\\n그것이 바로 마신 엘쿨루스.\\n그 신의 힘이… 지금 너의 눈앞에 펼쳐질 것이다.\\n*일부 스킬을 사용할 수 없는 전투입니다.")}
-		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DRAGON_ANCIENT_SIGLINT_EVENT") {$(this).html("그는 신을 직접 처단하고, 자신이 그 자리에 서고자 했다. 그 오만한 반란의 움직임이 지금 당신을 덮친다.\\n*일부 스킬을 사용할 수 없는 전투입니다.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DRAGON_ANCIENT_BUGEIKLOTH_EVENT") {$(this).html("The great lord Beokros finds little meaning in your worthless human trivialities.\\nYou will bear witness to the frozen heart of terror.\\n*This battle does not allow you to use certain skills.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DRAGON_ANCIENT_ELCULOUS_EVENT") {$(this).html("The enchantments in this area will summon the ancient beast, Elchulus, Lord of the Fomors, and you will know its fury.\\n*This battle does not allow you to use certain skills.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DRAGON_ANCIENT_SIGLINT_EVENT") {$(this).html("The mighty Siglint coveted the power of Elchulus for his own. His arrogant rage will consume you all.\\n*This battle does not allow you to use certain skills.")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DRAGON_BUGEIKLOTH_EQUAL") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DRAGON_ELCULOUS_EQUAL") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_DRAGON_SIGLINT_EQUAL") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_EVENT_FOOLSDAY_2016") {$(this).html("Hey you! Rookie! Find out for yourself whether I'm right or wrong!")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_EVENT_NOBLESS_VALENTINE_2016_JAJP") {$(this).html("사랑에 빠진 코볼트가 아가씨를 납치했어! 그녀를 구해줘.")}
-		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_GIANT_SPIDER_ALL_EVENT") {$(this).html("벤샤르트 그 아이가 살고 있던 곳을 알고 있어요. 하지만 그곳에 있는 아이들은 위험하니 신중하게 생각하시고 행동하시는 게 나으실 거에요.\\n*일부 스킬을 사용할 수 없는 전투입니다.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_GIANT_SPIDER_ALL_EVENT") {$(this).html("The great Wenshardt's hometown is being overrun by his spiderlings. We owe it to his memory to put an end to their senseless destruction.\\n*This battle does not allow you to use certain skills.")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_GIANT_SPIDER_LAGHODESSA_EQUAL") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_GIANT_SPIDER_QUEEN_EQUAL") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_GLASGAVELEN_BRANDSHOP") {$(this).html("도대체 이 안에 무엇이 존재하기에 이런 자가 이곳을 지키고 있지? \\n모두 단단히 각오하도록 해라. 지하로 내려가겠다.\\n * 레이드 전투 파괴의 화신은 하루 1회 성공 제한 조건이 걸려 있습니다.")}
@@ -288,7 +288,17 @@ BattleQuote = function(){
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP5_04") {$(this).html("I feel as if I found something I once lost.\\n * The Under the Surface raid battle can only be completed once a day.")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP5_EOCHAID") {$(this).html("The Evil One was once a brave guardian. But now, tainted by madness, he shows no mercy to those who approach him.\\n* The Agony and Despair raid battle can only be completed once a day.")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP5_MORBUS_FREE_BATTLE") {$(this).html("You finally passed through the Wood Elf mountain and reached the Prairie, but a new evil awaits.")}
-		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_STRUGGLE_TOWER_PARTY") {$(this).html("기사들이 강함을 증명하기 위해 찾았던 투쟁의 탑. 이제는 아무도 찾지 않는다...\\n * 투쟁의 탑은 지하 1~10층까지 도전할 수 있는 전투입니다.\\n * 이곳에서 얻는 용사의 인장은 일일 획득 제한 수량에 영향을 끼치지 않습니다.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP6_CAPTAIN_FREE_BATTLE") {$(this).html("약의 재료가 필요하다. 밖에는 마족들이 많아. 린간들에게 적대적이니 조심하도록 해.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP6_COOK_FREE_BATTLE") {$(this).html("코볼트들은 다 조금씩 미쳐있지. 요리사라곤 하지만 독 요리를 하는 녀석이니 해독제 또한 있을거다.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP6_DOCTOR_FREE_BATTLE") {$(this).html("왜 이렇게 변했을까요?\\n누가 이렇게 만들었을까요?\\n….\\n저를 데려가 주세요. 마을 밖으로….")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP6_FURYMACE_FREE_BATTLE") {$(this).html("한시가 급하다. 퓨리메이스는 오래 버티지 못할 것이다.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP6_HABITANT") {$(this).html("어둡고 깊은 그곳에 살고 있는 그에게는 우리가 불청객일 거야… \\n * 레이드 전투 깊은 곳의 서식자는 하루 1회 성공 제한 조건이 걸려 있습니다.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP6_ROCK_FREE_BATTLE") {$(this).html("오염이 있어서는 안될 곳까지 퍼져 있는 것 같다. 깊은 곳은 안전해야 할 터. 확인이 필요하다.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP6_SIXEYE_FREE_BATTLE") {$(this).html("같은 오거라니 정말 짜증나는 표현이군. 오거는 차별자야. 자신들 외에는 다 하등한 종족이지. 의전홀에서 그녀석을 찾을 수 있을거다.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP6_SPEARMAN_FREE_BATTLE") {$(this).html("하키쉬는 사람을 가둬놓고 고문하는 취미가 있는 악질이라네. 그에게 걸리면 적어도 죽진 않지. 뭐든 먹여서 살려놓으니.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_S3_EP6_SPECIAL_FORCES_FREE_BATTLE") {$(this).html("마르지 않은 핏자국을 찾아 게르트루트가 피신한 곳으로 간다. 과연 무사할까?")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_SPECIAL_SHINING_KADAN") {$(this).html("가장 강했던 마족과 가장 강했던 인간, 그 둘이 힘을 합쳐 영웅들의 도전을 기다린다.\\n* 스페셜 던전은 스토리와 무관한 특수한 던전입니다.\\n* 하루 1회 성공 제한 조건이 걸려 있습니다.")}
+		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_STRUGGLE_TOWER_PARTY") {$(this).html("Warriors of old would battle in the Abyssal Arena to demonstrate their might, but few show their faces here today.\\n* The Abyssal Arena runs 10 floors deep underground.\\n *Any Seals of Bravery obtained in the Abyssal Arena do not count toward your daily limit.")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_SUCCUBUS_SUCCUBUS_EQUAL") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_TOAD_THOR_EQUAL") {$(this).html("")}
 		if (BattleDesc ==  "HEROES_QUEST_DESC_QUEST_TOMB_EQUAL_CAPTAIN") {$(this).html("")}
