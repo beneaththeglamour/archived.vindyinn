@@ -46,7 +46,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:38',
-        cover:'  ' 
+        cover:'http://i.imgur.com/CTQvOYC.jpg' 
     },
 	 {
         mp3:'https://a.tumblr.com/tumblr_oc0jm6Jifw1vdwdpyo1.mp3',
@@ -70,7 +70,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:28',
-        cover:'  ' 
+        cover:'http://i.imgur.com/riIsmsK.jpg' 
     },
 	 {
         mp3:'http://picosong.com/media/songs/2e5d0589a1c3727c58005c09b5991341.mp3',
@@ -94,7 +94,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:21',
-        cover:'  ' 
+        cover:'http://i.imgur.com/3rDZbtt.jpg' 
     },
 	 {
         mp3:'http://picosong.com/media/songs/dba2ba6cdde9bacdae7e595097eed617.mp3',
@@ -182,7 +182,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:11',
-        cover:'  ' 
+        cover:'http://i.imgur.com/G9eDgOv.jpg' 
     },
 	 {
         mp3:'http://picosong.com/media/songs/b7674000519cdbd1b10ba5bc26615558.mp3',
