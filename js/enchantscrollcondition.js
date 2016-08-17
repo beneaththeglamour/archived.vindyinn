@@ -1,6 +1,6 @@
 ReplaceESCondition = function(){
 	$('.enchantstatconstraint').each(function(){
-		EnchantCondition = $(this).attr('value')
+		EnchantCondition = $(this).attr('value')		
 		if (EnchantCondition == "GAMEUI_HEROES_ENCHANTCONDITION_ACID_1") {$(this).prepend("Requires Life Flare Rank A or above.")}
 		if (EnchantCondition == "GAMEUI_HEROES_ENCHANTCONDITION_ACID_2") {$(this).prepend(" ")}
 		if (EnchantCondition == "GAMEUI_HEROES_ENCHANTCONDITION_ACID_3") {$(this).prepend("Requires Life Flare Rank A or above.")}
