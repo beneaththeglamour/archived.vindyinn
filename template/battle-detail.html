@@ -154,7 +154,7 @@
 		<h2>Known Drops</h2> 	
 		
 		<table class="knowndrops">
-			<thead></thead>
+			<thead><th>Item Name</th></thead>
 			<tbody ng-repeat="drop in DropLocation | filter:{'Class':missionstat}:true">
 				<tr ng-repeat="Drops in drop.Drops">
 					<td>{{Drops}}</td>
