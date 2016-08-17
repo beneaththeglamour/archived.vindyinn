@@ -62,7 +62,7 @@ var myPlaylist = [
         artist:'Vindictus',
         rating:5,
         duration:'2:28',
-        cover:'  ' 
+        cover:'http://i.imgur.com/OSLjuJg.jpg' 
     },
 	 {
         mp3:'https://a.tumblr.com/tumblr_oc0jt1uen31vdwdpyo1.mp3',
