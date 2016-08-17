@@ -3,7 +3,7 @@ var ItemControllers = angular.module("ItemControllers", []);
 ItemControllers.controller("ListController", ['$scope','$http', 
 	function($scope, $http)
 		{    
-				$http.get('/json/ItemClassInfoV2.json').success (function(data){
+				$http.get('/json/ItemClassInfoV3.json').success (function(data){
 				$scope.ItemVariable = data;
 
 				setTimeout(function(){
