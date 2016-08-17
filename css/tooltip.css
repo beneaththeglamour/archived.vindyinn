@@ -708,3 +708,13 @@ display: list-item !important;
 .strategies {
 	padding:0 1rem;
 }
+.strategies ul {
+	margin: 0rem 1rem !important;
+	padding: 0;
+}
+.strategies h3 {
+    font-size: 1.1rem;
+    color: #CC635D;
+    font-family: Alegreya Sans, sans-serif;
+    font-weight: 200;
+}
