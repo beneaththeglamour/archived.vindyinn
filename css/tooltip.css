@@ -704,17 +704,24 @@ font-weight: bold;
 .strategies li {
 	background: transparent !important;
 display: list-item !important;
+list-style: circle;
 }
 .strategies {
 	padding:0 1rem;
+	font-size: 0.9rem;
 }
 .strategies ul {
 	margin: 0rem 1rem !important;
 	padding: 0;
 }
 .strategies h3 {
-    font-size: 1.1rem;
-    color: #9F9588;
-    font-family: Alegreya Sans, sans-serif;
-    font-weight: 200;
+    font-size: 1.3rem;
+color: #9F9588;
+font-family: Raleway;
+font-weight: 200;
+margin: 1rem 0 0.2rem;
+}
+.strategies strong {
+	font-weight: normal;
+color: #c95c3d;
 }
