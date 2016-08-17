@@ -1,6 +1,6 @@
 MainMission = function(){
 	 $('.missiondesc').each(function(){
-		MissionControl = $(this).attr('value')
+		MissionControl = $(this).attr('value')		
 		if (MissionControl ==  "HEROES_QUEST_GOAL_10000") {$(this).html("Defeat a Gnoll Scout")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_10010") {$(this).html("Defeat a Wood Man Guard")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_10020") {$(this).html("Defeat a Wood Man using Smash")}
@@ -853,6 +853,7 @@ MainMission = function(){
 		if (MissionControl ==  "HEROES_QUEST_GOAL_51307") {$(this).html("Win without repairing armor")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_51308") {$(this).html("Season of Macha (difficulty up)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_513100") {$(this).html("납치된 레이디 지키기")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_513200") {$(this).html("Smash more fruit than the opposing team! (*P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_51400") {$(this).html("Defeat Torture Expert Sting (*P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_51401") {$(this).html("Obtain Portable Electricity Generator")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_51402") {$(this).html("Obtain 1 Twilight Erg Crystal (P)")}
@@ -1421,62 +1422,112 @@ MainMission = function(){
 		if (MissionControl ==  "HEROES_QUEST_GOAL_646900") {$(this).html("Defeat Epidemius (*P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_647000") {$(this).html("Defeat Pestis (*P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_647100") {$(this).html("Defeat Eochaid (*P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647200") {$(this).html("심판단장 자무로프 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647201") {$(this).html("자무로프를 일반 공격으로 처치(파티)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647202") {$(this).html("개인 장비가 5회 이상 파괴되지 않음")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647203") {$(this).html("5분 이내에 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647204") {$(this).html("방어구를 수리 않고 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647205") {$(this).html("마하의 계절 (난이도 상승)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647300") {$(this).html("맛있는 오쿡쿠 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647301") {$(this).html("낙원석 획득")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647302") {$(this).html("발차기로 몬스터 7마리 처치(파티)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647303") {$(this).html("2인 이하 플레이로 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647304") {$(this).html("3회 행동 불능 되지 않고 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647305") {$(this).html("마하의 계절 (난이도 상승)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647400") {$(this).html("창병장 하키쉬 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647401") {$(this).html("고블린 4마리를 창으로 처치(파티)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647402") {$(this).html("개인 장비가 5회 이상 파괴되지 않음")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647403") {$(this).html("생명력 포션을 쓰지 않고 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647404") {$(this).html("방어구를 수리 않고 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647405") {$(this).html("마하의 계절 (난이도 상승)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647500") {$(this).html("섬세한 오서저크 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647501") {$(this).html("코볼트 4마리를 창으로 처치(파티)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647502") {$(this).html("낙원석 획득")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647503") {$(this).html("2인 이하 플레이로 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647504") {$(this).html("깃털을 쓰지 않고 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647505") {$(this).html("마하의 계절 (난이도 상승)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647600") {$(this).html("선발대장 바케노프 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647601") {$(this).html("바케노프를 발차기로 처치(파티)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647602") {$(this).html("낙원석 획득")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647603") {$(this).html("5분 이내에 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647604") {$(this).html("생명력 포션을 쓰지 않고 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647605") {$(this).html("마하의 계절 (난이도 상승)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647700") {$(this).html("광폭의 모르부스 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647701") {$(this).html("개인 장비가 5회 이상 파괴되지 않음")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647702") {$(this).html("발차기로 몬스터 7마리 처치(파티)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647703") {$(this).html("방어구를 수리 않고 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647705") {$(this).html("마하의 계절 (난이도 상승)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647800") {$(this).html("식스아이 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647801") {$(this).html("식스아이를 일반 공격으로 처치(파티)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647802") {$(this).html("발차기로 몬스터 7마리 처치(파티)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647804") {$(this).html("2인 이하 플레이로 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647805") {$(this).html("마하의 계절 (난이도 상승)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647900") {$(this).html("단죄자 퓨리메이스 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647901") {$(this).html("퓨리메이스를 발차기로 처치(파티)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647902") {$(this).html("개인 장비가 5회 이상 파괴되지 않음")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_647905") {$(this).html("마하의 계절 (난이도 상승)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_648000") {$(this).html("해비던트 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_648001") {$(this).html("해비던트 부분 파괴 성공")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_648002") {$(this).html("개인 장비가 5회 이상 파괴되지 않음")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_648003") {$(this).html("6인 이하 플레이로 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_648004") {$(this).html("15분 이내에 전투 승리")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_648005") {$(this).html("소중한 갑주 (파티장비 파괴 20회 미만)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_70000") {$(this).html("Defeat Ancient Elchulus (*P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_70001") {$(this).html("Destroy one of Ancient Elchulus's parts (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_70002") {$(this).html("Destroy three of Ancient Elchulus's parts (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_70003") {$(this).html("Destroy all of Ancient Elchulus's parts (P)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_70011") {$(this).html("고대 엘쿨루스 처치 [파티 권장]")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_70012") {$(this).html("고대 엘쿨루스의 부분파괴 성공(파티)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_70013") {$(this).html("고대 엘쿨루스의 부분파괴 3회 성공(파티)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_70014") {$(this).html("고대 엘쿨루스의 부분파괴 모두 성공(파티)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_70011") {$(this).html("Defeat Ancient Elchulus (*P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_70012") {$(this).html("Destroy one of Ancient Elchulus's parts (P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_70013") {$(this).html("Destroy three of Ancient Elchulus's parts (P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_70014") {$(this).html("Destroy all of Ancient Elchulus's parts (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_70100") {$(this).html("Kill the Ravenous Queen (*P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_70101") {$(this).html("Defeat the Thorn Spider (*P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_70102") {$(this).html("Kill the Giant Cloaking Spider (*P)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_70115") {$(this).html("굶주린 여왕 거미 처치 [파티 권장]")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_70116") {$(this).html("맹독의 가시 거미 처치 [파티 권장]")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_70117") {$(this).html("점성의 거대 거미 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_70115") {$(this).html("Defeat the Starving Spider Queen (*P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_70116") {$(this).html("Defeat the Thorn Spider (*P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_70117") {$(this).html("Defeat the Camouflaged Giant Spider (*P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_70200") {$(this).html("Defeat Stribog (*P)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_70218") {$(this).html("눈보라 처치 [파티 권장]")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_70300") {$(this).html("고대 라키오라 처치 [파티 권장]")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_70310") {$(this).html("고대 라키오라 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_70218") {$(this).html("Defeat Stribog (*P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_70300") {$(this).html("Defeat Ancient Lakoria (*P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_70310") {$(this).html("Defeat Ancient Lakoria (*P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71000") {$(this).html("Defeat Siglint (*P)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_710000") {$(this).html("놀 치프틴 처치")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_710000") {$(this).html("Defeat the Gnoll Chieftain")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71001") {$(this).html("Crash-land Siglint with a Hemdrill (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71002") {$(this).html("Crash-land Siglint with a Hemdrill 3 times(P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71003") {$(this).html("Destroy all of Siglint's parts (P)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_710100") {$(this).html("거대 북극곰 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_71019") {$(this).html("고대 지그린트 처치 [파티 권장]")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_71020") {$(this).html("고대 지그린트의 크랙디거 충돌 추락(파티)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_710200") {$(this).html("블러드 로드 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_71021") {$(this).html("고대 지그린트의 크랙디거 충돌 추락 3회 성공(파티)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_71022") {$(this).html("고대 지그린트의 부분파괴 모두 성공(파티)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_710300") {$(this).html("퀸 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_710400") {$(this).html("가시 라고데사 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_710500") {$(this).html("우르쿨 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_710600") {$(this).html("블랙밸리 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_710700") {$(this).html("싸늘한 이미크 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_710800") {$(this).html("클라우스 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_710900") {$(this).html("티탄 처치")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_710100") {$(this).html("Defeat the Giant Polar Bear")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_71019") {$(this).html("Defeat Siglint (*P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_71020") {$(this).html("Crash-land Siglint with a Hemdrill (P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_710200") {$(this).html("Defeat The Blood Lord")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_71021") {$(this).html("Crash-land Siglint with a Hemdrill 3 times(P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_71022") {$(this).html("Destroy all of Siglint's parts (P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_710300") {$(this).html("Defeat the Spider Queen")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_710400") {$(this).html("Defeat Thorn Laghodessa")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_710500") {$(this).html("Defeat Irukul")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_710600") {$(this).html("Defeat Black Belly")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_710700") {$(this).html("Defeat the Cold Imich")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_710800") {$(this).html("Defeat Klaus")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_710900") {$(this).html("Defeat Titan")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71100") {$(this).html("Defeat Beokros (*P)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_711000") {$(this).html("토르 처치")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_711000") {$(this).html("Defeat Thor")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71101") {$(this).html("Attack Beokros's head with an ice shard (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71102") {$(this).html("Attack Beokros's head with an ice shard 3 times (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71103") {$(this).html("Destroy all of Beokros's parts (P)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_711100") {$(this).html("잉켈스 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_711200") {$(this).html("아글란 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_71123") {$(this).html("고대 뷔제클로스 처치 [파티 권장]")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_71124") {$(this).html("고대 뷔제클로스 머리에 얼음 파편 공격(파티)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_71125") {$(this).html("고대 뷔제클로스 머리에 얼음 파편 3회 공격(파티)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_71126") {$(this).html("고대 뷔제클로스의 부분파괴 모두 성공(파티)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_711300") {$(this).html("글라스 기브넨 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_711400") {$(this).html("지배된 블랙해머 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_711500") {$(this).html("라이노토스 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_711600") {$(this).html("공예의 콜루 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_711700") {$(this).html("지그린트 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_711800") {$(this).html("뷔제클로스 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_711900") {$(this).html("엘쿨루스 처치")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_711100") {$(this).html("Defeat Ingkells")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_711200") {$(this).html("Defeat Ahglan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_71123") {$(this).html("Defeat Beokros (*P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_71124") {$(this).html("Attack Beokros's head with an ice shard (P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_71125") {$(this).html("Attack Beokros's head with an ice shard 3 times (P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_71126") {$(this).html("Destroy all of Beokros's parts (P)")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_711300") {$(this).html("Defeat Glas Ghaibhleann")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_711400") {$(this).html("Defeat Controlled Black Hammer")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_711500") {$(this).html("Defeat Lionotus")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_711600") {$(this).html("Defeat Craftsman Colru")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_711700") {$(this).html("Defeat Siglint")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_711800") {$(this).html("Defeat Beokros")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_711900") {$(this).html("Defeat Elchulus")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71200") {$(this).html("Defeat Siglint (*P)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_712000") {$(this).html("카단 저지")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_712000") {$(this).html("Defeat Keaghan")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71201") {$(this).html("Crash-land Siglint with a Hemdrill (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71202") {$(this).html("Crash-land Siglint with a Hemdrill 3 times(P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71203") {$(this).html("Destroy all of Siglint's parts (P)")}
@@ -1484,17 +1535,17 @@ MainMission = function(){
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71205") {$(this).html("Win without using any HP Potions")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71206") {$(this).html("Win with 6 or fewer players")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71207") {$(this).html("Season of Macha (difficulty up)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_712100") {$(this).html("이세트 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_712200") {$(this).html("하반 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_712300") {$(this).html("율케스 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_712400") {$(this).html("라바사트 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_712500") {$(this).html("드루이드 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_712600") {$(this).html("크로우 크루아흐 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_712700") {$(this).html("레지나 저지")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_712800") {$(this).html("고대 글라스 기브넨 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_712900") {$(this).html("루 라바다 처치")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_712100") {$(this).html("Defeat Iset")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_712200") {$(this).html("Defeat Havan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_712300") {$(this).html("Defeat Ulchas")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_712400") {$(this).html("Defeat Lavasat")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_712500") {$(this).html("Defeat Druid")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_712600") {$(this).html("Defeat Cromm Cruaich")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_712700") {$(this).html("Defeat Regina")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_712800") {$(this).html("Defeat Lord Glas Ghaibhleann")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_712900") {$(this).html("Defeat Lugh Lamhfada")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71300") {$(this).html("Defeat Beokros (*P)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_713000") {$(this).html("서큐버스 처치")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_713000") {$(this).html("Defeat the Succubus")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71301") {$(this).html("Attack Beokros's head with an ice shard (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71302") {$(this).html("Attack Beokros's head with an ice shard 3 times (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71303") {$(this).html("Destroy all of Beokros's parts (P)")}
@@ -1502,17 +1553,17 @@ MainMission = function(){
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71305") {$(this).html("Equipment destroyed < 24 times (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71306") {$(this).html("Win with 6 or fewer players")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71307") {$(this).html("Season of Macha (difficulty up)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_713100") {$(this).html("샤이닝 샤칼 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_713200") {$(this).html("메르 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_713300") {$(this).html("블랙브리즈 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_713400") {$(this).html("스카드블랙 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_713500") {$(this).html("겁많은 이운소크 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_713600") {$(this).html("침착한 이즈루크 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_713700") {$(this).html("빅혼 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_713800") {$(this).html("락죠 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_713900") {$(this).html("파메누 처치")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_713100") {$(this).html("Defeat Shining Shakarr")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_713200") {$(this).html("Defeat Muir")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_713300") {$(this).html("Defeat Black Breeze")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_713400") {$(this).html("Defeat Black Scar")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_713500") {$(this).html("Defeat Yellow-bellied Ewynsoch")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_713600") {$(this).html("Defeat Calm Ezroch")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_713700") {$(this).html("Defeat Big Horn")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_713800") {$(this).html("Defeat Rockjaw")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_713900") {$(this).html("Defeat Famenu")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71400") {$(this).html("Defeat Elchulus (*P)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_714000") {$(this).html("쟈르가 처치")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_714000") {$(this).html("Defeat Zyarga")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71401") {$(this).html("Destroy one of Elchulus's parts (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71402") {$(this).html("Destroy two of Elchulus's parts (P)")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71403") {$(this).html("Destroy all of Elchulus's parts (P)")}
@@ -1520,52 +1571,126 @@ MainMission = function(){
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71405") {$(this).html("Win without feathers")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71406") {$(this).html("Win with 6 or fewer players")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71407") {$(this).html("Season of Macha (difficulty up)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_714100") {$(this).html("타오누 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_714200") {$(this).html("사령관 카크리쉬 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_714300") {$(this).html("관문지기 지르칼 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_714400") {$(this).html("오거 센츄리온 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_714500") {$(this).html("블러드 피스트 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_714600") {$(this).html("워로드 블랙해머 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_714700") {$(this).html("화약 전문가 프롬푸쉬 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_714800") {$(this).html("창술교관 자구르쉬 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_714900") {$(this).html("정보장교 칸젤 처치")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_714100") {$(this).html("Defeat Taonu")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_714200") {$(this).html("Defeat Commander Kakrish")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_714300") {$(this).html("Defeat Gatekeeper Jirkal")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_714400") {$(this).html("Defeat Ogre Centurion")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_714500") {$(this).html("Defeat Blood Fist Gauntlet")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_714600") {$(this).html("Defeat Warlord Black Hammer")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_714700") {$(this).html("Defeat Explosives Expert Prompush")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_714800") {$(this).html("Defeat Spear Instructor Jagursh")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_714900") {$(this).html("Defeat Information Chief Kanjel")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71500") {$(this).html("Stop Keaghan (*P)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_715000") {$(this).html("사령관 카크리쉬 처치")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_715000") {$(this).html("Defeat Commander Kakrish")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71501") {$(this).html("Obtain a Cursed Manuscript Scrap")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71502") {$(this).html("Equipment destroyed < 5 times")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71503") {$(this).html("Win with 4 or fewer players")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71504") {$(this).html("Win without repairing your armor")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71505") {$(this).html("Incapacitated < 18 times")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_71506") {$(this).html("Season of Macha (difficulty up)")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_715100") {$(this).html("습격단장 라르켄 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_715200") {$(this).html("추적자 케세르 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_715300") {$(this).html("암살자 에키나르 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_715400") {$(this).html("용사 치울린 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_715500") {$(this).html("그림자술사 잉카라 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_715600") {$(this).html("클로얀 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_715700") {$(this).html("실베린 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_715800") {$(this).html("지진술사 자카룸 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_715900") {$(this).html("여족장 키에루 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_716000") {$(this).html("후작 마르키오 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_716100") {$(this).html("여군주 모나르카 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_716200") {$(this).html("저주받은 선장 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_716300") {$(this).html("보좌관 샤미르 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_716400") {$(this).html("심판관 바크람 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_716500") {$(this).html("제논 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_716600") {$(this).html("지휘관 이크리엄 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_716700") {$(this).html("장전의 달인 세이라 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_716800") {$(this).html("상급기사 베누칸 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_716900") {$(this).html("광기의 마사카 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_717000") {$(this).html("수석조수 마르칸 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_717100") {$(this).html("강철의 무스펠 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_717200") {$(this).html("칼리두스 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_717300") {$(this).html("아카두스 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_717400") {$(this).html("크레타 카피탄 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_717500") {$(this).html("독물제조가 베놈 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_717600") {$(this).html("지배자 라키오라 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_717700") {$(this).html("브라하 처치")}
-		if (MissionControl ==  "HEROES_QUEST_GOAL_717800") {$(this).html("스카드블랙 처치")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_715100") {$(this).html("Defeat Raiding Party Captain Larken")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_715200") {$(this).html("Defeat Chaser Keser")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_715300") {$(this).html("Defeat Assassin Ekinar")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_715400") {$(this).html("Defeat Novice Chiulin")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_715500") {$(this).html("Defeat Shadow Shaman Ingkara")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_715600") {$(this).html("Defeat Cloyan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_715700") {$(this).html("Defeat Silberin")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_715800") {$(this).html("Defeat Earthshaker Zaka")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_715900") {$(this).html("Defeat Deathchief Kielu")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_71600") {$(this).html("보스 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_716000") {$(this).html("Defeat Slithering Mare")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_71601") {$(this).html("보스 처치 [파티 권장]")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_71602") {$(this).html("개인 장비가 5회 이상 파괴되지 않음")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_716100") {$(this).html("Defeat Muckrot Monark")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_716200") {$(this).html("Defeat Mad Willy Flint")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_716300") {$(this).html("Defeat Advisor Shamir")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_716400") {$(this).html("Defeat Judge Vakram")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_716500") {$(this).html("Defeat Jehnon")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_716600") {$(this).html("Defeat Commander Ikrium")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_716700") {$(this).html("Defeat Quick-Hand Seira")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_716800") {$(this).html("Defeat Elite Commander Venukan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_716900") {$(this).html("Defeat Crazy Masaka")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_717000") {$(this).html("Defeat Foreman Markan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_717100") {$(this).html("Defeat Steel Muspell")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_717200") {$(this).html("Defeat Callidus")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_717300") {$(this).html("Defeat Akadus")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_717400") {$(this).html("Defeat Valus")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_717500") {$(this).html("Defeat Poison Maker Venom")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_717600") {$(this).html("Defeat Lakoria")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_717700") {$(this).html("Defeat Braha")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_717800") {$(this).html("Defeat Black Scar")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_717900") {$(this).html("Defeat Meperdu")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_718000") {$(this).html("Defeat Information Chief Kanjel")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_80001") {$(this).html("Completed when Gnoll Chieftain is defeated")}
 		if (MissionControl ==  "HEROES_QUEST_GOAL_80100") {$(this).html("Defeat Kobold the Liar")}
-	 })
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610000") {$(this).html("Earthshaker Zaka")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610001") {$(this).html("Legtrap Kaula")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610002") {$(this).html("Deathchief Kielu")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610003") {$(this).html("Carpenter Drone")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610004") {$(this).html("Hive Queen")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610100") {$(this).html("Longboot Matty")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610101") {$(this).html("Barnacle Bill Simmons")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610102") {$(this).html("Mad Willy Flint")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610103") {$(this).html("Sea Hag Kamina")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610104") {$(this).html("Slithering Mare")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610105") {$(this).html("Muckrot Monark")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610106") {$(this).html("King Stoneshell")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610300") {$(this).html("Earthshaker Zaka")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610400") {$(this).html("Legtrap Kaula")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610500") {$(this).html("Deathchief Kielu")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610600") {$(this).html("Sea Hag Kamina")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610700") {$(this).html("Mad Willy Flint")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610800") {$(this).html("Slithering Mare")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_610900") {$(this).html("Muckrot Monark")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611000") {$(this).html("Lakoria")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611100") {$(this).html("Kraken")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611200") {$(this).html("Lakoria")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611300") {$(this).html("Kraken")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611500") {$(this).html("Commander Ikrium")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611501") {$(this).html("Akanan the Sluice-Keeper")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611502") {$(this).html("Advisor Shamir")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611503") {$(this).html("Judge Vakram")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611504") {$(this).html("Alteron the Chief Priest")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611505") {$(this).html("Meses")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611506") {$(this).html("Zenon")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611507") {$(this).html("Maios")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611508") {$(this).html("Desert Roc")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611800") {$(this).html("Judge Vakram")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_611900") {$(this).html("Zenon")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_612000") {$(this).html("Meses")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_612100") {$(this).html("Maios")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_612200") {$(this).html("Commander Ikrium")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_612300") {$(this).html("Alteron the Chief Priest")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615000") {$(this).html("Iset")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615100") {$(this).html("Havan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615400") {$(this).html("Pantheum")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615500") {$(this).html("Crazy Masaka")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615501") {$(this).html("Excavator Gianoo")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615502") {$(this).html("Quick-Hand Seira")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615503") {$(this).html("Foreman Markan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615504") {$(this).html("Elite Commander Venukan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615600") {$(this).html("Steel Muspell")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615601") {$(this).html("Excavator Gianoo")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615602") {$(this).html("Quick-Hand Seira")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615603") {$(this).html("Foreman Markan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615604") {$(this).html("Elite Commander Venukan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615700") {$(this).html("Elite Commander Venukan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615800") {$(this).html("Excavator Gianoo")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_615900") {$(this).html("Observer Morgue")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_616000") {$(this).html("Drill Rant")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_616100") {$(this).html("Foreman Markan")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_616200") {$(this).html("Quick-Hand Seira")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_616300") {$(this).html("Steel Muspell")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_616400") {$(this).html("Crazy Masaka")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_616500") {$(this).html("Bark No. 1")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_616600") {$(this).html("Juggernaut")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_616900") {$(this).html("Bark No. 1")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_617000") {$(this).html("Juggernaut")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_617100") {$(this).html("Charles the Miner")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_617200") {$(this).html("Ulchas")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_617300") {$(this).html("Lavasat")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_617400") {$(this).html("Druid")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_617500") {$(this).html("Cromm Cruaich")}
+		if (MissionControl ==  "HEROES_QUEST_GOAL_BOSS_617700") {$(this).html("Foreman Markan")}
+	})
 }
