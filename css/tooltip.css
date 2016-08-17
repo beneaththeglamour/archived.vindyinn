@@ -725,3 +725,6 @@ margin: 1rem 0 0.2rem;
 	font-weight: normal;
 color: #c95c3d;
 }
+.team em {
+    color: gray !important;
+}
