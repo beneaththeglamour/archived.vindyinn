@@ -338,7 +338,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams',
 	 function($scope, $http, $routeParams)
 		{    
-				$http.get('/json/ItemClassInfoV2.json').success (function(data){
+				$http.get('/json/ItemClassInfoV3.json').success (function(data){
 				$scope.ItemVariable = data;
 					$http.get('/json/RecipeMaterialInfo.json').success (function(data3){
 					$scope.RecipeMaterialInfo = data3;
