@@ -701,3 +701,7 @@ font-weight: bold;
 .storygoal > .item {
 	color:#71b411;
 }
+.strategies li {
+	background: transparent !important;
+display: list-item !important;
+}
