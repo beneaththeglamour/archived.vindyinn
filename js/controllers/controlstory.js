@@ -173,6 +173,13 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							$.getScript( menu, function() {
 								MenuList()
 							})	
+					$(".mainstoryframe").mCustomScrollbar({
+						axis:"y",
+						theme:"light-thin",
+						setHeight: 384,
+						keyboard:{ enable: true },
+						scrollButtons:{ enable: true }
+					});
 					$('#tabs').tabs();
 					DISQUS.reset({
 					  reload: true,
