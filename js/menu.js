@@ -252,6 +252,7 @@ MenuList = function() {
 	'<li><a href="/enemies">Enemies</a></li>'+
 	'<li><a href="/battles">Battles</a></li>'+
 	'<li><a href="/story">Stories</a></li>'+
+	'<li><a href="/ost">Music</a></li>'+
 	'<li><a>Tools</a>'+
 				'<ul>'+
 					'<li><a href="http://vindictusinn.com/emotes">Emote Gallery</a></li>'+
