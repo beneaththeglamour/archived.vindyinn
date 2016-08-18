@@ -67,7 +67,9 @@ ItemControllers.controller("ListController", ['$scope','$http',
 													$(this).html(ReplacedDesc)
 												})
 											console.log('DataTable loaded.')
-											$('.itemtable').DataTable();
+											$('.itemtable').DataTable({
+												"order": []
+											});
 											$('.scopecontain').show()
 								})	
 							})	
