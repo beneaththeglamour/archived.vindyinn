@@ -176,7 +176,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$(".mainstoryframe").mCustomScrollbar({
 						axis:"y",
 						theme:"dark",
-						setHeight: 384,
+						setHeight: 367,
 						keyboard:{ enable: true },
 						scrollButtons:{ enable: true }
 					});
