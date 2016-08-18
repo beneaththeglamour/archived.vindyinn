@@ -458,3 +458,8 @@ width: 600px;
 	border-radius: 50%;
 border: 0.4rem solid rgb(20, 20, 20);
 }
+.newupdate {
+    background-image: url("http://i.imgur.com/f9dZKrX.png");
+    background-repeat: no-repeat;
+    background-position: 90% 70%;
+}

@@ -3,7 +3,7 @@ MenuList = function() {
 		'<input type="text" name="find" value="Search items">'+
 		'<input type="submit" value="?">'+
 		'</form>'+
-	'<div id="version">Version 1.31</div>')
+	'<div id="version">Version 1.4</div>')
 	$('#searchmenu').append('<div class="announcement">We are currently updating the site for the Ein Lacher update. Once completed, visit the &apos;What&apos;s New&apos; page for details.</div>')
 	$('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
@@ -263,7 +263,7 @@ MenuList = function() {
 					'<li><a href="http://vindictusinn.com/transbuild">Trans Build Editor</a></li>'+
 				'</ul>'+
 	'</li>'+
-	'<li><a href="/new">What&apos;s New</a></li>'+
+	'<li><a href="/new" class="newupdate">What&apos;s New</a></li>'+
 '</ul>')			
 
 $.fn.menumaker = function(options) {
