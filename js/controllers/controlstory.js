@@ -41,7 +41,9 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								})
 								
 								console.log('DataTable loaded.')
-								$('.itemtable').DataTable();
+								$('.itemtable').DataTable({
+									"order": []
+								});
 								$('.scopecontain').show()
 							})	
 				var menu = "/js/menu.js";
