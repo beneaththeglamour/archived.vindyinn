@@ -4,7 +4,6 @@ MenuList = function() {
 		'<input type="submit" value="?">'+
 		'</form>'+
 	'<div id="version">Version 1.4</div>')
-	$('#searchmenu').append('<div class="announcement">We are currently updating the site for the Ein Lacher update. Once completed, visit the &apos;What&apos;s New&apos; page for details.</div>')
 	$('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
 	'<li><a>Equipment</a>'+
