@@ -3300,51 +3300,51 @@ AddingStoryGoals = function(){
 		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_C_PHASETEXT") {$(this).html("Have a talk with {CLODAGH:npc}.")}
 		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_D_PHASETEXT") {$(this).html("Hand out {candy_halloween2015:item} to the townspeople and collect their {coupon_halloween_2015:item}s.")}
 		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_E_PHASETEXT") {$(this).html("Hand out {candy_halloween2015:item} to the townspeople and collect their {coupon_halloween_2015:item}s.")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_A_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enEU_A_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_A_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enEU_A_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_B_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enEU_B_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_B_CONDITION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enEU_B_Condition0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_B_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enEU_B_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_C_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enEU_C_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_C_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enEU_C_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_D_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enEU_D_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_E_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enEU_E_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_A_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enUS_A_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_A_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enUS_A_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_B_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enUS_B_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_B_CONDITION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enUS_B_Condition0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_B_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enUS_B_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_C_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enUS_C_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_C_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enUS_C_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_D_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enUS_D_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_E_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_enUS_E_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_A_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_A_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_A_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_A_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_B_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_B_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_B_CONDITION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_B_Condition0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_B_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_B_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_C_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_C_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_C_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_C_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_D_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_D_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_E_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_E_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_A_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_A_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_A_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_A_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_B_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_B_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_B_CONDITION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_B_Condition0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_B_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_B_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_C_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_C_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_C_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_C_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_D_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_D_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_E_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_E_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_A_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_A_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_A_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_A_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_B_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_B_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_B_CONDITION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_B_Condition0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_B_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_B_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_C_ACTION0") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_C_Action0")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_C_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_C_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_D_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_D_PhaseText")}
-		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_E_PHASETEXT") {$(this).html(if (StoryGoal ==  "GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_E_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_A_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enEU_A_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_A_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enEU_A_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_B_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enEU_B_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_B_CONDITION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enEU_B_Condition0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_B_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enEU_B_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_C_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enEU_C_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_C_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enEU_C_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_D_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enEU_D_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENEU_E_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enEU_E_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_A_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enUS_A_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_A_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enUS_A_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_B_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enUS_B_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_B_CONDITION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enUS_B_Condition0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_B_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enUS_B_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_C_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enUS_C_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_C_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enUS_C_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_D_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enUS_D_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ENUS_E_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_enUS_E_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_A_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_A_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_A_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_A_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_B_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_B_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_B_CONDITION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_B_Condition0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_B_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_B_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_C_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_C_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_C_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_C_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_D_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_D_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_JAJP_E_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_jaJP_E_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_A_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_A_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_A_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_A_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_B_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_B_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_B_CONDITION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_B_Condition0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_B_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_B_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_C_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_C_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_C_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_C_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_D_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_D_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHCN_E_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhCN_E_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_A_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_A_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_A_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_A_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_B_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_B_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_B_CONDITION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_B_Condition0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_B_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_B_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_C_ACTION0") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_C_Action0")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_C_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_C_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_D_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_D_PhaseText")}
+		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HALLOWEEN2015_ZHTW_E_PHASETEXT") {$(this).html("GAMEUI_HEROES_STORY_Event_halloween2015_zhTW_E_PhaseText")}
 		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HANGUL_1510_KOKR_A_ACTION0") {$(this).html("{STRANGECAT:npc:와} 대화해 보자")}
 		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HANGUL_1510_KOKR_A_PHASETEXT") {$(this).html("콜헨의 {STRANGECAT:npc:와} 대화해 보자.")}
 		if (StoryGoal ==  "GAMEUI_HEROES_STORY_EVENT_HANGUL_1510_KOKR_B_ACTION0") {$(this).html("{STRANGECAT:npc:와} 대화해 보자")}
