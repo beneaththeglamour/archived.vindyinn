@@ -122,7 +122,7 @@
 			</span>
 		</td>
 		<td class="mats" width="400px">
-			<span  ng-repeat="item in RecipeMaterialInfo  | filter : {'RecipeID':npcmat , 'ItemClass':'!gold','Type':1}:true | limitTo: 1">
+			<span  ng-repeat="item in RecipeMaterialInfo  | filter : {'RecipeID':npcmat , 'ItemClass':'!gold','Type':1}:true">
 				<input class="NPC{{item.ItemClass|uppercase}}" style="display:none;" ng-model="npcclass" ng-init="npcclass = &#39;Loading...&#39;" name="search" type="text">
 				<span class="RecipeID" value="{{item.ItemClass|uppercase}}"></span>
 				<span  ng-repeat="mat in ItemVariable  | filter : {'ItemClass':npcclass , 'Name':'!Gold Coin'}:true | limitTo: 1" style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
