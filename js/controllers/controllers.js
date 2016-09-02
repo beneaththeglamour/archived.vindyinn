@@ -362,17 +362,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$scope.limit = limitStep;
 					$scope.incrementLimit = function() {
 						$scope.limit += limitStep;
-						setTimeout(function(){
-							$('.UsedIn').each(function(){
-								UsedIn = $(this).attr('value')
-								UsedIn = UsedIn.replace('RECIPE_','')
-								$(this).children().val(UsedIn)
-							} )
-							$('.UsedInput').trigger('input')
-							$('.UsedInput').attr('class','expired')
-							$('.UsedIn').attr('class','expired')
-							$('.expired').each(function(){$(this).blur()})
-						}, 200)
 					};
 					$scope.decrementLimit = function() {
 						$scope.limit -= limitStep;
@@ -381,17 +370,6 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$scope.limit2 = limitStep;
 					$scope.incrementLimit2 = function() {
 						$scope.limit2 += limitStep;
-						setTimeout(function(){
-							$('.UsedIn').each(function(){
-								UsedIn = $(this).attr('value')
-								UsedIn = UsedIn.replace('RECIPE_','')
-								$(this).children().val(UsedIn)
-							} )
-							$('.UsedInput').trigger('input')
-							$('.UsedInput').attr('class','expired')
-							$('.UsedIn').attr('class','expired')
-							$('.expired').each(function(){$(this).blur()})
-						}, 200)
 					};
 					$scope.decrementLimit2 = function() {
 						$scope.limit2 -= limitStep;
@@ -416,9 +394,31 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						})
 					UsedInCraftingButton = function(){
 							$('.mainitemclass').val(ItemClassValue).trigger('input')
+							setTimeout(function(){
+								$('.UsedIn').each(function(){
+									UsedIn = $(this).attr('value')
+									UsedIn = UsedIn.replace('RECIPE_','')
+									$(this).children().val(UsedIn)
+								} )
+								$('.UsedInput').trigger('input')
+								$('.UsedInput').attr('class','expired')
+								$('.UsedIn').attr('class','expired')
+								$('.expired').each(function(){$(this).blur()})
+							}, 200)
 					}
 					UsedInExpertiseButton = function(){
 							$('.mainitemclass2').val(ItemClassValue).trigger('input')
+							setTimeout(function(){
+								$('.UsedIn').each(function(){
+									UsedIn = $(this).attr('value')
+									UsedIn = UsedIn.replace('RECIPE_','')
+									$(this).children().val(UsedIn)
+								} )
+								$('.UsedInput').trigger('input')
+								$('.UsedInput').attr('class','expired')
+								$('.UsedIn').attr('class','expired')
+								$('.expired').each(function(){$(this).blur()})
+							}, 200)
 					}
 					$('.craftsearch').click(UsedInCraftingButton)
 					$('.expertisebutton').click(UsedInExpertiseButton)
