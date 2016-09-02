@@ -427,7 +427,7 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 							}, 200)
 					}
 					$('.craftsearch').click(UsedInCraftingButton)
-					$('.expertisebutton').click(UsedInExpertiseButton)
+					$('.expertisesearch').click(UsedInExpertiseButton)
 					/* CONVERT EXPIRY TIME */
 					ConvertSeconds = $('.converttime').attr('value')
 					if (ConvertSeconds == '') {
