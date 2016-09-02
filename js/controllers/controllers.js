@@ -394,6 +394,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 						})
 					UsedInCraftingButton = function(){
 							$('.mainitemclass').val(ItemClassValue).trigger('input')
+							$('.craftsearch').hide()
+							$('.more').show()
+							$('.less').show()
 							setTimeout(function(){
 								$('.UsedIn').each(function(){
 									UsedIn = $(this).attr('value')
@@ -408,6 +411,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					}
 					UsedInExpertiseButton = function(){
 							$('.mainitemclass2').val(ItemClassValue).trigger('input')
+							$('.expertisesearch').hide()
+							$('.more').show()
+							$('.less').show()
 							setTimeout(function(){
 								$('.UsedIn').each(function(){
 									UsedIn = $(this).attr('value')

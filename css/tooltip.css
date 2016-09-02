@@ -561,6 +561,7 @@ font-size: 1rem;
 width: 3rem;
 text-align: center;
 font-family: raleway;
+display:none;
 }
 .more  {
 	background-color: rgb(158, 63, 63);
@@ -571,6 +572,7 @@ font-size: 1rem;
 width: 3rem;
 text-align: center;
 font-family: raleway;
+display:none;
 }
 .overflow {
 	overflow:hidden;
