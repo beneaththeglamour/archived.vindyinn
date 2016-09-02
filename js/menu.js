@@ -262,7 +262,7 @@ MenuList = function() {
 					'<li><a href="http://vindictusinn.com/transbuild">Trans Build Editor</a></li>'+
 				'</ul>'+
 	'</li>'+
-	'<li><a href="/new" class="newupdate">What&apos;s New</a></li>'+
+	'<li><a href="/new" class="">What&apos;s New</a></li>'+
 '</ul>')			
 
 $.fn.menumaker = function(options) {
