@@ -3,7 +3,7 @@ MenuList = function() {
 		'<input type="text" name="find" value="Search items">'+
 		'<input type="submit" value="?">'+
 		'</form>'+
-	'<div id="version">Version 1.4</div>')
+	'<div id="version">Version 1.5</div>')
 	$('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
 	'<li><a>Equipment</a>'+
