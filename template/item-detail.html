@@ -362,7 +362,7 @@
  	</div>
 	<div class="usewindow overflow" id="tabs-3"> 	
 		<h2>Used in Crafting <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2>
-		<button class="craftsearch beginsearching">show items</button>		
+		<button class="craftsearch beginsearching">&gt; show items &lt;</button>		
 			<div  ng-repeat="recipe in RecipeMaterialInfo  | filter : {'ItemClass':mainitemclass}:true | limitTo : limit track by $index">
 				<div class="UsedIn" value="{{recipe.RecipeID|uppercase}}"><input ng-model-options="{  updateOn: blur }"class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer"  ng-repeat="mat in ItemVariable  | filter : {'ItemClass':usedin}:true track by mat.id">
@@ -376,7 +376,7 @@
 	</div>
 	<div class="usewindow overflow" id="tabs-4"> 		
 		<h2>Used in Expertise <input class="mainitemclassexp" style="display:none;" ng-model="mainitemclassexp" ng-init="mainitemclassexp = &#39;Loading...&#39;" name="search"></h2>
-		<button class="expertisesearch beginsearching">show items</button>
+		<button class="expertisesearch beginsearching">&gt; show items &lt;</button>
 		<div  ng-repeat="mat in ManufactureMaterialInfo  | filter : {'ItemClass':mainitemclassexp}:true  | limitTo : limit2 track by $index">
 				<div class="UsedIn" value="{{mat.RecipeID|uppercase}}"><input ng-model-options="{  updateOn: blur }"class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer"  ng-repeat="mat in ItemVariable  | filter : {'ItemClass':usedin}:true ">

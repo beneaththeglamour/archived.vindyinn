@@ -574,6 +574,17 @@ text-align: center;
 font-family: raleway;
 display:none;
 }
+.beginsearching {
+    width: 100% !important;
+    font-size: 1rem !important;
+    font-family: lato !important;
+    padding: 0.2rem 0rem;
+    height: auto;
+    color: #c9c9c9;
+    background-color: #2c2c2c !important;
+    text-transform: lowercase !important;
+    font-weight: 200 !important;
+}
 .overflow {
 	overflow:hidden;
 }
