@@ -362,9 +362,31 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$scope.limit = limitStep;
 					$scope.incrementLimit = function() {
 						$scope.limit += limitStep;
+						setTimeout(function(){
+								$('.UsedIn').each(function(){
+									UsedIn = $(this).attr('value')
+									UsedIn = UsedIn.replace('RECIPE_','')
+									$(this).children().val(UsedIn)
+								} )
+								$('.UsedInput').trigger('input')
+								$('.UsedInput').attr('class','expired')
+								$('.UsedIn').attr('class','expired')
+								$('.expired').each(function(){$(this).blur()})
+							}, 200)
 					};
 					$scope.decrementLimit = function() {
 						$scope.limit -= limitStep;
+						setTimeout(function(){
+								$('.UsedIn').each(function(){
+									UsedIn = $(this).attr('value')
+									UsedIn = UsedIn.replace('RECIPE_','')
+									$(this).children().val(UsedIn)
+								} )
+								$('.UsedInput').trigger('input')
+								$('.UsedInput').attr('class','expired')
+								$('.UsedIn').attr('class','expired')
+								$('.expired').each(function(){$(this).blur()})
+							}, 200)
 					};
 					
 					$scope.limit2 = limitStep;
