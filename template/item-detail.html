@@ -375,9 +375,9 @@
 			<a href ng-click="decrementLimit()" class="less">less</a>
 	</div>
 	<div class="usewindow overflow" id="tabs-4"> 		
-		<h2>Used in Expertise <input class="mainitemclass2" style="display:none;" ng-model="mainitemclass2" ng-init="mainitemclass2 = &#39;Loading...&#39;" name="search"></h2>
+		<h2>Used in Expertise <input class="mainitemclassexp" style="display:none;" ng-model="mainitemclassexp" ng-init="mainitemclassexp = &#39;Loading...&#39;" name="search"></h2>
 		<button class="expertisesearch beginsearching">show items</button>
-		<div  ng-repeat="mat in ManufactureMaterialInfo  | filter : {'ItemClass':mainitemclass2}:true  | limitTo : limit2 track by $index">
+		<div  ng-repeat="mat in ManufactureMaterialInfo  | filter : {'ItemClass':mainitemclassexp}:true  | limitTo : limit2 track by $index">
 				<div class="UsedIn" value="{{mat.RecipeID|uppercase}}"><input ng-model-options="{  updateOn: blur }"class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer"  ng-repeat="mat in ItemVariable  | filter : {'ItemClass':usedin}:true ">
 						<img class="useicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{mat.Icon}}" style="background-image:url('/images/icons/{{mat.Icon}}.png')"/>  
