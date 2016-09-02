@@ -361,7 +361,7 @@
 		</table>
  	</div>
 	<div class="usewindow overflow" id="tabs-3"> 	
-		<h2>Used in Crafting <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"></h2> 
+		<h2>Used in Crafting <input class="mainitemclass" style="display:none;" ng-model="mainitemclass" ng-init="mainitemclass = &#39;Loading...&#39;" name="search"> <button class="craftsearch">show items</button></h2> 
 			<div  ng-repeat="recipe in RecipeMaterialInfo  | filter : {'ItemClass':mainitemclass}:true | limitTo : limit track by $index">
 				<div class="UsedIn" value="{{recipe.RecipeID|uppercase}}"><input ng-model-options="{  updateOn: blur }"class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer"  ng-repeat="mat in ItemVariable  | filter : {'ItemClass':usedin}:true track by mat.id">
@@ -374,8 +374,8 @@
 			<a href ng-click="decrementLimit()" class="less">less</a>
 	</div>
 	<div class="usewindow overflow" id="tabs-4"> 		
-		<h2>Used in Expertise</h2>
-		<div  ng-repeat="mat in ManufactureMaterialInfo  | filter : {'ItemClass':mainitemclass}:true  | limitTo : limit2 track by $index">
+		<h2>Used in Expertise <input class="mainitemclass2" style="display:none;" ng-model="mainitemclass2" ng-init="mainitemclass2 = &#39;Loading...&#39;" name="search"> <button class="expertisesearch">show items</button></h2>
+		<div  ng-repeat="mat in ManufactureMaterialInfo  | filter : {'ItemClass':mainitemclass2}:true  | limitTo : limit2 track by $index">
 				<div class="UsedIn" value="{{mat.RecipeID|uppercase}}"><input ng-model-options="{  updateOn: blur }"class="UsedInput" style="display:none;" ng-model="usedin" ng-init="usedin = &#39;Loading...&#39;" name="search">
 					<div class="usedincontainer"  ng-repeat="mat in ItemVariable  | filter : {'ItemClass':usedin}:true ">
 						<img class="useicon" src="http://i.imgur.com/Cv2JSPy.png" value="{{mat.Icon}}" style="background-image:url('/images/icons/{{mat.Icon}}.png')"/>  

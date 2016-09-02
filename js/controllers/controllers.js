@@ -413,8 +413,15 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 					$('.mainitemagain').val(TrueItemClassCaps).trigger('input')
 					$('#mainitem').each(function(){
 							ItemClassValue = $(this).attr('value')
+						})
+					UsedInCraftingButton = function(){
 							$('.mainitemclass').val(ItemClassValue).trigger('input')
-					})
+					}
+					UsedInExpertiseButton = function(){
+							$('.mainitemclass2').val(ItemClassValue).trigger('input')
+					}
+					$('.craftsearch').click(UsedInCraftingButton)
+					$('.expertisebutton').click(UsedInExpertiseButton)
 					/* CONVERT EXPIRY TIME */
 					ConvertSeconds = $('.converttime').attr('value')
 					if (ConvertSeconds == '') {
