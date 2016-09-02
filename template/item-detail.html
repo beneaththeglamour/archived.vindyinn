@@ -238,7 +238,7 @@
 			<span  ng-repeat="item in ManufactureMaterialInfo  | filter : {'RecipeID':expertmat , 'Type':1}:true ">
 				<input class="Expert{{item.ItemClass|uppercase}}" style="display:none;" ng-model="expertclass" ng-init="expertclass = &#39;Loading...&#39;" name="search" type="text">
 				<span class="ExpertID" value="{{item.ItemClass|uppercase}}"></span>
-				<span  ng-repeat="mat in ItemVariable  | filter : {'ItemClass':expertclass , 'Name':'!Gold Coin'}:true " style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
+				<span  ng-repeat="mat in ItemVariable  | filter : {'ItemClass':expertclass , 'Name':'!Gold Coin'}:true | limitTo: 1" style="width: 44px !important;display: block;height: 44px;float: left;margin-right: 0.2rem;">
 						<a href="http://db.vindictusinn.com/db#!/item/{{ItemVariable.indexOf(mat)}}"><img src="http://i.imgur.com/Cv2JSPy.png" style="background-image:url('/images/icons/{{mat.Icon}}.png');background-position:center;background-repeat:no-repeat"></a>
 						<div class="hidetooltip">
 							<div class="border" id="{{mat.Name}}"> 	
