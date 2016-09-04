@@ -5,7 +5,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 		{    
 				$http.get('/json/TitleInfo.json').success (function(data){
 				$scope.ItemVariable = data;
-					$http.get('/json/TitleGoalInfo.json').success (function(data){
+					$http.get('/json/TitleGoalInfo.json').success (function(data2){
 					$scope.TitleGoalInfo = data2;})
 
 				setTimeout(function(){
