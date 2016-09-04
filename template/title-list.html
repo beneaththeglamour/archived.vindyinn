@@ -12,7 +12,7 @@
 			<td class="centercell">{{item.GoalDescription|uppercase}}</td>
 			<td class="centercell">
 				<input class="Input{{item.ID}}" style="display:none;" ng-model="mainquery" ng-init="mainquery = &#39;Loading...&#39;" name="search">
-				<span ng-repeat="goal in TitleGoalInfo | filter : {'TitleID':mainquery}:true | limitBy: 1">{{goal.Description}}</span>
+				<span ng-repeat="goal in TitleGoalInfo | filter : {'TitleID':mainquery}:true | limitTo: 1">{{goal.Description}}</span>
 			</td>
 			<td class="centercell"></td>
 		</tr> 
