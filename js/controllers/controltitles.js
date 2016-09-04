@@ -5,11 +5,17 @@ ItemControllers.controller("ListController", ['$scope','$http',
 		{    
 				$http.get('/json/TitleInfo.json').success (function(data){
 				$scope.ItemVariable = data;
+					$http.get('/json/TitleGoalInfo.json').success (function(data){
+					$scope.TitleGoalInfo = data2;})
 
 				setTimeout(function(){
 				WhatIsTheURL = window.location.pathname
 						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}	
 						
+				$('.titlename').each(function(){
+					TitleID = $(this).attr('id')
+					$('.Input' + TitleID).val(TitleID).trigger('input')
+				})
 						console.log('DataTable loaded.')
 								$('.itemtable').DataTable({
 						"order": []
