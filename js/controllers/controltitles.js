@@ -14,7 +14,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								$('.itemtable').DataTable({
 						"order": []
 					});
-								
+				$('.scopecontain').show()				
 				var menu = "/js/menu.js";
 							$.getScript( menu, function() {
 								MenuList()
