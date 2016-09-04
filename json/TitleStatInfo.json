@@ -1,0 +1,7436 @@
+[
+  {
+    "ID": 1,
+    "TitleID": 410017,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 2,
+    "TitleID": 410017,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 3,
+    "TitleID": 410017,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 4,
+    "TitleID": 410019,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 5,
+    "TitleID": 410019,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 6,
+    "TitleID": 410019,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 7,
+    "TitleID": 410019,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 8,
+    "TitleID": 410020,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 9,
+    "TitleID": 410020,
+    "Stat": "WILL",
+    "Amount": 10
+  },
+  {
+    "ID": 10,
+    "TitleID": 410054,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 11,
+    "TitleID": 410054,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 12,
+    "TitleID": 410054,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 13,
+    "TitleID": 410056,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 14,
+    "TitleID": 410056,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 15,
+    "TitleID": 410056,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 16,
+    "TitleID": 410060,
+    "Stat": "STR",
+    "Amount": 11
+  },
+  {
+    "ID": 17,
+    "TitleID": 410060,
+    "Stat": "INT",
+    "Amount": 11
+  },
+  {
+    "ID": 18,
+    "TitleID": 410061,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 19,
+    "TitleID": 410061,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 20,
+    "TitleID": 410061,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 21,
+    "TitleID": 410062,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 22,
+    "TitleID": 410062,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 23,
+    "TitleID": 410062,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 24,
+    "TitleID": 410063,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 25,
+    "TitleID": 410063,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 26,
+    "TitleID": 410063,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 27,
+    "TitleID": 410063,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 28,
+    "TitleID": 410064,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 29,
+    "TitleID": 410064,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 30,
+    "TitleID": 410064,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 31,
+    "TitleID": 410065,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 32,
+    "TitleID": 410065,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 33,
+    "TitleID": 410065,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 34,
+    "TitleID": 410066,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 35,
+    "TitleID": 410066,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 36,
+    "TitleID": 410066,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 37,
+    "TitleID": 410067,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 38,
+    "TitleID": 410067,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 39,
+    "TitleID": 410067,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 40,
+    "TitleID": 410067,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 41,
+    "TitleID": 410068,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 42,
+    "TitleID": 410068,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 43,
+    "TitleID": 410068,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 44,
+    "TitleID": 410069,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 45,
+    "TitleID": 410069,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 46,
+    "TitleID": 410069,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 47,
+    "TitleID": 410085,
+    "Stat": "HP",
+    "Amount": 20
+  },
+  {
+    "ID": 48,
+    "TitleID": 410087,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 49,
+    "TitleID": 410088,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 50,
+    "TitleID": 410089,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 51,
+    "TitleID": 410090,
+    "Stat": "STR",
+    "Amount": 8
+  },
+  {
+    "ID": 52,
+    "TitleID": 410090,
+    "Stat": "WILL",
+    "Amount": 8
+  },
+  {
+    "ID": 53,
+    "TitleID": 410091,
+    "Stat": "DEX",
+    "Amount": 6
+  },
+  {
+    "ID": 54,
+    "TitleID": 410091,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 55,
+    "TitleID": 410092,
+    "Stat": "DEX",
+    "Amount": 8
+  },
+  {
+    "ID": 56,
+    "TitleID": 410092,
+    "Stat": "WILL",
+    "Amount": 8
+  },
+  {
+    "ID": 57,
+    "TitleID": 410093,
+    "Stat": "DEX",
+    "Amount": 10
+  },
+  {
+    "ID": 58,
+    "TitleID": 410093,
+    "Stat": "WILL",
+    "Amount": 10
+  },
+  {
+    "ID": 59,
+    "TitleID": 410094,
+    "Stat": "STR",
+    "Amount": 10
+  },
+  {
+    "ID": 60,
+    "TitleID": 410094,
+    "Stat": "HP",
+    "Amount": 50
+  },
+  {
+    "ID": 61,
+    "TitleID": 410095,
+    "Stat": "DEX",
+    "Amount": 6
+  },
+  {
+    "ID": 62,
+    "TitleID": 410095,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 63,
+    "TitleID": 410096,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 64,
+    "TitleID": 410096,
+    "Stat": "DEX",
+    "Amount": 6
+  },
+  {
+    "ID": 65,
+    "TitleID": 410096,
+    "Stat": "WILL",
+    "Amount": 6
+  },
+  {
+    "ID": 66,
+    "TitleID": 410097,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 67,
+    "TitleID": 410097,
+    "Stat": "HP",
+    "Amount": 20
+  },
+  {
+    "ID": 68,
+    "TitleID": 410098,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 69,
+    "TitleID": 410098,
+    "Stat": "WILL",
+    "Amount": 12
+  },
+  {
+    "ID": 70,
+    "TitleID": 410115,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 71,
+    "TitleID": 410115,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 72,
+    "TitleID": 410115,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 73,
+    "TitleID": 410115,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 74,
+    "TitleID": 410120,
+    "Stat": "INT",
+    "Amount": 13
+  },
+  {
+    "ID": 75,
+    "TitleID": 410448,
+    "Stat": "INT",
+    "Amount": 13
+  },
+  {
+    "ID": 76,
+    "TitleID": 410164,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 77,
+    "TitleID": 410164,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 78,
+    "TitleID": 410165,
+    "Stat": "DEX",
+    "Amount": 10
+  },
+  {
+    "ID": 79,
+    "TitleID": 410165,
+    "Stat": "WILL",
+    "Amount": 10
+  },
+  {
+    "ID": 80,
+    "TitleID": 410166,
+    "Stat": "WILL",
+    "Amount": 13
+  },
+  {
+    "ID": 81,
+    "TitleID": 410167,
+    "Stat": "DEX",
+    "Amount": 13
+  },
+  {
+    "ID": 82,
+    "TitleID": 410168,
+    "Stat": "INT",
+    "Amount": 13
+  },
+  {
+    "ID": 83,
+    "TitleID": 410169,
+    "Stat": "STR",
+    "Amount": 13
+  },
+  {
+    "ID": 84,
+    "TitleID": 410143,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 85,
+    "TitleID": 410143,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 86,
+    "TitleID": 410143,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 87,
+    "TitleID": 410143,
+    "Stat": "WILL",
+    "Amount": 5
+  },
+  {
+    "ID": 88,
+    "TitleID": 410130,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 89,
+    "TitleID": 410130,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 90,
+    "TitleID": 410130,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 91,
+    "TitleID": 410130,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 92,
+    "TitleID": 410131,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 93,
+    "TitleID": 410131,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 94,
+    "TitleID": 410131,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 95,
+    "TitleID": 410131,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 96,
+    "TitleID": 410132,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 97,
+    "TitleID": 410132,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 98,
+    "TitleID": 410132,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 99,
+    "TitleID": 410132,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 100,
+    "TitleID": 410133,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 101,
+    "TitleID": 410133,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 102,
+    "TitleID": 410133,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 103,
+    "TitleID": 410133,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 104,
+    "TitleID": 410135,
+    "Stat": "INT",
+    "Amount": 20
+  },
+  {
+    "ID": 105,
+    "TitleID": 410135,
+    "Stat": "HP",
+    "Amount": 20
+  },
+  {
+    "ID": 106,
+    "TitleID": 410136,
+    "Stat": "STR",
+    "Amount": 10
+  },
+  {
+    "ID": 107,
+    "TitleID": 410136,
+    "Stat": "DEX",
+    "Amount": 10
+  },
+  {
+    "ID": 108,
+    "TitleID": 410136,
+    "Stat": "WILL",
+    "Amount": 10
+  },
+  {
+    "ID": 109,
+    "TitleID": 410140,
+    "Stat": "DEX",
+    "Amount": 12
+  },
+  {
+    "ID": 110,
+    "TitleID": 410140,
+    "Stat": "INT",
+    "Amount": 12
+  },
+  {
+    "ID": 111,
+    "TitleID": 410141,
+    "Stat": "STR",
+    "Amount": 12
+  },
+  {
+    "ID": 112,
+    "TitleID": 410141,
+    "Stat": "WILL",
+    "Amount": 12
+  },
+  {
+    "ID": 113,
+    "TitleID": 410142,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 114,
+    "TitleID": 410171,
+    "Stat": "INT",
+    "Amount": 15
+  },
+  {
+    "ID": 115,
+    "TitleID": 410174,
+    "Stat": "STR",
+    "Amount": 10
+  },
+  {
+    "ID": 116,
+    "TitleID": 410174,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 117,
+    "TitleID": 410174,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 118,
+    "TitleID": 410174,
+    "Stat": "WILL",
+    "Amount": 10
+  },
+  {
+    "ID": 119,
+    "TitleID": 410175,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 120,
+    "TitleID": 410175,
+    "Stat": "DEX",
+    "Amount": 6
+  },
+  {
+    "ID": 121,
+    "TitleID": 410175,
+    "Stat": "INT",
+    "Amount": 7
+  },
+  {
+    "ID": 122,
+    "TitleID": 410175,
+    "Stat": "WILL",
+    "Amount": 6
+  },
+  {
+    "ID": 123,
+    "TitleID": 410176,
+    "Stat": "STR",
+    "Amount": 15
+  },
+  {
+    "ID": 124,
+    "TitleID": 410176,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 125,
+    "TitleID": 410176,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 126,
+    "TitleID": 410176,
+    "Stat": "WILL",
+    "Amount": 9
+  },
+  {
+    "ID": 127,
+    "TitleID": 410178,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 128,
+    "TitleID": 410178,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 129,
+    "TitleID": 410180,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 130,
+    "TitleID": 410180,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 131,
+    "TitleID": 410180,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 132,
+    "TitleID": 410181,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 133,
+    "TitleID": 410181,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 134,
+    "TitleID": 410181,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 135,
+    "TitleID": 410181,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 136,
+    "TitleID": 410182,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 137,
+    "TitleID": 410182,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 138,
+    "TitleID": 410182,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 139,
+    "TitleID": 410184,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 140,
+    "TitleID": 410184,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 141,
+    "TitleID": 410184,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 142,
+    "TitleID": 410184,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 143,
+    "TitleID": 410185,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 144,
+    "TitleID": 410185,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 145,
+    "TitleID": 410185,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 146,
+    "TitleID": 410185,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 147,
+    "TitleID": 410324,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 148,
+    "TitleID": 410324,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 149,
+    "TitleID": 410324,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 150,
+    "TitleID": 410186,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 151,
+    "TitleID": 410187,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 152,
+    "TitleID": 410188,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 153,
+    "TitleID": 410189,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 154,
+    "TitleID": 410190,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 155,
+    "TitleID": 410191,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 156,
+    "TitleID": 410192,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 157,
+    "TitleID": 410193,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 158,
+    "TitleID": 410194,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 159,
+    "TitleID": 410195,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 160,
+    "TitleID": 410196,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 161,
+    "TitleID": 410197,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 162,
+    "TitleID": 410198,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 163,
+    "TitleID": 410199,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 164,
+    "TitleID": 410200,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 165,
+    "TitleID": 410201,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 166,
+    "TitleID": 410202,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 167,
+    "TitleID": 410203,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 168,
+    "TitleID": 410204,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 169,
+    "TitleID": 410205,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 170,
+    "TitleID": 410206,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 171,
+    "TitleID": 410207,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 172,
+    "TitleID": 410208,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 173,
+    "TitleID": 410209,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 174,
+    "TitleID": 410210,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 175,
+    "TitleID": 410211,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 176,
+    "TitleID": 410212,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 177,
+    "TitleID": 410213,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 178,
+    "TitleID": 410214,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 179,
+    "TitleID": 410215,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 180,
+    "TitleID": 410216,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 181,
+    "TitleID": 410217,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 182,
+    "TitleID": 410218,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 183,
+    "TitleID": 410219,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 184,
+    "TitleID": 410220,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 185,
+    "TitleID": 410221,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 186,
+    "TitleID": 410222,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 187,
+    "TitleID": 410223,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 188,
+    "TitleID": 410224,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 189,
+    "TitleID": 410225,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 190,
+    "TitleID": 410226,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 191,
+    "TitleID": 410227,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 192,
+    "TitleID": 410228,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 193,
+    "TitleID": 410229,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 194,
+    "TitleID": 410230,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 195,
+    "TitleID": 410231,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 196,
+    "TitleID": 410232,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 197,
+    "TitleID": 410233,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 198,
+    "TitleID": 410234,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 199,
+    "TitleID": 410235,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 200,
+    "TitleID": 410236,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 201,
+    "TitleID": 410237,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 202,
+    "TitleID": 410238,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 203,
+    "TitleID": 410239,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 204,
+    "TitleID": 410240,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 205,
+    "TitleID": 410241,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 206,
+    "TitleID": 410242,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 207,
+    "TitleID": 410243,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 208,
+    "TitleID": 410244,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 209,
+    "TitleID": 410245,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 210,
+    "TitleID": 410246,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 211,
+    "TitleID": 410247,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 212,
+    "TitleID": 410248,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 213,
+    "TitleID": 410249,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 214,
+    "TitleID": 410250,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 215,
+    "TitleID": 410251,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 216,
+    "TitleID": 410252,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 217,
+    "TitleID": 410253,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 218,
+    "TitleID": 410254,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 219,
+    "TitleID": 410255,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 220,
+    "TitleID": 410256,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 221,
+    "TitleID": 410257,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 222,
+    "TitleID": 410258,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 223,
+    "TitleID": 410259,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 224,
+    "TitleID": 410260,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 225,
+    "TitleID": 410261,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 226,
+    "TitleID": 410262,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 227,
+    "TitleID": 410263,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 228,
+    "TitleID": 410264,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 229,
+    "TitleID": 410265,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 230,
+    "TitleID": 410266,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 231,
+    "TitleID": 410267,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 232,
+    "TitleID": 410268,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 233,
+    "TitleID": 410269,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 234,
+    "TitleID": 410270,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 235,
+    "TitleID": 410271,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 236,
+    "TitleID": 410272,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 237,
+    "TitleID": 410273,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 238,
+    "TitleID": 410274,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 239,
+    "TitleID": 410275,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 240,
+    "TitleID": 410276,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 241,
+    "TitleID": 410277,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 242,
+    "TitleID": 410278,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 243,
+    "TitleID": 410279,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 244,
+    "TitleID": 410280,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 245,
+    "TitleID": 410280,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 246,
+    "TitleID": 410281,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 247,
+    "TitleID": 410281,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 248,
+    "TitleID": 410282,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 249,
+    "TitleID": 410282,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 250,
+    "TitleID": 410283,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 251,
+    "TitleID": 410284,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 252,
+    "TitleID": 410285,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 253,
+    "TitleID": 410286,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 254,
+    "TitleID": 410287,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 255,
+    "TitleID": 410288,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 256,
+    "TitleID": 410289,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 257,
+    "TitleID": 410290,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 258,
+    "TitleID": 410291,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 259,
+    "TitleID": 410292,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 260,
+    "TitleID": 410293,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 261,
+    "TitleID": 410294,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 262,
+    "TitleID": 410295,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 263,
+    "TitleID": 410296,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 264,
+    "TitleID": 410297,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 265,
+    "TitleID": 410298,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 266,
+    "TitleID": 410299,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 267,
+    "TitleID": 410300,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 268,
+    "TitleID": 410301,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 269,
+    "TitleID": 410302,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 270,
+    "TitleID": 410303,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 271,
+    "TitleID": 410304,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 272,
+    "TitleID": 410305,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 273,
+    "TitleID": 410306,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 274,
+    "TitleID": 410307,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 275,
+    "TitleID": 410308,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 276,
+    "TitleID": 410309,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 277,
+    "TitleID": 410310,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 278,
+    "TitleID": 410311,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 279,
+    "TitleID": 410312,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 280,
+    "TitleID": 410313,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 281,
+    "TitleID": 410314,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 282,
+    "TitleID": 410315,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 283,
+    "TitleID": 410316,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 284,
+    "TitleID": 410317,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 285,
+    "TitleID": 410318,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 286,
+    "TitleID": 410319,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 287,
+    "TitleID": 410320,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 288,
+    "TitleID": 410321,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 289,
+    "TitleID": 410322,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 290,
+    "TitleID": 410323,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 291,
+    "TitleID": 410329,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 292,
+    "TitleID": 410329,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 293,
+    "TitleID": 410329,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 294,
+    "TitleID": 410329,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 295,
+    "TitleID": 410330,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 296,
+    "TitleID": 410330,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 297,
+    "TitleID": 410330,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 298,
+    "TitleID": 410330,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 299,
+    "TitleID": 410331,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 300,
+    "TitleID": 410331,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 301,
+    "TitleID": 410332,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 302,
+    "TitleID": 410332,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 303,
+    "TitleID": 410333,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 304,
+    "TitleID": 410333,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 305,
+    "TitleID": 410347,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 306,
+    "TitleID": 410347,
+    "Stat": "DEX",
+    "Amount": 6
+  },
+  {
+    "ID": 307,
+    "TitleID": 410347,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 308,
+    "TitleID": 410345,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 309,
+    "TitleID": 410345,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 310,
+    "TitleID": 410345,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 311,
+    "TitleID": 410345,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 312,
+    "TitleID": 410344,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 313,
+    "TitleID": 410344,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 314,
+    "TitleID": 410344,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 315,
+    "TitleID": 410344,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 316,
+    "TitleID": 410348,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 317,
+    "TitleID": 410349,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 318,
+    "TitleID": 410350,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 319,
+    "TitleID": 410351,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 320,
+    "TitleID": 410352,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 321,
+    "TitleID": 410353,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 322,
+    "TitleID": 410355,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 323,
+    "TitleID": 410355,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 324,
+    "TitleID": 410356,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 325,
+    "TitleID": 410356,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 326,
+    "TitleID": 410357,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 327,
+    "TitleID": 410357,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 328,
+    "TitleID": 410358,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 329,
+    "TitleID": 410358,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 330,
+    "TitleID": 410359,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 331,
+    "TitleID": 410359,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 332,
+    "TitleID": 410360,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 333,
+    "TitleID": 410360,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 334,
+    "TitleID": 410361,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 335,
+    "TitleID": 410361,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 336,
+    "TitleID": 410362,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 337,
+    "TitleID": 410362,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 338,
+    "TitleID": 410363,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 339,
+    "TitleID": 410363,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 340,
+    "TitleID": 410363,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 341,
+    "TitleID": 410363,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 342,
+    "TitleID": 410364,
+    "Stat": "STR",
+    "Amount": 10
+  },
+  {
+    "ID": 343,
+    "TitleID": 410364,
+    "Stat": "INT",
+    "Amount": 10
+  },
+  {
+    "ID": 344,
+    "TitleID": 410365,
+    "Stat": "STR",
+    "Amount": 10
+  },
+  {
+    "ID": 345,
+    "TitleID": 410365,
+    "Stat": "INT",
+    "Amount": 10
+  },
+  {
+    "ID": 346,
+    "TitleID": 410366,
+    "Stat": "DEX",
+    "Amount": 10
+  },
+  {
+    "ID": 347,
+    "TitleID": 410366,
+    "Stat": "WILL",
+    "Amount": 10
+  },
+  {
+    "ID": 348,
+    "TitleID": 410367,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 349,
+    "TitleID": 410367,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 350,
+    "TitleID": 410367,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 351,
+    "TitleID": 410368,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 352,
+    "TitleID": 410368,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 353,
+    "TitleID": 410368,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 354,
+    "TitleID": 410369,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 355,
+    "TitleID": 410369,
+    "Stat": "WILL",
+    "Amount": 5
+  },
+  {
+    "ID": 356,
+    "TitleID": 410370,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 357,
+    "TitleID": 410370,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 358,
+    "TitleID": 410371,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 359,
+    "TitleID": 410371,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 360,
+    "TitleID": 410371,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 361,
+    "TitleID": 410371,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 362,
+    "TitleID": 410372,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 363,
+    "TitleID": 410372,
+    "Stat": "DEX",
+    "Amount": 6
+  },
+  {
+    "ID": 364,
+    "TitleID": 410372,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 365,
+    "TitleID": 410372,
+    "Stat": "WILL",
+    "Amount": 6
+  },
+  {
+    "ID": 366,
+    "TitleID": 410373,
+    "Stat": "STR",
+    "Amount": 8
+  },
+  {
+    "ID": 367,
+    "TitleID": 410373,
+    "Stat": "DEX",
+    "Amount": 8
+  },
+  {
+    "ID": 368,
+    "TitleID": 410373,
+    "Stat": "INT",
+    "Amount": 8
+  },
+  {
+    "ID": 369,
+    "TitleID": 410373,
+    "Stat": "WILL",
+    "Amount": 8
+  },
+  {
+    "ID": 370,
+    "TitleID": 410374,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 371,
+    "TitleID": 410374,
+    "Stat": "DEX",
+    "Amount": 6
+  },
+  {
+    "ID": 372,
+    "TitleID": 410374,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 373,
+    "TitleID": 410374,
+    "Stat": "WILL",
+    "Amount": 6
+  },
+  {
+    "ID": 374,
+    "TitleID": 410375,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 375,
+    "TitleID": 410375,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 376,
+    "TitleID": 410375,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 377,
+    "TitleID": 410375,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 378,
+    "TitleID": 410386,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 379,
+    "TitleID": 410386,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 380,
+    "TitleID": 410386,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 381,
+    "TitleID": 410386,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 382,
+    "TitleID": 410387,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 383,
+    "TitleID": 410387,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 384,
+    "TitleID": 410387,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 385,
+    "TitleID": 410387,
+    "Stat": "WILL",
+    "Amount": 5
+  },
+  {
+    "ID": 386,
+    "TitleID": 410390,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 387,
+    "TitleID": 410390,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 388,
+    "TitleID": 410390,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 389,
+    "TitleID": 410390,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 390,
+    "TitleID": 410391,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 391,
+    "TitleID": 410391,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 392,
+    "TitleID": 410391,
+    "Stat": "WILL",
+    "Amount": 5
+  },
+  {
+    "ID": 393,
+    "TitleID": 410392,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 394,
+    "TitleID": 410392,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 395,
+    "TitleID": 410392,
+    "Stat": "WILL",
+    "Amount": 5
+  },
+  {
+    "ID": 396,
+    "TitleID": 410396,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 397,
+    "TitleID": 410396,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 398,
+    "TitleID": 410396,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 399,
+    "TitleID": 410396,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 400,
+    "TitleID": 410397,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 401,
+    "TitleID": 410397,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 402,
+    "TitleID": 410397,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 403,
+    "TitleID": 410397,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 404,
+    "TitleID": 410398,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 405,
+    "TitleID": 410398,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 406,
+    "TitleID": 410398,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 407,
+    "TitleID": 410398,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 408,
+    "TitleID": 410403,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 409,
+    "TitleID": 410403,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 410,
+    "TitleID": 410403,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 411,
+    "TitleID": 410403,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 412,
+    "TitleID": 410404,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 413,
+    "TitleID": 410404,
+    "Stat": "DEX",
+    "Amount": 7
+  },
+  {
+    "ID": 414,
+    "TitleID": 410404,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 415,
+    "TitleID": 410404,
+    "Stat": "WILL",
+    "Amount": 6
+  },
+  {
+    "ID": 416,
+    "TitleID": 410412,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 417,
+    "TitleID": 410413,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 418,
+    "TitleID": 410435,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 419,
+    "TitleID": 410435,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 420,
+    "TitleID": 410435,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 421,
+    "TitleID": 410435,
+    "Stat": "WILL",
+    "Amount": 5
+  },
+  {
+    "ID": 422,
+    "TitleID": 410436,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 423,
+    "TitleID": 410436,
+    "Stat": "DEX",
+    "Amount": 6
+  },
+  {
+    "ID": 424,
+    "TitleID": 410436,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 425,
+    "TitleID": 410436,
+    "Stat": "WILL",
+    "Amount": 6
+  },
+  {
+    "ID": 426,
+    "TitleID": 410441,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 427,
+    "TitleID": 410441,
+    "Stat": "DEX",
+    "Amount": 6
+  },
+  {
+    "ID": 428,
+    "TitleID": 410441,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 429,
+    "TitleID": 410441,
+    "Stat": "WILL",
+    "Amount": 6
+  },
+  {
+    "ID": 430,
+    "TitleID": 410442,
+    "Stat": "STR",
+    "Amount": 7
+  },
+  {
+    "ID": 431,
+    "TitleID": 410442,
+    "Stat": "DEX",
+    "Amount": 7
+  },
+  {
+    "ID": 432,
+    "TitleID": 410442,
+    "Stat": "INT",
+    "Amount": 7
+  },
+  {
+    "ID": 433,
+    "TitleID": 410442,
+    "Stat": "WILL",
+    "Amount": 7
+  },
+  {
+    "ID": 434,
+    "TitleID": 410407,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 435,
+    "TitleID": 410408,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 436,
+    "TitleID": 410409,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 437,
+    "TitleID": 410417,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 438,
+    "TitleID": 410425,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 439,
+    "TitleID": 410426,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 440,
+    "TitleID": 410427,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 441,
+    "TitleID": 410424,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 442,
+    "TitleID": 410431,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 443,
+    "TitleID": 410432,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 444,
+    "TitleID": 410433,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 445,
+    "TitleID": 410428,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 446,
+    "TitleID": 410429,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 447,
+    "TitleID": 410430,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 448,
+    "TitleID": 410422,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 449,
+    "TitleID": 410423,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 450,
+    "TitleID": 410423,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 451,
+    "TitleID": 410420,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 452,
+    "TitleID": 410420,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 453,
+    "TitleID": 410421,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 454,
+    "TitleID": 410354,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 455,
+    "TitleID": 410354,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 456,
+    "TitleID": 410354,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 457,
+    "TitleID": 410354,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 458,
+    "TitleID": 410411,
+    "Stat": "STR",
+    "Amount": 8
+  },
+  {
+    "ID": 459,
+    "TitleID": 410328,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 460,
+    "TitleID": 410328,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 461,
+    "TitleID": 410419,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 462,
+    "TitleID": 410419,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 463,
+    "TitleID": 410419,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 464,
+    "TitleID": 410419,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 465,
+    "TitleID": 410450,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 466,
+    "TitleID": 410450,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 467,
+    "TitleID": 410450,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 468,
+    "TitleID": 410454,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 469,
+    "TitleID": 410454,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 470,
+    "TitleID": 410454,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 471,
+    "TitleID": 410454,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 472,
+    "TitleID": 410455,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 473,
+    "TitleID": 410455,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 474,
+    "TitleID": 410456,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 475,
+    "TitleID": 410456,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 476,
+    "TitleID": 410456,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 477,
+    "TitleID": 410456,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 478,
+    "TitleID": 410457,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 479,
+    "TitleID": 410457,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 480,
+    "TitleID": 410457,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 481,
+    "TitleID": 410457,
+    "Stat": "WILL",
+    "Amount": 5
+  },
+  {
+    "ID": 482,
+    "TitleID": 410464,
+    "Stat": "STR",
+    "Amount": 8
+  },
+  {
+    "ID": 483,
+    "TitleID": 410464,
+    "Stat": "DEX",
+    "Amount": 8
+  },
+  {
+    "ID": 484,
+    "TitleID": 410464,
+    "Stat": "INT",
+    "Amount": 8
+  },
+  {
+    "ID": 485,
+    "TitleID": 410464,
+    "Stat": "WILL",
+    "Amount": 8
+  },
+  {
+    "ID": 486,
+    "TitleID": 410465,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 487,
+    "TitleID": 410465,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 488,
+    "TitleID": 410465,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 489,
+    "TitleID": 410465,
+    "Stat": "WILL",
+    "Amount": 5
+  },
+  {
+    "ID": 490,
+    "TitleID": 410466,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 491,
+    "TitleID": 410466,
+    "Stat": "DEX",
+    "Amount": 6
+  },
+  {
+    "ID": 492,
+    "TitleID": 410466,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 493,
+    "TitleID": 410466,
+    "Stat": "WILL",
+    "Amount": 6
+  },
+  {
+    "ID": 494,
+    "TitleID": 410469,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 495,
+    "TitleID": 410470,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 496,
+    "TitleID": 410471,
+    "Stat": "STR",
+    "Amount": 510
+  },
+  {
+    "ID": 497,
+    "TitleID": 410471,
+    "Stat": "DEX",
+    "Amount": 500
+  },
+  {
+    "ID": 498,
+    "TitleID": 410471,
+    "Stat": "INT",
+    "Amount": 460
+  },
+  {
+    "ID": 499,
+    "TitleID": 410471,
+    "Stat": "WILL",
+    "Amount": 447
+  },
+  {
+    "ID": 500,
+    "TitleID": 410471,
+    "Stat": "HP",
+    "Amount": 1139
+  },
+  {
+    "ID": 501,
+    "TitleID": 410472,
+    "Stat": "STR",
+    "Amount": 489
+  },
+  {
+    "ID": 502,
+    "TitleID": 410472,
+    "Stat": "DEX",
+    "Amount": 454
+  },
+  {
+    "ID": 503,
+    "TitleID": 410472,
+    "Stat": "INT",
+    "Amount": 463
+  },
+  {
+    "ID": 504,
+    "TitleID": 410472,
+    "Stat": "WILL",
+    "Amount": 471
+  },
+  {
+    "ID": 505,
+    "TitleID": 410472,
+    "Stat": "HP",
+    "Amount": 1000
+  },
+  {
+    "ID": 506,
+    "TitleID": 410473,
+    "Stat": "STR",
+    "Amount": 360
+  },
+  {
+    "ID": 507,
+    "TitleID": 410473,
+    "Stat": "DEX",
+    "Amount": 374
+  },
+  {
+    "ID": 508,
+    "TitleID": 410473,
+    "Stat": "INT",
+    "Amount": 519
+  },
+  {
+    "ID": 509,
+    "TitleID": 410473,
+    "Stat": "WILL",
+    "Amount": 340
+  },
+  {
+    "ID": 510,
+    "TitleID": 410473,
+    "Stat": "HP",
+    "Amount": 1170
+  },
+  {
+    "ID": 511,
+    "TitleID": 410474,
+    "Stat": "STR",
+    "Amount": 477
+  },
+  {
+    "ID": 512,
+    "TitleID": 410474,
+    "Stat": "DEX",
+    "Amount": 428
+  },
+  {
+    "ID": 513,
+    "TitleID": 410474,
+    "Stat": "INT",
+    "Amount": 449
+  },
+  {
+    "ID": 514,
+    "TitleID": 410474,
+    "Stat": "WILL",
+    "Amount": 435
+  },
+  {
+    "ID": 515,
+    "TitleID": 410474,
+    "Stat": "HP",
+    "Amount": 1170
+  },
+  {
+    "ID": 516,
+    "TitleID": 410483,
+    "Stat": "STR",
+    "Amount": 8
+  },
+  {
+    "ID": 517,
+    "TitleID": 410483,
+    "Stat": "DEX",
+    "Amount": 8
+  },
+  {
+    "ID": 518,
+    "TitleID": 410483,
+    "Stat": "INT",
+    "Amount": 8
+  },
+  {
+    "ID": 519,
+    "TitleID": 410483,
+    "Stat": "WILL",
+    "Amount": 8
+  },
+  {
+    "ID": 520,
+    "TitleID": 410484,
+    "Stat": "STR",
+    "Amount": 8
+  },
+  {
+    "ID": 521,
+    "TitleID": 410484,
+    "Stat": "DEX",
+    "Amount": 8
+  },
+  {
+    "ID": 522,
+    "TitleID": 410484,
+    "Stat": "INT",
+    "Amount": 8
+  },
+  {
+    "ID": 523,
+    "TitleID": 410484,
+    "Stat": "WILL",
+    "Amount": 8
+  },
+  {
+    "ID": 524,
+    "TitleID": 410485,
+    "Stat": "STR",
+    "Amount": 10
+  },
+  {
+    "ID": 525,
+    "TitleID": 410485,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 526,
+    "TitleID": 410485,
+    "Stat": "INT",
+    "Amount": 10
+  },
+  {
+    "ID": 527,
+    "TitleID": 410485,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 528,
+    "TitleID": 410488,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 529,
+    "TitleID": 410489,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 530,
+    "TitleID": 410490,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 531,
+    "TitleID": 410491,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 532,
+    "TitleID": 410492,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 533,
+    "TitleID": 410493,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 534,
+    "TitleID": 410494,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 535,
+    "TitleID": 420002,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 536,
+    "TitleID": 420003,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 537,
+    "TitleID": 420004,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 538,
+    "TitleID": 420005,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 539,
+    "TitleID": 420006,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 540,
+    "TitleID": 420007,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 541,
+    "TitleID": 420008,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 542,
+    "TitleID": 420008,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 543,
+    "TitleID": 420009,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 544,
+    "TitleID": 420009,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 545,
+    "TitleID": 420010,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 546,
+    "TitleID": 420010,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 547,
+    "TitleID": 420010,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 548,
+    "TitleID": 420010,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 549,
+    "TitleID": 420021,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 550,
+    "TitleID": 420021,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 551,
+    "TitleID": 420022,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 552,
+    "TitleID": 420022,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 553,
+    "TitleID": 420022,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 554,
+    "TitleID": 420022,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 555,
+    "TitleID": 420023,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 556,
+    "TitleID": 420023,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 557,
+    "TitleID": 420023,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 558,
+    "TitleID": 420023,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 559,
+    "TitleID": 420074,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 560,
+    "TitleID": 420074,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 561,
+    "TitleID": 420075,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 562,
+    "TitleID": 420075,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 563,
+    "TitleID": 420079,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 564,
+    "TitleID": 420079,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 565,
+    "TitleID": 420079,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 566,
+    "TitleID": 420079,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 567,
+    "TitleID": 420080,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 568,
+    "TitleID": 420080,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 569,
+    "TitleID": 420080,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 570,
+    "TitleID": 420080,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 571,
+    "TitleID": 420083,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 572,
+    "TitleID": 420083,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 573,
+    "TitleID": 420083,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 574,
+    "TitleID": 420083,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 575,
+    "TitleID": 420104,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 576,
+    "TitleID": 420104,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 577,
+    "TitleID": 420104,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 578,
+    "TitleID": 420104,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 579,
+    "TitleID": 420106,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 580,
+    "TitleID": 420107,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 581,
+    "TitleID": 420108,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 582,
+    "TitleID": 420109,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 583,
+    "TitleID": 420110,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 584,
+    "TitleID": 420111,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 585,
+    "TitleID": 420112,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 586,
+    "TitleID": 420113,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 587,
+    "TitleID": 420114,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 588,
+    "TitleID": 420115,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 589,
+    "TitleID": 420115,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 590,
+    "TitleID": 420116,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 591,
+    "TitleID": 420117,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 592,
+    "TitleID": 420118,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 593,
+    "TitleID": 420119,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 594,
+    "TitleID": 420119,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 595,
+    "TitleID": 420120,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 596,
+    "TitleID": 420120,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 597,
+    "TitleID": 420121,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 598,
+    "TitleID": 420121,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 599,
+    "TitleID": 420122,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 600,
+    "TitleID": 420122,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 601,
+    "TitleID": 420123,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 602,
+    "TitleID": 420123,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 603,
+    "TitleID": 420124,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 604,
+    "TitleID": 420124,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 605,
+    "TitleID": 420125,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 606,
+    "TitleID": 420125,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 607,
+    "TitleID": 420126,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 608,
+    "TitleID": 420126,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 609,
+    "TitleID": 420127,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 610,
+    "TitleID": 420127,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 611,
+    "TitleID": 420128,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 612,
+    "TitleID": 420128,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 613,
+    "TitleID": 420129,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 614,
+    "TitleID": 420129,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 615,
+    "TitleID": 420130,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 616,
+    "TitleID": 420130,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 617,
+    "TitleID": 420130,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 618,
+    "TitleID": 420130,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 619,
+    "TitleID": 420131,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 620,
+    "TitleID": 420131,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 621,
+    "TitleID": 420131,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 622,
+    "TitleID": 420131,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 623,
+    "TitleID": 420140,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 624,
+    "TitleID": 420140,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 625,
+    "TitleID": 420140,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 626,
+    "TitleID": 420140,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 627,
+    "TitleID": 420141,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 628,
+    "TitleID": 420141,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 629,
+    "TitleID": 420141,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 630,
+    "TitleID": 420141,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 631,
+    "TitleID": 420142,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 632,
+    "TitleID": 420143,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 633,
+    "TitleID": 420143,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 634,
+    "TitleID": 420143,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 635,
+    "TitleID": 420145,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 636,
+    "TitleID": 420146,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 637,
+    "TitleID": 420146,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 638,
+    "TitleID": 420146,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 639,
+    "TitleID": 420158,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 640,
+    "TitleID": 420158,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 641,
+    "TitleID": 420161,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 642,
+    "TitleID": 420160,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 643,
+    "TitleID": 420160,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 644,
+    "TitleID": 420160,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 645,
+    "TitleID": 420160,
+    "Stat": "WILL",
+    "Amount": 5
+  },
+  {
+    "ID": 646,
+    "TitleID": 420159,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 647,
+    "TitleID": 420159,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 648,
+    "TitleID": 420159,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 649,
+    "TitleID": 420159,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 650,
+    "TitleID": 420188,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 651,
+    "TitleID": 420188,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 652,
+    "TitleID": 420188,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 653,
+    "TitleID": 420188,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 654,
+    "TitleID": 420189,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 655,
+    "TitleID": 420189,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 656,
+    "TitleID": 420189,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 657,
+    "TitleID": 420189,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 658,
+    "TitleID": 420190,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 659,
+    "TitleID": 420190,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 660,
+    "TitleID": 420190,
+    "Stat": "INT",
+    "Amount": 4
+  },
+  {
+    "ID": 661,
+    "TitleID": 420190,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 662,
+    "TitleID": 420191,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 663,
+    "TitleID": 420191,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 664,
+    "TitleID": 420191,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 665,
+    "TitleID": 420191,
+    "Stat": "WILL",
+    "Amount": 5
+  },
+  {
+    "ID": 666,
+    "TitleID": 420192,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 667,
+    "TitleID": 420192,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 668,
+    "TitleID": 420192,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 669,
+    "TitleID": 420193,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 670,
+    "TitleID": 420193,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 671,
+    "TitleID": 420193,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 672,
+    "TitleID": 420198,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 673,
+    "TitleID": 420198,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 674,
+    "TitleID": 420198,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 675,
+    "TitleID": 420222,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 676,
+    "TitleID": 420222,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 677,
+    "TitleID": 420223,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 678,
+    "TitleID": 420223,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 679,
+    "TitleID": 420224,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 680,
+    "TitleID": 420224,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 681,
+    "TitleID": 420225,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 682,
+    "TitleID": 420225,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 683,
+    "TitleID": 420226,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 684,
+    "TitleID": 420226,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 685,
+    "TitleID": 420227,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 686,
+    "TitleID": 420227,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 687,
+    "TitleID": 420230,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 688,
+    "TitleID": 420230,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 689,
+    "TitleID": 420231,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 690,
+    "TitleID": 420231,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 691,
+    "TitleID": 420232,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 692,
+    "TitleID": 420232,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 693,
+    "TitleID": 420233,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 694,
+    "TitleID": 420233,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 695,
+    "TitleID": 420234,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 696,
+    "TitleID": 420234,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 697,
+    "TitleID": 420239,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 698,
+    "TitleID": 420240,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 699,
+    "TitleID": 420241,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 700,
+    "TitleID": 420241,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 701,
+    "TitleID": 420242,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 702,
+    "TitleID": 420242,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 703,
+    "TitleID": 420243,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 704,
+    "TitleID": 420243,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 705,
+    "TitleID": 420244,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 706,
+    "TitleID": 420244,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 707,
+    "TitleID": 420245,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 708,
+    "TitleID": 420245,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 709,
+    "TitleID": 420246,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 710,
+    "TitleID": 420246,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 711,
+    "TitleID": 420246,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 712,
+    "TitleID": 420270,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 713,
+    "TitleID": 420270,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 714,
+    "TitleID": 420271,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 715,
+    "TitleID": 420271,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 716,
+    "TitleID": 420273,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 717,
+    "TitleID": 420273,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 718,
+    "TitleID": 420273,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 719,
+    "TitleID": 420273,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 720,
+    "TitleID": 420297,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 721,
+    "TitleID": 420297,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 722,
+    "TitleID": 420297,
+    "Stat": "HP",
+    "Amount": 15
+  },
+  {
+    "ID": 723,
+    "TitleID": 420298,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 724,
+    "TitleID": 420298,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 725,
+    "TitleID": 420298,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 726,
+    "TitleID": 420298,
+    "Stat": "HP",
+    "Amount": 20
+  },
+  {
+    "ID": 727,
+    "TitleID": 420299,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 728,
+    "TitleID": 420299,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 729,
+    "TitleID": 420299,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 730,
+    "TitleID": 420299,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 731,
+    "TitleID": 420300,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 732,
+    "TitleID": 420301,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 733,
+    "TitleID": 420302,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 734,
+    "TitleID": 420302,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 735,
+    "TitleID": 420303,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 736,
+    "TitleID": 420303,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 737,
+    "TitleID": 420304,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 738,
+    "TitleID": 420304,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 739,
+    "TitleID": 420305,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 740,
+    "TitleID": 420305,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 741,
+    "TitleID": 420306,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 742,
+    "TitleID": 420306,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 743,
+    "TitleID": 420307,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 744,
+    "TitleID": 420307,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 745,
+    "TitleID": 420307,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 746,
+    "TitleID": 420308,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 747,
+    "TitleID": 420308,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 748,
+    "TitleID": 420309,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 749,
+    "TitleID": 420309,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 750,
+    "TitleID": 420339,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 751,
+    "TitleID": 420339,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 752,
+    "TitleID": 420339,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 753,
+    "TitleID": 420339,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 754,
+    "TitleID": 420340,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 755,
+    "TitleID": 420340,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 756,
+    "TitleID": 420342,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 757,
+    "TitleID": 420342,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 758,
+    "TitleID": 420342,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 759,
+    "TitleID": 420342,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 760,
+    "TitleID": 420342,
+    "Stat": "HP",
+    "Amount": 20
+  },
+  {
+    "ID": 761,
+    "TitleID": 420343,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 762,
+    "TitleID": 420343,
+    "Stat": "HP",
+    "Amount": 15
+  },
+  {
+    "ID": 763,
+    "TitleID": 420371,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 764,
+    "TitleID": 420371,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 765,
+    "TitleID": 420371,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 766,
+    "TitleID": 420371,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 767,
+    "TitleID": 420378,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 768,
+    "TitleID": 420378,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 769,
+    "TitleID": 420378,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 770,
+    "TitleID": 420378,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 771,
+    "TitleID": 420379,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 772,
+    "TitleID": 420379,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 773,
+    "TitleID": 420380,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 774,
+    "TitleID": 420380,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 775,
+    "TitleID": 420400,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 776,
+    "TitleID": 420403,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 777,
+    "TitleID": 420403,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 778,
+    "TitleID": 420404,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 779,
+    "TitleID": 420405,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 780,
+    "TitleID": 420406,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 781,
+    "TitleID": 420406,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 782,
+    "TitleID": 420407,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 783,
+    "TitleID": 420407,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 784,
+    "TitleID": 420411,
+    "Stat": "DEX",
+    "Amount": 4
+  },
+  {
+    "ID": 785,
+    "TitleID": 420412,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 786,
+    "TitleID": 420412,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 787,
+    "TitleID": 420412,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 788,
+    "TitleID": 420412,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 789,
+    "TitleID": 420413,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 790,
+    "TitleID": 420413,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 791,
+    "TitleID": 420413,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 792,
+    "TitleID": 420413,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 793,
+    "TitleID": 420423,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 794,
+    "TitleID": 420423,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 795,
+    "TitleID": 420428,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 796,
+    "TitleID": 420428,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 797,
+    "TitleID": 420429,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 798,
+    "TitleID": 420430,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 799,
+    "TitleID": 420430,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 800,
+    "TitleID": 420430,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 801,
+    "TitleID": 420430,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 802,
+    "TitleID": 420431,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 803,
+    "TitleID": 420431,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 804,
+    "TitleID": 420431,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 805,
+    "TitleID": 420431,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 806,
+    "TitleID": 420432,
+    "Stat": "WILL",
+    "Amount": 4
+  },
+  {
+    "ID": 807,
+    "TitleID": 420491,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 808,
+    "TitleID": 420491,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 809,
+    "TitleID": 420491,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 810,
+    "TitleID": 420491,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 811,
+    "TitleID": 420495,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 812,
+    "TitleID": 420495,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 813,
+    "TitleID": 420496,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 814,
+    "TitleID": 420496,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 815,
+    "TitleID": 420496,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 816,
+    "TitleID": 420496,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 817,
+    "TitleID": 420498,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 818,
+    "TitleID": 420498,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 819,
+    "TitleID": 420499,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 820,
+    "TitleID": 420499,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 821,
+    "TitleID": 420499,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 822,
+    "TitleID": 420500,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 823,
+    "TitleID": 420500,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 824,
+    "TitleID": 420500,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 825,
+    "TitleID": 420501,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 826,
+    "TitleID": 420501,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 827,
+    "TitleID": 420502,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 828,
+    "TitleID": 420502,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 829,
+    "TitleID": 420503,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 830,
+    "TitleID": 420504,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 831,
+    "TitleID": 420504,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 832,
+    "TitleID": 420530,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 833,
+    "TitleID": 420530,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 834,
+    "TitleID": 420531,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 835,
+    "TitleID": 420531,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 836,
+    "TitleID": 420531,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 837,
+    "TitleID": 420531,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 838,
+    "TitleID": 420555,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 839,
+    "TitleID": 420555,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 840,
+    "TitleID": 420556,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 841,
+    "TitleID": 420556,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 842,
+    "TitleID": 420557,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 843,
+    "TitleID": 420558,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 844,
+    "TitleID": 420558,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 845,
+    "TitleID": 420559,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 846,
+    "TitleID": 420559,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 847,
+    "TitleID": 420560,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 848,
+    "TitleID": 420560,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 849,
+    "TitleID": 420561,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 850,
+    "TitleID": 420561,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 851,
+    "TitleID": 420562,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 852,
+    "TitleID": 420562,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 853,
+    "TitleID": 420563,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 854,
+    "TitleID": 420563,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 855,
+    "TitleID": 420563,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 856,
+    "TitleID": 420564,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 857,
+    "TitleID": 420564,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 858,
+    "TitleID": 420584,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 859,
+    "TitleID": 420584,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 860,
+    "TitleID": 420584,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 861,
+    "TitleID": 420584,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 862,
+    "TitleID": 420642,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 863,
+    "TitleID": 420642,
+    "Stat": "HP",
+    "Amount": 20
+  },
+  {
+    "ID": 864,
+    "TitleID": 420643,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 865,
+    "TitleID": 420643,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 866,
+    "TitleID": 420644,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 867,
+    "TitleID": 420644,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 868,
+    "TitleID": 420644,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 869,
+    "TitleID": 420645,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 870,
+    "TitleID": 420645,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 871,
+    "TitleID": 420646,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 872,
+    "TitleID": 420646,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 873,
+    "TitleID": 420646,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 874,
+    "TitleID": 420651,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 875,
+    "TitleID": 420651,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 876,
+    "TitleID": 420651,
+    "Stat": "Balance",
+    "Amount": 1
+  },
+  {
+    "ID": 877,
+    "TitleID": 420652,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 878,
+    "TitleID": 420652,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 879,
+    "TitleID": 420652,
+    "Stat": "Balance",
+    "Amount": 1
+  },
+  {
+    "ID": 880,
+    "TitleID": 420653,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 881,
+    "TitleID": 420654,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 882,
+    "TitleID": 420655,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 883,
+    "TitleID": 420655,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 884,
+    "TitleID": 420656,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 885,
+    "TitleID": 420656,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 886,
+    "TitleID": 420657,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 887,
+    "TitleID": 420658,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 888,
+    "TitleID": 420658,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 889,
+    "TitleID": 420659,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 890,
+    "TitleID": 420659,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 891,
+    "TitleID": 420660,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 892,
+    "TitleID": 420660,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 893,
+    "TitleID": 420661,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 894,
+    "TitleID": 420661,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 895,
+    "TitleID": 420662,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 896,
+    "TitleID": 420662,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 897,
+    "TitleID": 420663,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 898,
+    "TitleID": 420663,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 899,
+    "TitleID": 420663,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 900,
+    "TitleID": 420664,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 901,
+    "TitleID": 420664,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 902,
+    "TitleID": 420667,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 903,
+    "TitleID": 420668,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 904,
+    "TitleID": 420669,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 905,
+    "TitleID": 420670,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 906,
+    "TitleID": 420671,
+    "Stat": "HP",
+    "Amount": 1
+  },
+  {
+    "ID": 907,
+    "TitleID": 420672,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 908,
+    "TitleID": 420673,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 909,
+    "TitleID": 420675,
+    "Stat": "Balance",
+    "Amount": 1
+  },
+  {
+    "ID": 910,
+    "TitleID": 420676,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 911,
+    "TitleID": 420676,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 912,
+    "TitleID": 420676,
+    "Stat": "HP",
+    "Amount": 1
+  },
+  {
+    "ID": 913,
+    "TitleID": 420677,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 914,
+    "TitleID": 420677,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 915,
+    "TitleID": 420677,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 916,
+    "TitleID": 420677,
+    "Stat": "HP",
+    "Amount": 1
+  },
+  {
+    "ID": 917,
+    "TitleID": 420678,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 918,
+    "TitleID": 420678,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 919,
+    "TitleID": 420678,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 920,
+    "TitleID": 420694,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 921,
+    "TitleID": 420694,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 922,
+    "TitleID": 420695,
+    "Stat": "ATK",
+    "Amount": 2
+  },
+  {
+    "ID": 923,
+    "TitleID": 420695,
+    "Stat": "MATK",
+    "Amount": 2
+  },
+  {
+    "ID": 924,
+    "TitleID": 420696,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 925,
+    "TitleID": 420696,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 926,
+    "TitleID": 420697,
+    "Stat": "ATK",
+    "Amount": 2
+  },
+  {
+    "ID": 927,
+    "TitleID": 420697,
+    "Stat": "MATK",
+    "Amount": 2
+  },
+  {
+    "ID": 928,
+    "TitleID": 420698,
+    "Stat": "ATK",
+    "Amount": 2
+  },
+  {
+    "ID": 929,
+    "TitleID": 420698,
+    "Stat": "MATK",
+    "Amount": 2
+  },
+  {
+    "ID": 930,
+    "TitleID": 420699,
+    "Stat": "ATK",
+    "Amount": 2
+  },
+  {
+    "ID": 931,
+    "TitleID": 420699,
+    "Stat": "MATK",
+    "Amount": 2
+  },
+  {
+    "ID": 932,
+    "TitleID": 420700,
+    "Stat": "ATK",
+    "Amount": 2
+  },
+  {
+    "ID": 933,
+    "TitleID": 420700,
+    "Stat": "MATK",
+    "Amount": 2
+  },
+  {
+    "ID": 934,
+    "TitleID": 420701,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 935,
+    "TitleID": 420701,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 936,
+    "TitleID": 420702,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 937,
+    "TitleID": 420702,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 938,
+    "TitleID": 420703,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 939,
+    "TitleID": 420703,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 940,
+    "TitleID": 420704,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 941,
+    "TitleID": 420704,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 942,
+    "TitleID": 420705,
+    "Stat": "ATK",
+    "Amount": 2
+  },
+  {
+    "ID": 943,
+    "TitleID": 420705,
+    "Stat": "MATK",
+    "Amount": 2
+  },
+  {
+    "ID": 944,
+    "TitleID": 420706,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 945,
+    "TitleID": 420706,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 946,
+    "TitleID": 420707,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 947,
+    "TitleID": 420707,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 948,
+    "TitleID": 420708,
+    "Stat": "ATK",
+    "Amount": 2
+  },
+  {
+    "ID": 949,
+    "TitleID": 420708,
+    "Stat": "MATK",
+    "Amount": 2
+  },
+  {
+    "ID": 950,
+    "TitleID": 420709,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 951,
+    "TitleID": 420709,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 952,
+    "TitleID": 420710,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 953,
+    "TitleID": 420710,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 954,
+    "TitleID": 420711,
+    "Stat": "ATK",
+    "Amount": 7
+  },
+  {
+    "ID": 955,
+    "TitleID": 420711,
+    "Stat": "MATK",
+    "Amount": 7
+  },
+  {
+    "ID": 956,
+    "TitleID": 420712,
+    "Stat": "ATK",
+    "Amount": 12
+  },
+  {
+    "ID": 957,
+    "TitleID": 420712,
+    "Stat": "MATK",
+    "Amount": 12
+  },
+  {
+    "ID": 958,
+    "TitleID": 420713,
+    "Stat": "ATK",
+    "Amount": 2
+  },
+  {
+    "ID": 959,
+    "TitleID": 420713,
+    "Stat": "MATK",
+    "Amount": 2
+  },
+  {
+    "ID": 960,
+    "TitleID": 420714,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 961,
+    "TitleID": 420714,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 962,
+    "TitleID": 420714,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 963,
+    "TitleID": 420714,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 964,
+    "TitleID": 420714,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 965,
+    "TitleID": 420714,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 966,
+    "TitleID": 420714,
+    "Stat": "Balance",
+    "Amount": 1
+  },
+  {
+    "ID": 967,
+    "TitleID": 420714,
+    "Stat": "Critical",
+    "Amount": 1
+  },
+  {
+    "ID": 968,
+    "TitleID": 420715,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 969,
+    "TitleID": 420715,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 970,
+    "TitleID": 420715,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 971,
+    "TitleID": 420715,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 972,
+    "TitleID": 420715,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 973,
+    "TitleID": 420715,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 974,
+    "TitleID": 420715,
+    "Stat": "Balance",
+    "Amount": 1
+  },
+  {
+    "ID": 975,
+    "TitleID": 420715,
+    "Stat": "Critical",
+    "Amount": 1
+  },
+  {
+    "ID": 976,
+    "TitleID": 420716,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 977,
+    "TitleID": 420716,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 978,
+    "TitleID": 420716,
+    "Stat": "ATK",
+    "Amount": 2
+  },
+  {
+    "ID": 979,
+    "TitleID": 420716,
+    "Stat": "MATK",
+    "Amount": 2
+  },
+  {
+    "ID": 980,
+    "TitleID": 420717,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 981,
+    "TitleID": 420718,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 982,
+    "TitleID": 420718,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 983,
+    "TitleID": 420718,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 984,
+    "TitleID": 420719,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 985,
+    "TitleID": 420719,
+    "Stat": "ATK",
+    "Amount": 2
+  },
+  {
+    "ID": 986,
+    "TitleID": 420719,
+    "Stat": "MATK",
+    "Amount": 2
+  },
+  {
+    "ID": 987,
+    "TitleID": 420720,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 988,
+    "TitleID": 420720,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 989,
+    "TitleID": 420720,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 990,
+    "TitleID": 420721,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 991,
+    "TitleID": 420721,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 992,
+    "TitleID": 420721,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 993,
+    "TitleID": 420722,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 994,
+    "TitleID": 420722,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 995,
+    "TitleID": 420722,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 996,
+    "TitleID": 420723,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 997,
+    "TitleID": 420723,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 998,
+    "TitleID": 420723,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 999,
+    "TitleID": 420723,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1000,
+    "TitleID": 420723,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1001,
+    "TitleID": 420723,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1002,
+    "TitleID": 420724,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1003,
+    "TitleID": 420724,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1004,
+    "TitleID": 420724,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1005,
+    "TitleID": 420724,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1006,
+    "TitleID": 420724,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1007,
+    "TitleID": 420724,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1008,
+    "TitleID": 420725,
+    "Stat": "STR",
+    "Amount": 5
+  },
+  {
+    "ID": 1009,
+    "TitleID": 420725,
+    "Stat": "DEX",
+    "Amount": 5
+  },
+  {
+    "ID": 1010,
+    "TitleID": 420725,
+    "Stat": "INT",
+    "Amount": 5
+  },
+  {
+    "ID": 1011,
+    "TitleID": 420725,
+    "Stat": "WILL",
+    "Amount": 5
+  },
+  {
+    "ID": 1012,
+    "TitleID": 420725,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1013,
+    "TitleID": 420725,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1014,
+    "TitleID": 420726,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 1015,
+    "TitleID": 420726,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 1016,
+    "TitleID": 420726,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 1017,
+    "TitleID": 420726,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 1018,
+    "TitleID": 420726,
+    "Stat": "Balance",
+    "Amount": 1
+  },
+  {
+    "ID": 1019,
+    "TitleID": 420726,
+    "Stat": "Critical",
+    "Amount": 1
+  },
+  {
+    "ID": 1020,
+    "TitleID": 420727,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1021,
+    "TitleID": 420727,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1022,
+    "TitleID": 420727,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1023,
+    "TitleID": 420728,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1024,
+    "TitleID": 420728,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1025,
+    "TitleID": 420728,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1026,
+    "TitleID": 420729,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1027,
+    "TitleID": 420729,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1028,
+    "TitleID": 420729,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1029,
+    "TitleID": 420730,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1030,
+    "TitleID": 420730,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1031,
+    "TitleID": 420730,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1032,
+    "TitleID": 420731,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1033,
+    "TitleID": 420731,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1034,
+    "TitleID": 420731,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1035,
+    "TitleID": 420731,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1036,
+    "TitleID": 420731,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1037,
+    "TitleID": 420731,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1038,
+    "TitleID": 420732,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1039,
+    "TitleID": 420732,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1040,
+    "TitleID": 420732,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1041,
+    "TitleID": 420733,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1042,
+    "TitleID": 420733,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1043,
+    "TitleID": 420733,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1044,
+    "TitleID": 420734,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1045,
+    "TitleID": 420734,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1046,
+    "TitleID": 420734,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1047,
+    "TitleID": 420735,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1048,
+    "TitleID": 420735,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1049,
+    "TitleID": 420735,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1050,
+    "TitleID": 420736,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1051,
+    "TitleID": 420736,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1052,
+    "TitleID": 420736,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1053,
+    "TitleID": 420736,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1054,
+    "TitleID": 420736,
+    "Stat": "ATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1055,
+    "TitleID": 420736,
+    "Stat": "MATK",
+    "Amount": 6
+  },
+  {
+    "ID": 1056,
+    "TitleID": 420750,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1057,
+    "TitleID": 420750,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1058,
+    "TitleID": 420752,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1059,
+    "TitleID": 420752,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1060,
+    "TitleID": 420753,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1061,
+    "TitleID": 420753,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1062,
+    "TitleID": 420754,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1063,
+    "TitleID": 420754,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1064,
+    "TitleID": 420755,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1065,
+    "TitleID": 420755,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1066,
+    "TitleID": 420756,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1067,
+    "TitleID": 420756,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1068,
+    "TitleID": 420757,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1069,
+    "TitleID": 420757,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1070,
+    "TitleID": 420758,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1071,
+    "TitleID": 420758,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1072,
+    "TitleID": 420759,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1073,
+    "TitleID": 420759,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1074,
+    "TitleID": 420760,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1075,
+    "TitleID": 420760,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1076,
+    "TitleID": 420761,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1077,
+    "TitleID": 420761,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1078,
+    "TitleID": 420762,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1079,
+    "TitleID": 420762,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1080,
+    "TitleID": 420763,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1081,
+    "TitleID": 420763,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1082,
+    "TitleID": 420764,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1083,
+    "TitleID": 420764,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1084,
+    "TitleID": 420765,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1085,
+    "TitleID": 420765,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1086,
+    "TitleID": 420766,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1087,
+    "TitleID": 420766,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1088,
+    "TitleID": 420767,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1089,
+    "TitleID": 420767,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1090,
+    "TitleID": 420768,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1091,
+    "TitleID": 420768,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1092,
+    "TitleID": 420769,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1093,
+    "TitleID": 420769,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1094,
+    "TitleID": 420769,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1095,
+    "TitleID": 420769,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1096,
+    "TitleID": 420769,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1097,
+    "TitleID": 420769,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1098,
+    "TitleID": 420769,
+    "Stat": "Critical",
+    "Amount": 1
+  },
+  {
+    "ID": 1099,
+    "TitleID": 420770,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1100,
+    "TitleID": 420770,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1101,
+    "TitleID": 420770,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1102,
+    "TitleID": 420770,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1103,
+    "TitleID": 420770,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1104,
+    "TitleID": 420770,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1105,
+    "TitleID": 420770,
+    "Stat": "Balance",
+    "Amount": 1
+  },
+  {
+    "ID": 1106,
+    "TitleID": 420771,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1107,
+    "TitleID": 420771,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1108,
+    "TitleID": 420772,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1109,
+    "TitleID": 420773,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1110,
+    "TitleID": 420774,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1111,
+    "TitleID": 420775,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1112,
+    "TitleID": 420776,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1113,
+    "TitleID": 420777,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1114,
+    "TitleID": 420778,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1115,
+    "TitleID": 420778,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1116,
+    "TitleID": 420778,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1117,
+    "TitleID": 420778,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1118,
+    "TitleID": 420779,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1119,
+    "TitleID": 420779,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1120,
+    "TitleID": 420779,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1121,
+    "TitleID": 420779,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1122,
+    "TitleID": 420780,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1123,
+    "TitleID": 420780,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1124,
+    "TitleID": 420780,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1125,
+    "TitleID": 420780,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1126,
+    "TitleID": 420780,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1127,
+    "TitleID": 420780,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1128,
+    "TitleID": 420781,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 1129,
+    "TitleID": 420781,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 1130,
+    "TitleID": 420781,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 1131,
+    "TitleID": 420781,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 1132,
+    "TitleID": 420782,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1133,
+    "TitleID": 420782,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1134,
+    "TitleID": 420783,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1135,
+    "TitleID": 420783,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1136,
+    "TitleID": 420784,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1137,
+    "TitleID": 420784,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1138,
+    "TitleID": 420785,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1139,
+    "TitleID": 420785,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1140,
+    "TitleID": 420786,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1141,
+    "TitleID": 420786,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1142,
+    "TitleID": 420786,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1143,
+    "TitleID": 420786,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1144,
+    "TitleID": 420787,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1145,
+    "TitleID": 420787,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1146,
+    "TitleID": 420788,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1147,
+    "TitleID": 420788,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1148,
+    "TitleID": 420789,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1149,
+    "TitleID": 420789,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1150,
+    "TitleID": 420790,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1151,
+    "TitleID": 420790,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1152,
+    "TitleID": 420791,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1153,
+    "TitleID": 420791,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1154,
+    "TitleID": 420791,
+    "Stat": "ATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1155,
+    "TitleID": 420791,
+    "Stat": "MATK",
+    "Amount": 3
+  },
+  {
+    "ID": 1156,
+    "TitleID": 420792,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1157,
+    "TitleID": 420792,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1158,
+    "TitleID": 420792,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1159,
+    "TitleID": 420793,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1160,
+    "TitleID": 420793,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1161,
+    "TitleID": 420793,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1162,
+    "TitleID": 420794,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1163,
+    "TitleID": 420794,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1164,
+    "TitleID": 420794,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1165,
+    "TitleID": 420795,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1166,
+    "TitleID": 420795,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1167,
+    "TitleID": 420795,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1168,
+    "TitleID": 420796,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1169,
+    "TitleID": 420796,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1170,
+    "TitleID": 420796,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1171,
+    "TitleID": 420796,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1172,
+    "TitleID": 420796,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1173,
+    "TitleID": 420796,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1174,
+    "TitleID": 420797,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1175,
+    "TitleID": 420797,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1176,
+    "TitleID": 420797,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1177,
+    "TitleID": 420798,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1178,
+    "TitleID": 420798,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1179,
+    "TitleID": 420798,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1180,
+    "TitleID": 420799,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1181,
+    "TitleID": 420799,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1182,
+    "TitleID": 420799,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1183,
+    "TitleID": 420800,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1184,
+    "TitleID": 420800,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1185,
+    "TitleID": 420800,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1186,
+    "TitleID": 420801,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1187,
+    "TitleID": 420801,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1188,
+    "TitleID": 420801,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1189,
+    "TitleID": 420801,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1190,
+    "TitleID": 420801,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1191,
+    "TitleID": 420801,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1192,
+    "TitleID": 420802,
+    "Stat": "HP",
+    "Amount": 25
+  },
+  {
+    "ID": 1193,
+    "TitleID": 420802,
+    "Stat": "Balance",
+    "Amount": 1
+  },
+  {
+    "ID": 1194,
+    "TitleID": 420803,
+    "Stat": "HP",
+    "Amount": 25
+  },
+  {
+    "ID": 1195,
+    "TitleID": 420803,
+    "Stat": "Balance",
+    "Amount": 1
+  },
+  {
+    "ID": 1196,
+    "TitleID": 420824,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1197,
+    "TitleID": 420824,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1198,
+    "TitleID": 420825,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1199,
+    "TitleID": 420825,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1200,
+    "TitleID": 420833,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1201,
+    "TitleID": 420833,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1202,
+    "TitleID": 420834,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1203,
+    "TitleID": 420834,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1204,
+    "TitleID": 420835,
+    "Stat": "ATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1205,
+    "TitleID": 420835,
+    "Stat": "MATK",
+    "Amount": 5
+  },
+  {
+    "ID": 1206,
+    "TitleID": 420836,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1207,
+    "TitleID": 420836,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1208,
+    "TitleID": 420836,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1209,
+    "TitleID": 420836,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1210,
+    "TitleID": 420872,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1211,
+    "TitleID": 420872,
+    "Stat": "DEX",
+    "Amount": 1
+  },
+  {
+    "ID": 1212,
+    "TitleID": 420872,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1213,
+    "TitleID": 420872,
+    "Stat": "WILL",
+    "Amount": 1
+  },
+  {
+    "ID": 1214,
+    "TitleID": 420873,
+    "Stat": "STR",
+    "Amount": 1
+  },
+  {
+    "ID": 1215,
+    "TitleID": 420873,
+    "Stat": "INT",
+    "Amount": 1
+  },
+  {
+    "ID": 1216,
+    "TitleID": 420874,
+    "Stat": "ATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1217,
+    "TitleID": 420874,
+    "Stat": "MATK",
+    "Amount": 1
+  },
+  {
+    "ID": 1218,
+    "TitleID": 420878,
+    "Stat": "STR",
+    "Amount": 4
+  },
+  {
+    "ID": 1219,
+    "TitleID": 420878,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 1220,
+    "TitleID": 420879,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 1221,
+    "TitleID": 420879,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 1222,
+    "TitleID": 420879,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 1223,
+    "TitleID": 420879,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 1224,
+    "TitleID": 420888,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 1225,
+    "TitleID": 420888,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 1226,
+    "TitleID": 420888,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 1227,
+    "TitleID": 420888,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 1228,
+    "TitleID": 420889,
+    "Stat": "STR",
+    "Amount": 2
+  },
+  {
+    "ID": 1229,
+    "TitleID": 420889,
+    "Stat": "DEX",
+    "Amount": 2
+  },
+  {
+    "ID": 1230,
+    "TitleID": 420889,
+    "Stat": "INT",
+    "Amount": 2
+  },
+  {
+    "ID": 1231,
+    "TitleID": 420889,
+    "Stat": "WILL",
+    "Amount": 2
+  },
+  {
+    "ID": 1232,
+    "TitleID": 420939,
+    "Stat": "STR",
+    "Amount": 3
+  },
+  {
+    "ID": 1233,
+    "TitleID": 420939,
+    "Stat": "DEX",
+    "Amount": 3
+  },
+  {
+    "ID": 1234,
+    "TitleID": 420939,
+    "Stat": "INT",
+    "Amount": 3
+  },
+  {
+    "ID": 1235,
+    "TitleID": 420939,
+    "Stat": "WILL",
+    "Amount": 3
+  },
+  {
+    "ID": 1236,
+    "TitleID": 420940,
+    "Stat": "STR",
+    "Amount": 6
+  },
+  {
+    "ID": 1237,
+    "TitleID": 420940,
+    "Stat": "DEX",
+    "Amount": 6
+  },
+  {
+    "ID": 1238,
+    "TitleID": 420940,
+    "Stat": "INT",
+    "Amount": 6
+  },
+  {
+    "ID": 1239,
+    "TitleID": 420940,
+    "Stat": "WILL",
+    "Amount": 6
+  }
+]

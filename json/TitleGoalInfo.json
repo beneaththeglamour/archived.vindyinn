@@ -1,0 +1,4394 @@
+[
+  {
+    "ID": 10000,
+    "TitleID": 410017,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_gnoll_chieftain",
+    "Target": "kill npc_gnoll chieftain",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10001,
+    "TitleID": 410020,
+    "Description": "HEROES_TITLE_GOAL_NAME_spider_kicker",
+    "Target": "kill npc_spider [a-z_]* [a-z0-9_]*kick[a-z0-9_]*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10002,
+    "TitleID": 410054,
+    "Description": "HEROES_TITLE_GOAL_NAME_kick_expert",
+    "Target": "kill.+kick",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10003,
+    "TitleID": 410055,
+    "Description": "HEROES_TITLE_GOAL_NAME_windmill_expert",
+    "Target": "kill.+lethita_attack_rising",
+    "TargetCount": 40,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10004,
+    "TitleID": 410056,
+    "Description": "HEROES_TITLE_GOAL_NAME_glidingfury_expert",
+    "Target": "kill.+gliding_fury",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10005,
+    "TitleID": 410057,
+    "Description": "HEROES_TITLE_GOAL_NAME_magnolia_expert",
+    "Target": "kill.+fiona_strong_attack_02.*",
+    "TargetCount": 70,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10006,
+    "TitleID": 410058,
+    "Description": "HEROES_TITLE_GOAL_NAME_counterattack_expert",
+    "Target": "kill.+fiona_counter_attack",
+    "TargetCount": 180,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10008,
+    "TitleID": 410060,
+    "Description": "HEROES_TITLE_GOAL_NAME_jelly_kicker",
+    "Target": "kill npc_jelly.+kick[a-z0-9_]*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10009,
+    "TitleID": 410061,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_kobold_brother",
+    "Target": "kill npc_kobold frisky_brother",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10010,
+    "TitleID": 410062,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_kobold_big_brother",
+    "Target": "kill npc_kobold frisky_bigbrother",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10011,
+    "TitleID": 410063,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_bear_normal",
+    "Target": "kill npc_bear normal",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10012,
+    "TitleID": 410064,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_cragdigger_qyrmigal",
+    "Target": "kill npc_cragdigger qyrmigal",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10013,
+    "TitleID": 410065,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_kobold_hard",
+    "Target": "kill npc_kobold hard",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10014,
+    "TitleID": 410066,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_vampire_red",
+    "Target": "kill npc_vampire red",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10015,
+    "TitleID": 410067,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_vampire_ripper",
+    "Target": "kill npc_vampire ripper",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10016,
+    "TitleID": 410068,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_vampire_drinker",
+    "Target": "kill npc_vampire drinker",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10017,
+    "TitleID": 410069,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_vampire_prince",
+    "Target": "kill npc_vampire prince",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10018,
+    "TitleID": 410038,
+    "Description": "HEROES_TITLE_GOAL_NAME_lift_fighter1",
+    "Target": "kill npc_gnoll.+lift",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10019,
+    "TitleID": 410039,
+    "Description": "HEROES_TITLE_GOAL_NAME_lift_fighter2",
+    "Target": "kill npc_kobold.+lift",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10021,
+    "TitleID": 410098,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_fiona_smash3",
+    "Target": "kill.+fiona_strong_attack_03.*",
+    "TargetCount": 35,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10022,
+    "TitleID": 410100,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lethita_spirit_wind",
+    "Target": "kill npc_kobold nimble",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10023,
+    "TitleID": 410102,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_eve_revive",
+    "Target": "reviving",
+    "TargetCount": 7,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10024,
+    "TitleID": 410106,
+    "Description": "HEROES_TITLE_GOAL_NAME_lift_fighter1_evy",
+    "Target": "kill npc_gnoll.+lift",
+    "TargetCount": 3,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10025,
+    "TitleID": 410107,
+    "Description": "HEROES_TITLE_GOAL_NAME_lift_fighter2_evy",
+    "Target": "kill npc_kobold.+lift",
+    "TargetCount": 12,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10026,
+    "TitleID": 410116,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_javelin_ready",
+    "Target": "kill npc_jelly.+javelin",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10027,
+    "TitleID": 410117,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_glidingfurt_super",
+    "Target": "kill npc_gnoll (warrior|hammerguard|sentinel).+gliding_fury",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10028,
+    "TitleID": 410118,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_boom_throw",
+    "Target": "use.+handbomb",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10029,
+    "TitleID": 410120,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_healing",
+    "Target": "use.+healing_rune_[a-z0-9_]*",
+    "TargetCount": 7,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10030,
+    "TitleID": 410121,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_fiona_shoring",
+    "Target": "kill npc_cragdigger qyrmigal.+(kick|fiona_strong_attack_04|kalok_strong_attack_run_sprint)",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10031,
+    "TitleID": 410137,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_nimble",
+    "Target": "kill.+kobold nimble(.*_magic_bolt.*|.*arrow.*)",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10032,
+    "TitleID": 410138,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_headservant",
+    "Target": "kill.+goblin headservant(.*_magic_bolt.*|.*arrow.*)",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10033,
+    "TitleID": 410139,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_ripper",
+    "Target": "kill.+vampire ripper(.*_magic_bolt.*|.*arrow.*)",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10034,
+    "TitleID": 410140,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_vamplord_normal",
+    "Target": "kill npc_vamplord normal",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10035,
+    "TitleID": 410141,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_vamplord_normal_foot",
+    "Target": "kill npc_vamplord normal.+(kick|fiona_strong_attack_04|kalok_strong_attack_run_sprint)",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10036,
+    "TitleID": 410148,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_annest_kick",
+    "Target": "kill npc_kobold rage.+kick[a-z0-9_]*",
+    "TargetCount": 3,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10037,
+    "TitleID": 410164,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_coward_five",
+    "Target": "kill npc_kobold coward",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10038,
+    "TitleID": 410165,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_coward_ten",
+    "Target": "kill npc_kobold coward",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10039,
+    "TitleID": 410166,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_kobold_warm",
+    "Target": "kill npc_kobold warm",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10040,
+    "TitleID": 410167,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_kobold_mysterious",
+    "Target": "kill npc_kobold mysterious",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10041,
+    "TitleID": 410168,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_kobold_calm",
+    "Target": "kill npc_kobold calm",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10042,
+    "TitleID": 410169,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_yeti_rockjaw",
+    "Target": "kill npc_yeti rockjaw",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10043,
+    "TitleID": 410174,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_bear_urkul",
+    "Target": "kill npc_bear urkul",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10044,
+    "TitleID": 410176,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_yeti_blackvalley",
+    "Target": "kill npc_yeti blackvalley",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10045,
+    "TitleID": 410181,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_kobold_chill",
+    "Target": "kill npc_kobold chill",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10046,
+    "TitleID": 410186,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_gnoll_kick1",
+    "Target": "kill npc_gnoll.+kick.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10047,
+    "TitleID": 410187,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_gnoll_kick2",
+    "Target": "kill npc_gnoll.+kick.*",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10048,
+    "TitleID": 410188,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_gnoll_kick3",
+    "Target": "kill npc_gnoll.+kick.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10049,
+    "TitleID": 410189,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_archer_javelin1",
+    "Target": "kill npc_kobold archer.+javelin",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10050,
+    "TitleID": 410190,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_archer_javelin2",
+    "Target": "kill npc_kobold archer.+javelin",
+    "TargetCount": 150,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10051,
+    "TitleID": 410191,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_archer_javelin3",
+    "Target": "kill npc_kobold archer.+javelin",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10052,
+    "TitleID": 410192,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_goblin_lift1",
+    "Target": "kill npc_goblin.+lift",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10053,
+    "TitleID": 410193,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_goblin_lift2",
+    "Target": "kill npc_goblin.+lift",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10054,
+    "TitleID": 410194,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_goblin_lift3",
+    "Target": "kill npc_goblin.+lift",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10055,
+    "TitleID": 410195,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vampire_javelin1",
+    "Target": "kill npc_vampire.+javelin",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10056,
+    "TitleID": 410196,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vampire_javelin2",
+    "Target": "kill npc_vampire.+javelin",
+    "TargetCount": 150,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10057,
+    "TitleID": 410197,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vampire_javelin3",
+    "Target": "kill npc_vampire.+javelin",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10058,
+    "TitleID": 410198,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_gnoll_lift1",
+    "Target": "kill npc_gnoll.+lift",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10059,
+    "TitleID": 410199,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_gnoll_lift2",
+    "Target": "kill npc_gnoll.+lift",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10060,
+    "TitleID": 410200,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_gnoll_lift3",
+    "Target": "kill npc_gnoll.+lift",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10061,
+    "TitleID": 410201,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kobold_kick1",
+    "Target": "kill npc_kobold.+kick.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10062,
+    "TitleID": 410202,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kobold_kick2",
+    "Target": "kill npc_kobold.+kick.*",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10063,
+    "TitleID": 410203,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kobold_kick3",
+    "Target": "kill npc_kobold.+kick.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10064,
+    "TitleID": 410204,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_yeti_lift1",
+    "Target": "kill npc_yeti.+lift",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10065,
+    "TitleID": 410205,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_yeti_lift2",
+    "Target": "kill npc_yeti.+lift",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10066,
+    "TitleID": 410206,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_yeti_lift3",
+    "Target": "kill npc_yeti.+lift",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10067,
+    "TitleID": 410207,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_spider_bomb1",
+    "Target": "kill npc_spider.+handbomb",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10068,
+    "TitleID": 410208,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_spider_bomb2",
+    "Target": "kill npc_spider.+handbomb",
+    "TargetCount": 150,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10069,
+    "TitleID": 410209,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_spider_bomb3",
+    "Target": "kill npc_spider.+handbomb",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10070,
+    "TitleID": 410210,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_jelly_kick1",
+    "Target": "kill npc_jelly.+kick.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10071,
+    "TitleID": 410211,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_jelly_kick2",
+    "Target": "kill npc_jelly.+kick.*",
+    "TargetCount": 150,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10072,
+    "TitleID": 410212,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_jelly_kick3",
+    "Target": "kill npc_jelly.+kick.*",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10073,
+    "TitleID": 410213,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_toad_bomb1",
+    "Target": "kill npc_toad.+handbomb",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10074,
+    "TitleID": 410214,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_toad_bomb2",
+    "Target": "kill npc_toad.+handbomb",
+    "TargetCount": 150,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10075,
+    "TitleID": 410215,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_toad_bomb3",
+    "Target": "kill npc_toad.+handbomb",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10076,
+    "TitleID": 410216,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_wisp_javelin1",
+    "Target": "kill npc_wisp.+javelin",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10077,
+    "TitleID": 410217,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_wisp_javelin2",
+    "Target": "kill npc_wisp.+javelin",
+    "TargetCount": 150,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10078,
+    "TitleID": 410218,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_wisp_javelin3",
+    "Target": "kill npc_wisp.+javelin",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10079,
+    "TitleID": 410219,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_chieftain_lift",
+    "Target": "kill npc_gnoll chieftain .*_lift.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10080,
+    "TitleID": 410220,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_bear_javelin",
+    "Target": "kill npc_bear normal.+javelin",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10081,
+    "TitleID": 410221,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hard_lift",
+    "Target": "kill npc_kobold hard .*_lift.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10082,
+    "TitleID": 410222,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_prince_javelin",
+    "Target": "kill npc_vampire prince.+javelin",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10083,
+    "TitleID": 410223,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_scarredblack_strong_lift",
+    "Target": "kill npc_gnoll scarredblack_strong .*_lift.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10084,
+    "TitleID": 410224,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_calm_huge",
+    "Target": "kill npc_kobold calm",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10085,
+    "TitleID": 410225,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_rockjaw_huge",
+    "Target": "kill npc_yeti rockjaw",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10086,
+    "TitleID": 410226,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_laghodessa_huge",
+    "Target": "kill npc_giant_spider laghodessa",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10087,
+    "TitleID": 410227,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_vamplord_huge",
+    "Target": "kill npc_vamplord normal",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10088,
+    "TitleID": 410228,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_blackvalley_huge",
+    "Target": "kill npc_yeti blackvalley",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10089,
+    "TitleID": 410229,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_urkul_huge",
+    "Target": "kill npc_bear urkul_normal",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10090,
+    "TitleID": 410230,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_qyrmigal_kick",
+    "Target": "kill npc_cragdigger qyrmigal .*_kick.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10091,
+    "TitleID": 410231,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_everwhite_kick",
+    "Target": "kill npc_gnoll everwhite .*_kick.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10092,
+    "TitleID": 410232,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kingice_kick",
+    "Target": "kill npc_jelly kingice .*_kick.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10093,
+    "TitleID": 410233,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hard_javelin",
+    "Target": "kill npc_kobold solid.+javelin",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10094,
+    "TitleID": 410234,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_normal_attack1",
+    "Target": "kill.+(.*_normal_attack.*|.*_magic_bolt.*)",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10095,
+    "TitleID": 410235,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_normal_attack2",
+    "Target": "kill.+(.*_normal_attack.*|.*_magic_bolt.*)",
+    "TargetCount": 3000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10096,
+    "TitleID": 410236,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_normal_attack3",
+    "Target": "kill.+(.*_normal_attack.*|.*_magic_bolt.*)",
+    "TargetCount": 10000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10097,
+    "TitleID": 410237,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_esmove1",
+    "Target": "kill.+player_grappling_attack_es_move|kay_strong_attack_dual_link",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10098,
+    "TitleID": 410238,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_esmove2",
+    "Target": "kill.+player_grappling_attack_es_move|kay_strong_attack_dual_link",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10099,
+    "TitleID": 410239,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_esmove3",
+    "Target": "kill.+player_grappling_attack_es_move|kay_strong_attack_dual_link",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10100,
+    "TitleID": 410240,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_esmove4",
+    "Target": "kill.+player_grappling_attack_es_move|kay_strong_attack_dual_link",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10101,
+    "TitleID": 410241,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_chieftain",
+    "Target": "weakpoint_break npc_gnoll chieftain",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10102,
+    "TitleID": 410242,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_hard",
+    "Target": "weakpoint_break npc_kobold hard",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10103,
+    "TitleID": 410243,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_bear",
+    "Target": "weakpoint_break npc_bear normal",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10104,
+    "TitleID": 410244,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_knight",
+    "Target": "weakpoint_break npc_vampire knight",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10105,
+    "TitleID": 410245,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_prince",
+    "Target": "weakpoint_break npc_vampire prince",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10106,
+    "TitleID": 410246,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_flicker",
+    "Target": "weakpoint_break npc_vampire flicker",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10107,
+    "TitleID": 410247,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_goliath",
+    "Target": "weakpoint_break npc_toad goliath",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10108,
+    "TitleID": 410248,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_scarred_str",
+    "Target": "weakpoint_break npc_gnoll scarredblack_strong",
+    "TargetCount": 40,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10109,
+    "TitleID": 410249,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_laghodessa",
+    "Target": "weakpoint_break npc_giant_spider laghodessa",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10110,
+    "TitleID": 410250,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_calm",
+    "Target": "weakpoint_break npc_kobold calm",
+    "TargetCount": 40,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10111,
+    "TitleID": 410251,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_rockjaw",
+    "Target": "weakpoint_break npc_yeti rockjaw",
+    "TargetCount": 40,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10112,
+    "TitleID": 410252,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_vamplord",
+    "Target": "weakpoint_break npc_vamplord normal",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10113,
+    "TitleID": 410253,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_urkul",
+    "Target": "weakpoint_break npc_bear urkul_normal",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10114,
+    "TitleID": 410254,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_miningrock1",
+    "Target": "destroynamedprop (ep[0-9]*_ore.*|ore.*)",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10115,
+    "TitleID": 410255,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_miningrock2",
+    "Target": "destroynamedprop (ep[0-9]*_ore.*|ore.*)",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10116,
+    "TitleID": 410256,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_miningrock3",
+    "Target": "destroynamedprop (ep[0-9]*_ore.*|ore.*)",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10117,
+    "TitleID": 410257,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_uniquepot1",
+    "Target": "destroynamedprop (ep[0-9]*_pot.*|stage.*)",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10118,
+    "TitleID": 410258,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_uniquepot2",
+    "Target": "destroynamedprop (ep[0-9]*_pot.*|stage.*)",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10119,
+    "TitleID": 410259,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_broken_armor_huge1",
+    "Target": "armorbroken",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10120,
+    "TitleID": 410260,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_broken_armor_huge2",
+    "Target": "armorbroken",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10121,
+    "TitleID": 410261,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_broken_armor_huge3",
+    "Target": "armorbroken",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10122,
+    "TitleID": 410262,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_repair_huge",
+    "Target": "use.+repair_kit.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10124,
+    "TitleID": 410263,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_get_gold_huge1",
+    "Target": "get item gold",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10125,
+    "TitleID": 410264,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_get_gold_huge2",
+    "Target": "get item gold",
+    "TargetCount": 10000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10126,
+    "TitleID": 410265,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_get_gold_huge3",
+    "Target": "get item gold",
+    "TargetCount": 100000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10127,
+    "TitleID": 410266,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_javelin_lvl2",
+    "Target": "use.+javelin_lvl2",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10128,
+    "TitleID": 410267,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_handbomb_lvl2",
+    "Target": "use.+handbomb_lvl2",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10129,
+    "TitleID": 410268,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_campfire1",
+    "Target": "use.+campfire_kit.*",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10130,
+    "TitleID": 410269,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_campfire2",
+    "Target": "use.+campfire_kit.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10131,
+    "TitleID": 410270,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_campfire3",
+    "Target": "use.+campfire_kit.*",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10132,
+    "TitleID": 410271,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_life_potion1",
+    "Target": "use.+life_potion_lvl.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10133,
+    "TitleID": 410272,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_life_potion2",
+    "Target": "use.+life_potion_lvl.*",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10134,
+    "TitleID": 410273,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_life_potion3",
+    "Target": "use.+life_potion_lvl.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10135,
+    "TitleID": 410274,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_life_potion_cash1",
+    "Target": "use.+life_potion(_|_plus_)cash.*",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10136,
+    "TitleID": 410275,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_life_potion_cash2",
+    "Target": "use.+life_potion(_|_plus_)cash.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10137,
+    "TitleID": 410276,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_life_potion_cash3",
+    "Target": "use.+life_potion(_|_plus_)cash.*",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10138,
+    "TitleID": 410277,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_phoenix_feather1",
+    "Target": "use.+phoenix_feather.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10139,
+    "TitleID": 410278,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_phoenix_feather2",
+    "Target": "use.+phoenix_feather.*",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10140,
+    "TitleID": 410279,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_phoenix_feather3",
+    "Target": "use.+phoenix_feather.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10141,
+    "TitleID": 410280,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_party_feather1",
+    "Target": "use.+party_resurrection_feather.*",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10142,
+    "TitleID": 410281,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_party_feather2",
+    "Target": "use.+party_resurrection_feather.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10143,
+    "TitleID": 410282,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_party_feather3",
+    "Target": "use.+party_resurrection_feather.*",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10144,
+    "TitleID": 410283,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_chieftain_hardmode",
+    "Target": "cleargoal 13300",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10145,
+    "TitleID": 410284,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_kobold_hard_hardmode",
+    "Target": "cleargoal 19600",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10146,
+    "TitleID": 410285,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_bear_hardmode",
+    "Target": "cleargoal 20400",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10147,
+    "TitleID": 410286,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_prince_hardmode",
+    "Target": "cleargoal 27600",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10148,
+    "TitleID": 410287,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_vamplord_hardmode",
+    "Target": "cleargoal 27737",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10149,
+    "TitleID": 410288,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_scarred_str_hardmode",
+    "Target": "cleargoal 28480",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10150,
+    "TitleID": 410289,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_lagodessa_hardmode",
+    "Target": "cleargoal 28860",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10151,
+    "TitleID": 410290,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_rockjaw_hardmode",
+    "Target": "cleargoal 30123",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10152,
+    "TitleID": 410291,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_calm_hardmode",
+    "Target": "cleargoal 30223",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10153,
+    "TitleID": 410292,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_urkul_hardmode",
+    "Target": "cleargoal 30311",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10154,
+    "TitleID": 410293,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_spider_soldier",
+    "Target": "clearcount quest_spider_soldier_red",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10155,
+    "TitleID": 410294,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_sharptooth",
+    "Target": "clearcount quest_gnoll_sharptooth",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10156,
+    "TitleID": 410295,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_bear",
+    "Target": "clearcount quest_bear_normal",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10157,
+    "TitleID": 410296,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_chieftain",
+    "Target": "clearcount quest_gnoll_chieftain$",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10158,
+    "TitleID": 410297,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_kobold_all",
+    "Target": "clearcount quest_kobold_all$",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10159,
+    "TitleID": 410298,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_mysterious",
+    "Target": "clearcount quest_kobold_mysterious",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10160,
+    "TitleID": 410299,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_calm",
+    "Target": "clearcount quest_kobold_calm",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10161,
+    "TitleID": 410300,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_bear_heroic",
+    "Target": "cleardiffi quest_bear_normal Hero$",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10162,
+    "TitleID": 410301,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_lagodessa_heroic",
+    "Target": "cleardiffi quest_giant_spider_laghodessa Hero$",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10163,
+    "TitleID": 410302,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_vamplord_heroic",
+    "Target": "cleardiffi quest_vamplord_normal Hero$",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10164,
+    "TitleID": 410303,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_clear_urkul_heroic",
+    "Target": "cleardiffi quest_bear_urkul Hero$",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10165,
+    "TitleID": 410304,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_fiona_smash4_huge",
+    "Target": "kill.+(fiona_strong_attack_04|kalok_strong_attack_run_sprint)",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10166,
+    "TitleID": 410305,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_fiona_smash2_huge",
+    "Target": "kill.+fiona_strong_attack_02.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10167,
+    "TitleID": 410306,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_fiona_counter_huge",
+    "Target": "use_skill skill_fiona_counterattack",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10168,
+    "TitleID": 410307,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_fiona_hammer_smash3",
+    "Target": "kill.+fiona_hammer_strong_attack_03.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10169,
+    "TitleID": 410308,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_fiona_hammer_smash4",
+    "Target": "kill.+fiona_hammer_strong_attack_04.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10170,
+    "TitleID": 410309,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_fiona_bash",
+    "Target": "use_(spskill|skill) skill_fiona_bash",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10171,
+    "TitleID": 410310,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_fiona_shield_repair",
+    "Target": "shield_pass_over",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10172,
+    "TitleID": 410311,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_evy_magic_firebolt",
+    "Target": "kill.+(evy_bolt_fire|_magic_fire.*)",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10173,
+    "TitleID": 410312,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_evy_magic_arrow",
+    "Target": "kill.*_magic_bolt.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10174,
+    "TitleID": 410313,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_magic_healing1",
+    "Target": "healed_party_member",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10175,
+    "TitleID": 410314,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_magic_healing2",
+    "Target": "healed_party_member",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10176,
+    "TitleID": 410315,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_magic_healing3",
+    "Target": "healed_party_member",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10177,
+    "TitleID": 410316,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_regeneration",
+    "Target": "use_spskill skill_evy_regeneration",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10178,
+    "TitleID": 410317,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_arrow_rain",
+    "Target": "(use_spskill skill_evy_blind_arrow|use_skill skill_evy_blind_arrow)",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10179,
+    "TitleID": 410318,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_alchemy_golem",
+    "Target": "use.+alchemy_kit_golem",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10180,
+    "TitleID": 410319,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_lethita_smash4",
+    "Target": "kill.+lethita_normal_attack_04.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10181,
+    "TitleID": 410320,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_lethita_glidingfury",
+    "Target": "kill.+lethita_gliding_fury",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10182,
+    "TitleID": 410321,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_lethita_3960",
+    "Target": "kill.+lethita_dualspear_strong_attack_04.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10183,
+    "TitleID": 410322,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lethita_spirit_berserker",
+    "Target": "use_spskill skill_lethita_spirit_berserker",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10184,
+    "TitleID": 410323,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lethita_crescent",
+    "Target": "kill.+lethita_crescent",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10185,
+    "TitleID": 410325,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_eat_intuited",
+    "Target": "use.+bloodyshade",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10186,
+    "TitleID": 410329,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_troll_taonu",
+    "Target": "kill npc_troll taonu",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10187,
+    "TitleID": 410330,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_troll_klaus",
+    "Target": "kill npc_troll klaus",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10188,
+    "TitleID": 410331,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_gliding_loop",
+    "Target": "use_spskill skill_lethita_gliding_loop",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10189,
+    "TitleID": 410332,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_shield_assult",
+    "Target": "use_(spskill|skill) skill_fiona_shield_assult",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10190,
+    "TitleID": 410333,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_reverse_gravity",
+    "Target": "use_spskill skill_evy_reverse_gravity",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10191,
+    "TitleID": 410344,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_quest_queen",
+    "Target": "kill npc_giant_spider queen",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10192,
+    "TitleID": 410348,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_lethita",
+    "Target": "kill npc_mankind lethita_lv1",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10193,
+    "TitleID": 410349,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_fiona",
+    "Target": "kill npc_mankind fiona_lv1",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10194,
+    "TitleID": 410350,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_evy",
+    "Target": "kill npc_mankind evy_lv1",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10195,
+    "TitleID": 410351,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_lethita2",
+    "Target": "kill npc_mankind lethita_lv2",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10196,
+    "TitleID": 410352,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_fiona2",
+    "Target": "kill npc_mankind fiona_lv2",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10197,
+    "TitleID": 410353,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_evy2",
+    "Target": "kill npc_mankind evy_lv2",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10198,
+    "TitleID": 410355,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_resenlian_lv3",
+    "Target": "kill npc_mankind.*lv3",
+    "TargetCount": 4,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10199,
+    "TitleID": 410356,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_resenlian_lv4",
+    "Target": "kill npc_mankind.*lv4",
+    "TargetCount": 4,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10200,
+    "TitleID": 410357,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_resenlian_lv5",
+    "Target": "kill npc_mankind.*lv5",
+    "TargetCount": 4,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10201,
+    "TitleID": 410358,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_resenlian_lv6",
+    "Target": "kill npc_mankind.*lv6",
+    "TargetCount": 4,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10202,
+    "TitleID": 410359,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_resenlian_lv7",
+    "Target": "kill npc_mankind.*lv7",
+    "TargetCount": 4,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10203,
+    "TitleID": 410360,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_resenlian_lv8",
+    "Target": "kill npc_mankind.*lv8",
+    "TargetCount": 4,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10204,
+    "TitleID": 410361,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_resenlian_lv9",
+    "Target": "kill npc_mankind.*lv9",
+    "TargetCount": 4,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10205,
+    "TitleID": 410362,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_resenlian_lv10",
+    "Target": "kill npc_mankind.*lv10",
+    "TargetCount": 4,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10206,
+    "TitleID": 410363,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_resenlian_lv11",
+    "Target": "kill npc_mankind.*lv11",
+    "TargetCount": 4,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10207,
+    "TitleID": 410373,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_blackhammer",
+    "Target": "kill npc_ogre blackhammer",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10208,
+    "TitleID": 410374,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_kakrish",
+    "Target": "kill npc_goblin kakrish",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10209,
+    "TitleID": 410386,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_larken",
+    "Target": "kill npc_goblin larken",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10210,
+    "TitleID": 410387,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_titan",
+    "Target": "kill npc_ogre titan",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10211,
+    "TitleID": 410393,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_mashing_pumpkins_2010",
+    "Target": "kill npc_(vampire|wisp) (nor|eld|roy|cav|hig|san|mos)",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10212,
+    "TitleID": 410403,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_ingkara",
+    "Target": "kill npc_lizardman ingkara",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10213,
+    "TitleID": 410404,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_thor",
+    "Target": "kill npc_toad thor",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10214,
+    "TitleID": 410412,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_kalok",
+    "Target": "kill npc_mankind kalok_lv1",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10215,
+    "TitleID": 410413,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_kalok2",
+    "Target": "kill npc_mankind kalok_lv2",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10216,
+    "TitleID": 410415,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_snowball1",
+    "Target": "kill.+snowball",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10217,
+    "TitleID": 410416,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_snowball2",
+    "Target": "kill.+snowball",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10218,
+    "TitleID": 410414,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_snow_love",
+    "Target": "kill npc_fish christmasjelly",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10219,
+    "TitleID": 410418,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_gnoll1000",
+    "Target": "kill npc_gnoll",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10220,
+    "TitleID": 410420,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_kalok_pillar",
+    "Target": "kill.+kalok_throw_weapon_attack",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10221,
+    "TitleID": 410421,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_kalok_soft",
+    "Target": "kill.+kalok_strong_attack_03.*",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10222,
+    "TitleID": 410422,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_spider",
+    "Target": "kill npc_spider.+kalok_rapid_grappling_kill",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10223,
+    "TitleID": 410423,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_wisp",
+    "Target": "kill npc_wisp.+kalok_rapid_grappling_kill",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10224,
+    "TitleID": 410424,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_digger",
+    "Target": "kill npc_cragdigger.+kalok_rapid_grappling_kill",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10225,
+    "TitleID": 410425,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_boss_01",
+    "Target": "kill.+kalok_rapid_grappling_boss.*",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10226,
+    "TitleID": 410426,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_boss_02",
+    "Target": "kill.+kalok_rapid_grappling_boss.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10227,
+    "TitleID": 410427,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_boss_03",
+    "Target": "kill.+kalok_rapid_grappling_boss.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10228,
+    "TitleID": 410428,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_dual_win_01",
+    "Target": "duel_attack_win",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10229,
+    "TitleID": 410429,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_dual_win_02",
+    "Target": "duel_attack_win",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10230,
+    "TitleID": 410430,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_dual_win_03",
+    "Target": "duel_attack_win",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10231,
+    "TitleID": 410431,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_dual_lose_01",
+    "Target": "duel_attack_lose",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10232,
+    "TitleID": 410432,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_dual_lose_02",
+    "Target": "duel_attack_lose",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10233,
+    "TitleID": 410433,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_dual_lose_03",
+    "Target": "duel_attack_lose",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10234,
+    "TitleID": 410435,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_ahglan",
+    "Target": "kill npc_golem ahglan",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10235,
+    "TitleID": 410436,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_ingkells",
+    "Target": "kill npc_mankind ingkells",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10236,
+    "TitleID": 410440,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_newyear_2011_kick",
+    "Target": "kill npc_jelly.+kick[a-z0-9_]*",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10237,
+    "TitleID": 410441,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_succubus",
+    "Target": "kill npc_succubus succubus",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10238,
+    "TitleID": 410442,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_glasgavelen",
+    "Target": "kill npc_glasgavelen general",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10239,
+    "TitleID": 410443,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_handbomb_lvl2",
+    "Target": "kill.+handbomb_lvl2",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10240,
+    "TitleID": 410447,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_stamina",
+    "Target": "use.+stamina_potion_lvl.*",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10241,
+    "TitleID": 410448,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_healing_pearl",
+    "Target": "use_skill skill_evy_healing_pearl",
+    "TargetCount": 7,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10242,
+    "TitleID": 410450,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_chieftain_raid",
+    "Target": "kill npc_gnoll raid_chieftain",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10243,
+    "TitleID": 410454,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_ridden",
+    "Target": "kill npc_ogre ridden",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10244,
+    "TitleID": 410455,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_shakal",
+    "Target": "kill npc_ogre combat_shakal",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10245,
+    "TitleID": 410456,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_linotoss",
+    "Target": "kill npc_linotoss general",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10246,
+    "TitleID": 410457,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_colru",
+    "Target": "kill npc_golem colru",
+    "TargetCount": 2,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10247,
+    "TitleID": 410464,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_ancient_elculous",
+    "Target": "kill npc_dragon ancient_elculous",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10248,
+    "TitleID": 410465,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_ds_giant",
+    "Target": "kill npc_bear ds_giant",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10249,
+    "TitleID": 410466,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_ds_starve_queen",
+    "Target": "kill npc_giant_spider ds_starve_queen",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10250,
+    "TitleID": 410469,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_kay",
+    "Target": "kill npc_mankind (lethita|fiona|evy|kalok)_lv1",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10251,
+    "TitleID": 410470,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_kay2",
+    "Target": "kill npc_mankind (lethita|fiona|evy|kalok)_lv2",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10252,
+    "TitleID": 410477,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_mashing_pumpkins_2011",
+    "Target": "kill npc_(vampire|wisp) (nor|eld|roy|cav|hig|san|mos)",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10253,
+    "TitleID": 410483,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_ancient_siglint",
+    "Target": "kill npc_dragon ancient_siglint",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10254,
+    "TitleID": 410484,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_ancient_bugeikloth",
+    "Target": "kill npc_dragon ancient_bugeikloth",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10255,
+    "TitleID": 410485,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_kadan",
+    "Target": "kill npc_kadan general",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10256,
+    "TitleID": 410486,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_crash_siglint",
+    "Target": "kill npc_idiot siglint",
+    "TargetCount": 15,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10257,
+    "TitleID": 410487,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_crash_bugeikloth",
+    "Target": "kill npc_idiot bugeikloth",
+    "TargetCount": 15,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10258,
+    "TitleID": 410488,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_arrowstorm",
+    "Target": "kill.+kay_bow_strong_attack_arrow_storm.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10259,
+    "TitleID": 410489,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_multisniping",
+    "Target": "kill.+kay_strong_attack_multi_guide_shot.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10260,
+    "TitleID": 410490,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_magnumshot",
+    "Target": "kill.+kay_bow_strong_attack_0.*",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10261,
+    "TitleID": 410491,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_mounting_01",
+    "Target": "kill.+kay_strong_attack_mount.*",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10262,
+    "TitleID": 410492,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_mounting_02",
+    "Target": "kill.+kay_strong_attack_mount.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10263,
+    "TitleID": 410493,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_mounting_03",
+    "Target": "kill.+kay_strong_attack_mount.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10264,
+    "TitleID": 410494,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_thrustkick",
+    "Target": "kill.+kay_strong_attack_thrust_kick.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10265,
+    "TitleID": 420002,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vella_typhoon",
+    "Target": "kill.+vella_strong_attack_typhoon_slash.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10266,
+    "TitleID": 420003,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vella_slipaway",
+    "Target": "kill.+vella_strong_attack_(slipaway|backlash).*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10267,
+    "TitleID": 420004,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vella_strike",
+    "Target": "kill.+vella_strong_attack_cross_strike.*",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10268,
+    "TitleID": 420005,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vella_double_strike",
+    "Target": "kill.+vella_strong_attack_cross_double_strike.*",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10269,
+    "TitleID": 420006,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vella_backlash",
+    "Target": "kill.+vella_strong_attack_reflect_projectile.*",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10270,
+    "TitleID": 420007,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vella_tempest",
+    "Target": "kill.+vella_strong_attack_tempest.*",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10271,
+    "TitleID": 420008,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_troll2_kieru",
+    "Target": "kill npc_troll2 kieru",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10272,
+    "TitleID": 420009,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_seiren_monarka",
+    "Target": "kill npc_seiren queen_monarka",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10273,
+    "TitleID": 420010,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_pirate_captain",
+    "Target": "kill npc_pirate captain",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10274,
+    "TitleID": 420018,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_rakiora_swallow_01",
+    "Target": "kill npc_idiot rakiora_minigame",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10275,
+    "TitleID": 420019,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_rakiora_swallow_02",
+    "Target": "kill npc_idiot rakiora_minigame",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10276,
+    "TitleID": 420020,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_rakiora_ballista",
+    "Target": "kill npc_idiot ballista_rakiora",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10277,
+    "TitleID": 420021,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_rakiora_virus",
+    "Target": "kill npc_idiot virus_rakiora",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10278,
+    "TitleID": 420022,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_rakiora",
+    "Target": "kill npc_snake rakiora[^_]",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10279,
+    "TitleID": 420023,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_kraken",
+    "Target": "kill npc_octopus head",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10280,
+    "TitleID": 420030,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_mashing_pumpkins_zhcn_2012",
+    "Target": "kill npc_(vampire|wisp) (nor|eld|roy|cav|hig|san|mos)",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10281,
+    "TitleID": 420043,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_mashing_pumpkins_2012",
+    "Target": "kill npc_(vampire|wisp) (nor|eld|roy|cav|hig|san|mos)",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10282,
+    "TitleID": 420065,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_snowball1_2012_zhcn",
+    "Target": "kill.+snowball",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10283,
+    "TitleID": 420066,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_snowball2_2012_zhcn",
+    "Target": "kill.+snowball",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10285,
+    "TitleID": 420074,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_grimreaper_altheron",
+    "Target": "kill npc_grimreaper altheron",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10286,
+    "TitleID": 420075,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_guardian_ikrium",
+    "Target": "kill npc_guardian ikrium",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10287,
+    "TitleID": 420076,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_icedigger_for_quiz",
+    "Target": "kill npc_cragdigger ice",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10288,
+    "TitleID": 420079,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_havan",
+    "Target": "kill npc_havan normal",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10289,
+    "TitleID": 420080,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_iset",
+    "Target": "kill npc_iset return",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10290,
+    "TitleID": 420094,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_jellys_2013_zhcn",
+    "Target": "kill npc_jelly",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10291,
+    "TitleID": 420100,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_friend_loyalty_zhtw_2013",
+    "Target": "kill npc_*",
+    "TargetCount": 555,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10292,
+    "TitleID": 420104,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_pantheum",
+    "Target": "kill npc_pantheum normal",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10293,
+    "TitleID": 420106,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_break",
+    "Target": "attack_break",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10294,
+    "TitleID": 420107,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_break_2",
+    "Target": "attack_break",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10295,
+    "TitleID": 420108,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_parrying",
+    "Target": "smash_parrying",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10296,
+    "TitleID": 420109,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_parrying_2",
+    "Target": "smash_parrying",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10297,
+    "TitleID": 420110,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_parrying_3",
+    "Target": "smash_parrying",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10298,
+    "TitleID": 420111,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_knockback",
+    "Target": "knockback_other",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10299,
+    "TitleID": 420112,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_knockback_2",
+    "Target": "knockback_other",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10300,
+    "TitleID": 420113,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_knockback_3",
+    "Target": "knockback_other",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10301,
+    "TitleID": 420114,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_piercing",
+    "Target": "piercing_kill",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10302,
+    "TitleID": 420115,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_piercing_2",
+    "Target": "piercing_kill",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10303,
+    "TitleID": 420116,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_smash4",
+    "Target": "kill.+hurk_strong_attack_04_b.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10304,
+    "TitleID": 420117,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_smash4_2",
+    "Target": "kill.+hurk_strong_attack_04_b.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10305,
+    "TitleID": 420118,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_whirlwind",
+    "Target": "kill.+hurk_strong_attack_whirlwind.*",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10306,
+    "TitleID": 420119,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_whirlwind_2",
+    "Target": "kill.+hurk_strong_attack_whirlwind.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10307,
+    "TitleID": 420120,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_judgement",
+    "Target": "kill.+hurk_strong_attack_judgement.*",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10308,
+    "TitleID": 420121,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hurk_judgement_2",
+    "Target": "kill.+hurk_strong_attack_judgement.*",
+    "TargetCount": 80,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10309,
+    "TitleID": 420122,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_chino",
+    "Target": "kill npc_gremlin2 (chino|chino_dark)",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10310,
+    "TitleID": 420123,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_muspell",
+    "Target": "kill npc_puppet_ogre (muspell|muspell_dark)",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10311,
+    "TitleID": 420124,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_jormoon",
+    "Target": "kill npc_puppet_ogre jormoon",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10312,
+    "TitleID": 420125,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_bokmoon",
+    "Target": "kill npc_puppet_goblin bokmoon",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10313,
+    "TitleID": 420126,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_chiakal",
+    "Target": "kill npc_puppet_ogre chiakal",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10314,
+    "TitleID": 420127,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_rant",
+    "Target": "kill npc_gremlin2 rant",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10315,
+    "TitleID": 420128,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_gremlin2_wing",
+    "Target": "weakpoint_break npc_gremlin2 (chino|chino_dark|gianoo|gianoo_dark|benzi|benzi_dark)",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10316,
+    "TitleID": 420129,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_jooagi_char",
+    "Target": "kill npc_gremlin2 jooagi_char",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10317,
+    "TitleID": 420130,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_xaehawk",
+    "Target": "kill npc_gremlin2 (xaehawk|xaehawk_treasure)",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10318,
+    "TitleID": 420131,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_revenger",
+    "Target": "kill npc_prop_monster revenger",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10320,
+    "TitleID": 420133,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_icedigger_for_puzzle",
+    "Target": "kill npc_cragdigger ice",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10321,
+    "TitleID": 420140,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_bark_mk1",
+    "Target": "kill npc_tank bark_mk1",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10322,
+    "TitleID": 420141,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_juggernaut",
+    "Target": "kill npc_juggernaut normal",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10323,
+    "TitleID": 420142,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_bark_mk1_part",
+    "Target": "weakpoint_break npc_tank_part.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10324,
+    "TitleID": 420143,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_bark_mk1_part_2",
+    "Target": "weakpoint_break npc_tank_part.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10325,
+    "TitleID": 420145,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_juggernaut_2",
+    "Target": "kill npc_idiot charge_fail_juggernaut",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10326,
+    "TitleID": 420146,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_juggernaut_3",
+    "Target": "kill npc_idiot charge_fail_juggernaut",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10327,
+    "TitleID": 420161,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_charles_train_success_1",
+    "Target": "kill npc_miner pocket_charles",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10328,
+    "TitleID": 420160,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_charles_train_success_2",
+    "Target": "kill npc_miner pocket_charles",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10329,
+    "TitleID": 420159,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_charles_train_item",
+    "Target": "get item randomitem_minerpocket.*",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10330,
+    "TitleID": 420169,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_mashing_pumpkins_2013",
+    "Target": "kill npc_(vampire|wisp) (nor|eld|roy|cav|hig|san|mos)",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10331,
+    "TitleID": 420180,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_christmas_2013_kokr",
+    "Target": "clearcount quest_event_christmas_2013_kokr",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10332,
+    "TitleID": 420188,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_yulkes",
+    "Target": "kill npc_yulkes general",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10333,
+    "TitleID": 420189,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_lavasat",
+    "Target": "kill npc_lavasat general",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10334,
+    "TitleID": 420190,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_elahan",
+    "Target": "kill npc_elahan general",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10335,
+    "TitleID": 420191,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_cromcurach",
+    "Target": "kill npc_cromcruach general",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10336,
+    "TitleID": 420192,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_destroy_bomb",
+    "Target": "kill npc_idiot volcanic_bomb",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10337,
+    "TitleID": 420193,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lavasat_head_snatch",
+    "Target": "lavasat_head_snatch",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10338,
+    "TitleID": 420194,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_snowball3",
+    "Target": "kill.+snowball_strong",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10339,
+    "TitleID": 420195,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_snowball4",
+    "Target": "kill.+snowball_strong",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10340,
+    "TitleID": 420197,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_cromcruach_snatch",
+    "Target": "cruach_snatch",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10341,
+    "TitleID": 420198,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_cromcruach_final_avoid",
+    "Target": "cruach_avoid",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10342,
+    "TitleID": 420222,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_beadbomb",
+    "Target": "kill.+crossgun_beadbomb_strong_attack.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10343,
+    "TitleID": 420223,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_hollowshot",
+    "Target": "kill.+crossgun_hollow_shot_strong_attack.*",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10344,
+    "TitleID": 420224,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_fusillade",
+    "Target": "kill.+crossgun_fusillade_strong_attack.*",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10345,
+    "TitleID": 420225,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_bullet6",
+    "Target": "kill.+crossgun_bullet6_stand_shot_explosoin_strong_attack.*",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10346,
+    "TitleID": 420226,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_atomic",
+    "Target": "kill.+crossgun_atomic_fire_strong_attack.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10347,
+    "TitleID": 420227,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kay_band_support",
+    "Target": "use_(spskill|skill) skill_kay_band_support",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10350,
+    "TitleID": 420230,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vella_kiss_of_the_vampire",
+    "Target": "kill.+kiss_of_the_vampire.*",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10351,
+    "TitleID": 420231,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vella_red_eyes",
+    "Target": "use_spskill skill_vella_red_eyes",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10352,
+    "TitleID": 420232,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vella_dominate",
+    "Target": "use_spskill skill_vella_dominate",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10353,
+    "TitleID": 420233,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vella_polaris_sonata",
+    "Target": "kill.+vella_dualblade_polaris_sonata.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10354,
+    "TitleID": 420234,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_vella_cold_heart",
+    "Target": "use_spskill skill_vella_cold_heart",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10355,
+    "TitleID": 420239,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lynn_smash2",
+    "Target": "kill.+lynn_strong_attack_02.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10356,
+    "TitleID": 420240,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lynn_smash2_add",
+    "Target": "kill.+lynn_strong_attack_02_b|lynn_strong_attack_deep_02_b",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10357,
+    "TitleID": 420241,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lynn_wound",
+    "Target": "kill.+(lynn_attack_wound$|lynn_attack_wound .*)",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10358,
+    "TitleID": 420242,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lynn_wound2",
+    "Target": "kill.+lynn_attack_wound_deep.*",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10359,
+    "TitleID": 420243,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lynn_charging",
+    "Target": "kill.+lynn_attack_charging_body|lynn_attack_charging_finish",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10360,
+    "TitleID": 420244,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lynn_speedy_back",
+    "Target": "lynn_speedy_move_back_success",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10361,
+    "TitleID": 420245,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lynn_cast_stand",
+    "Target": "kill.+lynn_sp_attack_battleglaive_(01_b|01_b_final|02_b|03_b|04_b|05_b).*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10362,
+    "TitleID": 420246,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lynn_speedy_smash",
+    "Target": "kill.+lynn_attack_speedy_move_front_b.*",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10363,
+    "TitleID": 420270,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_queen_nightmare1",
+    "Target": "weakpoint_break npc_succubus queen",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10364,
+    "TitleID": 420271,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_queen_nightmare2",
+    "Target": "weakpoint_break npc_succubus queen",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10365,
+    "TitleID": 420273,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_succubus_queen",
+    "Target": "kill npc_succubus queen",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10366,
+    "TitleID": 420274,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hero_event1",
+    "Target": "no_damage npc_(toad|ogre|golem|mankind) (thor|titan|ahglan|ingkells)",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10367,
+    "TitleID": 420275,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hero_event2",
+    "Target": "no_death npc_(toad|ogre|golem|mankind) (thor|titan|ahglan|ingkells)",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10368,
+    "TitleID": 420277,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_yulkes_event",
+    "Target": "kill npc_yulkes general",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10369,
+    "TitleID": 420278,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_lavasat_event",
+    "Target": "kill npc_lavasat general",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10370,
+    "TitleID": 420279,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_yulkes_javelin_event",
+    "Target": "kill npc_yulkes.+javelin",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10371,
+    "TitleID": 420280,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lavasat_kick_event",
+    "Target": "kill npc_lavasat.+kick.*",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10372,
+    "TitleID": 420297,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lord_blood1",
+    "Target": "lord_snatch",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10373,
+    "TitleID": 420298,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lord_blood2",
+    "Target": "lord_snatch",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10374,
+    "TitleID": 420299,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_lord_hardcore",
+    "Target": "kill npc_vamplord hardcore",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10375,
+    "TitleID": 420300,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_arisha_sharpen_mana",
+    "Target": "kill.+arisha_(normal_attack_0.*|strong_attack_0.*)",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10376,
+    "TitleID": 420301,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_arisha_feast_of_blade",
+    "Target": "kill.+arisha_mb_strong_attack_0.*",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10377,
+    "TitleID": 420302,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_arisha_mana_stone",
+    "Target": "kill.+arisha_strong_(mana_stone|mana_stone_enchant|mana_stone_mb)",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10378,
+    "TitleID": 420303,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_arisha_mana_stone2",
+    "Target": "use_(spskill|skill) skill_arisha_(dimension_hole|mana_region)",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10379,
+    "TitleID": 420304,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_arisha_cast_mana",
+    "Target": "use_(spskill|skill) skill_arisha_cast_mana",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10380,
+    "TitleID": 420305,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_arisha_warp_hole",
+    "Target": "kill.+arisha_strong_teleport_mana_stone",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10381,
+    "TitleID": 420306,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_arisha_doomsayer",
+    "Target": "use_(spskill|skill) skill_arisha_doomsayer",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10382,
+    "TitleID": 420307,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_arisha_ruin_blade",
+    "Target": "use_(spskill|skill) skill_arisha_ruin_blade",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10383,
+    "TitleID": 420308,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_arisha_resonance",
+    "Target": "use_(spskill|skill) skill_arisha_resonance",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10384,
+    "TitleID": 420309,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_arisha_lord_of_mana",
+    "Target": "use_(spskill|skill) skill_arisha_lord_of_mana",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10385,
+    "TitleID": 420313,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_elahan_event",
+    "Target": "kill npc_elahan general",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10386,
+    "TitleID": 420314,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_cromcurach_event",
+    "Target": "kill npc_cromcruach general",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10387,
+    "TitleID": 420315,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_elahan_javalin_event",
+    "Target": "kill npc_elahan.+kick.*",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10388,
+    "TitleID": 420316,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_cromcurach_avoid_event",
+    "Target": "cruach_avoid",
+    "TargetCount": 3,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10389,
+    "TitleID": 420331,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_waterballoon1",
+    "Target": "kill.+waterballoon.*",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10390,
+    "TitleID": 420332,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_waterballoon2",
+    "Target": "kill.+waterballoon.*",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10391,
+    "TitleID": 420333,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hero_event3",
+    "Target": "no_damage npc_(kadan_statue|dragon|kadan|ogre|linotoss|golem|rider) (elculous|bugeikloth|siglint|general|kadan_devil|dopple|ridden|colru|gevne|credne|luhda|gobanser|verafim)",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10392,
+    "TitleID": 420334,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hero_event4",
+    "Target": "no_death npc_(kadan_statue|dragon|kadan|ogre|linotoss|golem|rider) (elculous|bugeikloth|siglint|general|kadan_devil|dopple|ridden|colru|gevne|credne|luhda|gobanser|verafim)",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10393,
+    "TitleID": 420336,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_tw_firework_javelin",
+    "Target": "use.+javelin_firework",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10394,
+    "TitleID": 420339,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_zecallion_hardcore",
+    "Target": "kill npc_zecallion general",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10395,
+    "TitleID": 420340,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_zecallion_headcut",
+    "Target": "headcut_fail",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10396,
+    "TitleID": 420341,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_zecallion_guard_low",
+    "Target": "powerup50",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10397,
+    "TitleID": 420342,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_zecallion_guard",
+    "Target": "guard_fail",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10398,
+    "TitleID": 420343,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_zecallion_prop",
+    "Target": "prop_success",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10399,
+    "TitleID": 420349,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_33_chieftain",
+    "Target": "kill npc_gnoll (chieftain|raid_chieftain)",
+    "TargetCount": 33,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10400,
+    "TitleID": 420356,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hero_event3_cntw",
+    "Target": "no_damage npc_(kadan_statue|dragon|kadan|ogre|linotoss|golem|rider) (elculous|bugeikloth|siglint|general|kadan_devil|dopple|ridden|colru|gevne|credne|luhda|gobanser|verafim)",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10401,
+    "TitleID": 420357,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hero_event4_cntw",
+    "Target": "no_death npc_(kadan_statue|dragon|kadan|ogre|linotoss|golem|rider) (elculous|bugeikloth|siglint|general|kadan_devil|dopple|ridden|colru|gevne|credne|luhda|gobanser|verafim)",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10402,
+    "TitleID": 420378,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_s3ep0_meer",
+    "Target": "kill npc_meer general",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10403,
+    "TitleID": 420379,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_s3ep0_minigame",
+    "Target": "minigame_success",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10404,
+    "TitleID": 420380,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_s3ep0_nodamage",
+    "Target": "no_damage npc_meer general",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10405,
+    "TitleID": 420403,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_regina_pen",
+    "Target": "kill npc_regina queen",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10406,
+    "TitleID": 420399,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_callidus_wood_destroy",
+    "Target": "title_callidus_wood_destroy",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10407,
+    "TitleID": 420400,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_callidus_wood_keeper",
+    "Target": "title_callidus_wood_keeper",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10408,
+    "TitleID": 420401,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_regina_alone",
+    "Target": "title_regina_alone",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10409,
+    "TitleID": 420402,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_regina_pollution",
+    "Target": "title_regina_pollution",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10410,
+    "TitleID": 420404,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_wooden_seed",
+    "Target": "kill npc_woodenelf seed.+kick.*",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10411,
+    "TitleID": 420405,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_woodenelf_kill",
+    "Target": "kill npc_woodenelf",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10412,
+    "TitleID": 420406,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_woodenelf_kill2",
+    "Target": "kill npc_woodenelf",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10413,
+    "TitleID": 420407,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_woodenelf_unique",
+    "Target": "kill npc_woodenelf (warrior_uniq|mage_uniq|archer_uniq|warrior_named)",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10414,
+    "TitleID": 420408,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_woodenelf_mist",
+    "Target": "kill npc_woodenelf mist",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10415,
+    "TitleID": 420409,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_free_battle_s3ep1",
+    "Target": "clearcount quest_s3_ep1_woodenelf_free_battle",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10416,
+    "TitleID": 420410,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_free_battle_s3ep1_2",
+    "Target": "clearcount quest_s3_ep1_woodenelf_free_battle",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10417,
+    "TitleID": 420411,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_free_battle_s3ep1_3",
+    "Target": "clearcount quest_s3_ep1_woodenelf_free_battle",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10418,
+    "TitleID": 420412,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_s3ep1_regina",
+    "Target": "kill npc_regina queen",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10419,
+    "TitleID": 420413,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_s3ep0_callidus",
+    "Target": "kill npc_woodenelf general",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10420,
+    "TitleID": 420423,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_braha_kill_huge",
+    "Target": "kill npc_braha (young|old)",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10421,
+    "TitleID": 420424,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_getfat_ing",
+    "Target": "use.+platter_of_nine_2015",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10422,
+    "TitleID": 420427,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_raft_guard",
+    "Target": "title_raft_guard",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10423,
+    "TitleID": 420428,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_raft_royal_guard",
+    "Target": "title_raft_royal_guard",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10424,
+    "TitleID": 420429,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_raft_hunter",
+    "Target": "title_raft_hunter",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10425,
+    "TitleID": 420430,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_braha_kill",
+    "Target": "kill npc_braha (young|old)",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10426,
+    "TitleID": 420431,
+    "Description": "HEROES_TITLE_GOAL_NAME_kill_s3ep2_akadus",
+    "Target": "kill npc_woodenelf akadus",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10427,
+    "TitleID": 420432,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_akadus_trap",
+    "Target": "kill npc_idiot trap_success",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10428,
+    "TitleID": 420433,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_akadus_trap_impact",
+    "Target": "trap_impact",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10429,
+    "TitleID": 420434,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_braha_gauge",
+    "Target": "title_braha_gauge",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10430,
+    "TitleID": 420482,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_precious_egg",
+    "Target": "no_damage npc_bear normal",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10431,
+    "TitleID": 420483,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_master_egg",
+    "Target": "no_damage npc_bear normal",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10432,
+    "TitleID": 420495,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_ancient_glasgavelen_kill_huge",
+    "Target": "kill npc_ancient_glasgavelen general",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10433,
+    "TitleID": 420496,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_ancient_glasgavelen_kill",
+    "Target": "kill npc_ancient_glasgavelen general",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10434,
+    "TitleID": 420497,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_ancient_glasgavelen_pierce",
+    "Target": "title_ancient_glasgavelen_pierce",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10435,
+    "TitleID": 420498,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_ancient_glasgavelen_gravity",
+    "Target": "title_ancient_glasgavelen_gravity",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10436,
+    "TitleID": 420499,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_magic_raze",
+    "Target": "(use_spskill skill_evy_raze|use_skill skill_evy_raze)",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10437,
+    "TitleID": 420500,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_scythe_drain1",
+    "Target": "use_skill skill_evy_scythe_drain1",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10438,
+    "TitleID": 420501,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_scythe_drain2",
+    "Target": "use_skill skill_evy_scythe_drain2",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10439,
+    "TitleID": 420502,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_scythe_drain3",
+    "Target": "use_skill skill_evy_scythe_drain3",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10440,
+    "TitleID": 420503,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_scythe_drain4",
+    "Target": "use_skill skill_evy_scythe_drain4",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10441,
+    "TitleID": 420504,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_evy_scythe_arcane_gate",
+    "Target": "use_skill skill_evy_scythe_arcane_gate",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10442,
+    "TitleID": 420530,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lughlamhfada_kill_huge",
+    "Target": "kill npc_lughlamhfada general",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10443,
+    "TitleID": 420531,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lughlamhfada_kill",
+    "Target": "kill npc_lughlamhfada general",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10444,
+    "TitleID": 420551,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_use_waterballoon_jajp",
+    "Target": "kill.+waterballoon.*",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10445,
+    "TitleID": 420554,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_event_15sumkr_goldfish",
+    "Target": "get item fish_rare_goldbigfish",
+    "TargetCount": 1,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10446,
+    "TitleID": 420555,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hagie_phantompiece",
+    "Target": "kill.+hagie_phantom_attack.*",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10447,
+    "TitleID": 420556,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hagie_smash2",
+    "Target": "kill.+hagie_strong_attack_02.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10448,
+    "TitleID": 420557,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hagie_smash3",
+    "Target": "kill.+hagie_strong_attack_03$",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10449,
+    "TitleID": 420558,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hagie_buff_defence",
+    "Target": "hagie_phantompiece_defence",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10450,
+    "TitleID": 420559,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hagie_smash3_addition",
+    "Target": "kill.+hagie_strong_attack_03b|hagie_strong_attack_03b_body|hagie_strong_attack_03b_final",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10451,
+    "TitleID": 420560,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hagie_projectile",
+    "Target": "kill.+hagie_sp_attack_projectile.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10452,
+    "TitleID": 420561,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hagie_smash4",
+    "Target": "kill.+hagie_strong_attack_04$",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10453,
+    "TitleID": 420562,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hagie_wide_range",
+    "Target": "kill.+hagie_sp_attack_wide_range.*",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10454,
+    "TitleID": 420563,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hagie_smash4_addition",
+    "Target": "kill.+hagie_strong_attack_04b|hagie_strong_attack_04b_body|hagie_strong_attack_04b_final",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10455,
+    "TitleID": 420564,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_hagie_infinity_requiem",
+    "Target": "kill.+hagie_sp_attack_infinity_requiem_final.*",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10456,
+    "TitleID": 420581,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lughlamhfada_spear_pierce",
+    "Target": "lughlamhfada_spear_pierce",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10457,
+    "TitleID": 420582,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lughlamhfada_guard_success",
+    "Target": "lughlamhfada_guard_success",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10458,
+    "TitleID": 420583,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_lughlamhfada_snatch",
+    "Target": "lughlamhfada_snatch",
+    "TargetCount": 10,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10459,
+    "TitleID": 420584,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_capitan_kill",
+    "Target": "kill npc_creta capitan",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10460,
+    "TitleID": 420601,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_event_44_bear",
+    "Target": "kill npc_bear normal",
+    "TargetCount": 44,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10461,
+    "TitleID": 420642,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_v3_01",
+    "Target": "kill.+kalok_strong_attack_03_c",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10462,
+    "TitleID": 420643,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_v3_02",
+    "Target": "kill.+kalok_strong_attack_bolv|kalok_strong_attack_bolv_b|kalok_strong_attack_bolts_01|kalok_strong_attack_bolts_01_b|kalok_strong_attack_bolts_02|kalok_strong_attack_bolts_02_b|kalok_strong_attack_bolts_03|kalok_strong_attack_bolts_03_b",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10463,
+    "TitleID": 420644,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_v3_03",
+    "Target": "kill.+kalok_demp_begin|kalok_demp_begin_Liber|kalok_demp_during_left|kalok_demp_during_right|kalok_demp_during_left_b|kalok_demp_during_right_b|kalok_demp_end",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10464,
+    "TitleID": 420645,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_v3_04",
+    "Target": "kill.+kalok_blaster_strong_attack_burst_01|kalok_blaster_strong_attack_burst_01_strong|kalok_blaster_strong_attack_burst_02|kalok_blaster_strong_attack_burst_02_strong|kalok_blaster_strong_attack_burst_JF",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10465,
+    "TitleID": 420646,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kalok_v3_05",
+    "Target": "kill.+kalok_blaster_strong_attack_01|kalok_blaster_strong_attack_02|kalok_blaster_strong_attack_03|kalok_blaster_strong_attack_04",
+    "TargetCount": 1000,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10466,
+    "TitleID": 420655,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_delia_smash2_add_normal",
+    "Target": "kill.+delia_strong_attack_02b",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10467,
+    "TitleID": 420656,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_delia_smash2_add_hard",
+    "Target": "kill.+delia_strong_attack_02a1|delia_strong_attack_02a2",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10468,
+    "TitleID": 420657,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_delia_smash3_add_normal",
+    "Target": "kill.+delia_strong_attack_03b",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10469,
+    "TitleID": 420658,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_delia_smash3_add_hard",
+    "Target": "kill.+delia_strong_attack_03a",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10470,
+    "TitleID": 420659,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_delia_smash0_full",
+    "Target": "kill.+delia_strong_attack_00_final|delia_strong_attack_00_final_sp",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10471,
+    "TitleID": 420660,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_delia_guard",
+    "Target": "delia_guard",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10472,
+    "TitleID": 420661,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_delia_sp2",
+    "Target": "kill.+delia_strong_attack_sp2|delia_strong_attack_sp2_finish",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10473,
+    "TitleID": 420662,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_delia_sp3",
+    "Target": "kill.+delia_strong_attack_sp3",
+    "TargetCount": 200,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10474,
+    "TitleID": 420663,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_delia_smash0_hold",
+    "Target": "kill.+delia_strong_attack_00_final_hold|delia_strong_attack_00_final_hold_kalok|delia_strong_attack_00_final_hold_2|delia_strong_attack_00_final_hold_kalok_2",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10475,
+    "TitleID": 420664,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_delia_smash0_sky",
+    "Target": "kill.+delia_strong_attack_00_sky1|delia_strong_attack_00_sky2|delia_strong_attack_00_b|delia_strong_attack_00_c",
+    "TargetCount": 500,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10476,
+    "TitleID": 420878,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_eochaid_kill_huge",
+    "Target": "kill npc_eochaid general",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10477,
+    "TitleID": 420879,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_eochaid_kill",
+    "Target": "kill npc_eochaid general",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10478,
+    "TitleID": 420884,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_S3EP5_village_tour_1",
+    "Target": "clearcount quest_s3_ep5_morbus_free_battle",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10479,
+    "TitleID": 420885,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_S3EP5_village_tour_2",
+    "Target": "clearcount quest_s3_ep5_morbus_free_battle",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10480,
+    "TitleID": 420886,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_S3EP5_morbus_kill_1",
+    "Target": "kill npc_morbus normal",
+    "TargetCount": 300,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10481,
+    "TitleID": 420887,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_S3EP5_morbus_kill_2",
+    "Target": "kill npc_morbus strong",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10482,
+    "TitleID": 420888,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_S3EP5_pestis_kill_1",
+    "Target": "kill npc_morbus pestis",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10483,
+    "TitleID": 420889,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_S3EP5_pestis_kill_2",
+    "Target": "kill npc_morbus pestis",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10484,
+    "TitleID": 420890,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_S3EP5_pestis_snatch",
+    "Target": "kill npc_idiot pestis_snatch_success",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10485,
+    "TitleID": 420900,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_eochaid_parasite",
+    "Target": "weakpoint_break npc_eochaid general",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "True"
+  },
+  {
+    "ID": 10486,
+    "TitleID": 420901,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_eochaid_climb",
+    "Target": "kill npc_idiot eochaid",
+    "TargetCount": 50,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10487,
+    "TitleID": 420902,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_S3EP5_pestis_snatch2",
+    "Target": "kill npc_idiot pestis_snatch_fail",
+    "TargetCount": 25,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10488,
+    "TitleID": 420883,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_S3EP5_nemedian_kill",
+    "Target": "kill npc_pirate (nemedian_female|nemedian_male)",
+    "TargetCount": 100,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10489,
+    "TitleID": 420935,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_struggleTower_01",
+    "Target": "cleargoal 810005",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10490,
+    "TitleID": 420936,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_struggleTower_02",
+    "Target": "cleargoal 810007",
+    "TargetCount": 9,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10491,
+    "TitleID": 420937,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_struggleTower_03",
+    "Target": "cleargoal 810009",
+    "TargetCount": 15,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10492,
+    "TitleID": 420938,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_struggleTower_04",
+    "Target": "cleargoal 810000",
+    "TargetCount": 20,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10493,
+    "TitleID": 420939,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_struggleTower_05",
+    "Target": "cleargoal 810000",
+    "TargetCount": 30,
+    "IsPositive": 1,
+    "IsParty": "False"
+  },
+  {
+    "ID": 10494,
+    "TitleID": 420940,
+    "Description": "HEROES_TITLE_GOAL_NAME_title_kill_raki_ds",
+    "Target": "kill npc_snake rakiora_ds",
+    "TargetCount": 5,
+    "IsPositive": 1,
+    "IsParty": "True"
+  }
+]

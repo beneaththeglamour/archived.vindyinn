@@ -1,0 +1,19 @@
+<h2>Battles</h2>
+	<table class="itemtable" style="table-layout:fixed">
+	<col width="400">
+	<col width="100">
+	<col width="600">
+	<thead> 	
+		<th>Name</th> 
+		<th>Description</th> 	
+		<th>Obtain</th> 	
+		<th>Stats</th> 	
+	</thead> 
+	<tbody> 	
+		<tr class="itemlist" ng-repeat="item in ItemVariable"> 		
+			<td><a href="#!/title/{{ItemVariable.indexOf(item)}}"><span class="battlename" value="{{item.Description|uppercase}}">{{item.Description|uppercase}}</span></a></td>
+			<td class="centercell">{{item.GoalDescription|uppercase}}</td>
+			<td class="centercell"><span class="area" value=""></span></td>
+		</tr> 
+	</tbody> 
+	</table> 
