@@ -12,10 +12,11 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				WhatIsTheURL = window.location.pathname
 						if (WhatIsTheURL == '/search.html') {$('.mainiteminput').val(search).trigger('input');}	
 						
-				$('.titlename').each(function(){
+				/*$('.titlename').each(function(){
 					TitleID = $(this).attr('id')
 					$('.Input' + TitleID).val(TitleID).trigger('input')
 				})
+				*/
 						console.log('DataTable loaded.')
 								$('.itemtable').DataTable({
 						"order": []
