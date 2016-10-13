@@ -177,8 +177,9 @@ ItemControllers.controller("DetailsController", ['$scope','$http','$routeParams'
 										$('.calculateap').each(function(){
 											checknegative = $(this).attr('value')
 											if(checknegative == '-1') {
-											$(this).attr('value','0')
-											$(this).parent().children().css({'background-color':'#7e3434'})
+												$(this).attr('value','0')
+												$(this).parent().children().css({'background-color':'#7e3434'})
+											}
 										} )
 										$('.calculateap').each(function(){
 											addap = parseInt($(this).attr('value'))
