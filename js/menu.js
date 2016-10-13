@@ -3,8 +3,8 @@ MenuList = function() {
 		'<input type="text" name="find" value="Search items">'+
 		'<input type="submit" value="?">'+
 		'</form>'+
-	'<div id="version">Version 1.5</div>'+
-	'<p class="announcement">We&apos;re currently updating the DB to the current patch version. This message will disappear when it is fully complete.</p>')
+	'<div id="version">Version 1.6</div>'/*+
+	'<p class="announcement">We&apos;re currently updating the DB to the current patch version. This message will disappear when it is fully complete.</p>'*/)
 	$('#cssmenu').html('<ul>'+
 	'<li><a href="/" class="home">Index</a></li>'+
 	'<li><a>Equipment</a>'+
