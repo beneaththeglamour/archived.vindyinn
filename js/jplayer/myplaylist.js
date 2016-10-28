@@ -1,7 +1,7 @@
 var myPlaylist = [
 
 	 {
-        mp3:'http://picosong.com/media/songs/4a17715ee195b3341f78b7ba0e8c4347.mp3',
+        mp3:'/music/bgm_main_theme.mp3',
         title:'Main Theme',
         artist:'Vindictus',
         rating:5,
@@ -25,7 +25,7 @@ var myPlaylist = [
         cover:'http://i.imgur.com/aJGGsJq.jpg' 
     },
 	 {
-        mp3:'http://picosong.com/media/songs/6685c5a1e1498c1773a79016ceef08ce.mp3',
+        mp3:'/music/bgm_colhen_inn.mp3',
         title:'Colhen Inn',
         artist:'Vindictus',
         rating:5,
@@ -73,7 +73,7 @@ var myPlaylist = [
         cover:'http://i.imgur.com/riIsmsK.jpg' 
     },
 	 {
-        mp3:'http://picosong.com/media/songs/2e5d0589a1c3727c58005c09b5991341.mp3',
+        mp3:'/music/bgm_morvan.mp3',
         title:'Malina Theme',
         artist:'Vindictus',
         rating:5,
@@ -81,7 +81,7 @@ var myPlaylist = [
         cover:'   '
     },
 	 {
-        mp3:'http://picosong.com/media/songs/8a7bffb90f21b4218a4458e625c7d9cd.mp3',
+        mp3:'/music/bgm_npc_kadan.mp3',
         title:'Keaghan Raid Theme',
         artist:'Vindictus',
         rating:5,
@@ -89,7 +89,7 @@ var myPlaylist = [
         cover:'   '
     },
 	 {
-        mp3:'http://picosong.com/media/songs/f540a51c92228869901acb397b694c21.mp3',
+        mp3:'/music/bgm_s3_braha.mp3',
         title:'Braha',
         artist:'Vindictus',
         rating:5,
@@ -97,7 +97,7 @@ var myPlaylist = [
         cover:'http://i.imgur.com/3rDZbtt.jpg' 
     },
 	 {
-        mp3:'http://picosong.com/media/songs/dba2ba6cdde9bacdae7e595097eed617.mp3',
+        mp3:'/music/bgm_ep7_lizardman.mp3',
         title:'Thor',
         artist:'Vindictus',
         rating:5,
@@ -105,7 +105,7 @@ var myPlaylist = [
         cover:'  ' 
     },
 	 {
-        mp3:'http://picosong.com/media/songs/2dcaacab2db59e6dd848b8a2be9ff6e2.mp3',
+        mp3:'/music/bgm_ep8_ahglan.mp3',
         title:'Ahglan the Golem',
         artist:'Vindictus',
         rating:5,
